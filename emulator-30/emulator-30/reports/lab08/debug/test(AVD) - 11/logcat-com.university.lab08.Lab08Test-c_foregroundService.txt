@@ -1,0 +1,351 @@
+11-18 18:38:58.436  9177  9199 I TestRunner: started: c_foregroundService(com.university.lab08.Lab08Test)
+11-18 18:38:58.444   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:58.446  9177  9199 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:38:58.447  9177  9199 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:38:58.458  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:38:58.478  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:38:58.495  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: PRE_ON_CREATE
+11-18 18:38:58.530  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: CREATED
+11-18 18:38:58.532  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: STARTED
+11-18 18:38:58.533  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: RESUMED
+11-18 18:38:58.592  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:38:58.600   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab08/1/com.university.lab08.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:58.600   496   536 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity: +156ms
+11-18 18:38:58.601   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:58.637  1162  2269 W GLSUser : [AppCertManager] Failed to get security token.
+11-18 18:38:58.637  1162  2269 W GLSUser : java.io.IOException: Invalid scope
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at adac.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):23)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:58.637  1162  2269 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:58.648  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967135] from persistence.
+11-18 18:38:58.651  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:58.702  1162  2269 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-18 18:38:58.702  1162  2269 W GLSUser : java.io.IOException: Invalid device key response.
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):46)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:58.702  1162  2269 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:39:00.002  8018  8018 D KeyguardClockSwitch: Updating clock: 639
+11-18 18:39:00.010  8018  8018 D KeyguardClockSwitch: Updating clock: 639
+11-18 18:39:00.192  9177  9199 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:39:00.192  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.605  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.706  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.709  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.809  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.812  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.912  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:00.915  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.015  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.019  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.119  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.122  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.223  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.226  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.327  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.330  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.430  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.434  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.535  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.538  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.638  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.641  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.742  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.745  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.845  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.848  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.948  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:01.952  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.052  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.056  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.156  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.160  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.260  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.263  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.363  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.366  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.466  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.469  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.569  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.572  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.673  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.675  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.776  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.779  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.879  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.883  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.983  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:02.986  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.086  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.089  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.189  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.193  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.293  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.297  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.354  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:03.354  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:03.397  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.400  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.469   286   286 I Zygote  : Process 8801 exited due to signal 9 (Killed)
+11-18 18:39:03.492   496   539 I libprocessgroup: Successfully killed process cgroup uid 10133 pid 8801 in 37ms
+11-18 18:39:03.500  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.503  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.604  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.607  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.622  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:03.622  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:03.707  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.710  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.810  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.813  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.913  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:03.916  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.017  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.019  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.120  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.123  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.223  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.226  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.326  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.329  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.429  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.432  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.532  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.535  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.635  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.638  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.738  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.741  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.841  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.844  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.944  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:04.948  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.048  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.051  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.152  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.155  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.255  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.259  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.359  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.362  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.462  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.465  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.565  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.568  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.669  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.672  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.773  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.776  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.876  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.879  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.979  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:05.982  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.083  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.086  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.187  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.189  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.285  1748  9300 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:06.285  1748  9300 I Vision  : Checking for download completion for 315743 -- ocr
+11-18 18:39:06.290  9177  9199 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.292  9177  9199 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:06.292  9177  9199 I LABCI   : no permission dialog
+11-18 18:39:06.292  9177  9199 D UiDevice: Executing shell command: logcat -c
+11-18 18:39:06.301  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QStart counter\E']].
+11-18 18:39:06.301  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QStart counter\E'].
+11-18 18:39:06.304  9177  9199 D UiObject2: Clicking on (82, 314).
+11-18 18:39:06.341   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:06.341   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:06.351  9177  9199 W GestureController: Gestures took longer than expected (46ms >> 16ms), device might be in a busy state.
+11-18 18:39:06.361  9177  9305 D CounterService: tick 0
+11-18 18:39:06.414  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-18 18:39:06.415  2119  2119 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-18 18:39:06.415  2119  2119 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-18 18:39:06.416  2119  2119 I Dialer  : VvmTaskReceiver - task received
+11-18 18:39:06.416  2119  2119 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-18 18:39:06.416  2119  2119 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-18 18:39:06.416  2119  2119 I Dialer  : RetryPolicy - retry #4 for com.android.voicemail.impl.ActivationTask@4a7f87d queued, executing in 5000
+11-18 18:39:06.416  2119  2119 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@4a7f87d added
+11-18 18:39:06.416  2119  2119 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-18 18:39:06.416  2119  2119 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-18 18:39:06.567  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.university.lab08|1|null|10185
+11-18 18:39:06.568  8018  8018 W NotifBindPipeline: Row is not set so pipeline will not run. notif = 0|com.university.lab08|1|null|10185
+11-18 18:39:06.578  8018  8018 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:39:06.580  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:07.361  9177  9305 D CounterService: tick 1
+11-18 18:39:07.449   496  1491 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:08.174  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:39:08.180  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:39:08.361  9177  9305 D CounterService: tick 2
+11-18 18:39:09.351  9177  9199 D UiDevice: Pressing home button.
+11-18 18:39:09.358  8018  8018 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{2cc7e2e V.E...... ........ 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:39:09.360   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:09.361  9177  9305 D CounterService: tick 3
+11-18 18:39:09.362   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 42, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:39:09.362   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=42)
+11-18 18:39:09.369  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: PAUSED
+11-18 18:39:09.377   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:39:09.377   901   901 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+11-18 18:39:09.381  8018  8018 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{2cc7e2e V.E...... ........ 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:39:09.386   496  1639 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:09.419   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:09.432   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3061f90, tid 4916
+11-18 18:39:09.434   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:09.436   496  4916 D EGL_emulation: eglCreateContext: 0x7366a30db380: maj 3 min 0 rcv 3
+11-18 18:39:09.447   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a30db380: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:39:09.450  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:39:09.453   344   344 E Layer   : [Surface(name=Task=57)/@0xeb8267b - animation-leash#0] No local sync point found
+11-18 18:39:09.453   344   344 E Layer   : [Surface(name=Task=57)/@0xeb8267b - animation-leash#0] No local sync point found
+11-18 18:39:09.453   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:39:09.453   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:39:09.463  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: STOPPED
+11-18 18:39:09.466  1675  2034 W LocationOracle: No location history returned by ContextManager
+11-18 18:39:09.550   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:39:09.554  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:39:09.557  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:39:09.561  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:39:10.362  9177  9305 D CounterService: tick 4
+11-18 18:39:11.362  9177  9305 D CounterService: tick 5
+11-18 18:39:11.456  2119  3703 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@4a7f87d
+11-18 18:39:11.456  2119  3703 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-18 18:39:11.465  6375  7673 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:39:11.466  2119  3703 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-18 18:39:11.466  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-18 18:39:11.468  6375  7673 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:39:11.473  1042  1391 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:39:11.474  1042  1391 D SmsNumberUtils: destAddr is not formatted.
+11-18 18:39:11.474  1042  1391 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:39:12.087  1748  9300 I GmscoreIpa: Starting mediastore instant index
+11-18 18:39:12.281  8018  8018 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:39:12.314  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:12.362  9177  9305 D CounterService: tick 6
+11-18 18:39:13.362  9177  9305 D CounterService: tick 7
+11-18 18:39:14.363  9177  9305 D CounterService: tick 8
+11-18 18:39:14.365   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=42)
+11-18 18:39:14.365   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:39:14.365   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 42 ended, total sessions:0
+11-18 18:39:14.367   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:39:14.486  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:14.486  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:15.363  9177  9305 D CounterService: tick 9
+11-18 18:39:16.288  1748  9300 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:16.288  1748  9300 I Vision  : Checking for download completion for 325745 -- ocr
+11-18 18:39:16.363  9177  9305 D CounterService: tick 10
+11-18 18:39:17.363  9177  9305 D CounterService: tick 11
+11-18 18:39:18.364  9177  9305 D CounterService: tick 12
+11-18 18:39:19.364  9177  9305 D CounterService: tick 13
+11-18 18:39:20.364  9177  9305 D CounterService: tick 14
+11-18 18:39:21.364  9177  9305 D CounterService: tick 15
+11-18 18:39:22.365  9177  9305 D CounterService: tick 16
+11-18 18:39:23.365  9177  9305 D CounterService: tick 17
+11-18 18:39:24.365  9177  9305 D CounterService: tick 18
+11-18 18:39:25.365  9177  9305 D CounterService: tick 19
+11-18 18:39:26.290  1748  9320 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:26.290  1748  9320 I Vision  : Checking for download completion for 335748 -- ocr
+11-18 18:39:26.366  9177  9305 D CounterService: tick 20
+11-18 18:39:27.366  9177  9305 D CounterService: tick 21
+11-18 18:39:28.366  9177  9305 D CounterService: tick 22
+11-18 18:39:29.366  9177  9305 D CounterService: tick 23
+11-18 18:39:29.436  9177  9199 D UiDevice: Executing shell command: logcat -d -s CounterService:D
+11-18 18:39:29.444  9177  9199 I LABCI   : ticks after 20 s minimized: 24
+11-18 18:39:29.444  9177  9199 D UiDevice: Opening notification.
+11-18 18:39:29.445  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QCounter running\E.*']].
+11-18 18:39:29.445  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCounter running\E.*'].
+11-18 18:39:29.448  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:29.468  9177  9199 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@7773b; boundsInParent: Rect(0, 0 - 320, 24); boundsInScreen: Rect(0, 0 - 320, 24); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:39:29.468  9177  9199 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:39:29.469  9177  9199 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@7773b; boundsInParent: Rect(0, 0 - 320, 24); boundsInScreen: Rect(0, 0 - 320, 24); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:39:29.469  9177  9199 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:39:29.471  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:29.569  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCounter running\E.*'].
+11-18 18:39:30.009  8018  8018 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+11-18 18:39:30.012  8018  8018 W View    : couldn't find view with id 2131362152
+11-18 18:39:30.061  8018  8018 W View    : couldn't find view with id 2131362152
+11-18 18:39:30.069  9177  9199 I LABCI   : waitText 'Counter running': true
+11-18 18:39:30.367  9177  9305 D CounterService: tick 24
+11-18 18:39:30.769  9177  9199 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:39:30.775  9177  9199 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_service_notification.png
+11-18 18:39:30.814   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:39:30.815  9329  9329 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:30.820  9329  9329 D HostConnection: createUnique: call
+11-18 18:39:30.820  9329  9329 D HostConnection: HostConnection::get() New Host Connection established 0x77925cf2d150, tid 9329
+11-18 18:39:30.831  9329  9329 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:30.862  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_service_notification.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:30.860  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:605): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:30.873  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab08_service_notification.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab08_service_notification.png
+11-18 18:39:30.873  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 4ms, 0 inserts 0 updates 0 deletes
+11-18 18:39:30.873  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_service_notification.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:30.868  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:606): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:30.882  9177  9199 I LABCI   : screenshot lab08_service_notification
+11-18 18:39:30.882  9177  9199 D UiDevice: Pressing back button.
+11-18 18:39:30.868  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:607): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:30.903  8018  8018 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{2cc7e2e V.E...... ......I. 0,0-320,640} canPanelBeCollapsed(): true
+11-18 18:39:30.868  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:608): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:30.921  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:30.928   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:30.929   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 43, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:39:30.929   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=43)
+11-18 18:39:30.930  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@a96dca0 in: DESTROYED
+11-18 18:39:30.931  9177  9199 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:39:30.931  9177  9199 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:39:30.948   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:39:30.956  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:39:30.964  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@2b2398 in: PRE_ON_CREATE
+11-18 18:39:30.983  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@2b2398 in: CREATED
+11-18 18:39:30.986  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@2b2398 in: STARTED
+11-18 18:39:30.986  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@2b2398 in: RESUMED
+11-18 18:39:31.021   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab08/1/com.university.lab08.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:39:31.023   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:31.050   496   536 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity: +93ms
+11-18 18:39:31.052  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:39:31.053  1675  2882 I PBSessionCacheImpl: Deleted sessionId[7368522932967138] from persistence.
+11-18 18:39:31.367  9177  9305 D CounterService: tick 25
+11-18 18:39:32.367  9177  9305 D CounterService: tick 26
+11-18 18:39:32.744  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QStop counter\E']].
+11-18 18:39:32.744  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QStop counter\E'].
+11-18 18:39:32.748  9177  9199 D UiObject2: Clicking on (80, 362).
+11-18 18:39:32.777   496  1130 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:32.777   496  1639 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:32.777   496  1639 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:32.778   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:39:32.780  9177  9199 W GestureController: Gestures took longer than expected (32ms >> 16ms), device might be in a busy state.
+11-18 18:39:33.301   286   286 I Zygote  : Process 6127 exited due to signal 9 (Killed)
+11-18 18:39:33.334   496   539 I libprocessgroup: Successfully killed process cgroup uid 10119 pid 6127 in 38ms
+11-18 18:39:33.941   496  1130 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:35.780  9177  9199 D UiDevice: Executing shell command: logcat -d -s CounterService:D
+11-18 18:39:35.822   496  1130 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:35.934   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=43)
+11-18 18:39:35.935   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:39:35.936   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 43 ended, total sessions:0
+11-18 18:39:35.936   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:39:36.054  8867  8957 I BugleRcsEngine: [135] xgx.run: delay time out, reset attempts 1 and process SIM event
+11-18 18:39:36.055  8867  8957 W BugleRcsEngine: [135] xgu.c: process intent: android.intent.action.SIM_STATE_CHANGED
+11-18 18:39:36.069  8867  8957 I BugleRcsEngine: [135] xgu.e: Processing an intent
+11-18 18:39:36.070  8867  8957 I BugleRcsEngine: [135] xgu.a: Ignoring duplicate SIM state: LOADED
+11-18 18:39:36.074  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:36.074  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:36.294  1748  9352 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:36.295  1748  9352 I Vision  : Checking for download completion for 345752 -- ocr
+11-18 18:39:37.903  2549  3129 I CarrierServices: [81] drv.a: (PEv2-SM): DisabledState: event Timeout
+11-18 18:39:39.788  9177  9199 D UiDevice: Executing shell command: logcat -d -s CounterService:D
+11-18 18:39:39.794  9177  9199 I LABCI   : last tick 3 s after stop: 26, 4 s later: 26
+11-18 18:39:39.794  9177  9199 I TestRunner: finished: c_foregroundService(com.university.lab08.Lab08Test)

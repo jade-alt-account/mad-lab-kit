@@ -1,0 +1,100 @@
+11-18 18:38:47.076  9177  9199 I TestRunner: started: b_background(com.university.lab08.Lab08Test)
+11-18 18:38:47.079   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:47.081  9177  9199 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:38:47.081  9177  9199 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:38:47.100  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:38:47.107  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4c1c0ad in: DESTROYED
+11-18 18:38:47.117  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@92618c7 in: PRE_ON_CREATE
+11-18 18:38:47.224  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:38:47.227  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@92618c7 in: CREATED
+11-18 18:38:47.231  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@92618c7 in: STARTED
+11-18 18:38:47.232  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@92618c7 in: RESUMED
+11-18 18:38:47.261   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab08/1/com.university.lab08.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:47.261   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:47.261   496   536 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity: +182ms
+11-18 18:38:47.297  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967132] from persistence.
+11-18 18:38:47.300  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:48.856  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSlow (background)\E']].
+11-18 18:38:48.856  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSlow (background)\E'].
+11-18 18:38:48.861  9177  9199 D UiObject2: Clicking on (101, 168).
+11-18 18:38:48.894   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:48.894   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:48.898  9177  9199 W GestureController: Gestures took longer than expected (37ms >> 16ms), device might be in a busy state.
+11-18 18:38:48.898  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:38:48.898  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:38:49.392  9177  9199 D UiObject2: Clicking on (60, 216).
+11-18 18:38:49.429  9177  9199 W GestureController: Gestures took longer than expected (36ms >> 16ms), device might be in a busy state.
+11-18 18:38:49.429  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:38:49.429  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:38:49.447   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:38:49.925  9177  9199 D UiObject2: Clicking on (60, 216).
+11-18 18:38:49.960   496  1493 D WifiNl80211Manager: Scan result ready event
+11-18 18:38:49.960   496  1493 D WifiNative: Scan result ready event
+11-18 18:38:49.962  9177  9199 W GestureController: Gestures took longer than expected (37ms >> 16ms), device might be in a busy state.
+11-18 18:38:49.962  9177  9199 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:38:49.962  9177  9199 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:38:50.458  9177  9199 D UiObject2: Clicking on (60, 216).
+11-18 18:38:50.499  9177  9199 W GestureController: Gestures took longer than expected (40ms >> 16ms), device might be in a busy state.
+11-18 18:38:50.499  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='\Q3\E'].
+11-18 18:38:50.511  9177  9199 I LABCI   : counter at 3 during background work: true
+11-18 18:38:51.211  9177  9199 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:51.217  9177  9199 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_working.png
+11-18 18:38:51.255   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:51.255  9271  9271 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:51.259  9271  9271 D HostConnection: createUnique: call
+11-18 18:38:51.259  9271  9271 D HostConnection: HostConnection::get() New Host Connection established 0x79d9c6262f90, tid 9271
+11-18 18:38:51.270  9271  9271 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:51.294  9276  9278 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:51.295  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_working.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:51.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:583): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:51.314  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab08_working.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab08_working.png
+11-18 18:38:51.314  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 19ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:51.315  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_working.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:51.323  9177  9199 I LABCI   : screenshot lab08_working
+11-18 18:38:51.323  9177  9199 D UiDevice: Waiting 12000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QDone\E.*']].
+11-18 18:38:51.323  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:51.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:585): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:51.427  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:51.531  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:51.595   496  1493 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:51.634  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:51.944  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 3 lines
+11-18 18:38:52.047  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:52.062  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:38:52.068  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:38:52.086  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:52.086  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:52.150  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:52.254  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:52.319  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:52.319  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:52.357  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:53.389  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 10 lines
+11-18 18:38:53.492  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:53.587   496  1552 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:53.596  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:56.079  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 24 lines
+11-18 18:38:56.182  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:56.281  1748  9280 I Vision  : Requesting optional module download of ocr.
+11-18 18:38:56.281  1748  9280 I Vision  : Checking for download completion for 305739 -- ocr
+11-18 18:38:56.286  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:56.803  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 5 lines
+11-18 18:38:56.906  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:57.395  9177  9199 I LABCI   : waitText 'Done': true
+11-18 18:38:58.096  9177  9199 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:58.101  9177  9199 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_done.png
+11-18 18:38:58.139   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:58.139  9284  9284 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:58.143  9284  9284 D HostConnection: createUnique: call
+11-18 18:38:58.143  9284  9284 D HostConnection: HostConnection::get() New Host Connection established 0x7f17491af890, tid 9284
+11-18 18:38:58.152  9284  9284 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:58.182  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_done.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:58.180  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:593): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:58.198  9289  9292 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:58.180  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:594): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:58.205  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab08_done.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab08_done.png
+11-18 18:38:58.206  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 24ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:58.206  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_done.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:58.180  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:595): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:58.219  9177  9199 I LABCI   : screenshot lab08_done
+11-18 18:38:58.219  9177  9199 I TestRunner: finished: b_background(com.university.lab08.Lab08Test)

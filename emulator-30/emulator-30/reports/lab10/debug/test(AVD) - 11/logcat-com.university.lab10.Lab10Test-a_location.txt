@@ -1,0 +1,222 @@
+11-18 18:40:37.875 10150 10169 I TestRunner: started: a_location(com.university.lab10.Lab10Test)
+11-18 18:40:37.880   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:37.885   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 48, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:40:37.885   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=48)
+11-18 18:40:37.886 10150 10169 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:40:37.893  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:40:37.903 10150 10176 V UiAutomation: Init UiAutomation@fe8e37e[id=12, flags=0]
+11-18 18:40:37.903 10150 10169 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:40:37.911   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:40:37.928 10150 10169 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab10\E']].
+11-18 18:40:37.928 10150 10169 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab10\E'].
+11-18 18:40:37.960 10150 10150 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:40:37.960  8018  8083 D EglHelper: createEglContext start
+11-18 18:40:37.963 10150 10180 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:40:37.963 10150 10180 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:40:37.965 10150 10180 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:40:37.966  8018  8083 D EGL_emulation: eglCreateContext: 0x7366a310f360: maj 3 min 0 rcv 3
+11-18 18:40:37.966  8018  8083 D EglHelper: createEglContext done
+11-18 18:40:37.966  8018  8083 D EglHelper: createEglSurface start
+11-18 18:40:37.984 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: PRE_ON_CREATE
+11-18 18:40:37.986  8018  8083 D EglHelper: createEglSurface done
+11-18 18:40:38.047 10150 10150 W niversity.lab1: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+11-18 18:40:38.056  1748  8472 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:38.077 10150 10150 W niversity.lab1: Accessing hidden method Landroid/graphics/drawable/DrawableWrapper;->hasFocusStateSpecified()Z (blacklist,test-api, linking, allowed)
+11-18 18:40:38.092 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: CREATED
+11-18 18:40:38.096 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: STARTED
+11-18 18:40:38.097 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: RESUMED
+11-18 18:40:38.117  1748  8472 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:40:38.117  1748  8472 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:38.135  1748  8472 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:38.138  1748  8472 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:40:38.139  1748  8472 I Icing   : Indexing done com.google.android.gms-internal.3p:Message [CONTEXT service_id=21 ]
+11-18 18:40:38.243 10150 10178 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305ad90, tid 10178
+11-18 18:40:38.245 10150 10178 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:38.257   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:40:38.257 10150 10178 D EGL_emulation: eglCreateContext: 0x7366a30b08d0: maj 3 min 0 rcv 3
+11-18 18:40:38.258 10150 10178 D EGL_emulation: eglMakeCurrent: 0x7366a30b08d0: ver 3 0 (tinfo 0x7366430a9580) (first time)
+11-18 18:40:38.264   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:38.264 10150 10178 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:38.266 10150 10178 D HostConnection: createUnique: call
+11-18 18:40:38.266 10150 10178 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305b8d0, tid 10178
+11-18 18:40:38.274 10150 10178 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:38.579   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab10/1/com.university.lab10.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:38.580   496   536 I ActivityTaskManager: Displayed com.university.lab10/.MainActivity: +699ms
+11-18 18:40:38.580   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:38.595   344  1148 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10189 pid=10150
+11-18 18:40:38.595   344  1148 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10189 => denied (188 us)
+11-18 18:40:38.612  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:40:40.197 10150 10169 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QWhere am I?\E']].
+11-18 18:40:40.197 10150 10169 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QWhere am I?\E'].
+11-18 18:40:40.207 10150 10169 W niversity.lab1: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blacklist,test-api, reflection, allowed)
+11-18 18:40:40.208 10150 10169 D UiObject2: Clicking on (78, 120).
+11-18 18:40:40.244   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:40.250 10150 10169 W GestureController: Gestures took longer than expected (41ms >> 16ms), device might be in a busy state.
+11-18 18:40:40.250 10150 10169 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:40:40.250 10150 10169 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:40.253   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(36)
+11-18 18:40:40.253   496  1654 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:40.253   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:40.302   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:40.388   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(11)
+11-18 18:40:40.390 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: PAUSED
+11-18 18:40:40.401 10150 10169 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:40.441   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.permissioncontroller/300900706/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:40.441   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:40.444   496   536 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity: +192ms
+11-18 18:40:40.501 10150 10169 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:40.664  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:40:40.679  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:40:41.647 10150 10169 I LABCI   : permission dialog: tapping While using the app
+11-18 18:40:41.649 10150 10169 D UiObject2: Clicking on (160, 340).
+11-18 18:40:41.672   733   733 V GrantPermissionsActivity: Logged buttons presented and clicked permissionGroupName=android.permission-group.LOCATION uid=10189 package=com.university.lab10 presentedButtons=44 clickedButton=4 sessionId=5062653986261327336
+11-18 18:40:41.677   733   733 V GrantPermissionsActivity: Permission grant result requestId=5062653986261327336 callingUid=10189 callingPackage=com.university.lab10 permission=android.permission.ACCESS_FINE_LOCATION isImplicit=false result=4
+11-18 18:40:41.677   733   733 V GrantPermissionsActivity: Permission grant result requestId=5062653986261327336 callingUid=10189 callingPackage=com.university.lab10 permission=android.permission.ACCESS_COARSE_LOCATION isImplicit=true result=4
+11-18 18:40:41.679 10150 10169 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:40:41.679 10150 10169 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:41.693   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(22)
+11-18 18:40:41.699   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3062710, tid 4916
+11-18 18:40:41.699 10150 10169 W UiDevice: Active window root not found.
+11-18 18:40:41.702 10150 10169 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Allow Lab10 to access this device’s location?, displayId=0, id=200, type=TYPE_APPLICATION, layer=1, region=SkRegion((8,24,312,640)), bounds=Rect(8, 24 - 312, 640), focused=false, active=false, pictureInPicture=false, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:40:41.702   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:41.703 10150 10150 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@4c1c0ad in: RESUMED
+11-18 18:40:41.710   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3151a40: maj 3 min 0 rcv 3
+11-18 18:40:41.711   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3151a40: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:40:41.715   496   542 E libprocessgroup: AddTidToCgroup failed to write '10187'; fd=53: Invalid argument
+11-18 18:40:41.715   496   542 E libprocessgroup: Failed to add task into cgroup
+11-18 18:40:41.715   496   542 W libprocessgroup: ExecuteForTask failed for aggregate profile: Invalid argument
+11-18 18:40:41.843 10150 10169 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:42.246 10150 10169 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:42.886   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=48)
+11-18 18:40:42.886   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:40:42.887   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 48 ended, total sessions:0
+11-18 18:40:42.888   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:40:42.976 10150 10188 D ProfileInstaller: Installing profile for com.university.lab10
+11-18 18:40:43.046 10150 10169 D UiDevice: Waiting 60000ms for SearchCondition[hasObject=BySelector [TEXT='^.*\Q31.41\E.*$']].
+11-18 18:40:43.046 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:43.152 10150 10169 I chatty  : uid=10189(com.university.lab10) roidJUnitRunner identical 1 line
+11-18 18:40:43.258 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:43.277   496  1654 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:43.364 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:43.471 10150 10169 I chatty  : uid=10189(com.university.lab10) roidJUnitRunner identical 1 line
+11-18 18:40:43.579 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:43.634  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:43.634  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:43.689 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:44.641 10150 10169 I chatty  : uid=10189(com.university.lab10) roidJUnitRunner identical 9 lines
+11-18 18:40:44.745 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:44.848   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:44.850 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:45.375 10150 10169 I chatty  : uid=10189(com.university.lab10) roidJUnitRunner identical 5 lines
+11-18 18:40:45.479 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:45.486  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:45.486  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:45.583 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:45.997 10150 10169 I chatty  : uid=10189(com.university.lab10) roidJUnitRunner identical 4 lines
+11-18 18:40:46.101 10150 10169 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:46.107   496   528 E Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+11-18 18:40:46.107   496   528 E Binder  : java.lang.Throwable
+11-18 18:40:46.107   496   528 E Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:497)
+11-18 18:40:46.107   496   528 E Binder  : 	at android.location.IGeocodeProvider$Stub$Proxy.getFromLocation(IGeocodeProvider.java:182)
+11-18 18:40:46.107   496   528 E Binder  : 	at com.android.server.location.GeocoderProxy.lambda$getFromLocation$0(GeocoderProxy.java:70)
+11-18 18:40:46.107   496   528 E Binder  : 	at com.android.server.location.-$$Lambda$GeocoderProxy$jfLn3HL2BzwsKdoI6ZZeFfEe10k.run(Unknown Source:11)
+11-18 18:40:46.107   496   528 E Binder  : 	at com.android.server.ServiceWatcher.lambda$runOnBinderBlocking$2$ServiceWatcher(ServiceWatcher.java:453)
+11-18 18:40:46.107   496   528 E Binder  : 	at com.android.server.-$$Lambda$ServiceWatcher$b1z9OeL-1VpQ_8p47qz7nMNUpsE.call(Unknown Source:6)
+11-18 18:40:46.107   496   528 E Binder  : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:40:46.107   496   528 E Binder  : 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:40:46.107   496   528 E Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:40:46.107   496   528 E Binder  : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:40:46.107   496   528 E Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-18 18:40:46.107   496   528 E Binder  : 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-18 18:40:46.110 10150 10169 I LABCI   : position shown: true
+11-18 18:40:46.121  1162  8944 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+11-18 18:40:46.127   286   286 D Zygote  : Forked child process 10191
+11-18 18:40:46.131 10191 10191 W id.gms.unstabl: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:46.133   401   415 I adbd    : jdwp connection from 10191
+11-18 18:40:46.139 10191 10191 I id.gms.unstabl: The ClassLoaderContext is a special shared library.
+11-18 18:40:46.140 10191 10191 I chatty  : uid=10119 com.google.android.gms.unstable identical 1 line
+11-18 18:40:46.142 10191 10191 I id.gms.unstabl: The ClassLoaderContext is a special shared library.
+11-18 18:40:46.142 10191 10191 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:40:46.145 10191 10191 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:40:46.145 10191 10191 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:40:46.157 10191 10191 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+11-18 18:40:46.159 10191 10191 W ProviderHelper: Unknown dynamite feature providerinstaller
+11-18 18:40:46.161 10191 10191 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+11-18 18:40:46.161 10191 10191 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+11-18 18:40:46.162 10191 10191 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+11-18 18:40:46.167 10191 10191 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+11-18 18:40:46.171 10191 10191 I Safeboot: Checking safeboot...
+11-18 18:40:46.171 10191 10191 I Safeboot: Not entering safeboot; wrong process.
+11-18 18:40:46.185 10191 10191 W bdhq    : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+11-18 18:40:46.197 10191 10191 I TetheringManager: registerTetheringEventCallback:com.google.android.gms
+11-18 18:40:46.244 10191 10209 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-18 18:40:46.244 10191 10209 E libc    : Access denied finding property "service.adb.tls.port"
+11-18 18:40:46.240 10191 10191 W Binder:10191_3: type=1400 audit(0.0:711): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=8629 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:40:46.360  1162  8944 W GLSUser : [AppCertManager] Failed to get security token.
+11-18 18:40:46.360  1162  8944 W GLSUser : java.io.IOException: Invalid scope
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at adac.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):23)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at hue.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at scy.c(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at sdn.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):34)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at bfyv.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:46.360  1162  8944 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:46.444  1162  8944 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-18 18:40:46.444  1162  8944 W GLSUser : java.io.IOException: Invalid device key response.
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):46)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at hue.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at scy.c(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at sdn.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):34)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at bfyv.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:46.444  1162  8944 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:46.444  1162  8944 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+11-18 18:40:46.507  1162  3876 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:46.507  1162  3876 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:46.507  1162  3876 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:46.766  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:46.766  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:47.011  1162  3876 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:47.012  1162  3876 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:47.012  1162  3876 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:48.894  1675  8113 W GmsLocationProvider: Error removing location updates: 16
+11-18 18:40:50.587  1748  8472 I ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+11-18 18:40:50.590  1748  8472 I RealtimeCacheCleanup: Beginning Realtime garbage collection.
+11-18 18:40:50.590  1748  8472 I RealtimeCacheCleanup: Finished Realtime garbage collection.
+11-18 18:40:54.810 10150 10169 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:54.820 10150 10169 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab10_position.png
+11-18 18:40:54.859   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:54.859 10243 10243 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:54.863 10243 10243 D HostConnection: createUnique: call
+11-18 18:40:54.863 10243 10243 D HostConnection: HostConnection::get() New Host Connection established 0x7c2478119d50, tid 10243
+11-18 18:40:54.872 10243 10243 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:54.901  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab10_position.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:54.896  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:713): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:54.921  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab10_position.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:54.896  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:715): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:54.930 10150 10169 I LABCI   : screenshot lab10_position
+11-18 18:40:54.930 10150 10169 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.university.lab10:id/text_position\E'].
+11-18 18:40:54.936 10150 10169 I LABCI   : position text: 31.4161, 73.06999833333333
+11-18 18:40:54.936 10150 10169 I LABCI   : Administration Block, Gurunanakpura, Faisalabad, Pakistan
+11-18 18:40:54.937 10150 10169 I TestRunner: finished: a_location(com.university.lab10.Lab10Test)

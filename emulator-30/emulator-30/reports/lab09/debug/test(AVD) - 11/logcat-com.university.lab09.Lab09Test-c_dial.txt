@@ -1,0 +1,277 @@
+11-18 18:40:13.689  9594  9614 I TestRunner: started: c_dial(com.university.lab09.Lab09Test)
+11-18 18:40:13.691  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:40:13.696   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:13.699  9594  9614 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab09\E']].
+11-18 18:40:13.699  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:40:13.704  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:40:13.722  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: PRE_ON_CREATE
+11-18 18:40:13.759  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: CREATED
+11-18 18:40:13.761  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: STARTED
+11-18 18:40:13.763  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: RESUMED
+11-18 18:40:13.794   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab09/1/com.university.lab09.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:13.795   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:13.797   496   536 I ActivityTaskManager: Displayed com.university.lab09/.MainActivity: +97ms
+11-18 18:40:13.815  1675  3661 I PBSessionCacheImpl: Deleted sessionId[7368522932967150] from persistence.
+11-18 18:40:13.829  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:13.886  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SEND_GSA_HOME_REQUEST.
+11-18 18:40:13.903  1675  9424 E ApplicationPropertiesBu: Date 2021-12-06T00:00:00Z is out of expected range.
+11-18 18:40:13.903  1675  9424 E ApplicationPropertiesBu: Date 2022-02-15T00:00:00Z is out of expected range.
+11-18 18:40:13.903  1675  9424 E ApplicationPropertiesBu: Date 2022-02-22T00:00:00Z is out of expected range.
+11-18 18:40:13.906  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:13.979  1162  2269 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:13.980  1162  2269 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:13.980  1162  2269 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:15.400  9594  9614 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QDial\E']].
+11-18 18:40:15.400  9594  9614 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QDial\E'].
+11-18 18:40:15.408  9594  9614 D UiObject2: Clicking on (60, 308).
+11-18 18:40:15.444   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:15.446  9594  9614 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:40:15.447   496  4282 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:15.447   496  4282 I chatty  : uid=1000(system) Binder:496_21 identical 1 line
+11-18 18:40:15.447   496  4282 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:15.450  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: PAUSED
+11-18 18:40:15.462  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:40:15.462  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:40:15.466  2119  2119 I Dialer  : DialpadFragment.onStart - first launch: false
+11-18 18:40:15.467   380   459 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:40:15.467   380   459 D AudioFlinger: Client defaulted notificationFrames to 882 for frameCount 1956
+11-18 18:40:15.468   380   459 D AF::TrackHandle: OpPlayAudio: track:61 usage:3 not muted
+11-18 18:40:15.469  2119  2119 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 882 -> 1956
+11-18 18:40:15.469  2119  2119 I Dialer  : OldMainActivityPeer.onNewIntent - enter
+11-18 18:40:15.469  2119  2119 I Dialer  : OldMainActivityPeer.onHandleIntent - Show last tab
+11-18 18:40:15.473  2119  2119 I Dialer  : MainBottomNavBarBottomNavTabListener.onSpeedDialSelected - enter
+11-18 18:40:15.473  2119  2119 I Dialer  : OldMainActivityPeer.onHandleIntent - Dial or add call intent
+11-18 18:40:15.473  2119  2119 I Dialer  : MainSearchController.showDialpadFromNewIntent - enter
+11-18 18:40:15.482  2119  2119 I Dialer  : MainSearchController.onDialpadShown - enter
+11-18 18:40:15.483  2119  2119 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+11-18 18:40:15.483  2119  2119 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+11-18 18:40:15.483  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+11-18 18:40:15.483  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+11-18 18:40:15.487  2119  2119 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+11-18 18:40:15.489  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+11-18 18:40:15.489  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+11-18 18:40:15.491  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:40:15.492  2119  2119 I Dialer  : DialpadFragment.onResume - enter
+11-18 18:40:15.492  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - action: android.intent.action.DIAL
+11-18 18:40:15.500  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - Nothing to show
+11-18 18:40:15.500  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:40:15.500  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:40:15.501  2119  2119 I Dialer  : DialpadFragment.onResume - phone not in use
+11-18 18:40:15.501  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:40:15.501  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:40:15.503  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: RelativeLayout, destroying layer...
+11-18 18:40:15.503  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: RelativeLayout, destroying layer...
+11-18 18:40:15.503  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: AppCompatImageButton, destroying layer...
+11-18 18:40:15.508  2119  9806 I Dialer  : RegularSearchCursor.newInstance - Cursor was null or empty
+11-18 18:40:15.520  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: DirectoriesCursorLoader{8c191c9 id=2}
+11-18 18:40:15.526  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+11-18 18:40:15.527  2119  2119 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+11-18 18:40:15.527  2119  2119 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+11-18 18:40:15.527  2119  2119 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+11-18 18:40:15.529   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:15.532  8018  8083 D EglHelper: createEglContext start
+11-18 18:40:15.541  8018  8083 D EGL_emulation: eglCreateContext: 0x7366a3114b60: maj 3 min 0 rcv 3
+11-18 18:40:15.541  8018  8083 D EglHelper: createEglContext done
+11-18 18:40:15.541  8018  8083 D EglHelper: createEglSurface start
+11-18 18:40:15.543  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:40:15.543  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:40:15.547  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{1558564 id=0}
+11-18 18:40:15.548   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3063b50, tid 4916
+11-18 18:40:15.550   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:15.551   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:15.552   496  4916 D EGL_emulation: eglCreateContext: 0x7366a316bcf0: maj 3 min 0 rcv 3
+11-18 18:40:15.561  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: STOPPED
+11-18 18:40:15.564   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a316bcf0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:40:15.578  8018  8083 D EglHelper: createEglSurface done
+11-18 18:40:15.927  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:40:15.927  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 3
+11-18 18:40:15.929  2119  9806 I Dialer  : SmartDialCursor.newInstance - Cursor was null or empty
+11-18 18:40:15.939  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{ced8333 id=0}
+11-18 18:40:15.939  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: DirectoryContactsCursorLoader{b8c96f0 id=3}
+11-18 18:40:15.984  1162  2269 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:15.984  1162  2269 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:15.984  1162  2269 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:16.510  2119  2119 I Dialer  : VvmTaskExecutor - Stopping service
+11-18 18:40:16.511  2119  2119 I Dialer  : VvmTaskExecutor - finishing Job
+11-18 18:40:16.511  2119  2119 I Dialer  : TaskSchedulerJobService - finishing job
+11-18 18:40:16.512  2119  2119 I Dialer  : JobFinishedPoller.run - Job finished
+11-18 18:40:16.512  2119  2119 I Dialer  : VvmTaskExecutor - terminated
+11-18 18:40:16.554   496  4282 D WifiNl80211Manager: Scan result ready event
+11-18 18:40:16.555   496  4282 D WifiNative: Scan result ready event
+11-18 18:40:16.926   496  4282 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:17.731  1748  9760 I Vision  : Requesting optional module download of ocr.
+11-18 18:40:17.731  1748  9760 I Vision  : Checking for download completion for 387189 -- ocr
+11-18 18:40:17.876  1675  1675 W n       : Received update for unknown package com.google.android.googlequicksearchbox
+11-18 18:40:17.882  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-18 18:40:17.925  1162  2269 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(12, com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_activity_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_presenter_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nowcontent_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_recents_activity_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_save_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_searchresults_activity_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_test_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_weather_jar__name to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__bloblobber_blob to integer.
+11-18 18:40:17.962  1675  9424 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__velour_jar to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_activity_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_presenter_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nowcontent_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_recents_activity_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_save_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_searchresults_activity_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_test_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_weather_jar__name to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__bloblobber_blob to integer.
+11-18 18:40:17.969  1675  2073 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__velour_jar to integer.
+11-18 18:40:17.989  1675  2073 I BlobLobber: Canceling downloads: []
+11-18 18:40:17.998  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task BLOBLOBBER_SYNC.
+11-18 18:40:18.001  1675  9424 I BlobLobber: Canceling downloads: []
+11-18 18:40:18.005  1675  2029 I ModelDownloadListener: Schdedule model download
+11-18 18:40:18.005  1675  2074 I FedAssExpListener: Fed-ass not supported for signed out users.
+11-18 18:40:18.005  1675  2074 I FedAssExpListener: Successfully processed experiments changed.
+11-18 18:40:18.008  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+11-18 18:40:18.011  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.011  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.014  1675  9815 I BgTaskExecutorImpl: Starting EXCLUSIVE background task BLOBLOBBER_SYNC.
+11-18 18:40:18.020  1675  9817 I ModelDownloadController: requestHotwordModelUpdate modelType-2 modelLocale-en-US
+11-18 18:40:18.020  1675  9817 I ModelDownloadController: shouldDownloadModel: modelLocale is en-US
+11-18 18:40:18.020  1675  9817 I ModelDownloadController: We already downloaded model from given location.
+11-18 18:40:18.020  1675  9817 I ModelDownloadController: Model download not requested.
+11-18 18:40:18.022  1675  2034 I EngineIdGenerator: Refusing EXCLUSIVE task 24, it is already pending. Try again in 359 seconds.
+11-18 18:40:18.024  1675  2034 I ModelDownloadListener: Schdedule model download
+11-18 18:40:18.025  1675  2074 I FedAssExpListener: Fed-ass not supported for signed out users.
+11-18 18:40:18.025  1675  2074 I FedAssExpListener: Successfully processed experiments changed.
+11-18 18:40:18.061  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.061  1675  2012 I chatty  : uid=10123(com.google.android.googlequicksearchbox) EventBus0 identical 4 lines
+11-18 18:40:18.061  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.063  1675  2034 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:40:18.067  1675  2029 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:40:18.069  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task ON_EXPERIMENTS_UPDATED.
+11-18 18:40:18.074  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.075  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:18.079  1675  2012 I SNBWorker: Updating bootstrap data
+11-18 18:40:18.080  1675  2012 I MonetActivityIntentUtil: Initialization data file not found
+11-18 18:40:18.080  1675  2012 W b       : Root proto not found when parsing Uri agsa:/data?type=searchnow.TYPE_SEARCHNOW
+11-18 18:40:18.080  1675  2012 W b       : Root proto not found in extras.
+11-18 18:40:18.082  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_LAUNCHER_SHORTCUT.
+11-18 18:40:18.085  1748  2888 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32 [CONTEXT service_id=21 ]
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.a(SourceFile:25)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.j.a(SourceFile:1)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.i.i.run(Unknown Source:2)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.l.a.l.call(Unknown Source:2)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-18 18:40:18.087  1675  2034 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:18.089  1748  2919 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33 [CONTEXT service_id=21 ]
+11-18 18:40:18.095  1748  9484 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.a(SourceFile:25)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.j.a(SourceFile:1)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.i.i.run(Unknown Source:2)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.l.a.l.call(Unknown Source:2)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-18 18:40:18.094  1675  2029 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:18.116  1748  9484 I Icing   : Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:40:18.118  1748  9484 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:40:18.121  1748  9484 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:40:18.485   496  1130 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:18.677  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:18.677  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:18.825  8867  9684 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-18 18:40:18.859  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:18.860  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:19.555  1748  9484 I ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+11-18 18:40:19.558  1748  9484 I RealtimeCacheCleanup: Beginning Realtime garbage collection.
+11-18 18:40:19.558  1748  9484 I RealtimeCacheCleanup: Finished Realtime garbage collection.
+11-18 18:40:20.027  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:20.027  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:20.027  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:20.451  9594  9614 I LABCI   : Dial opened package: com.android.dialer
+11-18 18:40:20.531  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:20.531  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:20.531  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:40:20.602  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:20.603  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:20.669  1162  3879 I anhw    : Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-18 18:40:21.151  9594  9614 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:21.157  9594  9614 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_dial.png
+11-18 18:40:21.185   496   507 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+11-18 18:40:21.185   496   507 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-18 18:40:21.201   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:21.201  9824  9824 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:21.205  9824  9824 D HostConnection: createUnique: call
+11-18 18:40:21.205  9824  9824 D HostConnection: HostConnection::get() New Host Connection established 0x7f95fcea3010, tid 9824
+11-18 18:40:21.216  9824  9824 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:21.242  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_dial.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:21.236  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:673): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:21.256  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab09_dial.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab09_dial.png
+11-18 18:40:21.257  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 15ms, 0 inserts 0 updates 0 deletes
+11-18 18:40:21.257  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_dial.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:21.260  9594  9614 I LABCI   : screenshot lab09_dial
+11-18 18:40:21.236  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:674): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:21.262  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:21.236  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:675): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:21.274  2119  2119 I Dialer  : OldMainActivityPeer.onBackPressed - enter
+11-18 18:40:21.274  2119  2119 I Dialer  : MainSearchController.onBackPressed - Dialpad visible with query
+11-18 18:40:21.274  2119  2119 I Dialer  : MainSearchController.hideDialpad - enter
+11-18 18:40:21.236  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:676): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:22.307  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:22.324  2119  2119 I Dialer  : OldMainActivityPeer.onBackPressed - enter
+11-18 18:40:22.324  2119  2119 I Dialer  : MainSearchController.onBackPressed - Search is visible
+11-18 18:40:22.324  2119  2119 I Dialer  : MainSearchController.closeSearch - enter
+11-18 18:40:22.340  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: RelativeLayout, destroying layer...
+11-18 18:40:22.340  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: RelativeLayout, destroying layer...
+11-18 18:40:22.340  2119  7425 W OpenGLRenderer: Incorrectly called buildLayer on View: AppCompatImageButton, destroying layer...
+11-18 18:40:22.638  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:40:22.638  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 3
+11-18 18:40:22.639  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: DirectoryContactsCursorLoader{c47b74d id=3}
+11-18 18:40:22.642  2119  9807 I Dialer  : RegularSearchCursor.newInstance - Cursor was null or empty
+11-18 18:40:22.642  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{6f0b202 id=0}
+11-18 18:40:23.103  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:40:23.108  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:40:23.140  9594  9614 I TestRunner: finished: c_dial(com.university.lab09.Lab09Test)

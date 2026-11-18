@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:34:05" hostname="localhost">
+  <testsuite name="com.university.jsnippets.SnippetsTest" tests="2" failures="0" errors="0" skipped="0" time="2.688" timestamp="2026-11-18T18:34:05" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_provider" classname="com.university.jsnippets.SnippetsTest" time="1.120" />
+    <testcase name="b_crud" classname="com.university.jsnippets.SnippetsTest" time="1.568" />
+  </testsuite>
+</testsuites>

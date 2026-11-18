@@ -1,0 +1,452 @@
+11-18 18:35:24.856  5783  5840 I TestRunner: started: a_composeCounter(com.university.kbonus.KbonusTest)
+11-18 18:35:24.864  5783  5840 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:35:24.870   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:35:24.940  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: PRE_ON_CREATE
+11-18 18:35:24.941  5783  5783 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:35:24.947  5783  5847 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:35:24.949  5783  5847 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:35:24.951  5783  5847 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:35:25.014  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: CREATED
+11-18 18:35:25.015  5783  5783 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.kbonus.MainActivity@b62c189
+11-18 18:35:25.018  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: STARTED
+11-18 18:35:25.018  5783  5783 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.kbonus.MainActivity@b62c189
+11-18 18:35:25.020  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: RESUMED
+11-18 18:35:25.021  5783  5783 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.kbonus.MainActivity@b62c189
+11-18 18:35:25.327  5783  5845 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305cd10, tid 5845
+11-18 18:35:25.329  5783  5845 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:25.331   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:35:25.332  5783  5845 D EGL_emulation: eglCreateContext: 0x7366a308a0d0: maj 3 min 0 rcv 3
+11-18 18:35:25.333  5783  5845 D EGL_emulation: eglMakeCurrent: 0x7366a308a0d0: ver 3 0 (tinfo 0x7366430a3eb0) (first time)
+11-18 18:35:25.348   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:25.348  5783  5845 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:25.349  5783  5845 D HostConnection: createUnique: call
+11-18 18:35:25.349  5783  5845 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305d310, tid 5845
+11-18 18:35:25.362  5783  5845 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:25.437  5407  5850 I FirebaseCrash: Sending crashes
+11-18 18:35:25.811  5783  5845 I OpenGLRenderer: Davey! duration=774ms; Flags=1, IntendedVsync=84494555447, Vsync=84494555447, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=84495474231, AnimationStart=84495477095, PerformTraversalsStart=84495482646, DrawStart=84832631302, SyncQueued=84836705268, SyncStart=84837322049, IssueDrawCommandsStart=84837347157, SwapBuffers=85177569088, FrameCompleted=85269187083, DequeueBufferDuration=27342, QueueBufferDuration=204622, GpuCompleted=0, 
+11-18 18:35:25.813  5783  5783 W iversity.kbonu: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (greylist, reflection, allowed)
+11-18 18:35:25.814  5783  5783 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+11-18 18:35:25.816   344  1120 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10169 pid=5783
+11-18 18:35:25.816   344  1120 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10169 => denied (129 us)
+11-18 18:35:25.817   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:35:25.831  5783  5840 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:35:25.862  5783  5852 V UiAutomation: Init UiAutomation@3d65e34[id=2, flags=0]
+11-18 18:35:25.863  5783  5840 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:35:25.874  5783  5840 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QUpdate State\E']].
+11-18 18:35:25.874  5783  5840 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QUpdate State\E'].
+11-18 18:35:25.895  1675  2882 I PBSessionCacheImpl: Deleted sessionId[7368522932966925] from persistence.
+11-18 18:35:25.899   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.kbonus/1/com.university.kbonus.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:35:25.899   496   536 I ActivityTaskManager: Displayed com.university.kbonus/.MainActivity: +947ms
+11-18 18:35:25.928  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:35:25.937   286   286 I Zygote  : Process 5407 exited due to signal 9 (Killed)
+11-18 18:35:25.943   496   539 I libprocessgroup: Successfully killed process cgroup uid 10112 pid 5407 in 45ms
+11-18 18:35:26.220  5030  5395 W YouTube : Could not register for notifications with InnerTube: 
+11-18 18:35:26.220  5030  5395 W YouTube : abwi: java.util.concurrent.ExecutionException: aacl: Precondition check failed.
+11-18 18:35:26.220  5030  5395 W YouTube : 	at abwa.b(PG:18)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at aicr.f(PG:65)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at aicr.g(PG:133)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at aicr.b(PG:99)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at ahyh.run(Unknown Source:1)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at aosv.run(Unknown Source:1)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at zdm.run(PG:13)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:35:26.220  5030  5395 W YouTube : Caused by: java.util.concurrent.ExecutionException: aacl: Precondition check failed.
+11-18 18:35:26.220  5030  5395 W YouTube : 	at apmr.a(PG:135)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at apmr.get(PG:89)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at abwa.b(PG:17)
+11-18 18:35:26.220  5030  5395 W YouTube : 	... 11 more
+11-18 18:35:26.220  5030  5395 W YouTube : Caused by: aacl: Precondition check failed.
+11-18 18:35:26.220  5030  5395 W YouTube : 	at abuo.c(PG:106)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at znq.a(PG:62)
+11-18 18:35:26.220  5030  5395 W YouTube : 	at zmp.run(Unknown Source:18)
+11-18 18:35:26.220  5030  5395 W YouTube : 	... 4 more
+11-18 18:35:26.220  5030  5395 W YouTube : Caused by: btc
+11-18 18:35:26.220  5030  5395 W YouTube : 	at zmp.run(Unknown Source:6)
+11-18 18:35:26.220  5030  5395 W YouTube : 	... 4 more
+11-18 18:35:26.320  5807  5807 W dex2oat32: Could not reserve sentinel fault page
+11-18 18:35:26.356  5807  5807 I dex2oat32: Large app, accepted running with swap.
+11-18 18:35:26.401  5783  5840 W iversity.kbonu: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blacklist,test-api, reflection, allowed)
+11-18 18:35:26.418  1571  3619 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 232 items in 7582ms, 0 inserts 226 updates 0 deletes
+11-18 18:35:26.478  1571  3619 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 53ms, 2 inserts 0 updates 0 deletes
+11-18 18:35:26.482  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+11-18 18:35:26.482  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.university.jsnippets flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+11-18 18:35:26.483  1571  3619 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.university.jsnippets flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+11-18 18:35:26.484  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.university.jsnippets.test flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+11-18 18:35:26.485  1571  3619 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.university.jsnippets.test flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+11-18 18:35:26.990  5783  5840 D UiObject2: Clicking on (83, 96).
+11-18 18:35:26.990  5783  5840 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@8429; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(40, 86 - 126, 106); packageName: com.university.kbonus; className: android.widget.TextView; text: Update State; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]
+11-18 18:35:27.031  5783  5840 W GestureController: Gestures took longer than expected (39ms >> 16ms), device might be in a busy state.
+11-18 18:35:27.031  5783  5840 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QUpdate State\E']].
+11-18 18:35:27.031  5783  5840 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QUpdate State\E'].
+11-18 18:35:27.046   380   459 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:35:27.047   380   459 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+11-18 18:35:27.058   496   656 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 4512
+11-18 18:35:27.061   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.061   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.078  5257  5310 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10143; state: DISABLED
+11-18 18:35:27.086   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.091   292   354 E FMQ     : grantorIdx must be less than 3
+11-18 18:35:27.091   292   354 E FMQ     : grantorIdx must be less than 3
+11-18 18:35:27.097   380   458 E FMQ     : grantorIdx must be less than 3
+11-18 18:35:27.097   380   458 E FMQ     : grantorIdx must be less than 3
+11-18 18:35:27.222   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.247  5807  5855 W dex2oat32: Accessing hidden method Landroid/content/Context;->isUiContext()Z (blacklist, linking, denied)
+11-18 18:35:27.264  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 48534(7895KB) AllocSpace objects, 0(0B) LOS objects, 99% free, 10KB/1546KB, paused 14us total 15.528ms
+11-18 18:35:27.269  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 837(222KB) AllocSpace objects, 0(0B) LOS objects, 99% free, 11KB/1547KB, paused 6us total 1.169ms
+11-18 18:35:27.272  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 133(30KB) AllocSpace objects, 0(0B) LOS objects, 99% free, 12KB/1548KB, paused 6us total 1.082ms
+11-18 18:35:27.281  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 1419(309KB) AllocSpace objects, 0(0B) LOS objects, 99% free, 14KB/1550KB, paused 7us total 1.321ms
+11-18 18:35:27.290  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 845(185KB) AllocSpace objects, 0(0B) LOS objects, 94% free, 86KB/1622KB, paused 7us total 1.369ms
+11-18 18:35:27.411  5807  5865 W dex2oat32: Accessing hidden method Landroid/view/ScrollCaptureSession;->getSurface()Landroid/view/Surface; (blacklist, linking, denied)
+11-18 18:35:27.411  5807  5865 I chatty  : uid=50169(com.university.kbonus) Compiler driver identical 4 lines
+11-18 18:35:27.411  5807  5865 W dex2oat32: Accessing hidden method Landroid/view/ScrollCaptureSession;->getSurface()Landroid/view/Surface; (blacklist, linking, denied)
+11-18 18:35:27.411  5807  5807 W dex2oat32: Accessing hidden method Landroid/view/ScrollCaptureTarget;-><init>(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Point;Landroid/view/ScrollCaptureCallback;)V (blacklist, linking, denied)
+11-18 18:35:27.411  5807  5807 W dex2oat32: Accessing hidden method Landroid/view/ScrollCaptureTarget;->setScrollBounds(Landroid/graphics/Rect;)V (blacklist, linking, denied)
+11-18 18:35:27.433  5807  5865 W dex2oat32: Accessing hidden method Landroid/graphics/Canvas;->drawPatch(Landroid/graphics/NinePatch;Landroid/graphics/Rect;Landroid/graphics/Paint;)V (greylist-max-o, linking, denied)
+11-18 18:35:27.433  5807  5865 W dex2oat32: Accessing hidden method Landroid/graphics/Canvas;->drawPatch(Landroid/graphics/NinePatch;Landroid/graphics/RectF;Landroid/graphics/Paint;)V (greylist-max-o, linking, denied)
+11-18 18:35:27.558  5807  5865 W dex2oat32: Accessing hidden method Landroid/graphics/Bitmap;->getHardwareBuffer()Landroid/hardware/HardwareBuffer; (blacklist, linking, denied)
+11-18 18:35:27.628  5783  5840 D UiObject2: Clicking on (83, 96).
+11-18 18:35:27.629  5783  5840 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@8429; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(40, 86 - 126, 106); packageName: com.university.kbonus; className: android.widget.TextView; text: Update State; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]
+11-18 18:35:27.664   496   594 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.666  5783  5840 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:35:27.669  5783  5840 D UiDevice: Waiting 3000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QTaps: 2\E.*']].
+11-18 18:35:27.669  5783  5840 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QTaps: 2\E.*'].
+11-18 18:35:27.686   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:35:27.695  5783  5840 I LABCI   : waitText 'Taps: 2': true
+11-18 18:35:27.695  5783  5840 D UiDevice: Setting orientation to left.
+11-18 18:35:27.699  5783  5840 D UiDevice: Waiting 2000ms for Condition[displayRotation=1, displayId=0].
+11-18 18:35:27.841   496  1145 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:27.987   496   529 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:27.999   496   532 W system_server: Long monitor contention with owner android.ui (529) at void com.android.server.wm.TaskChangeNotificationController.forAllLocalListeners(com.android.server.wm.TaskChangeNotificationController$TaskStackConsumer, android.os.Message)(TaskChangeNotificationController.java:351) waiters=2 in void com.android.server.wm.WindowAnimator.lambda$new$1$WindowAnimator(long) for 295ms
+11-18 18:35:28.000   496  1959 W system_server: Long monitor contention with owner android.ui (529) at void com.android.server.wm.TaskChangeNotificationController.forAllLocalListeners(com.android.server.wm.TaskChangeNotificationController$TaskStackConsumer, android.os.Message)(TaskChangeNotificationController.java:351) waiters=3 in boolean com.android.server.wm.WindowProcessController.hasActivities() for 290ms
+11-18 18:35:28.031  1326  1326 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1401 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw320dp w640dp h296dp 160dpi nrml long land finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 640, 320) mAppBounds=Rect(0, 0 - 640, 320) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.55}
+11-18 18:35:28.032   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:35:28.046  1326  1326 W KeyboardModeManager: KeyboardModeManager.reloadOrientationAwareData():457 reloadOrientationAwareData() : orientation = 2
+11-18 18:35:28.055  1326  1326 W AndroidIME: KeyboardViewManager.initializeViews():300 initializeViews() : keyboard full width = -1; root view width = 320; measured keyboard height = 0
+11-18 18:35:28.056  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: PAUSED
+11-18 18:35:28.056  5783  5783 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.kbonus.MainActivity@b62c189
+11-18 18:35:28.058  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: STOPPED
+11-18 18:35:28.058  5783  5783 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.kbonus.MainActivity@b62c189
+11-18 18:35:28.065  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@b62c189 in: DESTROYED
+11-18 18:35:28.065  5783  5783 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:28.083  1326  1326 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+11-18 18:35:28.091  1326  1326 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1171 Apply keyboard theme: theme_border_stylesheet_googleblue_materiallight_assets:theme_package_metadata_google_blue_light.binarypb_land
+11-18 18:35:28.098  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:28.098  1326  1326 I chatty  : uid=10131(com.google.android.inputmethod.latin) identical 4 lines
+11-18 18:35:28.098  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:28.109   496   531 I InputManager-JNI: Viewport [0] to add: local:8141241408256768, isActive: true
+11-18 18:35:28.126  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: PRE_ON_CREATE
+11-18 18:35:28.126  5783  5783 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+11-18 18:35:28.135  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: CREATED
+11-18 18:35:28.135  5783  5783 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.kbonus.MainActivity@d7030af
+11-18 18:35:28.138  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: STARTED
+11-18 18:35:28.138  5783  5783 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.kbonus.MainActivity@d7030af
+11-18 18:35:28.138  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: RESUMED
+11-18 18:35:28.139  5783  5783 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.kbonus.MainActivity@d7030af
+11-18 18:35:28.145   496   596 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.145   496   596 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 320x640, orientation 1, mode 1, display id 0
+11-18 18:35:28.183   496   596 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.183   496   596 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.183   496   596 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:28.198  4750  5087 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10117; state: DISABLED
+11-18 18:35:28.199  4703  4722 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10117; state: DISABLED
+11-18 18:35:28.258  1326  1326 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-18 18:35:28.268   496   532 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:28.281  5807  5865 W dex2oat32: Verification of void androidx.recyclerview.widget.RecyclerView.setAdapterInternal(androidx.recyclerview.widget.RecyclerView$Adapter, boolean, boolean) took 177.272ms (377.95 bytecodes/s) (1904B approximate peak alloc)
+11-18 18:35:28.311  5439  5637 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10122; state: DISABLED
+11-18 18:35:28.345  1326  1326 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-18 18:35:28.348  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:28.348  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:28.475  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 31950(6205KB) AllocSpace objects, 0(0B) LOS objects, 92% free, 119KB/1655KB, paused 11us total 18.761ms
+11-18 18:35:28.476   712   712 D InterruptionStateProvider: No bubble up: not allowed to bubble: -1|android|19|null|1000
+11-18 18:35:28.476   712   712 D InterruptionStateProvider: No heads up: unimportant notification: -1|android|19|null|1000
+11-18 18:35:28.492  5807  5807 W dex2oat32: Accessing hidden method Landroid/app/job/JobParameters;->getStopReason()I (greylist-max-o, linking, denied)
+11-18 18:35:28.615   496   600 E ReportEncoder: No watchlist hash
+11-18 18:35:28.627   694   694 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+11-18 18:35:28.627   694   694 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
+11-18 18:35:28.641   496   596 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+11-18 18:35:28.663  1042  1042 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:35:28.680   733  2849 I PermissionControllerServiceImpl: Updating user sensitive for uid 10119
+11-18 18:35:28.713  5592  5612 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:35:28.714  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:35:28.719  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:35:28.725  1162  5724 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:35:28.733  1748  5500 I Icing   : updateResources: need to parse abvr{com.google.android.gms} [CONTEXT service_id=21 ]
+11-18 18:35:28.736  1162  5708 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:35:28.757  1162  5381 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+11-18 18:35:28.758  1162  5381 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+11-18 18:35:28.761  1162  2326 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
+11-18 18:35:28.762  1162  5381 I GCoreUlr: Unbound from all signal providers.
+11-18 18:35:28.768  1162  5381 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+11-18 18:35:28.775  1162  5381 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+11-18 18:35:28.777  1162  5381 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+11-18 18:35:28.778  1162  5381 I GCoreUlr: Unbound from all signal providers.
+11-18 18:35:28.782  1162  1162 I GCoreUlr: Unbound from all signal providers.
+11-18 18:35:28.782  1162  1162 I GCoreUlr: Stopping handler for UlrDispSvcFast
+11-18 18:35:28.797  1162  2118 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
+11-18 18:35:28.798  1162  2118 I BeaconBle: 'L' hardware scan: 5 filters, scanMode=2, reportdelay=0, callback type=1, #clients=1, workSource=WorkSource{10119 com.google.android.gms} [CONTEXT service_id=111 ]
+11-18 18:35:28.799  1162  2118 I BeaconBle: Starting scan on OS scanner. BT state: 12 [CONTEXT service_id=111 ]
+11-18 18:35:28.799  1162  2118 D BluetoothAdapter: isLeEnabled(): ON
+11-18 18:35:28.805   694  1218 I bt_stack: [INFO:gatt_api.cc(947)] GATT_Register d58b95ec-d836-fc9d-f06b-eb7c9990b281
+11-18 18:35:28.805   694  1218 I bt_stack: [INFO:gatt_api.cc(967)] allocated gatt_if=5
+11-18 18:35:28.807  1162  3078 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=5 mScannerId=0
+11-18 18:35:29.051  5807  5807 I dex2oat32: Explicit concurrent copying GC freed 29591(7058KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 139KB/1675KB, paused 12us total 17.403ms
+11-18 18:35:29.061  5807  5807 I dex2oat32: dex2oat took 5.665s (2.576s cpu) (threads: 2) arena alloc=0B (0B) java alloc=139KB (142760B) native alloc=8260KB (8459088B) free=2102KB (2152544B) swap=16MB (16777216B)
+11-18 18:35:29.067   428   575 V installd: DexInv: --- END '/data/app/~~weU5lq8ybFWmJ4b7qHjNFw==/com.university.kbonus-MsL9e3dwwKayV9-KtXtdkw==/base.apk' (success) ---
+11-18 18:35:29.070   496  5755 I system_server: The ClassLoaderContext is a special shared library.
+11-18 18:35:29.075   496  5755 I chatty  : uid=1000(system) BackgroundDexOp identical 4 lines
+11-18 18:35:29.075   496  5755 I system_server: The ClassLoaderContext is a special shared library.
+11-18 18:35:29.076   496  5755 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~AZOkP0ooIyNB1em0A2Lviw==/com.university.kbonus.test-8K-nXJx3qgJxuGWmAlUCmw==/base.apk pkg=com.university.kbonus.test isa=x86_64 dexoptFlags=boot_complete,debuggable,public,enable_hidden_api_checks targetFilter=verify oatDir=/data/app/~~AZOkP0ooIyNB1em0A2Lviw==/com.university.kbonus.test-8K-nXJx3qgJxuGWmAlUCmw==/oat classLoaderContext=PCL[]{}
+11-18 18:35:29.077   428   575 V installd: DexInv: --- BEGIN '/data/app/~~AZOkP0ooIyNB1em0A2Lviw==/com.university.kbonus.test-8K-nXJx3qgJxuGWmAlUCmw==/base.apk' ---
+11-18 18:35:29.090  5884  5884 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:29.090  5884  5884 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --debuggable --classpath-dir=/data/app/~~AZOkP0ooIyNB1em0A2Lviw==/com.university.kbonus.test-8K-nXJx3qgJxuGWmAlUCmw== --class-loader-context=PCL[]{} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
+11-18 18:35:29.092  5884  5884 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
+11-18 18:35:29.175  5884  5884 I dex2oat32: Explicit concurrent copying GC freed 6488(948KB) AllocSpace objects, 0(0B) LOS objects, 97% free, 46KB/1582KB, paused 14us total 1.706ms
+11-18 18:35:29.177  5884  5884 I dex2oat32: Explicit concurrent copying GC freed 51(15KB) AllocSpace objects, 0(0B) LOS objects, 97% free, 47KB/1583KB, paused 7us total 1.254ms
+11-18 18:35:29.179  5884  5884 I dex2oat32: Explicit concurrent copying GC freed 48(15KB) AllocSpace objects, 0(0B) LOS objects, 96% free, 47KB/1583KB, paused 6us total 1.264ms
+11-18 18:35:29.183  5884  5884 I dex2oat32: Explicit concurrent copying GC freed 41(15KB) AllocSpace objects, 0(0B) LOS objects, 96% free, 48KB/1584KB, paused 9us total 1.821ms
+11-18 18:35:29.190  5884  5884 I dex2oat32: Explicit concurrent copying GC freed 836(169KB) AllocSpace objects, 0(0B) LOS objects, 92% free, 120KB/1656KB, paused 7us total 1.196ms
+11-18 18:35:29.194  5884  5884 I dex2oat32: dex2oat took 104.024ms (130.198ms cpu) (threads: 2) arena alloc=0B (0B) java alloc=120KB (123416B) native alloc=1752KB (1794432B) free=1612KB (1651184B)
+11-18 18:35:29.196   428   575 V installd: DexInv: --- END '/data/app/~~AZOkP0ooIyNB1em0A2Lviw==/com.university.kbonus.test-8K-nXJx3qgJxuGWmAlUCmw==/base.apk' (success) ---
+11-18 18:35:29.198   496  5755 I system_server: The ClassLoaderContext is a special shared library.
+11-18 18:35:29.252   496  5755 I chatty  : uid=1000(system) BackgroundDexOp identical 36 lines
+11-18 18:35:29.253   496  5755 I system_server: The ClassLoaderContext is a special shared library.
+11-18 18:35:29.253   496  5755 I BackgroundDexOptService: Pinning optimized code {android, com.university.kbonus, com.university.kbonus.test}
+11-18 18:35:29.254   496  5755 D IorapForwardingService: onPackagesUpdated: android
+11-18 18:35:29.255   496  5755 D IorapForwardingService: onPackagesUpdated: com.university.kbonus
+11-18 18:35:29.255   496  5755 D IorapForwardingService: onPackagesUpdated: com.university.kbonus.test
+11-18 18:35:29.788  1748  5499 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:29.790  1748  5499 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:35:29.977  5615  5711 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10142; state: DISABLED
+11-18 18:35:30.298  1162  2326 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
+11-18 18:35:30.319   496   531 I system_server: Explicit concurrent copying GC freed 197749(9427KB) AllocSpace objects, 21(1420KB) LOS objects, 49% free, 14MB/28MB, paused 41us total 35.002ms
+11-18 18:35:30.359  5439  5894 I FirebaseCrash: Sending crashes
+11-18 18:35:30.396   286   286 I Zygote  : Process 5439 exited due to signal 9 (Killed)
+11-18 18:35:30.436   496   539 I libprocessgroup: Successfully killed process cgroup uid 10122 pid 5439 in 43ms
+11-18 18:35:30.463  5783  5895 D ProfileInstaller: Installing profile for com.university.kbonus
+11-18 18:35:30.603  5783  5840 D UiDevice: Waiting 3000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QTaps: 2\E.*']].
+11-18 18:35:30.603  5783  5840 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QTaps: 2\E.*'].
+11-18 18:35:30.626  5783  5840 I LABCI   : waitText 'Taps: 2': true
+11-18 18:35:30.786   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:30.904  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:30.904  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:31.031   286   286 D Zygote  : Forked child process 5897
+11-18 18:35:31.037  5897  5897 W s.youtube.musi: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:31.039   401   415 I adbd    : jdwp connection from 5897
+11-18 18:35:31.044  5897  5897 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-18 18:35:31.046  5897  5897 I s.youtube.musi: The ClassLoaderContext is a special shared library.
+11-18 18:35:31.047  5897  5897 I s.youtube.musi: The ClassLoaderContext is a special shared library.
+11-18 18:35:31.047  5897  5897 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/YouTubeMusicPrebuilt/lib/x86_64:/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:35:31.051  5897  5897 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:35:31.051  5897  5897 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:35:31.079  5897  5930 I TetheringManager: registerTetheringEventCallback:com.google.android.apps.youtube.music
+11-18 18:35:31.087  5897  5927 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+11-18 18:35:31.087  1162  2158 W ProviderHelper: Unknown dynamite feature providerinstaller
+11-18 18:35:31.094  5897  5927 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+11-18 18:35:31.100  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ] with score 60 and providerId 2
+11-18 18:35:31.101   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ] with score 60 and providerId 2
+11-18 18:35:31.103   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ] with score 60 and providerId 2
+11-18 18:35:31.109  5897  5927 I s.youtube.musi: The ClassLoaderContext is a special shared library.
+11-18 18:35:31.110   712   712 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:35:31.111  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:35:31.113   712   712 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@aa1b517 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:35:31.113  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:35:31.117  5897  5938 E GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+11-18 18:35:31.132  5897  5930 E AwarenessClientProvider: Account associated with identity was null
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: Exception while syncing fences
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Account associated with identity was null
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zsp.a(PG:135)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zsp.get(PG:82)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zwj.a(PG:1)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zuv.a(PG:4)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at fyf.run(Unknown Source:1)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at pqt.run(PG:13)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: Caused by: java.lang.IllegalStateException: Account associated with identity was null
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at fxj.a(Unknown Source:3)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zsr.a(PG:3)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zst.run(PG:23)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	at zvn.run(PG:2)
+11-18 18:35:31.135  5897  5963 E AwarenessRouterSyncMgr: 	... 7 more
+11-18 18:35:31.140  5897  5927 I s.youtube.musi: The ClassLoaderContext is a special shared library.
+11-18 18:35:31.142  5897  5962 W s.youtube.musi: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:35:31.143  5897  5962 W s.youtube.musi: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:35:31.143  5897  5962 W s.youtube.musi: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:35:31.145  5897  5927 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:35:31.147  5897  5941 W GoogleTagManager: Failed to extract the container from the resource file. Resource is a UTF-8 encoded string but doesn't contain a JSON container
+11-18 18:35:31.178  5897  5939 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:21400
+11-18 18:35:31.178  5897  5939 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 21400
+11-18 18:35:31.182  5897  5927 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+11-18 18:35:31.200  5897  5897 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:35:31.203  5897  5897 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:35:31.210  5897  5939 I DynamiteLoaderV2: [71] AdsFdrDynamite.integ
+11-18 18:35:31.215  5897  5939 W s.youtube.musi: Unsupported class loader
+11-18 18:35:31.218  5897  5927 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+11-18 18:35:31.239   286   286 I Zygote  : Process 1892 exited due to signal 9 (Killed)
+11-18 18:35:31.252   496   539 I libprocessgroup: Successfully killed process cgroup uid 10080 pid 1892 in 44ms
+11-18 18:35:31.259   286   286 I Zygote  : Process 4703 exited due to signal 9 (Killed)
+11-18 18:35:31.263  4750  4750 I GH.CAR  : onDestroy
+11-18 18:35:31.263  4750  4750 I GH.CAR  : tearDown()
+11-18 18:35:31.263  4750  4750 I GH.DelegateMngCarSvc: tearDown()
+11-18 18:35:31.263  4750  5529 I GH.DelegateICarSupplier: Calling release callback on delegate com.google.android.gms.car.DelegatingCarServiceBinder@1b4cabf
+11-18 18:35:31.263  4750  5529 I GH.DelegateICarSupplier: Releasing delegate ICar.
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: ICar release task failed.
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: java.lang.IllegalArgumentException: Service not registered: bdx@9475865
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at bdv.a(Unknown Source:1)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwk.a(SourceFile:3)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwl.run(SourceFile:23)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwz.execute(SourceFile:3)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwh.b(SourceFile:77)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwh.a(SourceFile:29)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kxd.a(SourceFile:3)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kwl.a(SourceFile:7)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at bdt.a(Unknown Source:3)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at beg.a(SourceFile:29)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at bea.a(Unknown Source:4)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at khf.a(SourceFile:3)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at bed.a(SourceFile:8)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at kxh.run(SourceFile:8)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:35:31.265  4750  5529 W GH.DelegateICarSupplier: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:35:31.266  4750  5529 I GH.DelegateICarSupplier: Logging successful delegate lifespan (12892 ms). Acquisition (63 ms). [Generation: 1]
+11-18 18:35:31.294  5897  5939 W s.youtube.musi: Unsupported class loader
+11-18 18:35:31.294   496  1561 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+11-18 18:35:31.298   496   539 I libprocessgroup: Successfully killed process cgroup uid 10117 pid 4703 in 45ms
+11-18 18:35:31.301  5897  5939 D DynamitePackage: Instantiated singleton DynamitePackage.
+11-18 18:35:31.301  5897  5939 D DynamitePackage: Instantiating com.google.android.gms.ads.adshield.ChimeraAdShieldCreatorImpl
+11-18 18:35:31.326  5783  5840 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:31.346  5783  5840 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/kbonus_compose_rotated.png
+11-18 18:35:31.362  1748  3068 W SQLiteLog: (28) double-quoted string literal: "1794854131362"
+11-18 18:35:31.362  1748  3068 W SQLiteLog: (28) double-quoted string literal: "1"
+11-18 18:35:31.491  5897  5931 I FA      : App measurement disabled by setAnalyticsCollectionEnabled(false)
+11-18 18:35:31.492  5897  5931 I FA      : App measurement initialized, version: 28015
+11-18 18:35:31.492  5897  5931 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-18 18:35:31.492  5897  5931 I FA      : To enable faster debug mode event logging run:
+11-18 18:35:31.492  5897  5931 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.youtube.music
+11-18 18:35:31.497  5897  5941 E GoogleTagManager: Invalid macro: _gtm.loadEventEnabled
+11-18 18:35:31.536   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:31.536  6002  6002 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:31.549  6002  6002 D HostConnection: createUnique: call
+11-18 18:35:31.550  6002  6002 D HostConnection: HostConnection::get() New Host Connection established 0x74aed60571d0, tid 6002
+11-18 18:35:31.557  6002  6002 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:31.590   712   712 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:35:31.592   712   712 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2d14d04 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:35:31.592  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:35:31.592  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:35:31.596  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/kbonus_compose_rotated.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:31.607  5783  5840 I LABCI   : screenshot kbonus_compose_rotated
+11-18 18:35:31.607  5783  5840 D UiDevice: Setting orientation to natural.
+11-18 18:35:31.610  5783  5840 D UiDevice: Waiting 2000ms for Condition[displayRotation=0, displayId=0].
+11-18 18:35:31.612  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/kbonus_compose_rotated.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/kbonus_compose_rotated.png
+11-18 18:35:31.614  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 9ms, 0 inserts 0 updates 0 deletes
+11-18 18:35:31.614  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/kbonus_compose_rotated.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:31.592  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:96): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:31.641   496   529 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:31.661  1326  1326 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1401 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.98}
+11-18 18:35:31.661  1326  1326 W KeyboardModeManager: KeyboardModeManager.reloadOrientationAwareData():457 reloadOrientationAwareData() : orientation = 1
+11-18 18:35:31.664   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:35:31.674   496   531 I InputManager-JNI: Viewport [0] to add: local:8141241408256768, isActive: true
+11-18 18:35:31.675   496   596 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 320x640, orientation 0, mode 1, display id 0
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.675   496   596 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:31.678  1326  1326 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+11-18 18:35:31.678  1326  1326 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1171 Apply keyboard theme: theme_border_stylesheet_googleblue_materiallight_assets:theme_package_metadata_google_blue_light.binarypb_port
+11-18 18:35:31.679  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:31.679  1326  1326 I chatty  : uid=10131(com.google.android.inputmethod.latin) identical 4 lines
+11-18 18:35:31.679  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:31.682  1326  1326 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-18 18:35:31.686  1326  1326 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-18 18:35:31.695  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: PAUSED
+11-18 18:35:31.695  5783  5783 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.kbonus.MainActivity@d7030af
+11-18 18:35:31.699  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: STOPPED
+11-18 18:35:31.699  5783  5783 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.kbonus.MainActivity@d7030af
+11-18 18:35:31.592  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:98): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:31.709  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@d7030af in: DESTROYED
+11-18 18:35:31.709  5783  5783 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:31.710  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:31.711  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:31.722  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: PRE_ON_CREATE
+11-18 18:35:31.723  5783  5783 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+11-18 18:35:31.732  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: CREATED
+11-18 18:35:31.732  5783  5783 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.kbonus.MainActivity@4cb0e03
+11-18 18:35:31.736  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: STARTED
+11-18 18:35:31.736  5783  5783 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.kbonus.MainActivity@4cb0e03
+11-18 18:35:31.736  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: RESUMED
+11-18 18:35:31.738  5783  5783 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.kbonus.MainActivity@4cb0e03
+11-18 18:35:31.592  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:99): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:31.600  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:100): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:31.785  5897  6016 E GoogleTagManager: Invalid macro: _gtm.loadEventEnabled
+11-18 18:35:31.600  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:101): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:31.826  5897  5967 E GoogleTagManager: Unsupported Value Escaping: 3
+11-18 18:35:31.830   496   532 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:31.833  5897  5967 E GoogleTagManager: Unsupported Value Escaping: 3
+11-18 18:35:31.836  5897  5967 E GoogleTagManager: Unsupported Value Escaping: 3
+11-18 18:35:32.229  1748  5696 I Vision  : Requesting optional module download of ocr.
+11-18 18:35:32.229  1748  5696 I Vision  : Checking for download completion for 101687 -- ocr
+11-18 18:35:32.886  5473  5489 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10146; state: DISABLED
+11-18 18:35:32.886  5314  5892 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10139; state: ENABLED
+11-18 18:35:33.090  5030  5046 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10147; state: DISABLED
+11-18 18:35:33.384  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:33.384  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:33.803   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:35:33.809  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: PAUSED
+11-18 18:35:33.809  5783  5783 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.kbonus.MainActivity@4cb0e03
+11-18 18:35:33.812   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 6, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:35:33.812   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=6)
+11-18 18:35:33.825   286   286 D Zygote  : Forked child process 6037
+11-18 18:35:33.831  6037  6037 I ity.kbonus.tes: Late-enabling -Xcheck:jni
+11-18 18:35:33.834   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:35:33.843  6037  6037 I ity.kbonus.tes: Unquickening 12 vdex files!
+11-18 18:35:33.843  6037  6037 W ity.kbonus.tes: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:33.848   401   415 I adbd    : jdwp connection from 6037
+11-18 18:35:33.877   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3065a10, tid 4916
+11-18 18:35:33.879   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:33.881   496  4916 D EGL_emulation: eglCreateContext: 0x7366a31365b0: maj 3 min 0 rcv 3
+11-18 18:35:33.882   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a31365b0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:35:33.886  6037  6037 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:33.886  6037  6037 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:33.968  6037  6060 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:35:33.969  6037  6060 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:35:33.983  6037  6060 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:35:34.018   496   531 I system_server: Explicit concurrent copying GC freed 89386(4280KB) AllocSpace objects, 7(208KB) LOS objects, 49% free, 14MB/28MB, paused 18us total 177.895ms
+11-18 18:35:34.018   496   507 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+11-18 18:35:34.018   496   507 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-18 18:35:34.027  6037  6058 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305a310, tid 6058
+11-18 18:35:34.032   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:35:34.032  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: STOPPED
+11-18 18:35:34.033  5783  5783 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.kbonus.MainActivity@4cb0e03
+11-18 18:35:34.033  6037  6058 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:34.035   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:35:34.036  6037  6058 D EGL_emulation: eglCreateContext: 0x7366a30b20e0: maj 3 min 0 rcv 3
+11-18 18:35:34.041  6037  6058 D EGL_emulation: eglMakeCurrent: 0x7366a30b20e0: ver 3 0 (tinfo 0x7366430a22c0) (first time)
+11-18 18:35:34.044  5783  5783 D LifecycleMonitor: Lifecycle status change: com.university.kbonus.MainActivity@4cb0e03 in: DESTROYED
+11-18 18:35:34.044  5783  5783 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:34.044  5783  5840 I TestRunner: finished: a_composeCounter(com.university.kbonus.KbonusTest)

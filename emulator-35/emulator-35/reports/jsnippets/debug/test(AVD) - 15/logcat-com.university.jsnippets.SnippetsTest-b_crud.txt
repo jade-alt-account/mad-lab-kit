@@ -1,0 +1,161 @@
+11-18 18:34:03.244  3456  3540 I TestRunner: started: b_crud(com.university.jsnippets.SnippetsTest)
+11-18 18:34:03.255  3456  3540 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:34:03.271  1455  1812 I AccountSeedingPrefetchI: AccountSeedingPrefetchInit intent operation started. [CONTEXT service_id=42 ]
+11-18 18:34:03.285  1744  3587 D DownloadManager: [4] Finished with status SUCCESS
+11-18 18:34:03.294   554  2296 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10209, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:03.330  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:34:03.330  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:34:03.340   903  1009 D SplashScreenView: Build android.window.SplashScreenView{aade4a7 V.E...... ......ID 0,0-0,0}
+11-18 18:34:03.340   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:34:03.340   903  1009 D SplashScreenView: Branding: view: android.view.View{7df6d54 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:34:03.348   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:34:03.353  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=8, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.jsnippets/.MainActivity }
+11-18 18:34:03.363  1208  2481 W .gms.persistent: Long monitor contention with owner GoogleApiHandler (1709) at void alaq.f(java.lang.String, akwa, int)(:com.google.android.gms@242335041@24.23.35 (190800-646585959):323) waiters=0 in void alaq.f(java.lang.String, akwa, int) for 104ms
+11-18 18:34:03.395  1744  3585 D DownloadManager: [3] Finished with status SUCCESS
+11-18 18:34:03.409   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:03.409   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:03.409   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 0ms
+11-18 18:34:03.415  2795  3496 I ConfigUpdater: Update downloaded, starting installation
+11-18 18:34:03.419  1156  1557 D EGL_emulation: app_time_stats: avg=1062.34ms min=33.03ms max=3766.84ms count=4
+11-18 18:34:03.420  1208  1656 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(6, assistant_auto_tng_libraries_device#com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:34:03.429  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: PRE_ON_CREATE
+11-18 18:34:03.431  3456  3456 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:34:03.444  1208  1656 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(6, assistant_auto_tng_libraries_user#com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:34:03.471  1156  1557 D EGL_emulation: app_time_stats: avg=28677.64ms min=28677.64ms max=28677.64ms count=1
+11-18 18:34:03.507  1483  3084 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:03.509  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:34:03.521  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:34:03.538  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: CREATED
+11-18 18:34:03.538  3456  3456 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.jsnippets.MainActivity@30c4f6f
+11-18 18:34:03.548  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: STARTED
+11-18 18:34:03.551  3456  3456 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.jsnippets.MainActivity@30c4f6f
+11-18 18:34:03.562  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: RESUMED
+11-18 18:34:03.562  3456  3456 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.jsnippets.MainActivity@30c4f6f
+11-18 18:34:03.574  1208  2014 I ActivityScheduler: nextTriggerTime: 662433, in 595300ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 75000
+11-18 18:34:03.575  3456  3456 W HWUI    : Unknown dataspace 0
+11-18 18:34:03.586  2795  3496 I ConfigUpdater: doneInstall
+11-18 18:34:03.614  1208  1939 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService finished executing. cause:5 result: 1 elapsed_millis: 619 uptime_millis: 619 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:03.643   903  1024 D EGL_emulation: app_time_stats: avg=3554.52ms min=3554.52ms max=3554.52ms count=1
+11-18 18:34:03.645   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10209 pid=3456
+11-18 18:34:03.645   430   729 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10209 => denied (2661 us)
+11-18 18:34:03.646   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10209 pid=3456
+11-18 18:34:03.646   430   729 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10209 => denied (243 us)
+11-18 18:34:03.646   430   729 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10209 pid=3456
+11-18 18:34:03.646   430   729 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10209 => denied (92 us)
+11-18 18:34:03.646   430   486 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10209 pid=0
+11-18 18:34:03.646   430   486 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10209 => denied (3778 us)
+11-18 18:34:03.649  3456  3589 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:03.650  3456  3589 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:03.703  3456  3589 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:34:03.728   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:34:03.729  3456  3589 I Gralloc4: mapper 4.x is not supported
+11-18 18:34:03.737  1744  1909 V DownloadManager: Deleting /data/data/com.android.providers.downloads/cache/09252026-sms-denylist-metadata.txt via provider delete
+11-18 18:34:03.766   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:03.778   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:03.783   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10102} in 17ms
+11-18 18:34:03.793   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:03.793   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:03.793   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20102} in 9ms
+11-18 18:34:03.817  3456  3464 I rsity.jsnippets: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-18 18:34:03.897   554   646 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10209 pid=0
+11-18 18:34:03.898   554   646 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10209 => denied (797 us)
+11-18 18:34:03.898   554   646 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10209 pid=0
+11-18 18:34:03.899   554   646 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10209 => denied (931 us)
+11-18 18:34:03.899   554   646 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10209 pid=0
+11-18 18:34:03.899   554   646 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10209 => denied (171 us)
+11-18 18:34:03.907   554   578 W ziparchive: Unable to open '/data/app/~~647_3yNL3cd8D7cPDjF1Yg==/com.university.jsnippets-tqXs2vDPCmjp__DGTGnzvw==/base.dm': No such file or directory
+11-18 18:34:03.908   554   578 I ActivityTaskManager: Displayed com.university.jsnippets/.MainActivity for user 0: +638ms
+11-18 18:34:03.913  1156  1156 D BaseDepthController: setSurface:
+11-18 18:34:03.913  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:34:03.913  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:34:03.921  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:34:03.924   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e4a2443
+11-18 18:34:03.927   554  1753 W InputManager-JNI: Input channel object 'e31b47c Splash Screen com.university.jsnippets (client)' was disposed without first being removed with the input manager!
+11-18 18:34:03.945  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:34:03.945  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:34:03.945  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:34:03.945  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:34:03.946  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:34:03.953  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:34:03.971  1156  1169 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae52cdd0 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:34:03.978  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:34:04.066  1415  1426 W ModernMediaScanner: Failed to visit /data/data/com.android.providers.downloads/cache/09252026-sms-denylist-metadata.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/09252026-sms-denylist-metadata.txt
+11-18 18:34:04.088  1208  1208 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+11-18 18:34:04.127  1208  1656 I RegisterSyncOperation: Register sync called by com.google.android.googlequicksearchbox, syncing since something changed [CONTEXT service_id=51 ]
+11-18 18:34:04.128  1208  1656 I HeterodyneSyncer: Removed 0 invalid users [CONTEXT service_id=51 ]
+11-18 18:34:04.150  1208  2222 D TrafficStats: tagSocket(159) with statsTag=0x1203, statsUid=10144
+11-18 18:34:04.166   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:04.186   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:04.190   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10156} in 26ms
+11-18 18:34:04.192   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:04.198  3456  3456 D DB      : 1: Ayesha
+11-18 18:34:04.203   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:04.211   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20156} in 19ms
+11-18 18:34:04.221   554   680 I ImeTracker: com.university.jsnippets:fd864f99: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:34:04.221   554   680 I ImeTracker: com.university.jsnippets:fd864f99: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:34:04.239   554   647 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10210, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:04.245  1208  1723 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:34:04.249  1208  1723 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:34:04.255  1208  1723 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:34:04.259  1208  1225 I FontLog : Pulling font file for id = 7, cache size = 7 [CONTEXT service_id=132 ]
+11-18 18:34:04.265   359   406 I netd    : tetherGetStats() -> {[]} <0.43ms>
+11-18 18:34:04.271  1208  1225 I FontLog : Pulling font file for id = 7, cache size = 7 [CONTEXT service_id=132 ]
+11-18 18:34:04.288   903  1009 D SplashScreenView: Build android.window.SplashScreenView{807f49e V.E...... ......ID 0,0-0,0}
+11-18 18:34:04.288   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:34:04.288   903  1009 D SplashScreenView: Branding: view: android.view.View{81f7b7f G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:34:04.292  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: PAUSED
+11-18 18:34:04.293  3456  3456 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.jsnippets.MainActivity@30c4f6f
+11-18 18:34:04.294   554   581 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10210, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:04.295  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=9, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.jsnippets.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:34:04.296  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:34:04.298   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:34:04.307  1415  1426 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 317ms, 0 inserts 0 updates 0 deletes
+11-18 18:34:04.311  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:34:04.313  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.jsnippets, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:34:04.313  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:34:04.325  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:34:04.339   359   406 I netd    : tetherGetStats() -> {[]} <1.41ms>
+11-18 18:34:04.354   363   363 D Zygote  : Forked child process 3605
+11-18 18:34:04.379  3605  3605 I .jsnippets.test: Late-enabling -Xcheck:jni
+11-18 18:34:04.380   359   406 I netd    : bandwidthSetGlobalAlert(2097152) <0.11ms>
+11-18 18:34:04.395   359   406 I netd    : bandwidthRemoveInterfaceQuota(eth0) <0.61ms>
+11-18 18:34:04.396   359   406 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <0.83ms>
+11-18 18:34:04.416  1892  1897 I .android.as.oss: Background concurrent mark compact GC freed 26MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 18MB/36MB, paused 236us,603us total 453.077ms
+11-18 18:34:04.420  3605  3605 I .jsnippets.test: Using CollectorTypeCMC GC.
+11-18 18:34:04.427   359   406 I netd    : bandwidthRemoveInterfaceQuota(eth0) <1.38ms>
+11-18 18:34:04.430  3605  3605 W .jsnippets.test: Unexpected CPU variant for x86: x86_64.
+11-18 18:34:04.430  3605  3605 W .jsnippets.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:34:04.430   359   406 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <2.17ms>
+11-18 18:34:04.437   438   453 I adbd    : jdwp connection from 3605
+11-18 18:34:04.452  3605  3605 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:34:04.453   554   817 D NetworkStatsObservers: Registering observer for RequestInfo from pid/uid:554/1000(android) for DataUsageRequest [ requestId=7, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3560234 ] accessLevel:3
+11-18 18:34:04.454   554   902 D NetworkStatsObservers: Unregistering RequestInfo from pid/uid:554/1000(android) for DataUsageRequest [ requestId=6, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3562745 ] accessLevel:3
+11-18 18:34:04.463  1744  1909 V DownloadManager: Deleting /data/data/com.android.providers.downloads/cache/09252026-sms-denylist.txt via provider delete
+11-18 18:34:04.470  1415  1426 W ModernMediaScanner: Failed to visit /data/data/com.android.providers.downloads/cache/09252026-sms-denylist.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/09252026-sms-denylist.txt
+11-18 18:34:04.486  3456  3456 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:34:04.501   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:04.502   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:04.502   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10177} in 28ms
+11-18 18:34:04.502   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:04.502   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:04.502   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20177} in 1ms
+11-18 18:34:04.521   554  3614 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:04.522   554  3614 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:04.534   554  3614 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:34:04.544  1415  1426 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 73ms, 0 inserts 0 updates 0 deletes
+11-18 18:34:04.548   359   406 I netd    : tetherGetStats() -> {[]} <1.68ms>
+11-18 18:34:04.622  3605  3605 W ziparchive: Unable to open '/data/app/~~WUWSz2tIw6Roc8RL53hkuQ==/com.university.jsnippets.test-1XGxao2SxIhKxd6_QbjPdA==/base.dm': No such file or directory
+11-18 18:34:04.624  3605  3605 W ziparchive: Unable to open '/data/app/~~WUWSz2tIw6Roc8RL53hkuQ==/com.university.jsnippets.test-1XGxao2SxIhKxd6_QbjPdA==/base.dm': No such file or directory
+11-18 18:34:04.690  3605  3605 D nativeloader: Configuring clns-7 for other apk /data/app/~~WUWSz2tIw6Roc8RL53hkuQ==/com.university.jsnippets.test-1XGxao2SxIhKxd6_QbjPdA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~WUWSz2tIw6Roc8RL53hkuQ==/com.university.jsnippets.test-1XGxao2SxIhKxd6_QbjPdA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.university.jsnippets.test
+11-18 18:34:04.713  3605  3605 V GraphicsEnvironment: Currently set values for:
+11-18 18:34:04.714  3605  3605 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:34:04.714  3605  3605 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:34:04.714  3605  3605 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:34:04.715  3605  3605 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:34:04.787  2795  3496 I ConfigUpdater: Update downloaded, starting installation
+11-18 18:34:04.807  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: STOPPED
+11-18 18:34:04.808  3605  3605 W HWUI    : Unknown dataspace 0
+11-18 18:34:04.808  3456  3456 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.jsnippets.MainActivity@30c4f6f
+11-18 18:34:04.812  3456  3456 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@30c4f6f in: DESTROYED
+11-18 18:34:04.813  3456  3456 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:34:04.813  3456  3540 I TestRunner: finished: b_crud(com.university.jsnippets.SnippetsTest)

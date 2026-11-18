@@ -1,0 +1,351 @@
+11-18 18:37:01.525  7183  7206 I TestRunner: started: a_insertAndList(com.university.lab07.Lab07Test)
+11-18 18:37:01.530  7183  7206 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:01.542   554  2264 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:01.563  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:37:01.563  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:37:01.565   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:01.574   903  1009 D SplashScreenView: Build android.window.SplashScreenView{85b1f10 V.E...... ......ID 0,0-0,0}
+11-18 18:37:01.574   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:01.574   903  1009 D SplashScreenView: Branding: view: android.view.View{8a34a09 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:01.581  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=45, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab07/.MainActivity }
+11-18 18:37:01.621  1156  1557 D EGL_emulation: app_time_stats: avg=351.18ms min=70.18ms max=868.71ms count=3
+11-18 18:37:01.657  1156  1557 D EGL_emulation: app_time_stats: avg=1940.40ms min=147.37ms max=3733.43ms count=2
+11-18 18:37:01.662  7183  7183 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:37:01.671  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:01.676  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: PRE_ON_CREATE
+11-18 18:37:01.677  7183  7183 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:01.678   903  1024 D EGL_emulation: app_time_stats: avg=1652.14ms min=1652.14ms max=1652.14ms count=1
+11-18 18:37:01.682  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:37:01.737  7183  7183 W niversity.lab07: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-18 18:37:01.784  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: CREATED
+11-18 18:37:01.785  7183  7183 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@de4d350
+11-18 18:37:01.788  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: STARTED
+11-18 18:37:01.789  7183  7183 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@de4d350
+11-18 18:37:01.791  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: RESUMED
+11-18 18:37:01.791  7183  7183 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@de4d350
+11-18 18:37:01.797  7183  7183 W HWUI    : Unknown dataspace 0
+11-18 18:37:01.829   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10225 pid=0
+11-18 18:37:01.829   430  1130 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10225 => denied (133 us)
+11-18 18:37:01.830   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10225 pid=0
+11-18 18:37:01.830   430  1130 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10225 => denied (161 us)
+11-18 18:37:01.830   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10225 pid=0
+11-18 18:37:01.830   430  1130 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10225 => denied (207 us)
+11-18 18:37:01.833  7183  7209 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:01.833  7183  7209 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:01.839  7183  7209 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:01.840  7183  7183 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:37:01.853   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:01.854  7183  7209 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:01.881  7183  7187 I niversity.lab07: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-18 18:37:02.123  7183  7187 I niversity.lab07: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:37:02.309   554  1843 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10225 pid=0
+11-18 18:37:02.309   554  1843 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10225 => denied (79 us)
+11-18 18:37:02.309   554  1843 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10225 pid=0
+11-18 18:37:02.309   554  1843 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10225 => denied (10 us)
+11-18 18:37:02.309   554  1843 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10225 pid=0
+11-18 18:37:02.309   554  1843 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10225 => denied (8 us)
+11-18 18:37:02.312   554   578 W ziparchive: Unable to open '/data/app/~~uzrTm-j6JEk26BJ-PhlLKg==/com.university.lab07-yXCmCVptTfgqHtmqKQsF9g==/base.dm': No such file or directory
+11-18 18:37:02.314   554   578 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity for user 0: +772ms
+11-18 18:37:02.324   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@33b1c3c
+11-18 18:37:02.325   554  2296 W InputManager-JNI: Input channel object 'b0f9f04 Splash Screen com.university.lab07 (client)' was disposed without first being removed with the input manager!
+11-18 18:37:02.326  1156  1156 D BaseDepthController: setSurface:
+11-18 18:37:02.326  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:37:02.326  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:37:02.326  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:37:02.328  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:37:02.328  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:37:02.328  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:37:02.328  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:37:02.329  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:37:02.335  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:37:02.336  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:37:02.338  1156  5639 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae508f50 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:37:02.341   554   680 I ImeTracker: com.university.lab07:ce19a8b6: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:02.342   554   680 I ImeTracker: com.university.lab07:ce19a8b6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:02.344  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:02.346  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:02.346  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab07, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:02.348  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:02.348  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:02.354  1208  1723 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:37:02.354  1208  1723 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:37:02.357  1208  1723 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:37:02.359  1208  1723 I FontLog : Pulling font file for id = 29, cache size = 14 [CONTEXT service_id=132 ]
+11-18 18:37:02.361  1208  1723 I FontLog : Pulling font file for id = 29, cache size = 14 [CONTEXT service_id=132 ]
+11-18 18:37:02.376  7183  7206 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-18 18:37:02.388  7114  7114 I AidlLazyServiceRegistrar: Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+11-18 18:37:02.388  7114  7114 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:37:02.398  7114  7114 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-18 18:37:02.412  7183  7183 W niversity.lab07: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+11-18 18:37:02.412  7183  7183 W niversity.lab07: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+11-18 18:37:02.413  7183  7183 W niversity.lab07: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+11-18 18:37:02.416  7183  7183 I ViewInteraction: Performing 'replace text(Ayesha)' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:37:02.427  1323  1323 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():73 initialize...
+11-18 18:37:02.427  1323  1323 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():72 onContentChanged()
+11-18 18:37:02.427  1323  1323 I ContactsDataManager: ContactsDataManager.onContentChanged():159 onContentChanged()
+11-18 18:37:02.428  1323  1323 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():83 initialize...done
+11-18 18:37:02.429  1323  2405 I AndroidSpellCheckerService: AndroidSpellCheckerService.createSession():139 com.google.android.keyboard.client.delight5.LanguageIdentifier@5963f67 is created
+11-18 18:37:02.440  7183  7183 I AssistStructure: Flattened final assist data: 1816 bytes, containing 1 windows, 11 views
+11-18 18:37:02.443  7183  7183 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:37:02.445  7183  7183 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@34ee325]
+11-18 18:37:02.446  7183  7183 I ImeTracker: com.university.lab07:b72a61be: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+11-18 18:37:02.447   554   680 I ImeTracker: com.university.lab07:b72a61be: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:02.711  1483  1509 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae4f5420 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:37:02.752  7183  7183 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@34ee325]
+11-18 18:37:02.754  7183  7206 W niversity.lab07: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+11-18 18:37:02.755  7183  7183 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.university.lab07:id/button_add>
+11-18 18:37:02.757  7183  7223 W niversity.lab07: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+11-18 18:37:02.780   554   590 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:02.784  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:02.784  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:02.787  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:02.787  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:02.788   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:02.788   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:02.788   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:02.789   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:02.793  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:02.878   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:02.879   554  2294 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:02.926   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:37:03.039   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:03.117  7183  7183 I ViewInteraction: Performing 'replace text(Bilal)' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:37:03.133  7183  7183 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:37:03.134  7183  7183 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@a8bd77f]
+11-18 18:37:03.136  7183  7183 I ImeTracker: com.university.lab07:769cab19: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+11-18 18:37:03.137   554   680 I ImeTracker: com.university.lab07:769cab19: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:03.176  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chromesync.service.firstparty.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:37:03.417  7183  7209 D EGL_emulation: app_time_stats: avg=107.20ms min=1.22ms max=435.57ms count=10
+11-18 18:37:03.445   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:03.445   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:03.445   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 1ms
+11-18 18:37:03.446   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:03.446   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:03.446   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20145} in 0ms
+11-18 18:37:03.684  7183  7183 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@a8bd77f]
+11-18 18:37:03.686  7183  7183 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.university.lab07:id/button_add>
+11-18 18:37:03.729   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:03.730   554  2264 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:03.946   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:03.985   554  2264 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:03.989   903  1009 D SplashScreenView: Build android.window.SplashScreenView{da80e9 V.E...... ......ID 0,0-0,0}
+11-18 18:37:03.989   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:03.989   903  1009 D SplashScreenView: Branding: view: android.view.View{d86116e G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:03.990   554   581 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:03.992  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=46, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:37:03.992  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: PAUSED
+11-18 18:37:03.993  7183  7183 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@de4d350
+11-18 18:37:03.998   363   363 D Zygote  : Forked child process 7225
+11-18 18:37:03.998   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:04.005   359   359 I netd    : tetherGetStats() -> {[]} <0.33ms>
+11-18 18:37:04.024  7225  7225 I sity.lab07.test: Late-enabling -Xcheck:jni
+11-18 18:37:04.047  7225  7225 I sity.lab07.test: Using CollectorTypeCMC GC.
+11-18 18:37:04.051  7225  7225 W sity.lab07.test: Unexpected CPU variant for x86: x86_64.
+11-18 18:37:04.051  7225  7225 W sity.lab07.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:04.054   438   453 I adbd    : jdwp connection from 7225
+11-18 18:37:04.056  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService pkg=com.google.android.gms }
+11-18 18:37:04.057  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.languageprofile.service.START pkg=com.google.android.gms }
+11-18 18:37:04.063  7225  7225 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:04.074  1208  1208 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START pkg=com.google.android.gms }
+11-18 18:37:04.074  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.locationsharingreporter.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:37:04.075  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+11-18 18:37:04.075  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:37:04.109  7183  7183 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:04.109  7225  7225 W ziparchive: Unable to open '/data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/base.dm': No such file or directory
+11-18 18:37:04.110  7225  7225 W ziparchive: Unable to open '/data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/base.dm': No such file or directory
+11-18 18:37:04.126  7225  7225 D nativeloader: Configuring clns-7 for other apk /data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.university.lab07.test
+11-18 18:37:04.135  7225  7225 V GraphicsEnvironment: Currently set values for:
+11-18 18:37:04.135  7225  7225 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:37:04.135  7225  7225 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:37:04.135  7225  7225 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:37:04.137  1455  7092 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:37:04.137  7225  7225 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:37:04.175  7225  7225 W HWUI    : Unknown dataspace 0
+11-18 18:37:04.178  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: STOPPED
+11-18 18:37:04.178  7183  7183 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@de4d350
+11-18 18:37:04.178  7183  7183 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:37:04.179  3682  3682 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1478866037
+11-18 18:37:04.181  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@de4d350 in: DESTROYED
+11-18 18:37:04.181  7183  7183 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:04.184  7183  7206 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:04.195  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+11-18 18:37:04.198  7183  7183 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7b35463
+11-18 18:37:04.206   554  2264 W InputManager-JNI: Input channel object '6666e82 com.university.lab07/com.university.lab07.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:04.207  1323  4075 I SpellCheckerSession: SpellCheckerSession.onClose():676 com.google.android.keyboard.client.delight5.LanguageIdentifier@5963f67 is closed
+11-18 18:37:04.207   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10226 pid=0
+11-18 18:37:04.207   430  1130 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10226 => denied (843 us)
+11-18 18:37:04.207   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10226 pid=0
+11-18 18:37:04.207   430  1130 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10226 => denied (90 us)
+11-18 18:37:04.207   430  1130 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10226 pid=0
+11-18 18:37:04.207   430  1130 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10226 => denied (242 us)
+11-18 18:37:04.208   430   440 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10226 pid=7225
+11-18 18:37:04.208   430   440 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10226 => denied (2295 us)
+11-18 18:37:04.211   554  1743 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:04.215   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:04.223  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=45
+11-18 18:37:04.223  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=45
+11-18 18:37:04.223  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=47, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab07/.MainActivity }
+11-18 18:37:04.224   903  1009 D SplashScreenView: Build android.window.SplashScreenView{f099e0b V.E...... ......ID 0,0-0,0}
+11-18 18:37:04.224   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:04.224   903  1009 D SplashScreenView: Branding: view: android.view.View{cc1d4e8 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:04.231  7225  7245 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:04.235  7225  7245 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:04.242  7225  7245 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:04.263   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:04.263  7225  7245 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:04.348   554  1743 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10226 pid=0
+11-18 18:37:04.348   554  1743 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10226 => denied (498 us)
+11-18 18:37:04.349   554  1743 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10226 pid=0
+11-18 18:37:04.349   554  1743 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10226 => denied (25 us)
+11-18 18:37:04.349   554  1743 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10226 pid=0
+11-18 18:37:04.349   554  1743 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10226 => denied (9 us)
+11-18 18:37:04.369  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: PRE_ON_CREATE
+11-18 18:37:04.369  7183  7183 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:04.374  7225  7225 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:04.379  7183  7183 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:37:04.392   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dfa7288
+11-18 18:37:04.393   554  2264 W InputManager-JNI: Input channel object 'f94a024 Splash Screen com.university.lab07.test (client)' was disposed without first being removed with the input manager!
+11-18 18:37:04.393  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: CREATED
+11-18 18:37:04.394  7183  7183 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@b0702bd
+11-18 18:37:04.395  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: STARTED
+11-18 18:37:04.395  7183  7183 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@b0702bd
+11-18 18:37:04.396  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: RESUMED
+11-18 18:37:04.396  7183  7183 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@b0702bd
+11-18 18:37:04.409  7183  7183 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:37:04.422   554   578 W ziparchive: Unable to open '/data/app/~~uzrTm-j6JEk26BJ-PhlLKg==/com.university.lab07-yXCmCVptTfgqHtmqKQsF9g==/base.dm': No such file or directory
+11-18 18:37:04.424   554   578 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity for user 0: +211ms
+11-18 18:37:04.426  7225  7225 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2b854ee
+11-18 18:37:04.427   554  1743 W InputManager-JNI: Input channel object '1b12bd9 com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:04.430  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=46
+11-18 18:37:04.430  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=46
+11-18 18:37:04.440   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9b20fe7
+11-18 18:37:04.440   554   680 I ImeTracker: com.university.lab07:bb8e7abd: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:04.440   554  2264 W InputManager-JNI: Input channel object 'a7bd49 Splash Screen com.university.lab07 (client)' was disposed without first being removed with the input manager!
+11-18 18:37:04.441   554   680 I ImeTracker: com.university.lab07:bb8e7abd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:04.443  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:04.443  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:04.444  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab07, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:04.444  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:04.444  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:04.445  1323  1323 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():240 startImportContentTask()
+11-18 18:37:04.446  1323  1677 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():255 doInBackground()
+11-18 18:37:04.446  1323  1677 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():114 LanguageTags = [en-US]
+11-18 18:37:04.458  1323  1677 I ShortcutsDataManager: AbstractContentDataManager.importRecords():345 importRecords() : Success : Count = 0
+11-18 18:37:04.459  1323  1677 I ShortcutsDataManager: AbstractContentDataManager.importContentData():295 importContentData() : Ending import process
+11-18 18:37:04.462  1323  1677 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():165 run() : Added 0 words and 0 shortcuts
+11-18 18:37:04.462  1323  1677 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():43 perform() : 4 : dxm : Completed
+11-18 18:37:04.462  1323  1323 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():266 onPostExecute() : Result = [2,0]
+11-18 18:37:04.463  1323  1323 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():82 onImportFinished() : Result = 2 : Count = 0
+11-18 18:37:04.470  7183  7183 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Ayesha"
+11-18 18:37:04.474  7183  7183 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bilal"
+11-18 18:37:04.672  7225  7235 I sity.lab07.test: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:37:04.686   903  1024 D EGL_emulation: app_time_stats: avg=1503.46ms min=12.21ms max=2994.71ms count=2
+11-18 18:37:05.177  7183  7206 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:37:05.178  7183  7206 I UiAutomation: Initialized for user 0 on display 0
+11-18 18:37:05.181  1397  4400 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:37:05.182  7183  7256 V UiAutomation: Init UiAutomation@2df556e[id=9, displayId=0, flags=0]
+11-18 18:37:05.185  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:05.185  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:05.185  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:05.185  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.185  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.185  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:05.185  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:05.185  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:05.185  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:05.185  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.186  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.186  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:05.186  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:37:05.186  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:37:05.186   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.187  7183  7206 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:37:05.187   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.187   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.188   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.189  1397  4400 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:37:05.190   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.190   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.190   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.190   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.190   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.191   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.191   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.191   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.192  7183  7206 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:05.193   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.193   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.193   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.195  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:37:05.195  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.195  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.197  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.197  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:37:05.197  1483  1813 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+11-18 18:37:05.197  1483  1813 I A       : (REDACTED) Nga state changed to %s
+11-18 18:37:05.198  1483  1813 I A       : (REDACTED) isTngActive=%s
+11-18 18:37:05.206  7183  7206 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab07_list.png
+11-18 18:37:05.207  1443  1873 I A       : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:37:05.207  1443  1873 I A       : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:37:05.207  1443  1873 I A       : Unsubscribed to apa or classic variant change.
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:05.212  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:05.212  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.212  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:05.213  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:37:05.213  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:37:05.215   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:37:05.215   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:37:05.216   904  1211 D AccessibilitySourceService: enabled a11y services count 0
+11-18 18:37:05.216   904  1211 D AccessibilitySourceService: a11y source sending 0 issue to sc
+11-18 18:37:05.216   554  1012 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+11-18 18:37:05.218  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:37:05.218  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.218  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.218  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.218  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:37:05.258  7261  7261 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:37:05.258  7261  7261 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:37:05.265   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:05.265  7261  7265 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:05.284  1415  1685 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:37:05.303  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+11-18 18:37:05.309  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+11-18 18:37:05.315   554  1012 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:37:05.316   554  2264 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:37:05.318   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:37:05.319  1415  1855 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:05.324  1415  1855 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:05.330  1415  1625 D WM-SystemJobScheduler: Scheduling work ID d8a5e3a1-ac2e-45a0-bf09-714485c85db5Job ID 29
+11-18 18:37:05.331  7183  7206 I LABCI   : screenshot lab07_list
+11-18 18:37:05.332  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:05.332  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:05.336   554  1808 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:05.340   903  1009 D SplashScreenView: Build android.window.SplashScreenView{5bd4306 V.E...... ......ID 0,0-0,0}
+11-18 18:37:05.340   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:05.340   903  1009 D SplashScreenView: Branding: view: android.view.View{8a58dc7 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:05.342  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=48, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:37:05.343  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: PAUSED
+11-18 18:37:05.344  7183  7183 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@b0702bd
+11-18 18:37:05.359   359   359 I netd    : tetherGetStats() -> {[]} <1.42ms>
+11-18 18:37:05.378  1208  7022 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+11-18 18:37:05.380  1208  7022 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 18 uptime_millis: 18 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+11-18 18:37:05.390  7183  7183 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:05.398  7225  7245 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:05.401  7225  7245 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:05.406  7225  7245 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:05.481  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: STOPPED
+11-18 18:37:05.481  7183  7183 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@b0702bd
+11-18 18:37:05.482  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@b0702bd in: DESTROYED
+11-18 18:37:05.482  7183  7183 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:05.482  7183  7183 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@25c347d
+11-18 18:37:05.483   554  1743 W InputManager-JNI: Input channel object '3f465f com.university.lab07/com.university.lab07.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:05.492  7183  7206 I TestRunner: finished: a_insertAndList(com.university.lab07.Lab07Test)

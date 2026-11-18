@@ -1,0 +1,480 @@
+11-18 18:38:51.802  7786  7799 I TestRunner: started: d_powerReceiver(com.university.lab08.Lab08Test)
+11-18 18:38:51.805   607   638 W HWUI    : Image decoding logging dropped!
+11-18 18:38:51.806   607  2109 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10234, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:38:51.812  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{e619843 V.E...... ......ID 0,0-0,0}
+11-18 18:38:51.812  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:38:51.812  1013  1113 D SplashScreenView: Branding: view: android.view.View{2c46ec0 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:38:51.813  7786  7799 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:38:51.814  7786  7799 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:38:51.816   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:51.816   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:51.818  1253  1253 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:38:51.818  1253  1253 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:38:51.824  7786  7786 I niversity.lab08: AssetManager2(0x70339c21d338) locale list changing from [] to [en-US]
+11-18 18:38:51.825  7786  7786 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@f5675cc in: PRE_ON_CREATE
+11-18 18:38:51.827   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:38:51.841  7786  7786 W HWUI    : Image decoding logging dropped!
+11-18 18:38:51.858  7786  7786 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@f5675cc in: CREATED
+11-18 18:38:51.859  7786  7786 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@f5675cc in: STARTED
+11-18 18:38:51.860  7786  7786 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:38:51.860  7786  7786 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@f5675cc in: RESUMED
+11-18 18:38:51.864  1253  1253 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:38:51.881  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:38:51.893   607   666 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity for user 0: +87ms
+11-18 18:38:51.902   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:51.902   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:51.904  1253  1253 D BaseDepthController: setSurface:
+11-18 18:38:51.904  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:38:51.904  1253  1253 D BaseDepthController: 	mBaseSurface: null
+11-18 18:38:51.904  1253  1253 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:38:51.904  1253  1253 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:38:51.904  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:4)
+11-18 18:38:51.904  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:1)
+11-18 18:38:51.904  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:34)
+11-18 18:38:51.905  1253  1253 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:38:51.907  1253  1253 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:38:51.916   607   768 I ImeTracker: com.university.lab08:514add0a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:38:51.918  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:38:51.918  7786  7786 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:38:51.918  7786  7786 I ImeTracker: com.university.lab08:514add0a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:38:51.919  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:38:51.919  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab08, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:38:51.919   607  1160 I ImeTracker: system_server:2e0ab327: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:38:51.920  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:38:51.920  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:38:51.920   607   669 I ImeTracker: system_server:2e0ab327: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:38:52.596   607  2085 W JobInfo : Job 'com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService#1043' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:38:52.617  7289  8015 I XmpUtil : XMP parse: only JPEG file is supported
+11-18 18:38:52.633   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:52.635   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:52.635   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10195} in 2ms
+11-18 18:38:52.844   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:52.845   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:52.845   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10135} in 1ms
+11-18 18:38:52.889   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:52.889   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:52.889   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 0ms
+11-18 18:38:53.114  1188  1429 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+11-18 18:38:53.424  7786  7799 D UiDevice: Executing shell command: dumpsys battery unplug
+11-18 18:38:53.431  8018  8018 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: battery
+11-18 18:38:53.433   607   685 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+11-18 18:38:53.437  1013  1013 D DLObserver: onReceive(); android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:53.440  1013  1013 D DLObserver: onReceive(); android.intent.action.BATTERY_CHANGED
+11-18 18:38:53.440  1013  1013 D DLObserver: plugged=0
+11-18 18:38:53.443  1240  1240 D BatteryUsageBroadcastReceiver: onReceive:android.intent.action.BATTERY_LEVEL_CHANGED
+11-18 18:38:53.448  1013  1013 D SystemEventDataSource: onReceive: intentAction
+11-18 18:38:53.450  1013  1013 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.BATTERY_CHANGED
+11-18 18:38:53.451  1013  1013 D PulsarController: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:53.451  1013  1013 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:53.451  1013  1013 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:53.452  1013  1013 D PulsarController: dispatchIntent: android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:53.453  1013  1013 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:53.454  1013  1134 E ServiceManager: error in isDeclared
+11-18 18:38:53.454  1013  1134 E ServiceManager: java.lang.SecurityException: SELinux denied for service.
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3340)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.Parcel.createException(Parcel.java:3324)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3307)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3249)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.IServiceManager$Stub$Proxy.isDeclared(IServiceManager.java:656)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.ServiceManagerProxy.isDeclared(ServiceManagerNative.java:104)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.ServiceManager.isDeclared(ServiceManager.java:297)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at android.os.ServiceManager.waitForDeclaredService(ServiceManager.java:353)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at com.google.android.systemui.googlebattery.GoogleBatteryManager.initHalInterface(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:16)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at com.google.android.systemui.power.batteryevent.repository.SystemEventDataSource$processIntent$2.invokeSuspend(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:139)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:8)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at kotlinx.coroutines.DispatchedTask.run(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:112)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:38:53.454  1013  1134 E ServiceManager: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:38:53.454  1013  1134 D GoogleBatteryDataSource: fetchDwellDefendStatus: null googleBattery
+11-18 18:38:53.454  1013  1134 D GoogleBatteryDataSource: fetchTempDefendStatus: null googleBattery
+11-18 18:38:53.457  1013  1013 D KeyguardIndicationGoogle: isChargeLimitEnabled= false, user= 0
+11-18 18:38:53.458  1013  1134 D SystemEventDataSource: updatedEventData: SystemEventData(intentAction=android.intent.action.BATTERY_CHANGED, plugged=EventData(value=0), batteryScale=EventData(value=100), batteryLevel=EventData(value=100), chargingStatus=EventData(value=0), maxChargingCurrent=EventData(value=5000000), maxChargingVoltage=EventData(value=5000000), batteryStatus=EventData(value=2), halEventData=HalEventData(dockDefendStatus=EventData(value=-3), tempDefendEventData=EventData(value=false), dwellDefendEventData=EventData(value=false)), settingsEventData=SettingsEventData(dockDefenderBypass=EventData(value=0), chargingLimitSettings=EventData(value=0), dndState=EventData(value=false), airplaneState=EventData(value=false)), frameworkApiEventData=FrameworkApiEventData(batterySaverState=EventData(value=false), extremeBatterySaverState=EventData(value=false)))
+11-18 18:38:53.458  1013  1134 D ChargingLimitEventModule: validate()=false, chargingStatus=0
+11-18 18:38:53.458  1013  1134 D DwellDefendBatteryModule: validate: false -> false
+11-18 18:38:53.458  1013  1134 D DockDefendBatteryModule: not DockDefend -> plugged: 0
+11-18 18:38:53.459  1013  1134 D TempDefendBatteryModule: validate: false -> false
+11-18 18:38:53.459  1013  1140 D BatteryEventService: collect BatteryEvents: BatteryEvents(eventTypes=[NOT_CHARGING], batteryLevel=100, pluggedType=0)
+11-18 18:38:53.460  1013  1140 D BatteryEventService: notifyForBatteryEventsUpdate: BatteryEvents(eventTypes=[NOT_CHARGING], batteryLevel=100, pluggedType=0)
+11-18 18:38:53.460  1013  1140 D BatteryEventService: AIDL callback listeners count: 1
+11-18 18:38:53.460  1013  1140 D BatteryEventService: aidlCallback: NOTIFICATION, events: []
+11-18 18:38:53.460  1013  1140 D BatteryEventClient: [PowerNotificationWarningsGoogleImpl] onBatteryEventChanged: [], batteryLevel: 100
+11-18 18:38:53.460  1013  1140 D PowerNotificationWarningsGoogleImpl: [onBatteryEventUpdate] []
+11-18 18:38:53.460  1013  1140 D BatteryDefenderNotification: onNonDefenderEvent: charged: true
+11-18 18:38:53.460  1013  1140 D DwellTempDefenderNotification: swipeNotificationByUser, postNotificationVisible:false->false
+11-18 18:38:53.461  1013  1140 D BatteryEventService: notify AIDL callback to null, cost: 1 ms
+11-18 18:38:53.461  1013  1140 I BatteryEventService: notify all AIDL callbacks, cost: 1 ms
+11-18 18:38:53.461  1013  1140 D BatteryEventService: BatteryEventsListener (broadcast) count: 0
+11-18 18:38:53.461  1013  1140 I BatteryEventService: notify all broadcast intent, cost: 0 ms
+11-18 18:38:53.465   607  1160 E ActivityManager: Sending non-protected broadcast com.android.settings.battery.action.ACTION_BATTERY_UNPLUGGING from system 1013:com.android.systemui/u0a185 pkg com.android.systemui
+11-18 18:38:53.465   607  1160 E ActivityManager: java.lang.Throwable
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2141)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1646)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14408)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2888)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2735)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+11-18 18:38:53.465   607  1160 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1365)
+11-18 18:38:53.467  1240  1240 D BatteryUsageBroadcastReceiver: onReceive:com.android.settings.battery.action.ACTION_BATTERY_UNPLUGGING
+11-18 18:38:53.473  1240  1240 D BatteryUsageBroadcastReceiver: fetch data because of event: ACTION_POWER_DISCONNECTED
+11-18 18:38:53.475  1240  8024 D BatteryUsageDataLoader: loadUsageDataSafely() in the AsyncTask
+11-18 18:38:53.484   607  1160 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=358243 mSleepTimeMs=42 mIdleTimeMs=14 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[1, 3, 6, 8, 9],mRxTimeMs=9}]}
+11-18 18:38:53.485  1240  1240 D BootBroadcastReceiver: refresh periodic job from action=com.android.settings.battery.action.PERIODIC_JOB_RECHECK
+11-18 18:38:53.486  1240  1240 D PeriodicJobManager: schedule next alarm job at Nov 18, 2026, 19:00:00
+11-18 18:38:53.494   447   470 I netd    : tetherGetStats() -> {[]} <0.27ms>
+11-18 18:38:53.498  1240  8023 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@d4831087
+11-18 18:38:53.498  1240  8023 D DatabaseUtils: battery_level: 100
+11-18 18:38:53.498  1240  8023 D DatabaseUtils: timestamp: 1795027133467
+11-18 18:38:53.498  1240  8023 D DatabaseUtils: type: POWER_DISCONNECTED
+11-18 18:38:53.498  1240  8023 D DatabaseUtils: sendBatteryEventData() in 22/ms
+11-18 18:38:53.541   447   470 I netd    : tetherGetStats() -> {[]} <0.23ms>
+11-18 18:38:53.543   607  1160 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=358309 mSleepTimeMs=84 mIdleTimeMs=28 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[2, 6, 12, 16, 18],mRxTimeMs=18}]}
+11-18 18:38:53.558   447   470 I netd    : tetherGetStats() -> {[]} <0.49ms>
+11-18 18:38:53.560   607   685 W AlarmManager: Unrecognized alarm listener com.android.server.power.stats.BatteryStatsImpl$$ExternalSyntheticLambda7@3e96bc7
+11-18 18:38:53.564   607   741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:53.565  1188  1429 D SatelliteController: handleCmdUpdateNtnSignalStrengthReporting: ignore request, satellite is disabled
+11-18 18:38:53.565   607   741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:53.565   607   741 D InetDiagMessage: Destroyed live tcp sockets for uids={} in 1ms
+11-18 18:38:53.566  1240  8024 D DataProcessor: getBatteryUsageStats() from BatteryStatsManager in 84/ms
+11-18 18:38:53.567  1240  8024 W DataProcessor: shouldShowBatteryAttributionList(): 0.1
+11-18 18:38:53.567  1240  8024 W BatteryUsageDataLoader: getBatteryEntryList() returns null or empty content
+11-18 18:38:53.567  1240  8024 D BatteryUsageDataLoader: getBatteryUsageStats() in 92/ms
+11-18 18:38:53.568  1240  8024 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@d403e4a8
+11-18 18:38:53.568  1240  8024 D DatabaseUtils: battery_level: 100
+11-18 18:38:53.568  1240  8024 D DatabaseUtils: timestamp: 1795027133475
+11-18 18:38:53.568  1240  8024 D DatabaseUtils: type: FULL_CHARGED
+11-18 18:38:53.568  1240  8024 D DatabaseUtils: sendBatteryEventData() in 1/ms
+11-18 18:38:53.570  1240  8024 D DatabaseUtils: insert() data into database with isFullChargeStart:true
+11-18 18:38:53.570  1240  8024 D DatabaseUtils: sendBatteryEntryData() size=1 in 2/ms
+11-18 18:38:53.587   447   470 I netd    : tetherGetStats() -> {[]} <0.40ms>
+11-18 18:38:53.590  1240  8024 D PowerUsageFeatureProviderGoogleImpl: mBatteryUsageReattributeEnabled: false
+11-18 18:38:53.590  1240  8024 D PowerUsageFeatureProviderGoogleImpl: mForceHideBatteryReattributeItem: true
+11-18 18:38:53.590  1240  8024 D BatteryUsageDataLoader: loadUsageDataSafely() in 115/ms
+11-18 18:38:53.935  1654  1654 I faht    : (REDACTED) O received %s
+11-18 18:38:53.936  1654  1654 I AmbBrdcstRcvrServClient: (REDACTED) handleRefreshAction(): not handling %s
+11-18 18:38:53.936  1654  1885 I BrdcstRcvrMsgr: (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+11-18 18:38:53.959   607   922 D ConnectivityService: releasing NetworkRequest [ REQUEST id=227, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10146 RequestorUid: 10146 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-18 18:38:53.960   607   922 I ConnectivityService: Update capabilities for net 101 : -FOREGROUND
+11-18 18:38:53.961   447   470 I netd    : networkSetPermissionForNetwork(101, 1) <1.84ms>
+11-18 18:38:53.964   607   922 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:53.964   607   922 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:53.964   607   922 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:53.964   607   922 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:53.971  5875  8032 I A       : Calling beginBinderSession().
+11-18 18:38:53.975  1654  1885 I BrdcstRcvrMsgr: disconnect()
+11-18 18:38:53.975  1654  1885 E BrdcstRcvrMsgr: SvcConn: binder null, could not send broadcast of action
+11-18 18:38:53.978  1349  2237 W EventPredictor: Received an event end, but no corresponding event start exists [CONTEXT service_id=218 ]
+11-18 18:38:54.142   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2437 RxLinkSpeed=2
+11-18 18:38:54.142   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:38:54.142   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:38:54.142   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:54.142   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:54.143   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:38:54.143   607   916 D WifiScoreCard: txRate: 1 txSpeed: 1
+11-18 18:38:54.143   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed -1
+11-18 18:38:54.143   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=1 tx=0.0, 0.0, 0.0 rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:-269195585] score=60
+11-18 18:38:54.936  7786  7799 D UiDevice: Executing shell command: dumpsys battery set ac 1
+11-18 18:38:54.943  8037  8037 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: battery
+11-18 18:38:54.943   607   685 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+11-18 18:38:54.945  7786  7799 D UiDevice: Waiting 4000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QCharger connected\E.*']].
+11-18 18:38:54.946  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:54.950  1013  1013 D DLObserver: onReceive(); android.intent.action.BATTERY_CHANGED
+11-18 18:38:54.950  1013  1013 D DLObserver: plugged=1
+11-18 18:38:54.958  1013  1013 I ndroid.systemui: AssetManager2(0x70339c264af8) locale list changing from [] to [en-US]
+11-18 18:38:54.966  1013  1013 I ndroid.systemui: AssetManager2(0x70339c26abd8) locale list changing from [] to [en-US]
+11-18 18:38:54.970   602   648 D NuPlayerDriver: NuPlayerDriver(0x7c32f47af190) created, clientPid(607)
+11-18 18:38:54.970   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+11-18 18:38:54.971   602   648 D MediaPlayerService: OMX service is not available
+11-18 18:38:54.976  1013  1013 D SystemEventDataSource: onReceive: intentAction
+11-18 18:38:54.978  1013  1134 E ServiceManager: error in isDeclared
+11-18 18:38:54.978  1013  1134 E ServiceManager: java.lang.SecurityException: SELinux denied for service.
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3340)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.Parcel.createException(Parcel.java:3324)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3307)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3249)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.IServiceManager$Stub$Proxy.isDeclared(IServiceManager.java:656)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.ServiceManagerProxy.isDeclared(ServiceManagerNative.java:104)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.ServiceManager.isDeclared(ServiceManager.java:297)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at android.os.ServiceManager.waitForDeclaredService(ServiceManager.java:353)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at com.google.android.systemui.googlebattery.GoogleBatteryManager.initHalInterface(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:16)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at com.google.android.systemui.power.batteryevent.repository.SystemEventDataSource$processIntent$2.invokeSuspend(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:139)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:8)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at kotlinx.coroutines.DispatchedTask.run(go/retraceme 5ef7505f3172d45c77e95a8eba788f1ba3487bafbb4dd5bf3a1ad9be0371fc04:112)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:38:54.978  1013  1134 E ServiceManager: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:38:54.979  1013  1134 D GoogleBatteryDataSource: fetchDwellDefendStatus: null googleBattery
+11-18 18:38:54.979  1013  1134 D GoogleBatteryDataSource: fetchTempDefendStatus: null googleBattery
+11-18 18:38:54.979  1013  1134 D SystemEventDataSource: updatedEventData: SystemEventData(intentAction=android.intent.action.BATTERY_CHANGED, plugged=EventData(value=1), batteryScale=EventData(value=100), batteryLevel=EventData(value=100), chargingStatus=EventData(value=0), maxChargingCurrent=EventData(value=5000000), maxChargingVoltage=EventData(value=5000000), batteryStatus=EventData(value=2), halEventData=HalEventData(dockDefendStatus=EventData(value=-3), tempDefendEventData=EventData(value=false), dwellDefendEventData=EventData(value=false)), settingsEventData=SettingsEventData(dockDefenderBypass=EventData(value=0), chargingLimitSettings=EventData(value=0), dndState=EventData(value=false), airplaneState=EventData(value=false)), frameworkApiEventData=FrameworkApiEventData(batterySaverState=EventData(value=false), extremeBatterySaverState=EventData(value=false)))
+11-18 18:38:54.979  1013  1134 D ChargingLimitEventModule: validate()=false, chargingStatus=0
+11-18 18:38:54.979  1013  1134 D DwellDefendBatteryModule: validate: false -> false
+11-18 18:38:54.979  1013  1134 D DockDefendBatteryModule: not DockDefend -> plugged: 1
+11-18 18:38:54.979  1013  1134 D TempDefendBatteryModule: validate: false -> false
+11-18 18:38:54.979  1013  1140 D BatteryEventService: collect BatteryEvents: BatteryEvents(eventTypes=[FULL_CHARGED, FAST_CHARGING], batteryLevel=100, pluggedType=1)
+11-18 18:38:54.979  1013  1140 D BatteryEventService: notifyForBatteryEventsUpdate: BatteryEvents(eventTypes=[FULL_CHARGED, FAST_CHARGING], batteryLevel=100, pluggedType=1)
+11-18 18:38:54.979  1013  1140 D BatteryEventService: AIDL callback listeners count: 1
+11-18 18:38:54.979  1013  1140 D BatteryEventService: aidlCallback: NOTIFICATION, events: []
+11-18 18:38:54.979  1013  1140 D BatteryEventClient: [PowerNotificationWarningsGoogleImpl] onBatteryEventChanged: [], batteryLevel: 100
+11-18 18:38:54.979  1013  1140 D PowerNotificationWarningsGoogleImpl: [onBatteryEventUpdate] []
+11-18 18:38:54.979  1013  1140 D BatteryDefenderNotification: onNonDefenderEvent: charged: true
+11-18 18:38:54.979  1013  1140 D DwellTempDefenderNotification: swipeNotificationByUser, postNotificationVisible:false->false
+11-18 18:38:54.982  1013  1140 D BatteryEventService: notify AIDL callback to null, cost: 3 ms
+11-18 18:38:54.982  1013  1140 I BatteryEventService: notify all AIDL callbacks, cost: 3 ms
+11-18 18:38:54.982  1013  1140 D BatteryEventService: BatteryEventsListener (broadcast) count: 0
+11-18 18:38:54.983  1013  1140 I BatteryEventService: notify all broadcast intent, cost: 1 ms
+11-18 18:38:54.983   602  8044 D GenericSource: FileSource remote
+11-18 18:38:54.986  1013  1013 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.BATTERY_CHANGED
+11-18 18:38:54.987  1013  1013 D PulsarController: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:54.987  1013  1013 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:54.987  1013  1013 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:38:54.988   607  2085 E ActivityManager: Sending non-protected broadcast com.android.settings.battery.action.ACTION_BATTERY_PLUGGING from system 1013:com.android.systemui/u0a185 pkg com.android.systemui
+11-18 18:38:54.988   607  2085 E ActivityManager: java.lang.Throwable
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2141)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1646)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14408)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2888)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2735)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+11-18 18:38:54.988   607  2085 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1365)
+11-18 18:38:54.988  1013  1013 D PulsarController: dispatchIntent: android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:38:54.990  1240  1240 D BatteryUsageBroadcastReceiver: onReceive:com.android.settings.battery.action.ACTION_BATTERY_PLUGGING
+11-18 18:38:54.990  1013  1013 D PulsarController: Pulsar activity is not enabled. Skip the notifications.
+11-18 18:38:54.991  1013  1013 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:38:54.992  1240  8046 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@e20b567f
+11-18 18:38:54.992  1240  8046 D DatabaseUtils: battery_level: 100
+11-18 18:38:54.992  1240  8046 D DatabaseUtils: timestamp: 1795027134990
+11-18 18:38:54.992  1240  8046 D DatabaseUtils: type: POWER_CONNECTED
+11-18 18:38:54.992  1240  8046 D DatabaseUtils: sendBatteryEventData() in 1/ms
+11-18 18:38:54.992   607   674 D Ringtone: Successfully created local player
+11-18 18:38:54.993   607   674 W Ringtone: Use of stream types is deprecated for operations other than volume control
+11-18 18:38:54.994   607   674 W Ringtone: See the documentation of setStreamType() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-18 18:38:54.994   602   648 D NuPlayerDriver: reset(0x7c32f47af190) at state 4
+11-18 18:38:54.996   602  8042 D NuPlayerDriver: notifyResetComplete(0x7c32f47af190)
+11-18 18:38:54.996   602   602 D NuPlayerDriver: reset(0x7c32f47af190) at state 0
+11-18 18:38:54.997   607   674 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:38:54.997   607   674 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:38:54.998   607   674 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:38:54.998   607   674 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:38:55.000   602   648 D NuPlayerDriver: NuPlayerDriver(0x7c32f47b1110) created, clientPid(607)
+11-18 18:38:55.000   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+11-18 18:38:55.001   602   648 D MediaPlayerService: OMX service is not available
+11-18 18:38:55.004   602  8051 D GenericSource: FileSource remote
+11-18 18:38:55.007   607   674 D Ringtone: Successfully created local player
+11-18 18:38:55.008   602  8049 I GenericSource: start
+11-18 18:38:55.009   607   607 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:38:55.009   607   607 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:38:55.014   602  8055 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:38:55.016   602  8055 I CCodec  : setting up 'default' as default (vendor) store
+11-18 18:38:55.018   602  6878 D BufferPoolAccessor2.0: bufferpool2 0x7c32947a7978 : 0(0 size) total buffers - 0(0 size) used buffers - 93/101 (recycle/alloc) - 8/198 (fetch/transfer)
+11-18 18:38:55.018   602  6878 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7c32947a7978 cached: 0/0M, 0/0% in use; allocs: 101, 92% recycled; transfers: 198, 96% unfetched
+11-18 18:38:55.018   602  8055 I CCodec  : Created component [c2.android.vorbis.decoder] for [c2.android.vorbis.decoder]
+11-18 18:38:55.019   602  8055 D CCodecConfig: read media type: audio/vorbis
+11-18 18:38:55.019   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:38:55.020   602  8055 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:38:55.021   602  8055 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+11-18 18:38:55.021   602  8055 D CCodecConfig: c2 config diff is Dict {
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:38:55.021   602  8055 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+11-18 18:38:55.021   602  8055 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:38:55.021   602  8055 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:38:55.021   602  8055 D CCodecConfig: }
+11-18 18:38:55.026   602  8054 W ServiceManagerCppClient: Failed to get isDeclared for media_quality: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+11-18 18:38:55.026   602  8054 E MediaCodec: Media Quality Service not found.
+11-18 18:38:55.027   602  8055 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:38:55.027   602  8055 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:38:55.027   602  8055 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:38:55.027   602  8055 D CCodecConfig: no c2 equivalents for flags
+11-18 18:38:55.031   602  8055 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 120000
+11-18 18:38:55.031   602  8055 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:38:55.031   602  8055 D CCodec  : encoding statistics level = 0
+11-18 18:38:55.031   602  8055 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t bitrate = 120000
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t channel-count = 1
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:38:55.031   602  8055 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:38:55.031   602  8055 D CCodec  : }
+11-18 18:38:55.031   602  8055 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t channel-count = 1
+11-18 18:38:55.031   602  8055 D CCodec  :   string mime = "audio/raw"
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t channel-mask = 1
+11-18 18:38:55.031   602  8055 D CCodec  :   int32_t android._config-pcm-encoding = 2
+11-18 18:38:55.031   602  8055 D CCodec  : }
+11-18 18:38:55.032   602  8055 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+11-18 18:38:55.032   602  8055 E mediaserver: Failed to query component interface for required system resources: 6
+11-18 18:38:55.033   602  8055 I MediaCodec: MediaCodec will operate in async mode
+11-18 18:38:55.033   602  8054 D MediaCodec: keep callback message for reclaim
+11-18 18:38:55.033   602  8055 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:38:55.033   602  8055 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:38:55.034   602  8055 D CCodecBufferChannel: [c2.android.vorbis.decoder#490] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+11-18 18:38:55.035   602  8055 I CCodecBufferChannel: [c2.android.vorbis.decoder#490] Created output block pool with allocatorID 16 => poolID 40 - OK
+11-18 18:38:55.035   602  8055 D CCodecBufferChannel: [c2.android.vorbis.decoder#490] Configured output block pool ids 40 => OK
+11-18 18:38:55.035   606  1749 E Codec2-ComponentInterface: We have a failed config
+11-18 18:38:55.037   606  1065 D BufferPoolAccessor2.0: bufferpool2 0x709cfecdece8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+11-18 18:38:55.037   606  1065 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x709cfecdece8 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+11-18 18:38:55.040   606  8057 D SimpleC2Component: Using output block pool with poolID 40 => got 40 - 0
+11-18 18:38:55.043   518   532 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+11-18 18:38:55.044   518   532 I AF::PthrPatchRecord: creating track with enforcement level 0
+11-18 18:38:55.044   518   532 W AF::TrackHandle: OpPlayAudio: not muting track:62 usage:13 for service UID 1000
+11-18 18:38:55.050  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:55.073   602  8053 D AudioTrack: getTimestamp_l(22): device stall time corrected using current time 359840223123
+11-18 18:38:55.073   602   602 D MediaPlayerService: onAudioDeviceUpdate deviceIds: 2
+11-18 18:38:55.148   518   651 D AudioFlinger: mixer(0x7c431a599770) throttle end: throttle time(24)
+11-18 18:38:55.394   518   651 D AudioFlinger: mixer(0x7c431a599770) throttle end: throttle time(20)
+11-18 18:38:55.447  1654  1654 I faht    : (REDACTED) O received %s
+11-18 18:38:55.448  1654  1654 I AmbBrdcstRcvrServClient: (REDACTED) handleRefreshAction(): not handling %s
+11-18 18:38:55.448  1654  1885 I BrdcstRcvrMsgr: (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+11-18 18:38:55.454  5875  8032 I A       : Calling beginBinderSession().
+11-18 18:38:55.454  1654  1885 I BrdcstRcvrMsgr: disconnect()
+11-18 18:38:55.455  1654  1885 E BrdcstRcvrMsgr: SvcConn: binder null, could not send broadcast of action
+11-18 18:38:55.455  5875  5875 I ahaf    : (REDACTED) hasHotwordEverywhere-%b
+11-18 18:38:55.485  1681  1681 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+11-18 18:38:55.485  1681  1681 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+11-18 18:38:55.490   447   470 I netd    : tetherGetStats() -> {[]} <0.66ms>
+11-18 18:38:56.171  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.274  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.376  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.480  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.584  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.686  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.791  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.894  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:56.996  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.100  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.144   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=6 freq=2437 RxLinkSpeed=2
+11-18 18:38:57.144   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:38:57.144   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:38:57.144   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:38:57.144   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:38:57.145   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 6Mbps, Tx Link speed: 6Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:38:57.145   607   916 D WifiScoreCard: txRate: 1 txSpeed: 6
+11-18 18:38:57.145   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed -1
+11-18 18:38:57.145   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=6 tx=0.4, 0.0, 0.0 rx=0.6 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-269192583] score=60
+11-18 18:38:57.203  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.227   602  8055 D CCodecBufferChannel: [c2.android.vorbis.decoder#490] buffers after EOS ignored (0 us)
+11-18 18:38:57.227   602  8055 D CCodecBufferChannel: [c2.android.vorbis.decoder#490] buffers after EOS ignored (0 us)
+11-18 18:38:57.228   602  8055 D CCodecBufferChannel: [c2.android.vorbis.decoder#490] buffers after EOS ignored (0 us)
+11-18 18:38:57.305  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.408  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.488   602  8053 D AudioTrack: stop(22): called with 132000 frames delivered
+11-18 18:38:57.512  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.615  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.718  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.820  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:57.924  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.027  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.130  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.233  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.336  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.439  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.541  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:58.644  7786  7799 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:59.609   447   470 I netd    : tetherGetStats() -> {[]} <0.38ms>
+11-18 18:38:59.616  7786  7799 I LABCI   : waitText 'Charger connected': false
+11-18 18:38:59.956  1349  7949 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 364 [CONTEXT service_id=218 ]
+11-18 18:38:59.958  1349  2237 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 364 [CONTEXT service_id=218 ]
+11-18 18:38:59.987  1681  8061 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:39:00.018   606  1010 D BufferPoolAccessor2.0: bufferpool2 0x709cfecd84d8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+11-18 18:39:00.018   606  1010 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+11-18 18:39:00.019   602  6887 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+11-18 18:39:00.145   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=6 freq=2437 RxLinkSpeed=2
+11-18 18:39:00.146   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:39:00.146   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:39:00.146   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:39:00.146   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:39:00.146   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 6Mbps, Tx Link speed: 6Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:39:00.146   607   916 D WifiScoreCard: txRate: 1 txSpeed: 6
+11-18 18:39:00.146   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed -1
+11-18 18:39:00.147   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=6 tx=0.1, 0.0, 0.0 rx=0.2 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-269189581] score=60
+11-18 18:39:00.317  7786  7799 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:39:00.324  7786  7799 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_charger.png
+11-18 18:39:00.378  8069  8069 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:39:00.379  8069  8069 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:39:00.379  8069  8069 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:39:00.381   522   758 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:39:00.381   522   758 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:39:00.415  1611  3929 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:39:00.440   607  1160 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:39:00.442   607  2088 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:00.444   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:39:00.446  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:00.450  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/54 [CONTEXT service_id=218 ]
+11-18 18:39:00.453  1611  1730 D WM-SystemJobScheduler: Scheduling work ID 10ff2e89-e6af-4522-8e1c-11dd5d61a9bdJob ID 31
+11-18 18:39:00.455  7786  7799 I LABCI   : screenshot lab08_charger
+11-18 18:39:00.455  7786  7799 I LABCI   : charger toast seen: false
+11-18 18:39:00.455  7786  7799 D UiDevice: Executing shell command: dumpsys battery reset
+11-18 18:39:00.456  1611  1730 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:39:00.456  1611  1730 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:39:00.458  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:00.464  8077  8077 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: battery
+11-18 18:39:00.467  7786  7799 I TestRunner: finished: d_powerReceiver(com.university.lab08.Lab08Test)

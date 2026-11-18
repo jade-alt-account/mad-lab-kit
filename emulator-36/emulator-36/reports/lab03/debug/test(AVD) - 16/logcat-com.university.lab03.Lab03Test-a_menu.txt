@@ -1,0 +1,449 @@
+11-18 18:35:18.190  5359  5372 I TestRunner: started: a_menu(com.university.lab03.Lab03Test)
+11-18 18:35:18.194  5359  5372 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:35:18.196  5359  5372 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-18 18:35:18.200   607  1071 I system_server: AssetManager2(0x70339c29a978) locale list changing from [] to [en-US]
+11-18 18:35:18.201   607  1071 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10224, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:18.208  1013  1110 I ndroid.systemui: AssetManager2(0x70339c25aeb8) locale list changing from [] to [en-US]
+11-18 18:35:18.210  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{eb0e080 V.E...... ......ID 0,0-0,0}
+11-18 18:35:18.210  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:18.210  1013  1113 D SplashScreenView: Branding: view: android.view.View{8b6c6b9 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:18.219  1253  1253 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:35:18.219  1253  1253 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:35:18.227   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:18.254  5359  5359 I niversity.lab03: AssetManager2(0x70339c214058) locale list changing from [] to [en-US]
+11-18 18:35:18.302  5359  5359 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:35:18.303  5359  5359 I niversity.lab03: AssetManager2(0x70339c21b3f8) locale list changing from [] to [en-US]
+11-18 18:35:18.308  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: PRE_ON_CREATE
+11-18 18:35:18.308  5359  5359 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:35:18.325  5359  5359 D CompatChangeReporter: Compat change id reported: 377864165; UID 10224; state: ENABLED
+11-18 18:35:18.326  5359  5359 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-18 18:35:18.335  1253  1253 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:18.341  5359  5374 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:35:18.341  5359  5374 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:35:18.344  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:35:18.354  5359  5359 W HWUI    : Image decoding logging dropped!
+11-18 18:35:18.356  5359  5359 I niversity.lab03: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+11-18 18:35:18.357  5359  5374 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:35:18.375  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: CREATED
+11-18 18:35:18.376  5359  5359 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab03.MainActivity@36df31c
+11-18 18:35:18.378  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: STARTED
+11-18 18:35:18.378  5359  5359 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab03.MainActivity@36df31c
+11-18 18:35:18.383  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: RESUMED
+11-18 18:35:18.383  5359  5359 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab03.MainActivity@36df31c
+11-18 18:35:18.400  5359  5359 W HWUI    : Unknown dataspace 0
+11-18 18:35:18.437   522   548 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10224 pid=0
+11-18 18:35:18.437   522   548 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10224 => denied (154 us)
+11-18 18:35:18.438   522   548 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10224 pid=0
+11-18 18:35:18.438   522   548 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10224 => denied (1005 us)
+11-18 18:35:18.438   522   548 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10224 pid=0
+11-18 18:35:18.438   522   548 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10224 => denied (630 us)
+11-18 18:35:18.534  1681  5264 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+11-18 18:35:18.536  1681  5264 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-18 18:35:18.542  1681  5264 I gle.android.gms: AssetManager2(0x70339c21a778) locale list changing from [] to [en-US]
+11-18 18:35:18.547  1681  5264 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+11-18 18:35:18.549  1681  5264 I Icing   : Indexing done com.google.android.gms-apps
+11-18 18:35:18.550  1681  5264 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-18 18:35:18.551  1681  5264 I Icing   : Indexing done com.google.android.gms-apps
+11-18 18:35:18.560  1681  5264 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-18 18:35:18.560  1681  5264 I Icing   : Indexing done com.google.android.gms-apps
+11-18 18:35:18.561  1681  5264 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-18 18:35:18.562  1681  5264 I Icing   : Indexing done com.google.android.gms-apps
+11-18 18:35:18.568  1681  5264 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-18 18:35:18.590  1681  5264 I Icing   : Indexing done com.google.android.gms-apps
+11-18 18:35:18.747   607  1071 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10224 pid=0
+11-18 18:35:18.747   607  1071 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10224 => denied (126 us)
+11-18 18:35:18.747   607  1071 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10224 pid=0
+11-18 18:35:18.747   607  1071 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10224 => denied (18 us)
+11-18 18:35:18.747   607  1071 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10224 pid=0
+11-18 18:35:18.747   607  1071 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10224 => denied (10 us)
+11-18 18:35:18.754   607   666 I ActivityTaskManager: Displayed com.university.lab03/.MainActivity for user 0: +554ms
+11-18 18:35:18.759  5359  5359 W HWUI    : Image decoding logging dropped!
+11-18 18:35:18.770  1253  1253 D BaseDepthController: setSurface:
+11-18 18:35:18.770  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:35:18.770  1253  1253 D BaseDepthController: 	mBaseSurface: null
+11-18 18:35:18.770  1253  1253 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:35:18.771  1253  1253 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:35:18.771  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:4)
+11-18 18:35:18.771  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:1)
+11-18 18:35:18.771  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:34)
+11-18 18:35:18.772  1253  1253 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:35:18.774  1253  1253 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:35:18.817  5359  5363 I niversity.lab03: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:35:18.967   607   768 I ImeTracker: com.university.lab03:360db13a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:18.969  5359  5359 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:35:18.970  5359  5359 I ImeTracker: com.university.lab03:360db13a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:35:18.970  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:35:18.971   607  2090 I ImeTracker: system_server:4cb7aaa9: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:18.973  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:35:18.973  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab03, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:18.974  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:35:18.974  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:35:18.975   607   669 I ImeTracker: system_server:4cb7aaa9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:18.984  1349  1358 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:18.985  1349  1358 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} [CONTEXT service_id=132 ]
+11-18 18:35:18.989  1349  1358 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:18.992  1349  1358 I FontLog : Pulling font file for id = 18, cache size = 11 [CONTEXT service_id=132 ]
+11-18 18:35:18.998  1349  1358 I FontLog : Pulling font file for id = 18, cache size = 11 [CONTEXT service_id=132 ]
+11-18 18:35:19.001   447   470 I netd    : tetherGetStats() -> {[]} <0.30ms>
+11-18 18:35:19.239   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:19.240   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:19.240   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10160} in 1ms
+11-18 18:35:19.241   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:19.241   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:19.241   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={20160} in 1ms
+11-18 18:35:19.358   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:19.358   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:19.358   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10135} in 1ms
+11-18 18:35:19.714  5359  5372 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:35:19.715  5359  5372 I UiAutomation: Initialized for user 0 on display 0
+11-18 18:35:19.719  1635  1707 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:35:19.720  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:35:19.720  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:35:19.720  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:35:19.720  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:35:19.721  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:35:19.721  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:35:19.721  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:35:19.721  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:35:19.721  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:35:19.721  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:35:19.721  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:35:19.722  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:35:19.722   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.722   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.722   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.723   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.724  5359  5386 V UiAutomation: Init UiAutomation@31315da[id=5, displayId=0, flags=0]
+11-18 18:35:19.725  5359  5372 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:35:19.729  1013  1013 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:35:19.730   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.731  1635  1707 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:35:19.731  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:35:19.732  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:35:19.732  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:35:19.732  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:35:19.733   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.733   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.733   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.733  1253  1253 D SsBaseTemplateCard: No text view can be set up
+11-18 18:35:19.733  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.733  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.733  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.733  1253  1253 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:35:19.733  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:35:19.732  5359  5372 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:19.733  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:35:19.733  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:35:19.733  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:35:19.733  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:35:19.733  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:35:19.734   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.734   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.734   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.734   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.734   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.735   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.735   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.741   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.741   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.741   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.744   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.744   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.744  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:35:19.744   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.744   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.744   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.745   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.745   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:19.745  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:35:19.748  1253  1253 D SsBaseTemplateCard: No text view can be set up
+11-18 18:35:19.748  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.748  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.748  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:19.748  1253  1253 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:35:19.749  1837  2007 I alhi    : NGA disabled since it's running Panthera and at least one a11y feature is on.
+11-18 18:35:19.750  1837  2007 I alhi    : (REDACTED) Nga state changed to %s
+11-18 18:35:19.750  1837  2007 I alhi    : (REDACTED) isTngActive=%s
+11-18 18:35:19.752  5359  5372 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab03_actionbar.png
+11-18 18:35:19.752  1654  1985 I tkr     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:35:19.752  1654  1885 I tkr     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:35:19.757  1013  1013 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:35:19.767  1014  1361 D AccessibilitySourceService: enabled a11y services count 0
+11-18 18:35:19.768  1014  1361 D AccessibilitySourceService: a11y source sending 0 issue to sc
+11-18 18:35:19.768   607   728 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+11-18 18:35:19.816  5391  5391 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:35:19.816  5391  5391 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:19.816  5391  5391 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:19.818   522   604 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:35:19.818   522   604 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:35:19.858  1611  1765 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:19.883   607   728 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:19.885   607  1752 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:19.888   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:19.889  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:19.892  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:19.895  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/30 [CONTEXT service_id=218 ]
+11-18 18:35:19.902  5359  5372 I LABCI   : screenshot lab03_actionbar
+11-18 18:35:19.902  5359  5372 D UiDevice: Searching for node with selector: BySelector [DESC='\QSearch\E'].
+11-18 18:35:19.903  1611  1716 D WM-SystemJobScheduler: Scheduling work ID 6b4bb57d-604e-4879-8cb7-3e3566432428Job ID 9
+11-18 18:35:19.905  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:35:19.905  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:35:20.275  5359  5372 I LABCI   : search action visible in bar: true
+11-18 18:35:20.276  5359  5372 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-18 18:35:20.317  5359  5359 I ViewInteraction: Performing 'send keyCode: 82, metaState: 0 key event' action on view view.getRootView() to equal view
+11-18 18:35:20.321  5359  5400 I niversity.lab03: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/internal/platform/reflect/ReflectiveMethod; (domain=app) using reflection: allowed
+11-18 18:35:20.323  1482  1482 I StylusModule: StylusModule.onUpdateToolType():801 Update tool type = 0
+11-18 18:35:20.330  5359  5359 W HWUI    : Image decoding logging dropped!
+11-18 18:35:20.337   607  2080 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:35:20.529  5359  5359 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Settings"
+11-18 18:35:20.620   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=12 freq=2437 RxLinkSpeed=2
+11-18 18:35:20.621   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:35:20.621   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:35:20.621   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:35:20.621   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:20.621   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:20.621   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:20.621   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:20.622   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:20.622   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:20.622   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:20.622   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:20.623   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 12Mbps, Tx Link speed: 12Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:35:20.623   607   916 D WifiScoreCard: txRate: 2 txSpeed: 12
+11-18 18:35:20.623   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed -1
+11-18 18:35:20.623   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=12 tx=1.3, 0.0, 0.0 rx=3.8 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:-269409105] score=60
+11-18 18:35:21.060  5279  5281 I AidlLazyServiceRegistrar: Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+11-18 18:35:21.061  5279  5281 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:35:21.070  5279  5281 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-18 18:35:21.231  5359  5372 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:21.239  5359  5372 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab03_overflow.png
+11-18 18:35:21.294  5406  5406 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:35:21.294  5406  5406 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:21.294  5406  5406 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:21.296   522   547 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:35:21.296   522   547 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:35:21.331  1611  1765 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:21.355   607  1752 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:21.357   607   728 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:21.360   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:21.362  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:21.372  5359  5372 I LABCI   : screenshot lab03_overflow
+11-18 18:35:21.373  5359  5372 I niversity.lab03: hiddenapi: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/action/Tap; (domain=app) using reflection: allowed
+11-18 18:35:21.376  5359  5359 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Settings"
+11-18 18:35:21.380  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/31 [CONTEXT service_id=218 ]
+11-18 18:35:21.381  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:21.396  1611  1611 D WM-DelayedWorkTracker: Scheduling work 6b4bb57d-604e-4879-8cb7-3e3566432428
+11-18 18:35:21.396  1611  1611 D WM-GreedyScheduler: Starting tracking for 6b4bb57d-604e-4879-8cb7-3e3566432428
+11-18 18:35:21.397  1611  1730 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:35:21.397  1611  1730 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:35:21.398  1611  1730 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=6b4bb57d-604e-4879-8cb7-3e3566432428, generation=0)
+11-18 18:35:21.400  1611  1730 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=6b4bb57d-604e-4879-8cb7-3e3566432428, generation=0)
+11-18 18:35:21.403  1611  1611 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=6b4bb57d-604e-4879-8cb7-3e3566432428, generation=0)
+11-18 18:35:21.405  1611  1611 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:35:21.406  1611  5414 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:35:21.406  1611  1716 D WM-Processor: Work WorkGenerationalId(workSpecId=6b4bb57d-604e-4879-8cb7-3e3566432428, generation=0) is already enqueued for processing
+11-18 18:35:21.406  1611  5414 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@e5c8fb4[Not completed, 1 dependents]. Future map: {6b4bb57d-604e-4879-8cb7-3e3566432428=java.util.concurrent.CompletableFuture@e5c8fb4[Not completed, 1 dependents]}
+11-18 18:35:21.407  1611  5414 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:35:21.408  1611  5414 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:35:21.408  1611  5414 D PickerSyncController:    Latest ID/Gen=c1ab4cbae5f10000:external_primary/89
+11-18 18:35:21.408  1611  5414 D PickerSyncController:    Cached ID/Gen=c1ab4cbae5f10000:external_primary/73
+11-18 18:35:21.408  1611  5414 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=73, latest=Bundle[{last_media_sync_generation=89, media_collection_id=c1ab4cbae5f10000:external_primary}], pageSize=1000}
+11-18 18:35:21.408  1611  5414 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:35:21.408  1611  5414 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:21.408  1611  5414 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-7]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.409  1611  5414 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.409  1611  5414 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:35:21.410  1611  5414 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:21.410  1611  5414 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-7]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.410  1611  5414 D PickerSyncController: Saving next page token: 1795026919000|30 for key: local_provider:media_add:resume
+11-18 18:35:21.410  1611  5414 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.410  1611  5414 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:21.411  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:21.411  1611  5414 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:21.411  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:21.411  1611  5414 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:21.411  1611  5414 D ExternalDbFacade: Token received for queryMedia = 1795026919000|30
+11-18 18:35:21.412  1611  5414 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:21.412  1611  5414 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-7]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.412  1611  5414 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:35:21.412  1611  5414 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.412  1611  5414 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:21.412  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:21.413  1611  5414 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:21.413  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:21.413  1611  5414 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:21.413  1611  5414 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026919000|30, android.provider.extra.SYNC_GENERATION=73, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 2
+11-18 18:35:21.413  1611  5414 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:35:21.413  1611  5414 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:21.413  1611  5414 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-7]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.413  1611  5414 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.414  1611  5414 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:21.414  1611  5414 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-7]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.414  1611  5414 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:35:21.414  1611  5414 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:21.414  1611  5414 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:21.415  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:21.415  1611  5414 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:21.415  1611  5414 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:21.415  1611  5414 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:21.415  1611  5414 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026919000|30, android.provider.extra.SYNC_GENERATION=73, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:35:21.415  1611  5414 I PickerSyncTracker: Marked sync future complete for work id: 6b4bb57d-604e-4879-8cb7-3e3566432428. Future map: {}
+11-18 18:35:21.415  1611  5414 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:35:21.416  1611  1716 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=6b4bb57d-604e-4879-8cb7-3e3566432428, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:35:21.417  1611  1611 D WM-Processor: Processor 6b4bb57d-604e-4879-8cb7-3e3566432428 executed; reschedule = false
+11-18 18:35:21.417  1611  1611 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=6b4bb57d-604e-4879-8cb7-3e3566432428, generation=0)
+11-18 18:35:21.417  1611  1611 D WM-SystemJobService: 6b4bb57d-604e-4879-8cb7-3e3566432428 executed on JobScheduler
+11-18 18:35:21.420  1611  1716 D WM-GreedyScheduler: Cancelling work ID 6b4bb57d-604e-4879-8cb7-3e3566432428
+11-18 18:35:21.421  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:35:21.421  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:35:21.421  1611  1716 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:35:21.422  1681  1681 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:35:21.422  1681  1681 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67175169 trafficStatsUid=-1
+11-18 18:35:21.426  1349  2360 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService started execution. cause:4 exec_start_elapsed_seconds: 146 [CONTEXT service_id=218 ]
+11-18 18:35:21.429  1681  2026 I NotificationsModuleTask: Registered accounts to Chime successfully. registration reason = APP_UPDATED [CONTEXT service_id=358 ]
+11-18 18:35:21.430  1681  1681 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:35:21.431  1349  5255 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService finished executing. cause:4 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 146 [CONTEXT service_id=218 ]
+11-18 18:35:21.519   607  1148 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:35:21.523  1013  1013 I ndroid.systemui: AssetManager2(0x70339c262258) locale list changing from [] to [en-US]
+11-18 18:35:21.534  5359  5359 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=androidx.appcompat.app.AppCompatDelegateImpl$Api33Impl$$ExternalSyntheticLambda0@d625019
+11-18 18:35:21.547  5359  5359 E RippleDrawable: The RippleDrawable.STYLE_PATTERNED animation is not supported for a non-hardware accelerated Canvas. Skipping animation.
+11-18 18:35:21.563   518   651 D AudioFlinger: mixer(0x7c431a599770) throttle end: throttle time(36)
+11-18 18:35:21.582   607   768 I ImeTracker: com.university.lab03:adbe22d0: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+11-18 18:35:21.583  5359  5359 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:35:21.583  5359  5359 I ImeTracker: com.university.lab03:adbe22d0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:35:21.585  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:35:21.585  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:35:21.586  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab03, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:21.587  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:35:21.587  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:35:22.357   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:22.358   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:22.358   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10140} in 0ms
+11-18 18:35:22.471  5359  5372 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:22.479  5359  5372 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab03_settings_toast.png
+11-18 18:35:22.534  5420  5420 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:35:22.534  5420  5420 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:22.534  5420  5420 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:22.536   522   758 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:35:22.536   522   758 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:35:22.571  1611  1765 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:22.596   607  2085 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:22.598   607  2080 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:22.600   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:22.601  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:22.606  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:22.612  5359  5372 I LABCI   : screenshot lab03_settings_toast
+11-18 18:35:22.614  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/32 [CONTEXT service_id=218 ]
+11-18 18:35:22.616   607  1752 I system_server: AssetManager2(0x70339c293f38) locale list changing from [] to [en-US]
+11-18 18:35:22.617   607  1752 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:22.623  1013  1110 I ndroid.systemui: AssetManager2(0x70339c25a878) locale list changing from [] to [en-US]
+11-18 18:35:22.627  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: PAUSED
+11-18 18:35:22.627  5359  5359 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab03.MainActivity@36df31c
+11-18 18:35:22.627   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:22.628   607   669 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:22.629  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{2f64e04 V.E...... ......ID 0,0-0,0}
+11-18 18:35:22.629  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:22.629  1013  1113 D SplashScreenView: Branding: view: android.view.View{9bc9fed G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:22.639   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.641   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.643   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:22.648   450   450 D Zygote  : Forked child process 5430
+11-18 18:35:22.660  1013  1045 I ndroid.systemui: AssetManager2(0x70339c25ea18) locale list changing from [] to [en-US]
+11-18 18:35:22.662   447   470 I netd    : tetherGetStats() -> {[]} <0.49ms>
+11-18 18:35:22.666  1611  1716 D WM-SystemJobScheduler: Scheduling work ID 484cd6cc-50e5-4a15-aec7-43efbe540840Job ID 10
+11-18 18:35:22.671  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:35:22.671  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:35:22.674  1013  1045 I ndroid.systemui: AssetManager2(0x70339c26bb78) locale list changing from [] to [en-US]
+11-18 18:35:22.674  5430  5430 I sity.lab03.test: Late-enabling -Xcheck:jni
+11-18 18:35:22.698  5430  5430 I sity.lab03.test: Using CollectorTypeCMC GC.
+11-18 18:35:22.698  5430  5430 W sity.lab03.test: Unexpected CPU variant for x86: x86_64.
+11-18 18:35:22.698  5430  5430 W sity.lab03.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:35:22.704   533   542 I adbd    : jdwp connection from 5430
+11-18 18:35:22.704  5430  5430 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:22.723  5359  5359 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:22.737  1240  1254 D SliceBuilder: Creating slice for: com.android.settings.deviceinfo.hardwareinfo.DeviceModelPreferenceController
+11-18 18:35:22.742  5430  5430 D nativeloader: Configuring clns-9 for other apk /data/app/~~Rh7IAxtRatJv09LS1VWlRg==/com.university.lab03.test-1Vzpt545xEupjDWn1_yB6A==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~Rh7IAxtRatJv09LS1VWlRg==/com.university.lab03.test-1Vzpt545xEupjDWn1_yB6A==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.university.lab03.test
+11-18 18:35:22.747  5430  5430 I sity.lab03.test: AssetManager2(0x70339c20d938) locale list changing from [] to [en-US]
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment: Currently set values for:
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment: com.university.lab03.test is not listed in per-application setting
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment: com.university.lab03.test is not listed in ANGLE allowlist or settings, returning default
+11-18 18:35:22.751  5430  5430 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:35:22.762  5430  5430 I sity.lab03.test: AssetManager2(0x70339c214058) locale list changing from [] to [en-US]
+11-18 18:35:22.765  5430  5430 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-18 18:35:22.773  5430  5430 D CompatChangeReporter: Compat change id reported: 377864165; UID 10225; state: ENABLED
+11-18 18:35:22.773  5430  5430 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-18 18:35:22.794  5430  5430 W HWUI    : Unknown dataspace 0
+11-18 18:35:22.795  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: STOPPED
+11-18 18:35:22.796  5359  5359 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab03.MainActivity@36df31c
+11-18 18:35:22.797  5359  5359 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@6caaea5
+11-18 18:35:22.798  5359  5359 D LifecycleMonitor: Lifecycle status change: com.university.lab03.MainActivity@36df31c in: DESTROYED
+11-18 18:35:22.798  5359  5359 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:22.799  5359  5372 I TestRunner: finished: a_menu(com.university.lab03.Lab03Test)

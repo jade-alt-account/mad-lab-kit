@@ -1,0 +1,360 @@
+**********************
+PowerShell transcript start
+Start time: 20261118182840
+Username: runnervmm7ud1\runneradmin
+RunAs User: runnervmm7ud1\runneradmin
+Configuration Name: 
+Machine: runnervmm7ud1 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -command . 'D:\a\_temp\0b46edea-105e-471d-b6c8-88e81233d6cd.ps1'
+Process ID: 8160
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is D:\a\mad-lab-kit\mad-lab-kit\results\lab0-windows.log
+
+===== D1. java -version =====
+openjdk version "17.0.21" 2026-10-20
+OpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)
+OpenJDK 64-Bit Server VM Temurin-17.0.21+9 (build 17.0.21+9, mixed mode, sharing)
+PASS: java -version shows openjdk version "17
+
+===== D3.1 Download the command-line tools =====
+Latest package: commandlinetools-win-16111833_latest.zip
+
+===== D3.2-3 Create C:\Android\Sdk\cmdline-tools\latest and copy the contents =====
+Zip top-level folder(s): cmdline-tools
+PASS: sdkmanager.bat is at C:\Android\Sdk\cmdline-tools\latest\bin
+
+===== D3.4-7 Environment variables (user scope, as in the handbook) =====
+Files in cmdline-tools\latest\bin: android.exe, apkanalyzer.bat, avdmanager.bat, d8.bat, lint.bat, profgen.bat, r8.bat, resourceshrinker.bat, retrace.bat, screenshot2.bat, sdkmanager.bat
+android --version: Downloading Android CLI...
+Unpacking embedded installation...
+
+Terms of Service and License Agreement for the Android Software Development Kit
+
+https://developer.android.com/studio/terms
+
+Google collects usage data for the Android CLI, such as commands, sub-commands, and flags used. This data does not include custom parameters or identifiable information. This information helps improve the tool and is collected in accordance with Google's Privacy Policy.
+
+https://policies.google.com/privacy
+
+Disable Android CLI metrics collection by using the --no-metrics flag.
+
+Tip: For the best experience using Android CLI with agents, we strongly recommend running android init to install the necessary skills and resources.
+1.1.16919734
+PASS: android --version runs
+--- android sdk --help:
+Usage: android sdk [-h] [--ignore-outdated-xmls] [--platform=PARAM] [COMMAND]
+Manages the Android SDK installation. Includes commands to install, update,
+remove, and list available and installed SDK packages
+
+Options:
+  -h, --help                  Shows the help message for the specified command
+      --ignore-outdated-xmls  When installing or updating packages, do not
+                              update other packages' XML files
+      --platform=PARAM        Target platform `<os>_<arch>` (for example,
+                              `linux_x86_64`, `mac_arm64`, or `windows_x86`);
+                              defaults to the current host
+
+android options:
+      --sdk=PARAM             Path to the Android SDK
+  -v, --verbose               Enable verbose output for troubleshooting
+  -V, --version               Print version information and exit
+Commands:
+  install  Installs SDK packages
+  list     Lists installed and available SDK packages
+  remove   Removes packages from the SDK
+  update   Updates one or all packages to the latest version
+--- android sdk install --help:
+Usage: android sdk install [-h] [--beta] [--canary] [--force] [--no-downgrade]
+                           <package>[@<version>]
+Installs SDK packages
+
+Options:
+      --beta                  Include beta packages
+      --canary                Include canary packages
+      --force                 Force downgrading to an older version
+  -h, --help                  Shows the help message for the specified command
+      --no-downgrade          Skip packages that would be downgraded
+
+sdk options:
+      --ignore-outdated-xmls  When installing or updating packages, do not
+                              update other packages' XML files
+      --platform=PARAM        Target platform `<os>_<arch>` (for example,
+                              `linux_x86_64`, `mac_arm64`, or `windows_x86`);
+                              defaults to the current host
+
+android options:
+      --sdk=PARAM             Path to the Android SDK
+  -v, --verbose               Enable verbose output for troubleshooting
+  -V, --version               Print version information and exit
+
+Positional Parameters:
+  <package>[@<version>]  The packages to install; `<version>` defaults to
+                         `latest`
+--- available packages (platforms, build-tools, platform-tools, usb):
+Installed packages:
+Available packages:
+  build-tools/35.0.0                                                                      35.0.0                                 Android SDK Build-Tools 35                                                      
+  build-tools/35.0.0-rc1                                                                  35.0.0-rc.1                            Android SDK Build-Tools 35-rc1                                                  
+  build-tools/35.0.0-rc2                                                                  35.0.0-rc.2                            Android SDK Build-Tools 35-rc2                                                  
+  build-tools/35.0.0-rc3                                                                  35.0.0-rc.3                            Android SDK Build-Tools 35-rc3                                                  
+  build-tools/35.0.0-rc4                                                                  35.0.0-rc.4                            Android SDK Build-Tools 35-rc4                                                  
+  build-tools/35.0.1                                                                      35.0.1                                 Android SDK Build-Tools 35.0.1                                                  
+  build-tools/36.0.0                                                                      36.0.0                                 Android SDK Build-Tools 36                                                      
+  build-tools/36.0.0-rc1                                                                  36.0.0-rc.1                            Android SDK Build-Tools 36-rc1                                                  
+  build-tools/36.0.0-rc3                                                                  36.0.0-rc.3                            Android SDK Build-Tools 36-rc3                                                  
+  build-tools/36.0.0-rc4                                                                  36.0.0-rc.4                            Android SDK Build-Tools 36-rc4                                                  
+  build-tools/36.0.0-rc5                                                                  36.0.0-rc.5                            Android SDK Build-Tools 36-rc5                                                  
+  build-tools/36.1.0                                                                      36.1.0                                 Android SDK Build-Tools 36.1                                                    
+  build-tools/36.1.0-rc1                                                                  36.1.0-rc.1                            Android SDK Build-Tools 36.1-rc1                                                
+  build-tools/37.0.0                                                                      37.0.0                                 Android SDK Build-Tools 37                                                      
+  build-tools/37.0.0-rc1                                                                  37.0.0-rc.1                            Android SDK Build-Tools 37-rc1                                                  
+  build-tools/37.0.0-rc2                                                                  37.0.0-rc.2                            Android SDK Build-Tools 37-rc2                                                  
+  extras/google/usb_driver                                                                13.0.0                                 Google USB Driver                                                               
+  platform-tools                                                                          37.0.1                                 Android SDK Platform-Tools                                                      
+  platforms/android-10                                                                    2.0.0                                  Android SDK Platform 10                                                         
+  platforms/android-11                                                                    2.0.0                                  Android SDK Platform 11                                                         
+  platforms/android-12                                                                    3.0.0                                  Android SDK Platform 12                                                         
+  platforms/android-13                                                                    1.0.0                                  Android SDK Platform 13                                                         
+  platforms/android-14                                                                    4.0.0                                  Android SDK Platform 14                                                         
+  platforms/android-15                                                                    5.0.0                                  Android SDK Platform 15                                                         
+  platforms/android-16                                                                    5.0.0                                  Android SDK Platform 16                                                         
+  platforms/android-17                                                                    3.0.0                                  Android SDK Platform 17                                                         
+  platforms/android-18                                                                    3.0.0                                  Android SDK Platform 18                                                         
+  platforms/android-19                                                                    4.0.0                                  Android SDK Platform 19                                                         
+  platforms/android-2                                                                     1.0.0                                  Android SDK Platform 2                                                          
+  platforms/android-20                                                                    2.0.0                                  Android SDK Platform 20                                                         
+  platforms/android-21                                                                    2.0.0                                  Android SDK Platform 21                                                         
+  platforms/android-22                                                                    2.0.0                                  Android SDK Platform 22                                                         
+  platforms/android-23                                                                    3.0.0                                  Android SDK Platform 23                                                         
+  platforms/android-24                                                                    2.0.0                                  Android SDK Platform 24                                                         
+  platforms/android-25                                                                    3.0.0                                  Android SDK Platform 25                                                         
+  platforms/android-26                                                                    2.0.0                                  Android SDK Platform 26                                                         
+  platforms/android-27                                                                    3.0.0                                  Android SDK Platform 27                                                         
+  platforms/android-28                                                                    6.0.0                                  Android SDK Platform 28
+
+===== D3.9 android sdk install platform-tools platforms/android-37.0 build-tools/36.0.0 =====
+
+PASS: android sdk install exited with 0
+SDK size on disk after D3: 444 MB; download took 19 s
+PASS: platform android-37.0 installed
+PASS: build-tools 36.0.0 installed
+PASS: adb version prints Android Debug Bridge version
+Installed packages after D3:
+Installed packages:
+  build-tools/36.0.0             36.0.0                      Android SDK Build-Tools 36             
+  cmdline-tools/latest           unknown   ->        23.0.0  Android SDK Command-line Tools (latest)
+  platform-tools                 37.0.1                      Android SDK Platform-Tools             
+  platforms/android-37.0         2.0.0                       Android SDK Platform 37.0
+
+===== Experiment: old sdkmanager line in a second, empty SDK folder =====
+> sdkmanager "platforms;android-37"  (exit 0)
+
+Package platforms/android-37 not found.
+  platforms now:
+> sdkmanager "platforms;android-37.0"  (exit 0)
+
+  platforms now:
+> C:\Android\Sdk2\cmdline-tools\latest\bin\android.bat sdk install "platforms;android-37.0"  (exit 1)
+'C:\Android\Sdk2\cmdline-tools\latest\bin\android.bat' is not recognized as an internal or external command,
+operable program or batch file.
+  platforms now:
+
+===== D4. Copy the starter project to C:\MAD\lab0 and change applicationId =====
+PASS: applicationId changed to com.university.lab0
+
+===== D5. Build (assembleDebug: no phone is attached on the test machine) =====
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compressDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugNavigationResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///C:/MAD/lab0/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 26s
+33 actionable tasks: 33 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html
+First build took 87 s
+PASS: gradlew.bat assembleDebug: BUILD SUCCESSFUL with -Xmx1536m
+PASS: app-debug.apk produced
+
+===== Did the build download any extra SDK packages? =====
+Installed packages after build:
+Installed packages:
+  build-tools/36.0.0             36.0.0                      Android SDK Build-Tools 36             
+  cmdline-tools/latest           unknown   ->        23.0.0  Android SDK Command-line Tools (latest)
+  platform-tools                 37.0.1                      Android SDK Platform-Tools             
+  platforms/android-37.0         2.0.0                       Android SDK Platform 37.0
+PASS: No extra SDK packages were downloaded by the build
+
+===== Kotlin starter builds the same way =====
+> Task :app:compressDebugJavaRes
+> Task :app:mapDebugSourceSetPaths
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:compileDebugNavigationResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so. Run with --info option to learn more.
+
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 1m 42s
+37 actionable tasks: 37 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html
+PASS: kotlin-starter assembleDebug succeeded
+
+===== Lab 12 Part A: Notes service with npm and PowerShell =====
+
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PASS: node_modules created
+PASS: package.json created
+server.log: Notes API on http://localhost:3000
+PASS: server prints Notes API on http://localhost:3000
+GET: [{"id":1,"title":"First note","body":"Hello from the server"}]
+PASS: browser page shows the first note exactly
+
+GET after POST: [{"id":1,"title":"First note","body":"Hello from the server"},{"id":2,"title":"Lab 12","body":"From PowerShell"}]
+PASS: POST from PowerShell added the note
+
+===== Lab 13: keytool, signingConfigs, assembleRelease, bundleRelease =====
+Enter keystore password:  Re-enter new password: What is your first and last name?
+  [Unknown]:  What is the name of your organizational unit?
+  [Unknown]:  What is the name of your organization?
+  [Unknown]:  What is the name of your City or Locality?
+  [Unknown]:  What is the name of your State or Province?
+  [Unknown]:  What is the two-letter country code for this unit?
+  [Unknown]:  Is CN=Ali Khan, OU=IT, O=GCUF, L=Faisalabad, ST=Punjab, C=PK correct?
+  [no]:  
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+	for: CN=Ali Khan, OU=IT, O=GCUF, L=Faisalabad, ST=Punjab, C=PK
+[Storing my-release-key.jks]
+PASS: keytool created my-release-key.jks
+plugins {
+    id("com.android.application")
+}
+
+android {
+    signingConfigs {
+        create("release") {
+            storeFile = file("C:/MAD/keys/my-release-key.jks")
+            storePassword = "lab13pass"
+            keyAlias = "mad_key"
+            keyPassword = "lab13pass"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.getByName("release")
+        }
+    }
+    namespace = "com.university.labstarter"
+    compileSdk = 37
+
+    defaultConfig {
+        applicationId = "com.university.lab0"
+        minSdk = 24
+        targetSdk = 36
+        versionCode = 2
+        versionName = "1.1"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.google.android.material:material:1.14.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.2")
+    androidTestImplementation("androidx.test.ext:junit:1.3.0")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
+    androidTestImplementation("androidx.test:runner:1.7.0")
+    androidTestImplementation("androidx.test:rules:1.7.0")
+    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
+}
+> Task :app:produceReleaseBundleIdeListingFile
+> Task :app:createReleaseBundleListingFileRedirect
+> Task :app:bundleRelease
+
+[Incubating] Problems report is available at: file:///C:/MAD/lab0/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 51s
+53 actionable tasks: 53 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html
+PASS: app-release.apk built
+PASS: app-release.aab built
+APK size: 5,332 KB; AAB size: 4,640 KB
+Signer #1 certificate DN: CN=Ali Khan, OU=IT, O=GCUF, L=Faisalabad, ST=Punjab, C=PK
+Signer #1 certificate SHA-256 digest: 4b72fe54b7c753cf9152ad803b8cd7169d4523a018cef5d18c80ceb8c7a66b67
+Signer #1 certificate SHA-1 digest: 8c44752ad88c444fe0ec3901893d5547eec3a812
+Gradle user home size: 1,201 MB
+**********************
+PowerShell transcript end
+End time: 20261118183339
+**********************

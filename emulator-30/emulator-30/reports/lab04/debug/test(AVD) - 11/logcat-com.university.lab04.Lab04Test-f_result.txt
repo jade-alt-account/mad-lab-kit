@@ -1,0 +1,113 @@
+11-18 18:37:17.912  7220  7240 I TestRunner: started: f_result(com.university.lab04.Lab04Test)
+11-18 18:37:17.915  7220  7240 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:17.917   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:17.918   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 25, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:37:17.918   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=25)
+11-18 18:37:17.923  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:37:17.930  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: PRE_ON_CREATE
+11-18 18:37:17.930  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:17.934   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:37:17.978  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: CREATED
+11-18 18:37:17.978  7220  7220 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:17.980  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: STARTED
+11-18 18:37:17.980  7220  7220 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:17.980  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: RESUMED
+11-18 18:37:17.980  7220  7220 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.010   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab04/1/com.university.lab04.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:18.012   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:18.019  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:37:18.026   496   536 I ActivityTaskManager: Displayed com.university.lab04/.MainActivity: +93ms
+11-18 18:37:18.042  7220  7220 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230828/com.university.lab04:id/button_name>
+11-18 18:37:18.058   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3060610, tid 4916
+11-18 18:37:18.061   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:18.063   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3149c70: maj 3 min 0 rcv 3
+11-18 18:37:18.064   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3149c70: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:18.088   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:18.090   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:18.090   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:18.090   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:18.091   496  1145 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:18.092   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:37:18.094  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: PAUSED
+11-18 18:37:18.094  7220  7220 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.142  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: PRE_ON_CREATE
+11-18 18:37:18.143  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.156  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: CREATED
+11-18 18:37:18.156  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.157  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: STARTED
+11-18 18:37:18.158  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.158  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: RESUMED
+11-18 18:37:18.158  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.190   496   536 I ActivityTaskManager: Displayed com.university.lab04/.NameActivity: +102ms
+11-18 18:37:18.209  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: STOPPED
+11-18 18:37:18.209  7220  7220 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.413  7220  7220 I ViewInteraction: Performing 'replace text(Ali)' action on view view.getId() is <2131230907/com.university.lab04:id/edit_name>
+11-18 18:37:18.420  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+11-18 18:37:18.424  7220  7220 I AssistStructure: Flattened final assist data: 1300 bytes, containing 1 windows, 8 views
+11-18 18:37:18.425  7220  7220 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230907/com.university.lab04:id/edit_name>
+11-18 18:37:18.427  7220  7220 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@228370]
+11-18 18:37:18.428  7220  7220 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+11-18 18:37:18.428  7220  7220 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@228370]
+11-18 18:37:18.430  7220  7220 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230830/com.university.lab04:id/button_ok>
+11-18 18:37:18.480  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: PAUSED
+11-18 18:37:18.480  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.490   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(42)
+11-18 18:37:18.492  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: RESTARTED
+11-18 18:37:18.492  7220  7220 V ActivityScenario: Update currentActivityStage to RESTARTED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.493  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: STARTED
+11-18 18:37:18.493  7220  7220 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.494  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: RESUMED
+11-18 18:37:18.494  7220  7220 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:18.561  1326  1326 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():208 startImportContentTask()
+11-18 18:37:18.561  1326  1660 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():222 doInBackground()
+11-18 18:37:18.561  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: STOPPED
+11-18 18:37:18.562  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.562  1326  1660 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+11-18 18:37:18.564  7220  7220 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:37:18.564  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@532c35f in: DESTROYED
+11-18 18:37:18.564  1293  1293 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:303429920
+11-18 18:37:18.564  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@532c35f
+11-18 18:37:18.568  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+11-18 18:37:18.569  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+11-18 18:37:18.580  1326  1660 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+11-18 18:37:18.580  1326  1660 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+11-18 18:37:18.583  1326  1326 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+11-18 18:37:18.583  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+11-18 18:37:18.737  7220  7220 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hello, Ali"}' assertion on view view.getId() is <2131231210/com.university.lab04:id/text_greeting>
+11-18 18:37:19.111   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:19.439  7220  7240 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:19.446  7220  7240 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab04_result.png
+11-18 18:37:19.482   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:19.482  7750  7750 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:19.492  7750  7750 D HostConnection: createUnique: call
+11-18 18:37:19.493  7750  7750 D HostConnection: HostConnection::get() New Host Connection established 0x796ac1ef38d0, tid 7750
+11-18 18:37:19.504  7750  7750 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:19.540  7755  7757 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:19.540  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab04_result.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:19.536  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:350): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:19.560  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab04_result.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab04_result.png
+11-18 18:37:19.561  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 21ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:19.561  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab04_result.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:19.536  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:352): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:19.573  7220  7240 I LABCI   : screenshot lab04_result
+11-18 18:37:19.576   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:19.536  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:353): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:19.579   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 26, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:37:19.579   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=26)
+11-18 18:37:19.580  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: PAUSED
+11-18 18:37:19.580  7220  7220 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:19.536  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:354): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:19.611  7279  7299 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305ab50, tid 7299
+11-18 18:37:19.613  7279  7299 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:19.615   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:37:19.616  7279  7299 D EGL_emulation: eglCreateContext: 0x7366a3089680: maj 3 min 0 rcv 3
+11-18 18:37:19.616  7279  7299 D EGL_emulation: eglMakeCurrent: 0x7366a3089680: ver 3 0 (tinfo 0x7366430b05a0) (first time)
+11-18 18:37:19.627   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:19.627  7279  7299 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:19.628  7279  7299 D HostConnection: createUnique: call
+11-18 18:37:19.628  7279  7299 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305aa90, tid 7299
+11-18 18:37:19.638  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: STOPPED
+11-18 18:37:19.638  7220  7220 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@4a6581f
+11-18 18:37:19.639  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4a6581f in: DESTROYED
+11-18 18:37:19.639  7220  7220 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:19.643  7220  7240 I TestRunner: finished: f_result(com.university.lab04.Lab04Test)

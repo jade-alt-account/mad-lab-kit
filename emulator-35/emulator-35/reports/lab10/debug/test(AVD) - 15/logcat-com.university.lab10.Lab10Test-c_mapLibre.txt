@@ -1,0 +1,328 @@
+11-18 18:40:16.632  8879  8893 I TestRunner: started: c_mapLibre(com.university.lab10.Lab10Test)
+11-18 18:40:16.638   554  2295 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10231, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:16.644   903  1009 D SplashScreenView: Build android.window.SplashScreenView{d7c471d V.E...... ......ID 0,0-0,0}
+11-18 18:40:16.644   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:16.644   903  1009 D SplashScreenView: Branding: view: android.view.View{9034d92 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:16.645  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:16.648  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onPause:574 onPause enter
+11-18 18:40:16.648  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onHidden:668 onHidden enter
+11-18 18:40:16.649  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.toShortcutSpeedDialInfos:678 enter
+11-18 18:40:16.649  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onPause:312 enter
+11-18 18:40:16.649  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onActivityPause:636 enter
+11-18 18:40:16.651  5780  5801 I DialerDynamicShortcuts: com.android.dialer.shortcuts.DynamicShortcuts.refreshInBackground:113 refreshInBackground
+11-18 18:40:16.652   554   581 I ImeTracker: system_server:53d9cf54: onRequestHide at ORIGIN_SERVER reason HIDE_WHEN_INPUT_TARGET_INVISIBLE fromUser false
+11-18 18:40:16.653   554   581 I ImeTracker: system_server:53d9cf54: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:16.655  5780  5785 I .android.dialer: Background concurrent mark compact GC freed 15MB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 10MB/21MB, paused 105us,5.481ms total 62.185ms
+11-18 18:40:16.661  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=64, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab10 cmp=com.university.lab10/.MainActivity }
+11-18 18:40:16.661  8879  8893 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab10\E']].
+11-18 18:40:16.661  8879  8893 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab10\E'].
+11-18 18:40:16.662  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: PRE_ON_CREATE
+11-18 18:40:16.665   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:16.677  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: CREATED
+11-18 18:40:16.678  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: STARTED
+11-18 18:40:16.681   359   359 I netd    : tetherGetStats() -> {[]} <0.39ms>
+11-18 18:40:16.685  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: RESUMED
+11-18 18:40:16.721  5780  5780 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:16.723   554   578 W ziparchive: Unable to open '/data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.dm': No such file or directory
+11-18 18:40:16.725   554   578 I ActivityTaskManager: Displayed com.university.lab10/.MainActivity for user 0: +89ms
+11-18 18:40:16.738   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@52a2d8c
+11-18 18:40:16.739   554  1012 W InputManager-JNI: Input channel object '1e0da57 Splash Screen com.university.lab10 (client)' was disposed without first being removed with the input manager!
+11-18 18:40:16.741  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [0], return value: Default
+11-18 18:40:16.741  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStop:581 onStop enter
+11-18 18:40:16.741  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.unregisterPermissionReceiver:272 unregisterPermissionReceiver
+11-18 18:40:16.742  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStop:318 enter
+11-18 18:40:16.743  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:637 onSaveInstanceState enter
+11-18 18:40:16.743  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:640 longPressedFavoriteContactIndex : Optional.empty
+11-18 18:40:16.743  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onSaveInstanceState:1473 enter
+11-18 18:40:16.743  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onSaveInstanceState:671 Saving FAB hidden state 'hidden: false'
+11-18 18:40:16.744   425   444 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:16.751  1208  2222 D TrafficStats: tagSocket(121) with statsTag=0x1065fff, statsUid=10168
+11-18 18:40:16.755   554   680 I ImeTracker: com.university.lab10:b7d78197: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:16.756   554   680 I ImeTracker: com.university.lab10:b7d78197: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:16.757  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:16.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:16.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab10, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:16.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:16.758  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:16.805  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 1429 uptime_millis: 1429 exec_start_elapsed_seconds: 438 [CONTEXT service_id=218 ]
+11-18 18:40:16.860  5780  5780 I DialerPrimesMetrics: com.android.dialer.metrics.primes.PrimesMetrics.recordMemory:111 recording memory for event: MainActivity.onResume
+11-18 18:40:17.022  1415  1415 D WM-DelayedWorkTracker: Scheduling work 91289c38-1aff-414b-9f03-2e059261c1b9
+11-18 18:40:17.022  1415  1415 D WM-GreedyScheduler: Starting tracking for 91289c38-1aff-414b-9f03-2e059261c1b9
+11-18 18:40:17.023  1415  1625 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:40:17.023  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:40:17.024  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=91289c38-1aff-414b-9f03-2e059261c1b9, generation=0)
+11-18 18:40:17.025  1415  1625 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=91289c38-1aff-414b-9f03-2e059261c1b9, generation=0)
+11-18 18:40:17.026  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:40:17.026  1415  5042 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:40:17.026  1415  5042 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@9f4fe43[Not completed, 1 dependents]. Future map: {91289c38-1aff-414b-9f03-2e059261c1b9=java.util.concurrent.CompletableFuture@9f4fe43[Not completed, 1 dependents]}
+11-18 18:40:17.027  1415  5042 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:40:17.027  1415  5042 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:40:17.028  1415  5042 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/328
+11-18 18:40:17.028  1415  5042 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/320
+11-18 18:40:17.028  1415  5042 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=320, latest=Bundle[{last_media_sync_generation=328, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:40:17.028  1415  5042 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:17.028  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:17.028  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.028  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.029  1415  5042 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:40:17.031  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:17.031  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.031  1415  5042 D PickerSyncController: Saving next page token: 1795027215000|1000000061 for key: local_provider:media_add:resume
+11-18 18:40:17.031  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.031  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:17.031  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:17.031  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:17.032  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:17.032  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:17.033  1415  5042 D ExternalDbFacade: Token received for queryMedia = 1795027215000|1000000061
+11-18 18:40:17.034  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:17.034  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.034  1415  5042 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:40:17.034  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.034  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:17.034  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:17.034  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:17.034  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:17.034  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:17.034  1415  5042 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027215000|1000000061, android.provider.extra.SYNC_GENERATION=320, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:40:17.034  1415  5042 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:17.034  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:17.034  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.034  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.037  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:17.037  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.037  1415  5042 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:40:17.037  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:17.037  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:17.037  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:17.038  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:17.038  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:17.038  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:17.038  1415  5042 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027215000|1000000061, android.provider.extra.SYNC_GENERATION=320, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:40:17.038  1415  5042 I PickerSyncTracker: Marked sync future complete for work id: 91289c38-1aff-414b-9f03-2e059261c1b9. Future map: {}
+11-18 18:40:17.038  1415  5042 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:40:17.039  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=91289c38-1aff-414b-9f03-2e059261c1b9, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:40:17.039  1415  1415 D WM-Processor: Processor 91289c38-1aff-414b-9f03-2e059261c1b9 executed; reschedule = false
+11-18 18:40:17.039  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=91289c38-1aff-414b-9f03-2e059261c1b9, generation=0)
+11-18 18:40:17.041  1415  1625 D WM-GreedyScheduler: Cancelling work ID 91289c38-1aff-414b-9f03-2e059261c1b9
+11-18 18:40:17.042  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:40:17.042  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:40:17.042  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:40:17.873  5951  8994 I FA      : Application backgrounded at: timestamp_millis: 1795027215873
+11-18 18:40:18.190   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.191  1208  2314 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:40:18.191  1208  2314 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:40:18.191   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.191   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.193   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.193   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.193   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.193   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.194   554  1012 D ConnectivityService: Returning UNBLOCKED NetworkInfo to uid=10130
+11-18 18:40:18.194  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:40:18.194  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:40:18.196   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.196   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.197   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:18.197  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:40:18.260  8879  8893 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QMap (MapLibre)\E']].
+11-18 18:40:18.260  8879  8893 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QMap (MapLibre)\E'].
+11-18 18:40:18.263  8879  8893 D UiObject2: Clicking on (91, 297).
+11-18 18:40:18.269  8879  8879 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:40:18.287   554  2295 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10231, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:18.290   425   444 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:40:18.291  8879  8898 D EGL_emulation: app_time_stats: avg=393.31ms min=3.18ms max=1504.09ms count=4
+11-18 18:40:18.293   554  1012 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:18.298   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:18.302  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: PAUSED
+11-18 18:40:18.309   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:18.309   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:18.310   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10132} in 1ms
+11-18 18:40:18.310   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:18.311   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:18.311   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20132} in 2ms
+11-18 18:40:18.322  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MapActivity@47381d6 in: PRE_ON_CREATE
+11-18 18:40:18.331  8879  8879 D nativeloader: Load /data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.apk!/lib/x86_64/libmaplibre.so using ns clns-7 from class loader (caller=/data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.apk!classes5.dex): ok
+11-18 18:40:18.354  8879  8879 W niversity.lab10: Accessing hidden field Landroid/graphics/Typeface;->sSystemFontMap:Ljava/util/Map; (unsupported, reflection, allowed)
+11-18 18:40:18.357  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MapActivity@47381d6 in: CREATED
+11-18 18:40:18.358  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MapActivity@47381d6 in: STARTED
+11-18 18:40:18.359  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MapActivity@47381d6 in: RESUMED
+11-18 18:40:18.364  8879  8879 V Mbgl-ConnectivityReceiver: connected - true
+11-18 18:40:18.385  8879  9066 E platform: Failed to open rendernode: No such file or directory
+11-18 18:40:18.395  8879  9066 D vulkan  : searching for layers in '/data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/lib/x86_64'
+11-18 18:40:18.395  8879  9066 D vulkan  : searching for layers in '/data/app/~~NphsG4y0HmSnrTZRUURqeA==/com.university.lab10.test-4YxrbGZnb_TEKlc9LUnZwg==/base.apk!/lib/x86_64'
+11-18 18:40:18.395  8879  9066 D vulkan  : searching for layers in '/data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.apk!/lib/x86_64'
+11-18 18:40:18.481   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:18.487  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:18.487  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 123
+11-18 18:40:18.488  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:18.488  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 206
+11-18 18:40:18.490  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:18.490  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 209
+11-18 18:40:18.492  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:18.492  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 212
+11-18 18:40:18.494   554   578 I ActivityTaskManager: Displayed com.university.lab10/.MapActivity for user 0: +204ms
+11-18 18:40:18.593  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:18.594  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 219
+11-18 18:40:18.598  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:18.598  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 216
+11-18 18:40:18.709  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:18.709  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 217
+11-18 18:40:18.712  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:18.713  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 220
+11-18 18:40:18.714  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:18.717  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 221
+11-18 18:40:18.724  8879  9056 W niversity.lab10: Verification of java.lang.String okio.ByteString.hex() took 215.166ms (283.50 bytecodes/s) (3088B approximate peak alloc)
+11-18 18:40:18.737  8879  8879 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:18.754   554   680 I ImeTracker: com.university.lab10:ef490010: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:18.755   554   680 I ImeTracker: com.university.lab10:ef490010: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:18.756  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@3a631c4 in: STOPPED
+11-18 18:40:18.756  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:18.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:18.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab10, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:18.758  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:18.758  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:18.788   359  9074 I resolv  : GetAddrInfoHandler::run: {100 100 100 983140 10231 0}
+11-18 18:40:18.789   359  9075 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:18.790   359  9076 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:18.801   359  9076 I resolv  : res_nsend: used send_dg 87 terrno: 0
+11-18 18:40:18.802   359  9076 I resolv  : doQuery: rcode=0, ancount=3, return value=87
+11-18 18:40:18.829   359  9075 I resolv  : res_nsend: used send_dg 123 terrno: 0
+11-18 18:40:18.829   359  9075 I resolv  : doQuery: rcode=0, ancount=3, return value=123
+11-18 18:40:18.833  8879  9073 D TrafficStats: tagSocket(117) with statsTag=0xffffffff, statsUid=-1
+11-18 18:40:19.189   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:19.189   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:19.189   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 1ms
+11-18 18:40:19.376  8879  8885 W niversity.lab10: Cleared Reference was only reachable from finalizer (only reported once)
+11-18 18:40:19.600  8879  9073 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.602  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/styles/liberty). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.610  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:19.611  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 129
+11-18 18:40:19.620  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:19.621  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 133
+11-18 18:40:19.631  8879  9073 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.636  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/planet). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.642  8879  9085 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.648  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/sprites/ofm_f384/ofm.png). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.649  8879  9084 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.651  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/sprites/ofm_f384/ofm.json). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.737  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:19.737  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 119
+11-18 18:40:19.751  8879  8898 D EGL_emulation: app_time_stats: avg=274.70ms min=12.53ms max=979.42ms count=5
+11-18 18:40:19.775  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:19.775  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 193
+11-18 18:40:19.778  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:19.779  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 139
+11-18 18:40:19.780  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:19.780  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 143
+11-18 18:40:19.786  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:19.786  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 125
+11-18 18:40:19.802  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:19.802  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 185
+11-18 18:40:19.807  8879  9084 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.809  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/planet/20261115_080022_pt/11/1439/835.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.810  8879  9085 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.813  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/planet/20261115_080022_pt/14/11517/6684.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.818  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:19.818  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 142
+11-18 18:40:19.835  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:19.836  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 203
+11-18 18:40:19.851  8879  9085 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.853  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:19.853  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 133
+11-18 18:40:19.865  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Italic/65024-65279.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.869  8879  9084 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.871  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:19.871  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 119
+11-18 18:40:19.886  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:19.886  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 193
+11-18 18:40:19.889  8879  9073 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.890  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Italic/64256-64511.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.892  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Italic/0-255.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.893  8879  9086 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.894  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Regular/65024-65279.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.895  8879  9088 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.896  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Regular/8192-8447.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.902  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:19.903  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 139
+11-18 18:40:19.905  8879  9089 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.907  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Regular/1536-1791.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.908  8879  9087 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.912  8879  9090 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.912  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Regular/64256-64511.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.916  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Regular/0-255.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.917  8879  9091 V Mbgl-HttpRequest: [HTTP] Request was successful (code = 200).
+11-18 18:40:19.919  8879  9056 D Mbgl-HttpRequest: [HTTP] This request was cancelled (https://tiles.openfreemap.org/fonts/Noto%20Sans%20Italic/1536-1791.pbf). This is expected for tiles that were being prefetched but are no longer needed for the map to render.
+11-18 18:40:19.922  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:19.922  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 196
+11-18 18:40:19.936  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:19.937  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 143
+11-18 18:40:19.953  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:19.956  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 185
+11-18 18:40:19.975  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:19.975  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 142
+11-18 18:40:20.116  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c5190 hos timage handle 0x7000200000007
+11-18 18:40:20.116  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 203
+11-18 18:40:20.334  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bdf50 hos timage handle 0x7000200000004
+11-18 18:40:20.334  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 204
+11-18 18:40:20.448  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5bbad0 hos timage handle 0x7000300000005
+11-18 18:40:20.448  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 133
+11-18 18:40:20.526  8879  9066 I MESA    : exportSyncFdForQSRILocked: call for image 0x7d470e5c6010 hos timage handle 0x7000200000006
+11-18 18:40:20.527  8879  9066 I MESA    : exportSyncFdForQSRILocked: got fd: 193
+11-18 18:40:20.648   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:20.649   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:20.649   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 1ms
+11-18 18:40:20.649   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:20.649   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:20.649   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20154} in 0ms
+11-18 18:40:20.821   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:20.821   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:20.821   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10188} in 1ms
+11-18 18:40:20.894   359   359 I netd    : tetherGetStats() -> {[]} <0.37ms>
+11-18 18:40:20.898   359   406 I netd    : bandwidthSetGlobalAlert(2097152) <0.12ms>
+11-18 18:40:20.899   359   359 I netd    : bandwidthRemoveInterfaceQuota(eth0) <0.75ms>
+11-18 18:40:20.900   359   406 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <0.42ms>
+11-18 18:40:21.330   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 6059072
+11-18 18:40:21.734   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:21.734   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:21.734   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 1ms
+11-18 18:40:21.735   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:21.735   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:21.735   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20159} in 1ms
+11-18 18:40:21.735   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:21.736   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:21.736   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 1ms
+11-18 18:40:21.737   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:21.737   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:21.737   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 1ms
+11-18 18:40:22.065   359   406 I netd    : tetherGetStats() -> {[]} <0.32ms>
+11-18 18:40:23.310   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:23.310   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:23.310   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10132} in 1ms
+11-18 18:40:25.530   554  1762 W JobInfo : Job 'com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService#1043' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:40:25.537   359   406 I netd    : tetherGetStats() -> {[]} <0.32ms>
+11-18 18:40:25.540  7851  8913 I XmpUtil : XMP parse: only JPEG file is supported
+11-18 18:40:25.731   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:25.731   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:25.731   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 1ms
+11-18 18:40:26.755   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:26.755   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:26.755   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 1ms
+11-18 18:40:29.540  1443  1932 I BistoHotwordHelper: (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+11-18 18:40:31.061  1455  9093 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:40:33.993  8879  8893 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:33.999  8879  8893 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab10_maplibre.png
+11-18 18:40:34.045  9098  9098 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:40:34.045  9098  9098 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:40:34.053   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:40:34.053  9098  9101 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:34.070  1415  3338 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:40:34.090  1208  9021 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 457 [CONTEXT service_id=218 ]
+11-18 18:40:34.094  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 457 [CONTEXT service_id=218 ]
+11-18 18:40:34.105   554  1762 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:40:34.107   554  1004 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:40:34.109   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:40:34.111  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:34.116  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:34.121  8879  8893 I LABCI   : screenshot lab10_maplibre
+11-18 18:40:34.124  8879  8893 I TestRunner: finished: c_mapLibre(com.university.lab10.Lab10Test)

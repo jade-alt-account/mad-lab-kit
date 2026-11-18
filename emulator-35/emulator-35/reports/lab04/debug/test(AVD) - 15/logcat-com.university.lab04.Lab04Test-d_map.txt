@@ -1,0 +1,1203 @@
+11-18 18:35:52.119  5555  5575 I TestRunner: started: d_map(com.university.lab04.Lab04Test)
+11-18 18:35:52.119  5555  5555 I MonitoringInstr: Finishing activity: com.university.lab04.MainActivity@4065e48
+11-18 18:35:52.122  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@4065e48 in: DESTROYED
+11-18 18:35:52.122  5555  5555 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@937bc0d
+11-18 18:35:52.123   554  1159 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10219, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:52.128   903  1009 D SplashScreenView: Build android.window.SplashScreenView{1212cc8 V.E...... ......ID 0,0-0,0}
+11-18 18:35:52.128   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:52.128   903  1009 D SplashScreenView: Branding: view: android.view.View{1753161 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:52.129  5555  5575 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab04\E']].
+11-18 18:35:52.129  5555  5575 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab04\E'].
+11-18 18:35:52.131  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=29, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab04 cmp=com.university.lab04/.MainActivity }
+11-18 18:35:52.132   554  1036 W InputManager-JNI: Input channel object 'dfe5f7a com.university.lab04/com.university.lab04.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:35:52.133  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:35:52.136  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onPause:574 onPause enter
+11-18 18:35:52.136  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onHidden:668 onHidden enter
+11-18 18:35:52.137  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.toShortcutSpeedDialInfos:678 enter
+11-18 18:35:52.138  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onPause:312 enter
+11-18 18:35:52.138  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onActivityPause:636 enter
+11-18 18:35:52.139  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onPause:1434 unregistered GrowthKit and HATS callbacks [CONTEXT ratelimit_period="1 MINUTES" ]
+11-18 18:35:52.139  5780  5801 I DialerDynamicShortcuts: com.android.dialer.shortcuts.DynamicShortcuts.refreshInBackground:113 refreshInBackground
+11-18 18:35:52.145  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=27
+11-18 18:35:52.148  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=27
+11-18 18:35:52.148   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:52.157  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: PRE_ON_CREATE
+11-18 18:35:52.169  5555  5555 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:35:52.184  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: CREATED
+11-18 18:35:52.184  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: STARTED
+11-18 18:35:52.187  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: RESUMED
+11-18 18:35:52.205  5780  5780 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:52.208  5555  5555 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:35:52.220   554   578 W ziparchive: Unable to open '/data/app/~~g4aa2f3thNYryMITGNkXEA==/com.university.lab04-J1JczmMRn3n6NXb1wPj5KA==/base.dm': No such file or directory
+11-18 18:35:52.224   554   578 I ActivityTaskManager: Displayed com.university.lab04/.MainActivity for user 0: +96ms
+11-18 18:35:52.228  5555  5575 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@2af38; boundsInParent: Rect(0, 0 - 80, 80); boundsInScreen: Rect(240, 536 - 320, 616); boundsInWindow: Rect(240, 536 - 320, 616); packageName: com.google.android.dialer; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: Voicemail; tooltipText: Voicemail; containerTitle: null; viewIdResName: com.google.android.dialer:id/tab_voicemail; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_SHOW_TOOLTIP - null]; isTextSelectable: false
+11-18 18:35:52.228  5555  5575 W ByMatcher: Skipping null child (1 of 2)
+11-18 18:35:52.229  5555  5575 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d1e; boundsInParent: Rect(0, 0 - 320, 640); boundsInScreen: Rect(0, 0 - 320, 640); boundsInWindow: Rect(0, 0 - 320, 640); packageName: com.google.android.dialer; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:35:52.229  5555  5575 W ByMatcher: Skipping null child (1 of 2)
+11-18 18:35:52.230  5555  5575 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d1e; boundsInParent: Rect(0, 0 - 320, 640); boundsInScreen: Rect(0, 0 - 320, 640); boundsInWindow: Rect(0, 0 - 320, 640); packageName: com.google.android.dialer; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:35:52.230  5555  5575 W ByMatcher: Skipping null child (0 of 2)
+11-18 18:35:52.234  5555  5575 W ByMatcher: Skipping null child (1 of 2)
+11-18 18:35:52.235  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [0], return value: Default
+11-18 18:35:52.236  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStop:581 onStop enter
+11-18 18:35:52.236  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.unregisterPermissionReceiver:272 unregisterPermissionReceiver
+11-18 18:35:52.239  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStop:318 enter
+11-18 18:35:52.240   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b804d74
+11-18 18:35:52.241   554  2294 W InputManager-JNI: Input channel object '2caa668 Splash Screen com.university.lab04 (client)' was disposed without first being removed with the input manager!
+11-18 18:35:52.246  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:637 onSaveInstanceState enter
+11-18 18:35:52.246  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:640 longPressedFavoriteContactIndex : Optional.empty
+11-18 18:35:52.246  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onSaveInstanceState:1473 enter
+11-18 18:35:52.246  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onSaveInstanceState:671 Saving FAB hidden state 'hidden: false'
+11-18 18:35:52.253   554   680 I ImeTracker: com.university.lab04:d6876d01: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:52.253   554   680 I ImeTracker: com.university.lab04:d6876d01: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:52.254   425  4289 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:35:52.256  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:35:52.256  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:35:52.257  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:52.257  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:35:52.258  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:35:52.289  5780  5873 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:35:52.291  5780  5873 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:35:52.334  5555  5575 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab04\E'].
+11-18 18:35:52.387  4769  4770 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+11-18 18:35:52.387  4769  4770 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:35:52.390  4769  4770 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-18 18:35:52.728   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:52.728   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:52.728   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={99000} in 1ms
+11-18 18:35:52.756  1455  1818 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:35:53.757  5555  5575 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QShow GCUF\E']].
+11-18 18:35:53.757  5555  5575 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QShow GCUF\E'].
+11-18 18:35:53.760  5555  5575 D UiObject2: Clicking on (73, 366).
+11-18 18:35:53.788  5555  5578 D EGL_emulation: app_time_stats: avg=393.30ms min=10.96ms max=1500.65ms count=4
+11-18 18:35:53.788   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:35:53.788   554  2296 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:35:53.792   554  1238 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10154, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:53.797   554   581 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10154, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:53.797  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=30, baseIntent=Intent { act=android.intent.action.VIEW dat=geo: flg=0x10000000 cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity }
+11-18 18:35:53.804  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: PAUSED
+11-18 18:35:53.812   363   363 D Zygote  : Forked child process 5951
+11-18 18:35:53.815   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:53.822   359   406 I netd    : tetherGetStats() -> {[]} <0.37ms>
+11-18 18:35:53.823  5951  5951 I droid.apps.maps: Using CollectorTypeCMC GC.
+11-18 18:35:53.824  5951  5951 W droid.apps.maps: Unexpected CPU variant for x86: x86_64.
+11-18 18:35:53.824  5951  5951 W droid.apps.maps: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:35:53.825   903  1009 D SplashScreenView: Build android.window.SplashScreenView{e87da7d V.E...... ......ID 0,0-0,0}
+11-18 18:35:53.825   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:53.825   903  1009 D SplashScreenView: Branding: view: android.view.View{e184d72 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:53.826   438   453 I adbd    : jdwp connection from 5951
+11-18 18:35:53.835  5951  5951 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:53.838   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(32)
+11-18 18:35:53.848  5951  5951 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-18 18:35:53.848  5951  5951 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:35:53.848  5951  5951 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:35:53.869  5555  5555 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:53.891  5951  5951 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-18 18:35:53.891  5951  5951 D nativeloader: Configuring product-clns-7 for unbundled product apk /product/app/Maps/Maps.apk. target_sdk_version=35, uses_libraries=, library_path=/product/app/Maps/lib/x86_64:/product/app/Maps/Maps.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.apps.maps:/product/lib64:/system/product/lib64
+11-18 18:35:53.891  5951  5951 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-18 18:35:53.892  5951  5951 D CompatChangeReporter: Compat change id reported: 202956589; UID 10154; state: ENABLED
+11-18 18:35:53.895  5951  5951 V GraphicsEnvironment: Currently set values for:
+11-18 18:35:53.895  5951  5951 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:35:53.895  5951  5951 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:35:53.895  5951  5951 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:35:53.895  5951  5951 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:35:53.921  5951  5966 D nativeloader: Load /product/app/Maps/Maps.apk!/lib/x86_64/libgmm-jni.so using ns product-clns-7 from class loader (caller=/product/app/Maps/Maps.apk!classes3.dex): ok
+11-18 18:35:53.932  5951  5972 D CompatChangeReporter: Compat change id reported: 312399441; UID 10154; state: ENABLED
+11-18 18:35:53.950  5951  5973 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:35:53.950  5951  5973 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:35:53.952   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:35:53.966  5951  5974 W Settings: Setting device_provisioned has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:35:53.972  1208  1208 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START pkg=com.google.android.gms }
+11-18 18:35:54.002  5951  5951 D CompatChangeReporter: Compat change id reported: 279646685; UID 10154; state: ENABLED
+11-18 18:35:54.006  5951  5951 W FontsContract: Platform version of downloadable fonts is deprecated. Please use androidx version instead.
+11-18 18:35:54.007  1208  1723 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.007  1208  1723 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.009   554  1159 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 172 [NetworkRequest [ REQUEST id=173, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:54.009  1208  1723 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.009  1208  1723 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.010   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=173, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.010   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=173, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.010   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=173, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.010   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=173, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.010  1208  1723 I FontLog : Pulling font file for id = 17, cache size = 10 [CONTEXT service_id=132 ]
+11-18 18:35:54.012   554   826 D ConnectivityService: NetReassign [173 : null → 100] [c 1] [a 0] [i 0]
+11-18 18:35:54.016  5951  5951 W FontsContract: Platform version of downloadable fonts is deprecated. Please use androidx version instead.
+11-18 18:35:54.016  1208  2108 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.016  1208  2108 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.018  1208  2108 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.018  1208  2108 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.019  1208  2108 I FontLog : Pulling font file for id = 18, cache size = 9 [CONTEXT service_id=132 ]
+11-18 18:35:54.025  5951  5951 D CompatChangeReporter: Compat change id reported: 309578419; UID 10154; state: ENABLED
+11-18 18:35:54.029  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:35:54.029  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:35:54.035   554  1159 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:35:54.038  5951  5982 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-18 18:35:54.038  5951  5982 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-18 18:35:54.044  5951  5951 D CompatChangeReporter: Compat change id reported: 63938206; UID 10154; state: ENABLED
+11-18 18:35:54.077  5951  5974 D CompatChangeReporter: Compat change id reported: 270674727; UID 10154; state: ENABLED
+11-18 18:35:54.081  5951  5982 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.dm': No such file or directory
+11-18 18:35:54.082  5951  5982 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.dm': No such file or directory
+11-18 18:35:54.104  5951  5951 I ContentCaptureHelper: Setting logging level to DEBUG
+11-18 18:35:54.104  5951  5951 D ContentCaptureManager: setFlushViewTreeAppearingEventDisabled(): setting to false
+11-18 18:35:54.104  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=8454400
+11-18 18:35:54.107   554  1238 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:35:54.127  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+11-18 18:35:54.127  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+11-18 18:35:54.145   554  2296 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:35:54.145  5951  5982 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=35, uses_libraries=ALL, library_path=/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.apk!/lib/x86_64:/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+11-18 18:35:54.151  5951  5982 D nativeloader: Load /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.apk!/lib/x86_64/libcronet.126.0.6452.4.so using isolated ns clns-8 (caller=/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.uncompressed.apk): ok
+11-18 18:35:54.165  5951  5981 D CompatChangeReporter: Compat change id reported: 311402873; UID 10154; state: ENABLED
+11-18 18:35:54.165  5951  5981 D CompatChangeReporter: Compat change id reported: 323349338; UID 10154; state: ENABLED
+11-18 18:35:54.169  1208  2584 I FontLog : Received query Google Sans Text, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.175  1208  2584 I FontLog : Query [Google Sans Text] resolved to {Google Sans Text, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.176  1208  2584 I FontLog : Font PFD returned from cache for {Google Sans Text, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.176  1208  2584 I FontLog : Fetch {Google Sans Text, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.180  1208  2584 I FontLog : Pulling font file for id = 19, cache size = 10 [CONTEXT service_id=132 ]
+11-18 18:35:54.185  5951  5982 I cr_CronetLibraryLoader: Cronet version: 126.0.6452.4, arch: x86_64
+11-18 18:35:54.186  1208  2584 I FontLog : Received query Google Sans Text:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.187   554  1036 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 174 [NetworkRequest [ REQUEST id=175, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:54.190   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=175, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.190   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=175, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.190   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=175, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.190   554   826 D ConnectivityService: NetReassign [175 : null → 100] [c 1] [a 2] [i 0]
+11-18 18:35:54.191   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=175, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.192   554   826 D ConnectivityService: NetReassign [no changes] [c 0] [a 1] [i 0]
+11-18 18:35:54.192  1208  2584 I FontLog : Query [Google Sans Text:500] resolved to {Google Sans Text, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.194  1208  2584 I FontLog : Font PFD returned from cache for {Google Sans Text, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.194  1208  2584 I FontLog : Fetch {Google Sans Text, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.199  5951  5951 W HWUI    : Unknown dataspace 0
+11-18 18:35:54.202  1208  1723 I FontLog : Pulling font file for id = 20, cache size = 11 [CONTEXT service_id=132 ]
+11-18 18:35:54.205  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=25231616
+11-18 18:35:54.205  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:35:54.207  5951  5951 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+11-18 18:35:54.207  5951  5951 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-18 18:35:54.223  1208  1723 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.223  1208  1723 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.225  1208  1723 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.226  1208  1723 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.227  1208  1723 I FontLog : Pulling font file for id = 21, cache size = 12 [CONTEXT service_id=132 ]
+11-18 18:35:54.241  1208  1723 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:35:54.241  1208  1723 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.242  1208  1723 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:35:54.242  1208  1723 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:35:54.246  1208  1723 I FontLog : Pulling font file for id = 22, cache size = 13 [CONTEXT service_id=132 ]
+11-18 18:35:54.261   554  2296 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:35:54.269  1208  1697 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.apps.maps) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:35:54.270   359  6019 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:54.271   359  6021 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:54.271   359  6020 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:54.276   359  6021 I resolv  : res_nsend: used send_dg 53 terrno: 0
+11-18 18:35:54.276   359  6021 I resolv  : doQuery: rcode=0, ancount=1, return value=53
+11-18 18:35:54.276   359  6020 I resolv  : res_nsend: used send_dg 65 terrno: 0
+11-18 18:35:54.276   359  6020 I resolv  : doQuery: rcode=0, ancount=1, return value=65
+11-18 18:35:54.281   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10154 pid=5951
+11-18 18:35:54.281   430   729 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10154 => denied (502 us)
+11-18 18:35:54.281   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10154 pid=5951
+11-18 18:35:54.281   430   729 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10154 => denied (151 us)
+11-18 18:35:54.285   430   729 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10154 pid=5951
+11-18 18:35:54.285   430   729 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10154 => denied (3960 us)
+11-18 18:35:54.287   430   443 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10154 pid=0
+11-18 18:35:54.287   430   443 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10154 => denied (6581 us)
+11-18 18:35:54.296  5951  5977 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:35:54.326   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:35:54.327  5951  5977 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:54.353   359  6029 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:54.357   359  6030 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:54.357   359  6031 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:54.376   359  6031 I resolv  : res_nsend: used send_dg 174 terrno: 0
+11-18 18:35:54.376   359  6031 I resolv  : doQuery: rcode=0, ancount=8, return value=174
+11-18 18:35:54.406   359  6030 I resolv  : res_nsend: used send_dg 270 terrno: 0
+11-18 18:35:54.407   359  6030 I resolv  : doQuery: rcode=0, ancount=8, return value=270
+11-18 18:35:54.417  5951  5951 W TextView: onProvideContentCaptureStructure(): calling assumeLayout()
+11-18 18:35:54.420   554  1036 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10154 pid=0
+11-18 18:35:54.420   554  1036 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10154 => denied (86 us)
+11-18 18:35:54.420   554  1036 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10154 pid=0
+11-18 18:35:54.420   554  1036 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10154 => denied (12 us)
+11-18 18:35:54.420   554  1036 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10154 pid=0
+11-18 18:35:54.420   554  1036 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10154 => denied (8 us)
+11-18 18:35:54.430   554   578 I ActivityTaskManager: Displayed com.google.android.apps.maps/com.google.android.maps.MapsActivity for user 0: +638ms
+11-18 18:35:54.441   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1de5c3
+11-18 18:35:54.442   554  1238 W InputManager-JNI: Input channel object 'f42481f Splash Screen com.google.android.apps.maps (client)' was disposed without first being removed with the input manager!
+11-18 18:35:54.462  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: STOPPED
+11-18 18:35:54.481   903  1024 D EGL_emulation: app_time_stats: avg=5942.52ms min=14.12ms max=11870.92ms count=2
+11-18 18:35:54.498   554   680 I ImeTracker: com.google.android.apps.maps:cb94ab5e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:54.498   554   680 I ImeTracker: com.google.android.apps.maps:cb94ab5e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:54.504  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:35:54.507  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:35:54.507  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.maps, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:54.508  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:35:54.508  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:35:54.529  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:35:54.533  5780  5799 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: BROADCAST_RECEIVER, function parameters: [Broadcast to com.google.apps.tiktok.experiments.phenotype.ConfigurationUpdatedReceiver_Receiver com.google.android.gms.phenotype.UPDATE,2026-11-18 18:35:48.366], return value: <empty>
+11-18 18:35:54.538  5951  5951 E droid.apps.maps: No implementation found for boolean com.google.android.apps.gmm.directions.livetrips.jni.LiveTripsGuiderJni.nativeInitClass() (tried Java_com_google_android_apps_gmm_directions_livetrips_jni_LiveTripsGuiderJni_nativeInitClass and Java_com_google_android_apps_gmm_directions_livetrips_jni_LiveTripsGuiderJni_nativeInitClass__) - is the library loaded, e.g. System.loadLibrary?
+11-18 18:35:54.608   554   578 I ActivityTaskManager: Fully drawn com.google.android.apps.maps/com.google.android.maps.MapsActivity: +822ms
+11-18 18:35:54.748   554  1238 D ConnectivityService: requestNetwork for uid/pid:1000/554 asUid: 10154 activeRequest: null callbackRequest: 177 [NetworkRequest [ REQUEST id=178, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:54.749   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=178, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:35:54.749   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=178, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:35:54.749   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=178, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:35:54.749   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=178, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:35:54.752  1483  3082 I AppIntegrationPVE: (REDACTED) maybeAddIsGrpcSupported %s %d %b
+11-18 18:35:54.752  1483  3082 I AppIntegrationPVE: (REDACTED) maybeAddIsTngMorrisSupported %s: morris=%b, tngMorris=%b
+11-18 18:35:54.754   554   826 D ConnectivityService: NetReassign [178 : null → 100] [c 0] [a 0] [i 6]
+11-18 18:35:54.762  1483  3085 I AppIntegrationPVE: (REDACTED) maybeAddIsGrpcSupported %s %d %b
+11-18 18:35:54.762  1483  3085 I AppIntegrationPVE: (REDACTED) maybeAddIsTngMorrisSupported %s: morris=%b, tngMorris=%b
+11-18 18:35:54.763  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@ed759be
+11-18 18:35:54.789  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.languageprofile.service.START pkg=com.google.android.gms }
+11-18 18:35:54.789  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.languageprofile.service.START pkg=com.google.android.gms }
+11-18 18:35:54.800   554  1238 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 179 [NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:54.801   554   826 D ConnectivityService: NetReassign [180 : null → 100] [c 0] [a 1] [i 0]
+11-18 18:35:54.803   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.803   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.803   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.803   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:54.813  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService pkg=com.google.android.gms }
+11-18 18:35:54.813  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService pkg=com.google.android.gms }
+11-18 18:35:54.828  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.locationsharingreporter.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:35:54.828  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.locationsharingreporter.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:35:54.837  1208  5839 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService started execution. cause:7 exec_start_elapsed_seconds: 178 [CONTEXT service_id=218 ]
+11-18 18:35:54.856   554  2294 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10188, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:54.873   359   406 I netd    : tetherGetStats() -> {[]} <4.07ms>
+11-18 18:35:54.878   363   363 D Zygote  : Forked child process 6044
+11-18 18:35:54.902  1208  4544 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService finished executing. cause:7 result: 1 elapsed_millis: 80 uptime_millis: 80 exec_start_elapsed_seconds: 178 [CONTEXT service_id=218 ]
+11-18 18:35:54.906  6044  6044 I .adservices.api: Using CollectorTypeCMC GC.
+11-18 18:35:54.910  6044  6044 W .adservices.api: Unexpected CPU variant for x86: x86_64.
+11-18 18:35:54.910  6044  6044 W .adservices.api: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:35:54.912  6044  6044 E .adservices.api: Not starting debugger since process cannot load the jdwp agent.
+11-18 18:35:54.922  6044  6044 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:54.938  1208  1208 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocation.service.START_ODLH dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+11-18 18:35:54.939  1208  1208 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocation.service.START_ODLH dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+11-18 18:35:54.957  6044  6044 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:35:54.957  6044  6044 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:35:54.966  6044  6044 D nativeloader: Configuring clns-shared-7 for other apk /apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260/AdServicesApkGoogle.apk. target_sdk_version=35, uses_libraries=, library_path=/apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.adservices.api:/apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260:/system/lib64:/system_ext/lib64
+11-18 18:35:54.968  6044  6044 D nativeloader: InitApexLibraries:
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_adservices: libhpke_jni.so:libtflite_support_classifiers_native.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_appsearch: libicing.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_art: libartservice.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_btservices: libbluetooth_jni.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_conscrypt: libjavacrypto.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_mediaprovider: libpdfclient.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_nfcservices: libnfc_nci_jni.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_ondevicepersonalization: libfcp_cpp_dep_jni.so:libfcp_hpke_jni.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_os_statsd: libstats_jni.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libcrypto.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libmainlinecronet.121.0.6167.71.so:libservice-connectivity.so:libservice-thread-jni.so:libssl.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_uwb: libuwb_uci_jni_rust.so
+11-18 18:35:54.968  6044  6044 D nativeloader:   com_android_virt: libvirtualizationservice_jni.so:libvirtualmachine_jni.so
+11-18 18:35:54.995   904  1580 I PermissionControllerServiceImpl: Updating user sensitive for uid 10154
+11-18 18:35:54.998   554   863 E system_server: No package ID 7f found for resource ID 0x7f08069b.
+11-18 18:35:54.998   554   863 E system_server: No package ID 7f found for resource ID 0x7f140c6e.
+11-18 18:35:54.998   554   863 E system_server: No package ID 7f found for resource ID 0x7f080729.
+11-18 18:35:54.998   554   863 E system_server: No package ID 7f found for resource ID 0x7f142028.
+11-18 18:35:55.000  1077  1077 D CarrierSvcBindHelper: onPackageModified: com.google.android.apps.maps
+11-18 18:35:55.001  1077  1077 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:35:55.002  1397  1397 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.apps.maps.
+11-18 18:35:55.005  1397  2423 I AiAiEcho: AppIndexer Package:[com.google.android.apps.maps] UserProfile:[0] Enabled:[true].
+11-18 18:35:55.005  1397  2423 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.apps.maps], userId:[0], reason:[package is updated.].
+11-18 18:35:55.006   554  1159 W ParceledListSlice: Element #23 is 19828 bytes.
+11-18 18:35:55.006   554  1159 W ParceledListSlice: Element #24 is 19864 bytes.
+11-18 18:35:55.006   554  1159 W ParceledListSlice: Element #25 is 19708 bytes.
+11-18 18:35:55.007   903   903 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:35:55.007   554  2295 W ParceledListSlice: Element #26 is 19616 bytes.
+11-18 18:35:55.007   554  2295 W ParceledListSlice: Element #27 is 19728 bytes.
+11-18 18:35:55.010  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:35:55.011  5951  5974 I WebViewFactory: Loading com.google.android.webview version 124.0.6367.219 (code 636771938)
+11-18 18:35:55.013  6044  6044 D CompatChangeReporter: Compat change id reported: 202956589; UID 10188; state: ENABLED
+11-18 18:35:55.015  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:35:55.016  1156  1206 W PackageManager: Failure retrieving text 0x7f130786 in package com.android.systemui
+11-18 18:35:55.016  1156  1206 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.content.res.Resources.getText(Resources.java:466)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2405)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.appwidget.AppWidgetProviderInfo.loadDescription(AppWidgetProviderInfo.java:484)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetItem.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetsModel.update(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:72)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at com.android.launcher3.p0.execute(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:16)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at com.android.launcher3.LauncherModel.a(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:27)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at com.android.launcher3.t0.run(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:12)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:35:55.016  1156  1206 W PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:35:55.032  1077  1273 D ImsResolver: maybeAddedImsService, packageName: com.google.android.apps.maps
+11-18 18:35:55.045   554   664 I RoleService: Granting default roles...
+11-18 18:35:55.046   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:55.046   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:55.046   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:55.046   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:55.054  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk' with 1 weak references
+11-18 18:35:55.054  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TelephonyProvider/TelephonyProvider.apk' with 1 weak references
+11-18 18:35:55.054  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/TelephonyProvider__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.054  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CalendarProvider/CalendarProvider.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/GoogleExtShared/GoogleExtShared.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/HTMLViewer/HTMLViewer.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CompanionDeviceManager/CompanionDeviceManager.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DownloadProvider/DownloadProvider.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@350820300/MediaProviderGoogle.apk' with 1 weak references
+11-18 18:35:55.055  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DownloadProviderUi/DownloadProviderUi.apk' with 1 weak references
+11-18 18:35:55.056   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.wifi/app/OsuLoginGoogle@350820300/OsuLoginGoogle.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/PacProcessor/PacProcessor.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/SimAppDialog/SimAppDialog.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SimAppDialog__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260/AdServicesApkGoogle.apk' with 1 weak references
+11-18 18:35:55.056   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CertInstaller/CertInstaller.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Camera2/Camera2.apk' with 1 weak references
+11-18 18:35:55.056  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/EasterEgg/EasterEgg.apk' with 1 weak references
+11-18 18:35:55.057  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/MtpService/MtpService.apk' with 1 weak references
+11-18 18:35:55.057  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.nfcservices/priv-app/NfcNciApexGoogle@AE3A.240806.043/NfcNciApexGoogle.apk' with 1 weak references
+11-18 18:35:55.057  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/Stk/Stk.apk' with 1 weak references
+11-18 18:35:55.057  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+11-18 18:35:55.057  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NavigationBarMode2Button/NavigationBarMode2ButtonOverlay.apk' with 1 weak references
+11-18 18:35:55.057   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+11-18 18:35:55.057  6044  6044 V GraphicsEnvironment: Currently set values for:
+11-18 18:35:55.057  6044  6044 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:35:55.057  6044  6044 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:35:55.057  6044  6044 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:35:55.057  6044  6044 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:35:55.060  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+11-18 18:35:55.060  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:35:55.061  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.permission/priv-app/GooglePermissionController@350820360/GooglePermissionController.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/GooglePermissionControllerOverlay.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.btservices/app/BluetoothGoogle@342010060/BluetoothGoogle.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SettingsProvider/SettingsProvider.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/LargeScreenSettingsProviderOverlay.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsProvider__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/PrintSpooler/PrintSpooler.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/BasicDreams/BasicDreams.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk' with 1 weak references
+11-18 18:35:55.062  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@AE3A.240806.043/DeviceLockControllerGoogle.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/BuiltInPrintService/BuiltInPrintService.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/BuiltInPrintService__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/MusicFX/MusicFX.apk' with 1 weak references
+11-18 18:35:55.064  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/ModuleMetadataGoogle/ModuleMetadataGoogle.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationEmu01/DisplayCutoutEmulationEmu01Overlay.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.rkpd/priv-app/rkpdapp.google@350820300/rkpdapp.google.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/Telecom/Telecom.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/Telecom__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.065  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/KeyChain/KeyChain.apk' with 1 weak references
+11-18 18:35:55.066  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8jXwg3yPKSNqqjB7x9oTaw==/com.android.chrome-oFxGilUD6a3booPX2hBzQw==/Chrome.apk' with 1 weak references
+11-18 18:35:55.066  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk' with 1 weak references
+11-18 18:35:55.066  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk' with 1 weak references
+11-18 18:35:55.068  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PixelThemesStub/PixelThemesStub.apk' with 1 weak references
+11-18 18:35:55.068  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk' with 1 weak references
+11-18 18:35:55.068  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TagGoogle/TagGoogle.apk' with 1 weak references
+11-18 18:35:55.068  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:35:55.068  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CallLogBackup/CallLogBackup.apk' with 1 weak references
+11-18 18:35:55.069  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk' with 1 weak references
+11-18 18:35:55.069  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk' with 1 weak references
+11-18 18:35:55.069  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/NexusWallpapersStubPrebuilt2018/NexusWallpapersStubPrebuilt2018.apk' with 1 weak references
+11-18 18:35:55.069  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CarrierDefaultApp/CarrierDefaultApp.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CredentialManager/CredentialManager.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DeviceAsWebcam/DeviceAsWebcam.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ProxyHandler/ProxyHandler.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.permission/priv-app/GoogleSafetyCenterResources@350820360/GoogleSafetyCenterResources.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk' with 1 weak references
+11-18 18:35:55.071  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/IntentResolver/IntentResolver.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/TransparentNavigationBar/TransparentNavigationBarOverlay.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/E2eeContactKeysProvider/E2eeContactKeysProvider.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@350820300/ServiceConnectivityResourcesGoogle.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/goldfish_overlay_connectivity_google.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Photos/Photos.apk' with 1 weak references
+11-18 18:35:55.072  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:55.073  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ManagedProvisioning/ManagedProvisioning.apk' with 1 weak references
+11-18 18:35:55.075  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SoundPicker/SoundPicker.apk' with 1 weak references
+11-18 18:35:55.075  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk' with 1 weak references
+11-18 18:35:55.075  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGoogleTelemetryTvp/PrebuiltGoogleTelemetryTvp.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/MultiDisplayProvider/MultiDisplayProvider.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DeviceDiagnostics/DeviceDiagnostics.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/DeviceDiagnostics__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NotesRoleEnabled/NotesRoleEnabledOverlay.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/LiveWallpapersPicker/LiveWallpapersPicker.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGoogleAdservicesTvp/PrebuiltGoogleAdservicesTvp.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.healthfitness/priv-app/HealthConnectControllerGoogle@350820300/HealthConnectControllerGoogle.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/StorageManager/StorageManager.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/StorageManager__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/BookmarkProvider/BookmarkProvider.apk' with 1 weak references
+11-18 18:35:55.076  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk' with 1 weak references
+11-18 18:35:55.077  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.077  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:55.077  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.uwb/priv-app/ServiceUwbResourcesGoogle@350820300/ServiceUwbResourcesGoogle.apk' with 1 weak references
+11-18 18:35:55.079  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@350820300/ServiceWifiResourcesGoogle.apk' with 1 weak references
+11-18 18:35:55.079  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/ThemePicker/ThemePicker.apk' with 1 weak references
+11-18 18:35:55.079  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk' with 1 weak references
+11-18 18:35:55.079  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/OdadPrebuilt/OdadPrebuilt.apk' with 1 weak references
+11-18 18:35:55.079  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TeleService/TeleService.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/TeleService__sdk_gphone64_x86_64__auto_generated_rro_vendor.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/TeleService__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/Shell/Shell.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/BlockedNumberProvider/BlockedNumberProvider.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/FusedLocation/FusedLocation.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/SystemUIGoogle__sdk_gphone64_x86_64__auto_generated_rro_vendor.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SystemUIGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/BluetoothMidiService/BluetoothMidiService.apk' with 1 weak references
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/Traceur/Traceur.apk' with 1 weak references
+11-18 18:35:55.081   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+11-18 18:35:55.080  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@350820300/GoogleCellBroadcastApp.apk' with 1 weak references
+11-18 18:35:55.083  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ContactsProvider/ContactsProvider.apk' with 1 weak references
+11-18 18:35:55.084  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/ContactsProvider__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:55.084  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:55.084  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleRestorePrebuilt-v526684/GoogleRestorePrebuilt-v526684.apk' with 1 weak references
+11-18 18:35:55.085  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~g4aa2f3thNYryMITGNkXEA==/com.university.lab04-J1JczmMRn3n6NXb1wPj5KA==/base.apk' with 1 weak references
+11-18 18:35:55.087   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+11-18 18:35:55.090  1156  1206 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.apps.maps]
+11-18 18:35:55.102  1156  1156 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-18 18:35:55.104  1208  4544 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:35:55.104  1208  4544 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddhd.<init>(:com.google.android.gms@242335041@24.23.35 (190800-646585959):16)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddov.j(:com.google.android.gms@242335041@24.23.35 (190800-646585959):18)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddnv.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):328)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	... 18 more
+11-18 18:35:55.104  1208  4544 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:35:55.104  1208  4544 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at ddnv.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):332)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:35:55.104  1208  4544 W SemanticLocation: 	... 16 more
+11-18 18:35:55.130  5951  5974 W ziparchive: Unable to open '/data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.dm': No such file or directory
+11-18 18:35:55.130  5951  5974 W ziparchive: Unable to open '/data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.dm': No such file or directory
+11-18 18:35:55.130  5951  5974 W droid.apps.maps: Entry not found
+11-18 18:35:55.145  6044  6044 I adservices-shared: Set singleton context as android.app.Application@ebc43c0
+11-18 18:35:55.159  5951  5974 D nativeloader: Configuring clns-9 for other apk /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/lib/x86_64:/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+11-18 18:35:55.159  5951  5974 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:35:55.173  5951  5974 D nativeloader: Configuring clns-10 for other apk /data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/lib/x86_64:/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+11-18 18:35:55.177  6044  6044 E adservices: Measurement API is disabled
+11-18 18:35:55.177  6044  6044 E adservices: Measurement API is disabled
+11-18 18:35:55.178  5951  6033 E adservices: onNullBinding android.adservices.MEASUREMENT_SERVICE
+11-18 18:35:55.193  5951  6042 E adservices: Failed to bind to measurement service: com.android.adservices.shared.common.exception.ServiceUnavailableException: Service is not available.
+11-18 18:35:55.216  5951  5955 I droid.apps.maps: JIT allocated 63KB for compiled code of java.lang.Object jkx.i()
+11-18 18:35:55.216  5951  5955 I droid.apps.maps: Compiler allocated 6894KB to compile java.lang.Object jkx.i()
+11-18 18:35:55.223  5951  5974 I cr_WVCFactoryProvider: Loaded version=124.0.6367.219 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+11-18 18:35:55.232  5951  5974 D nativeloader: Load /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk!/lib/x86_64/libmonochrome_64.so using ns clns-10 from class loader (caller=/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk): ok
+11-18 18:35:55.240  1483  1483 I A       : (REDACTED) disposing SearchServiceClient after timeout %s
+11-18 18:35:55.246  5951  5974 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-10 from class loader (caller=/data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk): ok
+11-18 18:35:55.263  5951  6068 I chromium: [1118/183555.261700:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+11-18 18:35:55.264  5951  6068 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.google.android.apps.maps/app_webview/variations_seed_new"
+11-18 18:35:55.264  5951  6068 I chromium: [1118/183555.264878:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+11-18 18:35:55.265  5951  6068 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.google.android.apps.maps/app_webview/variations_seed"
+11-18 18:35:55.266  5951  6064 I cr_VariationsUtils: Requesting new seed from IVariationsSeedServer
+11-18 18:35:55.269  5951  5974 I cr_LibraryLoader: Successfully loaded native library
+11-18 18:35:55.275  5951  5974 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms, 0 samples were dropped.
+11-18 18:35:55.281  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@5582af1
+11-18 18:35:55.285   554  1238 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:55.290  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@c519a62
+11-18 18:35:55.332  3752  3804 I cr_VariationsUtils: Throttling seed download job
+11-18 18:35:55.332  3752  3804 I cr_VariationsUtils: Writing new seed to app's data directory
+11-18 18:35:55.344   554   590 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10154, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:55.350   363   363 D Zygote  : Forked child process 6079
+11-18 18:35:55.356  6079  6079 I ecovery_process: Using CollectorTypeCMC GC.
+11-18 18:35:55.358  6079  6079 W ecovery_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:35:55.358  6079  6079 W ecovery_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:35:55.361   438   453 I adbd    : jdwp connection from 6079
+11-18 18:35:55.369  6079  6079 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:55.379   359  6098 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:55.380   359  6099 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:55.380   359  6099 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d09990
+11-18 18:35:55.380   359  6099 I resolv  : doQuery: rcode=0, ancount=8, return value=278
+11-18 18:35:55.380   359  6100 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:55.380   359  6100 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63cff850
+11-18 18:35:55.380   359  6100 I resolv  : doQuery: rcode=0, ancount=8, return value=182
+11-18 18:35:55.381  5951  6089 D TrafficStats: tagSocket(214) with statsTag=0x8001, statsUid=-1
+11-18 18:35:55.384  6079  6079 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-18 18:35:55.384  6079  6079 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:35:55.384  6079  6079 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:35:55.404  6079  6079 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-18 18:35:55.405  6079  6079 D nativeloader: Configuring product-clns-7 for unbundled product apk /product/app/Maps/Maps.apk. target_sdk_version=35, uses_libraries=, library_path=/product/app/Maps/lib/x86_64:/product/app/Maps/Maps.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.apps.maps:/product/lib64:/system/product/lib64
+11-18 18:35:55.406  6079  6079 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-18 18:35:55.406  6079  6079 D CompatChangeReporter: Compat change id reported: 202956589; UID 10154; state: ENABLED
+11-18 18:35:55.411  6079  6079 V GraphicsEnvironment: Currently set values for:
+11-18 18:35:55.412  6079  6079 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:35:55.412  6079  6079 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:35:55.412  6079  6079 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:35:55.412  6079  6079 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:35:55.425  1208  2314 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+11-18 18:35:55.446  5951  6089 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-18 18:35:55.455  5951  6089 D nativeloader: Configuring clns-11 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-18 18:35:55.459  5951  6089 D nativeloader: Configuring clns-12 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-18 18:35:55.460  5951  6089 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:35:55.460  5951  6089 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:35:55.469  5951  6089 D nativeloader: Configuring product-clns-13 for unbundled product apk /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk. target_sdk_version=34, uses_libraries=, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-18 18:35:55.482  5951  6089 D nativeloader: Load /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64/libconscrypt_gmscore_jni.so using ns product-clns-13 from class loader (caller=/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!classes3.dex): ok
+11-18 18:35:55.485  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@fa316d
+11-18 18:35:55.488  5951  6089 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 305 native methods...
+11-18 18:35:55.498  3124  3225 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@e06e280
+11-18 18:35:55.506  5951  6089 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+11-18 18:35:55.538  5951  5955 I droid.apps.maps: Compiler allocated 4214KB to compile java.lang.Object jkx.f()
+11-18 18:35:55.576  5951  5955 I droid.apps.maps: JIT allocated 68KB for compiled code of java.lang.Object jkx.g()
+11-18 18:35:55.577  5951  5955 I droid.apps.maps: Compiler allocated 6891KB to compile java.lang.Object jkx.g()
+11-18 18:35:55.586  5951  5955 W droid.apps.maps: Missing inline cache for void bkef.accept(java.lang.Object, java.lang.Object)
+11-18 18:35:55.586  5951  5955 W droid.apps.maps: Missing inline cache for void bkef.accept(java.lang.Object, java.lang.Object)
+11-18 18:35:55.616  5951  5955 I droid.apps.maps: Compiler allocated 5648KB to compile java.lang.Object jkx.h()
+11-18 18:35:55.625  5951  5955 W droid.apps.maps: Missing inline cache for void aohc.run()
+11-18 18:35:55.693  5951  5955 I droid.apps.maps: JIT allocated 52KB for compiled code of boolean azfk.a(azij, java.lang.Object, azhs)
+11-18 18:35:55.694  5951  5955 I droid.apps.maps: Compiler allocated 5770KB to compile boolean azfk.a(azij, java.lang.Object, azhs)
+11-18 18:35:55.702  5951  5955 W droid.apps.maps: Missing inline cache for boolean krb.a(azij, java.lang.Object, azhs)
+11-18 18:35:55.713   359  6110 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:35:55.713   359  6112 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:55.714   359  6111 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:55.714   359  6111 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d00b90
+11-18 18:35:55.714   359  6111 I resolv  : doQuery: rcode=0, ancount=5, return value=177
+11-18 18:35:55.717   359  6112 I resolv  : res_nsend: used send_dg 273 terrno: 0
+11-18 18:35:55.717   359  6112 I resolv  : doQuery: rcode=0, ancount=7, return value=273
+11-18 18:35:55.718  1208  2222 D TrafficStats: tagSocket(247) with statsTag=0x407, statsUid=-1
+11-18 18:35:55.720  1208  2222 D TrafficStats: tagSocket(247) with statsTag=0x407, statsUid=-1
+11-18 18:35:55.720  1208  2222 D TrafficStats: tagSocket(247) with statsTag=0x407, statsUid=-1
+11-18 18:35:55.721  1208  2222 D TrafficStats: tagSocket(247) with statsTag=0x407, statsUid=-1
+11-18 18:35:55.722  1208  2222 D TrafficStats: tagSocket(247) with statsTag=0x407, statsUid=-1
+11-18 18:35:55.749   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:55.749   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:55.749   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10132} in 1ms
+11-18 18:35:55.811   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:55.812   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:55.813   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10191} in 2ms
+11-18 18:35:55.836  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object ainb.apply(java.lang.Object)
+11-18 18:35:55.839  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object ucp.apply(java.lang.Object)
+11-18 18:35:55.868  5951  5955 W droid.apps.maps: Missing inline cache for void tff.Gv(bazo)
+11-18 18:35:55.868  5951  5955 W droid.apps.maps: Missing inline cache for void tff.Gv(bazo)
+11-18 18:35:55.869  5951  5955 W droid.apps.maps: Missing inline cache for void tff.Gv(bazo)
+11-18 18:35:55.884  5951  5958 W droid.apps.maps: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~psZivt8yy1X0yIiSjbHxrg==/com.google.android.webview-RYjqSYnpZZf_j6HEypc5TQ==/WebViewGoogle.apk' with 2 weak references
+11-18 18:35:56.099  5951  5977 D EGL_emulation: app_time_stats: avg=335.83ms min=20.90ms max=1257.86ms count=5
+11-18 18:35:56.305  1397  1397 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.apps.maps.
+11-18 18:35:56.306  1397  2252 I AiAiEcho: AppIndexer Package:[com.google.android.apps.maps] UserProfile:[0] Enabled:[true].
+11-18 18:35:56.306  1397  2252 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.apps.maps], userId:[0], reason:[package is updated.].
+11-18 18:35:56.307   554   863 E system_server: No package ID 7f found for resource ID 0x7f08069b.
+11-18 18:35:56.307   554   863 E system_server: No package ID 7f found for resource ID 0x7f140c6e.
+11-18 18:35:56.307   554   863 E system_server: No package ID 7f found for resource ID 0x7f080729.
+11-18 18:35:56.307   554   863 E system_server: No package ID 7f found for resource ID 0x7f142028.
+11-18 18:35:56.309  1156  1206 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.apps.maps]
+11-18 18:35:56.311   904  1580 I PermissionControllerServiceImpl: Updating user sensitive for uid 10154
+11-18 18:35:56.311  1077  1077 D CarrierSvcBindHelper: onPackageModified: com.google.android.apps.maps
+11-18 18:35:56.311  1077  1077 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:35:56.312   903   903 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:35:56.315   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.315   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.315   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.315   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.327   554   664 I RoleService: Granting default roles...
+11-18 18:35:56.328  1156  1156 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-18 18:35:56.329  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:35:56.336   554  1036 W ParceledListSlice: Element #23 is 19828 bytes.
+11-18 18:35:56.337   554  1036 W ParceledListSlice: Element #24 is 19864 bytes.
+11-18 18:35:56.337   554  1036 W ParceledListSlice: Element #25 is 19708 bytes.
+11-18 18:35:56.337   554  2294 W ParceledListSlice: Element #26 is 19616 bytes.
+11-18 18:35:56.337   554  2294 W ParceledListSlice: Element #27 is 19728 bytes.
+11-18 18:35:56.338   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+11-18 18:35:56.339   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+11-18 18:35:56.341  1156  1206 W PackageManager: Failure retrieving text 0x7f130786 in package com.android.systemui
+11-18 18:35:56.341  1156  1206 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.content.res.Resources.getText(Resources.java:466)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2405)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.appwidget.AppWidgetProviderInfo.loadDescription(AppWidgetProviderInfo.java:484)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetItem.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetsModel.update(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:72)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at com.android.launcher3.p0.execute(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:16)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at com.android.launcher3.LauncherModel.a(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:27)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at com.android.launcher3.t0.run(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:12)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:35:56.341  1156  1206 W PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:35:56.343   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+11-18 18:35:56.344  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:35:56.368  1077  1273 D ImsResolver: maybeAddedImsService, packageName: com.google.android.apps.maps
+11-18 18:35:56.381   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+11-18 18:35:56.383   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+11-18 18:35:56.395  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk' with 1 weak references
+11-18 18:35:56.396  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/SystemUIGoogle__sdk_gphone64_x86_64__auto_generated_rro_vendor.apk' with 1 weak references
+11-18 18:35:56.396  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '/product/overlay/SystemUIGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:56.396  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:35:56.397  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+11-18 18:35:56.397  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Photos/Photos.apk' with 1 weak references
+11-18 18:35:56.401  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk' with 1 weak references
+11-18 18:35:56.402  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:56.403  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTube/YouTube.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8jXwg3yPKSNqqjB7x9oTaw==/com.android.chrome-oFxGilUD6a3booPX2hBzQw==/Chrome.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk' with 1 weak references
+11-18 18:35:56.404  1156  1167 W System  : A resource failed to call release. 
+11-18 18:35:56.404  1156  1167 W System  : A resource failed to call release. 
+11-18 18:35:56.404  1156  1167 W System  : A resource failed to call release. 
+11-18 18:35:56.405  1156  1167 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-18 18:35:56.462   554   570 I system_server: Background concurrent mark compact GC freed 24MB AllocSpace bytes, 57(1160KB) LOS objects, 47% free, 26MB/50MB, paused 369us,929us total 133.165ms
+11-18 18:35:56.465   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8jXwg3yPKSNqqjB7x9oTaw==/com.android.chrome-oFxGilUD6a3booPX2hBzQw==/Chrome.apk' with 1 weak references
+11-18 18:35:56.466   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk' with 1 weak references
+11-18 18:35:56.466   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '/product/overlay/AccessibilityMenu__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:35:56.467   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:35:56.468   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:56.468   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:35:56.468   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:35:56.588  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:35:56.588  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:35:56.590   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.590   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.590   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.590   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:56.592  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:35:56.594  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:35:56.599  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:35:56.602  5951  6066 W droid.apps.maps: Long monitor contention with owner gnp-background-thread-3 (6075) at java.lang.String bgck.b()(PG:13) waiters=0 in java.lang.String bgck.c() for 1.246s
+11-18 18:35:56.603  5951  5970 W droid.apps.maps: Long monitor contention with owner gnp-background-thread-3 (6075) at java.lang.String bgck.b()(PG:13) waiters=1 in java.lang.String bgck.b() for 1.223s
+11-18 18:35:56.652   554  2294 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 181 [NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:56.653   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.653   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.653   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.653   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.653   554   826 D ConnectivityService: NetReassign [182 : null → 100] [c 0] [a 0] [i 1]
+11-18 18:35:56.655   554  1036 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 183 [NetworkRequest [ REQUEST id=184, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:35:56.656   554   826 D ConnectivityService: NetReassign [184 : null → 100] [c 0] [a 0] [i 0]
+11-18 18:35:56.656   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=184, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.656   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=184, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.656   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=184, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.656   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=184, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:35:56.661  1582  1582 V ContactsProvider: Scheduled notifyChange started.
+11-18 18:35:56.675   359  6119 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:56.675   359  6120 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:56.675   359  6120 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d08b90
+11-18 18:35:56.675   359  6120 I resolv  : doQuery: rcode=0, ancount=8, return value=273
+11-18 18:35:56.675   359  6121 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:56.675   359  6121 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d02f50
+11-18 18:35:56.675   359  6121 I resolv  : doQuery: rcode=0, ancount=8, return value=177
+11-18 18:35:56.677  5951  6118 D TrafficStats: tagSocket(184) with statsTag=0xffffffff, statsUid=-1
+11-18 18:35:56.678   359   406 I netd    : tetherGetStats() -> {[]} <0.31ms>
+11-18 18:35:56.679  1208  5839 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 180 [CONTEXT service_id=218 ]
+11-18 18:35:56.684  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 180 [CONTEXT service_id=218 ]
+11-18 18:35:56.691  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator started execution. cause:9 exec_start_elapsed_seconds: 180 [CONTEXT service_id=218 ]
+11-18 18:35:56.718  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.onetimeinitializer
+11-18 18:35:56.757  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.devicelockcontroller
+11-18 18:35:56.770  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.modulemetadata
+11-18 18:35:56.797  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.gsf
+11-18 18:35:56.797  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.tag
+11-18 18:35:56.803  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.nexuslauncher
+11-18 18:35:56.810  3124  3257 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@e06e280
+11-18 18:35:56.823  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.feedback
+11-18 18:35:56.828   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1497088
+11-18 18:35:56.846  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+11-18 18:35:56.847  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-18 18:35:56.847  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:35:56.847  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTube/YouTube.apk' with 1 weak references
+11-18 18:35:56.847  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/ConfigUpdater/ConfigUpdater.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+11-18 18:35:56.848  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:35:56.849  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+11-18 18:35:56.849  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+11-18 18:35:56.850  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:35:56.851  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.gms.supervision
+11-18 18:35:56.852  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk' with 1 weak references
+11-18 18:35:56.853  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:35:56.853  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8jXwg3yPKSNqqjB7x9oTaw==/com.android.chrome-oFxGilUD6a3booPX2hBzQw==/Chrome.apk' with 1 weak references
+11-18 18:35:56.854  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Wj4WlYZiIfxbGy3rU-1q1g==/com.google.android.trichromelibrary_636771938-iMmTIW1tc7gxIqUNaaGR2A==/TrichromeLibrary.apk' with 1 weak references
+11-18 18:35:56.854  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:35:56.855  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk' with 1 weak references
+11-18 18:35:56.855  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.settings
+11-18 18:35:56.861  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.wallpaper
+11-18 18:35:56.864  1208  4544 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.systemui
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 0ms
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:56.922   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20159} in 1ms
+11-18 18:35:56.968  1208  4544 I HeterodyneSyncer: Removed 0 invalid users [CONTEXT service_id=51 ]
+11-18 18:35:57.291   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:57.292   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:57.292   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 0ms
+11-18 18:35:57.292   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:57.292   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:57.292   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 1ms
+11-18 18:35:57.604  1483  1483 I PhenotypeBackgroundRecv: Skipping assistant_auto_tng_libraries_device#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-18 18:35:57.607  1208  5839 W CCTFlatFileLogStore: Excessive logging: 4 events, 114244 bytes from log source PHENOTYPE last 2s
+11-18 18:35:57.609  6079  6079 I ecovery_process: System.exit called, status: 0
+11-18 18:35:57.609  6079  6079 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-18 18:35:57.614  1208  4544 I HeterodyneSyncScheduler: Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-18 18:35:57.617   438   438 I adbd    : Remote process closed the socket (on MSG_PEEK)
+11-18 18:35:57.617   554   592 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10154/pid_6079
+11-18 18:35:57.618   363   363 I Zygote  : Process 6079 exited cleanly (0)
+11-18 18:35:57.625  1208  5836 W CCTFlatFileLogStore: Excessive logging: 8 events, 141855 bytes from log source PHENOTYPE last 2s
+11-18 18:35:57.627  1483  3082 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:35:57.629  1483  1483 I PhenotypeBackgroundRecv: Skipping assistant_auto_tng_libraries_user#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-18 18:35:57.635  1208  4544 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator finished executing. cause:9 result: 1 elapsed_millis: 952 uptime_millis: 952 exec_start_elapsed_seconds: 180 [CONTEXT service_id=218 ]
+11-18 18:35:57.638  1483  3085 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:35:57.639  1483  1483 I PhenotypeBackgroundRecv: Skipping com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-18 18:35:57.641  1483  1483 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-43' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:57.642   554  1238 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-43' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:57.646  1483  1483 I BgTaskExecutorImpl: (REDACTED) Starting %s background task %s.
+11-18 18:35:57.672  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.672  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.672  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.672  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.672  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.673  1483  1788 W A       : (REDACTED) Can't format flag %s to integer.
+11-18 18:35:57.690   359   406 I netd    : tetherGetStats() -> {[]} <0.41ms>
+11-18 18:35:57.692  1483  1915 I Ma      : #handleFlagUpdate()
+11-18 18:35:57.694  1483  1810 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:35:57.696  1483  2141 W SearchServiceCore: Abort, client detached.
+11-18 18:35:57.696  1483  2141 W SearchServiceCore: Abort, client detached.
+11-18 18:35:57.697  1483  1813 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+11-18 18:35:57.704  1483  1797 I SettingsDataLayer.AE: Set Assistant eligibility status
+11-18 18:35:57.705  1443  1443 I A       : (REDACTED) Created gRPC endpoint for service %s
+11-18 18:35:57.707  1483  1797 I SettingsDataLayer.AE: Set isHotwordOpaEligible
+11-18 18:35:57.708  1443  1873 I A       : (REDACTED) #handleFlagsUpdate: changed %s
+11-18 18:35:57.709  1443  1873 I A       : #handleFlagsUpdate: listeners notified
+11-18 18:35:57.720  1483  2141 W SearchServiceCore: Abort, client detached.
+11-18 18:35:57.729  1455  1784 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33
+11-18 18:35:57.730  1455  2752 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32
+11-18 18:35:57.752  1443  1448 I hbox:interactor: Compiler allocated 4529KB to compile java.lang.Object com.google.android.apps.gsa.binaries.velvet.app.ahh.a()
+11-18 18:35:57.760  1455  1784 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-18 18:35:57.762  1455  5487 E native  : E0000 00:00:1795026957.762147    5487 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:35:57.763  1455  5487 E native  : E0000 00:00:1795026957.763059    5487 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:35:57.764  1455  5487 E native  : E0000 00:00:1795026957.764826    5487 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:35:57.766  1455  5487 E native  : E0000 00:00:1795026957.766335    5487 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:35:57.767  1455  5487 I Icing   : Usage reports ok 3, Failed Usage reports 4, indexed 0, rejected 0
+11-18 18:35:57.770  1455  5487 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-18 18:35:57.771  1455  5487 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-18 18:35:58.670  1455  2655 I PeopleChimeraService: onService. callbacks = boez@8a6fd69, request = com.google.android.gms.common.internal.GetServiceRequest@88613ee
+11-18 18:35:58.673  1455  2655 I PeopleChimeraService: onService. callbacks = boez@3736f1c, request = com.google.android.gms.common.internal.GetServiceRequest@fa90725
+11-18 18:35:58.693   359   406 I netd    : tetherGetStats() -> {[]} <0.29ms>
+11-18 18:35:58.794  5555  5575 I LABCI   : Show GCUF opened package: com.google.android.apps.maps
+11-18 18:35:59.494  5555  5575 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:59.508  5555  5575 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab04_map.png
+11-18 18:35:59.592  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:35:59.592   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.592   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.592  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:35:59.592   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.592   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.595  1208  2314 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:35:59.595  1208  2314 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:35:59.597   554  2295 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10130
+11-18 18:35:59.600  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:35:59.604  6133  6133 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:59.604  6133  6133 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:59.611   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:35:59.611  6133  6136 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:59.635  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:59.652  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+11-18 18:35:59.656  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+11-18 18:35:59.666   554  1036 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:59.667   554  2295 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:59.670   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:59.671  1415  1855 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:59.683  1415  1855 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:59.685  5555  5575 I LABCI   : screenshot lab04_map
+11-18 18:35:59.686  5555  5575 D UiDevice: Pressing back button.
+11-18 18:35:59.689  1397  1397 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.contacts.
+11-18 18:35:59.691  1397  2013 I AiAiEcho: AppIndexer Package:[com.google.android.contacts] UserProfile:[0] Enabled:[true].
+11-18 18:35:59.692  1397  2013 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.contacts], userId:[0], reason:[package is updated.].
+11-18 18:35:59.693   904  2494 I PermissionControllerServiceImpl: Updating user sensitive for uid 10159
+11-18 18:35:59.694  1077  1077 D CarrierSvcBindHelper: onPackageModified: com.google.android.contacts
+11-18 18:35:59.694  1077  1077 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:35:59.697  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:35:59.698   903   903 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:35:59.699  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:35:59.700  1077  1273 D ImsResolver: maybeAddedImsService, packageName: com.google.android.contacts
+11-18 18:35:59.705  1323  1323 I StylusModule: StylusModule.onUpdateToolType():770 Update tool type = 0
+11-18 18:35:59.714   554  2296 W ParceledListSlice: Element #23 is 19828 bytes.
+11-18 18:35:59.714   554  2296 W ParceledListSlice: Element #24 is 19864 bytes.
+11-18 18:35:59.714   554  2296 W ParceledListSlice: Element #25 is 19708 bytes.
+11-18 18:35:59.715   554  2296 W ParceledListSlice: Element #26 is 19616 bytes.
+11-18 18:35:59.715   554  2296 W ParceledListSlice: Element #27 is 19728 bytes.
+11-18 18:35:59.720   554  2296 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:35:59.727  1156  1206 W PackageManager: Failure retrieving text 0x7f130786 in package com.android.systemui
+11-18 18:35:59.727  1156  1206 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.content.res.Resources.getText(Resources.java:466)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2405)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.appwidget.AppWidgetProviderInfo.loadDescription(AppWidgetProviderInfo.java:484)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetItem.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetsModel.update(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:72)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at com.android.launcher3.p0.execute(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:16)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at com.android.launcher3.LauncherModel.a(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:27)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at com.android.launcher3.t0.run(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:12)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:35:59.727  1156  1206 W PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:35:59.739  5951  5977 D EGL_emulation: app_time_stats: avg=213.53ms min=1.31ms max=3388.77ms count=16
+11-18 18:35:59.740   554   863 E system_server: No package ID 7f found for resource ID 0x7f080147.
+11-18 18:35:59.740   554   863 E system_server: No package ID 7f found for resource ID 0x7f1505f0.
+11-18 18:35:59.758  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 5fdf19d4-7573-4f72-a8ca-8e74372d0780Job ID 19
+11-18 18:35:59.762  1156  1206 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.contacts]
+11-18 18:35:59.764  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:35:59.764  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:35:59.773  1156  1156 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-18 18:35:59.791   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.791   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.791   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.791   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:59.815  1208  4544 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+11-18 18:35:59.826  5951  5951 D AutofillManager: notifyViewReadyInner:1073741855
+11-18 18:35:59.833  1208  5835 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 37 uptime_millis: 37 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+11-18 18:35:59.853  5951  5951 W View    : requestLayout() improperly called by android.widget.LinearLayout{527a48a V.E...... ......ID 0,0-320,110} during layout: running second layout pass
+11-18 18:35:59.853  5951  5951 W View    : requestLayout() improperly called by com.google.android.libraries.geo.mapcore.internal.ui.CompassButtonView{d6d9718 IFE...C.. ......I. 260,62-308,110 #7f0b011d app:id/base_compass_button} during layout: running second layout pass
+11-18 18:35:59.865  5951  6141 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+11-18 18:35:59.866  5951  6141 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+11-18 18:35:59.870   359  6149 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:59.871   359  6150 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:59.871   359  6150 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d09990
+11-18 18:35:59.871   359  6150 I resolv  : doQuery: rcode=0, ancount=8, return value=278
+11-18 18:35:59.872   359  6151 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:59.872   359  6151 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63cff850
+11-18 18:35:59.872   359  6151 I resolv  : doQuery: rcode=0, ancount=8, return value=182
+11-18 18:35:59.873  5951  6147 D TrafficStats: tagSocket(192) with statsTag=0x8001, statsUid=-1
+11-18 18:35:59.884  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:35:59.920  5951  5955 W droid.apps.maps: Missing inline cache for bvyr adkw.c(adik, java.util.Set)
+11-18 18:35:59.970   359  6152 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:35:59.970   359  6153 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:35:59.971   359  6154 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:35:59.971   359  6154 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ffd3cff610
+11-18 18:35:59.971   359  6154 I resolv  : doQuery: rcode=0, ancount=8, return value=160
+11-18 18:35:59.975   359  6153 I resolv  : res_nsend: used send_dg 256 terrno: 0
+11-18 18:35:59.975   359  6153 I resolv  : doQuery: rcode=0, ancount=8, return value=256
+11-18 18:35:59.982  1208  1217 I .gms.persistent: Background concurrent mark compact GC freed 17MB AllocSpace bytes, 19(1088KB) LOS objects, 49% free, 17MB/34MB, paused 293us,1.170ms total 171.401ms
+11-18 18:35:59.985  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Photos/Photos.apk' with 1 weak references
+11-18 18:35:59.985  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:59.985  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:59.985  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk' with 1 weak references
+11-18 18:35:59.986  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk' with 1 weak references
+11-18 18:35:59.986  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:35:59.986  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleRestorePrebuilt-v526684/GoogleRestorePrebuilt-v526684.apk' with 1 weak references
+11-18 18:35:59.986  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTube/YouTube.apk' with 1 weak references
+11-18 18:35:59.986  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:35:59.987  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+11-18 18:35:59.988  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+11-18 18:35:59.988  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:35:59.988  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk' with 1 weak references
+11-18 18:35:59.988  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-18 18:35:59.989  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:35:59.989  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+11-18 18:35:59.989  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:35:59.990  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:35:59.990  1208  1219 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk' with 1 weak references
+11-18 18:36:00.006  5951  5951 W View    : requestLayout() improperly called by azmr{3ef52df V.ED..... ......ID 0,0-183,33 #186} during layout: running second layout pass
+11-18 18:36:00.010  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@65f5aeb
+11-18 18:36:00.017  5951  5955 W droid.apps.maps: Missing inline cache for beie beib.c(beps)
+11-18 18:36:00.041  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:36:00.042  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:36:00.042  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:36:00.042  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:36:00.042  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:36:00.042  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:36:00.042  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:36:00.042  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:36:00.048  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:36:00.048   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:36:00.049  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:36:00.049  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:36:00.049  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:36:00.049  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:36:00.049  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:36:00.067  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@a6f8795
+11-18 18:36:00.093  5813  5818 W ndroid.contacts: Missing inline cache for boolean lgt.handleMessage(android.os.Message)
+11-18 18:36:00.124   903  1024 D EGL_emulation: app_time_stats: avg=1881.13ms min=8.19ms max=5616.91ms count=3
+11-18 18:36:00.200   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:36:00.200   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:36:00.200   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10188} in 1ms
+11-18 18:36:00.200   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:36:00.201   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:36:00.201   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20188} in 0ms
+11-18 18:36:00.201  3124  3257 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@e06e280
+11-18 18:36:00.218   359   406 I netd    : tetherGetStats() -> {[]} <0.27ms>
+11-18 18:36:00.333  1208  5839 W CCTFlatFileLogStore: Excessive logging: 16 events, 157712 bytes from log source PHENOTYPE last 5s
+11-18 18:36:00.336   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:36:00.339   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:36:00.339   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10151} in 3ms
+11-18 18:36:00.339   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:36:00.340   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:36:00.340   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20151} in 0ms
+11-18 18:36:00.345  5951  6160 I FA      : App measurement initialized, version: 95014
+11-18 18:36:00.345  5951  6160 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-18 18:36:00.345  5951  6160 I FA      : To enable faster debug mode event logging run:
+11-18 18:36:00.345  5951  6160 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.maps
+11-18 18:36:00.353  1208  1697 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(7, com.google.lighter.android#com.google.android.apps.maps) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:36:00.368  5951  5955 I droid.apps.maps: Compiler allocated 4579KB to compile void jis.a(jie, java.util.List, jii, boolean, boolean)
+11-18 18:36:00.468  5951  5955 W droid.apps.maps: Missing inline cache for java.util.List beiw.a()
+11-18 18:36:00.468  5951  5955 W droid.apps.maps: Missing inline cache for java.util.List beiw.a()
+11-18 18:36:00.470  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.<init>(axfm)
+11-18 18:36:00.470  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.<init>(axfm)
+11-18 18:36:00.470  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.<init>(axfm)
+11-18 18:36:00.470  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.<init>(axfm)
+11-18 18:36:00.499  5951  5955 W droid.apps.maps: Missing inline cache for boolean uub.a(azij, java.lang.Object, azhs)
+11-18 18:36:00.553  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-18 18:36:00.554  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-18 18:36:00.558  5951  6160 I FA      : Tag Manager is not found and thus will not be used
+11-18 18:36:00.618  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.cryptauth.cryptauthservice.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+11-18 18:36:00.762   359   406 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.07ms>
+11-18 18:36:00.763   359   406 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.02ms>
+11-18 18:36:00.763   359   406 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.02ms>
+11-18 18:36:00.763   359   406 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.01ms>
+11-18 18:36:00.769  5951  6017 I HWUI    : Davey! duration=916ms; Flags=0, FrameTimelineVsyncId=17853, IntendedVsync=183323802121, Vsync=183357135453, InputEventId=0, HandleInputStart=183368485864, AnimationStart=183368486845, PerformTraversalsStart=183368579693, DrawStart=183414702253, FrameDeadline=183340468787, FrameInterval=183368483160, FrameStartTime=16666666, SyncQueued=183424579228, SyncStart=183424677674, IssueDrawCommandsStart=183425883852, SwapBuffers=184129525832, FrameCompleted=184240658928, DequeueBufferDuration=2364, QueueBufferDuration=309328, GpuCompleted=184240658928, SwapBuffersCompleted=184224753305, DisplayPresentTime=0, CommandSubmissionCompleted=184129525832, 
+11-18 18:36:00.805  5951  5977 D EGL_emulation: app_time_stats: avg=341.72ms min=35.81ms max=926.21ms count=3
+11-18 18:36:00.813  1208  2222 D TrafficStats: tagSocket(333) with statsTag=0x407, statsUid=-1
+11-18 18:36:00.833  5951  5951 W View    : requestLayout() improperly called by azmr{2b88de7 V.ED..... ......ID 0,0-168,33 #187 aid=1073741923} during layout: running second layout pass
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.836  5951  5955 W droid.apps.maps: Missing inline cache for bbuo bbuo.au(brwv, bcae, bbzm, int, bbti, brwv, bbuk)
+11-18 18:36:00.881  5951  5956 W droid.apps.maps: Suspending all threads took: 6.816ms
+11-18 18:36:00.902  5951  5977 W droid.apps.maps: Weak pointer dereference blocked for 12 milliseconds.
+11-18 18:36:00.918  5951  5951 W View    : requestLayout() improperly called by azmr{3ef52df V.ED..... ......ID 0,0-183,33 #186 aid=1073741937} during layout: running second layout pass
+11-18 18:36:00.928  1455  3712 I FA-SVC  : Install Referrer Reporter is not available
+11-18 18:36:00.964  5951  6034 D EGL_emulation: app_time_stats: avg=1212.07ms min=55.00ms max=4910.96ms count=5
+11-18 18:36:00.965  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.977  5951  5955 W droid.apps.maps: Missing inline cache for void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.978  5951  5955 I droid.apps.maps: Compiler allocated 5710KB to compile void bbyd.X(bcbm, bcop, android.content.res.Resources, bbzt, bcgu, boolean, boolean, bbgf, java.util.Map, boolean, boolean)
+11-18 18:36:00.997   359  6164 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:36:00.998   359  6165 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:36:00.998   359  6166 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:36:01.013  5951  5956 I droid.apps.maps: Background concurrent mark compact GC freed 15MB AllocSpace bytes, 45(2932KB) LOS objects, 46% free, 27MB/51MB, paused 8.321ms,4.564ms total 353.005ms
+11-18 18:36:01.014   359  6165 I resolv  : res_nsend: used send_dg 71 terrno: 0
+11-18 18:36:01.014   359  6165 I resolv  : doQuery: rcode=0, ancount=1, return value=71
+11-18 18:36:01.046   359  6166 I resolv  : res_nsend: used send_dg 59 terrno: 0
+11-18 18:36:01.047   359  6166 I resolv  : doQuery: rcode=0, ancount=1, return value=59
+11-18 18:36:01.062  5951  5955 W droid.apps.maps: Missing inline cache for bxtx kmm.a()
+11-18 18:36:01.062  5951  5955 W droid.apps.maps: Missing inline cache for bxtx kmm.a()
+11-18 18:36:01.062  5951  5955 W droid.apps.maps: Missing inline cache for bxtx kmm.a()
+11-18 18:36:01.062  5951  5955 W droid.apps.maps: Missing inline cache for bxtx kmm.a()
+11-18 18:36:01.103  5951  5955 I droid.apps.maps: Compiler allocated 4423KB to compile void uql.c(java.util.List, bvxt, boolean)
+11-18 18:36:01.142  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@81a4796
+11-18 18:36:01.171  5951  5951 W View    : requestLayout() improperly called by azmr{2b88de7 V.ED..... ......ID 0,0-199,33 #187 aid=1073741923} during layout: running second layout pass
+11-18 18:36:01.213  5951  5955 W droid.apps.maps: Missing inline cache for void bcen.run()
+11-18 18:36:01.213  5951  5955 W droid.apps.maps: Missing inline cache for void bcen.run()
+11-18 18:36:01.225  5951  6172 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:36:01.247  1415  1415 D WM-DelayedWorkTracker: Scheduling work 5fdf19d4-7573-4f72-a8ca-8e74372d0780
+11-18 18:36:01.247  1415  1415 D WM-GreedyScheduler: Starting tracking for 5fdf19d4-7573-4f72-a8ca-8e74372d0780
+11-18 18:36:01.254  1415  1590 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:36:01.254  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:36:01.255  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=5fdf19d4-7573-4f72-a8ca-8e74372d0780, generation=0)
+11-18 18:36:01.255  1415  1625 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=5fdf19d4-7573-4f72-a8ca-8e74372d0780, generation=0)
+11-18 18:36:01.259  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:36:01.260  1415  4182 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:36:01.261  1415  4182 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@ec7b8f[Not completed, 1 dependents]. Future map: {5fdf19d4-7573-4f72-a8ca-8e74372d0780=java.util.concurrent.CompletableFuture@ec7b8f[Not completed, 1 dependents]}
+11-18 18:36:01.261  1415  4182 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:36:01.261  1415  4182 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:36:01.265  1415  4182 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/128
+11-18 18:36:01.265  1415  4182 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/120
+11-18 18:36:01.265  1415  4182 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=120, latest=Bundle[{last_media_sync_generation=128, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:36:01.265  1415  4182 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:36:01.265  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:36:01.265  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.265  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.265  1415  4182 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:36:01.272  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:36:01.272  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.272  1415  4182 D PickerSyncController: Saving next page token: 1795026959000|1000000037 for key: local_provider:media_add:resume
+11-18 18:36:01.273  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.274  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:36:01.277  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:36:01.277  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:36:01.277  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:36:01.277  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:36:01.278  1415  4182 D ExternalDbFacade: Token received for queryMedia = 1795026959000|1000000037
+11-18 18:36:01.278  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:36:01.278  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.278  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:36:01.278  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.278  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:36:01.281  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:36:01.281  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:36:01.285  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:36:01.285  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:36:01.285  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026959000|1000000037, android.provider.extra.SYNC_GENERATION=120, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:36:01.286  1415  4182 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:36:01.286  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:36:01.286  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.286  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.323  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:36:01.323  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.323  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:36:01.323  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:36:01.323  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:36:01.325  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:36:01.325  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:36:01.327  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:36:01.327  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:36:01.329  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026959000|1000000037, android.provider.extra.SYNC_GENERATION=120, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:36:01.330  1415  4182 I PickerSyncTracker: Marked sync future complete for work id: 5fdf19d4-7573-4f72-a8ca-8e74372d0780. Future map: {}
+11-18 18:36:01.330  1415  4182 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:36:01.331  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=5fdf19d4-7573-4f72-a8ca-8e74372d0780, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:36:01.340  1415  1415 D WM-Processor: Processor 5fdf19d4-7573-4f72-a8ca-8e74372d0780 executed; reschedule = false
+11-18 18:36:01.340  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=5fdf19d4-7573-4f72-a8ca-8e74372d0780, generation=0)
+11-18 18:36:01.347  1415  1625 D WM-GreedyScheduler: Cancelling work ID 5fdf19d4-7573-4f72-a8ca-8e74372d0780
+11-18 18:36:01.348  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:36:01.348  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:36:01.348  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:36:01.349  5951  5955 I droid.apps.maps: Compiler allocated 6600KB to compile void bcld.f()
+11-18 18:36:01.383  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ocr.service.internal.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalApiService }
+11-18 18:36:01.444  5951  5955 I droid.apps.maps: Compiler allocated 5839KB to compile void bbuf.c(bbho, bbvf, bbuy, bbzz, boolean, bbug, bbnx)
+11-18 18:36:01.464  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:36:01.539  1156  1557 D EGL_emulation: app_time_stats: avg=9482.56ms min=44.60ms max=18920.52ms count=2
+11-18 18:36:01.806  5951  5955 W droid.apps.maps: Missing inline cache for void bbst.b(java.util.List, java.util.List)
+11-18 18:36:01.925  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+11-18 18:36:02.374  5555  5575 D UiDevice: Pressing back button.
+11-18 18:36:02.709  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+11-18 18:36:02.717   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:02.717   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:02.717   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:02.717   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:02.739  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:36:02.740  1208  2314 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:36:02.740  1208  2314 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:36:02.741  5951  6034 D EGL_emulation: app_time_stats: avg=41.82ms min=7.75ms max=971.81ms count=42
+11-18 18:36:02.743  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:36:02.745  1323  1323 I StylusModule: StylusModule.onUpdateToolType():770 Update tool type = 0
+11-18 18:36:02.755  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:36:02.760  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=29, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab04 cmp=com.university.lab04/.MainActivity }
+11-18 18:36:02.765   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:02.774  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: RESTARTED
+11-18 18:36:02.774  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: STARTED
+11-18 18:36:02.774  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@a1bb583 in: RESUMED
+11-18 18:36:02.800   359   406 I netd    : tetherGetStats() -> {[]} <0.53ms>
+11-18 18:36:02.811  5951  5955 W droid.apps.maps: Missing inline cache for void bbsw.c(java.util.ArrayList, float, bbrw)
+11-18 18:36:02.959   554   680 I ImeTracker: com.university.lab04:d11b33e5: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:02.959   554   680 I ImeTracker: com.university.lab04:d11b33e5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:02.960  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:36:02.961  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:36:02.961  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:02.961  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:36:02.962  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:36:02.963  5951  5977 D EGL_emulation: app_time_stats: avg=106.61ms min=0.96ms max=1372.03ms count=19
+11-18 18:36:02.981  5951  5977 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:36:03.100  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object aufl.apply(java.lang.Object)
+11-18 18:36:03.100  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object aufl.apply(java.lang.Object)
+11-18 18:36:03.141  1156  1557 D EGL_emulation: app_time_stats: avg=1602.02ms min=1602.02ms max=1602.02ms count=1
+11-18 18:36:03.736  5951  5956 I droid.apps.maps: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 96(8112KB) LOS objects, 38% free, 38MB/62MB, paused 959us,2.041ms total 101.108ms
+11-18 18:36:04.004  5555  5575 I TestRunner: finished: d_map(com.university.lab04.Lab04Test)

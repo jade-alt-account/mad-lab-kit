@@ -1,0 +1,21 @@
+npm init -y: ok
+
+found 0 vulnerabilities
+node_modules
+package-lock.json
+package.json
+Notes API on http://localhost:3000
+GET:
+[{"id":1,"title":"First note","body":"Hello from the server"}]
+POST:
+{"id":2,"title":"Lab 12","body":"From curl"}
+GET 2:
+{"id":2,"title":"Lab 12","body":"From curl"}
+GET 99:
+{"error":"Note not found"} [404]
+POST no title:
+{"error":"title is required"} [400]
+DELETE 2:
+[204]
+GET after delete:
+[{"id":1,"title":"First note","body":"Hello from the server"}]

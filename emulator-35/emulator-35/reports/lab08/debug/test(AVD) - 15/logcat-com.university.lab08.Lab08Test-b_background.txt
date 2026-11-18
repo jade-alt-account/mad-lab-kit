@@ -1,0 +1,364 @@
+11-18 18:37:51.880  7558  7585 I TestRunner: started: b_background(com.university.lab08.Lab08Test)
+11-18 18:37:51.881  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=51
+11-18 18:37:51.886   554  1743 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10227, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:51.888  1208  2482 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 295 [CONTEXT service_id=218 ]
+11-18 18:37:51.892  1208  2482 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 45 uptime_millis: 45 exec_start_elapsed_seconds: 295 [CONTEXT service_id=218 ]
+11-18 18:37:51.893  7558  7585 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:37:51.894  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:37:51.894  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:37:51.895  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:51.896   903  1009 D SplashScreenView: Build android.window.SplashScreenView{26a8f2d V.E...... ......ID 0,0-0,0}
+11-18 18:37:51.896   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:51.896   903  1009 D SplashScreenView: Branding: view: android.view.View{8ccdc62 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:51.898  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=52, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab08 cmp=com.university.lab08/.MainActivity }
+11-18 18:37:51.912  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4be5274 in: PRE_ON_CREATE
+11-18 18:37:51.915   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:51.943  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4be5274 in: CREATED
+11-18 18:37:51.944  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4be5274 in: STARTED
+11-18 18:37:51.946  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4be5274 in: RESUMED
+11-18 18:37:51.965  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:51.968  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:37:51.994   554   578 W ziparchive: Unable to open '/data/app/~~cirwDE_iqMtLeF0EIvDIhQ==/com.university.lab08-FwWUg0-Mh-NaIxA01aCLjQ==/base.dm': No such file or directory
+11-18 18:37:51.997   554   578 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity for user 0: +110ms
+11-18 18:37:51.998  1156  1156 D BaseDepthController: setSurface:
+11-18 18:37:51.998  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:37:51.998  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:37:51.998  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:37:52.001  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:37:52.001  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:37:52.001  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:37:52.001  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:37:52.001  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:37:52.005  1483  4568 W A       : (REDACTED) [%s] response code: %d
+11-18 18:37:52.006   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d8df129
+11-18 18:37:52.007   554  1743 W InputManager-JNI: Input channel object 'c3a218e Splash Screen com.university.lab08 (client)' was disposed without first being removed with the input manager!
+11-18 18:37:52.010  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:37:52.011  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:37:52.013  1156  5063 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae50e470 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:37:52.024   554   680 I ImeTracker: com.university.lab08:1f42878a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:52.024   554   680 I ImeTracker: com.university.lab08:1f42878a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:52.026  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:52.027  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:52.027  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab08, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:52.027  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:52.028  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:52.030  1156  1156 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 30349, 12102758, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+11-18 18:37:52.030  1156  1156 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 30364, 10868824, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+11-18 18:37:53.217  1415  1415 D WM-DelayedWorkTracker: Scheduling work 1b78be73-d4c1-4ab1-b75e-8506db90a356
+11-18 18:37:53.217  1415  1415 D WM-GreedyScheduler: Starting tracking for 1b78be73-d4c1-4ab1-b75e-8506db90a356
+11-18 18:37:53.218  1415  1415 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=1b78be73-d4c1-4ab1-b75e-8506db90a356, generation=0)
+11-18 18:37:53.219  1415  1590 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=1b78be73-d4c1-4ab1-b75e-8506db90a356, generation=0)
+11-18 18:37:53.220  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:53.220  1415  4182 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:37:53.220  1415  1625 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:37:53.220  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:37:53.221  1415  4182 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@20ce30f[Not completed, 1 dependents]. Future map: {1b78be73-d4c1-4ab1-b75e-8506db90a356=java.util.concurrent.CompletableFuture@20ce30f[Not completed, 1 dependents]}
+11-18 18:37:53.221  1415  4182 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:37:53.221  1415  4182 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:37:53.223  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=1b78be73-d4c1-4ab1-b75e-8506db90a356, generation=0)
+11-18 18:37:53.223  1415  4182 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/236
+11-18 18:37:53.223  1415  4182 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/228
+11-18 18:37:53.223  1415  4182 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=228, latest=Bundle[{last_media_sync_generation=236, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:37:53.223  1415  4182 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:53.223  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:53.223  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.223  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.223  1415  4182 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:37:53.224  1415  1625 D WM-Processor: Work WorkGenerationalId(workSpecId=1b78be73-d4c1-4ab1-b75e-8506db90a356, generation=0) is already enqueued for processing
+11-18 18:37:53.224  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:53.224  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.224  1415  4182 D PickerSyncController: Saving next page token: 1795027071000|1000000050 for key: local_provider:media_add:resume
+11-18 18:37:53.225  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.226  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:53.226  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:53.226  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:53.226  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:53.226  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:53.227  1415  4182 D ExternalDbFacade: Token received for queryMedia = 1795027071000|1000000050
+11-18 18:37:53.227  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:53.227  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.227  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:37:53.227  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.227  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:53.228  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:53.228  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:53.228  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:53.228  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:53.228  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027071000|1000000050, android.provider.extra.SYNC_GENERATION=228, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:37:53.228  1415  4182 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:53.228  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:53.228  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.228  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.229  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:53.229  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.229  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:37:53.229  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:53.229  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:53.229  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:53.229  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:53.229  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:53.230  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:53.230  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027071000|1000000050, android.provider.extra.SYNC_GENERATION=228, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:37:53.231  1415  4182 I PickerSyncTracker: Marked sync future complete for work id: 1b78be73-d4c1-4ab1-b75e-8506db90a356. Future map: {}
+11-18 18:37:53.231  1415  4182 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:37:53.232  1415  1590 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1b78be73-d4c1-4ab1-b75e-8506db90a356, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:37:53.232  1415  1415 D WM-Processor: Processor 1b78be73-d4c1-4ab1-b75e-8506db90a356 executed; reschedule = false
+11-18 18:37:53.233  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=1b78be73-d4c1-4ab1-b75e-8506db90a356, generation=0)
+11-18 18:37:53.233  1415  1415 D WM-SystemJobService: 1b78be73-d4c1-4ab1-b75e-8506db90a356 executed on JobScheduler
+11-18 18:37:53.234  1415  1625 D WM-GreedyScheduler: Cancelling work ID 1b78be73-d4c1-4ab1-b75e-8506db90a356
+11-18 18:37:53.235  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:53.235  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:53.235  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:37:53.529  7558  7585 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSlow (background)\E']].
+11-18 18:37:53.529  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSlow (background)\E'].
+11-18 18:37:53.533  7558  7585 D UiObject2: Clicking on (101, 224).
+11-18 18:37:53.552  7558  7558 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:37:53.569  7558  7588 D EGL_emulation: app_time_stats: avg=394.80ms min=7.29ms max=1513.39ms count=4
+11-18 18:37:53.571   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:53.572   554  2295 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:53.576  7558  7585 W GestureController: Gestures took longer than expected (42ms >> 16ms), device might be in a busy state.
+11-18 18:37:53.576  7558  7585 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:37:53.576  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:37:53.619   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:37:53.732   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.825   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:53.829  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:53.829  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:53.830  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:53.830  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:53.832  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:54.072  7558  7585 D UiObject2: Clicking on (60, 272).
+11-18 18:37:54.102   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:54.103   554  1743 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:54.110  7558  7585 W GestureController: Gestures took longer than expected (37ms >> 16ms), device might be in a busy state.
+11-18 18:37:54.110  7558  7585 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:37:54.110  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:37:54.321   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:54.603  7558  7585 D UiObject2: Clicking on (60, 272).
+11-18 18:37:54.637  7558  7588 D EGL_emulation: app_time_stats: avg=177.89ms min=15.86ms max=501.75ms count=6
+11-18 18:37:54.637   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:54.638   554  2295 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:54.642  7558  7585 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:37:54.642  7558  7585 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\Q+1\E']].
+11-18 18:37:54.642  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\Q+1\E'].
+11-18 18:37:54.865   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:55.136  7558  7585 D UiObject2: Clicking on (60, 272).
+11-18 18:37:55.169   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:55.169   554  1847 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:55.175  7558  7585 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:37:55.175  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='\Q3\E'].
+11-18 18:37:55.202  7558  7585 I LABCI   : counter at 3 during background work: true
+11-18 18:37:55.386   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:55.902  7558  7585 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:55.908  7558  7585 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_working.png
+11-18 18:37:55.954  7686  7686 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:37:55.954  7686  7686 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:37:55.962   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:55.962  7686  7689 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:55.980  1415  3338 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:37:55.997  1208  7637 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 299 [CONTEXT service_id=218 ]
+11-18 18:37:56.001  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 299 [CONTEXT service_id=218 ]
+11-18 18:37:56.005   554  1847 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:37:56.006   554  1743 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:37:56.008   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:37:56.010  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:56.019  1415  1590 D WM-SystemJobScheduler: Scheduling work ID 3d7c44a3-e9bc-4358-bb81-3c601f4987ebJob ID 33
+11-18 18:37:56.021  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:56.021  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:56.021  7558  7585 I LABCI   : screenshot lab08_working
+11-18 18:37:56.022  7558  7585 D UiDevice: Waiting 12000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QDone\E.*']].
+11-18 18:37:56.022  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.023  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:56.126  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.229  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.333  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.436  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.539  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.642  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.745  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.831   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:56.832  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:56.832  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:56.834  1208  1222 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:56.834  1208  1222 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:56.834  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:56.847  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:56.951  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.054  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.157  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.260  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.363  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.466  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.520  1415  1415 D WM-DelayedWorkTracker: Scheduling work 3d7c44a3-e9bc-4358-bb81-3c601f4987eb
+11-18 18:37:57.520  1415  1415 D WM-GreedyScheduler: Starting tracking for 3d7c44a3-e9bc-4358-bb81-3c601f4987eb
+11-18 18:37:57.521  1415  1590 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:37:57.521  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:37:57.522  1415  1590 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=3d7c44a3-e9bc-4358-bb81-3c601f4987eb, generation=0)
+11-18 18:37:57.522  1415  1590 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=3d7c44a3-e9bc-4358-bb81-3c601f4987eb, generation=0)
+11-18 18:37:57.523  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:57.524  1415  4541 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:37:57.524  1415  4541 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@bc37c5d[Not completed, 1 dependents]. Future map: {3d7c44a3-e9bc-4358-bb81-3c601f4987eb=java.util.concurrent.CompletableFuture@bc37c5d[Not completed, 1 dependents]}
+11-18 18:37:57.524  1415  4541 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:37:57.524  1415  4541 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:37:57.525  1415  4541 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/244
+11-18 18:37:57.525  1415  4541 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/236
+11-18 18:37:57.525  1415  4541 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=236, latest=Bundle[{last_media_sync_generation=244, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:37:57.525  1415  4541 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:57.525  1415  4541 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:57.525  1415  4541 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-2]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.525  1415  4541 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.525  1415  4541 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:37:57.526  1415  4541 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:57.526  1415  4541 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-2]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.526  1415  4541 D PickerSyncController: Saving next page token: 1795027075000|1000000051 for key: local_provider:media_add:resume
+11-18 18:37:57.526  1415  4541 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.526  1415  4541 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:57.526  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:57.526  1415  4541 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:57.526  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:57.526  1415  4541 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:57.526  1415  4541 D ExternalDbFacade: Token received for queryMedia = 1795027075000|1000000051
+11-18 18:37:57.527  1415  4541 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:57.527  1415  4541 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-2]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.527  1415  4541 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:37:57.527  1415  4541 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.527  1415  4541 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:57.527  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:57.527  1415  4541 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:57.527  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:57.527  1415  4541 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:57.527  1415  4541 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027075000|1000000051, android.provider.extra.SYNC_GENERATION=236, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:37:57.527  1415  4541 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:57.527  1415  4541 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:57.527  1415  4541 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-2]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.527  1415  4541 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.528  1415  4541 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:57.528  1415  4541 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-2]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.528  1415  4541 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:37:57.528  1415  4541 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:57.528  1415  4541 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:57.528  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:57.528  1415  4541 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:57.528  1415  4541 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:57.528  1415  4541 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:57.528  1415  4541 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027075000|1000000051, android.provider.extra.SYNC_GENERATION=236, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:37:57.529  1415  4541 I PickerSyncTracker: Marked sync future complete for work id: 3d7c44a3-e9bc-4358-bb81-3c601f4987eb. Future map: {}
+11-18 18:37:57.529  1415  4541 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:37:57.529  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3d7c44a3-e9bc-4358-bb81-3c601f4987eb, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:37:57.530  1415  1415 D WM-Processor: Processor 3d7c44a3-e9bc-4358-bb81-3c601f4987eb executed; reschedule = false
+11-18 18:37:57.530  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=3d7c44a3-e9bc-4358-bb81-3c601f4987eb, generation=0)
+11-18 18:37:57.531  1415  1625 D WM-GreedyScheduler: Cancelling work ID 3d7c44a3-e9bc-4358-bb81-3c601f4987eb
+11-18 18:37:57.532  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:57.532  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:57.532  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:37:57.568  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.671  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.774  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.877  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:57.980  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.083  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.185  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.253   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3893952
+11-18 18:37:58.289  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.392  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.449   359   359 I netd    : tetherGetStats() -> {[]} <0.32ms>
+11-18 18:37:58.495  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.600  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.702  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.805  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:58.908  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.014  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.117  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.220  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.323  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.426  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.529  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.632  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.734  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.837  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:37:59.940  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:00.035  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:38:00.035  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:38:00.035  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:38:00.035  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:00.035  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:00.035  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:38:00.035  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:38:00.035  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:38:00.035  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:38:00.035  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:00.036  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:00.036  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:38:00.036  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:38:00.036  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:38:00.038  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:38:00.038  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:00.038  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:00.038  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:00.038  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:38:00.039   903  1024 D EGL_emulation: app_time_stats: avg=2064.90ms min=15.16ms max=8049.36ms count=4
+11-18 18:38:00.042  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:00.048   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:38:00.719  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:00.822  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:00.924  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.028  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.130  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.233  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.335  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.438  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.542  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.584  7558  7588 D EGL_emulation: app_time_stats: avg=1157.80ms min=14.49ms max=6382.68ms count=6
+11-18 18:38:01.644  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QDone\E.*'].
+11-18 18:38:01.763   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:01.765   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:01.765   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 3ms
+11-18 18:38:01.799   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:01.799   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:01.799   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10091} in 1ms
+11-18 18:38:02.074  7558  7585 I LABCI   : waitText 'Done': true
+11-18 18:38:02.774  7558  7585 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:02.785  7558  7585 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_done.png
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.835   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:02.836  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:38:02.836  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:38:02.841  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:38:02.842  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:38:02.842  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:38:02.844  7697  7697 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:38:02.844  7697  7697 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:38:02.852   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:38:02.852  7697  7700 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:02.874  1415  1685 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:38:02.888  1208  7616 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 306 [CONTEXT service_id=218 ]
+11-18 18:38:02.891  1208  7637 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 4 uptime_millis: 4 exec_start_elapsed_seconds: 306 [CONTEXT service_id=218 ]
+11-18 18:38:02.899   554  1743 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:38:02.900   554  2295 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:38:02.902   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:38:02.903  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:02.910  1415  1590 D WM-SystemJobScheduler: Scheduling work ID f2c8686a-04c6-480b-bb3d-69062f75f722Job ID 34
+11-18 18:38:02.912  7558  7585 I LABCI   : screenshot lab08_done
+11-18 18:38:02.912  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:38:02.912  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:38:02.912  7558  7585 I TestRunner: finished: b_background(com.university.lab08.Lab08Test)

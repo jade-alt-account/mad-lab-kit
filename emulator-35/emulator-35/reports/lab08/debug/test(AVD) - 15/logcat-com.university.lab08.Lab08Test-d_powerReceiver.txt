@@ -1,0 +1,516 @@
+11-18 18:38:44.251  7558  7585 I TestRunner: started: d_powerReceiver(com.university.lab08.Lab08Test)
+11-18 18:38:44.255  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=53
+11-18 18:38:44.255  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=53
+11-18 18:38:44.257   554  1743 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10227, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:38:44.260  7558  7585 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:38:44.260  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:38:44.261  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:38:44.261  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:38:44.266   484   531 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:44.267  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=54, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab08 cmp=com.university.lab08/.MainActivity }
+11-18 18:38:44.270   903  1009 D SplashScreenView: Build android.window.SplashScreenView{19a197e V.E...... ......ID 0,0-0,0}
+11-18 18:38:44.270   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:38:44.270   903  1009 D SplashScreenView: Branding: view: android.view.View{7d56edf G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:38:44.275  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@deb3f96 in: PRE_ON_CREATE
+11-18 18:38:44.282   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:38:44.289  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@deb3f96 in: CREATED
+11-18 18:38:44.290  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@deb3f96 in: STARTED
+11-18 18:38:44.290  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@deb3f96 in: RESUMED
+11-18 18:38:44.330   554   578 W ziparchive: Unable to open '/data/app/~~cirwDE_iqMtLeF0EIvDIhQ==/com.university.lab08-FwWUg0-Mh-NaIxA01aCLjQ==/base.dm': No such file or directory
+11-18 18:38:44.335   554   578 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity for user 0: +70ms
+11-18 18:38:44.343  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:38:44.348  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:38:44.357   484   531 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:44.358   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@13a4f8a
+11-18 18:38:44.360   554  1847 W InputManager-JNI: Input channel object '61561c8 Splash Screen com.university.lab08 (client)' was disposed without first being removed with the input manager!
+11-18 18:38:44.362   554   680 I ImeTracker: com.university.lab08:30e5abe6: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:38:44.362   554   680 I ImeTracker: com.university.lab08:30e5abe6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:38:44.362  1156  1156 D BaseDepthController: setSurface:
+11-18 18:38:44.362  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:38:44.362  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:38:44.362  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:38:44.363  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:38:44.363  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:38:44.363  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:38:44.363  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:38:44.363  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:38:44.364  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:38:44.364  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:38:44.366  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:38:44.368  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:38:44.368  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab08, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:38:44.371  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:38:44.374  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:38:44.374  1156  1169 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae508a10 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:38:44.451   554   570 I system_server: Background concurrent mark compact GC freed 23MB AllocSpace bytes, 35(752KB) LOS objects, 46% free, 27MB/51MB, paused 396us,875us total 110.776ms
+11-18 18:38:44.456   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:38:44.456   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:38:44.458   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-18 18:38:46.170  7558  7585 D UiDevice: Executing shell command: dumpsys battery unplug
+11-18 18:38:46.180   903   903 D DLObserver: onReceive(); android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:46.183   903   903 D DLObserver: onReceive(); android.intent.action.BATTERY_CHANGED
+11-18 18:38:46.183   903   903 D DLObserver: plugged=0
+11-18 18:38:46.188   903   903 D SystemEventDataSource: onReceive: intentAction
+11-18 18:38:46.189   903   903 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.BATTERY_CHANGED
+11-18 18:38:46.190   903   903 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:46.190   903   903 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:46.191   903   903 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:38:46.193   554  1847 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=349748 mSleepTimeMs=0 mIdleTimeMs=349744 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+11-18 18:38:46.194   903  1045 E ServiceManager: error in isDeclared
+11-18 18:38:46.194   903  1045 E ServiceManager: java.lang.SecurityException: SELinux denied.
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.Parcel.createException(Parcel.java:3226)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3209)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3151)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.IServiceManager$Stub$Proxy.isDeclared(IServiceManager.java:540)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.ServiceManagerProxy.isDeclared(ServiceManagerNative.java:90)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.ServiceManager.isDeclared(ServiceManager.java:296)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at android.os.ServiceManager.waitForDeclaredService(ServiceManager.java:352)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at com.google.android.systemui.googlebattery.GoogleBatteryManager.initHalInterface(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:15)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at com.google.android.systemui.power.batteryevent.repository.SystemEventDataSource$processIntent$2.invokeSuspend(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:127)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:8)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at kotlinx.coroutines.DispatchedTask.run(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:110)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:38:46.194   903  1045 E ServiceManager: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:38:46.194   903  1045 D GoogleBatteryDataSource: fetchDwellDefendStatus: null googleBattery
+11-18 18:38:46.194   903  1045 D GoogleBatteryDataSource: fetchTempDefendStatus: null googleBattery
+11-18 18:38:46.195   554  1843 E ActivityManager: Sending non-protected broadcast com.android.settings.battery.action.ACTION_BATTERY_UNPLUGGING from system 903:com.android.systemui/u0a181 pkg com.android.systemui
+11-18 18:38:46.195   554  1843 E ActivityManager: java.lang.Throwable
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:15245)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLockedTraced(ActivityManagerService.java:16115)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:15311)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:16325)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2840)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2812)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1505)
+11-18 18:38:46.195   554  1843 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+11-18 18:38:46.200   903  1045 D SystemEventDataSource: updatedEventData: SystemEventData(intentAction=android.intent.action.BATTERY_CHANGED, plugged=EventData(value=0), batteryScale=EventData(value=100), batteryLevel=EventData(value=100), chargingStatus=EventData(value=0), maxChargingCurrent=EventData(value=5000000), maxChargingVoltage=EventData(value=5000000), batteryStatus=EventData(value=2), halEventData=HalEventData(dockDefendStatus=EventData(value=-3), tempDefendEventData=EventData(value=false), dwellDefendEventData=EventData(value=false)), settingsEventData=SettingsEventData(dockDefenderBypass=EventData(value=0), chargingLimitSettings=EventData(value=0)), frameworkApiEventData=FrameworkApiEventData(batterySaverState=EventData(value=false), extremeBatterySaverState=EventData(value=false)))
+11-18 18:38:46.200   903  1045 D SystemEventDataSource: notifyModules count: 13
+11-18 18:38:46.200   903  1045 D ChargingLimitEventModule: validate()=false, chargingStatus=0
+11-18 18:38:46.200   903  1045 D DwellDefendBatteryModule: validate: false -> false
+11-18 18:38:46.200   903  1045 D DockDefendBatteryModule: not DockDefend -> plugged: 0
+11-18 18:38:46.200   903  1045 D TempDefendBatteryModule: validate: false -> false
+11-18 18:38:46.200   903  1045 D BatteryEventService: collect BatteryEvents: BatteryEvents(eventTypes=[NOT_CHARGING], batteryLevel=100, pluggedType=0)
+11-18 18:38:46.200   903  1045 D BatteryEventService: notifyForBatteryEventsUpdate: BatteryEvents(eventTypes=[NOT_CHARGING], batteryLevel=100, pluggedType=0)
+11-18 18:38:46.200   903  1045 D BatteryEventService: AIDL callback listeners count: 1
+11-18 18:38:46.201   903  1045 D BatteryEventClient: [PowerNotificationWarningsGoogleImpl] onBatteryEventChanged: [], batteryLevel: 100
+11-18 18:38:46.201   903  1045 D PowerNotificationWarningsGoogleImpl: [onBatteryEventUpdate] []
+11-18 18:38:46.201   903  1045 D BatteryDefenderNotification: onNonDefenderEvent: charged: true
+11-18 18:38:46.201   903  1045 D DwellTempDefenderNotification: swipeNotificationByUser, postNotificationVisible:false->false
+11-18 18:38:46.201  1079  1079 D BatteryUsageBroadcastReceiver: onReceive:android.intent.action.BATTERY_LEVEL_CHANGED
+11-18 18:38:46.210   903  1045 D BatteryEventService: notify AIDL callback to null, cost: 10 ms
+11-18 18:38:46.210   903  1045 I BatteryEventService: notify all AIDL callbacks, cost: 10 ms
+11-18 18:38:46.211   903  1045 D BatteryEventService: BatteryEventsListener (broadcast) count: 0
+11-18 18:38:46.211   903  1045 I BatteryEventService: notify all broadcast intent, cost: 0 ms
+11-18 18:38:46.211   903  1024 D EGL_emulation: app_time_stats: avg=396.76ms min=8.31ms max=1544.54ms count=5
+11-18 18:38:46.216  1079  1079 D BatteryUsageBroadcastReceiver: onReceive:com.android.settings.battery.action.ACTION_BATTERY_UNPLUGGING
+11-18 18:38:46.219  1079  1079 D BatteryUsageBroadcastReceiver: fetch data because of event: ACTION_POWER_DISCONNECTED
+11-18 18:38:46.220  1079  1127 D BatteryUsageDataLoader: loadUsageDataSafely() in the AsyncTask
+11-18 18:38:46.229   359   359 I netd    : tetherGetStats() -> {[]} <3.53ms>
+11-18 18:38:46.229  1079  1079 D BootBroadcastReceiver: refresh periodic job from action=com.android.settings.battery.action.PERIODIC_JOB_RECHECK
+11-18 18:38:46.231  1079  1079 D PeriodicJobManager: schedule next alarm job at Nov 18, 2026, 19:00:00
+11-18 18:38:46.234  1079  1104 I ndroid.settings: Waiting for a blocking GC ProfileSaver
+11-18 18:38:46.248  1079  7815 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@8d5efbea
+11-18 18:38:46.248  1079  7815 D DatabaseUtils: battery_level: 100
+11-18 18:38:46.248  1079  7815 D DatabaseUtils: timestamp: 1795027126216
+11-18 18:38:46.248  1079  7815 D DatabaseUtils: type: POWER_DISCONNECTED
+11-18 18:38:46.248  1079  7815 D DatabaseUtils: sendBatteryEventData() in 26/ms
+11-18 18:38:46.277   554  2294 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=349830 mSleepTimeMs=0 mIdleTimeMs=349826 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+11-18 18:38:46.281  1079  1104 I ndroid.settings: WaitForGcToComplete blocked ProfileSaver on CollectorTransition for 46.856ms
+11-18 18:38:46.282  1079  1127 W DataProcessor: shouldShowBatteryAttributionList(): 0.1
+11-18 18:38:46.282  1079  1127 W BatteryUsageDataLoader: getBatteryEntryList() returns null or empty content
+11-18 18:38:46.282  1079  1127 D BatteryUsageDataLoader: getBatteryUsageStats() in 59/ms
+11-18 18:38:46.286  1079  1127 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@8d6a62a4
+11-18 18:38:46.286  1079  1127 D DatabaseUtils: battery_level: 100
+11-18 18:38:46.286  1079  1127 D DatabaseUtils: timestamp: 1795027126223
+11-18 18:38:46.286  1079  1127 D DatabaseUtils: type: FULL_CHARGED
+11-18 18:38:46.286  1079  1127 D DatabaseUtils: sendBatteryEventData() in 0/ms
+11-18 18:38:46.288  1079  1127 D DatabaseUtils: insert() data into database with isFullChargeStart:true
+11-18 18:38:46.289  1079  1127 D DatabaseUtils: sendBatteryEntryData() size=1 in 3/ms
+11-18 18:38:46.289   554   598 W AlarmManager: Unrecognized alarm listener com.android.server.power.stats.BatteryStatsImpl$$ExternalSyntheticLambda2@dcc4be9
+11-18 18:38:46.292  1079  1127 D BatteryUsageDataLoader: loadUsageDataSafely() in 72/ms
+11-18 18:38:46.295   359   359 I netd    : tetherGetStats() -> {[]} <0.28ms>
+11-18 18:38:46.296   554   654 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:38:46.297   554   654 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:38:46.297   554   654 D InetDiagMessage: Destroyed live tcp sockets for uids={} in 2ms
+11-18 18:38:46.681  1443  1443 I GsaVoiceInteractionSrv: (REDACTED) O received %s
+11-18 18:38:46.682  1443  1443 I AmbBrdcstRcvrServClient: (REDACTED) handleRefreshAction(): not handling %s
+11-18 18:38:46.682  1443  1873 I BrdcstRcvrMsgr: (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+11-18 18:38:46.687  1483  2051 I A       : Calling beginBinderSession().
+11-18 18:38:46.687  1443  1873 I BrdcstRcvrMsgr: disconnect()
+11-18 18:38:46.688  1443  1873 E BrdcstRcvrMsgr: SvcConn: binder null, could not send broadcast of action
+11-18 18:38:46.696  1208  5836 W EventPredictor: Received an event end, but no corresponding event start exists [CONTEXT service_id=218 ]
+11-18 18:38:46.701   359   359 I netd    : tetherGetStats() -> {[]} <0.23ms>
+11-18 18:38:46.989   554  2294 D WifiNl80211Manager: Scan result ready event
+11-18 18:38:46.989   554  2294 D WifiNative: Scan result ready event
+11-18 18:38:46.992   554   819 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-18 18:38:47.680  7558  7585 D UiDevice: Executing shell command: dumpsys battery set ac 1
+11-18 18:38:47.689  7558  7585 D UiDevice: Waiting 4000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QCharger connected\E.*']].
+11-18 18:38:47.689  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:47.692   903   903 D DLObserver: onReceive(); android.intent.action.BATTERY_CHANGED
+11-18 18:38:47.693   554  1847 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=351249 mSleepTimeMs=0 mIdleTimeMs=351244 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+11-18 18:38:47.695   903   903 D DLObserver: plugged=1
+11-18 18:38:47.695   903   903 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:38:47.696   903   903 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:38:47.700   554  1847 E ActivityManager: Sending non-protected broadcast com.android.settings.battery.action.ACTION_BATTERY_PLUGGING from system 903:com.android.systemui/u0a181 pkg com.android.systemui
+11-18 18:38:47.700   554  1847 E ActivityManager: java.lang.Throwable
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:15245)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLockedTraced(ActivityManagerService.java:16115)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:15311)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:16325)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2840)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2812)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1505)
+11-18 18:38:47.700   554  1847 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+11-18 18:38:47.702  1079  1079 D BatteryUsageBroadcastReceiver: onReceive:com.android.settings.battery.action.ACTION_BATTERY_PLUGGING
+11-18 18:38:47.703  1079  7828 D DatabaseUtils: insert() battery event data into database: # com.android.settings.fuelgauge.batteryusage.BatteryEvent@9a8ea967
+11-18 18:38:47.703  1079  7828 D DatabaseUtils: battery_level: 100
+11-18 18:38:47.703  1079  7828 D DatabaseUtils: timestamp: 1795027127702
+11-18 18:38:47.703  1079  7828 D DatabaseUtils: type: POWER_CONNECTED
+11-18 18:38:47.703  1079  7828 D DatabaseUtils: sendBatteryEventData() in 0/ms
+11-18 18:38:47.716   903   903 D SystemEventDataSource: onReceive: intentAction
+11-18 18:38:47.716   903   903 D PowerNotificationWarningsGoogleImpl: onReceive: android.intent.action.BATTERY_CHANGED
+11-18 18:38:47.716   903   903 D IncompatibleChargerNotification: dispatchIntent: android.intent.action.BATTERY_CHANGED
+11-18 18:38:47.722   903  1041 E ServiceManager: error in isDeclared
+11-18 18:38:47.722   903  1041 E ServiceManager: java.lang.SecurityException: SELinux denied.
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.Parcel.createException(Parcel.java:3226)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3209)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.Parcel.readException(Parcel.java:3151)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.IServiceManager$Stub$Proxy.isDeclared(IServiceManager.java:540)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.ServiceManagerProxy.isDeclared(ServiceManagerNative.java:90)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.ServiceManager.isDeclared(ServiceManager.java:296)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at android.os.ServiceManager.waitForDeclaredService(ServiceManager.java:352)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at com.google.android.systemui.googlebattery.GoogleBatteryManager.initHalInterface(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:15)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at com.google.android.systemui.power.batteryevent.repository.SystemEventDataSource$processIntent$2.invokeSuspend(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:127)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:8)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at kotlinx.coroutines.DispatchedTask.run(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:110)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:38:47.722   903  1041 E ServiceManager: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:38:47.722   903  1041 D GoogleBatteryDataSource: fetchDwellDefendStatus: null googleBattery
+11-18 18:38:47.723   903  1041 D GoogleBatteryDataSource: fetchTempDefendStatus: null googleBattery
+11-18 18:38:47.723   903  1041 D SystemEventDataSource: updatedEventData: SystemEventData(intentAction=android.intent.action.BATTERY_CHANGED, plugged=EventData(value=1), batteryScale=EventData(value=100), batteryLevel=EventData(value=100), chargingStatus=EventData(value=0), maxChargingCurrent=EventData(value=5000000), maxChargingVoltage=EventData(value=5000000), batteryStatus=EventData(value=2), halEventData=HalEventData(dockDefendStatus=EventData(value=-3), tempDefendEventData=EventData(value=false), dwellDefendEventData=EventData(value=false)), settingsEventData=SettingsEventData(dockDefenderBypass=EventData(value=0), chargingLimitSettings=EventData(value=0)), frameworkApiEventData=FrameworkApiEventData(batterySaverState=EventData(value=false), extremeBatterySaverState=EventData(value=false)))
+11-18 18:38:47.724   903  1041 D SystemEventDataSource: notifyModules count: 13
+11-18 18:38:47.724   903  1041 D ChargingLimitEventModule: validate()=false, chargingStatus=0
+11-18 18:38:47.724   903  1041 D DwellDefendBatteryModule: validate: false -> false
+11-18 18:38:47.724   903  1041 D DockDefendBatteryModule: not DockDefend -> plugged: 1
+11-18 18:38:47.724   903  1041 D TempDefendBatteryModule: validate: false -> false
+11-18 18:38:47.724   903  1045 D BatteryEventService: collect BatteryEvents: BatteryEvents(eventTypes=[FULL_CHARGED, FAST_CHARGING], batteryLevel=100, pluggedType=1)
+11-18 18:38:47.725   903  1045 D BatteryEventService: notifyForBatteryEventsUpdate: BatteryEvents(eventTypes=[FULL_CHARGED, FAST_CHARGING], batteryLevel=100, pluggedType=1)
+11-18 18:38:47.725   903  1045 D BatteryEventService: AIDL callback listeners count: 1
+11-18 18:38:47.725   903  1045 D BatteryEventClient: [PowerNotificationWarningsGoogleImpl] onBatteryEventChanged: [], batteryLevel: 100
+11-18 18:38:47.725   903  1045 D PowerNotificationWarningsGoogleImpl: [onBatteryEventUpdate] []
+11-18 18:38:47.725   903  1045 D BatteryDefenderNotification: onNonDefenderEvent: charged: true
+11-18 18:38:47.726   903  1045 D DwellTempDefenderNotification: swipeNotificationByUser, postNotificationVisible:false->false
+11-18 18:38:47.726   903  1045 D BatteryEventService: notify AIDL callback to null, cost: 1 ms
+11-18 18:38:47.726   903  1045 I BatteryEventService: notify all AIDL callbacks, cost: 1 ms
+11-18 18:38:47.726   903  1045 D BatteryEventService: BatteryEventsListener (broadcast) count: 0
+11-18 18:38:47.726   903  1045 I BatteryEventService: notify all broadcast intent, cost: 0 ms
+11-18 18:38:47.726   492  2055 D NuPlayerDriver: NuPlayerDriver(0x7fb7dfacb1d0) created, clientPid(554)
+11-18 18:38:47.726   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+11-18 18:38:47.726   492  2055 D MediaPlayerService: OMX service is not available
+11-18 18:38:47.730   359   359 I netd    : tetherGetStats() -> {[]} <0.23ms>
+11-18 18:38:47.736   903  1024 D EGL_emulation: app_time_stats: avg=1525.38ms min=1525.38ms max=1525.38ms count=1
+11-18 18:38:47.741   492  7835 D GenericSource: FileSource remote
+11-18 18:38:47.744   554   589 D Ringtone: Successfully created local player
+11-18 18:38:47.745   554   589 W Ringtone: Use of stream types is deprecated for operations other than volume control
+11-18 18:38:47.745   554   589 W Ringtone: See the documentation of setStreamType() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-18 18:38:47.746   554  2294 W InputManager-JNI: Input channel object 'f74968c Wired Charging Animation (client)' was disposed without first being removed with the input manager!
+11-18 18:38:47.746   492   526 D NuPlayerDriver: reset(0x7fb7dfacb1d0) at state 4
+11-18 18:38:47.747   492  7833 D NuPlayerDriver: notifyResetComplete(0x7fb7dfacb1d0)
+11-18 18:38:47.748   492  2055 D NuPlayerDriver: reset(0x7fb7dfacb1d0) at state 0
+11-18 18:38:47.748   554   589 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:38:47.748   554   589 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:38:47.749   554   589 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:38:47.749   554   589 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:38:47.753   492  2055 D NuPlayerDriver: NuPlayerDriver(0x7fb7dfacc350) created, clientPid(554)
+11-18 18:38:47.753   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+11-18 18:38:47.753   492  2055 D MediaPlayerService: OMX service is not available
+11-18 18:38:47.756   492  7839 D GenericSource: FileSource remote
+11-18 18:38:47.758   554   589 D Ringtone: Successfully created local player
+11-18 18:38:47.758   554   554 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:38:47.759   554   554 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:38:47.759   492  7838 I GenericSource: start
+11-18 18:38:47.760   492  7843 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:38:47.761   492  7843 I CCodec  : setting up 'default' as default (vendor) store
+11-18 18:38:47.762   492  7737 D BufferPoolAccessor2.0: bufferpool2 0x7fb82facbbf8 : 0(0 size) total buffers - 0(0 size) used buffers - 96/104 (recycle/alloc) - 8/198 (fetch/transfer)
+11-18 18:38:47.762   492  7737 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7fb82facbbf8 cached: 0/0M, 0/0% in use; allocs: 104, 92% recycled; transfers: 198, 96% unfetched
+11-18 18:38:47.763   492  7843 I CCodec  : Created component [c2.android.vorbis.decoder]
+11-18 18:38:47.763   492  7843 D CCodecConfig: read media type: audio/vorbis
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:38:47.764   492  7843 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:38:47.764   492  7843 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+11-18 18:38:47.764   492  7843 D CCodecConfig: c2 config diff is Dict {
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:38:47.764   492  7843 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+11-18 18:38:47.764   492  7843 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:38:47.764   492  7843 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:38:47.764   492  7843 D CCodecConfig: }
+11-18 18:38:47.768   492  7843 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:38:47.768   492  7843 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:38:47.769   492  7843 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:38:47.769   492  7843 D CCodecConfig: no c2 equivalents for flags
+11-18 18:38:47.770   492  7843 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 120000
+11-18 18:38:47.770   492  7843 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:38:47.770   492  7843 D CCodec  : encoding statistics level = 0
+11-18 18:38:47.770   492  7843 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t bitrate = 120000
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t channel-count = 1
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:38:47.770   492  7843 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:38:47.770   492  7843 D CCodec  : }
+11-18 18:38:47.770   492  7843 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t channel-count = 1
+11-18 18:38:47.770   492  7843 D CCodec  :   string mime = "audio/raw"
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t channel-mask = 1
+11-18 18:38:47.770   492  7843 D CCodec  :   int32_t android._config-pcm-encoding = 2
+11-18 18:38:47.770   492  7843 D CCodec  : }
+11-18 18:38:47.770   492  7843 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+11-18 18:38:47.771   492  7843 I MediaCodec: MediaCodec will operate in async mode
+11-18 18:38:47.771   492  7842 D MediaCodec: keep callback message for reclaim
+11-18 18:38:47.772   492  7843 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:38:47.772   492  7843 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:38:47.772   492  7843 D CCodecBufferChannel: [c2.android.vorbis.decoder#913] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+11-18 18:38:47.773   496   950 D BufferPoolAccessor2.0: bufferpool2 0x76da181635c8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+11-18 18:38:47.773   496   950 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x76da181635c8 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+11-18 18:38:47.773   492  7843 I CCodecBufferChannel: [c2.android.vorbis.decoder#913] Created output block pool with allocatorID 16 => poolID 40 - OK
+11-18 18:38:47.773   492  7843 D CCodecBufferChannel: [c2.android.vorbis.decoder#913] Configured output block pool ids 40 => OK
+11-18 18:38:47.773   496   899 E Codec2-ComponentInterface: We have a failed config
+11-18 18:38:47.773   496  7844 D SimpleC2Component: Using output block pool with poolID 40 => got 40 - 0
+11-18 18:38:47.776   425  1049 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+11-18 18:38:47.779   425  1049 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:38:47.797   492  7841 D AudioTrack: getTimestamp_l(22): device stall time corrected using current time 351356358032
+11-18 18:38:47.810  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:47.848   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(22)
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.892   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:47.894  1208  3002 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:38:47.895  1208  3002 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:38:47.896  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:38:47.896  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:38:47.898  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:38:48.097   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(8)
+11-18 18:38:48.188  1443  1443 I GsaVoiceInteractionSrv: (REDACTED) O received %s
+11-18 18:38:48.191  1443  1443 I AmbBrdcstRcvrServClient: (REDACTED) handleRefreshAction(): not handling %s
+11-18 18:38:48.191  1443  1873 I BrdcstRcvrMsgr: (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+11-18 18:38:48.196  1483  1483 I A       : (REDACTED) hasHotwordEverywhere-%b
+11-18 18:38:48.197  1483  5382 I A       : Calling beginBinderSession().
+11-18 18:38:48.198  1443  1873 I BrdcstRcvrMsgr: disconnect()
+11-18 18:38:48.198  1443  1873 E BrdcstRcvrMsgr: SvcConn: binder null, could not send broadcast of action
+11-18 18:38:48.204  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-18 18:38:48.204  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-18 18:38:48.207  1455  7847 D Backup  : [DeviceStateSnapshotIntentOperation] Logging DeviceStateSnapshot.
+11-18 18:38:48.208   359   359 I netd    : tetherGetStats() -> {[]} <0.31ms>
+11-18 18:38:48.209  1455  3459 I ebvk$a  : Unable to retrieve flag snapshot for com.google.android.gms.reachability, using defaults.
+11-18 18:38:48.224  1455  7847 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:38:48.225  1208  7823 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+11-18 18:38:48.225  1208  7823 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:38:48.240  1455  7847 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:38:48.241  1208  7823 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+11-18 18:38:48.242  1208  7821 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:38:48.245  1455  7847 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:38:48.246  1455  7847 W Backup  : [BackupStatsService] There is no backup account.
+11-18 18:38:48.247  1208  7821 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+11-18 18:38:48.248  1208  7823 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:38:48.256   554  2294 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10168, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:38:48.264   363   363 D Zygote  : Forked child process 7851
+11-18 18:38:48.287  7851  7851 I oid.apps.photos: Using CollectorTypeCMC GC.
+11-18 18:38:48.288  7851  7851 W oid.apps.photos: Unexpected CPU variant for x86: x86_64.
+11-18 18:38:48.288  7851  7851 W oid.apps.photos: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:38:48.289  7851  7851 E oid.apps.photos: Not starting debugger since process cannot load the jdwp agent.
+11-18 18:38:48.290  7851  7851 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:38:48.295  7851  7851 D CompatChangeReporter: Compat change id reported: 242716250; UID 10168; state: ENABLED
+11-18 18:38:48.297  7851  7851 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-18 18:38:48.297  7851  7851 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:38:48.297  7851  7851 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:38:48.304  7851  7851 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-18 18:38:48.304  7851  7851 D nativeloader: Configuring product-clns-7 for unbundled product apk /product/app/Photos/Photos.apk. target_sdk_version=34, uses_libraries=, library_path=/product/app/Photos/lib/x86_64:/product/app/Photos/Photos.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.apps.photos:/product/lib64:/system/product/lib64
+11-18 18:38:48.305  7851  7851 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-18 18:38:48.310  7851  7851 V GraphicsEnvironment: Currently set values for:
+11-18 18:38:48.310  7851  7851 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:38:48.310  7851  7851 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:38:48.310  7851  7851 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-18 18:38:48.310  7851  7851 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:38:48.382  7851  7869 D CompatChangeReporter: Compat change id reported: 253665015; UID 10168; state: ENABLED
+11-18 18:38:48.382  7851  7869 W JobInfo : Job 'com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService#1043' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:38:48.396   554  1843 W JobInfo : Job 'com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService#1043' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:38:48.401  7851  7875 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-18 18:38:48.401  7851  7875 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-18 18:38:48.406   554  2294 D ConnectivityService: requestNetwork for uid/pid:1000/554 asUid: 10168 activeRequest: null callbackRequest: 186 [NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:38:48.407   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:38:48.407   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:38:48.407   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:38:48.407   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:38:48.407   554   826 D ConnectivityService: NetReassign [187 : null → 100] [c 1] [a 0] [i 0]
+11-18 18:38:48.419  7851  7875 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+11-18 18:38:48.419  7851  7875 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+11-18 18:38:48.424   554  1843 D ConnectivityService: requestNetwork for uid/pid:10168/7851 activeRequest: null callbackRequest: 188 [NetworkRequest [ REQUEST id=189, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:38:48.430  7851  7870 D CompatChangeReporter: Compat change id reported: 263076149; UID 10168; state: ENABLED
+11-18 18:38:48.431   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=189, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.432   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=189, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.434   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=189, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.434   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=189, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.435   554   826 D ConnectivityService: NetReassign [189 : null → 100] [c 0] [a 4] [i 6]
+11-18 18:38:48.461   554  1743 D ConnectivityService: requestNetwork for uid/pid:10168/7851 activeRequest: null callbackRequest: 190 [NetworkRequest [ REQUEST id=191, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:38:48.466   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=191, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.466   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=191, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.467   554   826 D ConnectivityService: NetReassign [191 : null → 100] [c 0] [a 2] [i 2]
+11-18 18:38:48.467   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=191, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.467   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=191, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:38:48.480  1455  7847 V Backup  : [ClearcutLoggerWithVerifier] Logging to Clearcut eventCode: 64, event: # eqmb@ddc45db0
+11-18 18:38:48.482  1455  7847 V Backup  : [ClearcutLoggerWithVerifier] Logging to Clearcut eventCode: 15, event: # eqmb@74509456
+11-18 18:38:48.483  1455  7847 I Backup  : [KeyValueSchedulerFrequencySetter] Overriding backup_manager_constants. Before: null. After: key_value_backup_interval_milliseconds=43200000
+11-18 18:38:48.484  1397  4401 I AiAiEcho: Settings changed for uri: content://settings/secure/backup_manager_constants
+11-18 18:38:48.487  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:38:48.488  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:38:48.488  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:38:48.488  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:48.488  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:48.489  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:38:48.489  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:38:48.489  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:38:48.489  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:38:48.489  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:48.489  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:38:48.489  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:38:48.489  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:38:48.490  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:38:48.490  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:38:48.491   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:38:48.492  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:48.492  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:48.492  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:38:48.492  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:38:48.912  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.015  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.118  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.221  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.324  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.376  1077  1077 D CarrierSvcBindHelper: onPackageModified: com.google.android.apps.photos
+11-18 18:38:49.381  1397  1397 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.apps.photos.
+11-18 18:38:49.382   903   903 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:38:49.382  1397  7755 I AiAiEcho: AppIndexer Package:[com.google.android.apps.photos] UserProfile:[0] Enabled:[true].
+11-18 18:38:49.382  1397  7755 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.apps.photos], userId:[0], reason:[package is updated.].
+11-18 18:38:49.383  1077  1077 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:38:49.401   359   359 I netd    : tetherGetStats() -> {[]} <0.27ms>
+11-18 18:38:49.405   554  2295 W ParceledListSlice: Element #23 is 19828 bytes.
+11-18 18:38:49.405   554  2295 W ParceledListSlice: Element #24 is 19864 bytes.
+11-18 18:38:49.405   554  2295 W ParceledListSlice: Element #25 is 19708 bytes.
+11-18 18:38:49.409   554   664 I RoleService: Granting default roles...
+11-18 18:38:49.409   554  2295 W ParceledListSlice: Element #26 is 19616 bytes.
+11-18 18:38:49.409   554  2295 W ParceledListSlice: Element #27 is 19728 bytes.
+11-18 18:38:49.412   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+11-18 18:38:49.412   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+11-18 18:38:49.413  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:38:49.414  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:38:49.417   904  3398 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+11-18 18:38:49.420   554  1047 W Role    : Default holder doesn't have required signing certificate: com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+11-18 18:38:49.421  1156  1206 W PackageManager: Failure retrieving text 0x7f130786 in package com.android.systemui
+11-18 18:38:49.421  1156  1206 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.content.res.Resources.getText(Resources.java:466)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2405)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.appwidget.AppWidgetProviderInfo.loadDescription(AppWidgetProviderInfo.java:484)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetItem.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetsModel.update(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:72)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at com.android.launcher3.p0.execute(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:16)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at com.android.launcher3.LauncherModel.a(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:27)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at com.android.launcher3.t0.run(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:12)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:38:49.421  1156  1206 W PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:38:49.427  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.428   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.428  1077  1273 D ImsResolver: maybeAddedImsService, packageName: com.google.android.apps.photos
+11-18 18:38:49.431   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.431   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.432   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.433   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.433   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.433   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:38:49.440   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+11-18 18:38:49.443   554  1047 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+11-18 18:38:49.453  1156  1206 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.apps.photos]
+11-18 18:38:49.462  1156  1156 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-18 18:38:49.537  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.640  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.744  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.748  3138  4666 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+11-18 18:38:49.847  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:49.878  3124  3257 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@e06e280
+11-18 18:38:49.939   492  7843 D CCodecBufferChannel: [c2.android.vorbis.decoder#913] buffers after EOS ignored (0 us)
+11-18 18:38:49.940   492  7843 D CCodecBufferChannel: [c2.android.vorbis.decoder#913] buffers after EOS ignored (0 us)
+11-18 18:38:49.950  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.033   554  1843 W InputManager-JNI: Input channel object '9a331 Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:38:50.053  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.156  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.190   492  7841 D AudioTrack: stop(22): called with 132000 frames delivered
+11-18 18:38:50.259  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.268  7558  7563 W niversity.lab08: Cleared Reference was only reachable from finalizer (only reported once)
+11-18 18:38:50.365  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.468  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.571  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.636   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:38:50.673  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.776  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.879  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:50.981  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:51.084  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:51.187  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:51.290  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:51.351   903  1024 D EGL_emulation: app_time_stats: avg=131.74ms min=1.74ms max=3049.63ms count=26
+11-18 18:38:51.393  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:38:52.356  7558  7585 I LABCI   : waitText 'Charger connected': false
+11-18 18:38:52.763   496   901 D BufferPoolAccessor2.0: bufferpool2 0x76da1815e038 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+11-18 18:38:52.763   496   901 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+11-18 18:38:52.763   492  6567 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+11-18 18:38:53.056  7558  7585 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:53.062  7558  7585 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_charger.png
+11-18 18:38:53.107  7908  7908 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:38:53.107  7908  7908 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:38:53.114   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:38:53.114  7908  7911 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:53.131  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:38:53.149  1208  7895 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 356 [CONTEXT service_id=218 ]
+11-18 18:38:53.152  1208  7897 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 356 [CONTEXT service_id=218 ]
+11-18 18:38:53.155   554  1843 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:38:53.157   554  2294 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:38:53.159   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:38:53.160  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:53.164  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:53.168  7558  7585 I LABCI   : screenshot lab08_charger
+11-18 18:38:53.168  7558  7585 I LABCI   : charger toast seen: false
+11-18 18:38:53.168  7558  7585 D UiDevice: Executing shell command: dumpsys battery reset
+11-18 18:38:53.173  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 36ddc900-a071-42a0-95fc-ba0fb83b387bJob ID 36
+11-18 18:38:53.175  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:38:53.175  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:38:53.178  7558  7585 I TestRunner: finished: d_powerReceiver(com.university.lab08.Lab08Test)

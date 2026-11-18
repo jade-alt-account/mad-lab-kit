@@ -1,0 +1,179 @@
+11-18 18:38:01.033  8677  8697 I TestRunner: started: a_insertAndList(com.university.lab07.Lab07Test)
+11-18 18:38:01.038  8677  8697 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:38:01.043   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:01.053   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 37, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:38:01.054   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=37)
+11-18 18:38:01.116  8677  8677 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:38:01.130  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: PRE_ON_CREATE
+11-18 18:38:01.130  8677  8677 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:38:01.136  8677  8706 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:38:01.141  8677  8706 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:38:01.145  8677  8706 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:38:01.166  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:38:01.178  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:38:01.180  8677  8677 W niversity.lab0: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+11-18 18:38:01.180  1748  7198 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:38:01.193  1748  7198 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:38:01.198  1748  7198 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:38:01.201  1748  8472 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:38:01.205  8677  8677 W niversity.lab0: Accessing hidden method Landroid/graphics/drawable/DrawableWrapper;->hasFocusStateSpecified()Z (blacklist,test-api, linking, allowed)
+11-18 18:38:01.224  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: CREATED
+11-18 18:38:01.224  8677  8677 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@bcc79c4
+11-18 18:38:01.227  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: STARTED
+11-18 18:38:01.227  8677  8677 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@bcc79c4
+11-18 18:38:01.228  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: RESUMED
+11-18 18:38:01.228  8677  8677 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@bcc79c4
+11-18 18:38:01.250  8677  8704 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3062b90, tid 8704
+11-18 18:38:01.252  8677  8704 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:01.270  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-18 18:38:01.270  2119  2119 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskReceiver - task received
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-18 18:38:01.273  2119  2119 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-18 18:38:01.273  2119  2119 I Dialer  : RetryPolicy - retry #3 for com.android.voicemail.impl.ActivationTask@4fbf828 queued, executing in 5000
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@4fbf828 added
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-18 18:38:01.273  2119  2119 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-18 18:38:01.286   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:38:01.287  8677  8704 D EGL_emulation: eglCreateContext: 0x7366a30abf40: maj 3 min 0 rcv 3
+11-18 18:38:01.288  8677  8704 D EGL_emulation: eglMakeCurrent: 0x7366a30abf40: ver 3 0 (tinfo 0x7366430a6ca0) (first time)
+11-18 18:38:01.295   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:01.295  8677  8704 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:01.296  8677  8704 D HostConnection: createUnique: call
+11-18 18:38:01.296  8677  8704 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3063d90, tid 8704
+11-18 18:38:01.304  8677  8704 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:01.312  1748  8472 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:38:01.313  1748  8472 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:38:01.679   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=36)
+11-18 18:38:01.679   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 36 ended, total sessions:1
+11-18 18:38:01.682   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:01.694   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab07/1/com.university.lab07.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:01.695   496   536 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity: +638ms
+11-18 18:38:01.698   344  1148 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10183 pid=8677
+11-18 18:38:01.698   344  1148 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10183 => denied (168 us)
+11-18 18:38:01.726  8677  8697 W niversity.lab0: Accessing hidden method Landroid/os/Trace;->setAppTracingAllowed(Z)V (greylist, reflection, allowed)
+11-18 18:38:01.726  8677  8697 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-18 18:38:01.757  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967094] from persistence.
+11-18 18:38:01.766  8677  8677 W niversity.lab0: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+11-18 18:38:01.766  8677  8677 W niversity.lab0: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+11-18 18:38:01.766  8677  8677 W niversity.lab0: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+11-18 18:38:01.767  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:01.770  8677  8677 I ViewInteraction: Performing 'replace text(Ayesha)' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:38:01.781  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+11-18 18:38:01.794  8677  8677 I AssistStructure: Flattened final assist data: 1684 bytes, containing 1 windows, 11 views
+11-18 18:38:01.796  8677  8677 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:38:01.799  8677  8677 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@11c4b0f]
+11-18 18:38:01.800  8677  8677 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+11-18 18:38:01.800  8677  8677 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@11c4b0f]
+11-18 18:38:01.801  8677  8697 W niversity.lab0: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+11-18 18:38:01.803  8677  8677 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.university.lab07:id/button_add>
+11-18 18:38:01.808  8677  8710 W niversity.lab0: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+11-18 18:38:01.855   496   637 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:01.856   496   637 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:01.886  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:01.886  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:02.135  8677  8677 I ViewInteraction: Performing 'replace text(Bilal)' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:38:02.155  8677  8677 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230901/com.university.lab07:id/edit_name>
+11-18 18:38:02.157  8677  8677 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@b8a8215]
+11-18 18:38:02.157  8677  8677 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+11-18 18:38:02.157  8677  8677 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@b8a8215]
+11-18 18:38:02.158  8677  8677 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.university.lab07:id/button_add>
+11-18 18:38:02.186  1326  3204 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5040 ms
+11-18 18:38:02.232   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:38:02.441   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:02.442   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 38, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:38:02.442   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=38)
+11-18 18:38:02.446  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: PAUSED
+11-18 18:38:02.446  8677  8677 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@bcc79c4
+11-18 18:38:02.470   286   286 D Zygote  : Forked child process 8717
+11-18 18:38:02.476  8717  8717 I sity.lab07.tes: Late-enabling -Xcheck:jni
+11-18 18:38:02.484  8717  8717 I sity.lab07.tes: Unquickening 12 vdex files!
+11-18 18:38:02.485  8717  8717 W sity.lab07.tes: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:02.490   401   415 I adbd    : jdwp connection from 8717
+11-18 18:38:02.511   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305cad0, tid 4916
+11-18 18:38:02.513   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:02.515   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3147280: maj 3 min 0 rcv 3
+11-18 18:38:02.518   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3147280: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:38:02.533  8717  8717 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:38:02.534  8717  8717 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:38:02.559  8717  8740 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:38:02.564  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: STOPPED
+11-18 18:38:02.565  8677  8677 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@bcc79c4
+11-18 18:38:02.565  8677  8677 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:38:02.567  1293  1293 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:2140338516
+11-18 18:38:02.568  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@bcc79c4 in: DESTROYED
+11-18 18:38:02.569  8677  8677 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:38:02.573  8717  8740 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:38:02.574  8717  8740 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:38:02.641  8677  8697 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:38:02.643   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:02.646   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:02.649  8717  8738 D HostConnection: HostConnection::get() New Host Connection established 0x7366b30579d0, tid 8738
+11-18 18:38:02.651  8717  8738 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:02.656   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:38:02.657  8717  8738 D EGL_emulation: eglCreateContext: 0x7366a30aca40: maj 3 min 0 rcv 3
+11-18 18:38:02.658  8717  8738 D EGL_emulation: eglMakeCurrent: 0x7366a30aca40: ver 3 0 (tinfo 0x7366430a36a0) (first time)
+11-18 18:38:02.666   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:02.666  8717  8738 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:02.667  8717  8738 D HostConnection: createUnique: call
+11-18 18:38:02.667  8717  8738 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305c110, tid 8738
+11-18 18:38:02.704  8717  8738 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:02.814   344   377 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10184 pid=8717
+11-18 18:38:02.814   344   377 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10184 => denied (129 us)
+11-18 18:38:02.819  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: PRE_ON_CREATE
+11-18 18:38:02.819  8677  8677 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:38:02.831   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305cad0, tid 4916
+11-18 18:38:02.833   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:02.834   496  4916 D EGL_emulation: eglCreateContext: 0x7366a313ec70: maj 3 min 0 rcv 3
+11-18 18:38:02.835   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a313ec70: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:38:02.964  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: CREATED
+11-18 18:38:02.965  8677  8677 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@70a7e83
+11-18 18:38:02.966  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: STARTED
+11-18 18:38:02.966  8677  8677 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@70a7e83
+11-18 18:38:02.967  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: RESUMED
+11-18 18:38:02.967  8677  8677 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@70a7e83
+11-18 18:38:02.998   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab07/1/com.university.lab07.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:02.998   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:03.009   496   536 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity: +351ms
+11-18 18:38:03.012  1326  1326 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():208 startImportContentTask()
+11-18 18:38:03.013  1326  1660 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():222 doInBackground()
+11-18 18:38:03.013  1326  1660 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+11-18 18:38:03.016  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+11-18 18:38:03.017  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+11-18 18:38:03.028  1326  1660 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+11-18 18:38:03.028  1326  1660 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+11-18 18:38:03.028  1326  1326 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+11-18 18:38:03.028  8677  8677 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Ayesha"
+11-18 18:38:03.028  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+11-18 18:38:03.030  8677  8677 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bilal"
+11-18 18:38:03.116   496  1490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:03.733  8677  8697 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:38:03.740  8677  8745 V UiAutomation: Init UiAutomation@e9bdf0[id=9, flags=0]
+11-18 18:38:03.741  8677  8697 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:38:03.742  8677  8697 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:03.748  8677  8697 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab07_list.png
+11-18 18:38:03.787   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:03.787  8752  8752 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:03.790  8752  8752 D HostConnection: createUnique: call
+11-18 18:38:03.791  8752  8752 D HostConnection: HostConnection::get() New Host Connection established 0x717e7e098fd0, tid 8752
+11-18 18:38:03.796  8752  8752 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:03.797  1162  3011 E NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.phenotype.service.sync.PhenotypeConfigurator{u=0 tag="PhenotypeSyncImmediately" trigger=window{start=1s,end=2s,earliest=-192s,latest=-191s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-193s last_run=-190s jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-201817000} :2
+11-18 18:38:03.821  8757  8759 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:03.822  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab07_list.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:03.841  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab07_list.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab07_list.png
+11-18 18:38:03.842  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 19ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:03.843  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab07_list.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:03.820  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:507): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:03.876   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:03.881  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: PAUSED
+11-18 18:38:03.882  8677  8677 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@70a7e83
+11-18 18:38:03.820  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:510): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:03.916   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab07.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:03.918   496   536 I ActivityTaskManager: Displayed com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +40ms
+11-18 18:38:03.925   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:03.939  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: STOPPED
+11-18 18:38:03.939  8677  8677 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@70a7e83
+11-18 18:38:03.943  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@70a7e83 in: DESTROYED
+11-18 18:38:03.944  8677  8677 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:38:03.957  8677  8697 I TestRunner: finished: a_insertAndList(com.university.lab07.Lab07Test)

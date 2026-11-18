@@ -1,0 +1,72 @@
+11-18 18:36:12.357  6570  6590 I TestRunner: started: c_codeUi(com.university.lab02.Lab02Test)
+11-18 18:36:12.362  6570  6590 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:36:12.376   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:36:12.378   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 13, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+11-18 18:36:12.378   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=13)
+11-18 18:36:12.381  1675  2074 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:36:12.200  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:206): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:36:12.400  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: PRE_ON_CREATE
+11-18 18:36:12.401  6570  6570 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:36:12.432  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: CREATED
+11-18 18:36:12.432  6570  6570 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab02.CodeActivity@bf34c03
+11-18 18:36:12.436  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: STARTED
+11-18 18:36:12.436  6570  6570 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab02.CodeActivity@bf34c03
+11-18 18:36:12.437  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: RESUMED
+11-18 18:36:12.437  6570  6570 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab02.CodeActivity@bf34c03
+11-18 18:36:12.441   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305ab50, tid 4916
+11-18 18:36:12.456   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:36:12.458   496  4916 D EGL_emulation: eglCreateContext: 0x7366a312ad70: maj 3 min 0 rcv 3
+11-18 18:36:12.459   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a312ad70: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:36:12.479  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:36:12.486   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:36:12.491  6570  6570 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-18 18:36:12.502  6570  6570 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Created in code"
+11-18 18:36:12.505  6570  6570 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Tap me"
+11-18 18:36:12.540   712   725 I ndroid.systemu: NativeAlloc concurrent copying GC freed 187420(8667KB) AllocSpace objects, 42(1288KB) LOS objects, 49% free, 7479KB/14MB, paused 31us total 247.605ms
+11-18 18:36:12.553  1675  2034 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-18 18:36:12.561   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab02/1/com.university.lab02.CodeActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:36:12.562   496   536 I ActivityTaskManager: Displayed com.university.lab02/.CodeActivity: +106ms
+11-18 18:36:12.564  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:36:12.585  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:36:12.585  1675  2012 I chatty  : uid=10123(com.google.android.googlequicksearchbox) EventBus0 identical 3 lines
+11-18 18:36:12.585  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:36:12.614  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967070] from persistence.
+11-18 18:36:12.619  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:36:12.772   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305c050, tid 4916
+11-18 18:36:12.779   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:36:12.780   496  4916 D EGL_emulation: eglCreateContext: 0x7366a312ad70: maj 3 min 0 rcv 3
+11-18 18:36:12.782   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a312ad70: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:36:13.207  6570  6590 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:36:13.212  6570  6590 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab02_code_ui.png
+11-18 18:36:13.247   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:36:13.248  6814  6814 I Gralloc4: mapper 4.x is not supported
+11-18 18:36:13.251  6814  6814 D HostConnection: createUnique: call
+11-18 18:36:13.251  6814  6814 D HostConnection: HostConnection::get() New Host Connection established 0x7bd723f646d0, tid 6814
+11-18 18:36:13.260  6814  6814 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:36:13.295  6819  6820 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:36:13.296  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab02_code_ui.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:36:13.307  1675  2074 I Greco3DataManager: #handleLocale  en-US
+11-18 18:36:13.308  1675  2074 I Greco3DataManager: available language pack of en-US is version 310
+11-18 18:36:13.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:212): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:36:13.314  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab02_code_ui.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab02_code_ui.png
+11-18 18:36:13.315  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 18ms, 0 inserts 0 updates 0 deletes
+11-18 18:36:13.315  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab02_code_ui.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:36:13.321  1836  4081 V DownloadManager: Deleting /storage/emulated/0/Android/data/com.google.android.googlequicksearchbox/files/download_cache/en-US-v310-f32.zip via provider delete
+11-18 18:36:13.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:213): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:36:13.322  6570  6590 I LABCI   : screenshot lab02_code_ui
+11-18 18:36:13.330   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:36:13.331   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 14, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:4, uid:1071 session name: ""
+11-18 18:36:13.331   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=14)
+11-18 18:36:13.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:214): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:36:13.339  1571  6545 I MediaProvider: Scanned external_primary due to REASON_DEMAND, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
+11-18 18:36:13.292  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:215): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:36:13.353  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: PAUSED
+11-18 18:36:13.356  6570  6570 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab02.CodeActivity@bf34c03
+11-18 18:36:13.385  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: STOPPED
+11-18 18:36:13.385  6570  6570 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab02.CodeActivity@bf34c03
+11-18 18:36:13.396  6570  6570 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@bf34c03 in: DESTROYED
+11-18 18:36:13.396  6570  6570 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:36:13.399   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:36:13.401   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab02.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:36:13.404   496   536 I ActivityTaskManager: Displayed com.university.lab02.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +68ms
+11-18 18:36:13.409  6570  6590 I TestRunner: finished: c_codeUi(com.university.lab02.Lab02Test)

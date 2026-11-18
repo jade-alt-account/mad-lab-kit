@@ -1,0 +1,780 @@
+11-18 18:40:01.297  8879  8893 I TestRunner: started: b_openMaps(com.university.lab10.Lab10Test)
+11-18 18:40:01.309  1582  1608 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:01.310  1582  1608 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:01.310  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=61
+11-18 18:40:01.310  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=61
+11-18 18:40:01.318  5780  5799 I DialerVoicemailTabImpl: com.android.dialer.voicemail.tab.impl.VoicemailTabImpl.lambda$getShouldShowTabDataSource$0:98 has active voicemail provider: true, archived voicemails count: 0
+11-18 18:40:01.319  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 154 uptime_millis: 154 exec_start_elapsed_seconds: 424 [CONTEXT service_id=218 ]
+11-18 18:40:01.321   554  2295 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10231, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:01.329  5780  5799 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.lambda$fill$2:233 found 0 existing annotated call log ids
+11-18 18:40:01.335   903  1009 D SplashScreenView: Build android.window.SplashScreenView{564ad9b V.E...... ......ID 0,0-0,0}
+11-18 18:40:01.335   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:01.335   903  1009 D SplashScreenView: Branding: view: android.view.View{9a55538 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:01.338  5780  5802 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:449 no results for REGULAR_CALL
+11-18 18:40:01.340  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=62, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab10 cmp=com.university.lab10/.MainActivity }
+11-18 18:40:01.346  8879  8893 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab10\E']].
+11-18 18:40:01.346  8879  8893 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab10\E'].
+11-18 18:40:01.349  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:01.352  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onPause:574 onPause enter
+11-18 18:40:01.352  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onHidden:668 onHidden enter
+11-18 18:40:01.352  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.toShortcutSpeedDialInfos:678 enter
+11-18 18:40:01.353  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onPause:312 enter
+11-18 18:40:01.354  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onActivityPause:636 enter
+11-18 18:40:01.356  5780  5802 I DialerDynamicShortcuts: com.android.dialer.shortcuts.DynamicShortcuts.refreshInBackground:113 refreshInBackground
+11-18 18:40:01.365   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:01.366  5780  5785 I .android.dialer: Background concurrent mark compact GC freed 23MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 2.552ms,6.537ms total 144.069ms
+11-18 18:40:01.371  5780  5801 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:449 no results for CALL_IN_DIRECT_BOOT_MODE
+11-18 18:40:01.382  5780  5806 I DialerSpeedDialUiContentLoader: com.android.dialer.speeddial.loader.SpeedDialUiContentLoader.extractNonDuplicatedSuggestedContacts:215 enter
+11-18 18:40:01.383  5780  5806 I DialerSpeedDialUiContentLoader: com.android.dialer.speeddial.loader.SpeedDialUiContentLoader.loadWifiIconsConfigForSpeedDialContents:252 enter
+11-18 18:40:01.387  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: PRE_ON_CREATE
+11-18 18:40:01.410  5780  5800 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.lambda$handleDeletes$6:766 found 0 call log entries to remove
+11-18 18:40:01.410  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling PhoneLookupDataSource
+11-18 18:40:01.413  5780  5796 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:01.414  5780  5802 I DialerSystemBlockedNumberPhoneLookupContributor: com.android.dialer.phonelookup.blockednumber.SystemBlockedNumberPhoneLookupContributor.getMostRecentInfo:106 getMostRecentInfo
+11-18 18:40:01.422  5780  5806 I DialerVoicemailDataServiceImpl: com.android.dialer.voicemail.tab.impl.dataservice.impl.VoicemailDataServiceImpl.lambda$getAllUnreadVoicemailsCountDataSource$7:538 determining new unread voicemail count
+11-18 18:40:01.422  5780  5806 I DialerVoicemailDataServiceImpl: com.android.dialer.voicemail.tab.impl.dataservice.impl.VoicemailDataServiceImpl.lambda$getAllUnreadVoicemailsCountDataSource$7:549 total unread voicemails: 0, total unread from active account: 0
+11-18 18:40:01.425  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSpeedDialUiItemListLoaded:765 onSpeedDialUiItemListLoaded enter
+11-18 18:40:01.425  5780  5780 I Dialerjlg: com.android.dialer.modernizedmain.impl.ModernizedMainEnabledFn.isEnabled:19 flag disabled
+11-18 18:40:01.425  5780  5780 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateDuoChannels:1172 enter
+11-18 18:40:01.426  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.showNoContactsEmptyContentView:947 enter
+11-18 18:40:01.427  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSpeedDialUiItemListLoaded:822 onSpeedDialUiItemListLoaded exiting
+11-18 18:40:01.445  5780  5802 I DialerLegacyCountryDetector: com.android.dialer.location.LegacyCountryDetector.getCurrentCountryIso:98 returning Redacted-2-chars
+11-18 18:40:01.446  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: CREATED
+11-18 18:40:01.447  5780  5780 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:01.449  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: STARTED
+11-18 18:40:01.452  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: RESUMED
+11-18 18:40:01.462  5780  5799 I DialerFixedDialingNumberPhoneLookupContributor: com.android.dialer.fixeddialingnumber.impl.phonelookup.FixedDialingNumberPhoneLookupContributor.lambda$getFdnListFromUri$6:242 empty cursor
+11-18 18:40:01.463  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling VoicemailDataSource
+11-18 18:40:01.463  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling SpamCallDataSource
+11-18 18:40:01.463  5780  5806 I DialerSpamCallDataSource: com.android.dialer.spam.calllog.SpamCallDataSource.fill:82 fill
+11-18 18:40:01.464  5780  5806 I DialerSpamCallDataSource: com.android.dialer.spam.calllog.SpamCallDataSource.handleInserts:88 handleInserts
+11-18 18:40:01.465  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling CallingNetworksDataSource
+11-18 18:40:01.465  5780  5799 I DialerCallingNetworksStorage: com.android.dialer.callingnetworks.impl.CallingNetworksStorage.deleteAllMatching:306 Nothing to delete
+11-18 18:40:01.476  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling CallRecordingDataSource
+11-18 18:40:01.477  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.fill:98 enter
+11-18 18:40:01.477  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleInsertsAndUpdatesFromAnnotatedCallLog:113 enter
+11-18 18:40:01.477  5780  5806 I DialerCallRecordingDataSourceStatusService: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSourceStatusService.lambda$getTimestampOfLastSyncedCallRecordingInfoMillis$5:100 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:40:01.477  5780  5796 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.lambda$getAnnotatedCallLogIdsToCallRecordingInfoMap$11:334 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:40:01.482  5780  5799 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleDeletesFromAnnotatedCallLog:137 enter
+11-18 18:40:01.482  5780  5799 I DialerCallRecordingInfoStorageAsyncSqlite: com.android.dialer.callrecording.impl.storage.CallRecordingInfoStorageAsyncSqlite.deleteCallLogInitiated:501 enter
+11-18 18:40:01.482  5780  5799 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.addDeleteUpdatesFromCallRecordingInitiatedDeletes:181 enter
+11-18 18:40:01.483  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$4:224 applying mutations
+11-18 18:40:01.483  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$5:238 coalescing call history
+11-18 18:40:01.483  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesce:123 coalesce
+11-18 18:40:01.483  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:190 coalesceWithSelection
+11-18 18:40:01.483  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:190 coalesceWithSelection
+11-18 18:40:01.483  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$6:247 coalescing conversation history
+11-18 18:40:01.483  5780  5799 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesce:109 coalesce
+11-18 18:40:01.483  5780  5799 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.onSuccessfulFill:221 enter
+11-18 18:40:01.485  5780  5801 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:225 coalesceInternal
+11-18 18:40:01.488  5780  5796 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesceInternal:136 coalesceInternal
+11-18 18:40:01.489  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForMissedCalls:155 saveToFileForMissedCalls
+11-18 18:40:01.489  5780  5800 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.onSuccessfulFillInternal:358 on successful fill with maxTimestampProcessed: null
+11-18 18:40:01.489  5780  5801 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:235 start writing coalesced_rows_for_missed_calls
+11-18 18:40:01.489  5780  5801 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:240 finished writing coalesced_rows_for_missed_calls
+11-18 18:40:01.490  5780  5806 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForCallLogMissedCalls:71 notifyForCallLogMissedCalls
+11-18 18:40:01.490  5780  5802 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:225 coalesceInternal
+11-18 18:40:01.490  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCallsInConversationHistory:181 saveToFileForAllCallsInConversationHistory
+11-18 18:40:01.490  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCalls:130 saveToFileForAllCalls
+11-18 18:40:01.491  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.lambda$saveToFileForAllCallsInConversationHistory$4:201 Finished saving coalesced rows for conversation history.
+11-18 18:40:01.491  5780  5806 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForConversationHistory:83 notifyForConversationHistory
+11-18 18:40:01.491  5780  5802 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:235 start writing coalesced_rows_for_all_calls
+11-18 18:40:01.491  5780  5802 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:240 finished writing coalesced_rows_for_all_calls
+11-18 18:40:01.492  5780  5806 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForCallLogAllCalls:60 notifyForCallLogAllCalls
+11-18 18:40:01.492  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$7:257 coalesced row updated
+11-18 18:40:01.492  5780  5801 I DialerSystemCallLogUpdater: com.android.dialer.calllog.refresh.impl.SystemCallLogUpdater.getCallTypeUpdates:190 There are no system call log mutations
+11-18 18:40:01.492  5780  5800 I DialerCallerIdFeedbackPhoneLookupContributor: com.android.dialer.calleridfeedback.impl.phonelookup.CallerIdFeedbackPhoneLookupContributor.onSuccessfulBulkUpdate:130 Writing timestampOfLastCallerIdFeedbackLookup : 1795027201421
+11-18 18:40:01.495  5780  5801 I DialerSystemCallLogUpdater: com.android.dialer.calllog.refresh.impl.SystemCallLogUpdater.updateSystemCallLog:218 updated 0 rows
+11-18 18:40:01.497  5780  5806 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:47 Impression: ANNOTATED_CALL_LOG_NO_CHANGES_NEEDED
+11-18 18:40:01.501   554   578 W ziparchive: Unable to open '/data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.dm': No such file or directory
+11-18 18:40:01.505   554   578 I ActivityTaskManager: Displayed com.university.lab10/.MainActivity for user 0: +189ms
+11-18 18:40:01.511  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [0], return value: Default
+11-18 18:40:01.514  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStop:581 onStop enter
+11-18 18:40:01.519  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.unregisterPermissionReceiver:272 unregisterPermissionReceiver
+11-18 18:40:01.519  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStop:318 enter
+11-18 18:40:01.522  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:637 onSaveInstanceState enter
+11-18 18:40:01.522  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:640 longPressedFavoriteContactIndex : Optional.empty
+11-18 18:40:01.522  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onSaveInstanceState:1473 enter
+11-18 18:40:01.523  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onSaveInstanceState:671 Saving FAB hidden state 'hidden: false'
+11-18 18:40:01.524   425   444 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:01.524   554   680 I ImeTracker: com.university.lab10:ebc93c1a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:01.524   554   680 I ImeTracker: com.university.lab10:ebc93c1a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:01.525  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:01.526  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:01.526  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab10, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:01.527  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:01.528  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:01.531   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8050802
+11-18 18:40:01.533   554  1004 W InputManager-JNI: Input channel object '9ccc33b Splash Screen com.university.lab10 (client)' was disposed without first being removed with the input manager!
+11-18 18:40:02.140  5780  5780 I DialerPrimesMetrics: com.android.dialer.metrics.primes.PrimesMetrics.recordMemory:111 recording memory for event: MainActivity.onResume
+11-18 18:40:02.253   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:02.253   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:02.253   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10187} in 1ms
+11-18 18:40:02.585  1415  1415 D WM-DelayedWorkTracker: Scheduling work 7f255c29-59b9-481b-a45a-5ae2984c8ac4
+11-18 18:40:02.585  1415  1415 D WM-GreedyScheduler: Starting tracking for 7f255c29-59b9-481b-a45a-5ae2984c8ac4
+11-18 18:40:02.586  1415  1625 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:40:02.586  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:40:02.586  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=7f255c29-59b9-481b-a45a-5ae2984c8ac4, generation=0)
+11-18 18:40:02.587  1415  1625 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=7f255c29-59b9-481b-a45a-5ae2984c8ac4, generation=0)
+11-18 18:40:02.588  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:40:02.589  1415  5002 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:40:02.589  1415  5002 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@73f40cb[Not completed, 1 dependents]. Future map: {7f255c29-59b9-481b-a45a-5ae2984c8ac4=java.util.concurrent.CompletableFuture@73f40cb[Not completed, 1 dependents]}
+11-18 18:40:02.589  1415  5002 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:40:02.589  1415  5002 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:40:02.592  1415  5002 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/320
+11-18 18:40:02.592  1415  5002 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/310
+11-18 18:40:02.592  1415  5002 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=310, latest=Bundle[{last_media_sync_generation=320, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:40:02.592  1415  5002 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:02.592  1415  5002 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:02.592  1415  5002 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.592  1415  5002 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.592  1415  5002 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:40:02.594  1415  5002 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:02.594  1415  5002 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.594  1415  5002 D PickerSyncController: Saving next page token: 1795027201000|1000000060 for key: local_provider:media_add:resume
+11-18 18:40:02.594  1415  5002 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.595  1415  5002 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:02.595  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:02.595  1415  5002 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:02.595  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:02.595  1415  5002 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:02.595  1415  5002 D ExternalDbFacade: Token received for queryMedia = 1795027201000|1000000060
+11-18 18:40:02.596  1415  5002 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:02.596  1415  5002 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.596  1415  5002 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:40:02.596  1415  5002 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.596  1415  5002 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:02.597  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:02.597  1415  5002 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:02.597  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:02.597  1415  5002 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:02.598  1415  5002 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027201000|1000000060, android.provider.extra.SYNC_GENERATION=310, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:40:02.598  1415  5002 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:02.598  1415  5002 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:02.598  1415  5002 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.598  1415  5002 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.599  1415  5002 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:02.599  1415  5002 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.599  1415  5002 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:40:02.599  1415  5002 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:02.599  1415  5002 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:02.600  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:02.600  1415  5002 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:02.600  1415  5002 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:02.600  1415  5002 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:02.600  1415  5002 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027201000|1000000060, android.provider.extra.SYNC_GENERATION=310, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:40:02.600  1415  5002 I PickerSyncTracker: Marked sync future complete for work id: 7f255c29-59b9-481b-a45a-5ae2984c8ac4. Future map: {}
+11-18 18:40:02.600  1415  5002 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:40:02.601  1415  1590 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=7f255c29-59b9-481b-a45a-5ae2984c8ac4, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:40:02.602  1415  1415 D WM-Processor: Processor 7f255c29-59b9-481b-a45a-5ae2984c8ac4 executed; reschedule = false
+11-18 18:40:02.602  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=7f255c29-59b9-481b-a45a-5ae2984c8ac4, generation=0)
+11-18 18:40:02.603  1415  1590 D WM-GreedyScheduler: Cancelling work ID 7f255c29-59b9-481b-a45a-5ae2984c8ac4
+11-18 18:40:02.604  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:40:02.604  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:40:02.604  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:40:03.026  8879  8893 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QWhere am I?\E']].
+11-18 18:40:03.026  8879  8893 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QWhere am I?\E'].
+11-18 18:40:03.029  8879  8893 D UiObject2: Clicking on (77, 176).
+11-18 18:40:03.036  8879  8879 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:40:03.040  1208  1724 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:40:03.040  1208  1724 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:40:03.041   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.041   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.041   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.042   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:03.043   554  2294 D ConnectivityService: Returning UNBLOCKED NetworkInfo to uid=10130
+11-18 18:40:03.046  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:40:03.046  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:40:03.048  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:40:03.052   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:40:03.052   554  1004 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:03.054  8879  8898 D EGL_emulation: app_time_stats: avg=390.10ms min=10.39ms max=1501.81ms count=4
+11-18 18:40:03.057   952  8966 D android.hardware.gnss-service.ranchu: GnssHwConn:workerThread:70
+11-18 18:40:03.059  8879  8893 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:40:03.059  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.076   903  1024 D EGL_emulation: app_time_stats: avg=1903.82ms min=1903.82ms max=1903.82ms count=1
+11-18 18:40:03.093  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.193  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.213   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:03.662  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:03.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:03.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:03.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:03.762  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.765  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.866  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.869  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.969  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:03.972  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.073  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.076  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.176  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.180  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.280  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.283  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.384  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.386  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.487  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.490  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.590  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.593  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.693  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.695  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:04.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:04.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:04.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:04.796  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.801  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.901  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:04.904  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.004  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.007  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.107  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.109  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.210  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.213  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.313  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.316  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.416  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.419  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.520  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.522  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.622  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.625  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.726  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:05.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:05.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:05.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:05.729  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.829  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.832  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.858   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:05.858   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:05.858   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:05.858   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:05.932  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.934  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.035  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.037  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.092   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5762048
+11-18 18:40:06.138  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.140  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.228   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:06.228   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:06.228   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10168} in 1ms
+11-18 18:40:06.240  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.244  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.346  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.349  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.449  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.451  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.515   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:06.515   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:06.515   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 0ms
+11-18 18:40:06.515   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:06.516   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:06.516   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20159} in 0ms
+11-18 18:40:06.516   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:06.517   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:06.517   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 0ms
+11-18 18:40:06.517   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:06.517   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:06.517   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 1ms
+11-18 18:40:06.552  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.555  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.655  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.658  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:06.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:06.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:06.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:333
+11-18 18:40:06.733  1208  1832 I FusedLocation: location delivery to 10143/com.google.android.gms[.personalsafety]/97d43226 blocked - too fast [CONTEXT service_id=6 ]
+11-18 18:40:06.734  1208  1832 I FusedLocation: stationary throttling engaged [CONTEXT service_id=6 ]
+11-18 18:40:06.744  1208  2014 I ActivityScheduler: nextTriggerTime: 658524, in 228222ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 30000
+11-18 18:40:06.745  1208  2014 W SystemServiceRegistry: No service published for: wifirtt
+11-18 18:40:06.753  8879  8898 D EGL_emulation: app_time_stats: avg=1232.78ms min=14.08ms max=3665.86ms count=3
+11-18 18:40:06.758  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.785  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+11-18 18:40:06.825  1455  1465 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+11-18 18:40:06.825  1455  1465 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-18 18:40:06.826  1455  1465 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:40:06.826  1455  1465 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.apk' with 1 weak references
+11-18 18:40:07.280  5813  5819 W ndroid.contacts: Cleared Reference was only reachable from finalizer (only reported once)
+11-18 18:40:07.286   359   359 I netd    : tetherGetStats() -> {[]} <0.52ms>
+11-18 18:40:07.295  5813  5821 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:40:07.334  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.434  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.437  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.538  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.541  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.565   554  1843 D WifiNl80211Manager: Scan result ready event
+11-18 18:40:07.565   554  1843 D WifiNative: Scan result ready event
+11-18 18:40:07.575  1208  7897 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+11-18 18:40:07.575  1208  7897 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+11-18 18:40:07.576  1208  7896 D TrafficStats: tagSocket(247) with statsTag=0x34000609, statsUid=10135
+11-18 18:40:07.579   554   819 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-18 18:40:07.591  1208  7896 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:07.591  1208  7896 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):204)
+11-18 18:40:07.591  1208  7896 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):4)
+11-18 18:40:07.641  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.644  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:07.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:07.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:07.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:07.744  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.748  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.848  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.851  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.951  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.953  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.054  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.056  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.091  1208  7896 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:40:08.091  1208  7896 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):204)
+11-18 18:40:08.091  1208  7896 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):4)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: Voilatile gRPC failure INVALID_ARGUMENT: Application credential header not valid. Please fix the client to pass a valid application credential header. [CONTEXT service_id=6 ]
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: gbzz: INVALID_ARGUMENT: Application credential header not valid. Please fix the client to pass a valid application credential header.
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at gbzy.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at anbi.u(:com.google.android.gms@242335041@24.23.35 (190800-646585959):29)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at anbi.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at efkz.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at efkr.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):274)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at ehaz.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1026)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:40:08.123  1208  7897 W GlsClientGrpc: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:40:08.126  1208  2014 I ActivityScheduler: nextTriggerTime: 658524, in 226839ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 30000
+11-18 18:40:08.156  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.159  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.259  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.262  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.293  3124  3124 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:40:08.296  3124  3124 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_RebuildShortcutsAction
+11-18 18:40:08.296  3124  8215 I BugleDataModel: ExecuteActionRunnable: running action RebuildShortcutsAction
+11-18 18:40:08.298  3124  8215 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_RebuildShortcutsAction
+11-18 18:40:08.300  3124  8202 I Bugle   : ShortcutUtilImpl: Starting rebuild shortcuts v2
+11-18 18:40:08.301  3124  8202 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_RebuildShortcutsAction
+11-18 18:40:08.303  3124  8217 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:40:08.318  3124  3197 I Bugle   : ShortcutUtilImpl: Removing dynamic shortcuts: size=0
+11-18 18:40:08.320  3124  3225 I Bugle   : ShortcutUtilImpl: Setting dynamic shortcuts: size=0
+11-18 18:40:08.321  3124  3225 I BugleShortcuts: Successfully finished rebuilding shortcuts
+11-18 18:40:08.362  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.365  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.466  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.468  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.537   359   359 I netd    : tetherGetStats() -> {[]} <0.26ms>
+11-18 18:40:08.569  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.572  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.672  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.675  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.728   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:08.729   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:08.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:08.729   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:08.776  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.779  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.863   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=64
+11-18 18:40:08.864   952  8966 D android.hardware.gnss-service.ranchu: GnssHwListener:consume:87 sz=62
+11-18 18:40:08.864   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:311
+11-18 18:40:08.864   952  8966 D android.hardware.gnss-service.ranchu: Gnss:onGnssLocationCb:321
+11-18 18:40:08.879  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.881  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.982  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:08.984  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:09.085  8879  8893 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:09.087  8879  8893 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:09.087  8879  8893 I LABCI   : no permission dialog
+11-18 18:40:09.087  8879  8893 D UiDevice: Waiting 60000ms for SearchCondition[hasObject=BySelector [TEXT='^.*\Q31.41\E.*$']].
+11-18 18:40:09.087  8879  8893 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Q31.41\E.*$'].
+11-18 18:40:09.089  8879  8893 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QOpen in Maps\E']].
+11-18 18:40:09.089  8879  8893 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QOpen in Maps\E'].
+11-18 18:40:09.091  8879  8893 D UiObject2: Clicking on (82, 312).
+11-18 18:40:09.122   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:40:09.122   554  1762 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:09.123   554  2295 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10154, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:09.124   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(35)
+11-18 18:40:09.124  8879  8898 D EGL_emulation: app_time_stats: avg=1184.92ms min=17.03ms max=2352.80ms count=2
+11-18 18:40:09.127  8879  8893 W GestureController: Gestures took longer than expected (35ms >> 16ms), device might be in a busy state.
+11-18 18:40:09.135  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=63, baseIntent=Intent { act=android.intent.action.VIEW dat=geo: flg=0x10000000 cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity }
+11-18 18:40:09.135  1156  1156 I TopTaskTracker: onTaskMovedToFront: (removing task list overflow) taskId=63, baseIntent=Intent { act=android.intent.action.VIEW dat=geo: flg=0x10000000 cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity }
+11-18 18:40:09.146   903  1009 D SplashScreenView: Build android.window.SplashScreenView{3fd5f72 V.E...... ......ID 0,0-0,0}
+11-18 18:40:09.146   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:09.146   903  1009 D SplashScreenView: Branding: view: android.view.View{a228fc3 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:09.153  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: PAUSED
+11-18 18:40:09.154   952  8966 D android.hardware.gnss-service.ranchu: GnssHwConn:workerThread:119
+11-18 18:40:09.156   554   578 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda14@c243d6f
+11-18 18:40:09.156   554  2295 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:09.157   554   578 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda13@9002a7c
+11-18 18:40:09.171   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:40:09.189   903  1024 D EGL_emulation: app_time_stats: avg=3056.52ms min=14.48ms max=6098.56ms count=2
+11-18 18:40:09.218  8879  8879 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:09.222  1348  1365 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6f71bwKrePIneSDqfhvxrA==/com.university.lab10-CL0Y0A3mU4C0tiEANxcD4w==/base.apk' with 1 weak references
+11-18 18:40:09.264   359  8985 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:40:09.265   359  8987 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:09.267   359  8986 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:09.272   359  8986 I resolv  : res_nsend: used send_dg 149 terrno: 0
+11-18 18:40:09.272   359  8986 I resolv  : doQuery: rcode=0, ancount=4, return value=149
+11-18 18:40:09.273   359  8987 I resolv  : res_nsend: used send_dg 133 terrno: 0
+11-18 18:40:09.273   359  8987 I resolv  : doQuery: rcode=0, ancount=6, return value=133
+11-18 18:40:09.285   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:09.291  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:40:09.291  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:40:09.298   554  2295 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:40:09.320  5951  5951 I ContentCaptureHelper: Setting logging level to DEBUG
+11-18 18:40:09.320  5951  5951 D ContentCaptureManager: setFlushViewTreeAppearingEventDisabled(): setting to false
+11-18 18:40:09.320  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=8454400
+11-18 18:40:09.322  5951  5991 D MainContentCaptureSession: handleScheduleFlush(act:com.google.android.apps.maps/com.google.android.maps.MapsActivity [state=1 (WAITING_FOR_SERVER), disabled=false], reason=FORCE_FLUSH): not a timeout reason because mDirectServiceInterface is not ready yet
+11-18 18:40:09.322   554  2294 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:40:09.331  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=25231616
+11-18 18:40:09.331  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:09.356  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-18 18:40:09.356  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-18 18:40:09.368  5951  5951 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+11-18 18:40:09.368  5951  5951 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-18 18:40:09.372  5951  5955 I droid.apps.maps: Compiler allocated 4203KB to compile void jgl.onCreate(android.os.Bundle)
+11-18 18:40:09.393   359  9003 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:40:09.394   359  9005 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:09.394   359  9005 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63cff9b0
+11-18 18:40:09.394   359  9005 I resolv  : doQuery: rcode=0, ancount=8, return value=174
+11-18 18:40:09.394   359  9004 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:09.394   359  9004 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d08810
+11-18 18:40:09.394   359  9004 I resolv  : doQuery: rcode=0, ancount=8, return value=270
+11-18 18:40:09.406  5951  5977 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:09.430   359  9006 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:40:09.430   359  9007 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:09.430   359  9007 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d0a250
+11-18 18:40:09.430   359  9007 I resolv  : doQuery: rcode=0, ancount=8, return value=256
+11-18 18:40:09.430   359  9008 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:09.449  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object amep.apply(java.lang.Object)
+11-18 18:40:09.502   359  9008 I resolv  : res_nsend: used send_dg 160 terrno: 0
+11-18 18:40:09.502   359  9008 I resolv  : doQuery: rcode=0, ancount=8, return value=160
+11-18 18:40:09.521  5951  5955 W droid.apps.maps: Missing inline cache for java.lang.Object amep.apply(java.lang.Object)
+11-18 18:40:09.521  5951  5951 W TextView: onProvideContentCaptureStructure(): calling assumeLayout()
+11-18 18:40:09.529   554   578 I ActivityTaskManager: Displayed com.google.android.apps.maps/com.google.android.maps.MapsActivity for user 0: +408ms
+11-18 18:40:09.535   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c56d040
+11-18 18:40:09.537   554  1841 W InputManager-JNI: Input channel object 'd19f851 Splash Screen com.google.android.apps.maps (client)' was disposed without first being removed with the input manager!
+11-18 18:40:09.542  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: STOPPED
+11-18 18:40:09.577   359   359 I netd    : tetherGetStats() -> {[]} <3.85ms>
+11-18 18:40:09.594   554   680 I ImeTracker: com.google.android.apps.maps:8272465c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:09.594   554   680 I ImeTracker: com.google.android.apps.maps:8272465c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:09.603  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:09.603  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:09.603  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.maps, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:09.604  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:09.604  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:09.613  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:09.869   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:09.869   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:09.973   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:09.973   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.077   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.077   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.181   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.185   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.289   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.289   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.317   554   578 I ActivityTaskManager: Fully drawn com.google.android.apps.maps/com.google.android.maps.MapsActivity: +1s198ms
+11-18 18:40:10.317  5951  5951 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+11-18 18:40:10.333  5951  5955 W droid.apps.maps: Missing inline cache for bxdy anbc.b(boolean, bkje, anfh, java.lang.String)
+11-18 18:40:10.333  5951  5955 W droid.apps.maps: Missing inline cache for bxdy anbc.b(boolean, bkje, anfh, java.lang.String)
+11-18 18:40:10.409   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.409   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.461  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@5407a38
+11-18 18:40:10.513   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.513   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.619   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.619   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.627  5951  5955 W droid.apps.maps: Missing inline cache for bbek rnf.b(android.content.res.Resources, bbes, boolean)
+11-18 18:40:10.627  5951  5955 W droid.apps.maps: Missing inline cache for bbek rnf.b(android.content.res.Resources, bbes, boolean)
+11-18 18:40:10.631  5951  5955 W droid.apps.maps: Missing inline cache for bbek rnf.a(android.content.res.Resources, bbes, boolean)
+11-18 18:40:10.659  5951  5955 W droid.apps.maps: Missing inline cache for bbek rnf.a(android.content.res.Resources, bbes, boolean)
+11-18 18:40:10.721   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.721   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.753  5951  5963 I HWUI    : Davey! duration=1341ms; Flags=0, FrameTimelineVsyncId=41553, IntendedVsync=432957125469, Vsync=433107125463, InputEventId=0, HandleInputStart=433120601324, AnimationStart=433120601664, PerformTraversalsStart=433120642325, DrawStart=433129765586, FrameDeadline=433090458797, FrameInterval=433120504661, FrameStartTime=16666666, SyncQueued=433140472567, SyncStart=433141010139, IssueDrawCommandsStart=433141082466, SwapBuffers=434238900037, FrameCompleted=434299566050, DequeueBufferDuration=812945, QueueBufferDuration=219706, GpuCompleted=434298636071, SwapBuffersCompleted=434299566050, DisplayPresentTime=0, CommandSubmissionCompleted=434238900037, 
+11-18 18:40:10.769  5951  8972 I HWUI    : Davey! duration=761ms; Flags=0, FrameTimelineVsyncId=41679, IntendedVsync=433140458795, Vsync=433873792099, InputEventId=0, HandleInputStart=433876114472, AnimationStart=433876115163, PerformTraversalsStart=433876226708, DrawStart=433877216276, FrameDeadline=434323792081, FrameInterval=433875876709, FrameStartTime=16666666, SyncQueued=433877744719, SyncStart=434299661682, IssueDrawCommandsStart=434299944481, SwapBuffers=434302568211, FrameCompleted=434324265282, DequeueBufferDuration=7942216, QueueBufferDuration=187047, GpuCompleted=434324265282, SwapBuffersCompleted=434311829613, DisplayPresentTime=0, CommandSubmissionCompleted=434302568211, 
+11-18 18:40:10.787  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.locationsharingreporter.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:40:10.787  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.locationsharingreporter.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:40:10.795   359   359 I netd    : tetherGetStats() -> {[]} <0.30ms>
+11-18 18:40:10.806  5951  5951 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+11-18 18:40:10.806  5951  5951 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-18 18:40:10.813  6044  6044 E adservices: Measurement API is disabled
+11-18 18:40:10.813  6044  6044 E adservices: Measurement API is disabled
+11-18 18:40:10.817  5951  5963 E adservices: onNullBinding android.adservices.MEASUREMENT_SERVICE
+11-18 18:40:10.820  5951  6042 E adservices: Failed to bind to measurement service: com.android.adservices.shared.common.exception.ServiceUnavailableException: Service is not available.
+11-18 18:40:10.825   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.825   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.847  1208  2514 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:10.847  1208  2514 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddhd.<init>(:com.google.android.gms@242335041@24.23.35 (190800-646585959):16)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddov.j(:com.google.android.gms@242335041@24.23.35 (190800-646585959):18)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddnv.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):328)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	... 18 more
+11-18 18:40:10.847  1208  2514 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:10.847  1208  2514 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at ddnv.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):332)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:10.847  1208  2514 W SemanticLocation: 	... 16 more
+11-18 18:40:10.849  5951  5955 W droid.apps.maps: Missing inline cache for bcbj bcbm.k(ybd, bsal, bcbd, byte[], boolean, avyk, bbcp, java.lang.Iterable)
+11-18 18:40:10.849  5951  5955 W droid.apps.maps: Missing inline cache for bcbj bcbm.k(ybd, bsal, bcbd, byte[], boolean, avyk, bbcp, java.lang.Iterable)
+11-18 18:40:10.850  5951  5955 I droid.apps.maps: Compiler allocated 4508KB to compile bcbj bcbm.k(ybd, bsal, bcbd, byte[], boolean, avyk, bbcp, java.lang.Iterable)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.854  5951  5955 W droid.apps.maps: Missing inline cache for bvyt rim.c(rrg, bxux, java.util.List, bxuo, boolean, boolean)
+11-18 18:40:10.875  5951  5951 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:40:10.877  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.e(axfx)
+11-18 18:40:10.877  5951  5955 W droid.apps.maps: Missing inline cache for void axfn.e(axfx)
+11-18 18:40:10.929   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:10.929   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:10.934   554  1841 D ConnectivityService: requestNetwork for uid/pid:10154/5951 activeRequest: null callbackRequest: 212 [NetworkRequest [ REQUEST id=213, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:40:10.935   554   826 D ConnectivityService: NetReassign [213 : null → 100] [c 0] [a 0] [i 1]
+11-18 18:40:10.935   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=213, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:10.935   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=213, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:10.935   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=213, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:10.936   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=213, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10154 RequestorUid: 10154 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:10.984  5951  5951 D AutofillManager: notifyViewReadyInner:1073741856
+11-18 18:40:11.013  5951  8984 I droid.apps.maps: IncrementDisableThreadFlip blocked for 38.860ms
+11-18 18:40:11.018  5951  8998 I droid.apps.maps: IncrementDisableThreadFlip blocked for 43.938ms
+11-18 18:40:11.023  5951  5969 I droid.apps.maps: IncrementDisableThreadFlip blocked for 48.556ms
+11-18 18:40:11.034  5951  5955 W droid.apps.maps: Missing inline cache for bkic bbqq.f()
+11-18 18:40:11.035   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.035   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.122   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:11.122   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:11.122   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10158} in 1ms
+11-18 18:40:11.146   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.146   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.205   554  1841 W JobInfo : Job 'com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService#1043' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:40:11.250   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.251   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.275  7851  8913 I XmpUtil : XMP parse: only JPEG file is supported
+11-18 18:40:11.346  5951  5951 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:11.353   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.353   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.385  5951  5956 I droid.apps.maps: Background concurrent mark compact GC freed 16MB AllocSpace bytes, 188(11MB) LOS objects, 37% free, 39MB/63MB, paused 4.586ms,1.797ms total 696.928ms
+11-18 18:40:11.457   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.457   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.477  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@37e5bc2
+11-18 18:40:11.479  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@aa66d10
+11-18 18:40:11.485  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@8778009
+11-18 18:40:11.495  5951  5955 W droid.apps.maps: Missing inline cache for bbul bbsw.e(bbul, android.util.SparseArray, int, cave, cave)
+11-18 18:40:11.495  5951  5955 W droid.apps.maps: Missing inline cache for bbul bbsw.e(bbul, android.util.SparseArray, int, cave, cave)
+11-18 18:40:11.495  5951  5955 W droid.apps.maps: Missing inline cache for bbul bbsw.e(bbul, android.util.SparseArray, int, cave, cave)
+11-18 18:40:11.495  5951  5955 W droid.apps.maps: Missing inline cache for bbul bbsw.e(bbul, android.util.SparseArray, int, cave, cave)
+11-18 18:40:11.514  5951  5955 I droid.apps.maps: Compiler allocated 4381KB to compile azkc agvz.a()
+11-18 18:40:11.523  5951  5955 W droid.apps.maps: Missing inline cache for bcnu bcns.f(android.graphics.Bitmap, int, int, int, int, float)
+11-18 18:40:11.561   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.561   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.693   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.693   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.797   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.797   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.809  5951  8997 D EGL_emulation: app_time_stats: avg=348.68ms min=180.78ms max=591.10ms count=4
+11-18 18:40:11.887  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@ecc504c
+11-18 18:40:11.903  5951  5955 W droid.apps.maps: Missing inline cache for bbkz bbgk.a(blho, bkhv)
+11-18 18:40:11.903  5951  5955 W droid.apps.maps: Missing inline cache for bbkz bbgk.a(blho, bkhv)
+11-18 18:40:11.903  5951  5955 W droid.apps.maps: Missing inline cache for bbkz bbgk.a(blho, bkhv)
+11-18 18:40:11.903  5951  5955 W droid.apps.maps: Missing inline cache for bbkz bbgk.a(blho, bkhv)
+11-18 18:40:11.905   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:11.905   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:11.912  5951  5955 W droid.apps.maps: Missing inline cache for void alzu.aq(bxxp, android.app.Application, int, anck, java.lang.String)
+11-18 18:40:11.912  5951  5955 W droid.apps.maps: Missing inline cache for void alzu.aq(bxxp, android.app.Application, int, anck, java.lang.String)
+11-18 18:40:11.942  5951  5977 D EGL_emulation: app_time_stats: avg=346.63ms min=4.38ms max=1233.17ms count=7
+11-18 18:40:11.953  5951  6033 I HWUI    : Davey! duration=833ms; Flags=0, FrameTimelineVsyncId=41820, IntendedVsync=434673792067, Vsync=434940458723, InputEventId=0, HandleInputStart=434947201584, AnimationStart=434947201835, PerformTraversalsStart=434947226942, DrawStart=434954852658, FrameDeadline=434940458723, FrameInterval=434946203494, FrameStartTime=16666666, SyncQueued=434955633676, SyncStart=434955656781, IssueDrawCommandsStart=434955736569, SwapBuffers=435445373475, FrameCompleted=435507266459, DequeueBufferDuration=3615, QueueBufferDuration=248278, GpuCompleted=435507266459, SwapBuffersCompleted=435502273460, DisplayPresentTime=0, CommandSubmissionCompleted=435445373475, 
+11-18 18:40:12.009   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:12.009   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:12.114   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:12.114   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:12.170   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5910016
+11-18 18:40:12.182   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.183   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.184   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.186   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.187   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.187   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.187   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.187   554  2295 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10130
+11-18 18:40:12.191   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.191   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.191   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:12.192  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:40:12.193  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:40:12.197  1208  2314 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:40:12.197  1208  2314 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:40:12.203  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:40:12.221   368  8969 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+11-18 18:40:12.221   368  8969 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+11-18 18:40:12.252   554   570 I system_server: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 28(728KB) LOS objects, 45% free, 29MB/53MB, paused 170.528ms,1.423ms total 363.518ms
+11-18 18:40:12.258   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:12.258   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/IntentResolver/IntentResolver.apk' with 1 weak references
+11-18 18:40:12.259   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:40:12.260   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:40:12.262   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:40:12.262   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:40:12.299  5951  5955 I droid.apps.maps: Compiler allocated 4410KB to compile java.lang.Object joi.d()
+11-18 18:40:12.388  8723  8724 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+11-18 18:40:12.388  8723  8724 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:40:12.394  8723  8724 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-18 18:40:12.420  5951  6033 I HWUI    : Davey! duration=1299ms; Flags=1, FrameTimelineVsyncId=41820, IntendedVsync=434673792067, Vsync=434940458723, InputEventId=0, HandleInputStart=434947201584, AnimationStart=434947201835, PerformTraversalsStart=434947226942, DrawStart=435520154948, FrameDeadline=434690458733, FrameInterval=434946203494, FrameStartTime=16666666, SyncQueued=435520402805, SyncStart=435520626788, IssueDrawCommandsStart=435520681439, SwapBuffers=435904237499, FrameCompleted=435973906557, DequeueBufferDuration=2173, QueueBufferDuration=140999, GpuCompleted=435973906557, SwapBuffersCompleted=435971537464, DisplayPresentTime=5955725231146861211, CommandSubmissionCompleted=435904237499, 
+11-18 18:40:12.515  5951  5955 W droid.apps.maps: Missing inline cache for bkhv kjx.n(java.lang.Iterable, java.lang.Iterable, boolean, boolean, boolean)
+11-18 18:40:12.515  5951  5955 W droid.apps.maps: Missing inline cache for bkhv kjx.n(java.lang.Iterable, java.lang.Iterable, boolean, boolean, boolean)
+11-18 18:40:12.576  5951  5955 W droid.apps.maps: Missing inline cache for void pjy.d(java.lang.String, java.lang.String)
+11-18 18:40:12.577  5951  5955 W droid.apps.maps: Missing inline cache for void pjy.d(java.lang.String, java.lang.String)
+11-18 18:40:12.611  5951  5951 D AutofillManager: notifyViewReadyInner:1073741915
+11-18 18:40:12.614  5951  5951 D AutofillManager: notifyViewReadyInner:1073741916
+11-18 18:40:12.703  5951  6011 I cr_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@a385393
+11-18 18:40:12.952  5951  5977 D EGL_emulation: app_time_stats: avg=237.49ms min=2.90ms max=483.53ms count=4
+11-18 18:40:12.953  5951  8997 D EGL_emulation: app_time_stats: avg=285.77ms min=128.27ms max=670.21ms count=4
+11-18 18:40:12.986   359  9024 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10154 0}
+11-18 18:40:12.987   359  9025 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:12.987   359  9026 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:12.987   359  9026 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff93d02550
+11-18 18:40:12.987   359  9026 I resolv  : doQuery: rcode=0, ancount=1, return value=59
+11-18 18:40:12.987   359  9025 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff93d028d0
+11-18 18:40:12.987   359  9025 I resolv  : doQuery: rcode=0, ancount=1, return value=71
+11-18 18:40:13.142  5951  6172 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:13.297  1397  4400 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae55f170 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:40:13.403   359   359 I netd    : tetherGetStats() -> {[]} <0.34ms>
+11-18 18:40:13.441  5951  5955 W droid.apps.maps: Missing inline cache for com.google.common.util.concurrent.ListenableFuture bgxz.a()
+11-18 18:40:13.987  5951  8997 D EGL_emulation: app_time_stats: avg=60.58ms min=44.49ms max=131.86ms count=17
+11-18 18:40:14.128  8879  8893 I LABCI   : geo intent opened: com.google.android.apps.maps
+11-18 18:40:14.829  8879  8893 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:14.861  8879  8893 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab10_geo_intent.png
+11-18 18:40:14.999  5951  8997 D EGL_emulation: app_time_stats: avg=50.16ms min=37.73ms max=72.96ms count=20
+11-18 18:40:15.196  9030  9030 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:40:15.197  9030  9030 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:40:15.226   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:40:15.227  9030  9033 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:15.229   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.232   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.232   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.233   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.233   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.233   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.233   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.236   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.236   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.236   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:15.236  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:40:15.237  1208  2314 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:40:15.237  1208  2314 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:40:15.238  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:40:15.240  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:40:15.286  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:40:15.318  1208  9020 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 438 [CONTEXT service_id=218 ]
+11-18 18:40:15.325  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 13 uptime_millis: 13 exec_start_elapsed_seconds: 438 [CONTEXT service_id=218 ]
+11-18 18:40:15.382  1208  9020 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 438 [CONTEXT service_id=218 ]
+11-18 18:40:15.467   359  9036 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:40:15.468   359  9037 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:40:15.468   359  9038 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:40:15.468   359  9038 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d034d0
+11-18 18:40:15.468   359  9038 I resolv  : doQuery: rcode=0, ancount=8, return value=165
+11-18 18:40:15.481   554  1843 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:40:15.483   554  2294 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:40:15.484   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:40:15.485  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:15.488   359  9037 I resolv  : res_nsend: used send_dg 261 terrno: 0
+11-18 18:40:15.488   359  9037 I resolv  : doQuery: rcode=0, ancount=8, return value=261
+11-18 18:40:15.501  1208  2222 D TrafficStats: tagSocket(259) with statsTag=0x1065fff, statsUid=10154
+11-18 18:40:15.507  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:15.512  8879  8893 I LABCI   : screenshot lab10_geo_intent
+11-18 18:40:15.515  8879  8893 D UiDevice: Pressing back button.
+11-18 18:40:15.528  1415  1590 D WM-SystemJobScheduler: Scheduling work ID 91289c38-1aff-414b-9f03-2e059261c1b9Job ID 43
+11-18 18:40:15.542  1323  1323 I StylusModule: StylusModule.onUpdateToolType():770 Update tool type = 0
+11-18 18:40:15.564  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=62, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab10 cmp=com.university.lab10/.MainActivity }
+11-18 18:40:15.565   554   581 I ImeTracker: system_server:3133c7db: onRequestHide at ORIGIN_SERVER reason HIDE_WHEN_INPUT_TARGET_INVISIBLE fromUser false
+11-18 18:40:15.566   554   581 I ImeTracker: system_server:3133c7db: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:15.590  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:40:15.591  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:40:15.598  5951  5977 D EGL_emulation: app_time_stats: avg=881.20ms min=52.76ms max=2256.60ms count=3
+11-18 18:40:15.620  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 439 [CONTEXT service_id=218 ]
+11-18 18:40:15.621  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: RESTARTED
+11-18 18:40:15.622  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: STARTED
+11-18 18:40:15.623  8879  8879 D LifecycleMonitor: Lifecycle status change: com.university.lab10.MainActivity@37f3777 in: RESUMED
+11-18 18:40:15.686   359   359 I netd    : tetherGetStats() -> {[]} <0.33ms>
+11-18 18:40:15.691   430  1130 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:15.706  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 158 uptime_millis: 158 exec_start_elapsed_seconds: 439 [CONTEXT service_id=218 ]
+11-18 18:40:15.719  5951  5951 D VRI[MapsActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:15.759  8879  8893 I TestRunner: finished: b_openMaps(com.university.lab10.Lab10Test)

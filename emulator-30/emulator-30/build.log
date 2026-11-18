@@ -1,0 +1,1149 @@
+Downloading https://services.gradle.org/distributions/gradle-9.8.2-bin.zip
+..............10%..............20%...............30%..............40%...............50%..............60%...............70%..............80%...............90%..............100%
+
+Welcome to Gradle 9.8.2!
+
+Here are the highlights of this release:
+ - Java 27 support
+ - Maven mirror settings reuse
+ - Linked problem locations in build output
+
+For more details see https://docs.gradle.org/9.8.2/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :jsnippets:preBuild UP-TO-DATE
+> Task :jsnippets:preDebugBuild UP-TO-DATE
+> Task :jsnippets:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :jsnippets:generateDebugResources
+> Task :jsnippets:packageDebugResources
+> Task :jsnippets:processDebugNavigationResources
+> Task :jsnippets:generateDebugAssets UP-TO-DATE
+> Task :jsnippets:javaPreCompileDebug
+> Task :jsnippets:parseDebugLocalResources
+> Task :jsnippets:mergeDebugAssets
+> Task :jsnippets:compressDebugAssets
+> Task :jsnippets:generateDebugRFile
+> Task :jsnippets:generateDebugGlobalSynthetics
+> Task :jsnippets:compileDebugKotlin NO-SOURCE
+> Task :jsnippets:compileDebugJavaWithJavac
+> Task :jsnippets:compressDebugJavaRes NO-SOURCE
+> Task :jsnippets:mergeDebugJavaResource
+> Task :jsnippets:desugarDebugFileDependencies
+> Task :jsnippets:checkDebugDuplicateClasses
+> Task :jsnippets:checkDebugAarMetadata
+> Task :jsnippets:mapDebugSourceSetPaths
+> Task :jsnippets:mergeLibDexDebug
+> Task :jsnippets:compileDebugNavigationResources
+> Task :jsnippets:createDebugCompatibleScreenManifests
+> Task :jsnippets:extractDeepLinksDebug
+> Task :jsnippets:processDebugMainManifest
+> Task :jsnippets:processDebugManifest
+> Task :jsnippets:mergeExtDexDebug
+> Task :jsnippets:mergeDebugJniLibFolders
+> Task :jsnippets:mergeDebugNativeLibs NO-SOURCE
+> Task :jsnippets:processDebugManifestForPackage
+> Task :jsnippets:stripDebugDebugSymbols NO-SOURCE
+> Task :jsnippets:mergeDebugResources
+> Task :jsnippets:validateSigningDebug
+> Task :jsnippets:writeDebugAppMetadata
+> Task :jsnippets:writeDebugSigningConfigVersions
+> Task :kbonus:preBuild UP-TO-DATE
+> Task :kbonus:preDebugBuild UP-TO-DATE
+> Task :kbonus:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :kbonus:generateDebugResources
+> Task :kbonus:packageDebugResources
+> Task :jsnippets:processDebugResources
+> Task :kbonus:processDebugNavigationResources
+> Task :jsnippets:dexBuilderDebug
+> Task :kbonus:parseDebugLocalResources
+> Task :jsnippets:mergeProjectDexDebug
+> Task :kbonus:javaPreCompileDebug
+> Task :kbonus:generateDebugAssets UP-TO-DATE
+> Task :kbonus:generateDebugRFile
+> Task :kbonus:mergeDebugAssets
+> Task :jsnippets:packageDebug
+> Task :jsnippets:createDebugApkListingFileRedirect
+> Task :jsnippets:assembleDebug
+> Task :kbonus:compressDebugAssets
+> Task :kbonus:generateDebugGlobalSynthetics
+> Task :kbonus:desugarDebugFileDependencies
+> Task :kbonus:checkDebugDuplicateClasses
+> Task :kbonus:checkDebugAarMetadata
+
+> Task :kbonus:kspDebugKotlin
+w: [ksp] /home/runner/work/mad-lab-kit/mad-lab-kit/ci/labs/kbonus/src/main/java/com/university/kbonus/Room.kt:27: Schema export directory was not provided to the annotation processor so Room cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument by applying the Room Gradle plugin (id 'androidx.room') OR set exportSchema to false.
+
+> Task :kbonus:mergeExtDexDebug
+> Task :kbonus:mapDebugSourceSetPaths
+> Task :kbonus:mergeLibDexDebug
+> Task :kbonus:compileDebugNavigationResources
+> Task :kbonus:createDebugCompatibleScreenManifests
+> Task :kbonus:extractDeepLinksDebug
+> Task :kbonus:processDebugMainManifest
+> Task :kbonus:processDebugManifest
+> Task :kbonus:mergeDebugJniLibFolders
+> Task :kbonus:mergeDebugResources
+> Task :kbonus:processDebugManifestForPackage
+> Task :kbonus:mergeDebugNativeLibs
+> Task :kbonus:validateSigningDebug
+> Task :kbonus:writeDebugAppMetadata
+> Task :kbonus:writeDebugSigningConfigVersions
+> Task :lab01:preBuild UP-TO-DATE
+> Task :lab01:preDebugBuild UP-TO-DATE
+> Task :lab01:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab01:generateDebugResources
+
+> Task :kbonus:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so. Run with --info option to learn more.
+
+> Task :lab01:packageDebugResources
+> Task :lab01:processDebugNavigationResources
+> Task :lab01:javaPreCompileDebug
+> Task :lab01:generateDebugAssets UP-TO-DATE
+> Task :lab01:parseDebugLocalResources
+> Task :lab01:mergeDebugAssets
+> Task :lab01:compressDebugAssets
+> Task :lab01:generateDebugRFile
+> Task :lab01:generateDebugGlobalSynthetics
+> Task :kbonus:processDebugResources
+> Task :lab01:compileDebugKotlin NO-SOURCE
+> Task :lab01:compileDebugJavaWithJavac
+> Task :lab01:compressDebugJavaRes NO-SOURCE
+> Task :lab01:mergeDebugJavaResource
+> Task :lab01:desugarDebugFileDependencies
+> Task :lab01:checkDebugDuplicateClasses
+> Task :lab01:checkDebugAarMetadata
+> Task :lab01:mergeLibDexDebug
+> Task :lab01:mapDebugSourceSetPaths
+> Task :lab01:compileDebugNavigationResources
+> Task :lab01:createDebugCompatibleScreenManifests
+> Task :lab01:extractDeepLinksDebug
+> Task :lab01:processDebugMainManifest
+> Task :lab01:processDebugManifest
+> Task :lab01:processDebugManifestForPackage
+> Task :lab01:mergeDebugJniLibFolders
+> Task :lab01:mergeDebugNativeLibs NO-SOURCE
+> Task :lab01:stripDebugDebugSymbols NO-SOURCE
+> Task :lab01:validateSigningDebug
+> Task :lab01:writeDebugAppMetadata
+> Task :lab01:writeDebugSigningConfigVersions
+> Task :lab02:preBuild UP-TO-DATE
+> Task :lab02:preDebugBuild UP-TO-DATE
+> Task :lab02:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab02:generateDebugResources
+> Task :lab02:packageDebugResources
+> Task :lab02:processDebugNavigationResources
+> Task :lab02:parseDebugLocalResources
+> Task :lab01:mergeDebugResources
+> Task :lab02:generateDebugRFile
+> Task :lab02:compileDebugKotlin NO-SOURCE
+> Task :lab02:javaPreCompileDebug
+> Task :lab02:compileDebugJavaWithJavac
+> Task :lab02:generateDebugAssets UP-TO-DATE
+> Task :lab02:mergeDebugAssets
+> Task :lab02:compressDebugAssets
+> Task :lab01:processDebugResources
+> Task :lab01:mergeExtDexDebug
+> Task :lab02:generateDebugGlobalSynthetics
+> Task :lab01:dexBuilderDebug
+> Task :lab02:compressDebugJavaRes NO-SOURCE
+> Task :lab02:mergeDebugJavaResource
+> Task :lab02:checkDebugDuplicateClasses
+> Task :lab02:desugarDebugFileDependencies
+> Task :lab02:mergeLibDexDebug
+> Task :lab02:checkDebugAarMetadata
+> Task :lab02:mapDebugSourceSetPaths
+> Task :lab01:mergeProjectDexDebug
+> Task :lab02:compileDebugNavigationResources
+> Task :lab01:packageDebug
+> Task :lab01:createDebugApkListingFileRedirect
+> Task :lab01:assembleDebug
+> Task :lab02:createDebugCompatibleScreenManifests
+> Task :lab02:extractDeepLinksDebug
+> Task :lab02:processDebugMainManifest
+> Task :lab02:processDebugManifest
+> Task :lab02:processDebugManifestForPackage
+> Task :lab02:mergeDebugJniLibFolders
+> Task :lab02:mergeDebugNativeLibs NO-SOURCE
+> Task :lab02:stripDebugDebugSymbols NO-SOURCE
+> Task :lab02:validateSigningDebug
+> Task :lab02:writeDebugAppMetadata
+> Task :lab02:writeDebugSigningConfigVersions
+> Task :lab03:preBuild UP-TO-DATE
+> Task :lab03:preDebugBuild UP-TO-DATE
+> Task :lab03:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab03:generateDebugResources
+> Task :lab02:mergeDebugResources
+> Task :lab03:packageDebugResources
+> Task :lab03:processDebugNavigationResources
+> Task :lab03:parseDebugLocalResources
+> Task :lab03:generateDebugRFile
+> Task :lab03:compileDebugKotlin NO-SOURCE
+> Task :lab03:javaPreCompileDebug
+> Task :lab02:mergeExtDexDebug
+> Task :lab03:compileDebugJavaWithJavac
+> Task :lab03:generateDebugAssets UP-TO-DATE
+> Task :lab03:mergeDebugAssets
+> Task :lab03:compressDebugAssets
+> Task :lab02:processDebugResources
+> Task :lab03:generateDebugGlobalSynthetics
+> Task :lab02:dexBuilderDebug
+> Task :lab03:compressDebugJavaRes NO-SOURCE
+> Task :lab03:mergeDebugJavaResource
+> Task :lab03:desugarDebugFileDependencies
+> Task :lab03:checkDebugDuplicateClasses
+> Task :lab03:checkDebugAarMetadata
+> Task :lab03:mergeLibDexDebug
+> Task :lab02:mergeProjectDexDebug
+> Task :lab03:mapDebugSourceSetPaths
+> Task :lab03:compileDebugNavigationResources
+> Task :kbonus:compileDebugKotlin
+> Task :lab02:packageDebug
+> Task :lab02:createDebugApkListingFileRedirect
+> Task :lab02:assembleDebug
+> Task :lab03:createDebugCompatibleScreenManifests
+> Task :lab03:extractDeepLinksDebug
+> Task :lab03:processDebugMainManifest
+> Task :lab03:processDebugManifest
+> Task :lab03:processDebugManifestForPackage
+> Task :lab03:mergeDebugJniLibFolders
+> Task :lab03:mergeDebugNativeLibs NO-SOURCE
+> Task :lab03:stripDebugDebugSymbols NO-SOURCE
+> Task :lab03:validateSigningDebug
+> Task :lab03:writeDebugAppMetadata
+> Task :lab03:writeDebugSigningConfigVersions
+> Task :lab04:preBuild UP-TO-DATE
+> Task :lab04:preDebugBuild UP-TO-DATE
+> Task :lab04:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab04:generateDebugResources
+> Task :lab03:mergeDebugResources
+> Task :lab04:packageDebugResources
+> Task :lab04:processDebugNavigationResources
+> Task :lab04:parseDebugLocalResources
+> Task :lab04:generateDebugRFile
+> Task :lab04:compileDebugKotlin NO-SOURCE
+> Task :lab04:javaPreCompileDebug
+
+> Task :lab04:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lab04:generateDebugAssets UP-TO-DATE
+> Task :lab04:mergeDebugAssets
+> Task :lab04:compressDebugAssets
+> Task :lab03:processDebugResources
+> Task :lab03:mergeExtDexDebug
+> Task :lab04:generateDebugGlobalSynthetics
+> Task :lab03:dexBuilderDebug
+> Task :lab04:compressDebugJavaRes NO-SOURCE
+> Task :lab04:mergeDebugJavaResource
+> Task :lab04:desugarDebugFileDependencies
+> Task :lab04:checkDebugDuplicateClasses
+> Task :lab04:checkDebugAarMetadata
+> Task :lab03:mergeProjectDexDebug
+> Task :lab04:mergeLibDexDebug
+> Task :lab04:mapDebugSourceSetPaths
+> Task :lab04:compileDebugNavigationResources
+> Task :lab04:mergeDebugResources
+> Task :lab04:mergeExtDexDebug
+> Task :kbonus:compileDebugJavaWithJavac
+> Task :kbonus:compressDebugJavaRes
+> Task :lab03:packageDebug
+> Task :kbonus:mergeDebugJavaResource
+> Task :kbonus:dexBuilderDebug
+> Task :lab03:createDebugApkListingFileRedirect
+> Task :lab03:assembleDebug
+> Task :lab04:createDebugCompatibleScreenManifests
+> Task :lab04:extractDeepLinksDebug
+> Task :lab04:processDebugMainManifest
+> Task :lab04:processDebugManifest
+> Task :lab04:mergeDebugJniLibFolders
+> Task :lab04:mergeDebugNativeLibs NO-SOURCE
+> Task :lab04:stripDebugDebugSymbols NO-SOURCE
+> Task :lab04:processDebugManifestForPackage
+> Task :kbonus:mergeProjectDexDebug
+> Task :lab04:validateSigningDebug
+> Task :lab04:writeDebugAppMetadata
+> Task :lab04:writeDebugSigningConfigVersions
+> Task :lab05:preBuild UP-TO-DATE
+> Task :lab05:preDebugBuild UP-TO-DATE
+> Task :lab05:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab05:generateDebugResources
+> Task :lab05:packageDebugResources
+> Task :lab05:processDebugNavigationResources
+> Task :lab05:javaPreCompileDebug
+> Task :lab05:generateDebugAssets UP-TO-DATE
+> Task :lab05:parseDebugLocalResources
+> Task :lab05:mergeDebugAssets
+> Task :lab05:compressDebugAssets
+> Task :lab05:generateDebugRFile
+> Task :lab05:generateDebugGlobalSynthetics
+> Task :lab04:processDebugResources
+> Task :lab05:compileDebugKotlin NO-SOURCE
+> Task :lab04:dexBuilderDebug
+> Task :kbonus:packageDebug
+> Task :kbonus:createDebugApkListingFileRedirect
+> Task :kbonus:assembleDebug
+> Task :lab04:mergeProjectDexDebug
+> Task :lab05:compileDebugJavaWithJavac
+> Task :lab05:compressDebugJavaRes NO-SOURCE
+> Task :lab05:mergeDebugJavaResource
+> Task :lab05:desugarDebugFileDependencies
+> Task :lab05:checkDebugDuplicateClasses
+> Task :lab05:checkDebugAarMetadata
+> Task :lab05:mergeLibDexDebug
+> Task :lab05:mapDebugSourceSetPaths
+> Task :lab05:compileDebugNavigationResources
+> Task :lab05:createDebugCompatibleScreenManifests
+> Task :lab05:extractDeepLinksDebug
+> Task :lab05:processDebugMainManifest
+> Task :lab05:processDebugManifest
+> Task :lab04:packageDebug
+> Task :lab04:createDebugApkListingFileRedirect
+> Task :lab05:processDebugManifestForPackage
+> Task :lab04:assembleDebug
+> Task :lab05:mergeDebugJniLibFolders
+> Task :lab05:mergeDebugNativeLibs NO-SOURCE
+> Task :lab05:stripDebugDebugSymbols NO-SOURCE
+> Task :lab05:validateSigningDebug
+> Task :lab05:writeDebugAppMetadata
+> Task :lab05:writeDebugSigningConfigVersions
+> Task :lab06:preBuild UP-TO-DATE
+> Task :lab06:preDebugBuild UP-TO-DATE
+> Task :lab06:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab06:generateDebugResources
+> Task :lab06:packageDebugResources
+> Task :lab05:mergeDebugResources
+> Task :lab05:mergeExtDexDebug
+> Task :lab06:processDebugNavigationResources
+> Task :lab06:generateDebugAssets UP-TO-DATE
+> Task :lab06:javaPreCompileDebug
+> Task :lab06:parseDebugLocalResources
+> Task :lab06:mergeDebugAssets
+> Task :lab06:compressDebugAssets
+> Task :lab06:generateDebugRFile
+> Task :lab06:generateDebugGlobalSynthetics
+> Task :lab06:compileDebugKotlin NO-SOURCE
+> Task :lab05:processDebugResources
+> Task :lab06:compileDebugJavaWithJavac
+> Task :lab05:dexBuilderDebug
+> Task :lab06:compressDebugJavaRes NO-SOURCE
+> Task :lab05:mergeProjectDexDebug
+> Task :lab06:mergeDebugJavaResource
+> Task :lab06:desugarDebugFileDependencies
+> Task :lab06:checkDebugDuplicateClasses
+> Task :lab06:checkDebugAarMetadata
+> Task :lab05:packageDebug
+> Task :lab05:createDebugApkListingFileRedirect
+> Task :lab05:assembleDebug
+> Task :lab06:mapDebugSourceSetPaths
+> Task :lab06:mergeLibDexDebug
+> Task :lab06:compileDebugNavigationResources
+> Task :lab06:createDebugCompatibleScreenManifests
+> Task :lab06:extractDeepLinksDebug
+> Task :lab06:processDebugMainManifest
+> Task :lab06:processDebugManifest
+> Task :lab06:mergeDebugJniLibFolders
+> Task :lab06:mergeDebugNativeLibs NO-SOURCE
+> Task :lab06:stripDebugDebugSymbols NO-SOURCE
+> Task :lab06:validateSigningDebug
+> Task :lab06:writeDebugAppMetadata
+> Task :lab06:writeDebugSigningConfigVersions
+> Task :lab07:preBuild UP-TO-DATE
+> Task :lab07:preDebugBuild UP-TO-DATE
+> Task :lab07:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab07:generateDebugResources
+> Task :lab06:processDebugManifestForPackage
+> Task :lab07:packageDebugResources
+> Task :lab07:processDebugNavigationResources
+> Task :lab07:javaPreCompileDebug
+> Task :lab07:generateDebugAssets UP-TO-DATE
+> Task :lab07:parseDebugLocalResources
+> Task :lab07:mergeDebugAssets
+> Task :lab07:compressDebugAssets
+> Task :lab07:generateDebugRFile
+> Task :lab06:mergeDebugResources
+> Task :lab07:generateDebugGlobalSynthetics
+> Task :lab07:compileDebugKotlin NO-SOURCE
+> Task :lab07:compileDebugJavaWithJavac
+> Task :lab07:compressDebugJavaRes NO-SOURCE
+> Task :lab06:mergeExtDexDebug
+> Task :lab07:mergeDebugJavaResource
+> Task :lab07:checkDebugDuplicateClasses
+> Task :lab07:desugarDebugFileDependencies
+> Task :lab07:mergeLibDexDebug
+> Task :lab07:checkDebugAarMetadata
+> Task :lab07:mapDebugSourceSetPaths
+> Task :lab07:compileDebugNavigationResources
+> Task :lab06:processDebugResources
+> Task :lab06:dexBuilderDebug
+> Task :lab07:createDebugCompatibleScreenManifests
+> Task :lab07:extractDeepLinksDebug
+> Task :lab07:mergeDebugResources
+> Task :lab07:processDebugMainManifest
+> Task :lab07:processDebugManifest
+> Task :lab07:mergeDebugJniLibFolders
+> Task :lab07:mergeDebugNativeLibs NO-SOURCE
+> Task :lab06:mergeProjectDexDebug
+> Task :lab07:processDebugManifestForPackage
+> Task :lab07:stripDebugDebugSymbols NO-SOURCE
+> Task :lab07:validateSigningDebug
+> Task :lab07:writeDebugAppMetadata
+> Task :lab07:writeDebugSigningConfigVersions
+> Task :lab08:preBuild UP-TO-DATE
+> Task :lab08:preDebugBuild UP-TO-DATE
+> Task :lab08:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab08:generateDebugResources
+> Task :lab08:packageDebugResources
+> Task :lab08:processDebugNavigationResources
+> Task :lab08:parseDebugLocalResources
+> Task :lab08:generateDebugRFile
+> Task :lab08:compileDebugKotlin NO-SOURCE
+> Task :lab08:javaPreCompileDebug
+> Task :lab08:compileDebugJavaWithJavac
+> Task :lab08:generateDebugAssets UP-TO-DATE
+> Task :lab07:processDebugResources
+> Task :lab08:mergeDebugAssets
+> Task :lab07:mergeExtDexDebug
+> Task :lab07:dexBuilderDebug
+> Task :lab06:packageDebug
+> Task :lab06:createDebugApkListingFileRedirect
+> Task :lab06:assembleDebug
+> Task :lab08:compressDebugAssets
+> Task :lab07:mergeProjectDexDebug
+> Task :lab08:generateDebugGlobalSynthetics
+> Task :lab08:compressDebugJavaRes NO-SOURCE
+> Task :lab08:desugarDebugFileDependencies
+> Task :lab08:mergeDebugJavaResource
+> Task :lab08:checkDebugDuplicateClasses
+> Task :lab08:checkDebugAarMetadata
+> Task :lab08:mapDebugSourceSetPaths
+> Task :lab08:mergeLibDexDebug
+> Task :lab08:compileDebugNavigationResources
+> Task :lab08:createDebugCompatibleScreenManifests
+> Task :lab08:extractDeepLinksDebug
+> Task :lab08:processDebugMainManifest
+> Task :lab08:processDebugManifest
+> Task :lab07:packageDebug
+> Task :lab07:createDebugApkListingFileRedirect
+> Task :lab07:assembleDebug
+> Task :lab08:mergeDebugJniLibFolders
+> Task :lab08:mergeDebugNativeLibs NO-SOURCE
+> Task :lab08:processDebugManifestForPackage
+> Task :lab08:stripDebugDebugSymbols NO-SOURCE
+> Task :lab08:validateSigningDebug
+> Task :lab08:writeDebugAppMetadata
+> Task :lab08:writeDebugSigningConfigVersions
+> Task :lab09:preBuild UP-TO-DATE
+> Task :lab09:preDebugBuild UP-TO-DATE
+> Task :lab09:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab09:generateDebugResources
+> Task :lab09:packageDebugResources
+> Task :lab09:processDebugNavigationResources
+> Task :lab09:javaPreCompileDebug
+> Task :lab09:generateDebugAssets UP-TO-DATE
+> Task :lab09:parseDebugLocalResources
+> Task :lab09:mergeDebugAssets
+> Task :lab09:compressDebugAssets
+> Task :lab09:generateDebugRFile
+> Task :lab08:mergeDebugResources
+> Task :lab09:generateDebugGlobalSynthetics
+> Task :lab09:compileDebugKotlin NO-SOURCE
+
+> Task :lab09:compileDebugJavaWithJavac
+Note: /home/runner/work/mad-lab-kit/mad-lab-kit/ci/labs/lab09/src/main/java/com/university/lab09/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lab09:compressDebugJavaRes NO-SOURCE
+> Task :lab09:mergeDebugJavaResource
+> Task :lab09:checkDebugDuplicateClasses
+> Task :lab09:desugarDebugFileDependencies
+> Task :lab09:mergeLibDexDebug
+> Task :lab09:checkDebugAarMetadata
+> Task :lab09:mapDebugSourceSetPaths
+> Task :lab09:compileDebugNavigationResources
+> Task :lab08:mergeExtDexDebug
+> Task :lab08:processDebugResources
+> Task :lab08:dexBuilderDebug
+> Task :lab09:createDebugCompatibleScreenManifests
+> Task :lab09:extractDeepLinksDebug
+> Task :lab09:processDebugMainManifest
+> Task :lab09:processDebugManifest
+> Task :lab09:processDebugManifestForPackage
+> Task :lab08:mergeProjectDexDebug
+> Task :lab09:mergeDebugJniLibFolders
+> Task :lab09:mergeDebugNativeLibs NO-SOURCE
+> Task :lab09:mergeDebugResources
+> Task :lab09:stripDebugDebugSymbols NO-SOURCE
+> Task :lab09:validateSigningDebug
+> Task :lab09:writeDebugAppMetadata
+> Task :lab09:writeDebugSigningConfigVersions
+> Task :lab10:preBuild UP-TO-DATE
+> Task :lab10:preDebugBuild UP-TO-DATE
+> Task :lab10:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab10:generateDebugResources
+> Task :lab10:packageDebugResources
+> Task :lab09:processDebugResources
+> Task :lab09:mergeExtDexDebug
+> Task :lab10:processDebugNavigationResources
+> Task :lab09:dexBuilderDebug
+> Task :lab10:parseDebugLocalResources
+> Task :lab10:javaPreCompileDebug
+> Task :lab08:packageDebug
+> Task :lab08:createDebugApkListingFileRedirect
+> Task :lab08:assembleDebug
+> Task :lab10:generateDebugAssets UP-TO-DATE
+> Task :lab10:generateDebugRFile
+> Task :lab10:mergeDebugAssets
+> Task :lab10:compileDebugKotlin NO-SOURCE
+> Task :lab09:mergeProjectDexDebug
+
+> Task :lab10:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lab10:compressDebugAssets
+> Task :lab10:generateDebugGlobalSynthetics
+> Task :lab10:compressDebugJavaRes NO-SOURCE
+> Task :lab09:packageDebug
+> Task :lab09:createDebugApkListingFileRedirect
+> Task :lab09:assembleDebug
+> Task :lab10:mergeDebugJavaResource
+> Task :lab10:checkDebugDuplicateClasses
+> Task :lab10:desugarDebugFileDependencies
+> Task :lab10:mergeLibDexDebug
+> Task :lab10:checkDebugAarMetadata
+> Task :lab10:mapDebugSourceSetPaths
+> Task :lab10:compileDebugNavigationResources
+> Task :lab10:createDebugCompatibleScreenManifests
+> Task :lab10:extractDeepLinksDebug
+> Task :lab10:processDebugMainManifest
+> Task :lab10:processDebugManifest
+> Task :lab10:processDebugManifestForPackage
+> Task :lab10:mergeDebugJniLibFolders
+> Task :lab10:validateSigningDebug
+> Task :lab10:writeDebugAppMetadata
+> Task :lab10:writeDebugSigningConfigVersions
+> Task :lab11:preBuild UP-TO-DATE
+> Task :lab11:preDebugBuild UP-TO-DATE
+> Task :lab11:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab11:generateDebugResources
+> Task :lab11:packageDebugResources
+> Task :lab10:mergeDebugNativeLibs
+> Task :lab11:processDebugNavigationResources
+> Task :lab11:parseDebugLocalResources
+> Task :lab11:generateDebugRFile
+> Task :lab10:mergeDebugResources
+> Task :lab11:compileDebugKotlin NO-SOURCE
+
+> Task :lab10:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libmaplibre.so. Run with --info option to learn more.
+
+> Task :lab11:generateDebugAssets UP-TO-DATE
+> Task :lab11:javaPreCompileDebug
+> Task :lab11:mergeDebugAssets
+> Task :lab11:compileDebugJavaWithJavac
+> Task :lab11:compressDebugAssets
+> Task :lab10:mergeExtDexDebug
+> Task :lab10:processDebugResources
+> Task :lab11:generateDebugGlobalSynthetics
+> Task :lab10:dexBuilderDebug
+> Task :lab11:compressDebugJavaRes NO-SOURCE
+> Task :lab11:checkDebugDuplicateClasses
+> Task :lab11:desugarDebugFileDependencies
+> Task :lab11:mergeDebugJavaResource
+> Task :lab11:mergeLibDexDebug
+> Task :lab11:checkDebugAarMetadata
+> Task :lab11:mapDebugSourceSetPaths
+> Task :lab11:compileDebugNavigationResources
+> Task :lab10:mergeProjectDexDebug
+> Task :lab11:createDebugCompatibleScreenManifests
+> Task :lab11:extractDeepLinksDebug
+> Task :lab11:processDebugMainManifest
+> Task :lab11:processDebugManifest
+> Task :lab11:processDebugManifestForPackage
+> Task :lab11:mergeDebugJniLibFolders
+> Task :lab11:mergeDebugNativeLibs NO-SOURCE
+> Task :lab11:stripDebugDebugSymbols NO-SOURCE
+> Task :lab11:validateSigningDebug
+> Task :lab11:writeDebugAppMetadata
+> Task :lab11:writeDebugSigningConfigVersions
+> Task :lab13:preBuild UP-TO-DATE
+> Task :lab13:preDebugBuild UP-TO-DATE
+> Task :lab13:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :lab13:generateDebugResources
+> Task :lab13:packageDebugResources
+> Task :lab13:processDebugNavigationResources
+> Task :lab13:parseDebugLocalResources
+> Task :lab13:generateDebugRFile
+> Task :lab13:compileDebugKotlin NO-SOURCE
+> Task :lab13:javaPreCompileDebug
+> Task :lab13:compileDebugJavaWithJavac
+> Task :lab13:generateDebugAssets UP-TO-DATE
+> Task :lab13:mergeDebugAssets
+> Task :lab13:compressDebugAssets
+> Task :lab11:mergeDebugResources
+> Task :lab13:generateDebugGlobalSynthetics
+> Task :lab13:compressDebugJavaRes NO-SOURCE
+> Task :lab10:packageDebug
+> Task :lab10:createDebugApkListingFileRedirect
+> Task :lab10:assembleDebug
+> Task :lab13:checkDebugDuplicateClasses
+> Task :lab13:desugarDebugFileDependencies
+> Task :lab13:mergeDebugJavaResource
+> Task :lab13:mergeLibDexDebug
+> Task :lab13:checkDebugAarMetadata
+> Task :lab13:mapDebugSourceSetPaths
+> Task :lab13:compileDebugNavigationResources
+> Task :lab11:mergeExtDexDebug
+> Task :lab11:processDebugResources
+> Task :lab11:dexBuilderDebug
+> Task :lab13:createDebugCompatibleScreenManifests
+> Task :lab13:extractDeepLinksDebug
+> Task :lab11:mergeProjectDexDebug
+> Task :lab13:processDebugMainManifest
+> Task :lab13:processDebugManifest
+> Task :lab13:processDebugManifestForPackage
+> Task :lab13:mergeDebugJniLibFolders
+> Task :lab13:mergeDebugNativeLibs NO-SOURCE
+> Task :lab13:mergeDebugResources
+> Task :lab13:stripDebugDebugSymbols NO-SOURCE
+> Task :lab13:validateSigningDebug
+> Task :lab13:writeDebugAppMetadata
+> Task :lab13:writeDebugSigningConfigVersions
+> Task :jsnippets:bundleDebugClassesToCompileJar
+> Task :jsnippets:preDebugAndroidTestBuild SKIPPED
+> Task :jsnippets:generateDebugAndroidTestResources
+> Task :jsnippets:packageDebugAndroidTestResources
+> Task :jsnippets:processDebugAndroidTestNavigationResources
+> Task :jsnippets:parseDebugAndroidTestLocalResources
+> Task :jsnippets:generateDebugAndroidTestRFile
+> Task :jsnippets:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :jsnippets:javaPreCompileDebugAndroidTest
+> Task :lab13:mergeExtDexDebug
+> Task :lab13:processDebugResources
+> Task :jsnippets:compileDebugAndroidTestJavaWithJavac
+> Task :lab13:dexBuilderDebug
+> Task :jsnippets:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab13:mergeProjectDexDebug
+> Task :jsnippets:mergeDebugAndroidTestAssets
+> Task :jsnippets:compressDebugAndroidTestAssets
+> Task :jsnippets:generateDebugAndroidTestGlobalSynthetics
+> Task :jsnippets:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :jsnippets:mergeDebugAndroidTestJavaResource
+> Task :lab11:packageDebug
+> Task :lab11:createDebugApkListingFileRedirect
+> Task :lab11:assembleDebug
+> Task :jsnippets:checkDebugAndroidTestDuplicateClasses
+> Task :jsnippets:desugarDebugAndroidTestFileDependencies
+> Task :lab13:packageDebug
+> Task :lab13:createDebugApkListingFileRedirect
+> Task :lab13:assembleDebug
+> Task :jsnippets:mergeLibDexDebugAndroidTest
+> Task :jsnippets:checkDebugAndroidTestAarMetadata
+> Task :jsnippets:mapDebugAndroidTestSourceSetPaths
+> Task :jsnippets:compileDebugAndroidTestNavigationResources
+> Task :jsnippets:mergeDebugAndroidTestResources
+> Task :jsnippets:mergeDebugAndroidTestManifest
+> Task :jsnippets:processDebugAndroidTestManifest
+> Task :jsnippets:mergeDebugAndroidTestJniLibFolders
+> Task :jsnippets:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :jsnippets:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :jsnippets:validateSigningDebugAndroidTest
+> Task :jsnippets:writeDebugAndroidTestSigningConfigVersions
+> Task :kbonus:preDebugAndroidTestBuild SKIPPED
+> Task :kbonus:generateDebugAndroidTestResources
+> Task :kbonus:bundleDebugClassesToCompileJar
+> Task :kbonus:packageDebugAndroidTestResources
+> Task :jsnippets:processDebugAndroidTestResources
+> Task :kbonus:processDebugAndroidTestNavigationResources
+> Task :jsnippets:dexBuilderDebugAndroidTest
+> Task :kbonus:javaPreCompileDebugAndroidTest
+> Task :kbonus:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :kbonus:parseDebugAndroidTestLocalResources
+> Task :jsnippets:mergeProjectDexDebugAndroidTest
+> Task :jsnippets:mergeExtDexDebugAndroidTest
+> Task :kbonus:mergeDebugAndroidTestAssets
+> Task :kbonus:compressDebugAndroidTestAssets
+> Task :kbonus:generateDebugAndroidTestRFile
+> Task :kbonus:generateDebugAndroidTestGlobalSynthetics
+> Task :jsnippets:packageDebugAndroidTest
+> Task :jsnippets:createDebugAndroidTestApkListingFileRedirect
+> Task :jsnippets:assembleDebugAndroidTest
+> Task :kbonus:kspDebugAndroidTestKotlin
+> Task :kbonus:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :kbonus:compileDebugAndroidTestJavaWithJavac
+> Task :kbonus:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :kbonus:mergeDebugAndroidTestJavaResource
+> Task :kbonus:checkDebugAndroidTestDuplicateClasses
+> Task :kbonus:desugarDebugAndroidTestFileDependencies
+> Task :kbonus:mergeLibDexDebugAndroidTest
+> Task :kbonus:checkDebugAndroidTestAarMetadata
+> Task :kbonus:mapDebugAndroidTestSourceSetPaths
+> Task :kbonus:compileDebugAndroidTestNavigationResources
+> Task :kbonus:mergeDebugAndroidTestResources
+> Task :kbonus:mergeDebugAndroidTestManifest
+> Task :kbonus:processDebugAndroidTestManifest
+> Task :kbonus:mergeDebugAndroidTestJniLibFolders
+> Task :kbonus:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :kbonus:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :kbonus:validateSigningDebugAndroidTest
+> Task :kbonus:writeDebugAndroidTestSigningConfigVersions
+> Task :lab01:preDebugAndroidTestBuild SKIPPED
+> Task :lab01:generateDebugAndroidTestResources
+> Task :lab01:bundleDebugClassesToCompileJar
+> Task :lab01:packageDebugAndroidTestResources
+> Task :lab01:processDebugAndroidTestNavigationResources
+> Task :lab01:javaPreCompileDebugAndroidTest
+> Task :lab01:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab01:parseDebugAndroidTestLocalResources
+> Task :kbonus:mergeExtDexDebugAndroidTest
+> Task :lab01:mergeDebugAndroidTestAssets
+> Task :kbonus:processDebugAndroidTestResources
+> Task :lab01:generateDebugAndroidTestRFile
+> Task :kbonus:dexBuilderDebugAndroidTest
+> Task :lab01:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :kbonus:mergeProjectDexDebugAndroidTest
+> Task :lab01:compileDebugAndroidTestJavaWithJavac
+> Task :lab01:compressDebugAndroidTestAssets
+> Task :lab01:generateDebugAndroidTestGlobalSynthetics
+> Task :lab01:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab01:mergeDebugAndroidTestJavaResource
+> Task :kbonus:packageDebugAndroidTest
+> Task :kbonus:createDebugAndroidTestApkListingFileRedirect
+> Task :kbonus:assembleDebugAndroidTest
+> Task :lab01:checkDebugAndroidTestDuplicateClasses
+> Task :lab01:desugarDebugAndroidTestFileDependencies
+> Task :lab01:mergeLibDexDebugAndroidTest
+> Task :lab01:checkDebugAndroidTestAarMetadata
+> Task :lab01:mapDebugAndroidTestSourceSetPaths
+> Task :lab01:compileDebugAndroidTestNavigationResources
+> Task :lab01:mergeDebugAndroidTestManifest
+> Task :lab01:mergeDebugAndroidTestResources
+> Task :lab01:processDebugAndroidTestManifest
+> Task :lab01:mergeDebugAndroidTestJniLibFolders
+> Task :lab01:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab01:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab01:validateSigningDebugAndroidTest
+> Task :lab01:writeDebugAndroidTestSigningConfigVersions
+> Task :lab02:preDebugAndroidTestBuild SKIPPED
+> Task :lab02:bundleDebugClassesToCompileJar
+> Task :lab02:generateDebugAndroidTestResources
+> Task :lab02:packageDebugAndroidTestResources
+> Task :lab02:processDebugAndroidTestNavigationResources
+> Task :lab02:parseDebugAndroidTestLocalResources
+> Task :lab02:javaPreCompileDebugAndroidTest
+> Task :lab02:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab02:generateDebugAndroidTestRFile
+> Task :lab02:mergeDebugAndroidTestAssets
+> Task :lab02:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab01:processDebugAndroidTestResources
+> Task :lab01:mergeExtDexDebugAndroidTest
+> Task :lab02:compileDebugAndroidTestJavaWithJavac
+> Task :lab01:dexBuilderDebugAndroidTest
+> Task :lab02:compressDebugAndroidTestAssets
+> Task :lab01:mergeProjectDexDebugAndroidTest
+> Task :lab02:generateDebugAndroidTestGlobalSynthetics
+> Task :lab02:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab02:checkDebugAndroidTestDuplicateClasses
+> Task :lab02:mergeDebugAndroidTestJavaResource
+> Task :lab02:desugarDebugAndroidTestFileDependencies
+> Task :lab02:checkDebugAndroidTestAarMetadata
+> Task :lab02:mergeLibDexDebugAndroidTest
+> Task :lab02:mapDebugAndroidTestSourceSetPaths
+> Task :lab02:compileDebugAndroidTestNavigationResources
+> Task :lab02:mergeDebugAndroidTestManifest
+> Task :lab02:processDebugAndroidTestManifest
+> Task :lab02:mergeDebugAndroidTestJniLibFolders
+> Task :lab02:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab02:mergeDebugAndroidTestResources
+> Task :lab01:packageDebugAndroidTest
+> Task :lab01:createDebugAndroidTestApkListingFileRedirect
+> Task :lab01:assembleDebugAndroidTest
+> Task :lab02:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab02:validateSigningDebugAndroidTest
+> Task :lab02:writeDebugAndroidTestSigningConfigVersions
+> Task :lab03:preDebugAndroidTestBuild SKIPPED
+> Task :lab03:generateDebugAndroidTestResources
+> Task :lab03:bundleDebugClassesToCompileJar
+> Task :lab03:packageDebugAndroidTestResources
+> Task :lab03:processDebugAndroidTestNavigationResources
+> Task :lab03:javaPreCompileDebugAndroidTest
+> Task :lab03:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab03:parseDebugAndroidTestLocalResources
+> Task :lab03:mergeDebugAndroidTestAssets
+> Task :lab03:compressDebugAndroidTestAssets
+> Task :lab03:generateDebugAndroidTestRFile
+> Task :lab02:processDebugAndroidTestResources
+> Task :lab02:mergeExtDexDebugAndroidTest
+> Task :lab03:generateDebugAndroidTestGlobalSynthetics
+> Task :lab02:dexBuilderDebugAndroidTest
+> Task :lab03:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab02:mergeProjectDexDebugAndroidTest
+> Task :lab03:compileDebugAndroidTestJavaWithJavac
+> Task :lab03:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab03:checkDebugAndroidTestDuplicateClasses
+> Task :lab03:mergeDebugAndroidTestJavaResource
+> Task :lab03:desugarDebugAndroidTestFileDependencies
+> Task :lab03:checkDebugAndroidTestAarMetadata
+> Task :lab03:mergeLibDexDebugAndroidTest
+> Task :lab03:mapDebugAndroidTestSourceSetPaths
+> Task :lab03:compileDebugAndroidTestNavigationResources
+> Task :lab03:mergeDebugAndroidTestManifest
+> Task :lab03:mergeDebugAndroidTestResources
+> Task :lab03:processDebugAndroidTestManifest
+> Task :lab03:mergeDebugAndroidTestJniLibFolders
+> Task :lab03:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab03:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab03:validateSigningDebugAndroidTest
+> Task :lab03:writeDebugAndroidTestSigningConfigVersions
+> Task :lab02:packageDebugAndroidTest
+> Task :lab04:bundleDebugClassesToCompileJar
+> Task :lab02:createDebugAndroidTestApkListingFileRedirect
+> Task :lab02:assembleDebugAndroidTest
+> Task :lab04:preDebugAndroidTestBuild SKIPPED
+> Task :lab04:generateDebugAndroidTestResources
+> Task :lab04:packageDebugAndroidTestResources
+> Task :lab04:processDebugAndroidTestNavigationResources
+> Task :lab04:javaPreCompileDebugAndroidTest
+> Task :lab04:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab03:processDebugAndroidTestResources
+> Task :lab04:parseDebugAndroidTestLocalResources
+> Task :lab04:mergeDebugAndroidTestAssets
+> Task :lab03:dexBuilderDebugAndroidTest
+> Task :lab03:mergeProjectDexDebugAndroidTest
+> Task :lab04:generateDebugAndroidTestRFile
+> Task :lab04:compressDebugAndroidTestAssets
+> Task :lab04:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab03:mergeExtDexDebugAndroidTest
+> Task :lab04:compileDebugAndroidTestJavaWithJavac
+> Task :lab04:generateDebugAndroidTestGlobalSynthetics
+> Task :lab03:packageDebugAndroidTest
+> Task :lab03:createDebugAndroidTestApkListingFileRedirect
+> Task :lab03:assembleDebugAndroidTest
+> Task :lab04:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab04:mergeDebugAndroidTestJavaResource
+> Task :lab04:desugarDebugAndroidTestFileDependencies
+> Task :lab04:checkDebugAndroidTestDuplicateClasses
+> Task :lab04:checkDebugAndroidTestAarMetadata
+> Task :lab04:mapDebugAndroidTestSourceSetPaths
+> Task :lab04:compileDebugAndroidTestNavigationResources
+> Task :lab04:mergeLibDexDebugAndroidTest
+> Task :lab04:mergeDebugAndroidTestManifest
+> Task :lab04:mergeDebugAndroidTestResources
+> Task :lab04:processDebugAndroidTestManifest
+> Task :lab04:mergeDebugAndroidTestJniLibFolders
+> Task :lab04:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab04:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab04:validateSigningDebugAndroidTest
+> Task :lab04:writeDebugAndroidTestSigningConfigVersions
+> Task :lab05:preDebugAndroidTestBuild SKIPPED
+> Task :lab05:generateDebugAndroidTestResources
+> Task :lab05:bundleDebugClassesToCompileJar
+> Task :lab05:packageDebugAndroidTestResources
+> Task :lab05:processDebugAndroidTestNavigationResources
+> Task :lab05:javaPreCompileDebugAndroidTest
+> Task :lab05:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab05:parseDebugAndroidTestLocalResources
+> Task :lab05:mergeDebugAndroidTestAssets
+> Task :lab05:compressDebugAndroidTestAssets
+> Task :lab05:generateDebugAndroidTestRFile
+> Task :lab04:processDebugAndroidTestResources
+> Task :lab04:mergeExtDexDebugAndroidTest
+> Task :lab05:generateDebugAndroidTestGlobalSynthetics
+> Task :lab04:dexBuilderDebugAndroidTest
+> Task :lab05:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab04:mergeProjectDexDebugAndroidTest
+> Task :lab05:compileDebugAndroidTestJavaWithJavac
+> Task :lab05:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab05:mergeDebugAndroidTestJavaResource
+> Task :lab05:checkDebugAndroidTestDuplicateClasses
+> Task :lab05:desugarDebugAndroidTestFileDependencies
+> Task :lab05:mergeLibDexDebugAndroidTest
+> Task :lab05:checkDebugAndroidTestAarMetadata
+> Task :lab05:mapDebugAndroidTestSourceSetPaths
+> Task :lab05:compileDebugAndroidTestNavigationResources
+> Task :lab05:mergeDebugAndroidTestResources
+> Task :lab05:mergeDebugAndroidTestManifest
+> Task :lab05:processDebugAndroidTestManifest
+> Task :lab05:mergeDebugAndroidTestJniLibFolders
+> Task :lab05:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab05:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab05:validateSigningDebugAndroidTest
+> Task :lab05:writeDebugAndroidTestSigningConfigVersions
+> Task :lab04:packageDebugAndroidTest
+> Task :lab06:bundleDebugClassesToCompileJar
+> Task :lab04:createDebugAndroidTestApkListingFileRedirect
+> Task :lab04:assembleDebugAndroidTest
+> Task :lab06:preDebugAndroidTestBuild SKIPPED
+> Task :lab06:generateDebugAndroidTestResources
+> Task :lab05:processDebugAndroidTestResources
+> Task :lab06:packageDebugAndroidTestResources
+> Task :lab05:dexBuilderDebugAndroidTest
+> Task :lab06:processDebugAndroidTestNavigationResources
+> Task :lab05:mergeProjectDexDebugAndroidTest
+> Task :lab06:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab06:parseDebugAndroidTestLocalResources
+> Task :lab06:javaPreCompileDebugAndroidTest
+> Task :lab06:mergeDebugAndroidTestAssets
+> Task :lab05:mergeExtDexDebugAndroidTest
+> Task :lab06:generateDebugAndroidTestRFile
+> Task :lab06:compressDebugAndroidTestAssets
+> Task :lab06:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab06:compileDebugAndroidTestJavaWithJavac
+> Task :lab06:generateDebugAndroidTestGlobalSynthetics
+> Task :lab06:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab06:mergeDebugAndroidTestJavaResource
+> Task :lab05:packageDebugAndroidTest
+> Task :lab05:createDebugAndroidTestApkListingFileRedirect
+> Task :lab05:assembleDebugAndroidTest
+> Task :lab06:checkDebugAndroidTestDuplicateClasses
+> Task :lab06:desugarDebugAndroidTestFileDependencies
+> Task :lab06:checkDebugAndroidTestAarMetadata
+> Task :lab06:mapDebugAndroidTestSourceSetPaths
+> Task :lab06:compileDebugAndroidTestNavigationResources
+> Task :lab06:mergeLibDexDebugAndroidTest
+> Task :lab06:mergeDebugAndroidTestManifest
+> Task :lab06:mergeDebugAndroidTestResources
+> Task :lab06:processDebugAndroidTestManifest
+> Task :lab06:mergeDebugAndroidTestJniLibFolders
+> Task :lab06:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab06:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab06:validateSigningDebugAndroidTest
+> Task :lab06:writeDebugAndroidTestSigningConfigVersions
+> Task :lab07:preDebugAndroidTestBuild SKIPPED
+> Task :lab07:generateDebugAndroidTestResources
+> Task :lab07:bundleDebugClassesToCompileJar
+> Task :lab07:packageDebugAndroidTestResources
+> Task :lab07:processDebugAndroidTestNavigationResources
+> Task :lab07:javaPreCompileDebugAndroidTest
+> Task :lab07:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab07:parseDebugAndroidTestLocalResources
+> Task :lab07:mergeDebugAndroidTestAssets
+> Task :lab07:compressDebugAndroidTestAssets
+> Task :lab07:generateDebugAndroidTestRFile
+> Task :lab06:processDebugAndroidTestResources
+> Task :lab06:mergeExtDexDebugAndroidTest
+> Task :lab07:generateDebugAndroidTestGlobalSynthetics
+> Task :lab06:dexBuilderDebugAndroidTest
+> Task :lab07:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab06:mergeProjectDexDebugAndroidTest
+> Task :lab07:compileDebugAndroidTestJavaWithJavac
+> Task :lab07:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab07:mergeDebugAndroidTestJavaResource
+> Task :lab07:checkDebugAndroidTestDuplicateClasses
+> Task :lab07:desugarDebugAndroidTestFileDependencies
+> Task :lab07:mergeLibDexDebugAndroidTest
+> Task :lab07:checkDebugAndroidTestAarMetadata
+> Task :lab07:mapDebugAndroidTestSourceSetPaths
+> Task :lab07:compileDebugAndroidTestNavigationResources
+> Task :lab07:mergeDebugAndroidTestResources
+> Task :lab07:mergeDebugAndroidTestManifest
+> Task :lab07:processDebugAndroidTestManifest
+> Task :lab07:mergeDebugAndroidTestJniLibFolders
+> Task :lab07:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab07:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab07:validateSigningDebugAndroidTest
+> Task :lab07:writeDebugAndroidTestSigningConfigVersions
+> Task :lab06:packageDebugAndroidTest
+> Task :lab06:createDebugAndroidTestApkListingFileRedirect
+> Task :lab06:assembleDebugAndroidTest
+> Task :lab08:preDebugAndroidTestBuild SKIPPED
+> Task :lab08:bundleDebugClassesToCompileJar
+> Task :lab08:generateDebugAndroidTestResources
+> Task :lab08:packageDebugAndroidTestResources
+> Task :lab08:processDebugAndroidTestNavigationResources
+> Task :lab08:javaPreCompileDebugAndroidTest
+> Task :lab08:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab08:parseDebugAndroidTestLocalResources
+> Task :lab08:mergeDebugAndroidTestAssets
+> Task :lab08:compressDebugAndroidTestAssets
+> Task :lab08:generateDebugAndroidTestRFile
+> Task :lab07:processDebugAndroidTestResources
+> Task :lab07:mergeExtDexDebugAndroidTest
+> Task :lab08:generateDebugAndroidTestGlobalSynthetics
+> Task :lab07:dexBuilderDebugAndroidTest
+> Task :lab07:mergeProjectDexDebugAndroidTest
+> Task :lab08:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab08:compileDebugAndroidTestJavaWithJavac
+> Task :lab08:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab08:mergeDebugAndroidTestJavaResource
+> Task :lab07:packageDebugAndroidTest
+> Task :lab07:createDebugAndroidTestApkListingFileRedirect
+> Task :lab07:assembleDebugAndroidTest
+> Task :lab08:checkDebugAndroidTestDuplicateClasses
+> Task :lab08:desugarDebugAndroidTestFileDependencies
+> Task :lab08:checkDebugAndroidTestAarMetadata
+> Task :lab08:mergeLibDexDebugAndroidTest
+> Task :lab08:mapDebugAndroidTestSourceSetPaths
+> Task :lab08:compileDebugAndroidTestNavigationResources
+> Task :lab08:mergeDebugAndroidTestResources
+> Task :lab08:mergeDebugAndroidTestManifest
+> Task :lab08:processDebugAndroidTestManifest
+> Task :lab08:mergeDebugAndroidTestJniLibFolders
+> Task :lab08:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab08:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab08:validateSigningDebugAndroidTest
+> Task :lab08:writeDebugAndroidTestSigningConfigVersions
+> Task :lab09:preDebugAndroidTestBuild SKIPPED
+> Task :lab09:generateDebugAndroidTestResources
+> Task :lab09:bundleDebugClassesToCompileJar
+> Task :lab09:packageDebugAndroidTestResources
+> Task :lab09:processDebugAndroidTestNavigationResources
+> Task :lab09:javaPreCompileDebugAndroidTest
+> Task :lab09:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab09:parseDebugAndroidTestLocalResources
+> Task :lab09:mergeDebugAndroidTestAssets
+> Task :lab09:compressDebugAndroidTestAssets
+> Task :lab09:generateDebugAndroidTestRFile
+> Task :lab08:processDebugAndroidTestResources
+> Task :lab08:mergeExtDexDebugAndroidTest
+> Task :lab09:generateDebugAndroidTestGlobalSynthetics
+> Task :lab08:dexBuilderDebugAndroidTest
+> Task :lab09:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab08:mergeProjectDexDebugAndroidTest
+> Task :lab09:compileDebugAndroidTestJavaWithJavac
+> Task :lab09:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab09:checkDebugAndroidTestDuplicateClasses
+> Task :lab09:desugarDebugAndroidTestFileDependencies
+> Task :lab09:mergeDebugAndroidTestJavaResource
+> Task :lab09:checkDebugAndroidTestAarMetadata
+> Task :lab09:mergeLibDexDebugAndroidTest
+> Task :lab09:mapDebugAndroidTestSourceSetPaths
+> Task :lab09:compileDebugAndroidTestNavigationResources
+> Task :lab09:mergeDebugAndroidTestResources
+> Task :lab09:mergeDebugAndroidTestManifest
+> Task :lab09:processDebugAndroidTestManifest
+> Task :lab09:mergeDebugAndroidTestJniLibFolders
+> Task :lab09:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab08:packageDebugAndroidTest
+> Task :lab08:createDebugAndroidTestApkListingFileRedirect
+> Task :lab08:assembleDebugAndroidTest
+> Task :lab09:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab09:validateSigningDebugAndroidTest
+> Task :lab09:writeDebugAndroidTestSigningConfigVersions
+> Task :lab10:preDebugAndroidTestBuild SKIPPED
+> Task :lab10:generateDebugAndroidTestResources
+> Task :lab10:bundleDebugClassesToCompileJar
+> Task :lab10:packageDebugAndroidTestResources
+> Task :lab10:processDebugAndroidTestNavigationResources
+> Task :lab10:javaPreCompileDebugAndroidTest
+> Task :lab10:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab10:parseDebugAndroidTestLocalResources
+> Task :lab09:processDebugAndroidTestResources
+> Task :lab10:mergeDebugAndroidTestAssets
+> Task :lab09:dexBuilderDebugAndroidTest
+> Task :lab10:compressDebugAndroidTestAssets
+> Task :lab10:generateDebugAndroidTestRFile
+> Task :lab09:mergeProjectDexDebugAndroidTest
+> Task :lab09:mergeExtDexDebugAndroidTest
+> Task :lab10:generateDebugAndroidTestGlobalSynthetics
+> Task :lab10:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab10:compileDebugAndroidTestJavaWithJavac
+> Task :lab09:packageDebugAndroidTest
+> Task :lab09:createDebugAndroidTestApkListingFileRedirect
+> Task :lab09:assembleDebugAndroidTest
+> Task :lab10:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab10:mergeDebugAndroidTestJavaResource
+> Task :lab10:checkDebugAndroidTestDuplicateClasses
+> Task :lab10:desugarDebugAndroidTestFileDependencies
+> Task :lab10:mergeLibDexDebugAndroidTest
+> Task :lab10:checkDebugAndroidTestAarMetadata
+> Task :lab10:mapDebugAndroidTestSourceSetPaths
+> Task :lab10:compileDebugAndroidTestNavigationResources
+> Task :lab10:mergeDebugAndroidTestResources
+> Task :lab10:mergeDebugAndroidTestManifest
+> Task :lab10:processDebugAndroidTestManifest
+> Task :lab10:mergeDebugAndroidTestJniLibFolders
+> Task :lab10:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab10:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab10:validateSigningDebugAndroidTest
+> Task :lab10:writeDebugAndroidTestSigningConfigVersions
+> Task :lab11:preDebugAndroidTestBuild SKIPPED
+> Task :lab11:generateDebugAndroidTestResources
+> Task :lab11:bundleDebugClassesToCompileJar
+> Task :lab11:packageDebugAndroidTestResources
+> Task :lab11:processDebugAndroidTestNavigationResources
+> Task :lab11:javaPreCompileDebugAndroidTest
+> Task :lab11:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab11:parseDebugAndroidTestLocalResources
+> Task :lab11:mergeDebugAndroidTestAssets
+> Task :lab10:processDebugAndroidTestResources
+> Task :lab11:compressDebugAndroidTestAssets
+> Task :lab11:generateDebugAndroidTestRFile
+> Task :lab10:dexBuilderDebugAndroidTest
+> Task :lab11:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab10:mergeProjectDexDebugAndroidTest
+> Task :lab10:mergeExtDexDebugAndroidTest
+> Task :lab11:compileDebugAndroidTestJavaWithJavac
+> Task :lab11:generateDebugAndroidTestGlobalSynthetics
+> Task :lab10:packageDebugAndroidTest
+> Task :lab10:createDebugAndroidTestApkListingFileRedirect
+> Task :lab10:assembleDebugAndroidTest
+> Task :lab11:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab11:mergeDebugAndroidTestJavaResource
+> Task :lab11:checkDebugAndroidTestDuplicateClasses
+> Task :lab11:desugarDebugAndroidTestFileDependencies
+> Task :lab11:mergeLibDexDebugAndroidTest
+> Task :lab11:checkDebugAndroidTestAarMetadata
+> Task :lab11:mapDebugAndroidTestSourceSetPaths
+> Task :lab11:compileDebugAndroidTestNavigationResources
+> Task :lab11:mergeDebugAndroidTestManifest
+> Task :lab11:processDebugAndroidTestManifest
+> Task :lab11:mergeDebugAndroidTestResources
+> Task :lab11:mergeDebugAndroidTestJniLibFolders
+> Task :lab11:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab11:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab11:validateSigningDebugAndroidTest
+> Task :lab11:writeDebugAndroidTestSigningConfigVersions
+> Task :lab13:preDebugAndroidTestBuild SKIPPED
+> Task :lab13:generateDebugAndroidTestResources
+> Task :lab13:bundleDebugClassesToCompileJar
+> Task :lab13:packageDebugAndroidTestResources
+> Task :lab13:processDebugAndroidTestNavigationResources
+> Task :lab13:parseDebugAndroidTestLocalResources
+> Task :lab13:javaPreCompileDebugAndroidTest
+> Task :lab13:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :lab13:generateDebugAndroidTestRFile
+> Task :lab13:mergeDebugAndroidTestAssets
+> Task :lab13:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :lab11:mergeExtDexDebugAndroidTest
+> Task :lab11:processDebugAndroidTestResources
+> Task :lab13:compileDebugAndroidTestJavaWithJavac
+> Task :lab11:dexBuilderDebugAndroidTest
+> Task :lab13:compressDebugAndroidTestAssets
+> Task :lab11:mergeProjectDexDebugAndroidTest
+> Task :lab13:generateDebugAndroidTestGlobalSynthetics
+> Task :lab13:compressDebugAndroidTestJavaRes NO-SOURCE
+> Task :lab13:mergeDebugAndroidTestJavaResource
+> Task :lab13:desugarDebugAndroidTestFileDependencies
+> Task :lab13:checkDebugAndroidTestDuplicateClasses
+> Task :lab13:checkDebugAndroidTestAarMetadata
+> Task :lab13:mapDebugAndroidTestSourceSetPaths
+> Task :lab13:mergeLibDexDebugAndroidTest
+> Task :lab13:compileDebugAndroidTestNavigationResources
+> Task :lab13:mergeDebugAndroidTestResources
+> Task :lab13:mergeDebugAndroidTestManifest
+> Task :lab11:packageDebugAndroidTest
+> Task :lab11:createDebugAndroidTestApkListingFileRedirect
+> Task :lab11:assembleDebugAndroidTest
+> Task :lab13:processDebugAndroidTestManifest
+> Task :lab13:mergeDebugAndroidTestJniLibFolders
+> Task :lab13:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :lab13:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :lab13:validateSigningDebugAndroidTest
+> Task :lab13:writeDebugAndroidTestSigningConfigVersions
+> Task :lab13:processDebugAndroidTestResources
+> Task :lab13:dexBuilderDebugAndroidTest
+> Task :lab13:mergeProjectDexDebugAndroidTest
+> Task :lab13:mergeExtDexDebugAndroidTest
+> Task :lab13:packageDebugAndroidTest
+> Task :lab13:createDebugAndroidTestApkListingFileRedirect
+> Task :lab13:assembleDebugAndroidTest
+
+[Incubating] Problems report is available at: file:///home/runner/work/mad-lab-kit/mad-lab-kit/ci/labs/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 4m 19s
+890 actionable tasks: 890 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html

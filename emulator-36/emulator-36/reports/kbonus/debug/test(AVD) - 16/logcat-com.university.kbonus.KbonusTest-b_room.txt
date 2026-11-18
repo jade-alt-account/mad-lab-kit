@@ -1,0 +1,5 @@
+11-18 18:34:32.156  3806  3947 I TestRunner: started: b_room(com.university.kbonus.KbonusTest)
+11-18 18:34:32.157   607  2087 I ImeTracker: system_server:8bbdd5dd: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:34:32.160   607   669 I ImeTracker: system_server:8bbdd5dd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:34:32.169  3806  3947 I LABCI   : room db built: com.university.kbonus.UserDao_Impl@f414f55
+11-18 18:34:32.170  3806  3947 I TestRunner: finished: b_room(com.university.kbonus.KbonusTest)

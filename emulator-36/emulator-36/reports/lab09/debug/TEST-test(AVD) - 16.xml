@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="4" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:39:44" hostname="localhost">
+  <testsuite name="com.university.lab09.Lab09Test" tests="4" failures="0" errors="0" skipped="0" time="39.182" timestamp="2026-11-18T18:39:44" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_viaMessages" classname="com.university.lab09.Lab09Test" time="10.292" />
+    <testcase name="b_direct" classname="com.university.lab09.Lab09Test" time="10.162" />
+    <testcase name="c_dial" classname="com.university.lab09.Lab09Test" time="9.371" />
+    <testcase name="d_email" classname="com.university.lab09.Lab09Test" time="9.357" />
+  </testsuite>
+</testsuites>

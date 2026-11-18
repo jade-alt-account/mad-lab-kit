@@ -1,0 +1,613 @@
+11-18 18:39:52.750  9594  9614 I TestRunner: started: a_viaMessages(com.university.lab09.Lab09Test)
+11-18 18:39:52.754   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:52.756   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 44, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:39:52.756   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=44)
+11-18 18:39:52.768   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:39:52.769  9594  9614 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:39:52.799   496   542 E libprocessgroup: AddTidToCgroup failed to write '9622'; fd=53: Invalid argument
+11-18 18:39:52.799   496   542 E libprocessgroup: Failed to add task into cgroup
+11-18 18:39:52.799   496   542 W libprocessgroup: ExecuteForTask failed for aggregate profile: Invalid argument
+11-18 18:39:52.814  9594  9614 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:39:52.819  9594  9614 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab09\E']].
+11-18 18:39:52.819  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:39:52.832  9594  9622 V UiAutomation: Init UiAutomation@e13e456[id=11, flags=0]
+11-18 18:39:52.835  9594  9594 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:39:52.843  9594  9624 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:39:52.846  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: PRE_ON_CREATE
+11-18 18:39:52.865  9594  9624 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:39:52.867  9594  9624 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:39:52.894  9594  9594 W niversity.lab0: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+11-18 18:39:52.924  9594  9594 W niversity.lab0: Accessing hidden method Landroid/graphics/drawable/DrawableWrapper;->hasFocusStateSpecified()Z (blacklist,test-api, linking, allowed)
+11-18 18:39:52.944  1748  7198 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:39:52.944  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: CREATED
+11-18 18:39:52.949  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: STARTED
+11-18 18:39:52.950  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: RESUMED
+11-18 18:39:52.960  1748  7198 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:39:52.965  1748  7198 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:39:52.969  1748  7198 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:39:52.988  9594  9621 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3064210, tid 9621
+11-18 18:39:53.008  9594  9621 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:53.009   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:39:53.010  9594  9621 D EGL_emulation: eglCreateContext: 0x7366a3088ce0: maj 3 min 0 rcv 3
+11-18 18:39:53.011  9594  9621 D EGL_emulation: eglMakeCurrent: 0x7366a3088ce0: ver 3 0 (tinfo 0x7366430a9a90) (first time)
+11-18 18:39:53.018   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:39:53.018  9594  9621 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:53.018  9594  9621 D HostConnection: createUnique: call
+11-18 18:39:53.019  9594  9621 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3066fd0, tid 9621
+11-18 18:39:53.027  9594  9621 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:53.041  1748  7198 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:39:53.042  1748  7198 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:39:53.189  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:53.189  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:53.435   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:53.445   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab09/1/com.university.lab09.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:39:53.446   496   536 I ActivityTaskManager: Displayed com.university.lab09/.MainActivity: +680ms
+11-18 18:39:53.448   344   552 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10187 pid=9594
+11-18 18:39:53.448   344   552 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10187 => denied (306 us)
+11-18 18:39:53.515  1675  2882 I PBSessionCacheImpl: Deleted sessionId[7368522932967144] from persistence.
+11-18 18:39:53.520  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:39:54.315   435  9398 D BufferPoolAccessor2.0: bufferpool2 0xedc84868 : 0(0 size) total buffers - 0(0 size) used buffers - 126/137 (recycle/alloc) - 11/268 (fetch/transfer)
+11-18 18:39:54.315   435  9398 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+11-18 18:39:54.315   445   832 D BufferPoolAccessor2.0: bufferpool2 0x7ba235f5a288 : 0(0 size) total buffers - 0(0 size) used buffers - 127/132 (recycle/alloc) - 5/131 (fetch/transfer)
+11-18 18:39:54.315   445   832 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+11-18 18:39:55.054  9594  9614 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QVia Messages\E']].
+11-18 18:39:55.054  9594  9614 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QVia Messages\E'].
+11-18 18:39:55.065  9594  9614 W niversity.lab0: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blacklist,test-api, reflection, allowed)
+11-18 18:39:55.066  9594  9614 D UiObject2: Clicking on (84, 212).
+11-18 18:39:55.098   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:55.099   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:55.099   496  1954 I chatty  : uid=1000(system) Binder:496_1F identical 1 line
+11-18 18:39:55.099   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:55.101  9594  9614 W GestureController: Gestures took longer than expected (34ms >> 16ms), device might be in a busy state.
+11-18 18:39:55.152  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: PAUSED
+11-18 18:39:55.216   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(11)
+11-18 18:39:55.251  8867  9633 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+11-18 18:39:55.256  8867  9633 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+11-18 18:39:55.259  8867  9633 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+11-18 18:39:55.262  8867  8867 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+11-18 18:39:55.268  8867  8867 I AppLifecycleTracker: App transition to foreground
+11-18 18:39:55.281  8867  9635 I BugleBackup: Registering preference change listener for "buglesub_1".
+11-18 18:39:55.294  8867  9631 D HostConnection: HostConnection::get() New Host Connection established 0xef59ff10, tid 9631
+11-18 18:39:55.296  8867  9631 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:55.298   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:39:55.302  8867  9631 D EGL_emulation: eglCreateContext: 0xef5920d0: maj 3 min 0 rcv 3
+11-18 18:39:55.303  8867  9631 D EGL_emulation: eglMakeCurrent: 0xef5920d0: ver 3 0 (tinfo 0xef9f3ad0) (first time)
+11-18 18:39:55.319  8867  9636 I FA      : Tag Manager is not found and thus will not be used
+11-18 18:39:55.328  8867  9635 I BugleDataModel: ParticipantRefresh: ContactContentObserver created
+11-18 18:39:55.331   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:39:55.331  8867  9631 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:55.332  8867  9631 D HostConnection: createUnique: call
+11-18 18:39:55.333  8867  9631 D HostConnection: HostConnection::get() New Host Connection established 0xef58e320, tid 9631
+11-18 18:39:55.355  8867  9631 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:55.357   344   377 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10144 pid=8867
+11-18 18:39:55.357   344   377 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10144 => denied (171 us)
+11-18 18:39:55.360   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:55.363   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.messaging/60117070/com.google.android.apps.messaging.ui.conversation.LaunchConversationActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:39:55.365   496   536 I ActivityTaskManager: Displayed com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity: +262ms
+11-18 18:39:55.395  1042  1617 D MmsSmsProvider: getSingleAddressId: insert new canonical_address for xxxxxx, _id=3
+11-18 18:39:55.396  1042  1617 D MmsSmsProvider: getThreadId: create new thread_id for recipients xxxxxxxx
+11-18 18:39:55.396  1042  1617 D MmsSmsProvider: insertThread: created new thread_id 3 for recipientIds xxxxxxx
+11-18 18:39:55.457  8867  9635 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:39:55.472  8867  9635 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:39:55.485  8867  9635 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+11-18 18:39:55.486  8867  9635 I BugleBackup: Registering preference change listener for "buglesub_-1".
+11-18 18:39:55.487  8867  9635 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+11-18 18:39:55.487  8867  9635 W Bugle   : Get mms config failed: invalid subId. subId=-2, real subId=-1, map={ 1 }
+11-18 18:39:55.491  8867  9635 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+11-18 18:39:55.493  8867  9635 W BugleDataModel: BugleDatabaseOperations: Unexpected list of latest{size:0} is returned.
+11-18 18:39:55.501  8867  9635 I ShortcutBadger: Checking if platform supports badge counters, attempt 1/3.
+11-18 18:39:55.503  8867  9635 I ShortcutBadger: Checking if platform supports badge counters, attempt 2/3.
+11-18 18:39:55.504  8867  9635 I ShortcutBadger: Checking if platform supports badge counters, attempt 3/3.
+11-18 18:39:55.505  8867  9635 W ShortcutBadger: Badge counter seems not supported in this platform: unable to resolve intent: Intent { act=android.intent.action.BADGE_COUNT_UPDATE (has extras) }
+11-18 18:39:55.509   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:55.512   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:55.519  8867  8867 D AppCompatDelegate: Application config ({1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.240}) does not match base config ({1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1}), using base overlay: {0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mDisplayWindowingMode=undefined mActivityType=undefined mAlwaysOnTop=undefined mRotation=undefined}}
+11-18 18:39:55.519  8867  8867 D AppCompatDelegate: Applying night mode using ContextThemeWrapper and applyOverrideConfiguration(). Config: {0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mDisplayWindowingMode=undefined mActivityType=undefined mAlwaysOnTop=undefined mRotation=undefined}}
+11-18 18:39:55.527  8867  8867 D AppCompatDelegate: updateForNightMode [allowRecreation:false, currentNightMode:16, newNightMode:16, activityHandlingUiMode:false, baseContextAttached:true, created:false, canReturnDifferentContext:true, host:com.google.android.apps.messaging.conversation.screen.ConversationActivity@b437d07]
+11-18 18:39:55.528  8867  8867 D AppCompatDelegate: updateForNightMode. Skipping. Night mode: -1 for host:com.google.android.apps.messaging.conversation.screen.ConversationActivity@b437d07
+11-18 18:39:55.534  8867  8867 I AppCompatViewInflater: app:theme is now deprecated. Please move to using android:theme instead.
+11-18 18:39:55.543  8867  8913 I BugleUsageStatistics: UsageStatistics: app created, openCause: 3
+11-18 18:39:55.548  8867  8867 I AppLifecycleTracker: App foreground state unchanged: inForeground ? true
+11-18 18:39:55.626  8867  9645 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:55.627  8867  9645 I chatty  : uid=10144(com.google.android.apps.messaging) MessageListWind identical 4 lines
+11-18 18:39:55.627  8867  9645 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:55.628  8867  8867 E Bugle   : P2pConversationSuggestionsConfigUtils: Unknown suggestion type STARRING
+11-18 18:39:55.629  8867  8867 E Bugle   : java.lang.IllegalArgumentException: No enum constant alyr.STARRING
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at java.lang.Enum.valueOf(Enum.java:257)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at alyr.a(PG:30)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.c(PG:156)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqr.a(Unknown Source:3)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at ager.a(PG:3)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.h(PG:117)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.a(PG:118)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.d(PG:24)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at ddx.i(PG:132)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at jh.g(PG:17)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:496)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:446)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.d(PG:396)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:437)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.b(PG:329)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:547)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:219)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:112)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.i(PG:63)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at hz.onStart(PG:114)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at vu.onStart(PG:47)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at adjd.onStart(PG:59)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at mjw.onStart(PG:29)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at mkc.onStart(PG:68)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.google.android.apps.messaging.conversation.screen.ConversationActivity.onStart(PG:68)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1435)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.Activity.performStart(Activity.java:8018)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3475)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:39:55.629  8867  8867 E Bugle   : P2pConversationSuggestionsConfigUtils: Unknown suggestion type SCREEN_EFFECTS
+11-18 18:39:55.629  8867  8867 E Bugle   : java.lang.IllegalArgumentException: No enum constant alyr.SCREEN_EFFECTS
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at java.lang.Enum.valueOf(Enum.java:257)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at alyr.a(PG:30)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.c(PG:156)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqr.a(Unknown Source:3)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at ager.a(PG:3)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.h(PG:117)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.a(PG:118)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at lqz.d(PG:24)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at ddx.i(PG:132)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at jh.g(PG:17)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:496)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:446)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.d(PG:396)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:437)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.b(PG:329)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.a(PG:547)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:219)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.c(PG:112)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at iy.i(PG:63)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at hz.onStart(PG:114)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at vu.onStart(PG:47)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at adjd.onStart(PG:59)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at mjw.onStart(PG:29)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at mkc.onStart(PG:68)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.google.android.apps.messaging.conversation.screen.ConversationActivity.onStart(PG:68)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1435)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.Activity.performStart(Activity.java:8018)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3475)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:39:55.629  8867  8867 E Bugle   : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:39:55.629  8867  8867 E Bugle   : P2pConversationSuggestionsConfigUtils: Unknown suggestion type SAVE_BIRTHDAY
+11-18 18:39:55.630  8867  8867 E Bugle   : java.lang.IllegalArgumentException: No enum constant alyr.SAVE_BIRTHDAY
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at java.lang.Enum.valueOf(Enum.java:257)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at alyr.a(PG:30)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.c(PG:156)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqr.a(Unknown Source:5)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at ager.a(PG:3)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.h(PG:117)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.a(PG:118)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.d(PG:24)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at ddx.i(PG:132)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at jh.g(PG:17)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:496)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:446)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.d(PG:396)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:437)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.b(PG:329)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:547)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:219)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:112)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.i(PG:63)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at hz.onStart(PG:114)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at vu.onStart(PG:47)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at adjd.onStart(PG:59)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at mjw.onStart(PG:29)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at mkc.onStart(PG:68)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.google.android.apps.messaging.conversation.screen.ConversationActivity.onStart(PG:68)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1435)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.Activity.performStart(Activity.java:8018)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3475)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:39:55.630  8867  8867 E Bugle   : P2pConversationSuggestionsConfigUtils: Unknown suggestion type SCREEN_EFFECTS
+11-18 18:39:55.630  8867  8867 E Bugle   : java.lang.IllegalArgumentException: No enum constant alyr.SCREEN_EFFECTS
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at java.lang.Enum.valueOf(Enum.java:257)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at alyr.a(PG:30)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.c(PG:156)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqr.a(Unknown Source:5)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at ager.a(PG:3)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.h(PG:117)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.a(PG:118)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at lqz.d(PG:24)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at ddx.i(PG:132)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at jh.g(PG:17)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:496)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:446)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.d(PG:396)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:437)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.b(PG:329)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.a(PG:547)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:219)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.c(PG:112)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at iy.i(PG:63)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at hz.onStart(PG:114)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at vu.onStart(PG:47)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at adjd.onStart(PG:59)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at mjw.onStart(PG:29)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at mkc.onStart(PG:68)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.google.android.apps.messaging.conversation.screen.ConversationActivity.onStart(PG:68)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1435)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.Activity.performStart(Activity.java:8018)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3475)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:39:55.630  8867  8867 E Bugle   : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:39:55.639  8867  9646 W BugleAction: exception getting msisdn from engine, and no default number
+11-18 18:39:55.639  8867  9646 W BugleAction: aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at aeec.a(PG:15)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.a(PG:24)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.getMsisdn(PG:12)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at kfx.l(PG:330)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at jlg.a(PG:4)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at com.google.android.apps.messaging.shared.datamodel.action.UpdateConversationEncryptionStatusAction.e(PG:31)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at com.google.android.apps.messaging.shared.datamodel.action.UpdateConversationEncryptionStatusAction.c(PG:9)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at gjr.a(PG:11)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at gjf.run(PG:10)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at afou.run(PG:3)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at gjg.run(PG:7)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at aipn.run(PG:2)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at aipo.run(PG:6)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at aeua.run(PG:2)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at aesr.run(Unknown Source:4)
+11-18 18:39:55.639  8867  9646 W BugleAction: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:39:55.639  8867  9646 W BugleNetwork: RcsMsisdnAccessor: Failed to access Rcs msisdn. subId: -2
+11-18 18:39:55.642  8867  8922 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:55.642  8867  8922 I chatty  : uid=10144(com.google.android.apps.messaging) BG Thread #3 identical 1 line
+11-18 18:39:55.642  8867  8922 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:55.652  8867  8867 D AppCompatDelegate: updateForNightMode [allowRecreation:true, currentNightMode:16, newNightMode:16, activityHandlingUiMode:false, baseContextAttached:true, created:true, canReturnDifferentContext:true, host:com.google.android.apps.messaging.conversation.screen.ConversationActivity@b437d07]
+11-18 18:39:55.652  8867  8867 D AppCompatDelegate: updateForNightMode. Skipping. Night mode: -1 for host:com.google.android.apps.messaging.conversation.screen.ConversationActivity@b437d07
+11-18 18:39:55.655  8867  8867 I BugleDataModel: ParticipantRefresh: ContactContentObserver initialize
+11-18 18:39:55.655  8867  8867 I BugleDataModel: ParticipantRefresh: Started full participant refresh
+11-18 18:39:55.657  8867  8867 I BugleDataModel: ParticipantRefresh: Skipped full participant refresh
+11-18 18:39:55.658  8867  8867 I Bugle   : SelectedMessagesImpl: Deselected messages []
+11-18 18:39:55.662  8867  8867 I Bugle   : DraftMessageTypeConverter: draft switching to xMS.
+11-18 18:39:55.675  8867  9646 I BugleDataModel: ParticipantRefresh: Start participant refresh. refreshMode: FULL
+11-18 18:39:55.747  8867  9646 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:39:55.757  8867  8920 W Bugle   : Unable to call isMessageRevocationSupported
+11-18 18:39:55.757  8867  8920 W Bugle   : aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aeec.a(PG:15)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at com.google.android.rcs.client.chatsession.ChatSessionService.isMessageRevocationSupported(PG:30)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at kfx.i(PG:146)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at cxj.a(Unknown Source:3)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aeyi.a(Unknown Source:2)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at afoy.a(PG:3)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at afoy.a(PG:3)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aeti.a(Unknown Source:1)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aimp.a(PG:3)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aily.a(PG:3)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aima.run(PG:23)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aipd.run(PG:2)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:39:55.757  8867  8920 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:39:55.779  8867  9646 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:39:55.792  8867  8916 W BugleDataModel: BugleDatabaseOperations: Unexpected list of latest{size:0} is returned.
+11-18 18:39:55.853  8867  9646 I BugleDataModel: ParticipantRefresh: Number of participants refreshed: 0
+11-18 18:39:55.999  8867  8867 I BugleDataModel: We reached the end for load latest (i.e. we loaded everything and not just latest).
+11-18 18:39:55.999  8867  8867 I BugleDataModel: 1 results retrieved for load latest.
+11-18 18:39:56.008   496   536 I ActivityTaskManager: Displayed com.google.android.apps.messaging/.conversation.screen.ConversationActivity: +492ms
+11-18 18:39:56.008   496   536 I ActivityTaskManager: Fully drawn com.google.android.apps.messaging/.conversation.screen.ConversationActivity: +492ms
+11-18 18:39:56.040  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: STOPPED
+11-18 18:39:56.048  8867  8867 I Bugle   : DraftMessageTypeConverter: draft switching to xMS.
+11-18 18:39:56.058  8867  8867 I TextToSpeech: Sucessfully bound to com.google.android.tts
+11-18 18:39:56.066   286   286 D Zygote  : Forked child process 9649
+11-18 18:39:56.075   496  1000 W ShortcutService: reportShortcutUsed: package com.google.android.apps.messaging doesn't have shortcut s68ceZI4OYikvXPH6fFHWQ
+11-18 18:39:56.076  8867  8867 I Bugle   : DraftMessageTypeConverter: draft switching to xMS.
+11-18 18:39:56.086  8867  8867 W BugleAnnotation: MessageAnnotationData: bind should only be called with annotations for a single message. Message IDs: 
+11-18 18:39:56.094  9649  9649 W gle.android.tt: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:39:56.095  8867  8867 I BugleUsageStatistics: UsageStatistics: Create or Open Conversation UNREAD false
+11-18 18:39:56.095  8867  8867 I BugleUsageStatistics: UsageStatistics: Create or Open Conversation IS XMS FALLBACK 2
+11-18 18:39:56.095  8867  8867 I BugleUsageStatistics: UsageStatistics: Create or Open Conversation Is RCS false
+11-18 18:39:56.095  8867  8867 I BugleUsageStatistics: UsageStatistics: Create or Open conversation CONVERSATION TYPE 0
+11-18 18:39:56.096  8867  8867 I Bugle   : DraftMessageTypeConverter: draft switching to xMS.
+11-18 18:39:56.098  8867  8867 I Bugle   : DraftMessageTypeConverter: draft switching to xMS.
+11-18 18:39:56.098  8867  8867 W Bugle   : ConversationFragment{id:1}: Not sending a typing indicator because the chat service is null
+11-18 18:39:56.103  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+11-18 18:39:56.106  8867  8867 I AppLifecycleTracker: App foreground state unchanged: inForeground ? true
+11-18 18:39:56.134   401   415 I adbd    : jdwp connection from 9649
+11-18 18:39:56.149  9649  9649 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-18 18:39:56.150  8867  8867 W View    : requestLayout() improperly called by android.support.v7.widget.RecyclerView{c14c3f6 VFED..... ......ID 0,0-320,640 #102000a android:id/list} during layout: running second layout pass
+11-18 18:39:56.154  9649  9649 I gle.android.tt: The ClassLoaderContext is a special shared library.
+11-18 18:39:56.155  8867  8867 I Bugle   : ConversationFragment{id:1}: marking conversation as seen because setConversationFocus.
+11-18 18:39:56.155  9649  9649 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/GoogleTTS/lib/x86_64:/product/app/GoogleTTS/GoogleTTS.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:39:56.165   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3061f90, tid 4916
+11-18 18:39:56.168   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:56.175  9649  9649 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:39:56.175  9649  9649 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:39:56.182  9649  9649 I MultiDex: VM with version 2.1.0 has multidex support
+11-18 18:39:56.182  9649  9649 I MultiDex: install
+11-18 18:39:56.182  9649  9649 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-18 18:39:56.182  9649  9649 I CarUiInstaller: CarUiInstaller started for com.google.android.tts
+11-18 18:39:56.189   496  4916 D EGL_emulation: eglCreateContext: 0x7366a30d8fc0: maj 3 min 0 rcv 3
+11-18 18:39:56.193  9649  9649 I TetheringManager: registerTetheringEventCallback:com.google.android.tts
+11-18 18:39:56.194  9649  9649 I TTS.PattsJniLoader: Loading library tts_android
+11-18 18:39:56.204  1326  1326 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():208 startImportContentTask()
+11-18 18:39:56.213  1326  1660 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():222 doInBackground()
+11-18 18:39:56.213  1326  1660 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+11-18 18:39:56.216  8867  8867 I AssistStructure: Flattened final assist data: 6628 bytes, containing 1 windows, 49 views
+11-18 18:39:56.275   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a30d8fc0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:39:56.286  1162  1162 W kqw     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+11-18 18:39:56.318  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+11-18 18:39:56.319  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+11-18 18:39:56.390  9649  9649 I TTS.Analytics: Running on TYPE_PHONE
+11-18 18:39:56.417  9649  9671 W gle.android.tt: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:39:56.417  9649  9671 W gle.android.tt: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:39:56.417  9649  9671 W gle.android.tt: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:39:56.417  9649  9672 I TTS.PrimesApiImpl: background initialization
+11-18 18:39:56.467   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:56.510  1293  1293 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:2040263342
+11-18 18:39:56.532  9649  9649 I TTS.VoiceDataDownloader: fetchVoiceInternal en-us
+11-18 18:39:56.561  1326  1660 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+11-18 18:39:56.561  1326  1660 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+11-18 18:39:56.561  1326  1326 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+11-18 18:39:56.562  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+11-18 18:39:56.562  9649  9677 I TTS.VoiceDataDownloader: Not already initialized. Initializing Superpacks.
+11-18 18:39:56.567  9649  9649 I TTS.GoogleTTSService: Creating Google TTS service, version 22.10.313224691
+11-18 18:39:56.572  9649  9677 I TTS.VoiceDataDownloader: Superpack object built.
+11-18 18:39:56.572  9649  9677 I TTS.VoiceDataDownloader: Superpack slicing strategy registered
+11-18 18:39:56.573  9649  9677 I TTS.VoiceDataDownloader: Superpack quota set for all voices.
+11-18 18:39:56.574  9649  9677 I TTS.VoiceDataDownloader: Got bundled voice en-us-x-sfg-r19
+11-18 18:39:56.621  9649  9649 I TTS.VoiceGenerator: Get absoluteFilePath null
+11-18 18:39:56.623  9649  9649 I chatty  : uid=10129(com.google.android.tts) identical 31 lines
+11-18 18:39:56.623  9649  9649 I TTS.VoiceGenerator: Get absoluteFilePath null
+11-18 18:39:56.626  9649  9649 I TTS.VoiceDataDownloader: voicesToFetch en-us
+11-18 18:39:56.626  9649  9649 I TTS.VoiceDataDownloader: fetchVoiceInternal en-us
+11-18 18:39:56.654  9649  9649 W TTS.Dispatcher: No local or network voice found, failing dispatch
+11-18 18:39:56.656  9649  9649 I TTS.GoogleTTSServiceImp: currentLocale = en-US
+11-18 18:39:56.675  8867  9635 I BugleNotifications: Refreshing message notifications [CONTEXT for_incoming_messages=true for_failures=true is_silent=false is_quick_reply=false is_smart_reply_update=false ]
+11-18 18:39:56.691  8867  8867 I TextToSpeech: Connected to ComponentInfo{com.google.android.tts/com.google.android.tts.service.GoogleTTSService}
+11-18 18:39:56.694  9649  9666 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-18 18:39:56.695  9649  9666 I TTS.GoogleTTSServiceImp: currentLocale = en-US
+11-18 18:39:56.696  9649  9666 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-18 18:39:56.696  9649  9666 I TTS.GoogleTTSServiceImp: For default lang en-us is name en-US-language (en-us-x-sfg-server)
+11-18 18:39:56.710  9649  9680 I SP      : Creating database superpacks.db, version 16
+11-18 18:39:56.717  9649  9680 I SP      : Registering ttsvoices.528, url: null, constraints: *:*, flags: *, requested: 528, current: -1
+11-18 18:39:56.720  8867  8961 I TextToSpeech: Set up connection to ComponentInfo{com.google.android.tts/com.google.android.tts.service.GoogleTTSService}
+11-18 18:39:56.784  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:56.787  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 10 lines
+11-18 18:39:56.788  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:56.930  9649  9680 I SP      : Successfully got manifest for ttsvoices-manifest: manifests:ttsvoices-528
+11-18 18:39:56.943  9649  9677 I TTS.VoiceDataDownloader: Initialization success: true
+11-18 18:39:56.944  9649  9677 I TTS.GoogleTTSApplicatio: VoiceDataDownloader initialized success true
+11-18 18:39:56.944  9649  9677 I TTS.VoiceDataDownloader: Superpacks created and default voices checked.
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataDownloader: Superpacks created and default voices checked.
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataDownloader: Download of en-us started.
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataManager: Delete the old data directory successfully.
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataManager: start to download voice en-us
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataDownloader: Download of en-us started.
+11-18 18:39:56.946  9649  9677 I TTS.VoiceDataDownloader: Registered slicing strategy for en-us
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-sfg-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-sfg-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-hol-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-hol-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-hol-wavernn-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-hol-wavernn-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-jmp-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-jmp-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-jmp-wavernn-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-jmp-wavernn-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-iod-r19
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-iod-r19 to superpack.
+11-18 18:39:56.947  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-iof-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-iof-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-ioh-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-ioh-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-ioj-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-ioj-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-tme-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-tme-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-tpd-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-tpd-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-afh-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-afh-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-fis-r19
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-fis-r19 to superpack.
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Registered slicing strategy for en-us
+11-18 18:39:56.948  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-sfg-r19
+11-18 18:39:56.949  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-sfg-r19 to superpack.
+11-18 18:39:56.949  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-hol-r19
+11-18 18:39:56.949  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-hol-r19 to superpack.
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-hol-wavernn-r19
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-hol-wavernn-r19 to superpack.
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-jmp-r19
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-jmp-r19 to superpack.
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-jmp-wavernn-r19
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-jmp-wavernn-r19 to superpack.
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-iod-r19
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-iod-r19 to superpack.
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-iof-r19
+11-18 18:39:56.950  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-iof-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-ioh-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-ioh-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-ioj-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-ioj-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-tme-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-tme-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-tpd-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-tpd-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-afh-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-afh-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Getting pack name en-us-x-fis-r19
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Adding pack en-us-x-fis-r19 to superpack.
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Syncing superpack en-us
+11-18 18:39:56.951  9649  9677 I TTS.VoiceDataDownloader: Syncing superpack en-us
+11-18 18:39:56.952  9649  9680 I SP      : Registering en-us.19, url: null, constraints: *:*, flags: *, requested: 19, current: -1
+11-18 18:39:56.952  9649  9680 I SP      : Registering en-us.19, url: null, constraints: *:*, flags: *, requested: 19, current: -1
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: Failed to download default voice
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: java.util.concurrent.CancellationException: Task was cancelled.
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at czy.b(PG:132)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at czy.get(PG:82)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at dbr.a(PG:11)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at dbb.run(PG:5)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:39:56.956  9649  9677 E TTS.VoiceDataDownloader: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:39:56.973  9649  9680 I SP      : Successfully got manifest for en-us-manifest: manifests:en-us-19
+11-18 18:39:56.982  9649  9680 I SP      : Syncing en-us (19) with slices: [{en-us-x-sfg-r19, m:*}, {en-us-x-hol-r19, m:*}, {en-us-x-jmp-r19, m:*}, {en-us-x-iod-r19, m:*}, {en-us-x-iof-r19, m:*}, {en-us-x-ioh-r19, m:*}, {en-us-x-ioj-r19, m:*}, {en-us-x-tme-r19, m:*}, {en-us-x-tpd-r19, m:*}, {en-us-x-afh-r19, m:*}, {en-us-x-fis-r19, m:*}], metadata: false
+11-18 18:39:57.076  9649  9680 I SP      : Fetching en-us:en-us-x-sfg-r19 from assets with params: {m:*, *, p {absolute:0}}
+11-18 18:39:57.080  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-hol-r19.zvoice to en-us-x-hol-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.080  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-jmp-r19.zvoice to en-us-x-jmp-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.080  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-iod-r19.zvoice to en-us-x-iod-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.081  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-iof-r19.zvoice to en-us-x-iof-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.081  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-ioh-r19.zvoice to en-us-x-ioh-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.082  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-ioj-r19.zvoice to en-us-x-ioj-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.083  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-tme-r19.zvoice to en-us-x-tme-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.083  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-tpd-r19.zvoice to en-us-x-tpd-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.084  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-afh-r19.zvoice to en-us-x-afh-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.084  9649  9680 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/en-us/en-us-x-fis-r19.zvoice to en-us-x-fis-r19.zvoice.fetched (constraints: m:b)
+11-18 18:39:57.502  8867  9646 I BugleJobs: GenericWorkerQueueAction: Work found
+11-18 18:39:57.539  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:57.539  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 1 line
+11-18 18:39:57.539  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:39:57.545  8867  9635 I BugleJobs: GenericWorkerQueueAction: Rescheduling immediately
+11-18 18:39:57.546  1748  7198 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Conversation_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:39:57.562  8867  9684 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-18 18:39:57.567  1748  7198 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Conversation_no_gsa [CONTEXT service_id=21 ]
+11-18 18:39:57.725  1748  9352 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:57.726  1748  9352 I Vision  : Checking for download completion for 367183 -- ocr
+11-18 18:39:57.757   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=44)
+11-18 18:39:57.759   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:39:57.759   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:39:57.760   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 44 ended, total sessions:0
+11-18 18:39:57.766   496  1947 D WifiNl80211Manager: Scan result ready event
+11-18 18:39:57.766   496  1947 D WifiNative: Scan result ready event
+11-18 18:39:57.773  8867  8867 W BugleDataModel: ActionExecutorImpl: Tried to cancel job 101 that can't be found. already finished?
+11-18 18:39:58.050  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:39:58.056  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:39:58.233   496  1542 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:58.498  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:58.499  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:58.564  9594  9693 D ProfileInstaller: Installing profile for com.university.lab09
+11-18 18:39:58.567  1748  7198 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Conversation_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:39:58.568  1748  7198 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Conversation_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:00.002  8018  8018 D KeyguardClockSwitch: Updating clock: 640
+11-18 18:40:00.414  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:00.414  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:00.610  9594  9614 I LABCI   : Via Messages opened package: com.google.android.apps.messaging
+11-18 18:40:00.840  1748  9697 I GmscoreIpa: Starting mediastore instant index
+11-18 18:40:01.214  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:01.214  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:01.310  9594  9614 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:01.317  9594  9614 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_via_messages.png
+11-18 18:40:01.374   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:01.375  9704  9704 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:01.376  8867  8913 W BugleDataModel: BugleDatabaseOperations: Unexpected list of latest{size:0} is returned.
+11-18 18:40:01.378  9704  9704 D HostConnection: createUnique: call
+11-18 18:40:01.378  9704  9704 D HostConnection: HostConnection::get() New Host Connection established 0x7c218b918290, tid 9704
+11-18 18:40:01.387  9704  9704 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:01.411  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_via_messages.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:01.424  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab09_via_messages.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab09_via_messages.png
+11-18 18:40:01.424  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 13ms, 0 inserts 0 updates 0 deletes
+11-18 18:40:01.408  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:643): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:01.428  9594  9614 I LABCI   : screenshot lab09_via_messages
+11-18 18:40:01.428  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:01.429  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_via_messages.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:01.408  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:644): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:01.470  8867  8867 W Bugle   : ConversationFragment{id:1}: Not sending a typing indicator because the chat service is null
+11-18 18:40:01.478  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: RESTARTED
+11-18 18:40:01.479  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: STARTED
+11-18 18:40:01.480  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: RESUMED
+11-18 18:40:01.408  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:647): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:01.530  9594  9594 I AssistStructure: Flattened final assist data: 2048 bytes, containing 1 windows, 12 views
+11-18 18:40:01.565  8867  8867 I AppLifecycleTracker: App transition to background
+11-18 18:40:01.573  8867  8867 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:40:01.611  8867  9684 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:01.611  8867  9684 I Bugle   : ExpressiveStickerModule: Providing ExpressiveStickerClient with metadata. version: 20210823, locale: en_US
+11-18 18:40:01.611  8867  9684 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:01.611  8867  9684 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:01.614  8867  9643 D MetadataFetcher: Cached file sticker-en_US-20210823-FFFFFFFF95A450B2.pbg.gz doesn't exist.
+11-18 18:40:02.157  8867  9714 I ExpressiveStickerClient: ListStickerPacks succeeded.
+11-18 18:40:02.212  8867  9643 D MetadataFetcher: Save last cached metadata version: 20210823
+11-18 18:40:02.212  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.212  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9722 D MetadataFetcher: load() succeeded with cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() started for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.213  8867  9714 D MetadataFetcher: load() returned cached future for cache key en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:02.292  8867  8884 W System  : A resource failed to call release. 
+11-18 18:40:02.312  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:02.335  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: PAUSED
+11-18 18:40:02.398   901  2066 E FrameEvents: updateAcquireFence: Did not find frame.
+11-18 18:40:02.406  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:40:02.416  1675  2029 W LocationOracle: No location history returned by ContextManager
+11-18 18:40:02.433  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:40:02.453   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:40:02.453   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:40:02.453   344   344 E Layer   : [Surface(name=Task=59)/@0x4729b01 - animation-leash#0] No local sync point found
+11-18 18:40:02.453   344   344 E Layer   : [Surface(name=Task=59)/@0x4729b01 - animation-leash#0] No local sync point found
+11-18 18:40:02.469  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: STOPPED
+11-18 18:40:02.481  9594  9594 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:40:02.482  1293  1293 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:571459292
+11-18 18:40:02.491  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4c1c0ad in: DESTROYED
+11-18 18:40:02.515  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:40:02.526  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:40:02.896  8867  9723 D MetadataFetcher: Cancel metadata fetch future of en_US-20210823-FFFFFFFF95A450B2
+11-18 18:40:03.278  9594  9614 I TestRunner: finished: a_viaMessages(com.university.lab09.Lab09Test)

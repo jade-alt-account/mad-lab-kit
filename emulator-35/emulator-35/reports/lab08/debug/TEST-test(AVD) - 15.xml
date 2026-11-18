@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="4" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:38:53" hostname="localhost">
+  <testsuite name="com.university.lab08.Lab08Test" tests="4" failures="0" errors="0" skipped="0" time="93.532" timestamp="2026-11-18T18:38:53" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_anr" classname="com.university.lab08.Lab08Test" time="32.495" />
+    <testcase name="b_background" classname="com.university.lab08.Lab08Test" time="11.032" />
+    <testcase name="c_foregroundService" classname="com.university.lab08.Lab08Test" time="41.079" />
+    <testcase name="d_powerReceiver" classname="com.university.lab08.Lab08Test" time="8.926" />
+  </testsuite>
+</testsuites>

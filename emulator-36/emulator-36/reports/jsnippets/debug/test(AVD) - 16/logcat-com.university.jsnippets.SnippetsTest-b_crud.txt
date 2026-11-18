@@ -1,0 +1,1448 @@
+11-18 18:34:03.204  2997  3100 I TestRunner: started: b_crud(com.university.jsnippets.SnippetsTest)
+11-18 18:34:03.206  1349  2279 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:34:03.210  1970  3242 W System.err: val in interceptor: null
+11-18 18:34:03.215   607  2085 W system_server: Long monitor contention with owner binder:607_3 (727) at void com.android.server.alarm.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String, android.os.Bundle, int)(AlarmManagerService.java:2253) waiters=1 in void com.android.server.alarm.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String, android.os.Bundle, int) for 187ms
+11-18 18:34:03.220  2997  3100 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:34:03.224  1635  2496 I AstreaHttpConnection: DOWNLOAD COMPLETE: Downloaded unknown number of bytes from https://storage.googleapis.com/captions/captions_i18n_v0_20210623_manifest.json.
+11-18 18:34:03.253   607  2080 I system_server: AssetManager2(0x70339c21adb8) locale list changing from [] to [en-US]
+11-18 18:34:03.257  1349  1349 W ConfigurationContentLdr: ContentProvider query returned null cursor, using default values
+11-18 18:34:03.260   607  2080 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10216, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:03.261  1681  1750 I fkev    : Shared storage file not found for com.google.android.gms.pay
+11-18 18:34:03.261  1681  1750 I fkev    : Unable to retrieve flag snapshot for com.google.android.gms.pay, using defaults.
+11-18 18:34:03.261  1681  1750 I fkev    : Shared storage file not found for com.google.android.gms.wearable
+11-18 18:34:03.261  1681  1750 I fkev    : Unable to retrieve flag snapshot for com.google.android.gms.wearable, using defaults.
+11-18 18:34:03.268  1529  2373 E PhenotypeCombinedFlags: Config package com.google.android.client_error_logging#com.google.android.apps.wellbeing cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+11-18 18:34:03.274  1349  2353 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 598041]
+11-18 18:34:03.285  1253  1253 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:34:03.286  1253  1253 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:34:03.291  1529  1550 W .apps.wellbeing: Suspending all threads took: 17.839ms
+11-18 18:34:03.311   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:34:03.326  1013  1110 I ndroid.systemui: AssetManager2(0x70339c26e738) locale list changing from [] to [en-US]
+11-18 18:34:03.336  2997  2997 I rsity.jsnippets: AssetManager2(0x70339c218b58) locale list changing from [] to [en-US]
+11-18 18:34:03.343  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c229818) locale list changing from [] to [en-US]
+11-18 18:34:03.365  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{319d517 V.E...... ......ID 0,0-0,0}
+11-18 18:34:03.365  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:34:03.365  1013  1113 D SplashScreenView: Branding: view: android.view.View{7b6ed04 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:34:03.370  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: PRE_ON_CREATE
+11-18 18:34:03.371  2997  2997 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:34:03.377  1837  1852 W earchbox:search: Suspending all threads took: 195.023ms
+11-18 18:34:03.392  1349  3241 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:34:03.410  3224  3224 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-18 18:34:03.410  3224  3224 D nativeloader: Configuring product-clns-9 for unbundled product apk /product/priv-app/ConfigUpdater/ConfigUpdater.apk. target_sdk_version=30, uses_libraries=, library_path=/product/priv-app/ConfigUpdater/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.configupdater:/product/lib64:/system/product/lib64
+11-18 18:34:03.410  3224  3224 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-18 18:34:03.413  2997  2997 D CompatChangeReporter: Compat change id reported: 377864165; UID 10216; state: ENABLED
+11-18 18:34:03.417  2997  2997 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-18 18:34:03.424  2997  3245 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:03.432  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: CREATED
+11-18 18:34:03.436  2997  2997 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.jsnippets.MainActivity@36df31c
+11-18 18:34:03.437  2997  3245 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:03.438  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: STARTED
+11-18 18:34:03.438  2997  2997 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.jsnippets.MainActivity@36df31c
+11-18 18:34:03.454  2997  3245 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:34:03.462  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: RESUMED
+11-18 18:34:03.463  2997  2997 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.jsnippets.MainActivity@36df31c
+11-18 18:34:03.477  1681  2627 I Auth    : [SupervisedAccountIntentOperationV2] onHandleIntent: android.intent.action.PACKAGE_ADDED [CONTEXT service_id=42 ]
+11-18 18:34:03.492  1681  2627 W Dck     : Disable DCK module - Android debug build without fullaccess [CONTEXT service_id=289 ]
+11-18 18:34:03.492  1681  2627 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+11-18 18:34:03.492  2997  2997 W HWUI    : Unknown dataspace 0
+11-18 18:34:03.514  1681  2425 I Blockstore: [DataStoreImpl] Clearing Blockstore Data for package com.university.jsnippets.test [CONTEXT service_id=258 ]
+11-18 18:34:03.521  1681  2425 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+11-18 18:34:03.526  1635  2156 I AiAiEcho: Settings changed for uri: content://settings/secure/ui_night_mode
+11-18 18:34:03.536  3224  3224 I d.configupdater: AssetManager2(0x70339c2194b8) locale list changing from [] to [en-US]
+11-18 18:34:03.571  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:03.571  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:34:03.571  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:03.571  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:03.571  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:03.573   522   859 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10216 pid=0
+11-18 18:34:03.573   522   859 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10216 => denied (307 us)
+11-18 18:34:03.573  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:03.573  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:34:03.573  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:03.573  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:03.574  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:03.576   522   547 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10216 pid=2997
+11-18 18:34:03.576   522   547 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10216 => denied (1358 us)
+11-18 18:34:03.576   522   547 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10216 pid=2997
+11-18 18:34:03.576   522   547 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10216 => denied (478 us)
+11-18 18:34:03.577  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:03.581  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:03.584   522   859 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10216 pid=0
+11-18 18:34:03.584   522   859 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10216 => denied (11046 us)
+11-18 18:34:03.586  1349  2228 W VerdictProvider: response is invalid 4 [CONTEXT service_id=257 ]
+11-18 18:34:03.594  1253  1253 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:34:03.594  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:34:03.607   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:03.608   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:03.610   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10160} in 2ms
+11-18 18:34:03.618   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:03.637  1013  1013 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:03.678   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:03.678   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={20160} in 60ms
+11-18 18:34:03.679  1635  2156 I AiAiEcho: Settings changed for uri: content://settings/secure/ui_night_mode_custom_type
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment: Currently set values for:
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment: com.google.android.configupdater is not listed in per-application setting
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment: com.google.android.configupdater is not listed in ANGLE allowlist or settings, returning default
+11-18 18:34:03.685  3224  3224 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:34:03.689  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:03.689  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:34:03.689  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:03.689  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:03.689  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:03.689  1635  1806 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:03.689  1635  1806 I AiAiEcho: EchoTargets: 
+11-18 18:34:03.689  1635  1806 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:03.689  1635  1806 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:03.690  1635  1806 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:03.698  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:03.699  1253  1253 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:03.699  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.699  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.699  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.699  1253  1253 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:03.704  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:03.704  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:03.710  1681  1681 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.wallet.service.BIND xflg=0x4 pkg=com.google.android.gms }
+11-18 18:34:03.710  1681  1681 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.wallet.service.BIND xflg=0x4 pkg=com.google.android.gms }
+11-18 18:34:03.714  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:03.717  1349  2289 W WearableService: onGetService: Wear is not available on this device.
+11-18 18:34:03.733  1349  3241 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:34:03.734  1349  3018 I FontLog : Package com.university.jsnippets.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:34:03.737  1349  3018 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:34:03.740  1349  3241 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:34:03.747  1253  1253 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:03.748  1349  1371 W ConfigurationContentLdr: ContentProvider query returned null cursor, using default values
+11-18 18:34:03.752  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.757  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.757  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:03.757  1253  1253 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:03.761  1654  1885 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.764  1654  1885 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.764  1654  1885 I biqb    : (REDACTED) #evaluate: isEnabled[ = %s failure reasons: %s
+11-18 18:34:03.764  1654  1885 I biqa    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.764  1654  1985 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.764  1654  1985 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.764  1654  1985 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.764  1654  1985 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.764  1654  1985 I bipp    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.764  1654  1985 I bipr    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.764  1654  1985 I bipv    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.769  1013  1013 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:03.775  1654  1985 I bhwr    : (REDACTED) Needs to download files: %s
+11-18 18:34:03.778  1654  1985 I bxxg    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+11-18 18:34:03.784  1681  1681 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:34:03.785  1681  1681 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:34:03.800  1529  1629 W ConfigurationContentLdr: ContentProvider query returned null cursor, using default values
+11-18 18:34:03.801  1349  3010 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:34:03.803  1635  1911 I AiAiFedAss: Ekho TTL succeeded.
+11-18 18:34:03.807  1654  1985 I bosm    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+11-18 18:34:03.809  1837  2041 I blun    : #backupOptInStatusInMainPreferences
+11-18 18:34:03.813  1654  1985 I biqq    : User not OptedIn. Skipping Eligibility Checks.
+11-18 18:34:03.814  1654  1985 I bhxn    : No changes in config detected
+11-18 18:34:03.815  1529  1824 W NotificationScheduler: <DWB> Cannot reschedule growth notification, not scheduled.
+11-18 18:34:03.816  1654  1885 I biiu    : #getEarcons
+11-18 18:34:03.816  1654  1885 I bjit    : (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+11-18 18:34:03.816  1654  1885 I blgd    : (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+11-18 18:34:03.817  1654  1885 I bxxg    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+11-18 18:34:03.817  1654  1885 I bosm    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+11-18 18:34:03.821  1349  2279 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:34:03.824  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c221b18) locale list changing from [] to [en-US]
+11-18 18:34:03.835  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.CertPin.CertPinConfig@44304db, StoredState: com.google.android.configupdater.StoredState@865fb78, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@cdad251, FlagHelper: com.google.android.configupdater.GservicesHelper@e66ab6
+11-18 18:34:03.835  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.836  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.837  3224  3224 D ConfigUpdater: Loaded SharedPreferences: CertPinDownloads
+11-18 18:34:03.837  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.837  1654  1985 I bxxg    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+11-18 18:34:03.838  1654  1985 I bosm    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+11-18 18:34:03.838  1654  1985 I biqq    : User not OptedIn. Skipping Eligibility Checks.
+11-18 18:34:03.838  1654  1985 I bioy    : Robin is not eligible or not opted-in
+11-18 18:34:03.838  1654  1985 I bioy    : Headphone voice queries disabled: HEADPHONE_VOICE_QUERIES flag not enabled
+11-18 18:34:03.838  1654  1985 I bioy    : (REDACTED) Headphone Integration status: %s
+11-18 18:34:03.839  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.840  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.840  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.841  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843841, max delay: 21600000
+11-18 18:34:03.841  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.842  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.IntentFirewall.IntentFirewallConfig@10b3453, StoredState: com.google.android.configupdater.StoredState@6e8c190, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@1747a89, FlagHelper: com.google.android.configupdater.GservicesHelper@ae41a8e
+11-18 18:34:03.842  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.842  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Loaded SharedPreferences: IntentFirewallDownload
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.843  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843843, max delay: 21600000
+11-18 18:34:03.843  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.SmsShortCodes.SmsShortCodesConfig@d4066bc, StoredState: com.google.android.configupdater.StoredState@5213645, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@c0b519a, FlagHelper: com.google.android.configupdater.GservicesHelper@acadacb
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Loaded SharedPreferences: SmsShortCodesDownload
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.845  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843845, max delay: 21600000
+11-18 18:34:03.845  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.NetworkWatchlist.NetworkWatchlistConfig@323f1c1, StoredState: com.google.android.configupdater.StoredState@63ced66, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@b2a58a7, FlagHelper: com.google.android.configupdater.PhenotypeHelper@34d154
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Loaded SharedPreferences: NetworkWatchlistDownload
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.849  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843849, max delay: 21600000
+11-18 18:34:03.849  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.ApnDb.ApnDbConfig@e9a79f2, StoredState: com.google.android.configupdater.StoredState@c19d843, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@db7aec0, FlagHelper: com.google.android.configupdater.GservicesHelper@6f417f9
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Loaded SharedPreferences: ApnDbDownload
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.850  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843850, max delay: 21600000
+11-18 18:34:03.850  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.CarrierProvisioningUrls.CarrierProvisioningUrlsConfig@1f7b59f, StoredState: com.google.android.configupdater.StoredState@7c8f6ec, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@2553ab5, FlagHelper: com.google.android.configupdater.GservicesHelper@32b554a
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Loaded SharedPreferences: CarrierProvisioningUrlsDownload
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.852  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.853  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843853, max delay: 21600000
+11-18 18:34:03.853  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.853  1837  2041 I blun    : (REDACTED) backed up value %s to shared preferences for accountId %s
+11-18 18:34:03.857  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.LangId.LangIdConfig@ec495d8, StoredState: com.google.android.configupdater.StoredState@c6bcd31, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@7517c16, FlagHelper: com.google.android.configupdater.PhenotypeHelper@84b997
+11-18 18:34:03.857  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Loaded SharedPreferences: LangIdDownload
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.858  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843858, max delay: 21600000
+11-18 18:34:03.858  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.SmartSelection.SmartSelectionConfig@17f0b6d, StoredState: com.google.android.configupdater.StoredState@be143a2, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@2d15833, FlagHelper: com.google.android.configupdater.PhenotypeHelper@67447f0
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Loaded SharedPreferences: SmartSelectionDownload
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.860  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.863  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843863, max delay: 21600000
+11-18 18:34:03.863  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.863  1654  1983 I bxxg    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+11-18 18:34:03.863  1654  1983 I bosm    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+11-18 18:34:03.864  1654  1983 I biqq    : User not OptedIn. Skipping Eligibility Checks.
+11-18 18:34:03.867  1654  1983 I boak    : (REDACTED) DelegationStatus: %s
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.ConversationActions.ConversationActionsConfig@2b3f7ee, StoredState: com.google.android.configupdater.StoredState@c3f448f, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@36df31c, FlagHelper: com.google.android.configupdater.PhenotypeHelper@98b3b25
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Loaded SharedPreferences: ConversationActionsDownload
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.867  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843867, max delay: 21600000
+11-18 18:34:03.867  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.867  1654  1983 I bifu    : (REDACTED) Populated bump behaviors: %s
+11-18 18:34:03.869  1654  1983 I bigb    : (REDACTED) Client type %s set for %s
+11-18 18:34:03.869  1654  1983 I bigb    : (REDACTED) Client type %s set for %s
+11-18 18:34:03.869  1654  1983 I bigb    : (REDACTED) Client type %s set for %s
+11-18 18:34:03.870  1654  1885 I blgd    : (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+11-18 18:34:03.870  1654  1885 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.870  1654  1885 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.870  1654  1885 I bipp    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Current Locale set to: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Assistant is currently enabled: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig InputModality is currently: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Speed Bump entry points: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Long Press Power Education entrypoints: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Robin entrypoints: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Preferred audio route type: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Earcons to be added: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Mic occupied behavior: %s
+11-18 18:34:03.871  1654  1885 I bhwr    : (REDACTED) #initialConfig Headphone voice queries and spoken notifications status: %s
+11-18 18:34:03.871  1654  1885 I biiy    : (REDACTED) #FCF: Preferred assistant locale set %s 
+11-18 18:34:03.871  1654  1885 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.871  1654  1885 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.871  1654  1885 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.871  1654  1885 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.871  1654  1885 I bipp    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.872  1654  1885 I bipr    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.872  1654  1885 I bipv    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.872  1654  1885 I biiy    : (REDACTED) #FCF: Preferred assistant locale set %s 
+11-18 18:34:03.872  1654  1885 I bijr    : (REDACTED) FCF System FeatureName to check: %s
+11-18 18:34:03.872  1654  1885 I bijr    : (REDACTED) FCF: Device model check status : %s
+11-18 18:34:03.872  1654  1885 I biqb    : (REDACTED) #evaluate: isEnabled[ = %s failure reasons: %s
+11-18 18:34:03.872  1654  1885 I biqa    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+11-18 18:34:03.872  1654  1885 I bhwr    : (REDACTED) Needs to download files: %s
+11-18 18:34:03.872  1654  1885 I bxxg    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+11-18 18:34:03.872  1654  1885 I bosm    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+11-18 18:34:03.872  1654  1885 I biqq    : User not OptedIn. Skipping Eligibility Checks.
+11-18 18:34:03.872  1654  1885 I bhxn    : No changes in config detected
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.CarrierId.CarrierIdConfig@6f59aab, StoredState: com.google.android.configupdater.StoredState@6f52508, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@3d964a1, FlagHelper: com.google.android.configupdater.PhenotypeHelper@5bf16c6
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Loaded SharedPreferences: CarrierIdDownload
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.873  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.874  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843874, max delay: 21600000
+11-18 18:34:03.874  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.877  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.EmergencyNumberDb.EmergencyNumberDbConfig@83b89b4, StoredState: com.google.android.configupdater.StoredState@a86a9dd, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@105d952, FlagHelper: com.google.android.configupdater.PhenotypeHelper@f20b423
+11-18 18:34:03.877  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.877  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Loaded SharedPreferences: EmergencyNumberDbDownload
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.878  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843878, max delay: 21600000
+11-18 18:34:03.878  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.887  1837  2320 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.TelephonyConfigUpdate.TelephonyConfigUpdateConfig@8c906d9, StoredState: com.google.android.configupdater.StoredState@284389e, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@3c06f7f, FlagHelper: com.google.android.configupdater.PhenotypeHelper@6225b4c
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Setting up DownloadManagerHelper
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Loaded SharedPreferences: TelephonyConfigUpdateDownload
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Got DownloadManager service
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Is wearable device: false
+11-18 18:34:03.887  3224  3224 D ConfigUpdater: Received intent with action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:03.888  3224  3224 D ConfigUpdater: Last update start time: 0, current time: 1795026843888, max delay: 21600000
+11-18 18:34:03.888  3224  3224 E ConfigUpdater: ignoring update request
+11-18 18:34:03.888  1349  2359 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:7 exec_start_elapsed_seconds: 67 [CONTEXT service_id=218 ]
+11-18 18:34:03.892  1681  2026 I gle.android.gms: AssetManager2(0x70339c228878) locale list changing from [] to [en-US]
+11-18 18:34:03.896  1681  2026 I gle.android.gms: AssetManager2(0x70339c228eb8) locale list changing from [] to [en-US]
+11-18 18:34:03.906  1681  2026 I gle.android.gms: AssetManager2(0x70339c2291d8) locale list changing from [] to [en-US]
+11-18 18:34:03.906  1837  2028 I SS3PSurfacesSuggestAggr: Neither TNG Smartspace widget nor OEM is enabled.
+11-18 18:34:03.913  1837  2028 I BcSsSuggestionAgg: TNG Bluechip smartspace not enabled.
+11-18 18:34:03.917  1837  2028 W ccdz    : Triggering event does not contain a headphone connection.
+11-18 18:34:03.924  1681  2026 I gle.android.gms: AssetManager2(0x70339c225998) locale list changing from [] to [en-US]
+11-18 18:34:03.929  1837  1837 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:03.930  1496  1496 I extservices: AdServices files cleanup receiver received BOOT_COMPLETED broadcast for user 0
+11-18 18:34:03.930  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c223d78) locale list changing from [] to [en-US]
+11-18 18:34:03.931  1496  1496 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-18 18:34:03.933  1837  1837 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:03.934  1496  1496 D extservices: AdServices files cleanup receiver data deletion success: true
+11-18 18:34:03.935  1496  1496 D extservices: Scheduling AdServicesAppsearchDeleteJobService ...
+11-18 18:34:03.935  1496  1496 W JobInfo : Requested flex +15m0s0ms for job 27 is too small; raising to +8h24m0s0ms
+11-18 18:34:03.942   607  1752 D ConnectivityService: requestNetwork for uid/pid:1000/607 asUid: 10212 activeRequest: null callbackRequest: 107 [NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|BLK
+11-18 18:34:03.943  1837  1837 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:34:03.943  1496  1496 D extservices: Scheduled AdServicesAppsearchDeleteJobService with job id: 27
+11-18 18:34:03.944   607   922 D ConnectivityService: NetReassign [108 : null → 100] [c 0] [a 1] [i 0]
+11-18 18:34:03.945   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:03.945   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:03.945   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:03.945   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:03.945   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10212 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:03.952  1837  1837 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:03.953  1837  1837 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:34:03.953  1496  1496 D extservices: Disabled AdServices files cleanup receiver
+11-18 18:34:03.959  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:03.959  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:03.967  1837  2004 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:03.976   450   450 I Zygote  : Process 1496 exited due to signal 9 (Killed)
+11-18 18:34:03.979   607   638 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10216 pid=0
+11-18 18:34:03.979   607   638 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10216 => denied (55 us)
+11-18 18:34:03.979   607   638 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10216 pid=0
+11-18 18:34:03.979   607   638 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10216 => denied (21 us)
+11-18 18:34:03.979   607   638 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10216 pid=0
+11-18 18:34:03.979   607   638 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10216 => denied (10 us)
+11-18 18:34:03.982   447   469 I netd    : tetherGetStats() -> {[]} <0.34ms>
+11-18 18:34:03.986   607   666 I ActivityTaskManager: Displayed com.university.jsnippets/.MainActivity for user 0: +736ms
+11-18 18:34:03.989  1253  1253 D BaseDepthController: setSurface:
+11-18 18:34:03.989  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:34:03.989  1253  1253 D BaseDepthController: 	mBaseSurface: null
+11-18 18:34:03.989  1253  1253 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:34:03.990  1253  1285 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.ext.services], user=UserHandle{0}
+11-18 18:34:04.008  1529  1627 W JobInfo : Requested important-while-foreground flag for job10 is ignored and takes no effect
+11-18 18:34:04.010  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c22aad8) locale list changing from [] to [en-US]
+11-18 18:34:04.027  2677  2759 D WM-SystemJobScheduler: Scheduling work ID c842d124-8d51-4337-8533-dc7c5ee501d5Job ID 15
+11-18 18:34:04.033  1253  1253 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:34:04.033  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:4)
+11-18 18:34:04.033  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:1)
+11-18 18:34:04.033  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:34)
+11-18 18:34:04.033  1253  1253 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:34:04.034   607   677 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10212/pid_1496
+11-18 18:34:04.036   607   768 I ImeTracker: com.university.jsnippets:b043d20f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:34:04.039  2997  2997 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:34:04.040  2997  2997 I ImeTracker: com.university.jsnippets:b043d20f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:34:04.041  1349  2353 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 598807]
+11-18 18:34:04.048  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:34:04.049  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:34:04.050  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.jsnippets, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:34:04.051  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:34:04.051  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:34:04.051  1188  1188 D CarrierSvcBindHelper: onPackageModified: com.google.android.ext.services
+11-18 18:34:04.052  1188  1188 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:34:04.069   607   728 I ImeTracker: system_server:85d76aca: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:34:04.070   607   675 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10198, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:04.071  1253  1285 W AllAppsList: updatePackage: no Activities matched updated package, removing any AppInfo with package=com.google.android.ext.services, user=UserHandle{0}
+11-18 18:34:04.073  1349  1349 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.account.workaccount.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-18 18:34:04.077  1349  2289 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:34:04.077  1349  2289 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} [CONTEXT service_id=132 ]
+11-18 18:34:04.089  1654  1922 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:34:04.090  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:04.094  1253  1253 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:34:04.094  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.ext.services
+11-18 18:34:04.096   450   450 D Zygote  : Forked child process 3261
+11-18 18:34:04.096  2677  2835 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:203 filling CallRecordingDataSource
+11-18 18:34:04.097  2677  2835 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.fill:98 enter
+11-18 18:34:04.099  2677  2677 I DialerVoicemailPowerCycleReceiver: com.android.dialer.voicemail.service.receivers.VoicemailPowerCycleReceiver.onReceive:52 onReceive with intent action: android.intent.action.BOOT_COMPLETED
+11-18 18:34:04.100  2677  2677 I DialerDialerVisualVoicemailService: com.android.voicemail.impl.DialerVisualVoicemailService.onBoot:377 onBoot [CONTEXT enable_persistent_logger=true ]
+11-18 18:34:04.100  2677  2835 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleInsertsAndUpdatesFromAnnotatedCallLog:113 enter
+11-18 18:34:04.106  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:04.106  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:04.106  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:04.109  3261  3261 I ederatedcompute: Using CollectorTypeCMC GC.
+11-18 18:34:04.106  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:04.110  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:04.110  2677  2677 I DialerStatusCheckJobService: com.android.voicemail.impl.StatusCheckJobService.schedule:56 job already scheduled [CONTEXT enable_persistent_logger=true ]
+11-18 18:34:04.117  3261  3261 W ederatedcompute: Unexpected CPU variant for x86: x86_64.
+11-18 18:34:04.117  3261  3261 W ederatedcompute: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:34:04.118  1188  1188 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:04.118   607  2080 W system_server: Long monitor contention with owner AccessibilityManagerService PackageMonitor (772) at java.util.ArrayList com.android.server.accessibility.AccessibilityManagerService$AccessibilityDisplayListener.getValidDisplayList()(AccessibilityManagerService.java:5525) waiters=0 in void com.android.server.accessibility.AccessibilityWindowManager.removeAccessibilityInteractionConnection(android.view.IWindow) for 111ms
+11-18 18:34:04.119  3261  3261 E ederatedcompute: Not starting debugger since process cannot load the jdwp agent.
+11-18 18:34:04.120  2677  2764 I DialerCallRecordingDataSourceStatusService: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSourceStatusService.getTimestampOfLastSyncedCallRecordingInfoMillis:100 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:34:04.124  2677  2766 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.getAnnotatedCallLogIdsToCallRecordingInfoMap:334 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:34:04.127  1611  1611 D PickerSyncController: Schedule enable cloud media query task.
+11-18 18:34:04.138   607   669 I ImeTracker: system_server:85d76aca: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:34:04.153  2677  2701 I .android.dialer: Background concurrent mark compact GC freed 107MB AllocSpace bytes, 4(208KB) LOS objects, 37% free, 40MB/64MB, paused 469.370ms,11.663ms total 3.001s
+11-18 18:34:04.158  1529  1627 W JobInfo : Requested important-while-foreground flag for job11 is ignored and takes no effect
+11-18 18:34:04.160  1635  1635 W ogle.android.as: Long monitor contention with owner aiai-min-shared-0 (1817) at java.lang.Object jdh.a(abfr)(PG:222) waiters=0 in void jdd.a(java.lang.String, int) for 3.793s
+11-18 18:34:04.169  2898  2898 I RkpdBootReceiver: Caught boot intent, waking up.
+11-18 18:34:04.169  2898  2898 I RkpdSettings: Setting ID
+11-18 18:34:04.172  2898  2898 I RkpdBootReceiver: Queueing a one-time provisioning job for widevine provisioning.
+11-18 18:34:04.172  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: BROADCAST_RECEIVER, function parameters: [Broadcast to com.android.dialer.voicemail.notification.receivers.VoicemailNotificationReceiver_Receiver android.intent.action.BOOT_COMPLETED,2026-11-18 18:33:56.169], return value: <empty>
+11-18 18:34:04.180  1635  1635 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.university.jsnippets], userId:[0], reason:[package is added.].
+11-18 18:34:04.181  1635  1635 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.university.jsnippets.test], userId:[0], reason:[package is added.].
+11-18 18:34:04.182  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: BROADCAST_RECEIVER, function parameters: [Broadcast to CachedTelephonyManager,2026-11-18 18:34:01.946], return value: <empty>
+11-18 18:34:04.183  2898  2963 W JobInfo : Requested important-while-foreground flag for job0 is ignored and takes no effect
+11-18 18:34:04.183  2898  2963 D CompatChangeReporter: Compat change id reported: 311402873; UID 10213; state: ENABLED
+11-18 18:34:04.183  2898  2963 D CompatChangeReporter: Compat change id reported: 323349338; UID 10213; state: ENABLED
+11-18 18:34:04.183  2898  2963 D WM-SystemJobScheduler: Scheduling work ID fc15407f-498a-49ae-878c-cc7b7b6e2198Job ID 0
+11-18 18:34:04.183  1635  2140 I AiAiEcho: AppIndexer Package:[com.university.jsnippets] UserProfile:[0] Enabled:[true].
+11-18 18:34:04.183  1635  2140 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.university.jsnippets], userId:[0], reason:[package is updated.].
+11-18 18:34:04.184  1635  2342 I ogle.android.as: AssetManager2(0x70339c2311f8) locale list changing from [] to [en-US]
+11-18 18:34:04.187  1635  1816 I SP.AiAi : <==== Finishing job {W:b:u:l, bg}, 5736 ms. elapsed since start
+11-18 18:34:04.187  1635  1816 I SP.AiAi : Download stopped: manifests:captions_i18n_v0_background-20210623, succeeded, size: 3481
+11-18 18:34:04.196  2677  2764 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleDeletesFromAnnotatedCallLog:137 enter
+11-18 18:34:04.196  2677  2764 I DialerCallRecordingInfoStorageAsyncSqlite: com.android.dialer.callrecording.impl.storage.CallRecordingInfoStorageAsyncSqlite.deleteCallLogInitiated:501 enter
+11-18 18:34:04.196  2677  2764 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.addDeleteUpdatesFromCallRecordingInitiatedDeletes:181 enter
+11-18 18:34:04.197  2677  2764 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:218 applying mutations
+11-18 18:34:04.197  2677  2764 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:232 coalescing call history
+11-18 18:34:04.197  2677  2764 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesce:114 coalesce
+11-18 18:34:04.199  2677  2835 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:241 coalescing conversation history
+11-18 18:34:04.201  2677  2835 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesce:122 coalesce
+11-18 18:34:04.202  2677  2767 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesceInternal:161 coalesceInternal
+11-18 18:34:04.203  2677  2835 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.onSuccessfulFill:221 enter
+11-18 18:34:04.203  1482  1951 I DownloadManager: DownloadManager$3.onProgress():514 Downloading __SP_handwriting_recognition with size 10860158
+11-18 18:34:04.204  2677  2759 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.onSuccessfulFillInternal:349 on successful fill with maxTimestampProcessed: null
+11-18 18:34:04.205  1482  1951 I DownloadManager: DownloadManager$3.onProgress():514 Downloading __SP_handwriting_recognition with size 10860158
+11-18 18:34:04.206  1482  1898 W nqx     : Request failed for unknown reason, see exception: 
+11-18 18:34:04.206  1482  1898 W nqx     : nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:04.206  1482  1898 W nqx     : 	at nqt.run(PG:1172)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at cmb.run(PG:10)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at svo.run(PG:27)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at jab.run(PG:51)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:04.206  1482  1898 W nqx     : 	at izq.run(PG:8)
+11-18 18:34:04.206  1482  1898 W nqx     : Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:04.206  1482  1898 W nqx     : 	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@252635038@25.26.35 (260800-0):5)
+11-18 18:34:04.207  1681  1681 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.credential.manager.service.zeroparty.checkup.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:34:04.211  1482  1907 W nqx     : Request failed for unknown reason, see exception: 
+11-18 18:34:04.211  1482  1907 W nqx     : nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:04.211  1482  1907 W nqx     : 	at nqt.run(PG:1172)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at cmb.run(PG:10)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at svo.run(PG:27)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at jab.run(PG:51)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:04.211  1482  1907 W nqx     : 	at izq.run(PG:8)
+11-18 18:34:04.211  1482  1907 W nqx     : Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:04.211  1482  1907 W nqx     : 	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@252635038@25.26.35 (260800-0):5)
+11-18 18:34:04.212  3261  3261 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:34:04.212  1014  2312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10212
+11-18 18:34:04.215  2677  2764 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:153 coalesceWithSelection
+11-18 18:34:04.215  2677  2764 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:153 coalesceWithSelection
+11-18 18:34:04.220  1611  1611 D MediaProvider: Removing disabled package: com.google.android.gms.supervision from providers list if required.
+11-18 18:34:04.221  1611  1611 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.221  1611  1611 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread main]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.222  1611  1611 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.229  2677  2835 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCallsInConversationHistory:168 saveToFileForAllCallsInConversationHistory
+11-18 18:34:04.230  2677  2766 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:188 coalesceInternal
+11-18 18:34:04.231  1349  1353 W .gms.persistent: Suspending all threads took: 120.546ms
+11-18 18:34:04.232  2997  2997 D DB      : 1: Ayesha
+11-18 18:34:04.234  1611  1611 D MediaProvider: Removing disabled package: com.android.devicelockcontroller from providers list if required.
+11-18 18:34:04.234  1611  1611 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.235  1611  1611 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread main]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.236  1611  1611 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.243  2677  2767 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:188 coalesceInternal
+11-18 18:34:04.244  1611  1611 D MediaProvider: Removing disabled package: com.android.nfc from providers list if required.
+11-18 18:34:04.244  1611  1611 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.245  1611  1611 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread main]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.245  1611  1611 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:34:04.246  2677  2759 I DialerCallerIdFeedbackPhoneLookupContributor: com.android.dialer.calleridfeedback.impl.phonelookup.CallerIdFeedbackPhoneLookupContributor.onSuccessfulBulkUpdate:130 Writing timestampOfLastCallerIdFeedbackLookup : 1795026838198
+11-18 18:34:04.247  2677  2764 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCalls:121 saveToFileForAllCalls
+11-18 18:34:04.253  1611  1611 D WM-RescheduleReceiver: Received intent Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.google.android.providers.media.module/androidx.work.impl.background.systemalarm.RescheduleReceiver (has extras) }
+11-18 18:34:04.257  1482  1951 I DownloadManager: DownloadManager$3.onProgress():514 Downloading __SP_handwriting_recognition with size 10867256
+11-18 18:34:04.258  2677  2764 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForMissedCalls:144 saveToFileForMissedCalls
+11-18 18:34:04.260  2677  2764 I DialerVvmServiceSchedulerImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmServiceSchedulerImpl.schedule:348 scheduling action: ACTIVATE [CONTEXT enable_persistent_logger=true ]
+11-18 18:34:04.263  2677  2767 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:220 start writing coalesced_rows_for_all_calls
+11-18 18:34:04.266   607   750 I RoleService: Granting default roles...
+11-18 18:34:04.267  2677  2759 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:220 start writing coalesced_rows_for_missed_calls
+11-18 18:34:04.292  1482  1907 I DownloadManager: DownloadManager$3.onProgress():514 Downloading __SP_handwriting_recognition with size 10868819
+11-18 18:34:04.311  1188  1420 D ImsResolver: maybeAddedImsService, packageName: com.google.android.ext.services
+11-18 18:34:04.311  1188  1420 V ImsResolver: searchForImsServices: package=com.google.android.ext.services, users=[UserHandle{0}]
+11-18 18:34:04.312  1188  1420 V ImsResolver: searchForImsServices: package=com.google.android.ext.services, users=[UserHandle{0}]
+11-18 18:34:04.313   607  1834 I system_server: AssetManager2(0x70339c21b3f8) locale list changing from [] to [en-US]
+11-18 18:34:04.314   607  1834 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10217, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:04.339  1013  1110 I ndroid.systemui: AssetManager2(0x70339c262bb8) locale list changing from [] to [en-US]
+11-18 18:34:04.349  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{92fa785 V.E...... ......ID 0,0-0,0}
+11-18 18:34:04.349  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:34:04.349  1013  1113 D SplashScreenView: Branding: view: android.view.View{43309da G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:34:04.351  1188  1188 D SatelliteController: packageStateChanged: package:com.google.android.ext.services DefaultSmsPackageName:com.google.android.apps.messaging
+11-18 18:34:04.352  1837  1837 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:04.353  1837  1837 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:34:04.355  2677  2835 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:247 enter
+11-18 18:34:04.359  2677  2770 D WM-SystemJobScheduler: Scheduling work ID 610cb01f-8aec-446f-82a3-83cd3f5b2dccJob ID 16
+11-18 18:34:04.370  1837  2003 W ConfigurationContentLdr: ContentProvider query returned null cursor, using default values
+11-18 18:34:04.371  1188  1188 V SatelliteController: Neither SMS or SatelliteGateway package
+11-18 18:34:04.372  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: PAUSED
+11-18 18:34:04.373  2997  2997 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.jsnippets.MainActivity@36df31c
+11-18 18:34:04.376   607   638 D ConnectivityService: requestNetwork for uid/pid:1000/607 asUid: 10213 activeRequest: null callbackRequest: 109 [NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|BLK
+11-18 18:34:04.376   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:04.377   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:34:04.378  1349  2896 I .gms.persistent: IncrementDisableThreadFlip blocked for 7.717ms
+11-18 18:34:04.380   607   922 D ConnectivityService: NetReassign [110 : null → 100] [c 0] [a 0] [i 0]
+11-18 18:34:04.385  1837  2149 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:04.395  2677  2767 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:225 finished writing coalesced_rows_for_all_calls
+11-18 18:34:04.396   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:04.396   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:04.396   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:04.396   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:04.397  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c21e918) locale list changing from [] to [en-US]
+11-18 18:34:04.397   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+11-18 18:34:04.398   607  1122 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+11-18 18:34:04.400  1837  2004 W ConfigurationContentLdr: ContentProvider query returned null cursor, using default values
+11-18 18:34:04.404  1635  1871 I ogle.android.as: AssetManager2(0x70339c226f78) locale list changing from [] to [en-US]
+11-18 18:34:04.405   607   669 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10217, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:04.410   607  1122 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+11-18 18:34:04.421   450   450 D Zygote  : Forked child process 3277
+11-18 18:34:04.432  1188  1188 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:04.490  1253  1253 D b/387844520: getOutlineOffsetX: measured width = 52, mNormalizedIconSize = 48, last updated width = 52
+11-18 18:34:04.499  3277  3277 I .jsnippets.test: Late-enabling -Xcheck:jni
+11-18 18:34:04.507   607  1834 W ParceledListSlice: Element #26 is 19204 bytes.
+11-18 18:34:04.508   607  1834 W ParceledListSlice: Element #27 is 19620 bytes.
+11-18 18:34:04.509   607  2085 W ParceledListSlice: Element #28 is 19656 bytes.
+11-18 18:34:04.509   607  2085 W ParceledListSlice: Element #29 is 19496 bytes.
+11-18 18:34:04.509   607  2085 W ParceledListSlice: Element #30 is 19584 bytes.
+11-18 18:34:04.509   607  2085 W ParceledListSlice: Element #31 is 19520 bytes.
+11-18 18:34:04.524  2677  2759 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:225 finished writing coalesced_rows_for_missed_calls
+11-18 18:34:04.534  2898  2963 D WM-GreedyScheduler: Starting tracking for fc15407f-498a-49ae-878c-cc7b7b6e2198
+11-18 18:34:04.535  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:04.535  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:04.535  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:04.535  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:04.535  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:04.539  2898  2942 W JobInfo : Requested important-while-foreground flag for job1 is ignored and takes no effect
+11-18 18:34:04.539  2898  2942 D WM-SystemJobScheduler: Scheduling work ID 2e698de5-9788-448a-b144-6933d691d6e6Job ID 1
+11-18 18:34:04.543  1837  2149 I enda    : Scheduling next refresh
+11-18 18:34:04.543  1837  2149 I enda    : Scheduling next refresh
+11-18 18:34:04.543  1837  2149 I enda    : Scheduling next refresh
+11-18 18:34:04.543  1837  2149 I enda    : Scheduling next refresh
+11-18 18:34:04.543  1837  2149 I enda    : Scheduling next refresh
+11-18 18:34:04.547   607  2080 W system_server: Long monitor contention with owner android.anim (670) at void com.android.server.wm.WindowSurfacePlacer$Traverser.run()(WindowSurfacePlacer.java:55) waiters=0 in void com.android.server.wm.AccessibilityController.performComputeChangedWindowsNot(int, boolean) for 111ms
+11-18 18:34:04.549  3277  3277 I .jsnippets.test: Using CollectorTypeCMC GC.
+11-18 18:34:04.549  1837  2149 I evjb    : MDD.MigrationProxyPopulator.refreshFileGroups
+11-18 18:34:04.550  1837  2149 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:04.552  1681  2026 I Icing   : Indexing com.google.android.gms-contacts_contact_id from com.google.android.gms
+11-18 18:34:04.557  3277  3277 W .jsnippets.test: Unexpected CPU variant for x86: x86_64.
+11-18 18:34:04.557  3277  3277 W .jsnippets.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:34:04.559   533   542 I adbd    : jdwp connection from 3277
+11-18 18:34:04.560  1014  2312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10146
+11-18 18:34:04.568  1013  1045 I ndroid.systemui: AssetManager2(0x70339c2660d8) locale list changing from [] to [en-US]
+11-18 18:34:04.572  1240  1240 D BatteryUsageBroadcastReceiver: onReceive:android.intent.action.BATTERY_LEVEL_CHANGED
+11-18 18:34:04.574   607  1122 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+11-18 18:34:04.576  1013  1045 I ndroid.systemui: AssetManager2(0x70339c263b58) locale list changing from [] to [en-US]
+11-18 18:34:04.598  1635  1871 I ogle.android.as: AssetManager2(0x70339c2275b8) locale list changing from [] to [en-US]
+11-18 18:34:04.599  1635  1871 I ogle.android.as: AssetManager2(0x70339c230898) locale list changing from [] to [en-US]
+11-18 18:34:04.601  1635  1871 I ogle.android.as: AssetManager2(0x70339c232e18) locale list changing from [] to [en-US]
+11-18 18:34:04.605  1635  1871 I ogle.android.as: AssetManager2(0x70339c230bb8) locale list changing from [] to [en-US]
+11-18 18:34:04.609  1188  1188 D SatelliteAccessController: Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+11-18 18:34:04.609  1188  1188 D SatelliteController: getSelectedSatelliteSubId: subId=-1
+11-18 18:34:04.614  1635  1871 I ogle.android.as: AssetManager2(0x70339c22f2b8) locale list changing from [] to [en-US]
+11-18 18:34:04.614  1654  1654 I faht    : (REDACTED) O received %s
+11-18 18:34:04.615  1635  1871 I ogle.android.as: AssetManager2(0x70339c23fc58) locale list changing from [] to [en-US]
+11-18 18:34:04.617  1635  1871 I ogle.android.as: AssetManager2(0x70339c22d698) locale list changing from [] to [en-US]
+11-18 18:34:04.617  1188  1188 D SatelliteAccessController: supportedMsgApps:com.google.android.apps.messaging
+11-18 18:34:04.619  1635  1871 I ogle.android.as: AssetManager2(0x70339c23cd78) locale list changing from [] to [en-US]
+11-18 18:34:04.620  1635  1871 I ogle.android.as: AssetManager2(0x70339c232af8) locale list changing from [] to [en-US]
+11-18 18:34:04.628  1635  1871 I ogle.android.as: AssetManager2(0x70339c2327d8) locale list changing from [] to [en-US]
+11-18 18:34:04.632  1635  1871 I ogle.android.as: AssetManager2(0x70339c241eb8) locale list changing from [] to [en-US]
+11-18 18:34:04.634  1635  1871 I AiAiEcho: EchoSearch: WidgetFetcherImpl is initialized with [35] widgets [reason=package added for userId: 0]
+11-18 18:34:04.636  2997  2997 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:34:04.647  2898  2942 D WM-GreedyScheduler: Starting tracking for 2e698de5-9788-448a-b144-6933d691d6e6,fc15407f-498a-49ae-878c-cc7b7b6e2198
+11-18 18:34:04.656  3261  3261 D nativeloader: Configuring clns-shared-9 for other apk /apex/com.android.ondevicepersonalization/app/FederatedComputeGoogle@360527520/FederatedComputeGoogle.apk. target_sdk_version=36, uses_libraries=, library_path=/apex/com.android.ondevicepersonalization/app/FederatedComputeGoogle@360527520/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.federatedcompute:/apex/com.android.ondevicepersonalization/app/FederatedComputeGoogle@360527520:/system/lib64:/system_ext/lib64
+11-18 18:34:04.657  3261  3261 D nativeloader: InitApexLibraries:
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_adservices: libhpke_jni.so:libtflite_support_classifiers_native.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_appsearch: libicing.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_art: libartservice.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_bt: libbluetooth_jni.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_conscrypt: libjavacrypto.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_mediaprovider: libpdfclient.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_nfcservices: libnfc_nci_jni.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_ondevicepersonalization: libfcp_cpp_dep_jni.so:libfcp_hpke_jni.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_os_statsd: libstats_jni.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libmainlinecronet.133.0.6876.3.so:libservice-connectivity.so:libservice-thread-jni.so:stable_cronet_libcrypto.so:stable_cronet_libssl.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_uwb: libuwb_uci_jni_rust.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_virt: libvirtualizationservice_jni.so:libvirtualmachine_jni.so
+11-18 18:34:04.657  3261  3261 D nativeloader:   com_android_wifi: libservice-wifi-jni.so
+11-18 18:34:04.658  1654  1654 I faht    : (REDACTED) O received %s
+11-18 18:34:04.663  2997  3004 I rsity.jsnippets: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:34:04.664  2898  2963 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:34:04.665  2898  2963 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:34:04.683  2677  2835 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCallsInConversationHistory:188 Finished saving coalesced rows for conversation history.
+11-18 18:34:04.684  2677  2835 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForConversationHistory:53 notifyForConversationHistory
+11-18 18:34:04.684  2677  2835 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:251 coalesced row updated
+11-18 18:34:04.687  2677  2766 I DialerSystemCallLogUpdater: com.android.dialer.calllog.refresh.impl.SystemCallLogUpdater.update:113 not updating system call log for initial build
+11-18 18:34:04.697  2677  2835 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:47 Impression: ANNOTATED_CALL_LOG_FORCE_REFRESH_NO_CHANGES_NEEDED
+11-18 18:34:04.697  2677  2835 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator$1.onSuccess:163 start refreshing for the pending request
+11-18 18:34:04.697  2677  2835 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.throttleInternalSequentially:101 throttle sequentially
+11-18 18:34:04.697  2677  2835 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.throttleInternalSequentially:142 start refreshing, checkDirty=false
+11-18 18:34:04.697  2677  2835 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.refresh:129 submitting serialized refresh request
+11-18 18:34:04.697  2677  2764 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.checkDirtyAndRebuildIfNecessary:157 isDirty: true
+11-18 18:34:04.697  2677  2764 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:187 filling systemCallLogDataSource
+11-18 18:34:04.703  2898  2963 D WM-ConstraintTracker: NetworkStateTracker24: initial state = NetworkState(isConnected=true, isValidated=true, isMetered=false, isNotRoaming=true)
+11-18 18:34:04.707  2898  2963 D WM-NetworkStateTracker: Registering network callback
+11-18 18:34:04.707  2677  2759 D WM-SystemJobScheduler: Scheduling work ID d8d27515-e241-409b-906f-4045fb4430c5Job ID 17
+11-18 18:34:04.713  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:04.713  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:04.713  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:04.713  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:04.713  2677  2759 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:04.714  2677  2759 I DialerSyncWorkManagerOneTimeScheduler: com.google.apps.tiktok.sync.impl.workmanager.SyncWorkManagerOneTimeScheduler.scheduleNextSyncSystemWakeup:102 Successfully scheduled next onetime workers
+11-18 18:34:04.716  3277  3277 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:34:04.716  2677  2764 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.fill:228 found 0 existing annotated call log ids
+11-18 18:34:04.718  2677  2759 D WM-Processor: fgy: processing WorkGenerationalId(workSpecId=d5fec1dd-b63f-40b5-90a6-183bb6f2c231, generation=0)
+11-18 18:34:04.713   607  1343 D ConnectivityService: requestNetwork for uid/pid:10213/2898 activeRequest: null callbackRequest: 111 [NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+11-18 18:34:04.726  1654  1922 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:34:04.730  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:04.732  1837  2007 I dmna    : (REDACTED) Device Compliance Fetch time taken = %sms
+11-18 18:34:04.732  1837  2007 I dmna    : Device is compliant!
+11-18 18:34:04.741  1837  1837 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:04.747  1240  1240 D BootBroadcastReceiver: refresh periodic job from action=android.intent.action.BOOT_COMPLETED
+11-18 18:34:04.749  2898  2963 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+11-18 18:34:04.750  2898  2963 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=fc15407f-498a-49ae-878c-cc7b7b6e2198, generation=0)
+11-18 18:34:04.750  2898  2963 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=2e698de5-9788-448a-b144-6933d691d6e6, generation=0)
+11-18 18:34:04.750  2898  2963 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=fc15407f-498a-49ae-878c-cc7b7b6e2198, generation=0)
+11-18 18:34:04.751  2898  2963 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=2e698de5-9788-448a-b144-6933d691d6e6, generation=0)
+11-18 18:34:04.753   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]
+11-18 18:34:04.754  2898  3303 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=30000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -50 UnderlyingNetworks: Null]
+11-18 18:34:04.757  2898  2898 D WM-WorkerWrapper: Starting work for com.android.rkpdapp.provisioner.PeriodicProvisioner
+11-18 18:34:04.758  1837  1837 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:34:04.760  2898  2898 D WM-WorkerWrapper: Starting work for com.android.rkpdapp.provisioner.WidevineProvisioner
+11-18 18:34:04.760  2898  3307 I RkpdPeriodicProvisioner: Waking up; checking provisioning state.
+11-18 18:34:04.762  1681  1693 W gle.android.gms: Suspending all threads took: 204.694ms
+11-18 18:34:04.768  2677  2677 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:04.768  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:04.768  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:04.768  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:04.768  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:04.769  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c21bd58) locale list changing from [] to [en-US]
+11-18 18:34:04.770  1837  2004 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.770  1837  2004 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.770  1837  2004 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.770  1837  2004 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.770  1837  2004 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.770  1837  2004 I evjb    : MDD.MigrationProxyPopulator.refreshFileGroups
+11-18 18:34:04.770  1837  2004 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: #scheduleLanguagePackDeletion
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: fkpr: MEDIUM
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at evog.b(PG:22)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at duzw.A(PG:24)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at duzw.i(PG:90)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at duzw.s(PG:1)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at enek.s(PG:16)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at dvrh.a(PG:143)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at fcqs.a(PG:13)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at fmry.a(PG:3)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at fmrb.run(PG:19)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at fmsa.run(PG:5)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at djui.run(PG:5)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at djts.run(PG:27)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: 	at djvl.run(PG:62)
+11-18 18:34:04.770  1837  2004 I ZipLPPopulator: #addNewFileGroups
+11-18 18:34:04.770  1837  2004 I evnv    : #getDownloadableLanguagePacks
+11-18 18:34:04.771  1837  2004 I evor    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+11-18 18:34:04.771  1837  2004 I smx     : (REDACTED) Download file group for language pack: %s
+11-18 18:34:04.771  1837  2004 W smx     : (REDACTED) Locale %s is not compatible, please check manifest exists
+11-18 18:34:04.773  1240  1240 D PeriodicJobManager: schedule next alarm job at Nov 18, 2026, 19:00:00
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: <DWB> Call failed: get_actions
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: java.util.concurrent.TimeoutException: Waited 5000 milliseconds (plus 7 milliseconds, 892960 nanoseconds delay) for lqt@789e413[status=PENDING, info=[inputFuture=[lqs@2e61650[status=PENDING, setFuture=[lqa@8a41049[status=PENDING, info=[inputFuture=[lqt@c475d4e[status=PENDING, info=[inputFuture=[lqt@124ae6f[status=PENDING, info=[inputFuture=[lrn@29e477c[status=PENDING, info=[futures=[lqt@d146805[status=PENDING, info=[inputFuture=[lqt@240005a[status=PENDING, info=[inputFuture=[lsm@4f7c28b[status=PENDING, info=[delegate=[ltr@d465f68[status=PENDING, setFuture=[lqt@a787f81[status=PENDING, info=[inputFuture=[lqs@aedc826[status=PENDING, info=[inputFuture=[lsm@d9dfc67[status=PENDING, info=[delegate=[ltr@dd60a14[status=PENDING, info=[task=[running=[NOT STARTED YET], propagating=[bxz@aac92bd]]]]]]]], function=[propagating=[bxw@b5e40b2]]]]], function=[propagating=[bxy@a83f803]]]]]]]]]], function=[propagating=[bxj@513b380]]]]], function=[propagating=[dfl@f149db9]]]]]]]], function=[propagating=[cxt@9ebb5fe]]]]], function=[propagating=[buz@b44115f]]]]], exceptionType=[class java.lang.Throwable], fallback=[propagating=[bxy@7c087ac]]]]]]], function=[propagating=[buz@1585c75]]]]
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at lqq.get(PG:52)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at lse.get(PG:2)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at com.google.android.apps.wellbeing.api.impl.WellbeingSettingsProvider.i(PG:9)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at com.google.android.apps.wellbeing.api.impl.WellbeingSettingsProvider.call(PG:154)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at android.content.ContentProvider.call(ContentProvider.java:2709)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:638)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:307)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at android.os.Binder.execTransactInternal(Binder.java:1421)
+11-18 18:34:04.774  1529  2314 W WellbeingSettingsProvid: 	at android.os.Binder.execTransact(Binder.java:1365)
+11-18 18:34:04.774  2677  2770 D WM-Processor: Work WorkGenerationalId(workSpecId=78d39c34-58dd-4602-81a0-609e0d0a2ae2, generation=0) is already enqueued for processing
+11-18 18:34:04.774  2677  2770 D WM-Processor: Work WorkGenerationalId(workSpecId=230b1694-5098-4e3f-89f0-367b3eaa451f, generation=0) is already enqueued for processing
+11-18 18:34:04.775  2677  2770 D WM-Processor: Processor cancelling 230b1694-5098-4e3f-89f0-367b3eaa451f
+11-18 18:34:04.775  2677  2770 D WM-Processor: WorkerWrapper interrupted for 230b1694-5098-4e3f-89f0-367b3eaa451f
+11-18 18:34:04.778  1837  2008 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=8de1d6e2-6a3f-48b7-8b1c-cd3ae31f3f97, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.google.android.libraries.search.integrations.notifications.registration.workers.PeriodicChimeRegistrationWorker } ]
+11-18 18:34:04.779  1837  2008 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f3a7922b-153a-4953-970a-42d73c837d51, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.google.android.apps.gsa.smartspace.task.LoggerTask } ]
+11-18 18:34:04.779  1837  2008 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=972bc621-6880-445c-bfe9-a0af6feab469, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.google.android.apps.gsa.staticplugins.opa.worker.nudgeui.ResetOpaNgaQueryCounterTask } ]
+11-18 18:34:04.780  1837  2041 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+11-18 18:34:04.785  2677  2677 I DialerVvmDailyWorker: com.android.dialer.voicemail.service.receivers.VvmDailyWorker.startWork:86 startWork
+11-18 18:34:04.785  2677  2835 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_STARTED, function parameters: [230b1694-5098-4e3f-89f0-367b3eaa451f,com.android.dialer.voicemail.service.receivers.VvmDailyWorker], return value: <empty>
+11-18 18:34:04.785  1837  2007 I dmna    : Invoking "compliant" action...
+11-18 18:34:04.787  1681  2026 I Icing   : Indexing done com.google.android.gms-contacts_contact_id
+11-18 18:34:04.787  1681  2026 I Icing   : Indexing com.google.android.gms-emails_data_id from com.google.android.gms
+11-18 18:34:04.787  1681  2026 I Icing   : Indexing done com.google.android.gms-emails_data_id
+11-18 18:34:04.788  1681  2026 I Icing   : Indexing com.google.android.gms-phones_data_id from com.google.android.gms
+11-18 18:34:04.791  3261  3261 I ederatedcompute: AssetManager2(0x70339c20d938) locale list changing from [] to [en-US]
+11-18 18:34:04.792   607  2108 D FileUtils: Rounded bytes from 2593075200 to 4000000000
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: #scheduleLanguagePackDeletion
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: fkpr: MEDIUM
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at evog.b(PG:22)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at duzw.A(PG:24)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at duzw.E(PG:1)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at duzw.i(PG:85)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at duzw.s(PG:1)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at enek.s(PG:16)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at dvrh.a(PG:143)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at fcqs.a(PG:13)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at fmry.a(PG:3)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at fmrb.run(PG:19)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at fmsa.run(PG:5)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at djui.run(PG:5)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at djts.run(PG:27)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: 	at djvl.run(PG:62)
+11-18 18:34:04.794  1837  2149 I ZipLPPopulator: #addNewFileGroups
+11-18 18:34:04.794  1837  2149 I evnv    : #getDownloadableLanguagePacks
+11-18 18:34:04.794  1837  2149 I evor    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+11-18 18:34:04.794  1837  2149 I smx     : (REDACTED) Download file group for language pack: %s
+11-18 18:34:04.794  1837  2149 W smx     : (REDACTED) Locale %s is not compatible, please check manifest exists
+11-18 18:34:04.795  2677  2677 W DialerTikTokListenableWorker: com.google.apps.tiktok.contrib.work.TikTokListenableWorker.logOnCancellationOrFailure:182 TikTokListenableWorker was cancelled while running client worker: com.android.dialer.voicemail.service.receivers.VvmDailyWorker
+11-18 18:34:04.795  2677  2677 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:04.801  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_STARTED, function parameters: [78d39c34-58dd-4602-81a0-609e0d0a2ae2,com.android.dialer.voicemail.service.metrics.VvmNotificationWorker], return value: <empty>
+11-18 18:34:04.803   607   922 D ConnectivityService: NetReassign [112 : null → 100] [c 0] [a 20] [i 52]
+11-18 18:34:04.803   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]
+11-18 18:34:04.803   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]
+11-18 18:34:04.803   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]
+11-18 18:34:04.803   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10213 RequestorUid: 10213 RequestorPkg: com.google.android.rkpdapp UnderlyingNetworks: Null] ]
+11-18 18:34:04.804  1837  1837 D WM-Processor: kug 8de1d6e2-6a3f-48b7-8b1c-cd3ae31f3f97 executed; reschedule = false
+11-18 18:34:04.805  1837  1837 D WM-Processor: kug f3a7922b-153a-4953-970a-42d73c837d51 executed; reschedule = false
+11-18 18:34:04.806  1240  1240 D BatterySettingsMigrateChecker: onReceive: Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.settings/.fuelgauge.BatterySettingsMigrateChecker (has extras) } owner: true
+11-18 18:34:04.806  1240  1240 D BatterySettingsMigrateChecker: invoke verifySaverConfiguration()
+11-18 18:34:04.807  2898  3307 V RkpdServerInterface: Requesting data from server. Attempt 1
+11-18 18:34:04.808  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_FINISHED, function parameters: [78d39c34-58dd-4602-81a0-609e0d0a2ae2,com.android.dialer.voicemail.service.metrics.VvmNotificationWorker], return value: Success
+11-18 18:34:04.810  2677  2677 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=230b1694-5098-4e3f-89f0-367b3eaa451f, generation=0)
+11-18 18:34:04.815  1837  2191 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:04.816  1681  2902 I PeopleGalProvider: Gal directories started.
+11-18 18:34:04.816  1837  2191 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.816  1837  2191 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.816  1837  2191 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.816  1837  2191 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.816  1837  2191 I enda    : Throttled; returning pending refresh
+11-18 18:34:04.816  1837  2191 I evjb    : MDD.MigrationProxyPopulator.refreshFileGroups
+11-18 18:34:04.816  1837  2191 E SingleDataFileGroupPop: Failed to add file group 
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: #scheduleLanguagePackDeletion
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: fkpr: MEDIUM
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at evog.b(PG:22)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at duzw.A(PG:24)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at duzw.E(PG:1)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at duzw.i(PG:80)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at duzw.s(PG:1)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at enek.s(PG:16)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at dvrh.a(PG:143)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at fcqs.a(PG:13)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at fmry.a(PG:3)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at fmrb.run(PG:19)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at fmsa.run(PG:5)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at djui.run(PG:5)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at djts.run(PG:27)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: 	at djvl.run(PG:62)
+11-18 18:34:04.816  1837  2191 I ZipLPPopulator: #addNewFileGroups
+11-18 18:34:04.816  1837  2191 I evnv    : #getDownloadableLanguagePacks
+11-18 18:34:04.816  1837  2191 I evor    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+11-18 18:34:04.816  1837  2191 I smx     : (REDACTED) Download file group for language pack: %s
+11-18 18:34:04.816  1837  2191 W smx     : (REDACTED) Locale %s is not compatible, please check manifest exists
+11-18 18:34:04.821   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:04.825  2677  2770 D WM-GreedyScheduler: Cancelling work ID 230b1694-5098-4e3f-89f0-367b3eaa451f
+11-18 18:34:04.829  1240  1240 D BatterySettingsMigrateChecker: invoke verifyOptimizationModes()
+11-18 18:34:04.832  1837  2028 I ZipLPPopulator: #addNewFileGroups complete
+11-18 18:34:04.832  1837  2028 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+11-18 18:34:04.832  1837  2028 I evnv    : #getInstalledPackages from MDD
+11-18 18:34:04.832  1837  2028 I evnv    : #GetLanguagePackList
+11-18 18:34:04.832  1837  2028 I evnv    : MDD.getFileGroupsByFilter(langpack-domain_xx-XX_ver_zipfile)
+11-18 18:34:04.832  1837  2028 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+11-18 18:34:04.833  1837  2028 I ZipLPPopulator: #addNewFileGroups complete
+11-18 18:34:04.833  1837  2028 I evnv    : #getInstalledPackages from MDD
+11-18 18:34:04.833  1837  2028 I evnv    : #GetLanguagePackList
+11-18 18:34:04.833  1837  2028 I evnv    : MDD.getFileGroupsByFilter(langpack-domain_xx-XX_ver_zipfile)
+11-18 18:34:04.833  1837  2028 I ZipLPPopulator: #addNewFileGroups complete
+11-18 18:34:04.833  1837  2028 I evnv    : #getInstalledPackages from MDD
+11-18 18:34:04.833  1837  2028 I evnv    : #GetLanguagePackList
+11-18 18:34:04.833  1837  2028 I evnv    : MDD.getFileGroupsByFilter(langpack-domain_xx-XX_ver_zipfile)
+11-18 18:34:04.836  2677  2775 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:34:04.840  1681  2902 I PeopleGalProvider: Method 1 completed.
+11-18 18:34:04.840  1681  2902 I PeopleGalProvider: Method 1 finished successfully.
+11-18 18:34:04.844  2677  2770 W JobInfo : Requested important-while-foreground flag for job18 is ignored and takes no effect
+11-18 18:34:04.844  2677  2770 D WM-SystemJobScheduler: Scheduling work ID edf64a84-d396-4dd8-adf5-4c3d1556f41aJob ID 18
+11-18 18:34:04.850  1240  1240 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:04.850   607  1834 W ParceledListSlice: Element #26 is 19620 bytes.
+11-18 18:34:04.851   607  1834 W ParceledListSlice: Element #27 is 19656 bytes.
+11-18 18:34:04.852  1635  2220 I AiAiEcho: AppIndexer Package:[com.android.devicelockcontroller] UserProfile:[0] Enabled:[false].
+11-18 18:34:04.853  1635  2344 I AiAiEcho: AppIndexer Package:[com.university.jsnippets.test] UserProfile:[0] Enabled:[true].
+11-18 18:34:04.853  1635  2344 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.university.jsnippets.test], userId:[0], reason:[package is updated.].
+11-18 18:34:04.854  1635  2220 I AiAiEcho: AppIndexer Package:[com.android.nfc] UserProfile:[0] Enabled:[false].
+11-18 18:34:04.857  1837  2004 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:04.857  1837  2004 I agyw    : Fetching latest config from MDD...
+11-18 18:34:04.857  1837  2004 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:04.858  1837  2004 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:04.858  1837  2004 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:04.858  1837  2004 I agyw    : Fetching latest config from MDD...
+11-18 18:34:04.858  1837  2004 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:04.858  1635  2342 I AiAiEcho: AppIndexer Package:[com.google.android.ext.services] UserProfile:[0] Enabled:[true].
+11-18 18:34:04.858  1635  2342 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.ext.services], userId:[0], reason:[package is updated.].
+11-18 18:34:04.859   607  1160 W ParceledListSlice: Element #28 is 19496 bytes.
+11-18 18:34:04.859   607  1160 W ParceledListSlice: Element #29 is 19584 bytes.
+11-18 18:34:04.859   607  1160 W ParceledListSlice: Element #30 is 19520 bytes.
+11-18 18:34:04.864  1253  1285 I s.nexuslauncher: AssetManager2(0x70339c24c138) locale list changing from [] to [en-US]
+11-18 18:34:04.869  2898  3307 V RkpdServerInterface: Network request completed successfully.
+11-18 18:34:04.869  2898  3307 I RkpdPeriodicProvisioner: Total services found implementing IRPC: 1
+11-18 18:34:04.869  2898  3307 I RkpdPeriodicProvisioner: Starting provisioning for com.android.rkpdapp.interfaces.SystemInterface{android.hardware.security.keymint.IRemotelyProvisionedComponent/default}
+11-18 18:34:04.870  2898  3307 I RkpdKeyPoolStats: Sufficient keys are available, no CSR needed.
+11-18 18:34:04.870  2898  3307 I RkpdKeyPoolStats: PoolStats{keysInUse=1, idealTotalSignedKeys=13, keysToGenerate=0, keysUnassigned=11}
+11-18 18:34:04.870  2898  3307 I RkpdProvisioner: Requested number of keys for provisioning: 0
+11-18 18:34:04.870  2898  3307 I RkpdPeriodicProvisioner: Logging atom metric for pool status, total: 12, numExpiring: 0, numUnassigned: 11
+11-18 18:34:04.870  2898  3307 I RkpdPeriodicProvisioner: Successfully provisioned com.android.rkpdapp.interfaces.SystemInterface{android.hardware.security.keymint.IRemotelyProvisionedComponent/default}
+11-18 18:34:04.871  2898  2942 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=fc15407f-498a-49ae-878c-cc7b7b6e2198, tags={ com.android.rkpdapp.provisioner.PeriodicProvisioner } ]
+11-18 18:34:04.871  2898  2898 D WM-Processor: Processor fc15407f-498a-49ae-878c-cc7b7b6e2198 executed; reschedule = false
+11-18 18:34:04.871  2898  2898 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=fc15407f-498a-49ae-878c-cc7b7b6e2198, generation=0)
+11-18 18:34:04.873  1240  1240 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:04.876  1654  1985 I eoet    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state and %s source
+11-18 18:34:04.876  1240  1240 D BatteryOptimizeUtils: refresh com.google.android.deskclock state, allowlisted = false, mode = 0
+11-18 18:34:04.879  1635  1816 I SP.AiAi : Scheduling job with delay of 0s for {W:C:I:l, bg}, 2 candidates
+11-18 18:34:04.880  3277  3277 D nativeloader: Configuring clns-9 for other apk /data/app/~~ja6Vq4_AaD8CP3r71eAwPQ==/com.university.jsnippets.test-OyhIfURYzACL6mhHOdowvQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~ja6Vq4_AaD8CP3r71eAwPQ==/com.university.jsnippets.test-OyhIfURYzACL6mhHOdowvQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.university.jsnippets.test
+11-18 18:34:04.881  1240  1240 W DynamicDenylistManager: resetDenylistIfNeeded: there is no valid UIDs
+11-18 18:34:04.881  1240  1240 I DynamicDenylistManager: clearSharedPreferences()
+11-18 18:34:04.883  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:04.885  1837  2149 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:04.885  1837  2149 I agyw    : Fetching latest config from MDD...
+11-18 18:34:04.885  1837  2149 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:04.885  1837  2149 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:04.885  1837  2149 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:04.885  1837  2149 I agyw    : Fetching latest config from MDD...
+11-18 18:34:04.885  1837  2149 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:04.890  1681  2026 I Icing   : Indexing done com.google.android.gms-phones_data_id
+11-18 18:34:04.890  1681  2026 I Icing   : Indexing com.google.android.gms-postals_data_id from com.google.android.gms
+11-18 18:34:04.890  1681  2026 I Icing   : Indexing done com.google.android.gms-postals_data_id
+11-18 18:34:04.891  1681  2026 I Icing   : Post-init done
+11-18 18:34:04.891  1837  2149 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:04.892  3277  3277 I .jsnippets.test: AssetManager2(0x70339c20d938) locale list changing from [] to [en-US]
+11-18 18:34:04.894  1837  1837 D WM-Processor: kug 972bc621-6880-445c-bfe9-a0af6feab469 executed; reschedule = false
+11-18 18:34:04.897  1654  2016 I baaj    : (REDACTED) isGrpcDeviceIntent: %s
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment: Currently set values for:
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment: com.university.jsnippets.test is not listed in per-application setting
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment: com.university.jsnippets.test is not listed in ANGLE allowlist or settings, returning default
+11-18 18:34:04.906  3277  3277 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:34:04.915  1253  1285 I s.nexuslauncher: AssetManager2(0x70339c239b78) locale list changing from [] to [en-US]
+11-18 18:34:04.919  1253  1285 W HWUI    : Image decoding logging dropped!
+11-18 18:34:04.924  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:04.924  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:04.924  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:04.924  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:04.924  2677  2835 I DialerLoggingConsentCheckerImpl: com.google.android.dialershared.logging.consent.impl.LoggingConsentCheckerImpl.getConsent:72 timer stop with success, timer present: false
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment: Currently set values for:
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment: com.google.android.federatedcompute is not listed in per-application setting
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment: com.google.android.federatedcompute is not listed in ANGLE allowlist or settings, returning default
+11-18 18:34:04.925  3261  3261 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-18 18:34:04.929  2677  2759 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:434 no results for CALL_IN_DIRECT_BOOT_MODE
+11-18 18:34:04.931  2677  2766 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:434 no results for REGULAR_CALL
+11-18 18:34:04.935  1188  1188 D CarrierSvcBindHelper: onPackageModified: com.google.android.googlequicksearchbox
+11-18 18:34:04.935  1188  1188 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:34:04.941  2677  2770 D WM-GreedyScheduler: Starting work for edf64a84-d396-4dd8-adf5-4c3d1556f41a
+11-18 18:34:04.943  2677  2770 D WM-Processor: Processor cancelling 78d39c34-58dd-4602-81a0-609e0d0a2ae2
+11-18 18:34:04.944  2677  2835 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_MANAGER_ENQUEUE, function parameters: [com.android.dialer.voicemail.service.receivers.VvmDailyWorker], return value: edf64a84-d396-4dd8-adf5-4c3d1556f41a
+11-18 18:34:04.954  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: BROADCAST_RECEIVER, function parameters: [Broadcast to com.android.dialer.voicemail.notification.receivers.VoicemailNotificationReceiver_Receiver android.intent.action.BOOT_COMPLETED,2026-11-18 18:34:01.561], return value: <empty>
+11-18 18:34:04.957  2677  2770 D WM-Processor: WorkerWrapper interrupted for 78d39c34-58dd-4602-81a0-609e0d0a2ae2
+11-18 18:34:04.962   607   644 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:04.963  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.googlequicksearchbox
+11-18 18:34:04.963  1188  1429 I SatelliteAppTracker: onPackageModified : com.android.camera2
+11-18 18:34:04.963  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.apps.wellbeing
+11-18 18:34:04.965   607  1003 W system_server: Long monitor contention with owner binder:607_D (1343) at com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean)(PackageManagerService.java:1228) waiters=6 in com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean) for 230ms
+11-18 18:34:04.965   607   731 W system_server: Long monitor contention with owner binder:607_D (1343) at com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean)(PackageManagerService.java:1228) waiters=7 in com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean) for 232ms
+11-18 18:34:04.966  2898  3308 I DrmHalHidl: No hidl drm factories found
+11-18 18:34:04.967   607   700 W system_server: Long monitor contention with owner binder:607_D (1343) at com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean)(PackageManagerService.java:1228) waiters=8 in com.android.server.pm.Computer com.android.server.pm.PackageManagerService.snapshotComputer(boolean) for 235ms
+11-18 18:34:04.968   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.drm@1.0::IDrmFactory/default in either framework or device VINTF manifest.
+11-18 18:34:04.974  2898  3308 W DrmHalHidl: Failed to find passthrough drm factories
+11-18 18:34:04.980  3277  3277 I .jsnippets.test: AssetManager2(0x70339c211ad8) locale list changing from [] to [en-US]
+11-18 18:34:04.980  1253  1285 W HWUI    : Image decoding logging dropped!
+11-18 18:34:04.981   607   965 W system_server: Long monitor contention with owner RoleControllerService (1122) at int android.content.res.AssetManager.getResourceIdentifier(java.lang.String, java.lang.String, java.lang.String)(AssetManager.java:904) waiters=0 in boolean android.content.res.AssetManager.retrieveAttributes(android.content.res.XmlBlock$Parser, int[], int[], int[]) for 394ms
+11-18 18:34:04.981   607   965 E system_server: No package ID 7f found for resource ID 0x7f080e45.
+11-18 18:34:04.981   607   965 E system_server: No package ID 7f found for resource ID 0x7f152534.
+11-18 18:34:04.981   607   965 E system_server: No package ID 7f found for resource ID 0x7f080e53.
+11-18 18:34:04.981   607   965 E system_server: No package ID 7f found for resource ID 0x7f152535.
+11-18 18:34:04.983  1635  1918 I SP.AiAi : Successfully got manifest for captions_i18n_v0_background-manifest: manifests:captions_i18n_v0_background-20210623
+11-18 18:34:04.990  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:04.990  3277  3277 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-18 18:34:04.991  1349  2359 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:7 result: 1 elapsed_millis: 1739 uptime_millis: 1739 exec_start_elapsed_seconds: 67 [CONTEXT service_id=218 ]
+11-18 18:34:04.994  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:04.996  1253  1285 W HWUI    : Image decoding logging dropped!
+11-18 18:34:04.997  1482  1907 I DownloadManager: DownloadManager$3.onProgress():514 Downloading __SP_handwriting_recognition with size 11133684
+11-18 18:34:05.001  1253  1285 W HWUI    : Image decoding logging dropped!
+11-18 18:34:05.004  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:05.004  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c222478) locale list changing from [] to [en-US]
+11-18 18:34:05.006  1253  1285 W HWUI    : Image decoding logging dropped!
+11-18 18:34:05.009  1188  1188 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:05.016   607  1122 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+11-18 18:34:05.018  1837  2191 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:05.018  1837  2191 I agyw    : Fetching latest config from MDD...
+11-18 18:34:05.018  1837  2191 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:05.019  1837  2191 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:05.019  1837  2191 I agyw    : getLocaleToModelSpecsMap
+11-18 18:34:05.019  1837  2191 I agyw    : Fetching latest config from MDD...
+11-18 18:34:05.019  1837  2191 I agyw    : (REDACTED) Found map of size: %d
+11-18 18:34:05.019  1837  2191 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:05.039  1482  1951 E MDD     : LogUtil.e():137 FileGroupManager downloadFileGroup __SP_handwriting_recognition com.google.android.inputmethod.latin can't finish!
+11-18 18:34:05.040  1482  1951 E DownloadManager: DownloadManager.startDownload():531 error downloading __SP_handwriting_recognition
+11-18 18:34:05.040  1482  1951 E DownloadManager: mxs: Failed to download file group __SP_handwriting_recognition
+11-18 18:34:05.040  1482  1951 E DownloadManager: 2 failure(s) in total:
+11-18 18:34:05.040  1482  1951 E DownloadManager: 
+11-18 18:34:05.040  1482  1951 E DownloadManager: --- Failure 1 ----------------------------
+11-18 18:34:05.040  1482  1951 E DownloadManager: mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: --- Failure 2 ----------------------------
+11-18 18:34:05.040  1482  1951 E DownloadManager: mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: -------------------------------------------
+11-18 18:34:05.040  1482  1951 E DownloadManager: 
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at ncc.E(PG:30)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at nas.a(PG:640)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at qdi.a(PG:57)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at qcs.e(PG:3)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at qcu.run(PG:38)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at qfj.run(PG:74)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at jab.run(PG:51)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at izq.run(PG:8)
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at ori.a(PG:32)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at mzx.b(PG:147)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at nqx.n(PG:60)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at nqt.run(PG:567)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at cmb.run(PG:10)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at svo.run(PG:27)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	... 5 more
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at nqt.run(PG:1172)
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	... 7 more
+11-18 18:34:05.040  1482  1951 E DownloadManager: Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E DownloadManager: 	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@252635038@25.26.35 (260800-0):5)
+11-18 18:34:05.040  1482  1951 I DownloadManager: DownloadManager.startDownload():542 Retry download filegroup __SP_handwriting_recognition 1/3
+11-18 18:34:05.040  1482  1951 I DownloadManager: DownloadManager.startDownload():495 start download of __SP_handwriting_recognition
+11-18 18:34:05.040  1482  1951 E MDD     : LogUtil.e():151 DownloadListener: onFailure
+11-18 18:34:05.040  1482  1951 E MDD     : mxs: Failed to download file group __SP_handwriting_recognition
+11-18 18:34:05.040  1482  1951 E MDD     : 2 failure(s) in total:
+11-18 18:34:05.040  1482  1951 E MDD     : 
+11-18 18:34:05.040  1482  1951 E MDD     : --- Failure 1 ----------------------------
+11-18 18:34:05.040  1482  1951 E MDD     : mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : --- Failure 2 ----------------------------
+11-18 18:34:05.040  1482  1951 E MDD     : mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : -------------------------------------------
+11-18 18:34:05.040  1482  1951 E MDD     : 
+11-18 18:34:05.040  1482  1951 E MDD     : 	at ncc.E(PG:30)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at nas.a(PG:640)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at qdi.a(PG:57)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at qcs.e(PG:3)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at qcu.run(PG:38)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at qfj.run(PG:74)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at jab.run(PG:51)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at izq.run(PG:8)
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: mxz: ANDROID_DOWNLOADER_UNKNOWN_IO_ERROR; Message: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2; 
+11-18 18:34:05.040  1482  1951 E MDD     : 	at ori.a(PG:32)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at mzx.b(PG:147)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at nqx.n(PG:60)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at nqt.run(PG:567)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at cmb.run(PG:10)
+11-18 18:34:05.040  1482  1951 E MDD     : 	at svo.run(PG:27)
+11-18 18:34:05.040  1482  1951 E MDD     : 	... 5 more
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: nqw: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : 	at nqt.run(PG:1172)
+11-18 18:34:05.040  1482  1951 E MDD     : 	... 7 more
+11-18 18:34:05.040  1482  1951 E MDD     : Caused by: m1.mt: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=0, Source=2
+11-18 18:34:05.040  1482  1951 E MDD     : 	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@252635038@25.26.35 (260800-0):5)
+11-18 18:34:05.044  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.dialer
+11-18 18:34:05.047  3277  3313 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:05.047  3277  3313 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:05.049  1635  3317 I AiAiCaptions: loadManifest(): Successfully loaded embedded manifest of superpack 'captions_i18n_v0_background' (version 20210623)
+11-18 18:34:05.053  1635  2240 I AiAiCaptions: generateAndDownloadSuperpack(): Successfully created manifest of superpack 'captions_i18n_v0_mandatory' (version 20210623), starting to download. Packs to skip: input_predictions
+11-18 18:34:05.053  1635  2240 I AiAiCaptions: generateAndDownloadSuperpack(): Successfully created manifest of superpack 'captions_i18n_v0_en-US' (version 20210623), starting to download. Packs to skip: input_predictions
+11-18 18:34:05.057  1349  2306 W WearableService: onGetService: Wear is not available on this device.
+11-18 18:34:05.075  3277  3313 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:34:05.077  1240  1240 I ActiveUnlockStatusUtils: authority not set
+11-18 18:34:05.079  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:05.092   607   772 W system_server: Long monitor contention with owner RoleControllerService (1122) at int android.content.res.AssetManager.getResourceIdentifier(java.lang.String, java.lang.String, java.lang.String)(AssetManager.java:904) waiters=1 in boolean android.content.res.AssetManager.getResourceValue(int, int, android.util.TypedValue, boolean) for 177ms
+11-18 18:34:05.094  2677  2835 I DialerLoggingConsentCheckerImpl: com.google.android.dialershared.logging.consent.impl.LoggingConsentCheckerImpl.getConsent:72 timer stop with success, timer present: false
+11-18 18:34:05.095  1529  1605 I .apps.wellbeing: AssetManager2(0x70339c21fef8) locale list changing from [] to [en-US]
+11-18 18:34:05.099   607  1122 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+11-18 18:34:05.102   450   450 D Zygote  : Forked child process 3318
+11-18 18:34:05.103   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2437 RxLinkSpeed=2
+11-18 18:34:05.109   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:34:05.109   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:34:05.109   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:34:05.109   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:34:05.116   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:34:05.116   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:34:05.116   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:34:05.117   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:34:05.117   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:34:05.117   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:34:05.117   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:34:05.120  2677  2759 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleDeletes:722 found 0 call log entries to remove
+11-18 18:34:05.122  2677  2764 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:203 filling PhoneLookupDataSource
+11-18 18:34:05.124  3277  3277 D CompatChangeReporter: Compat change id reported: 377864165; UID 10217; state: ENABLED
+11-18 18:34:05.126  3277  3277 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-18 18:34:05.135  2898  2942 D WM-GreedyScheduler: Cancelling work ID fc15407f-498a-49ae-878c-cc7b7b6e2198
+11-18 18:34:05.136   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:34:05.136   607   916 D WifiScoreCard: txRate: 137 txSpeed: 1
+11-18 18:34:05.136   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed 1
+11-18 18:34:05.136   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=1 tx=136.6, 0.0, 0.0 rx=745.1 bcn=0 [on:0 tx:0 rx:0 period:3035] from screen [on:0 period:-269484592] score=60
+11-18 18:34:05.136  2898  2942 D WM-SystemJobScheduler: Scheduling work ID fc15407f-498a-49ae-878c-cc7b7b6e2198Job ID 2
+11-18 18:34:05.141  1188  1420 D ImsResolver: maybeAddedImsService, packageName: com.google.android.googlequicksearchbox
+11-18 18:34:05.141  1188  1420 V ImsResolver: searchForImsServices: package=com.google.android.googlequicksearchbox, users=[UserHandle{0}]
+11-18 18:34:05.143  1188  1420 V ImsResolver: searchForImsServices: package=com.google.android.googlequicksearchbox, users=[UserHandle{0}]
+11-18 18:34:05.143   607  1469 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:05.147  2677  2766 I DialerSystemBlockedNumberPhoneLookupContributor: com.android.dialer.phonelookup.blockednumber.SystemBlockedNumberPhoneLookupContributor.getMostRecentInfo:106 getMostRecentInfo
+11-18 18:34:05.157   607   965 E system_server: No package ID 7f found for resource ID 0x7f080e45.
+11-18 18:34:05.157   607   965 E system_server: No package ID 7f found for resource ID 0x7f152534.
+11-18 18:34:05.157   607   965 E system_server: No package ID 7f found for resource ID 0x7f080e53.
+11-18 18:34:05.157   607   965 E system_server: No package ID 7f found for resource ID 0x7f152535.
+11-18 18:34:05.168  2677  2770 D WM-GreedyScheduler: Cancelling work ID 78d39c34-58dd-4602-81a0-609e0d0a2ae2
+11-18 18:34:05.170  2677  2770 W JobInfo : Requested important-while-foreground flag for job19 is ignored and takes no effect
+11-18 18:34:05.170  2677  2770 D WM-SystemJobScheduler: Scheduling work ID e72b3d28-aafa-42b6-8cb0-a3a236df67e0Job ID 19
+11-18 18:34:05.171  2677  2677 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=78d39c34-58dd-4602-81a0-609e0d0a2ae2, generation=0)
+11-18 18:34:05.174  1240  1240 D PrivateSpaceSafetySrc: Setting safety source data
+11-18 18:34:05.174   607  2087 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:05.182   607  2087 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:05.183   607   750 I RoleService: Granting default roles...
+11-18 18:34:05.185  3277  3277 W HWUI    : Unknown dataspace 0
+11-18 18:34:05.191  1188  1188 D SatelliteController: packageStateChanged: package:com.google.android.googlequicksearchbox DefaultSmsPackageName:com.google.android.apps.messaging
+11-18 18:34:05.191  1188  1188 V SatelliteController: Neither SMS or SatelliteGateway package
+11-18 18:34:05.193   607  2085 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:05.199  1188  1188 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:05.203  1188  1188 D SatelliteAccessController: Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+11-18 18:34:05.203  1188  1188 D SatelliteController: getSelectedSatelliteSubId: subId=-1
+11-18 18:34:05.205  1188  1188 D SatelliteAccessController: supportedMsgApps:com.google.android.apps.messaging
+11-18 18:34:05.207  1188  1188 D CarrierSvcBindHelper: onPackageModified: com.android.camera2
+11-18 18:34:05.208   607  2085 D SafetySourceDataValidat: No cert check requested for package com.android.settings
+11-18 18:34:05.210  1349  1349 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.significantplaces.api.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-18 18:34:05.214  1188  1188 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:34:05.215  1240  1240 D PrivateSpaceBroadcastReceiver: Received Intent: android.intent.action.BOOT_COMPLETED
+11-18 18:34:05.215  1240  1240 D PrivateSpaceBroadcastReceiver: Setting component ComponentInfo{com.android.settings/com.android.settings.privatespace.PrivateSpaceAuthenticationActivity} state: 1
+11-18 18:34:05.228  1635  2344 I AiAiEcho: AppIndexer Package:[com.google.android.googlequicksearchbox] UserProfile:[0] Enabled:[true].
+11-18 18:34:05.228  1635  2344 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.googlequicksearchbox], userId:[0], reason:[package is updated.].
+11-18 18:34:05.228  1188  1188 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:34:05.234   522   547 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10217 pid=0
+11-18 18:34:05.234   522   547 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10217 => denied (128 us)
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:05.235   522   548 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=3277
+11-18 18:34:05.235   522   548 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (674 us)
+11-18 18:34:05.235  2677  2770 D WM-GreedyScheduler: Starting work for e72b3d28-aafa-42b6-8cb0-a3a236df67e0
+11-18 18:34:05.235   522   548 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10217 pid=3277
+11-18 18:34:05.235   522   548 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10217 => denied (224 us)
+11-18 18:34:05.235  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_MANAGER_ENQUEUE, function parameters: [com.android.dialer.voicemail.service.metrics.VvmNotificationWorker], return value: e72b3d28-aafa-42b6-8cb0-a3a236df67e0
+11-18 18:34:05.249  2677  2701 W .android.dialer: Suspending all threads took: 12.676ms
+11-18 18:34:05.249   522   547 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=0
+11-18 18:34:05.249   522   547 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (15074 us)
+11-18 18:34:05.257  1837  2005 D WM-GreedyScheduler: Cancelling work ID 8de1d6e2-6a3f-48b7-8b1c-cd3ae31f3f97
+11-18 18:34:05.257  2677  2677 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:05.259  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_STARTED, function parameters: [d5fec1dd-b63f-40b5-90a6-183bb6f2c231,com.android.incallui.callscreen.impl.recording.retention.CallScreenRecordingsDeletionWorker], return value: <empty>
+11-18 18:34:05.259  2677  2677 I DialerCallScreenRecordingsDeletionWorker: com.android.incallui.callscreen.impl.recording.retention.CallScreenRecordingsDeletionWorker.startWork:78 startWork
+11-18 18:34:05.260  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:05.268  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:05.269  1837  2183 W achh    : Abort, client detached.
+11-18 18:34:05.284  2677  2766 I DialerLegacyCountryDetector: com.android.dialer.location.LegacyCountryDetector.getCurrentCountryIso:98 returning Redacted-2-chars
+11-18 18:34:05.285   607  3323 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:05.286   607  3323 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:05.289  1837  2004 I HotwordModelPopulator: (REDACTED) #updateHotwordFileGroup group name: %s, raw locale: %s, locale: %s
+11-18 18:34:05.296  2677  2770 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: Work [ id=230b1694-5098-4e3f-89f0-367b3eaa451f, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,VvmDailyWorkerTag,TikTokWorker#com.android.dialer.voicemail.service.receivers.VvmDailyWorker } ] was cancelled
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: fia
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at fgy.g(PG:5)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at fcd.o(PG:141)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at af.run(PG:306)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at etq.q(PG:4)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at fcd.p(PG:23)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at fmj.a(PG:387)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at dcf.a(PG:378)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at vn.run(PG:680)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at fmo.run(PG:3)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at umz.run(PG:7)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at aadu.run(PG:44)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at tdt.run(PG:78)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at cp.run(PG:143)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.299  2677  2767 I WM-WorkerWrapper: 	at uoe.run(PG:61)
+11-18 18:34:05.300  2677  2767 D WM-WorkerWrapper: Status for 230b1694-5098-4e3f-89f0-367b3eaa451f is null ; not doing any work
+11-18 18:34:05.302  2677  2677 D WM-Processor: fgy 230b1694-5098-4e3f-89f0-367b3eaa451f executed; reschedule = false
+11-18 18:34:05.302  2677  2677 D WM-SystemJobService: 230b1694-5098-4e3f-89f0-367b3eaa451f executed on JobScheduler
+11-18 18:34:05.304  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:05.307  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:05.307  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:05.307  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:05.307  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:05.311  2677  2767 D WM-StopWorkRunnable: StopWorkRunnable for 230b1694-5098-4e3f-89f0-367b3eaa451f; Processor.stopWork = false
+11-18 18:34:05.314  2677  2770 D WM-StopWorkRunnable: StopWorkRunnable for 230b1694-5098-4e3f-89f0-367b3eaa451f; Processor.stopWork = false
+11-18 18:34:05.317   447   469 I netd    : tetherGetStats() -> {[]} <6.62ms>
+11-18 18:34:05.322  2677  2770 W JobInfo : Requested important-while-foreground flag for job20 is ignored and takes no effect
+11-18 18:34:05.324   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:05.325  2677  2770 D WM-SystemJobScheduler: Scheduling work ID c61eca7b-685d-4028-a078-8d43448802efJob ID 20
+11-18 18:34:05.332  3318  3318 I nect.controller: Using CollectorTypeCMC GC.
+11-18 18:34:05.333  3318  3318 W nect.controller: Unexpected CPU variant for x86: x86_64.
+11-18 18:34:05.333  3318  3318 W nect.controller: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:34:05.334  3318  3318 E nect.controller: Not starting debugger since process cannot load the jdwp agent.
+11-18 18:34:05.335  3318  3318 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:34:05.337  1014  1879 I PermissionControllerServiceImpl: Updating user sensitive for uid 10146
+11-18 18:34:05.337  1014  1879 I PermissionControllerServiceImpl: Updating user sensitive for uid 10154
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: Failed to set whitelist for augmented autofill service.
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: java.lang.SecurityException: caller is not user's Augmented Autofill Service
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at android.view.autofill.AutofillManager.setAugmentedAutofillWhitelist(AutofillManager.java:3039)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at esa.c(PG:66)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at ete.h(PG:86)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at ets.a(PG:191)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at sym.a(PG:5)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at szc.a(PG:59)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at abvn.a(PG:5)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at abvm.a(PG:130)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at tjq.b(PG:82)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at tjq.a(PG:3)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at abtp.g(PG:290)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at abto.b(PG:13)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at abge.g(PG:11)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at kotlinx.coroutines.DispatchedTask.run(PG:112)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at xjo.a(PG:3)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at xir.run(PG:19)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at xjp.run(PG:5)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at hxw.run(PG:221)
+11-18 18:34:05.343  1635  1992 W AiAiAutofill: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.358   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:05.360  1635  2220 I AiAiEcho: AppIndexer Package:[com.android.camera2] UserProfile:[0] Enabled:[true].
+11-18 18:34:05.360  1635  2220 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.android.camera2], userId:[0], reason:[package is updated.].
+11-18 18:34:05.360   607  2084 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10217 pid=0
+11-18 18:34:05.360   607  2084 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10217 => denied (204 us)
+11-18 18:34:05.360   607  2084 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=0
+11-18 18:34:05.360   607  2084 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (21 us)
+11-18 18:34:05.360   607  2084 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10217 pid=0
+11-18 18:34:05.360   607  2084 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10217 => denied (10 us)
+11-18 18:34:05.364  1635  2220 I AiAiEcho: AppIndexer Package:[com.google.android.apps.wellbeing] UserProfile:[0] Enabled:[true].
+11-18 18:34:05.364  1635  2220 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.apps.wellbeing], userId:[0], reason:[package is updated.].
+11-18 18:34:05.365  1349  1937 W ctxmgr  : [Modules]returning null anonymousZwiebackToken [CONTEXT service_id=47 ]
+11-18 18:34:05.365  1349  1937 W ctxmgr  : java.lang.RuntimeException
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at wqf.d(:com.google.android.gms@252635038@25.26.35 (260800-783060121):3)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at wuc.af(:com.google.android.gms@252635038@25.26.35 (260800-783060121):13)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at wpl.m(:com.google.android.gms@252635038@25.26.35 (260800-783060121):102)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at wqc.a(:com.google.android.gms@252635038@25.26.35 (260800-783060121):266)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at wpl.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):29)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at cheh.fI(:com.google.android.gms@252635038@25.26.35 (260800-783060121):1)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at chel.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):128)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at fyac.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):21)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:34:05.365  1349  1937 W ctxmgr  : 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.374  1014  2312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10141
+11-18 18:34:05.374  1014  2312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10135
+11-18 18:34:05.375   607  3323 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:34:05.377  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:05.381   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:05.381   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:05.381  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:05.383  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:05.384  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: STOPPED
+11-18 18:34:05.384  2997  2997 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.jsnippets.MainActivity@36df31c
+11-18 18:34:05.393  1013  1013 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:34:05.395  3316  3316 I AidlLazyServiceRegistrar: Registering service android.hardware.drm.IDrmFactory/clearkey
+11-18 18:34:05.399  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:05.399  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:05.399  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:05.399  2677  2770 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:05.399  2677  2770 D WM-GreedyScheduler: Starting tracking for c61eca7b-685d-4028-a078-8d43448802ef
+11-18 18:34:05.402   607  2085 W system_server: Long monitor contention with owner binder:607_18 (2084) at void com.android.server.appop.AppOpsService.updateUidProcState(int, int, int)(AppOpsService.java:1711) waiters=1 in void com.android.server.appop.AppOpsService.enforceManageAppOpsModes(int, int, int) for 101ms
+11-18 18:34:05.406  1681  1681 I NearbySharing: Invalidate tile state due to state change.
+11-18 18:34:05.406  1681  1681 I NearbySharing: Invalidate tile state due to state change.
+11-18 18:34:05.411  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_MANAGER_ENQUEUE, function parameters: [0], return value: c61eca7b-685d-4028-a078-8d43448802ef
+11-18 18:34:05.411  2677  2770 D WM-Processor: fgy: processing WorkGenerationalId(workSpecId=edf64a84-d396-4dd8-adf5-4c3d1556f41a, generation=0)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: Work [ id=78d39c34-58dd-4602-81a0-609e0d0a2ae2, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,vvm_notification_worker,TikTokWorker#com.android.dialer.voicemail.service.metrics.VvmNotificationWorker } ] was cancelled
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: fia
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at fgy.g(PG:5)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at fcd.o(PG:141)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at af.run(PG:306)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at etq.q(PG:4)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at fcd.p(PG:23)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at fmj.a(PG:387)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at dcf.a(PG:378)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at vn.run(PG:680)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at fmo.run(PG:3)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at umz.run(PG:7)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at aadu.run(PG:44)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at tdt.run(PG:78)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at cp.run(PG:143)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:34:05.412  2677  2767 I WM-WorkerWrapper: 	at uoe.run(PG:61)
+11-18 18:34:05.412  2677  2767 D WM-WorkerWrapper: Status for 78d39c34-58dd-4602-81a0-609e0d0a2ae2 is null ; not doing any work
+11-18 18:34:05.414  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.rkpdapp
+11-18 18:34:05.414  1188  1429 I SatelliteAppTracker: onPackageModified : com.google.android.gms
+11-18 18:34:05.414  1188  1429 I SatelliteAppTracker: onPackageModified : com.android.carrierdefaultapp
+11-18 18:34:05.417  2677  2677 D WM-Processor: fgy 78d39c34-58dd-4602-81a0-609e0d0a2ae2 executed; reschedule = false
+11-18 18:34:05.417  2677  2677 D WM-SystemJobService: 78d39c34-58dd-4602-81a0-609e0d0a2ae2 executed on JobScheduler
+11-18 18:34:05.418  2677  2677 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=d5fec1dd-b63f-40b5-90a6-183bb6f2c231, generation=0)
+11-18 18:34:05.418  2677  2767 D WM-StopWorkRunnable: StopWorkRunnable for 78d39c34-58dd-4602-81a0-609e0d0a2ae2; Processor.stopWork = false
+11-18 18:34:05.418  2677  2767 D WM-StopWorkRunnable: StopWorkRunnable for 78d39c34-58dd-4602-81a0-609e0d0a2ae2; Processor.stopWork = false
+11-18 18:34:05.418  2677  2767 D WM-Processor: fgy: processing WorkGenerationalId(workSpecId=e72b3d28-aafa-42b6-8cb0-a3a236df67e0, generation=0)
+11-18 18:34:05.423  3316  3316 W ProcessState: Thread pool configuration of size 8 requested, but startThreadPool was not called.
+11-18 18:34:05.423  3316  3316 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification android.hardware.drm.IDrmFactory/clearkey has clients: 1
+11-18 18:34:05.424  2677  2764 I DialerCallScreenRecordingsDeletionWorker: com.android.incallui.callscreen.impl.recording.retention.CallScreenRecordingsDeletionWorker.deleteTemporaryRecordingsForTranscripts:154 Clearing temporary recordings older than 1794854045424
+11-18 18:34:05.425  2677  2767 D WM-GreedyScheduler: Cancelling work ID 230b1694-5098-4e3f-89f0-367b3eaa451f
+11-18 18:34:05.428  2898  3308 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+11-18 18:34:05.428  2898  3308 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+11-18 18:34:05.429  2677  2764 I DialerAnnotatedCallLogRefreshStarterImpl: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshStarterImpl.refreshWithoutDirtyCheck:48 refreshWithoutDirtyCheck
+11-18 18:34:05.429  2677  2764 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.throttleInternalSequentially:101 throttle sequentially
+11-18 18:34:05.429  2677  2764 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.throttleInternalSequentially:124 merge the request into the pending request as a previous refresh is still in progress
+11-18 18:34:05.429  2677  2764 I DialerCallScreenRecordingsDeletionWorker: com.android.incallui.callscreen.impl.recording.retention.CallScreenRecordingsDeletionWorker.deleteOldRecordings:104 legacy and Tidepods Revelio is not present.
+11-18 18:34:05.430  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_FINISHED, function parameters: [d5fec1dd-b63f-40b5-90a6-183bb6f2c231,com.android.incallui.callscreen.impl.recording.retention.CallScreenRecordingsDeletionWorker], return value: Success
+11-18 18:34:05.431   607   607 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:34:05.434  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Starting tracking for c61eca7b-685d-4028-a078-8d43448802ef
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: d366bb99-adea-45e7-b13a-e507de15477f}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 052b6789-129e-41d4-8f76-97d6b3f265c7}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: e732ecfc-02c3-406f-9254-c7202538cc5f}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: 1486a6a4-4dc9-4bea-b0ce-3a710222b66a}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Ignoring {WorkSpec: dc2f8f12-bde1-4832-9dcf-66e71d7db704}. Requires device idle.
+11-18 18:34:05.443  2677  2767 D WM-GreedyScheduler: Starting tracking for c61eca7b-685d-4028-a078-8d43448802ef
+11-18 18:34:05.450  2677  2677 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+11-18 18:34:05.450  2677  2677 I DialerVvmDailyWorker: com.android.dialer.voicemail.service.receivers.VvmDailyWorker.startWork:86 startWork
+11-18 18:34:05.453  2677  2764 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TIKTOK_WORK_EXECUTION_MONITOR_ON_WORK_STARTED, function parameters: [edf64a84-d396-4dd8-adf5-4c3d1556f41a,com.android.dialer.voicemail.service.receivers.VvmDailyWorker], return value: <empty>
+11-18 18:34:05.465  1188  1420 D ImsResolver: maybeAddedImsService, packageName: com.android.camera2
+11-18 18:34:05.465  1188  1420 V ImsResolver: searchForImsServices: package=com.android.camera2, users=[UserHandle{0}]
+11-18 18:34:05.465  1188  1420 V ImsResolver: searchForImsServices: package=com.android.camera2, users=[UserHandle{0}]
+11-18 18:34:05.474   607   768 I ImeTracker: com.university.jsnippets.test:e22e9849: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:34:05.481  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:34:05.482  3277  3277 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:34:05.482  3277  3277 I ImeTracker: com.university.jsnippets.test:e22e9849: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:34:05.487  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:34:05.487  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.jsnippets.test, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:34:05.488   517   517 I WVCdm   : [cdm_engine.cpp(1132):IsSecurityLevelSupported] level = L1
+11-18 18:34:05.489   607  1835 I ImeTracker: system_server:c9e74719: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:34:05.490  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:34:05.490   607   666 I ActivityTaskManager: Displayed com.university.jsnippets.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +1s88ms
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:34:05.490  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:34:05.508   517   517 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.511   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(836):Initialize] Level 3 Build Info (v18): {
+11-18 18:34:05.511   517   517 I WVCdm   : "soc_vendor": "Widevine",
+11-18 18:34:05.511   517   517 I WVCdm   : "soc_model": "Software",
+11-18 18:34:05.511   517   517 I WVCdm   : "ta_ver": "N/A",
+11-18 18:34:05.511   517   517 I WVCdm   : "uses_opk": false,
+11-18 18:34:05.511   517   517 I WVCdm   : "tee_os": "N/A",
+11-18 18:34:05.511   517   517 I WVCdm   : "tee_os_ver": "N/A",
+11-18 18:34:05.511   517   517 I WVCdm   : "is_debug": false,
+11-18 18:34:05.511   517   517 I WVCdm   : "git_commit": "",
+11-18 18:34:05.511   517   517 I WVCdm   : "build_timestamp": "Feb 25 2025 00:18:07",
+11-18 18:34:05.511   517   517 I WVCdm   : "mode": "HAYSTACK_ONLY",
+11-18 18:34:05.511   517   517 I WVCdm   : "rikers": {},
+11-18 18:34:05.511   517   517 I WVCdm   : "haystack": {"soc_vendor":"L3_33100","soc_model":"X86 64 bit","ta_ver":"18.1.0+May 14 2024_19:04:42_","uses_opk":false,"tee_os":"none","tee_os_ver":"0.0.0","form_factor":"L3","implementer":"Widevine","fused":false}
+11-18 18:34:05.511   517   517 I WVCdm   : }
+11-18 18:34:05.513   517  3338 I WVCdm   : [(0):] Level3 Library 33100 May 14 2024 19:04:42
+11-18 18:34:05.514   607   916 D WifiService: Remove settings for package:com.android.devicelockcontroller
+11-18 18:34:05.514   607   916 D WifiConfigManager: Remove all networks for app ApplicationInfo{6e6fd29 com.android.devicelockcontroller}
+11-18 18:34:05.514   607   916 V WifiScanRequestProxy: Clearing scan request timestamps for uid=10203, packageName=com.android.devicelockcontroller
+11-18 18:34:05.515   607   916 I PasspointManager: No app ops listener found for com.android.devicelockcontroller
+11-18 18:34:05.520   607  1122 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+11-18 18:34:05.521   607  1122 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+11-18 18:34:05.533   517  3338 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.533   517  3338 D WVCdm   : [file_store.cpp(463):Open] File does not exist: file = /data/vendor/mediadrm/IDM1013/L3/ay64.dat, identifier = 
+11-18 18:34:05.533   517  3338 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.538  2677  2775 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:34:05.541   517  3338 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.541   517  3338 D WVCdm   : [file_store.cpp(463):Open] File does not exist: file = /data/vendor/mediadrm/IDM1013/L3/ay64.dat6, identifier = 
+11-18 18:34:05.541   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(851):Initialize] L3 Initialized. Trying L1.
+11-18 18:34:05.541   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(864):Initialize] Could not load oemcrypto from path liboemcrypto.so.  dlopen failed: library "liboemcrypto.so" not found
+11-18 18:34:05.541   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(868):Initialize] Could not load oemcrypto. Falling back to L3.
+11-18 18:34:05.541   517   517 E WVCdm   : [oemcrypto_adapter_dynamic.cpp(1352):ValidateOrInstallL1KeyboxOrCert] L1 not initialized. Falling back to L3
+11-18 18:34:05.541   517   517 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.541   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(1557):OEMCrypto_InitializeAndCheckKeybox] Keybox error: 25. Falling back to L3.
+11-18 18:34:05.541   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(901):Level1Terminate] L1 Terminate not needed
+11-18 18:34:05.542   517   517 D WVCdm   : [crypto_session.cpp(434):CacheVersion] OEMCrypto version (default security level): 18.3
+11-18 18:34:05.542   517   517 D WVCdm   : [crypto_session.cpp(443):CacheVersion] OEMCrypto version (L3 security level): 18.3
+11-18 18:34:05.542   517   517 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.544   607  1122 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+11-18 18:34:05.545   517   517 I WVCdm   : [(0):] L3 Terminate.
+11-18 18:34:05.545   517   517 I WVCdm-DrmFactory: [app][com.google.android.rkpdapp] calling virtual ::ndk::ScopedAStatus wvdrm::hardware::drm::widevine::WVDrmFactory::createDrmPlugin(const Uuid &, const string &, std::shared_ptr< ::aidl::android::hardware::drm::IDrmPlugin> *)
+11-18 18:34:05.545   517   517 D WVCdm   : Instantiating CDM metrics queue
+11-18 18:34:05.545   517   517 D WVCdm   : Instantiating CDM.
+11-18 18:34:05.546   517   517 D WVCdm   : [cdm_engine.cpp(583):QueryStatus] security_level = Default, query_token = WidevineCdmVersion
+11-18 18:34:05.546   517   517 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.546   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(836):Initialize] Level 3 Build Info (v18): {
+11-18 18:34:05.546   517   517 I WVCdm   : "soc_vendor": "Widevine",
+11-18 18:34:05.546   517   517 I WVCdm   : "soc_model": "Software",
+11-18 18:34:05.546   517   517 I WVCdm   : "ta_ver": "N/A",
+11-18 18:34:05.546   517   517 I WVCdm   : "uses_opk": false,
+11-18 18:34:05.546   517   517 I WVCdm   : "tee_os": "N/A",
+11-18 18:34:05.546   517   517 I WVCdm   : "tee_os_ver": "N/A",
+11-18 18:34:05.546   517   517 I WVCdm   : "is_debug": false,
+11-18 18:34:05.546   517   517 I WVCdm   : "git_commit": "",
+11-18 18:34:05.546   517   517 I WVCdm   : "build_timestamp": "Feb 25 2025 00:18:07",
+11-18 18:34:05.546   517   517 I WVCdm   : "mode": "HAYSTACK_ONLY",
+11-18 18:34:05.546   517   517 I WVCdm   : "rikers": {},
+11-18 18:34:05.546   517   517 I WVCdm   : "haystack": {"soc_vendor":"L3_33100","soc_model":"X86 64 bit","ta_ver":"18.1.0+May 14 2024_19:04:42_","uses_opk":false,"tee_os":"none","tee_os_ver":"0.0.0","form_factor":"L3","implementer":"Widevine","fused":false}
+11-18 18:34:05.546   517   517 I WVCdm   : }
+11-18 18:34:05.547   517  3340 I WVCdm   : [(0):] Level3 Library 33100 May 14 2024 19:04:42
+11-18 18:34:05.548   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(851):Initialize] L3 Initialized. Trying L1.
+11-18 18:34:05.548   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(864):Initialize] Could not load oemcrypto from path liboemcrypto.so.  dlopen failed: library "liboemcrypto.so" not found
+11-18 18:34:05.548   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(868):Initialize] Could not load oemcrypto. Falling back to L3.
+11-18 18:34:05.548   517   517 E WVCdm   : [oemcrypto_adapter_dynamic.cpp(1352):ValidateOrInstallL1KeyboxOrCert] L1 not initialized. Falling back to L3
+11-18 18:34:05.548   517   517 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-18 18:34:05.548   517   517 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(1557):OEMCrypto_InitializeAndCheckKeybox] Keybox error: 25. Falling back to L3.
+11-18 18:34:05.548   517   517 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(901):Level1Terminate] L1 Terminate not needed
+11-18 18:34:05.548   517   517 D WVCdm   : [crypto_session.cpp(434):CacheVersion] OEMCrypto version (default security level): 18.3
+11-18 18:34:05.548   517   517 D WVCdm   : [crypto_session.cpp(443):CacheVersion] OEMCrypto version (L3 security level): 18.3
+11-18 18:34:05.551   517   517 D WVCdm   : [cdm_engine.cpp(583):QueryStatus] security_level = Default, query_token = ProvisioningModel
+11-18 18:34:05.552  2898  3308 I RkpdWidevine: Not a WV provisioning 4.0 device. No provisioning required.
+11-18 18:34:05.557   517   517 I WVCdm   : [(0):] L3 Terminate.
+11-18 18:34:05.558  2898  2942 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=2e698de5-9788-448a-b144-6933d691d6e6, tags={ com.android.rkpdapp.provisioner.WidevineProvisioner,WidevineProvisioner } ]
+11-18 18:34:05.559   600  1323 D statsd_drm: statsd_mediadrm skipping empty entry
+11-18 18:34:05.566  2898  2898 D WM-Processor: Processor 2e698de5-9788-448a-b144-6933d691d6e6 executed; reschedule = false
+11-18 18:34:05.566  2898  2898 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=2e698de5-9788-448a-b144-6933d691d6e6, generation=0)
+11-18 18:34:05.579   607   669 I ImeTracker: system_server:c9e74719: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:34:05.581  2997  2997 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@fe0bd76
+11-18 18:34:05.581  2997  2997 D LifecycleMonitor: Lifecycle status change: com.university.jsnippets.MainActivity@36df31c in: DESTROYED
+11-18 18:34:05.581  2997  2997 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:34:05.583  2677  2775 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:261 merged status: # qrp@82b89716
+11-18 18:34:05.585   600  3341 W s       : AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+11-18 18:34:05.612  2677  2835 I DialerSingletonScopedExternalsLogging: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: BROADCAST_RECEIVER, function parameters: [Broadcast to VoicemailPowerCycleReceiver,2026-11-18 18:34:04.068], return value: <empty>
+11-18 18:34:05.617   607  1834 W system_server: Long monitor contention with owner shortcut (965) at void com.android.server.pm.ShortcutService.handlePackageChanged(java.lang.String, int)(ShortcutService.java:3850) waiters=1 in boolean com.android.server.pm.ShortcutService.areShortcutsSupportedOnHomeScreen(int) for 605ms
+11-18 18:34:05.621   607  1752 W system_server: Long monitor contention with owner shortcut (965) at void com.android.server.pm.ShortcutService.handlePackageChanged(java.lang.String, int)(ShortcutService.java:3850) waiters=0 in java.util.List com.android.server.pm.ShortcutService$LocalService.getShortcuts(int, java.lang.String, long, java.lang.String, java.util.List, java.util.List, android.content.ComponentName, int, int, int, int) for 914ms
+11-18 18:34:05.626  1681  1681 W ChimeraProxyRslvr: No registered Chimera impl for com.google.android.gms.backup.GmsBackupStatusChangeReceiver
+11-18 18:34:05.628  2997  2997 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:34:05.628   607  2109 W system_server: Long monitor contention with owner shortcut (965) at void com.android.server.pm.ShortcutService.handlePackageChanged(java.lang.String, int)(ShortcutService.java:3850) waiters=2 in android.content.pm.ParceledListSlice com.android.server.pm.ShortcutService.getShortcuts(java.lang.String, int, int) for 412ms
+11-18 18:34:05.640  1681  1681 E ChimeraRcvrProxy: com.google.android.gms.backup.GmsBackupStatusChangeReceiver dropping broadcast com.google.gservices.intent.action.GSERVICES_CHANGED
+11-18 18:34:05.643   607   965 I system_server: AssetManager2(0x70339c237c38) locale list changing from [] to [en-US]
+11-18 18:34:05.650  1529  1550 W .apps.wellbeing: Suspending all threads took: 488.741ms
+11-18 18:34:05.675  3318  3318 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-18 18:34:05.675  3318  3318 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-18 18:34:05.675  3318  3318 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-18 18:34:05.680  1681  2621 W MDM     : [95] cnxk.d: Q+ devices does not need device admin.
+11-18 18:34:05.691  1253  1285 I s.nexuslauncher: AssetManager2(0x70339c281c98) locale list changing from [] to [en-US]
+11-18 18:34:05.694  1253  1253 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:34:05.711  2997  3100 I TestRunner: finished: b_crud(com.university.jsnippets.SnippetsTest)

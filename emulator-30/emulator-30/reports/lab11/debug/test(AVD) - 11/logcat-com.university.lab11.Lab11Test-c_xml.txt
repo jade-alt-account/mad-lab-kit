@@ -1,0 +1,74 @@
+11-18 18:41:35.159 10688 10708 I TestRunner: started: c_xml(com.university.lab11.Lab11Test)
+11-18 18:41:35.161 10688 10708 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:41:35.162  2119  2119 I Dialer  : DialpadFragment.onStart - first launch: false
+11-18 18:41:35.162  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:41:35.162  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:41:35.163   380  6426 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:41:35.163   380  6426 D AudioFlinger: Client defaulted notificationFrames to 882 for frameCount 1956
+11-18 18:41:35.164   380  6426 D AF::TrackHandle: OpPlayAudio: track:66 usage:3 not muted
+11-18 18:41:35.165  2119  2119 D AudioTrack: createTrack_l(25): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 882 -> 1956
+11-18 18:41:35.165  2119  2119 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+11-18 18:41:35.165  2119  2119 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+11-18 18:41:35.165  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+11-18 18:41:35.165  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+11-18 18:41:35.174  2119  2119 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+11-18 18:41:35.174  2119  7435 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+11-18 18:41:35.174  2119  7435 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+11-18 18:41:35.175   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:41:35.177  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:41:35.177  2119  2119 I Dialer  : DialpadFragment.onResume - enter
+11-18 18:41:35.177  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - action: android.intent.action.DIAL
+11-18 18:41:35.178  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - Nothing to show
+11-18 18:41:35.178  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:41:35.178  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:41:35.180  2119  2119 I Dialer  : DialpadFragment.onResume - phone not in use
+11-18 18:41:35.180  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:41:35.180  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:41:35.195  2119  7435 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+11-18 18:41:35.200  2119 10783 I Dialer  : RegularSearchCursor.newInstance - Cursor was null or empty
+11-18 18:41:35.202  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:41:35.209  2119  2119 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+11-18 18:41:35.209  2119  2119 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+11-18 18:41:35.209  2119  2119 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+11-18 18:41:35.214 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: PRE_ON_CREATE
+11-18 18:41:35.214 10688 10688 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:41:35.244   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305c650, tid 4916
+11-18 18:41:35.246 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: CREATED
+11-18 18:41:35.246 10688 10688 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab11.MainActivity@a7e32e5
+11-18 18:41:35.247   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:41:35.248   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3156320: maj 3 min 0 rcv 3
+11-18 18:41:35.248 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: STARTED
+11-18 18:41:35.248 10688 10688 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab11.MainActivity@a7e32e5
+11-18 18:41:35.249 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: RESUMED
+11-18 18:41:35.249 10688 10688 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab11.MainActivity@a7e32e5
+11-18 18:41:35.249   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3156320: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:41:35.257  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:41:35.257  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:41:35.258  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{62d3871 id=0}
+11-18 18:41:35.262  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:41:35.285   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:41:35.285   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab11/1/com.university.lab11.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:41:35.296   496   536 I ActivityTaskManager: Displayed com.university.lab11/.MainActivity: +110ms
+11-18 18:41:35.377 10688 10688 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230829/com.university.lab11:id/button_xml>
+11-18 18:41:35.421 10688 10688 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10191; state: ENABLED
+11-18 18:41:35.507   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3062c50, tid 4916
+11-18 18:41:35.509   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:41:35.511   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3127720: maj 3 min 0 rcv 3
+11-18 18:41:35.512   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3127720: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:41:35.659 10688 10688 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "[Intents, Services, Web services]"}' assertion on view view.getId() is <2131231110/com.university.lab11:id/resultView>
+11-18 18:41:35.661   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:41:35.662   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 55, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:4, uid:1071 session name: ""
+11-18 18:41:35.662   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=55)
+11-18 18:41:35.665 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: PAUSED
+11-18 18:41:35.665 10688 10688 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab11.MainActivity@a7e32e5
+11-18 18:41:35.701   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab11.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:41:35.702   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:41:35.703   496   536 I ActivityTaskManager: Displayed com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +39ms
+11-18 18:41:35.708 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: STOPPED
+11-18 18:41:35.709 10688 10688 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab11.MainActivity@a7e32e5
+11-18 18:41:35.710 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a7e32e5 in: DESTROYED
+11-18 18:41:35.710 10688 10688 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:41:35.732  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:41:35.732  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:41:35.732  2119  2119 I Dialer  : DialpadFragment.onStart - first launch: false
+11-18 18:41:35.735 10688 10708 I TestRunner: finished: c_xml(com.university.lab11.Lab11Test)

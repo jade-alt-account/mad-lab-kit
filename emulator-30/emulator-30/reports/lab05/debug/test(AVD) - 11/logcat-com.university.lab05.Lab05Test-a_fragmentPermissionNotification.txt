@@ -1,0 +1,1003 @@
+11-18 18:37:24.704  7907  7927 I TestRunner: started: a_fragmentPermissionNotification(com.university.lab05.Lab05Test)
+11-18 18:37:24.707  7907  7927 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:37:24.713  7907  7929 V UiAutomation: Init UiAutomation@63c1139[id=7, flags=0]
+11-18 18:37:24.714  7907  7927 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:37:24.717  7907  7927 D UiDevice: Executing shell command: cmd notification cancel_all 2>/dev/null
+11-18 18:37:24.743   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:24.749   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 29, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+11-18 18:37:24.749   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=29)
+11-18 18:37:24.749  7907  7927 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab05\E']].
+11-18 18:37:24.749  7907  7927 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab05\E'].
+11-18 18:37:24.750  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:37:24.769  1748  6884 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:37:24.829  1748  6884 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:37:24.830  1748  6884 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:37:24.831  7907  7944 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:37:24.832  7907  7944 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:37:24.834  7907  7944 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:37:24.835  7907  7907 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:37:24.843  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: PRE_ON_CREATE
+11-18 18:37:24.879  1748  6884 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:37:24.879  1748  6884 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:37:24.880  1748  6884 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:37:24.898  7907  7907 W niversity.lab0: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+11-18 18:37:24.919  7907  7907 W niversity.lab0: Accessing hidden method Landroid/graphics/drawable/DrawableWrapper;->hasFocusStateSpecified()Z (blacklist,test-api, linking, allowed)
+11-18 18:37:24.933  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: CREATED
+11-18 18:37:24.946  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: STARTED
+11-18 18:37:24.948  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: RESUMED
+11-18 18:37:24.959  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:24.959  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:24.985  7907  7942 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305ad90, tid 7942
+11-18 18:37:24.990  7907  7942 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:24.991   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=27)
+11-18 18:37:24.991   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:24.992   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 27 ended, total sessions:2
+11-18 18:37:25.019   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:37:25.021  7907  7942 D EGL_emulation: eglCreateContext: 0x7366a3097490: maj 3 min 0 rcv 3
+11-18 18:37:25.022  7907  7942 D EGL_emulation: eglMakeCurrent: 0x7366a3097490: ver 3 0 (tinfo 0x7366430a8680) (first time)
+11-18 18:37:25.030   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:25.030  7907  7942 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:25.030  7907  7942 D HostConnection: createUnique: call
+11-18 18:37:25.031  7907  7942 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305b8d0, tid 7942
+11-18 18:37:25.041  7907  7942 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:25.122  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:25.122  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:25.315   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=28)
+11-18 18:37:25.315   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:25.315   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 28 ended, total sessions:1
+11-18 18:37:25.384   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab05/1/com.university.lab05.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:25.385   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:25.395   496   536 I ActivityTaskManager: Displayed com.university.lab05/.MainActivity: +640ms
+11-18 18:37:25.398   344   379 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10179 pid=7907
+11-18 18:37:25.398   344   379 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10179 => denied (197 us)
+11-18 18:37:25.410  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:37:25.536  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:25.536  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:25.584  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:37:25.589  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:37:27.001  7907  7927 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:37:27.001  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.009  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.109  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.115  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.215  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.222  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.323  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.329  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.429  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.435  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.535  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.540  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.640  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.647  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.747  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.754  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.854  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.861  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.962  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:27.968  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.068  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.074  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.175  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.180  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.280  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.284  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.384  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.388  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.488  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.493  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.593  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.599  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.699  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.703  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.803  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.807  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.907  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.911  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.011  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.015  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.115  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.119  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.219  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.222  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.322  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.327  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.427  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.430  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.530  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.535  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.635  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.638  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.738  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.741  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.749   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=29)
+11-18 18:37:29.749   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:29.750   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 29 ended, total sessions:0
+11-18 18:37:29.751   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:37:29.841  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.844  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.944  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.949  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.978  7907  7948 D ProfileInstaller: Installing profile for com.university.lab05
+11-18 18:37:30.049  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.053  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.153  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.157  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.257  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.260  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.360  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.363  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.436  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:30.436  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:30.463  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.466  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.566  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.569  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.670  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.673  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.773  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.776  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.876  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.878  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.979  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:30.982  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.082  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.085  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.185  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.188  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.289  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.292  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.392  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.395  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.496  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.498  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.599  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.601  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.702  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.705  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.805  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.808  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.908  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:31.910  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.011  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.013  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.113  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.117  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.217  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.220  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.320  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.323  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.423  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.425  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.525  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.529  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.629  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.632  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.732  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.735  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.836  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.838  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.851  1748  7952 I Vision  : Requesting optional module download of ocr.
+11-18 18:37:32.852  1748  7952 I Vision  : Checking for download completion for 222309 -- ocr
+11-18 18:37:32.938  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:32.941  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:33.041  7907  7927 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:33.044  7907  7927 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:33.044  7907  7927 I LABCI   : no permission dialog
+11-18 18:37:33.044  7907  7927 I LABCI   : API 30 notification permission dialog shown: false
+11-18 18:37:33.744  7907  7927 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:33.751  7907  7927 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab05_after_permission.png
+11-18 18:37:33.791   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:33.791  7957  7957 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:33.798  7957  7957 D HostConnection: createUnique: call
+11-18 18:37:33.799  7957  7957 D HostConnection: HostConnection::get() New Host Connection established 0x76476e01f310, tid 7957
+11-18 18:37:33.809  7957  7957 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:33.838  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_after_permission.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:33.850  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab05_after_permission.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab05_after_permission.png
+11-18 18:37:33.850  7907  7927 I LABCI   : screenshot lab05_after_permission
+11-18 18:37:33.851  7907  7927 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSend to activity\E']].
+11-18 18:37:33.851  7907  7927 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSend to activity\E'].
+11-18 18:37:33.851  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 4ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:33.832  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:378): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:33.853  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_after_permission.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:33.856  7907  7927 W niversity.lab0: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blacklist,test-api, reflection, allowed)
+11-18 18:37:33.856  7907  7927 D UiObject2: Clicking on (91, 120).
+11-18 18:37:33.832  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:379): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:33.836  1571  1571 I chatty  : uid=10166(com.google.android.providers.media.module) identical 2 lines
+11-18 18:37:33.844  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:382): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:33.891  7907  7907 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10179; state: ENABLED
+11-18 18:37:33.893   496  1490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:33.893   496  1490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:33.983  7907  7927 W GestureController: Gestures took longer than expected (126ms >> 16ms), device might be in a busy state.
+11-18 18:37:34.514   496  1953 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:34.683  7907  7927 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:34.689  7907  7927 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab05_fragment_toast.png
+11-18 18:37:34.725   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:34.726  7970  7970 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:34.730  7970  7970 D HostConnection: createUnique: call
+11-18 18:37:34.730  7970  7970 D HostConnection: HostConnection::get() New Host Connection established 0x7f76560ea790, tid 7970
+11-18 18:37:34.738  7970  7970 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:34.763  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_fragment_toast.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:34.764  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab05_fragment_toast.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab05_fragment_toast.png
+11-18 18:37:34.764  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 1ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:34.765  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_fragment_toast.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:34.770  7907  7927 I LABCI   : screenshot lab05_fragment_toast
+11-18 18:37:34.771  7907  7927 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QShow notification\E']].
+11-18 18:37:34.771  7907  7927 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QShow notification\E'].
+11-18 18:37:34.775  7907  7927 D UiObject2: Clicking on (98, 168).
+11-18 18:37:34.815  7907  7927 W GestureController: Gestures took longer than expected (40ms >> 16ms), device might be in a busy state.
+11-18 18:37:34.824   496   525 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:34.845   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:37:35.020   712   712 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.university.lab05|1|null|10179
+11-18 18:37:35.021   712   712 W NotifBindPipeline: Row is not set so pipeline will not run. notif = 0|com.university.lab05|1|null|10179
+11-18 18:37:35.035   712   712 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:37:35.038   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:35.068   712  1149 W OpenGLRenderer: Incorrectly called buildLayer on View: LinearLayout, destroying layer...
+11-18 18:37:35.511   496  1563 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:36.315  7907  7927 D UiDevice: Opening notification.
+11-18 18:37:36.316  7907  7927 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QNew Message Alert\E.*']].
+11-18 18:37:36.316  7907  7927 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QNew Message Alert\E.*'].
+11-18 18:37:36.338   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:36.809  7907  7927 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Lab5, displayId=0, id=112, type=TYPE_APPLICATION, layer=0, region=SkRegion((0,0,320,640)), bounds=Rect(0, 0 - 320, 640), focused=true, active=true, pictureInPicture=false, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:37:36.810  7907  7927 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@6d95f; boundsInParent: Rect(0, 0 - 320, 24); boundsInScreen: Rect(0, 0 - 320, 24); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:37:36.810  7907  7927 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:36.810  7907  7927 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@6d95f; boundsInParent: Rect(0, 0 - 320, 24); boundsInScreen: Rect(0, 0 - 320, 24); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:37:36.810  7907  7927 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:36.858   712   712 W View    : couldn't find view with id 2131362152
+11-18 18:37:36.959  7907  7927 I LABCI   : waitText 'New Message Alert': true
+11-18 18:37:37.659  7907  7927 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:37.666  7907  7927 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab05_notification.png
+11-18 18:37:37.704   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:37.704  7982  7982 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:37.709  7982  7982 D HostConnection: createUnique: call
+11-18 18:37:37.709  7982  7982 D HostConnection: HostConnection::get() New Host Connection established 0x76974f265f10, tid 7982
+11-18 18:37:37.720  7982  7982 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:37.752  7987  7989 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:37.753  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_notification.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:37.748  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:398): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:37.767  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab05_notification.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab05_notification.png
+11-18 18:37:37.767  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 14ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:37.767  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_notification.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:37.748  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:399): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:37.777  7907  7927 I LABCI   : screenshot lab05_notification
+11-18 18:37:37.778  7907  7927 D UiDevice: Pressing home button.
+11-18 18:37:37.748  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:400): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:37.797   712   712 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{51a5c3d V.E...... ........ 0,0-320,640} canPanelBeCollapsed(): true
+11-18 18:37:37.748  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:402): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:37.806   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:37.807   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:37.811   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 30, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:37:37.811   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=30)
+11-18 18:37:37.817  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: PAUSED
+11-18 18:37:37.826   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:37:37.835   901   901 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+11-18 18:37:37.912   712   712 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{51a5c3d V.E...... ........ 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:37:37.919   496  1953 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:37.943   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:37.945  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@cb62f73 in: STOPPED
+11-18 18:37:37.947   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:37.959   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3060610, tid 4916
+11-18 18:37:37.964   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:37.965   496  4916 D EGL_emulation: eglCreateContext: 0x7366a30e3e60: maj 3 min 0 rcv 3
+11-18 18:37:37.966   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a30e3e60: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:37.970   344   344 E Layer   : [Surface(name=Task=38)/@0xc422b7e - animation-leash#0] No local sync point found
+11-18 18:37:37.970   344   344 E Layer   : [Surface(name=Task=38)/@0xc422b7e - animation-leash#0] No local sync point found
+11-18 18:37:37.970   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:37:37.970   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:37:37.980  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:37:37.985  1675  2074 W LocationOracle: No location history returned by ContextManager
+11-18 18:37:38.017  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:37:38.031  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:37:38.034  1675  2029 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-18 18:37:38.044  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:37:38.810  7907  7927 D UiDevice: Opening notification.
+11-18 18:37:38.811  7907  7927 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='\QNew Message Alert\E']].
+11-18 18:37:38.811  7907  7927 D UiDevice: Retrieving node with selector: BySelector [TEXT='\QNew Message Alert\E'].
+11-18 18:37:38.838   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:38.867   712   712 W View    : couldn't find view with id 2131362152
+11-18 18:37:39.627  7907  7927 D UiObject2: Clicking on (160, 278).
+11-18 18:37:39.627  7907  7927 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@dd07c; boundsInParent: Rect(0, 0 - 280, 19); boundsInScreen: Rect(20, 269 - 300, 288); packageName: com.android.systemui; className: android.widget.TextView; text: New Message Alert; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: android:id/title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:37:39.662  7907  7927 W GestureController: Gestures took longer than expected (35ms >> 16ms), device might be in a busy state.
+11-18 18:37:39.662   712   712 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:37:39.668   496  1491 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:39.668   496  1491 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:39.669   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:39.676   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 31, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:37:39.676   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=31)
+11-18 18:37:39.685  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: PRE_ON_CREATE
+11-18 18:37:39.712  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: CREATED
+11-18 18:37:39.712   712   821 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:39.714   712   821 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:39.718  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: STARTED
+11-18 18:37:39.718  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: RESUMED
+11-18 18:37:39.721   712   821 D RenderScript HIDL Adaptation: IRenderScriptDevice::getService()
+11-18 18:37:39.721   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.renderscript@1.0::IDevice/default in either framework or device manifest.
+11-18 18:37:39.722   712   821 D RenderScript HIDL Adaptation: IRenderScriptDevice::getService() returned 0x0
+11-18 18:37:39.723   712   821 D RenderScript HIDL Adaptation: Using Fallback Path.
+11-18 18:37:39.762   712   821 D ndroid.systemu: Successfully queried cache dir: /data/user_de/0/com.android.systemui/code_cache
+11-18 18:37:39.762   712   821 D RenderScript: Setting cache dir: /data/user_de/0/com.android.systemui/code_cache
+11-18 18:37:39.766   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab05/1/com.university.lab05.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:39.767   496   536 I ActivityTaskManager: Displayed com.university.lab05/.MainActivity: +96ms
+11-18 18:37:39.769   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:39.773   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:39.779   712   712 I chatty  : uid=10157(com.android.systemui) identical 1 line
+11-18 18:37:39.802   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:39.804   344   344 E Layer   : [Surface(name=Task=38)/@0xc422b7e - animation-leash#0] No local sync point found
+11-18 18:37:39.804   344   344 E Layer   : [Surface(name=Task=38)/@0xc422b7e - animation-leash#0] No local sync point found
+11-18 18:37:39.817   496  5221 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3066010, tid 5221
+11-18 18:37:39.820   496  5221 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:39.824   496  5221 D EGL_emulation: eglCreateContext: 0x7366a31160b0: maj 3 min 0 rcv 3
+11-18 18:37:39.825  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967082] from persistence.
+11-18 18:37:39.825   496  5221 D EGL_emulation: eglMakeCurrent: 0x7366a31160b0: ver 3 0 (tinfo 0x7366431333a0) (first time)
+11-18 18:37:39.828   496  1953 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3058390, tid 1953
+11-18 18:37:39.830   496  1953 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:39.842  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:37:39.850   712   821 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+--------- beginning of crash
+11-18 18:37:39.865   712   821 E AndroidRuntime: FATAL EXCEPTION: SysUiBg
+11-18 18:37:39.865   712   821 E AndroidRuntime: Process: com.android.systemui, PID: 712
+11-18 18:37:39.865   712   821 E AndroidRuntime: java.lang.IllegalStateException: should be called from the main thread. sMainLooper.threadName=main Thread.currentThread()=SysUiBg
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.systemui.util.Assert.isMainThread(Assert.java:40)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.keyguard.KeyguardUpdateMonitor.registerCallback(KeyguardUpdateMonitor.java:2593)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.google.android.systemui.assist.AssistManagerGoogle.<init>(AssistManagerGoogle.java:114)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.provideInstance(AssistManagerGoogle_Factory.java:181)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.get(AssistManagerGoogle_Factory.java:117)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.get(AssistManagerGoogle_Factory.java:28)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.handleNotificationClickAfterPanelCollapsed(StatusBarNotificationActivityStarter.java:370)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.lambda$handleNotificationClickAfterKeyguardDismissed$1(StatusBarNotificationActivityStarter.java:297)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.lambda$handleNotificationClickAfterKeyguardDismissed$1$StatusBarNotificationActivityStarter(Unknown Source:0)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.-$$Lambda$StatusBarNotificationActivityStarter$7mfSGy2G6exE-3cGRoA3iww8GIU.run(Unknown Source:16)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:37:39.865   712   821 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-18 18:37:39.870   712   821 I Process : Sending signal. PID: 712 SIG: 9
+11-18 18:37:39.882   496   595 W InputDispatcher: channel 'e2acd05 com.android.systemui.ImageWallpaper (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-18 18:37:39.883   496   595 E InputDispatcher: channel 'e2acd05 com.android.systemui.ImageWallpaper (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-18 18:37:39.883   496   595 W InputDispatcher: channel 'c3bf18a StatusBar (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-18 18:37:39.883   496   595 E InputDispatcher: channel 'c3bf18a StatusBar (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-18 18:37:39.884   496  1954 W InputDispatcher: Attempted to unregister already unregistered input channel 'e2acd05 com.android.systemui.ImageWallpaper (server)'
+11-18 18:37:39.890   496   594 W AS.AudioService: Current remote volume controller died, unregistering
+11-18 18:37:39.897   496  1561 W InputDispatcher: Attempted to unregister already unregistered input channel 'b8abec5 pip-dismiss-overlay (server)'
+11-18 18:37:39.897   496  1490 D WifiExternalCallbackTracker: Binder died android.os.BinderProxy@75a0f97
+11-18 18:37:39.897   496   643 D WifiExternalCallbackTracker: Remove external callback on death 135600483
+11-18 18:37:39.897   496  1652 D WifiExternalCallbackTracker: Binder died android.os.BinderProxy@9df11a2
+11-18 18:37:39.897   496   644 D WifiExternalCallbackTracker: Remove external callback on death 247055745
+11-18 18:37:39.898   496  1542 W InputDispatcher: Attempted to unregister already unregistered input channel '1225b66 AssistPreviewPanel (server)'
+11-18 18:37:39.899   694   694 D HidDeviceService: Need to unregister app
+11-18 18:37:39.900   286   286 I Zygote  : Process 712 exited due to signal 9 (Killed)
+11-18 18:37:39.901   496  1563 W InputDispatcher: Attempted to unregister already unregistered input channel '258a939 NotificationShade (server)'
+11-18 18:37:39.901   496   525 W InputDispatcher: Attempted to unregister already unregistered input channel 'c3bf18a StatusBar (server)'
+11-18 18:37:39.903   496   594 W VolumeController: Error calling dismiss
+11-18 18:37:39.903   496   594 W VolumeController: android.os.DeadObjectException
+11-18 18:37:39.903   496   594 W VolumeController: 	at android.os.BinderProxy.transactNative(Native Method)
+11-18 18:37:39.903   496   594 W VolumeController: 	at android.os.BinderProxy.transact(BinderProxy.java:540)
+11-18 18:37:39.903   496   594 W VolumeController: 	at android.media.IVolumeController$Stub$Proxy.dismiss(IVolumeController.java:260)
+11-18 18:37:39.903   496   594 W VolumeController: 	at com.android.server.audio.AudioService$VolumeController.postDismiss(AudioService.java:7743)
+11-18 18:37:39.903   496   594 W VolumeController: 	at com.android.server.audio.AudioService.setVolumeController(AudioService.java:7569)
+11-18 18:37:39.903   496   594 W VolumeController: 	at com.android.server.audio.AudioService$4.binderDied(AudioService.java:7578)
+11-18 18:37:39.903   496   594 W VolumeController: 	at android.os.IBinder$DeathRecipient.binderDied(IBinder.java:305)
+11-18 18:37:39.903   496   594 W VolumeController: 	at android.os.BinderProxy.sendDeathNotice(BinderProxy.java:654)
+11-18 18:37:39.909  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:37:39.909  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:37:39.911  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:37:39.911  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:37:39.913   445   484 D BufferPoolAccessor2.0: bufferpool2 0x7ba235f5be48 : 0(0 size) total buffers - 0(0 size) used buffers - 6/7 (recycle/alloc) - 1/6 (fetch/transfer)
+11-18 18:37:39.913   445   900 D BufferPoolAccessor2.0: bufferpool2 0x7ba235f61188 : 0(0 size) total buffers - 0(0 size) used buffers - 12/16 (recycle/alloc) - 4/15 (fetch/transfer)
+11-18 18:37:39.913   445   900 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ba235f61188 cached: 0/0M, 0/0% in use; allocs: 16, 75% recycled; transfers: 15, 73% unfetched
+11-18 18:37:39.916   445   900 D BufferPoolAccessor2.0: bufferpool2 0x7ba235f613d8 : 0(0 size) total buffers - 0(0 size) used buffers - 15/17 (recycle/alloc) - 2/16 (fetch/transfer)
+11-18 18:37:39.916   445   900 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ba235f613d8 cached: 0/0M, 0/0% in use; allocs: 17, 88% recycled; transfers: 16, 88% unfetched
+11-18 18:37:39.916   445   900 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ba235f5be48 cached: 0/0M, 0/0% in use; allocs: 7, 86% recycled; transfers: 6, 83% unfetched
+11-18 18:37:39.921   307   386 W EmuHWC2 : No layers, exit, buffer 0x0
+11-18 18:37:39.926  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: PAUSED
+11-18 18:37:39.926   496   539 I libprocessgroup: Successfully killed process cgroup uid 10157 pid 712 in 41ms
+11-18 18:37:39.937   307   386 W EmuHWC2 : No layers, exit, buffer 0x0
+11-18 18:37:39.942   286   286 D Zygote  : Forked child process 8018
+11-18 18:37:39.947  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: STOPPED
+11-18 18:37:39.949  8018  8018 W ndroid.systemu: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:37:39.951   401   415 I adbd    : jdwp connection from 8018
+11-18 18:37:39.954   307   386 W EmuHWC2 : No layers, exit, buffer 0x0
+11-18 18:37:39.960  8018  8018 I ndroid.systemu: The ClassLoaderContext is a special shared library.
+11-18 18:37:39.963  8018  8018 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:37:39.963  8018  8018 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:37:39.963  8018  8018 V SystemUIService: SystemUIApplication constructed.
+11-18 18:37:39.971   307   386 W EmuHWC2 : No layers, exit, buffer 0x0
+11-18 18:37:39.985  8018  8035 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-18 18:37:39.994  8018  8018 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10157; state: ENABLED
+11-18 18:37:39.996  8018  8018 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-18 18:37:39.997  8018  8018 D ProtoStore: no cached data
+11-18 18:37:40.003  8018  8018 D MediaResumeListener: loaded resume components []
+11-18 18:37:40.009  8018  8018 W AlarmManager: Unrecognized alarm listener com.android.systemui.keyguard.-$$Lambda$KeyguardSliceProvider$IhzByd8TsqFuOrSyuGurVskyPLo@d00aa1a
+11-18 18:37:40.011  8018  8018 V SystemUIService: SystemUIApplication created.
+11-18 18:37:40.018  8018  8018 D InterruptionStateProvider: heads up is enabled
+11-18 18:37:40.019  8018  8018 I FalsingManager: xdpi, ydpi: 160.0, 160.0
+11-18 18:37:40.019  8018  8018 I FalsingManager: width, height: 320, 640
+11-18 18:37:40.020  8018  8018 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+11-18 18:37:40.020  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.020  8018  8018 E NavigationModeController: updateCurrentInteractionMode: mode=0
+11-18 18:37:40.021  8018  8018 D NavigationModeController:   contextUser=0
+11-18 18:37:40.021  8018  8018 D NavigationModeController:   assetPaths=
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /system/framework/framework-res.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/GoogleConfigOverlay.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/GoogleWebViewOverlay.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/PixelConfigOverlayCommon.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/framework-res__auto_generated_rro_product.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/EmulatorConfigOverlay.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController:     /product/overlay/SystemUIGoogle__auto_generated_rro_product.apk
+11-18 18:37:40.021  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.022  8018  8018 V SystemUIService: Starting SystemUI services for user 0.
+11-18 18:37:40.028  8018  8018 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:37:40.029  8018  8050 D KeyguardViewMediator: updateActivityLockScreenState(false, false)
+11-18 18:37:40.039  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: RESTARTED
+11-18 18:37:40.040  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: STARTED
+11-18 18:37:40.041  7907  7907 D LifecycleMonitor: Lifecycle status change: com.university.lab05.MainActivity@3580e73 in: RESUMED
+11-18 18:37:40.057  8018  8018 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=false force=false --> flags=0x0
+11-18 18:37:40.078  8018  8053 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:37:40.080  8018  8053 I Codec2Client: Available Codec2 services: "software"
+11-18 18:37:40.083  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.089  8018  8018 I vol.Events: writeEvent collection_started
+11-18 18:37:40.095   901   901 D TouchInteractionService: Touch service connected
+11-18 18:37:40.097   329   329 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+11-18 18:37:40.097   445   900 V C2Store : in init
+11-18 18:37:40.097   445   900 V C2Store : loading dll
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: isCaptionsServiceEnabled failed to check for captions component
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService}
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2377)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Parcel.createException(Parcel.java:2357)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Parcel.readException(Parcel.java:2340)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Parcel.readException(Parcel.java:2282)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.content.pm.IPackageManager$Stub$Proxy.getComponentEnabledSetting(IPackageManager.java:6804)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.app.ApplicationPackageManager.getComponentEnabledSetting(ApplicationPackageManager.java:2723)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl.onGetCaptionsComponentStateW(VolumeDialogControllerImpl.java:441)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl.access$2000(VolumeDialogControllerImpl.java:92)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl$W.handleMessage(VolumeDialogControllerImpl.java:825)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: Caused by: android.os.RemoteException: Remote stack trace:
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at com.android.server.pm.PackageManagerService.getComponentEnabledSetting(PackageManagerService.java:21417)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:3216)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4305)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:37:40.117  8018  8056 E vol.VolumeDialogControl: 
+11-18 18:37:40.119  8018  8056 I vol.Events: writeEvent level_changed STREAM_VOICE_CALL 3
+11-18 18:37:40.124  8018  8056 I vol.Events: writeEvent level_changed STREAM_SYSTEM 5
+11-18 18:37:40.125  8018  8056 I vol.Events: writeEvent level_changed STREAM_RING 5
+11-18 18:37:40.127  8018  8056 I vol.Events: writeEvent level_changed STREAM_MUSIC 5
+11-18 18:37:40.129  8018  8056 I vol.Events: writeEvent level_changed STREAM_ALARM 6
+11-18 18:37:40.130  8018  8056 I vol.Events: writeEvent level_changed STREAM_BLUETOOTH_SCO 7
+11-18 18:37:40.131  8018  8056 I vol.Events: writeEvent external_ringer_mode_changed unknown
+11-18 18:37:40.132  8018  8056 I vol.Events: writeEvent zen_mode_config_changed [disallowAlarms=false disallowMedia=false disallowSystem=true disallowRinger=false]
+11-18 18:37:40.139  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.149  8018  8018 I TetheringManager: registerTetheringEventCallback:com.android.systemui
+11-18 18:37:40.159  8018  8053 I CCodec  : Created component [c2.android.vorbis.decoder]
+11-18 18:37:40.159   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.159   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.159  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.160  8018  8018 V WifiManager: registerTrafficStateCallback: callback=com.android.systemui.statusbar.policy.WifiSignalController$WifiTrafficStateCallback@96dee5a, executor=android.os.HandlerExecutor@64f2a68
+11-18 18:37:40.161  8018  8053 D CCodecConfig: read media type: audio/vorbis
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:37:40.162  8018  8053 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:37:40.162   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.162   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.163  8018  8053 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+11-18 18:37:40.163  8018  8053 D CCodecConfig: c2 config diff is Dict {
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:37:40.163  8018  8053 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:37:40.163  8018  8053 D CCodecConfig: }
+11-18 18:37:40.163  8018  8053 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:37:40.163  8018  8053 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:37:40.163  8018  8053 D CCodecConfig: no c2 equivalents for track-id
+11-18 18:37:40.163  8018  8053 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:37:40.163  8018  8053 D CCodecConfig: no c2 equivalents for channel-mask
+11-18 18:37:40.163  8018  8053 D CCodecConfig: no c2 equivalents for flags
+11-18 18:37:40.164  8018  8053 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+11-18 18:37:40.164  8018  8053 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+11-18 18:37:40.164  8018  8053 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:37:40.164  8018  8053 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:37:40.164  8018  8053 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t sample-rate = 44100
+11-18 18:37:40.164  8018  8053 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.164  8018  8053 D CCodec  :   string mime = "audio/raw"
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t sample-rate = 44100
+11-18 18:37:40.164  8018  8053 D CCodec  :   int32_t channel-mask = 3
+11-18 18:37:40.164  8018  8053 D CCodec  : }
+11-18 18:37:40.164  8018  8053 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:37:40.164  8018  8053 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:37:40.165  8018  8053 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.165  8018  8053 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.166  8018  8053 D CCodecBufferChannel: [c2.android.vorbis.decoder#305] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+11-18 18:37:40.167  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10157 AdministratorUids: [] RequestorUid: 10157 RequestorPackageName: com.android.systemui] ] with score 60 and providerId 2
+11-18 18:37:40.167  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:37:40.167  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:37:40.168  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:37:40.168  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:37:40.168   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.168   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.168   496   544 D BufferPoolAccessor2.0: bufferpool2 0x73670308e808 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/18 (fetch/transfer)
+11-18 18:37:40.168   496   955 D BufferPoolAccessor2.0: bufferpool2 0x7367030a9878 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/24 (fetch/transfer)
+11-18 18:37:40.169   496   955 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7367030a9878 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 24, 67% unfetched
+11-18 18:37:40.169   496  1058 D BufferPoolAccessor2.0: bufferpool2 0x736703091d38 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/24 (fetch/transfer)
+11-18 18:37:40.169   496  1058 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x736703091d38 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 24, 67% unfetched
+11-18 18:37:40.169   496   544 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x73670308e808 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 18, 56% unfetched
+11-18 18:37:40.169  8018  8053 I CCodecBufferChannel: [c2.android.vorbis.decoder#305] Created output block pool with allocatorID 16 => poolID 26 - OK
+11-18 18:37:40.169  8018  8053 D CCodecBufferChannel: [c2.android.vorbis.decoder#305] Configured output block pool ids 26 => OK
+11-18 18:37:40.169  8018  8053 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+11-18 18:37:40.171   496   955 D BufferPoolAccessor2.0: bufferpool2 0x7367030aa8a8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/26 (fetch/transfer)
+11-18 18:37:40.171   496   955 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7367030aa8a8 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 26, 69% unfetched
+11-18 18:37:40.171   496  1058 D BufferPoolAccessor2.0: bufferpool2 0x736703088b88 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 6/34 (fetch/transfer)
+11-18 18:37:40.171   496  1058 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x736703088b88 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 34, 82% unfetched
+11-18 18:37:40.171   496  1058 D BufferPoolAccessor2.0: bufferpool2 0x7367030938f8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/34 (fetch/transfer)
+11-18 18:37:40.171   496  1058 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7367030938f8 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 34, 76% unfetched
+11-18 18:37:40.171  8018  8053 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.172   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.173  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.174   445  8065 D SimpleC2Component: Using output block pool with poolID 26 => got 26 - 0
+11-18 18:37:40.179  8018  8062 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-18 18:37:40.190  8018  8018 I TetheringManager: registerTetheringEventCallback caller:com.android.systemui
+11-18 18:37:40.190   445  8065 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.191  8018  8059 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.192  8018  8018 D LocalBluetoothProfileManager: LocalBluetoothProfileManager construction complete
+11-18 18:37:40.199  8018  8018 D LocalBluetoothProfileManager: Adding local A2DP profile
+11-18 18:37:40.199  8018  8018 D BluetoothA2dp: Binding service...
+11-18 18:37:40.200  8018  8018 D LocalBluetoothProfileManager: Adding local HEADSET profile
+11-18 18:37:40.200  8018  8018 D LocalBluetoothProfileManager: Adding local MAP profile
+11-18 18:37:40.200  8018  8018 D BluetoothMap: Create BluetoothMap proxy object
+11-18 18:37:40.200  8018  8018 D BluetoothMap: Binding service...
+11-18 18:37:40.203  8018  8018 D LocalBluetoothProfileManager: Adding local OPP profile
+11-18 18:37:40.203  8018  8018 D LocalBluetoothProfileManager: Adding local HID_HOST profile
+11-18 18:37:40.210  8018  8018 D BluetoothHidHost: Binding service...
+11-18 18:37:40.211  8018  8018 D LocalBluetoothProfileManager: Adding local HID_DEVICE profile
+11-18 18:37:40.211  8018  8018 D BluetoothHidDevice: Binding service...
+11-18 18:37:40.212  8018  8018 D LocalBluetoothProfileManager: Adding local PAN profile
+11-18 18:37:40.212  8018  8018 D BluetoothPan: Binding service...
+11-18 18:37:40.213  8018  8018 D LocalBluetoothProfileManager: Adding local PBAP profile
+11-18 18:37:40.229  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:40.303  8018  8068 D BluetoothHeadset: Proxy object connected
+11-18 18:37:40.305  8018  8053 D CCodecBufferChannel: [c2.android.vorbis.decoder#305] MediaCodec discarded an unknown buffer
+11-18 18:37:40.305  8018  8053 I chatty  : uid=10157(com.android.systemui) NDK MediaCodec_ identical 1 line
+11-18 18:37:40.305  8018  8053 D CCodecBufferChannel: [c2.android.vorbis.decoder#305] MediaCodec discarded an unknown buffer
+11-18 18:37:40.306  8018  8053 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.306   445   484 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.306   445   484 V C2Store : in ~ComponentModule
+11-18 18:37:40.306   445   484 V C2Store : unloading dll
+11-18 18:37:40.313  8018  8070 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:37:40.313   445   484 V C2Store : in init
+11-18 18:37:40.313   445   484 V C2Store : loading dll
+11-18 18:37:40.314  8018  8070 I CCodec  : Created component [c2.android.vorbis.decoder]
+11-18 18:37:40.314  8018  8070 D CCodecConfig: read media type: audio/vorbis
+11-18 18:37:40.316  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:37:40.316  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:37:40.316  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:37:40.316  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:37:40.316  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:37:40.317  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:37:40.317  8018  8070 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:37:40.317  8018  8070 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+11-18 18:37:40.317  8018  8070 D CCodecConfig: c2 config diff is Dict {
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:37:40.317  8018  8070 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:37:40.317  8018  8070 D CCodecConfig: }
+11-18 18:37:40.318  8018  8070 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:37:40.318  8018  8070 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:37:40.318  8018  8070 D CCodecConfig: no c2 equivalents for track-id
+11-18 18:37:40.318  8018  8070 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:37:40.318  8018  8070 D CCodecConfig: no c2 equivalents for channel-mask
+11-18 18:37:40.318  8018  8070 D CCodecConfig: no c2 equivalents for flags
+11-18 18:37:40.318  8018  8070 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+11-18 18:37:40.318  8018  8070 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+11-18 18:37:40.318  8018  8070 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:37:40.318  8018  8070 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:37:40.318  8018  8070 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t sample-rate = 44100
+11-18 18:37:40.318  8018  8070 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.318  8018  8070 D CCodec  :   string mime = "audio/raw"
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t sample-rate = 44100
+11-18 18:37:40.318  8018  8070 D CCodec  :   int32_t channel-mask = 3
+11-18 18:37:40.318  8018  8070 D CCodec  : }
+11-18 18:37:40.319  8018  8070 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:37:40.319  8018  8070 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:37:40.319  8018  8070 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.319  8018  8070 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.319  8018  8070 D CCodecBufferChannel: [c2.android.vorbis.decoder#301] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+11-18 18:37:40.319   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.319   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.320  8018  8070 I CCodecBufferChannel: [c2.android.vorbis.decoder#301] Created output block pool with allocatorID 16 => poolID 27 - OK
+11-18 18:37:40.320  8018  8070 D CCodecBufferChannel: [c2.android.vorbis.decoder#301] Configured output block pool ids 27 => OK
+11-18 18:37:40.320   445  8071 D SimpleC2Component: Using output block pool with poolID 27 => got 27 - 0
+11-18 18:37:40.320  8018  8070 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.320   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.321  8018  8018 I CameraManagerGlobal: Connecting to camera service
+11-18 18:37:40.329  8018  8018 W System  : ClassLoader referenced unknown path: 
+11-18 18:37:40.335   445  8071 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.336  8018  8059 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.347   496   594 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:40.375  8018  8018 D StatusBar: mUserSetupObserver - DeviceProvisionedListener called for user 0
+11-18 18:37:40.375  8018  8018 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: true
+11-18 18:37:40.375  8018  8018 D StatusBar: mUserSetupObserver - DeviceProvisionedListener called for user 0
+11-18 18:37:40.388  8018  8072 D OpenGLRenderer: profile bars disabled
+11-18 18:37:40.389  8018  8072 D OpenGLRenderer: ambientRatio = 1.50
+11-18 18:37:40.401  8018  8018 D NotifPipeline: Notif pipeline initialized
+11-18 18:37:40.410  8018  8018 V WifiManager: registerSoftApCallback: callback=com.android.systemui.statusbar.policy.HotspotControllerImpl@8265697, executor=android.os.HandlerExecutor@67f1084
+11-18 18:37:40.412  8018  8018 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=false force=false --> flags=0x0
+11-18 18:37:40.412  8018  8018 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+11-18 18:37:40.419  8018  8018 W DockAlignmentController: wirelessCharger is null
+11-18 18:37:40.422  8018  8018 D StorageNotification: Notifying about private volume: VolumeInfo{private}:
+11-18 18:37:40.422  8018  8018 D StorageNotification:     type=PRIVATE diskId=null partGuid=null mountFlags=0 mountUserId=-10000 
+11-18 18:37:40.422  8018  8018 D StorageNotification:     state=MOUNTED 
+11-18 18:37:40.422  8018  8018 D StorageNotification:     fsType=null fsUuid=null fsLabel=null 
+11-18 18:37:40.422  8018  8018 D StorageNotification:     path=/data internalPath=null 
+11-18 18:37:40.465  8018  8070 D CCodecBufferChannel: [c2.android.vorbis.decoder#301] MediaCodec discarded an unknown buffer
+11-18 18:37:40.466  8018  8070 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.466   445   872 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.466   445   872 V C2Store : in ~ComponentModule
+11-18 18:37:40.466   445   872 V C2Store : unloading dll
+11-18 18:37:40.471  8018  8077 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:37:40.471   445   484 V C2Store : in init
+11-18 18:37:40.471   445   484 V C2Store : loading dll
+11-18 18:37:40.472  8018  8077 I CCodec  : Created component [c2.android.vorbis.decoder]
+11-18 18:37:40.472  8018  8077 D CCodecConfig: read media type: audio/vorbis
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:37:40.472  8018  8077 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:37:40.472  8018  8077 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+11-18 18:37:40.472  8018  8077 D CCodecConfig: c2 config diff is Dict {
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:37:40.472  8018  8077 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:37:40.472  8018  8077 D CCodecConfig: }
+11-18 18:37:40.473  8018  8077 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:37:40.473  8018  8077 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:37:40.473  8018  8077 D CCodecConfig: no c2 equivalents for track-id
+11-18 18:37:40.473  8018  8077 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:37:40.473  8018  8077 D CCodecConfig: no c2 equivalents for channel-mask
+11-18 18:37:40.473  8018  8077 D CCodecConfig: no c2 equivalents for flags
+11-18 18:37:40.473  8018  8077 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+11-18 18:37:40.473  8018  8077 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:37:40.473  8018  8077 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:37:40.473  8018  8077 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:37:40.473  8018  8077 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t channel-count = 2
+11-18 18:37:40.473  8018  8077 D CCodec  :   string mime = "audio/raw"
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:37:40.473  8018  8077 D CCodec  :   int32_t channel-mask = 3
+11-18 18:37:40.473  8018  8077 D CCodec  : }
+11-18 18:37:40.475  8018  8077 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:37:40.475  8018  8077 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:37:40.476  8018  8077 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.476  8018  8077 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.476  8018  8077 D CCodecBufferChannel: [c2.android.vorbis.decoder#408] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+11-18 18:37:40.476   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.476   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.476  8018  8077 I CCodecBufferChannel: [c2.android.vorbis.decoder#408] Created output block pool with allocatorID 16 => poolID 28 - OK
+11-18 18:37:40.476  8018  8077 D CCodecBufferChannel: [c2.android.vorbis.decoder#408] Configured output block pool ids 28 => OK
+11-18 18:37:40.477  8018  8077 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.477   445   900 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.477   445  8079 D SimpleC2Component: Using output block pool with poolID 28 => got 28 - 0
+11-18 18:37:40.490   445  8079 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.491  8018  8059 E FMQ     : grantorIdx must be less than 3
+11-18 18:37:40.528  8018  8037 W ndroid.systemu: Unsupported class loader
+11-18 18:37:40.538  8018  8077 D CCodecBufferChannel: [c2.android.vorbis.decoder#408] MediaCodec discarded an unknown buffer
+11-18 18:37:40.538  8018  8077 D CCodecBufferChannel: [c2.android.vorbis.decoder#408] MediaCodec discarded an unknown buffer
+11-18 18:37:40.539  8018  8037 W ndroid.systemu: Skipping duplicate class check due to unsupported classloader
+11-18 18:37:40.539  8018  8037 W ndroid.systemu: Unsupported class loader
+11-18 18:37:40.540   496  1941 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+11-18 18:37:40.542   445   900 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.542   445   900 V C2Store : in ~ComponentModule
+11-18 18:37:40.542   445   900 V C2Store : unloading dll
+11-18 18:37:40.543  8018  8082 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-18 18:37:40.553  8018  8018 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-18 18:37:40.554  8018  8018 D ProtoStore: no cached data
+11-18 18:37:40.556  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:40.558  8018  8067 D KeyguardViewMediator: onStartedWakingUp, seq = 1
+11-18 18:37:40.558  8018  8067 D KeyguardViewMediator: notifyStartedWakingUp
+11-18 18:37:40.558  8018  8067 D KeyguardViewMediator: notifyScreenOn
+11-18 18:37:40.558  8018  8067 D KeyguardViewMediator: notifyScreenTurnedOn
+11-18 18:37:40.559  8018  8067 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=false force=false --> flags=0x0
+11-18 18:37:40.564  8018  8018 D KeyguardUpdateMonitor: handleSimStateChange(subId=1, slotId=0, state=5)
+11-18 18:37:40.565  8018  8018 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED state: LOADED slotId: 0 subid: 1
+11-18 18:37:40.565  8018  8018 D Tonal   : Tonal Palette - index: 10. Main color: ffe590b7
+11-18 18:37:40.565  8018  8018 D Tonal   : Colors: ff060104, ff1b0613, ff2f0b23, ff481135, ff671850, ff861f5d, ffa42773, ffbe4d91, ffd85a9e, ffde73aa, ffe590b7, ffefb9d1, fff5d6e5
+11-18 18:37:40.565  8018  8018 D Tonal   : Gradients: 
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Normal GradientColors(ffe590b7, ffe590b7)
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Dark GradientColors(ff481135, ff481135)
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Extra dark: GradientColors(ff2f0b23, ff2f0b23)
+11-18 18:37:40.565  8018  8018 D Tonal   : Tonal Palette - index: 10. Main color: ffe590b7
+11-18 18:37:40.565  8018  8018 D Tonal   : Colors: ff060104, ff1b0613, ff2f0b23, ff481135, ff671850, ff861f5d, ffa42773, ffbe4d91, ffd85a9e, ffde73aa, ffe590b7, ffefb9d1, fff5d6e5
+11-18 18:37:40.565  8018  8018 D Tonal   : Gradients: 
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Normal GradientColors(ffe590b7, ffe590b7)
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Dark GradientColors(ff481135, ff481135)
+11-18 18:37:40.565  8018  8018 D Tonal   : 	Extra dark: GradientColors(ff2f0b23, ff2f0b23)
+11-18 18:37:40.581  8018  8018 D BluetoothA2dp: Proxy object connected
+11-18 18:37:40.582  8018  8018 D BluetoothHidDevice: Proxy object connected
+11-18 18:37:40.583  8018  8018 D BluetoothPan: Proxy object connected
+11-18 18:37:40.583  8018  8018 D BluetoothHidHost: Proxy object connected
+11-18 18:37:40.584  8018  8018 D BluetoothMap: Proxy object connected
+11-18 18:37:40.584  8018  8018 D BluetoothMap: getConnectedDevices()
+11-18 18:37:40.602  8018  8018 D QSTileHost: Recreating tiles
+11-18 18:37:40.603  8018  8018 D QSTileHost: Creating tile: wifi
+11-18 18:37:40.606  8018  8018 D QSTileHost: Creating tile: bt
+11-18 18:37:40.607  8018  8018 D QSTileHost: Creating tile: dnd
+11-18 18:37:40.607  8018  8018 D QSTileHost: Creating tile: flashlight
+11-18 18:37:40.607  8018  8018 D QSTileHost: Creating tile: rotation
+11-18 18:37:40.607  8018  8018 D QSTileHost: Creating tile: battery
+11-18 18:37:40.607  8018  8018 D QSTileHost: Creating tile: cell
+11-18 18:37:40.608  8018  8018 D QSTileHost: Creating tile: airplane
+11-18 18:37:40.608  8018  8018 D QSTileHost: Creating tile: cast
+11-18 18:37:40.608  8018  8018 D QSTileHost: Creating tile: screenrecord
+11-18 18:37:40.608  8018  8018 D QSTileHost: Creating tile: dbg:mem
+11-18 18:37:40.642   496  1943 W Binder  : Caught a RuntimeException from the binder stub implementation.
+11-18 18:37:40.642   496  1943 W Binder  : java.lang.IllegalArgumentException: Requested window null does not exist
+11-18 18:37:40.642   496  1943 W Binder  : 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:5433)
+11-18 18:37:40.642   496  1943 W Binder  : 	at com.android.server.wm.Session.actionOnWallpaper(Session.java:356)
+11-18 18:37:40.642   496  1943 W Binder  : 	at com.android.server.wm.Session.setWallpaperZoomOut(Session.java:382)
+11-18 18:37:40.642   496  1943 W Binder  : 	at android.view.IWindowSession$Stub.onTransact(IWindowSession.java:1154)
+11-18 18:37:40.642   496  1943 W Binder  : 	at com.android.server.wm.Session.onTransact(Session.java:139)
+11-18 18:37:40.642   496  1943 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+11-18 18:37:40.642   496  1943 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:37:40.644  8018  8018 D KeyguardClockSwitch: Updating clock: 637
+11-18 18:37:40.692  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:40.692  8018  8018 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{47ebd8f V.E...... ......ID 3,0-18,22 #7f0a050b app:id/wifi_group} during layout: running second layout pass
+11-18 18:37:40.692  8018  8018 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{b50287f V.E...... ......ID 3,0-18,22 #7f0a050b app:id/wifi_group} during layout: running second layout pass
+11-18 18:37:40.695  8018  8018 W Resources: Drawable com.android.systemui:anim/lock_unlock has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+11-18 18:37:40.695  8018  8018 W Resources: java.lang.RuntimeException
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.content.res.Resources.getDrawable(Resources.java:899)
+11-18 18:37:40.695  8018  8018 W Resources: 	at com.android.systemui.statusbar.phone.LockIcon.getIcon(LockIcon.java:174)
+11-18 18:37:40.695  8018  8018 W Resources: 	at com.android.systemui.statusbar.phone.LockIcon.access$200(LockIcon.java:45)
+11-18 18:37:40.695  8018  8018 W Resources: 	at com.android.systemui.statusbar.phone.LockIcon$1.onPreDraw(LockIcon.java:68)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:1093)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3089)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:37:40.695  8018  8018 W Resources: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:37:40.695  8018  8018 W Resources: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:37:40.695  8018  8018 W Resources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:37:40.695  8018  8018 W Resources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:37:40.704  8018  8072 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:37:40.705  8018  8072 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:37:40.708  8018  8072 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:37:40.708  8018  8018 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{741a284 V.E...... ......ID 3,0-18,22 #7f0a050b app:id/wifi_group} during layout: running second layout pass
+11-18 18:37:40.724  8018  8072 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3085c90, tid 8072
+11-18 18:37:40.729  8018  8072 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:40.730   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:37:40.731  8018  8072 D EGL_emulation: eglCreateContext: 0x7366a30d9490: maj 3 min 0 rcv 3
+11-18 18:37:40.732  8018  8072 D EGL_emulation: eglMakeCurrent: 0x7366a30d9490: ver 3 0 (tinfo 0x7366430cb8a0) (first time)
+11-18 18:37:40.741   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:40.741  8018  8072 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:40.746  8018  8072 D HostConnection: createUnique: call
+11-18 18:37:40.746  8018  8072 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3083dd0, tid 8072
+11-18 18:37:40.760  8018  8072 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:40.814   496  1943 D WifiNl80211Manager: Scan result ready event
+11-18 18:37:40.815   496  1943 D WifiNative: Scan result ready event
+11-18 18:37:41.178  8018  8072 I OpenGLRenderer: Davey! duration=807ms; Flags=1, IntendedVsync=219827862481, Vsync=220094529137, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=220099303752, AnimationStart=220099304624, PerformTraversalsStart=220099512201, DrawStart=220218436796, SyncQueued=220219949520, SyncStart=220220929209, IssueDrawCommandsStart=220221271918, SwapBuffers=220592360406, FrameCompleted=220636364088, DequeueBufferDuration=139090, QueueBufferDuration=305129, GpuCompleted=3471765329195249710, 
+11-18 18:37:41.186  8018  8018 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{2cc7e2e I.E...... ......ID 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:37:41.186  8018  8018 D KeyguardViewMediator: onSystemReady
+11-18 18:37:41.193  8018  8018 D KeyguardViewMediator: doKeyguard: not showing because lockscreen is off
+11-18 18:37:41.193  8018  8018 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=false force=false --> flags=0x0
+11-18 18:37:41.194  8018  8018 D KeyguardViewMediator: onSimStateChanged(subId=1, slotId=0,state=5)
+11-18 18:37:41.194  8018  8018 D KeyguardViewMediator: READY, reset state? false
+11-18 18:37:41.195  8018  8018 D KeyguardViewMediator: handleNotifyWakingUp
+11-18 18:37:41.196  1443  1443 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 }
+11-18 18:37:41.225  1748  1748 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:37:41.227  1748  1748 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=android/apz:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+11-18 18:37:41.227  1748  1748 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+11-18 18:37:41.230  1748  1748 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:37:41.245  8018  8083 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3083f50, tid 8083
+11-18 18:37:41.251  8018  8018 D KeyguardViewMediator: handleNotifyScreenTurningOn
+11-18 18:37:41.251  8018  8018 D KeyguardClockSwitch: Updating clock: 637
+11-18 18:37:41.253  8018  8083 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:41.253  8018  8083 D EglHelper: createEglContext start
+11-18 18:37:41.254  8018  8018 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+11-18 18:37:41.255  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:37:41.255  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@aadd34d mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:37:41.255  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:37:41.255  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@cf29e02 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:37:41.256  8018  8018 D KeyguardUpdateMonitor: handleSimStateChange(subId=1, slotId=0, state=5)
+11-18 18:37:41.256  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:37:41.256  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@6fe1313 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:37:41.257  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:37:41.257  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7b01950 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:37:41.257  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:37:41.257  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@1915749 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:37:41.259  8018  8083 D EGL_emulation: eglCreateContext: 0x7366a30bf550: maj 3 min 0 rcv 3
+11-18 18:37:41.259  8018  8083 D EglHelper: createEglContext done
+11-18 18:37:41.259  8018  8083 D EglHelper: createEglSurface start
+11-18 18:37:41.262  8018  8083 D EGL_emulation: eglMakeCurrent: 0x7366a30bf550: ver 3 0 (tinfo 0x7366430d5bf0) (first time)
+11-18 18:37:41.264  8018  8083 D EglHelper: createEglSurface done
+11-18 18:37:41.276  8018  8018 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+11-18 18:37:41.294  1748  7198 I CastDatabase: Opening the database
+11-18 18:37:41.295  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.university.lab05|1|null|10179
+11-18 18:37:41.296  8018  8018 W NotifBindPipeline: Row is not set so pipeline will not run. notif = 0|com.university.lab05|1|null|10179
+11-18 18:37:41.301  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: -1|android|19|null|1000
+11-18 18:37:41.301  8018  8018 D InterruptionStateProvider: No heads up: unimportant notification: -1|android|19|null|1000
+11-18 18:37:41.306  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: -1|android|55|null|1000
+11-18 18:37:41.306  8018  8018 D InterruptionStateProvider: No heads up: unimportant notification: -1|android|55|null|1000
+11-18 18:37:41.527  1748  7198 I SQLiteCastDBHelper: Creating cast database
+11-18 18:37:41.531  8018  8018 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10157; state: ENABLED
+11-18 18:37:41.553  1748  7198 I SQLiteCastStore: 0 CastNetworkInfo instances loaded, 0 CastDeviceInfo instances loaded, 0 paired guest mode devices loaded.
+11-18 18:37:41.561  8018  8018 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:37:41.564  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:37:41.579  5555  5555 I cr_media: Create MediaDrmBridge with level L3 and origin 4FC3BABB3F4D4F3E0CCA75666B0E669E
+11-18 18:37:41.590  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:41.592  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:41.593  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:41.595  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:41.595  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:41.598  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:41.598  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:41.600  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:41.600  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:41.603  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:41.605  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:41.608  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:41.610  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:41.610  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:41.611  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:41.612  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:41.613  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:41.613  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:41.614   304   347 I WVCdm   : [app][com.android.chrome] calling virtual Return<void> wvdrm::hardware::drm::V1_3::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const android::hardware::hidl_string &, android::hardware::drm::V1_3::IDrmFactory::createPlugin_cb)
+11-18 18:37:41.614   304   347 D WVCdm   : Instantiating CDM.
+11-18 18:37:41.619   304   347 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:41.623   304   347 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(696):Initialize] Level 3 Build Info (v15): OEMCrypto Level3 Code 22592 May 12 2021 23:37:49
+11-18 18:37:41.625  8018  8072 W OpenGLRenderer: Incorrectly called buildLayer on View: LinearLayout, destroying layer...
+11-18 18:37:41.625   304  8092 I WVCdm   : [(0):] Level3 Library 22592 May 12 2021 23:37:49
+11-18 18:37:41.628   304  8092 W WVCdm   : [file_store.cpp(157):Open] File::Open: fopen failed: 2, No such file or directory
+11-18 18:37:41.747   304  8092 W WVCdm   : [file_store.cpp(157):Open] File::Open: fopen failed: 2, No such file or directory
+11-18 18:37:41.750   304   347 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(710):Initialize] L3 Initialized. Trying L1.
+11-18 18:37:41.755   304   347 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(722):Initialize] Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+11-18 18:37:41.756   304   347 D WVCdm   : [crypto_session.cpp(313):Init] OEMCrypto version (default security level): 15.0
+11-18 18:37:41.756   304   347 D WVCdm   : [crypto_session.cpp(322):Init] OEMCrypto version (L3 security level): 15.0
+11-18 18:37:41.756   304   347 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:41.756   304   347 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:41.761   304   347 I WVCdm   : [usage_table_header.cpp(159):Init] Initializing usage table header: security_level = 3
+11-18 18:37:41.762   304   347 E WVCdm   : [device_files.cpp(1111):RetrieveHashedFile] File does not exist: path = /data/vendor/mediadrm/IDM1013/L3/usgtable.bin
+11-18 18:37:41.762   304   347 E WVCdm   : [device_files.cpp(979):RetrieveUsageTableInfo] Unable to retrieve usage table file
+11-18 18:37:41.762   304   347 W WVCdm   : [file_store.cpp(157):Open] File::Open: fopen failed: 2, No such file or directory
+11-18 18:37:41.762   304   347 W WVCdm   : [file_store.cpp(157):Open] File::Open: fopen failed: 2, No such file or directory
+11-18 18:37:41.766   304   347 I WVCdm   : [cdm_engine.cpp(113):OpenSession] Opening session
+11-18 18:37:41.766   304   347 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:41.767   304   347 E WVCdm   : [device_files.cpp(1111):RetrieveHashedFile] File does not exist: path = /data/vendor/mediadrm/IDM1013/L3/cert.bin
+11-18 18:37:41.767   304   347 W WVCdm   : [device_files.cpp(144):RetrieveCertificate] Unable to retrieve certificate file
+11-18 18:37:41.768   304   304 I WVCdm   : [cdm_engine.cpp(894):GetProvisioningRequest] Getting provisioning request
+11-18 18:37:41.769   304   304 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:41.787  5555  5555 I cr_media: Provisioning origin ID 4FC3BABB3F4D4F3E0CCA75666B0E669E
+11-18 18:37:41.787  5555  5555 I MediaDrm: Drm event (1,0)
+11-18 18:37:41.787  5555  5555 E cr_media: EventListener: No session for event 1.
+11-18 18:37:41.811  1748  2162 I CastSocket: 30 >= 18. Adding new CastClientAuthKeyManager. [CONTEXT service_id=161 ]
+11-18 18:37:41.815   496  1145 I WifiService: startScan uid=10119
+11-18 18:37:41.828  1748  2162 I DiscoveryManager: WifiGuestModeDeviceScanner enabled.
+11-18 18:37:41.956   304   304 I WVCdm   : [cdm_engine.cpp(931):HandleProvisioningResponse] Handling provision request
+11-18 18:37:41.994  5555  5555 I cr_media: Create MediaDrmBridge with level L1 and origin 4FC3BABB3F4D4F3E0CCA75666B0E669E
+11-18 18:37:41.995  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:41.995  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:41.995  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:41.995  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:41.996  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:41.996  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:41.996  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:41.997  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:41.998  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:41.998  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:41.998  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:41.999  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:41.999  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:41.999  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:41.999  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:41.999  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:42.000  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:42.000  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:42.000   304  8093 I WVCdm   : [app][com.android.chrome] calling virtual Return<void> wvdrm::hardware::drm::V1_3::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const android::hardware::hidl_string &, android::hardware::drm::V1_3::IDrmFactory::createPlugin_cb)
+11-18 18:37:42.000   304  8093 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:42.000   304  8093 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:42.000   304  8093 E WVCdm   : App requested L1 security on a non-L1 device.
+11-18 18:37:42.000  5555  5555 E cr_media: Security level L1 not supported!
+11-18 18:37:42.010  5555  5555 I cr_media: Create MediaDrmBridge with level L3 and origin DBD6C65306631F3C80D18F796ACCC1E9
+11-18 18:37:42.011  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:42.011   304  8093 I WVCdm   : [(0):] L3 Terminate.
+11-18 18:37:42.012  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:42.013  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:42.014  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:42.014  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:42.015  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:42.016  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:42.017  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:42.017  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:42.018  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory clearkey
+11-18 18:37:42.019  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory default
+11-18 18:37:42.019  5555  5555 I DrmUtils: found android.hardware.drm@1.0::IDrmFactory widevine
+11-18 18:37:42.020  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory clearkey
+11-18 18:37:42.021  5555  5555 I DrmUtils: found android.hardware.drm@1.1::IDrmFactory widevine
+11-18 18:37:42.022  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory clearkey
+11-18 18:37:42.022  5555  5555 I DrmUtils: found android.hardware.drm@1.2::IDrmFactory widevine
+11-18 18:37:42.023  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory clearkey
+11-18 18:37:42.024  5555  5555 I DrmUtils: found android.hardware.drm@1.3::IDrmFactory widevine
+11-18 18:37:42.024   304  8093 I WVCdm   : [app][com.android.chrome] calling virtual Return<void> wvdrm::hardware::drm::V1_3::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const android::hardware::hidl_string &, android::hardware::drm::V1_3::IDrmFactory::createPlugin_cb)
+11-18 18:37:42.024   304  8093 D WVCdm   : Instantiating CDM.
+11-18 18:37:42.025   304  8093 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:42.025   304  8093 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(696):Initialize] Level 3 Build Info (v15): OEMCrypto Level3 Code 22592 May 12 2021 23:37:49
+11-18 18:37:42.025   304  8097 I WVCdm   : [(0):] Level3 Library 22592 May 12 2021 23:37:49
+11-18 18:37:42.027   304  8093 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(710):Initialize] L3 Initialized. Trying L1.
+11-18 18:37:42.027   304  8093 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(722):Initialize] Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+11-18 18:37:42.027   304  8093 D WVCdm   : [crypto_session.cpp(313):Init] OEMCrypto version (default security level): 15.0
+11-18 18:37:42.027   304  8093 D WVCdm   : [crypto_session.cpp(322):Init] OEMCrypto version (L3 security level): 15.0
+11-18 18:37:42.028   304  8093 I WVCdm   : [cdm_engine.cpp(516):QueryStatus] Querying status
+11-18 18:37:42.028   304  8093 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:42.028   304  8093 I WVCdm   : [usage_table_header.cpp(159):Init] Initializing usage table header: security_level = 3
+11-18 18:37:42.028   304  8093 I WVCdm   : [usage_table_header.cpp(202):Init] Number of usage entries: 0
+11-18 18:37:42.029   304  8093 I WVCdm   : [cdm_engine.cpp(113):OpenSession] Opening session
+11-18 18:37:42.029   304  8093 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:42.029   304  8093 E WVCdm   : [device_files.cpp(1111):RetrieveHashedFile] File does not exist: path = /data/vendor/mediadrm/IDM1013/L3/cert.bin
+11-18 18:37:42.029   304  8093 W WVCdm   : [device_files.cpp(144):RetrieveCertificate] Unable to retrieve certificate file
+11-18 18:37:42.029   304  8093 I WVCdm   : [cdm_engine.cpp(894):GetProvisioningRequest] Getting provisioning request
+11-18 18:37:42.030   304  8093 D WVCdm   : [crypto_session.cpp(714):Open] Opening crypto session: requested_security_level = Default
+11-18 18:37:42.046  5555  5555 I cr_media: Provisioning origin ID DBD6C65306631F3C80D18F796ACCC1E9
+11-18 18:37:42.046  5555  5555 I MediaDrm: Drm event (1,0)
+11-18 18:37:42.047  5555  5555 E cr_media: EventListener: No session for event 1.
+11-18 18:37:42.665  7907  7927 I LABCI   : after tapping notification, foreground = com.university.lab05
+11-18 18:37:42.717   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:42.812   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=30)
+11-18 18:37:42.812   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:42.813   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 30 ended, total sessions:1
+11-18 18:37:42.876  1748  8016 I Vision  : Requesting optional module download of ocr.
+11-18 18:37:42.876  1748  8016 I Vision  : Checking for download completion for 232334 -- ocr
+11-18 18:37:42.986  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:42.986  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:43.365  7907  7927 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:43.381  7907  7927 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab05_after_tap.png
+11-18 18:37:43.452   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:43.452  8102  8102 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:43.462  8102  8102 D HostConnection: createUnique: call
+11-18 18:37:43.463  8102  8102 D HostConnection: HostConnection::get() New Host Connection established 0x7279379492d0, tid 8102
+11-18 18:37:43.481  8102  8102 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:43.506  8107  8109 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:43.506  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_after_tap.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:43.500  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:408): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:43.526  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab05_after_tap.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab05_after_tap.png
+11-18 18:37:43.526  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 12ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:43.528  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab05_after_tap.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:43.500  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:410): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:43.535  7907  7927 I LABCI   : screenshot lab05_after_tap
+11-18 18:37:43.536  7907  7927 I TestRunner: finished: a_fragmentPermissionNotification(com.university.lab05.Lab05Test)

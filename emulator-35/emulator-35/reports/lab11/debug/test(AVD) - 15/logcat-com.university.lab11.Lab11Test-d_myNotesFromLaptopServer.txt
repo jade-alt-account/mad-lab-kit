@@ -1,0 +1,265 @@
+11-18 18:40:43.124  9417  9448 I TestRunner: started: d_myNotesFromLaptopServer(com.university.lab11.Lab11Test)
+11-18 18:40:43.127  1077  1988 W TelephonyPermissions: reportAccessDeniedToReadIdentifiers:com.google.android.contacts:getActiveSubscriptionInfoList:1
+11-18 18:40:43.127  9417  9448 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:43.128   554  1548 W InputManager-JNI: Input channel object '1f74a5d com.university.lab11/com.university.lab11.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:40:43.128  5780  5800 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.lambda$isDirty$0:169 no max timestamp processed
+11-18 18:40:43.129  5780  8397 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.isIgnoreRttModeFlagSet:79 RTT carrier config ignore_rtt_mode_setting_bool is enabled.
+11-18 18:40:43.129  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.loadSpeedDialUiItemsInternal:322 enter
+11-18 18:40:43.129  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getSpeedDialEntryDao:1319 enter
+11-18 18:40:43.129  5780  5800 I DialerSpeedDialEntryDatabaseHelper: com.android.dialer.speeddial.database.SpeedDialEntryDatabaseHelper.getAllEntries:209 enter
+11-18 18:40:43.129  5780  8398 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.isIgnoreRttModeFlagSet:79 RTT carrier config ignore_rtt_mode_setting_bool is enabled.
+11-18 18:40:43.130  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$checkDirtyAndRebuildIfNecessary$2:163 isDirty: true
+11-18 18:40:43.130  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.rebuild:199 filling systemCallLogDataSource
+11-18 18:40:43.131  5780  5807 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:40:43.131  5780  5807 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:40:43.135  5780  7746 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.isIgnoreRttModeFlagSet:79 RTT carrier config ignore_rtt_mode_setting_bool is enabled.
+11-18 18:40:43.139  5780  8397 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.lambda$isDeviceSupported$0:61 [RTT] isDeviceSupported: false
+11-18 18:40:43.139  5780  7746 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.lambda$isDeviceSupported$0:61 [RTT] isDeviceSupported: false
+11-18 18:40:43.143  5780  5800 I DialerSpeedDialEntryDatabaseHelper: com.android.dialer.speeddial.database.SpeedDialEntryDatabaseHelper.getAllEntries:247 exiting
+11-18 18:40:43.143  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeys:489 enter
+11-18 18:40:43.143  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeysWithoutSourceId:528 enter
+11-18 18:40:43.143  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeysWithSourceId:640 enter
+11-18 18:40:43.143  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getCountryIso:1335 enter
+11-18 18:40:43.144  5780  8398 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.lambda$isDeviceSupported$0:61 [RTT] isDeviceSupported: false
+11-18 18:40:43.144  5780  5800 I DialerLegacyCountryDetector: com.android.dialer.location.LegacyCountryDetector.getCurrentCountryIso:98 returning Redacted-2-chars
+11-18 18:40:43.146  5780  5799 I DialerFrequentsSuggestContacts: com.android.dialer.suggestcontacts.impl.FrequentsSuggestContacts.lambda$retrieveSortedNumberScoresFromDatabase$14:500 empty database: true
+11-18 18:40:43.147  5780  5799 I DialerFrequentsSuggestContacts: com.android.dialer.suggestcontacts.impl.FrequentsSuggestContacts.calculateAndSaveScore:308 calculateAndSaveScore
+11-18 18:40:43.149  5780  5807 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:43.152   554  1548 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10233, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:43.152  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getSpeedDialUiItemsFromEntries:746 enter
+11-18 18:40:43.152  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getStarredContactsWithRawContactId:915 enter
+11-18 18:40:43.153  5780  5799 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.lambda$fill$2:233 found 0 existing annotated call log ids
+11-18 18:40:43.159  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.setSourceIdForNewStarredEntries:1275 enter
+11-18 18:40:43.159  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.requestHighResolutionPhoto:409 enter
+11-18 18:40:43.159  5780  5800 I DialerSpeedDialEntryDatabaseHelper: com.android.dialer.speeddial.database.SpeedDialEntryDatabaseHelper.insertUpdateAndDelete:405 enter
+11-18 18:40:43.159  5780  5800 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.speedDialUiItemsWithUpdatedIds:443 enter
+11-18 18:40:43.160  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:806 Finished removing deleted and corrupted contacts.
+11-18 18:40:43.163  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:866 Finished building the smart dial table.
+11-18 18:40:43.166   903  1009 D SplashScreenView: Build android.window.SplashScreenView{9996feb V.E...... ......ID 0,0-0,0}
+11-18 18:40:43.166   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:43.166   903  1009 D SplashScreenView: Branding: view: android.view.View{1307148 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:43.169  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=69
+11-18 18:40:43.169  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=69
+11-18 18:40:43.171  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=71, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab11/.MainActivity }
+11-18 18:40:43.172  5780  8400 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.isIgnoreRttModeFlagSet:79 RTT carrier config ignore_rtt_mode_setting_bool is enabled.
+11-18 18:40:43.174  5780  5801 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:449 no results for REGULAR_CALL
+11-18 18:40:43.174  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:888 Finished querying the smart dial table for contact names.
+11-18 18:40:43.175  5780  5800 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.handleInsertsAndUpdatesInternal:449 no results for CALL_IN_DIRECT_BOOT_MODE
+11-18 18:40:43.175  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:943 Finished recreating index.
+11-18 18:40:43.177  5780  5801 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.lambda$handleDeletes$6:766 found 0 call log entries to remove
+11-18 18:40:43.177  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling PhoneLookupDataSource
+11-18 18:40:43.177  1582  4432 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:43.180  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:949 Finished updating index stats.
+11-18 18:40:43.180  5780  5802 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:955 broadcasting smart dial update
+11-18 18:40:43.181  5780  5806 I DialerSystemBlockedNumberPhoneLookupContributor: com.android.dialer.phonelookup.blockednumber.SystemBlockedNumberPhoneLookupContributor.getMostRecentInfo:106 getMostRecentInfo
+11-18 18:40:43.187  5780  8400 I DialerRttDeviceCompatibility: com.android.dialer.rtt.settings.impl.configuration.RttDeviceCompatibility.lambda$isDeviceSupported$0:61 [RTT] isDeviceSupported: false
+11-18 18:40:43.190  5780  5806 I DialerLegacyCountryDetector: com.android.dialer.location.LegacyCountryDetector.getCurrentCountryIso:98 returning Redacted-2-chars
+11-18 18:40:43.194  5780  5806 I DialerSpeedDialUiContentLoader: com.android.dialer.speeddial.loader.SpeedDialUiContentLoader.extractNonDuplicatedSuggestedContacts:215 enter
+11-18 18:40:43.194  5780  5799 I DialerSpeedDialUiContentLoader: com.android.dialer.speeddial.loader.SpeedDialUiContentLoader.loadWifiIconsConfigForSpeedDialContents:252 enter
+11-18 18:40:43.197  5780  5806 I DialerFixedDialingNumberPhoneLookupContributor: com.android.dialer.fixeddialingnumber.impl.phonelookup.FixedDialingNumberPhoneLookupContributor.lambda$getFdnListFromUri$6:242 empty cursor
+11-18 18:40:43.202  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling VoicemailDataSource
+11-18 18:40:43.204  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling SpamCallDataSource
+11-18 18:40:43.204  5780  5806 I DialerSpamCallDataSource: com.android.dialer.spam.calllog.SpamCallDataSource.fill:82 fill
+11-18 18:40:43.204  5780  5806 I DialerSpamCallDataSource: com.android.dialer.spam.calllog.SpamCallDataSource.handleInserts:88 handleInserts
+11-18 18:40:43.204  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling CallingNetworksDataSource
+11-18 18:40:43.205  5780  5806 I DialerCallingNetworksStorage: com.android.dialer.callingnetworks.impl.CallingNetworksStorage.deleteAllMatching:306 Nothing to delete
+11-18 18:40:43.275  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$3:211 filling CallRecordingDataSource
+11-18 18:40:43.275  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.fill:98 enter
+11-18 18:40:43.275  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleInsertsAndUpdatesFromAnnotatedCallLog:113 enter
+11-18 18:40:43.275  5780  5806 I DialerCallRecordingDataSourceStatusService: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSourceStatusService.lambda$getTimestampOfLastSyncedCallRecordingInfoMillis$5:100 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:40:43.275  5780  5802 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.lambda$getAnnotatedCallLogIdsToCallRecordingInfoMap$11:334 lastSyncedCallRecordingInfoTimestamp 0
+11-18 18:40:43.278  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.handleDeletesFromAnnotatedCallLog:137 enter
+11-18 18:40:43.278  5780  5806 I DialerCallRecordingInfoStorageAsyncSqlite: com.android.dialer.callrecording.impl.storage.CallRecordingInfoStorageAsyncSqlite.deleteCallLogInitiated:501 enter
+11-18 18:40:43.278  5780  5806 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.addDeleteUpdatesFromCallRecordingInitiatedDeletes:181 enter
+11-18 18:40:43.278  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$4:224 applying mutations
+11-18 18:40:43.279  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$5:238 coalescing call history
+11-18 18:40:43.279  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesce:123 coalesce
+11-18 18:40:43.279  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:190 coalesceWithSelection
+11-18 18:40:43.279  5780  5799 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceWithSelection:190 coalesceWithSelection
+11-18 18:40:43.279  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$6:247 coalescing conversation history
+11-18 18:40:43.279  5780  5799 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesce:109 coalesce
+11-18 18:40:43.279  5780  5799 I DialerCallRecordingDataSource: com.android.dialer.callrecording.impl.calllog.CallRecordingDataSource.onSuccessfulFill:221 enter
+11-18 18:40:43.280  5780  5801 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:225 coalesceInternal
+11-18 18:40:43.281  5780  5801 I DialerConversationHistoryCoalescer: com.android.dialer.calllog.coalescer.ConversationHistoryCoalescer.coalesceInternal:136 coalesceInternal
+11-18 18:40:43.281  5780  5801 I DialerSystemCallLogDataSource: com.android.dialer.calllog.datasources.systemcalllog.SystemCallLogDataSource.onSuccessfulFillInternal:358 on successful fill with maxTimestampProcessed: null
+11-18 18:40:43.289  5780  5800 I DialerCallHistoryCoalescer: com.android.dialer.calllog.coalescer.CallHistoryCoalescer.coalesceInternal:225 coalesceInternal
+11-18 18:40:43.339  5780  5799 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCalls:130 saveToFileForAllCalls
+11-18 18:40:43.339  5780  5799 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForMissedCalls:155 saveToFileForMissedCalls
+11-18 18:40:43.339  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.saveToFileForAllCallsInConversationHistory:181 saveToFileForAllCallsInConversationHistory
+11-18 18:40:43.340  5780  5806 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.lambda$saveToFileForAllCallsInConversationHistory$4:201 Finished saving coalesced rows for conversation history.
+11-18 18:40:43.340  5780  5802 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:235 start writing coalesced_rows_for_all_calls
+11-18 18:40:43.340  5780  5800 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:235 start writing coalesced_rows_for_missed_calls
+11-18 18:40:43.342  5780  5802 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:240 finished writing coalesced_rows_for_all_calls
+11-18 18:40:43.344  5780  5801 I DialerCallerIdFeedbackPhoneLookupContributor: com.android.dialer.calleridfeedback.impl.phonelookup.CallerIdFeedbackPhoneLookupContributor.onSuccessfulBulkUpdate:130 Writing timestampOfLastCallerIdFeedbackLookup : 1795027243186
+11-18 18:40:43.344  5780  5806 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForCallLogAllCalls:60 notifyForCallLogAllCalls
+11-18 18:40:43.344  5780  5799 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForConversationHistory:83 notifyForConversationHistory
+11-18 18:40:43.344  5780  5800 I DialerCoalescedRowsDao: com.android.dialer.calllog.coalescer.CoalescedRowsDao.save:240 finished writing coalesced_rows_for_missed_calls
+11-18 18:40:43.345  5780  5799 I DialerCoalescedRowsUpdatedNotifier: com.android.dialer.calllog.coalescer.CoalescedRowsUpdatedNotifier.notifyForCallLogMissedCalls:71 notifyForCallLogMissedCalls
+11-18 18:40:43.345  5780  5799 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.lambda$rebuild$7:257 coalesced row updated
+11-18 18:40:43.346  5780  5801 I DialerSystemCallLogUpdater: com.android.dialer.calllog.refresh.impl.SystemCallLogUpdater.getCallTypeUpdates:190 There are no system call log mutations
+11-18 18:40:43.366  5780  5796 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:43.366  5780  5801 I DialerSystemCallLogUpdater: com.android.dialer.calllog.refresh.impl.SystemCallLogUpdater.updateSystemCallLog:218 updated 0 rows
+11-18 18:40:43.369  5780  5799 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:47 Impression: ANNOTATED_CALL_LOG_NO_CHANGES_NEEDED
+11-18 18:40:43.651  5780  5780 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl$ServiceStateListener.onServiceStateChanged:376 enter
+11-18 18:40:43.652  5780  5780 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+11-18 18:40:43.653  5780  5780 I DialerDialerNavigationBarFragmentPeer: com.android.dialer.main.impl.bottomnav.DialerNavigationBarFragmentPeer.setNotificationCount:384 setting notification count in bottom nav
+11-18 18:40:43.653  5780  5780 I DialerDialerNavigationBarFragmentPeer: com.android.dialer.main.impl.bottomnav.DialerNavigationBarFragmentPeer.lambda$setNotificationCount$7:401 updating voicemail count in bottom nav
+11-18 18:40:43.654  5780  5780 I DialerSearchFragment: com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:464 Loader finished: kfm{3187422 id=3}
+11-18 18:40:43.655  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:43.656  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onPause:574 onPause enter
+11-18 18:40:43.656  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onHidden:668 onHidden enter
+11-18 18:40:43.656  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.toShortcutSpeedDialInfos:678 enter
+11-18 18:40:43.656  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onPause:312 enter
+11-18 18:40:43.660  5780  5796 I DialerDynamicShortcuts: com.android.dialer.shortcuts.DynamicShortcuts.refreshInBackground:113 refreshInBackground
+11-18 18:40:43.663  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onActivityPause:636 enter
+11-18 18:40:43.677  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSpeedDialUiItemListLoaded:765 onSpeedDialUiItemListLoaded enter
+11-18 18:40:43.677  5780  5780 I Dialerjlg: com.android.dialer.modernizedmain.impl.ModernizedMainEnabledFn.isEnabled:19 flag disabled
+11-18 18:40:43.677  5780  5780 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateDuoChannels:1172 enter
+11-18 18:40:43.677  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.showNoContactsEmptyContentView:947 enter
+11-18 18:40:43.678  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSpeedDialUiItemListLoaded:822 onSpeedDialUiItemListLoaded exiting
+11-18 18:40:43.679  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate$MainCallLogFragmentListener.onVoicemailStatusFetched:1976 onVoicemailStatusFetched
+11-18 18:40:43.679  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate$MainCallLogFragmentListener.onVoicemailStatusFetched:1977 new voicemail tab is enabled
+11-18 18:40:43.680  5780  5780 I DialerPrimesMetrics: com.android.dialer.metrics.primes.PrimesMetrics.recordMemory:111 recording memory for event: MainActivity.onResume
+11-18 18:40:43.688  5780  5780 I DialerCountryCodeProviderImpl: com.android.dialer.assisteddialing.availability.CountryCodeProviderImpl.<init>:55 Using country codes: {CA, ES, GB, IN, JP, US}
+11-18 18:40:43.688  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: PRE_ON_CREATE
+11-18 18:40:43.688  9417  9417 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:40:43.707  9485  9485 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:43.709   359   359 I netd    : tetherGetStats() -> {[]} <2.27ms>
+11-18 18:40:43.715  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: CREATED
+11-18 18:40:43.715  9417  9417 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab11.MainActivity@3bfa33c
+11-18 18:40:43.720  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: STARTED
+11-18 18:40:43.720  9417  9417 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab11.MainActivity@3bfa33c
+11-18 18:40:43.721  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: RESUMED
+11-18 18:40:43.721  9417  9417 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab11.MainActivity@3bfa33c
+11-18 18:40:43.726   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ff8a1e7
+11-18 18:40:43.729   554   647 W InputManager-JNI: Input channel object '3ceecfd Splash Screen com.university.lab11.test (client)' was disposed without first being removed with the input manager!
+11-18 18:40:43.736  5780  5801 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:43.738  5780  5800 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:43.738  5780  5799 I DialerVoicemailTabImpl: com.android.dialer.voicemail.tab.impl.VoicemailTabImpl.lambda$getShouldShowTabDataSource$0:98 has active voicemail provider: true, archived voicemails count: 0
+11-18 18:40:43.745  5780  5806 I DialerVoicemailDataServiceImpl: com.android.dialer.voicemail.tab.impl.dataservice.impl.VoicemailDataServiceImpl.lambda$getAllUnreadVoicemailsCountDataSource$7:538 determining new unread voicemail count
+11-18 18:40:43.746  5780  5806 I DialerVoicemailDataServiceImpl: com.android.dialer.voicemail.tab.impl.dataservice.impl.VoicemailDataServiceImpl.lambda$getAllUnreadVoicemailsCountDataSource$7:549 total unread voicemails: 0, total unread from active account: 0
+11-18 18:40:43.761   554   578 W ziparchive: Unable to open '/data/app/~~KKfQT51wexecP3xeX5CbRg==/com.university.lab11-Uy3-bZZheIcYhh9fg0vdxw==/base.dm': No such file or directory
+11-18 18:40:43.762   554   578 I ActivityTaskManager: Displayed com.university.lab11/.MainActivity for user 0: +614ms
+11-18 18:40:43.768  9417  9448 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+11-18 18:40:43.771  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [0], return value: Default
+11-18 18:40:43.772  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStop:581 onStop enter
+11-18 18:40:43.772  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.unregisterPermissionReceiver:272 unregisterPermissionReceiver
+11-18 18:40:43.772  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStop:318 enter
+11-18 18:40:43.772  9485  9485 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2a6ed26
+11-18 18:40:43.773  9417  9417 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-18 18:40:43.773  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:637 onSaveInstanceState enter
+11-18 18:40:43.773  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:640 longPressedFavoriteContactIndex : Optional.empty
+11-18 18:40:43.773  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onSaveInstanceState:1473 enter
+11-18 18:40:43.773  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onSaveInstanceState:671 Saving FAB hidden state 'hidden: false'
+11-18 18:40:43.774   554  1808 W InputManager-JNI: Input channel object 'dbf1d97 com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:40:43.779  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=70
+11-18 18:40:43.779  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=70
+11-18 18:40:43.780   425  4804 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:43.784  9417  9417 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+11-18 18:40:43.787   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@19d1fc7
+11-18 18:40:43.793   554   647 W InputManager-JNI: Input channel object '94c8e6b Splash Screen com.university.lab11 (client)' was disposed without first being removed with the input manager!
+11-18 18:40:43.794   554   680 I ImeTracker: com.university.lab11:4281988c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:43.794   554   680 I ImeTracker: com.university.lab11:4281988c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:43.796  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:43.796  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:43.796  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab11, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:43.796  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:43.796  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:43.824  9417  9417 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230828/com.university.lab11:id/button_notes>
+11-18 18:40:43.827  9417  9529 D ProfileInstaller: Installing profile for com.university.lab11
+11-18 18:40:43.827  9417  9417 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:40:43.868   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:40:43.869   554  1843 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:43.870  9417  9530 D TrafficStats: tagSocket(134) with statsTag=0xffffffff, statsUid=-1
+11-18 18:40:44.093   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:44.106  5780  5780 I DialerPrimesMetrics: com.android.dialer.metrics.primes.PrimesMetrics.recordMemory:111 recording memory for event: MainActivity.onResume
+11-18 18:40:44.116  9417  9448 D UiDevice: Waiting 15000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QFirst note\E.*']].
+11-18 18:40:44.116  9417  9448 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QFirst note\E.*'].
+11-18 18:40:44.373   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:44.390   359   359 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.06ms>
+11-18 18:40:44.390   359   359 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.02ms>
+11-18 18:40:44.390   359   359 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.02ms>
+11-18 18:40:44.391   359   359 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.01ms>
+11-18 18:40:44.477  9417  9448 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QFirst note\E.*'].
+11-18 18:40:44.848  5780  5780 I DialerCallerIdFeedbackDeletionWorker: com.android.dialer.calleridfeedback.impl.database.retention.CallerIdFeedbackDeletionWorker.startWork:60 startWork
+11-18 18:40:44.849  5780  5802 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=560949ec-4fde-4084-836b-dabef8ebf2e2, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.android.dialer.calleridfeeback.impl.database.retention.CallerIdFeedbackDeletionWorker } ]
+11-18 18:40:44.855  5780  5799 I DialerCallerIdFeedbackDatabase: com.android.dialer.calleridfeedback.impl.database.CallerIdFeedbackDatabase.deleteAllMatching:420 feedbackCreationTimestamp list empty
+11-18 18:40:44.855  5780  5799 I DialerCallerIdFeedbackDatabase: com.android.dialer.calleridfeedback.impl.database.CallerIdFeedbackDatabase$1.onSuccess:362 Deleted old caller IDs.
+11-18 18:40:44.890  5780  5802 I Dialerfxo: com.android.dialer.dobby.impl.feedback.upload.DobbyDonationsWorker$startWork$1.invokeSuspend:66 starting work
+11-18 18:40:44.892  5780  5802 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:54 Impression: DOBBY_DONATION_WORKER_START
+11-18 18:40:44.892  5780  5802 I Dialerfxo: com.android.dialer.dobby.impl.feedback.upload.DobbyDonationsWorker$startWork$1.invokeSuspend:69 Dobby is not enabled
+11-18 18:40:44.892  5780  5802 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=2157f96e-a458-4f72-b83b-954078e76b94, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.android.dialer.dobby.impl.storage.postcall.DobbyMetricsWorker } ]
+11-18 18:40:44.979  9417  9448 I LABCI   : waitText 'First note': true
+11-18 18:40:44.998   359   359 I netd    : tetherGetStats() -> {[]} <0.37ms>
+11-18 18:40:45.066   554  1843 W InputManager-JNI: Input channel object 'cf96806 Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:40:45.155   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:45.220   554  1843 D ConnectivityService: requestNetwork for uid/pid:10168/7851 activeRequest: null callbackRequest: 216 [NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:40:45.221   554   826 D ConnectivityService: NetReassign [217 : null → 100] [c 0] [a 0] [i 1]
+11-18 18:40:45.224   554   819 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:40:45.224   554   819 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:40:45.224   554   819 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:40:45.224   554   819 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10168 RequestorUid: 10168 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+11-18 18:40:45.243   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:45.243   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:45.243   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 1ms
+11-18 18:40:45.254  5780  5780 I DialerXatuMetricsWorker: com.android.dialer.xatu.impl.storage.postcall.XatuMetricsWorker.startWork:67 enter
+11-18 18:40:45.260  5780  5801 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=a7fef3b8-86de-4ae9-b94e-e9361f590510, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.android.dialer.xatu.impl.storage.postcall.XatuMetricsWorker } ]
+11-18 18:40:45.272   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:45.273   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:45.273   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 1ms
+11-18 18:40:45.340   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:45.340   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:45.340   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10095} in 1ms
+11-18 18:40:45.680  9417  9448 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:45.688  9417  9448 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab12_my_notes.png
+11-18 18:40:45.737  9534  9534 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:40:45.737  9534  9534 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:40:45.744   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:40:45.744  9534  9537 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:45.766  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:40:45.781  1208  9190 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 469 [CONTEXT service_id=218 ]
+11-18 18:40:45.782  1208  9190 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 5 uptime_millis: 5 exec_start_elapsed_seconds: 469 [CONTEXT service_id=218 ]
+11-18 18:40:45.790   554  1843 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:40:45.791   554  1004 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:40:45.793   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:40:45.794  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:45.798  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:45.803  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 3df91e9e-589e-478a-8d29-08f531209046Job ID 46
+11-18 18:40:45.804  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:40:45.804  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:40:45.807  9417  9448 I LABCI   : screenshot lab12_my_notes
+11-18 18:40:45.810   554  1843 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10234, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:45.821  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: PAUSED
+11-18 18:40:45.821  9417  9417 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab11.MainActivity@3bfa33c
+11-18 18:40:45.824   903  1009 D SplashScreenView: Build android.window.SplashScreenView{5850a9f V.E...... ......ID 0,0-0,0}
+11-18 18:40:45.824   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:45.824   903  1009 D SplashScreenView: Branding: view: android.view.View{8dc27ec G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:45.825  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=72, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:40:45.832   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:45.860  9485  9499 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:40:45.861  9485  9499 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:40:45.865  9485  9499 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:45.872  9417  9450 D EGL_emulation: app_time_stats: avg=235.25ms min=5.96ms max=1487.13ms count=9
+11-18 18:40:45.872  9417  9417 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:45.943  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=28, baseIntent=Intent { act=android.intent.action.DIAL dat=tel:xxxxxxx flg=0x10000000 cmp=com.google.android.dialer/com.android.dialer.main.impl.MainActivity }
+11-18 18:40:45.945  5780  5780 I Dialermjh: com.android.dialer.windowlayout.impl.WindowLayoutProviderImpl.updateWindowLayout:71 enter
+11-18 18:40:45.947  5780  5780 I Dialermjh: com.android.dialer.windowlayout.impl.WindowLayoutProviderImpl.updateWindowLayout:82 windowLayout set to # mjf@837e38
+11-18 18:40:45.953  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [1], return value: Default
+11-18 18:40:45.953  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStart:548 onStart enter
+11-18 18:40:45.953  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.registerPermissionReceiver:266 Permission: android.permission.READ_CONTACTS
+11-18 18:40:45.955  5780  5780 I DialerSearchFragment: com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:464 Loader finished: kfp{b34a8ea id=2}
+11-18 18:40:45.955  5780  5780 I DialerSearchFragment: com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:464 Loader finished: keq{b8a47b1 id=4}
+11-18 18:40:45.955  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStart:254 enter
+11-18 18:40:45.956  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: STOPPED
+11-18 18:40:45.956  9417  9417 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab11.MainActivity@3bfa33c
+11-18 18:40:45.956  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1235 enter
+11-18 18:40:45.956  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1256 registered GrowthKit and HATS callbacks
+11-18 18:40:45.956  5780  5780 I DialerDefaultDialerImpl: com.android.dialer.defaultdialer.impl.DefaultDialerImpl.isDefaultDialer:40 enter
+11-18 18:40:45.957  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@3bfa33c in: DESTROYED
+11-18 18:40:45.957  9417  9417 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:40:45.957  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate$MainCallLogFragmentListener.onActivityResume:2031 enter
+11-18 18:40:45.957  9417  9417 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@85af4c4
+11-18 18:40:45.957  5780  5780 I DialerCallLogQueryHandler: com.android.dialer.database.CallLogQueryHandler.fetchVoicemailStatus:81 fetching voicemail status
+11-18 18:40:45.958  5780  5800 I DialerAnnotatedCallLogRefreshStarterImpl: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshStarterImpl.refreshWithDirtyCheck:40 refreshWithDirtyCheck
+11-18 18:40:45.958  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:45.959  9417  9448 I TestRunner: finished: d_myNotesFromLaptopServer(com.university.lab11.Lab11Test)

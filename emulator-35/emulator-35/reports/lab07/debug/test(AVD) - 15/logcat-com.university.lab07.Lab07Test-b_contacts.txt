@@ -1,0 +1,505 @@
+11-18 18:37:05.496  7183  7206 I TestRunner: started: b_contacts(com.university.lab07.Lab07Test)
+11-18 18:37:05.497  7183  7206 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:37:05.507   554   578 W ziparchive: Unable to open '/data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/base.dm': No such file or directory
+11-18 18:37:05.511   554   578 I ActivityTaskManager: Displayed com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +163ms
+11-18 18:37:05.511  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=47
+11-18 18:37:05.511  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=47
+11-18 18:37:05.513  1156  1156 D StatsLog: LAUNCHER_ONRESUME
+11-18 18:37:05.515   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:05.515  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+11-18 18:37:05.522  1156  1206 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+11-18 18:37:05.529  1156  1156 D BaseDepthController: setSurface:
+11-18 18:37:05.529  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:37:05.529  1156  1156 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x986a6dd
+11-18 18:37:05.538   554  1459 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+11-18 18:37:05.539   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a58a419
+11-18 18:37:05.540   554  1012 W InputManager-JNI: Input channel object '1279b07 Splash Screen com.university.lab07.test (client)' was disposed without first being removed with the input manager!
+11-18 18:37:05.541  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+11-18 18:37:05.541  1156  1837 D OneSearchSuggestProvider: 	... 8 more
+11-18 18:37:05.542  1156  1837 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=57, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@4d06fb1
+11-18 18:37:05.557  1483  1483 I A       : (REDACTED) Created gRPC endpoint for service %s
+11-18 18:37:05.571  1156  1557 D EGL_emulation: app_time_stats: avg=1956.80ms min=110.57ms max=3803.04ms count=2
+11-18 18:37:05.573  1156  1156 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+11-18 18:37:05.573  1156  1156 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:22)
+11-18 18:37:05.573  1156  1156 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:11)
+11-18 18:37:05.573  1156  1156 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:735)
+11-18 18:37:05.575  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:05.580  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:05.580  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:05.580  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.580  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:05.580  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:05.580  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:37:05.580  7273  7273 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:05.582   554   680 I ImeTracker: com.google.android.apps.nexuslauncher:e04dbe5c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:05.585   554   680 I ImeTracker: com.google.android.apps.nexuslauncher:e04dbe5c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:05.587  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:37:05.587  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.590  7273  7273 I AndroidRuntime: Using default boot image
+11-18 18:37:05.590  7273  7273 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:37:05.590  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.591  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:05.591  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:37:05.594  7273  7273 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:37:05.595  7273  7273 I app_process: Using CollectorTypeCMC GC.
+11-18 18:37:05.604  7225  7225 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:05.614  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:05.621  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:05.621  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:05.622  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:05.622  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:05.678  7225  7225 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fb1c04c
+11-18 18:37:05.680   554  1843 W InputManager-JNI: Input channel object '7be3264 com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:05.685  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=48
+11-18 18:37:05.685  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=48
+11-18 18:37:05.693  7273  7273 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:05.706  1156  1156 D SearchTargetUtil: query= size=15
+11-18 18:37:05.706  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=andrew lattarulo border phone search,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=andrew lattarulo border phone search searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: c6d0f7c4-d5ee-42d1-8faf-98c93af4871e
+11-18 18:37:05.707  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=peppermint milkshake chick fil a,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=peppermint milkshake chick fil a searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 5aa19f5e-c811-4314-9063-25610dd705f6
+11-18 18:37:05.707  7273  7273 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:05.707  7273  7273 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:05.707  7273  7273 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:05.707  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=007 actor robert pattinson james bond,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=007 actor robert pattinson james bond searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 97153c34-efd1-4e90-8e99-16985fc1eb8c
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADAAMAMBIgACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAFBgIDBAH/xAAxEAABAwMCBAQEBgMAAAAAAAABAgMRAAQFEiEiMUFRBhNhkXGB4fAHNGKhscEUFTL/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwUC/8QAHxEAAgICAgMBAAAAAAAAAAAAAQIAEQMhEjETUWEE/9oADAMBAAIRAxEAPwBTAqt10NkDmo9KtFDmJuX3CDvrPtXGV+I1K4UDtuEWUOOCf4riiUHiE0TxtsFNDfep3uPTomYVQ/K4N3HeFKqoMSQoSOVdqhU27qm5naakHe9NRuS3M/IvFiIZxirBGNffvCjU2rcaZUUmOQ67+1JDry7S/fKUr2eVwpAmCdqeH2yvHuP/AOGnyzDSXQwE8QMD4HlNJ7yG7bMKTftKSD/2FDcmd5+dSygg/JfBRGu4bxeYbS6hD7UNuGEvNuhY1djWjKZVLNwGW0JE83HnCkfKAaGrXapWGm5QyDIJkiaIXDjTb4X5iHUqAJ0H070UkX1GBW497gyyLl+8SYCghSo1SCAehqR2J9Kscu2FZMrthoCGiDtzJH1pu/DSzx15cXgu7Fu8uUJSppDkQE7yYOx30+4peAmj6gf0AAj3MKstbnEuWHnJOu48/XoVwmZiIpS8bX6b/NJuG0wjyQkDeAdSj19TQe4zdy62rykhlJ2BmVfSnfD+E3fEn4aWd9jkF2+snX0rbG6nkFWox+ocwOsnrFVYWJJDRgvB/wCvefS5ev3IbdA0loI4D2IUP7pk8Q2GJYtktWN1duOrPDIQgI9TzMx99KRLKbYrZeaUYO6SkzRZtwKTos7R0POcIBHf060ciLDamK347h55M6CSkE9T9wfnRLG5C5xl61eWTpbfbMpI/cEdRWzx3hHfB+C8Opc/NPquHbhonYSGgE/EQN+5NLlrkmHwJJbV2Vy96QgpahHNtc//2Q==,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=deion sanders,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=Deion Sanders searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: dd7bc893-1932-4aaf-b83d-9206efa8029e
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=twin waterspouts san francisco,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=twin waterspouts san francisco searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 1b65e40b-ee5c-45af-8c2e-12edf510920a
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=pokémon champions balance patch update,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=pokémon champions balance patch update searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 86bb7a25-90c0-4749-b069-fd52fd0ebdb0
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=northern lights forecast,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=northern lights forecast searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 3b2fd827-1a95-4cc1-a117-6935d69855d3
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=chris laneve army,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=chris laneve army searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 808d5608-12c1-4cb9-846e-aa7e4ced3b18
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=costco whipped cream recall,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=costco whipped cream recall searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 1f019405-4183-4644-b987-d3a54450bfde
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=drake maye injury,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=drake maye injury searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: f839638d-6fad-4ef2-93ac-afe011fceb50
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADAAMAMBIgACEQEDEQH/xAAbAAACAwADAAAAAAAAAAAAAAAFBgMEBwECCP/EADcQAAEDAgQDBQUGBwAAAAAAAAECAwQFEQASITEGE0FRYXGBkRQiwdHhB0KSobHwFSRSY4KDov/EABkBAAMBAQEAAAAAAAAAAAAAAAMEBQIGAf/EACERAAICAAcAAwAAAAAAAAAAAAECAAMEERITITFBIqHB/9oADAMBAAIRAxEAPwDLg13Y5LWIFVL+wPx/TB3ganK4n4gZgqbKI6QXH1JVqEDoNNybD17MLEOBmRLW/hug30ZTjUedKYVIYiOKYSbF3ZPqd8V5ER2MvI+2UKIuO8dx649C1Hh+DKpwYCUNxmRlSkaJTbswmz+GmptNlQkoWlbIzx1LVcr6BfcQdD2gjqL4DvD2ZWzM55cTJsmJ4bJU+2EpJJULAddcUBOuAeV/1hioSFe1tKGl1J/O/wAsFfUo5h6GqsPwPUXXKdNQTmhyB/qONT+yKE5TaDU6mWf5t0kNIWLEhA0HqTgFMqaJU8S+Qon3VEJGh6/HB3iLiF+jUWJGjMBl6Qi+VV8zKCNyD1PwvglupwEHsjoAnyPkdYyFV+itrnOvNOBeiY6sgQpJKSLX/U4B1h5bFbU+xLeIUrlNsixSlOTf8QGvf10wJ4Q4oZZp66e7IYXKDiykE+65fr66+fjiVcp6NLW5KitOtOADIjZNwDsfE9uEmQoxVo+hVk1LMmrAbFXnBhNmvaHMgG1sx27sOHC0VUudHaQlSrJS4Qjc5eYq3na3nilxvw3NiynqkzBSxAUEqDbdrtAgDUDS1+ztwwfZnlMyavmBDjdOKmyRexzHXy+OGrmBQETOC1VswI54/Z24eoX8VlLkO3RCNle7oVabDuxzx7HZgTmWmI4LL8ZKUtpRfULN1d+mX0wVRVG6fSmGIwBWGxt93C7XZSnptOWtSb8lw21sBmA1tr0/dse4Yu1wPkWxiolJX2CJVDQwhLsRDyHgux5xHvgklIV/SSBYjQHodbArR64YoWy/mcYTopp2/MaV2E/kL/XEsyS5FfQ6wwEISiwTYFKj1N7ag2B1vewvtfAqpS/aFIQw2GGTuhKtOmhv4aeWptivZhkcZMJEpxdlbZqY7QqlEqiW4zDnNC2iooX91O2U/LA/gSntQOLpsB4aKhHkBWy0Z7+otbyOE2HUvYKmyEkNlWqVDbwPjjRKC+HqxDmnYtuItbZVrnX/ABxDuq2WK+TpcPdv1hujP//Z,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=amanda real housewives of london,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=amanda real housewives of london searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 7432769a-9acb-4a77-ad35-e7e4f748764e
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=massive waves california coast,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=massive waves california coast searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 667d0c29-b1f9-460d-a4d0-da82b0fe01f0
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADAAMAMBEQACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAFBgcEAgH/xAAvEAACAQMCBAQGAQUAAAAAAAABAgMABBEFIRITMUEGInGBB1FhkaHBYiMyQkPh/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQX/xAAnEQACAQQBAwIHAAAAAAAAAAAAAQIDESExEiJBUfDxBBNhcYGRsf/aAAwDAQACEQMRAD8An9nacwrIwAiByP5f8qac7YQ2nDuwnygOn4FIKDuRCkJYRlyBsudzRJXZjBgXmKWyGZyBJw9R9AKfp2MSvG6/JtutDvLTQ9P1a4jK29zxInlOfJgg+/mx6E1slsyDTkvov4M9hzE06/1Ix8sx2oigOf8Aa4IBG3ZeI/ap6a4Jz9XYdR8rQFslY143OBnAAGST8hWJN6MPbYyvLJzM4CjyDop3/OKJ2tg1xcXZmtEz/jketDYw6tNIOralBa24VJ5XADjbbvn2FNhJ6BljqRa/Eek22qeHZtNuldYioIMQAMZXcEZ6AY+1Mk8ZEQvfBLZLhZtEsbePPDG8qTfJpMKQfTh4fuanm+hJemXToyp1Ly7pfr3FZk4CZ5m5kmMDy/hRRZfShihGkuT2GJNC1PTbQS31hdRKxBeR4yF4j2z9h7VsovxgkU1J7yZsY7ZzQmlM8EQWlnYLc2qkSzIOYxO/p02FNTS0TybbyHLq/aVCiAOo7A7CkTrZslcOMe5MNW5cd48cKhEWVsqMf3MNzt9TQXv2sU8pSzJ3CXwz8PRahfzXuo28U6QeWNZBxKrnrhe5x3Pz2quC8E9ao5NXKhqVhHeWE1lIQkMsZjIQBcL9OtE09CU1siev6RdaJetBdRARkEwzZGJVydxg7H5g/MUpxsOUrjB4LuRcaLK0bHEM7Rsv5/dTV4SjnsbFpsKz38sMTCJuHPep1Nx0Ha4gS3JlnmZmJIuCCT61UtJhLQ3/AA58QQzaa1tbjliJzzezOT0PX29qtUWokU31ZHlNTgKYjmwf45/Q/dD9maI/xBu7a4t44mcPcBsqzdVHf646VsI88GSqcMi54XuBbSzRJMp4sEhaR8XScUs3Cp1eb1YO3cwMec1BxHqQkRKC0zLLnjlZhlem9dRUE4rIj58ot9ITsIJkYi2cxeQg8I2xVzppkMqjWxmS6um0xYJ5I5f6fDnl5Oex64zSXRi2Gq8rC/c6Z5hLMGYgcO7fqmRpRWgJVpntlaxRzFkQKSOtbUpxas0Aqkr4YQmHEgBGwpKow8BurLyCZYUSEgKBtjpVCggebSP/2Q==,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=dole whip,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=Dole Whip searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: c9f69880-0371-40a4-b51c-d9af04b9d7dd
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADAAMAMBIgACEQEDEQH/xAAaAAADAAMBAAAAAAAAAAAAAAAEBgcCAwgF/8QAMBAAAgEDAQYEBQQDAAAAAAAAAQIDBAURAAYSITFBYRMiUXEHFKHB8BUyUuFCgZH/xAAYAQEBAAMAAAAAAAAAAAAAAAADBAABAv/EAB0RAAMBAQACAwAAAAAAAAAAAAABEQIDIUETIjH/2gAMAwEAAhEDEQA/AIiTk6OtNsqbnU+BTJn+THkNBpGzuFA4k41StjbelviY4O95WYk9Tz1puI6zmuGyx/D+mFMVuQ8R2ORjgQPTOs7l8NKSXL0c0sRA/bwIOn+2hCo8Q40U4VSSmcd9F8jpS+GYc7Xq1z2arNNN5sYdH/kp6/TQbJvKG69dVb4j2iOrpjMAFaEF1I7/ALhqXMpWLh7aSkjUcCLnbamz3OejrE8OemkKSLvBsEdxw087LPO9DDLI6kSZC+4OPtpDrKmWpmklmkLySHedmOSx9Tpw2Aqkmt1ZQOw8SnYVMOee7w3gPz/LWbfgXivt5KBHNXIhaJQqxqTkEdPXh9xol3qax1aKTcVlDYJJ4dcAEaGark+REDIF3/KH559tZRTTRIjCbfCJgbkR4e+py6ejXeacSUNRFMMj5eQEnj0/rULd/DITmAoBHfrqvbV339LoJY5gz1FZG8UeMYQkcz/3UkqYD4fjHIXOM+vtpMO/pJ3SsRrIyTrdb6SsrK+Ckt6u1VO3hxhDgnPPj6Y59tOGznw1vl3KS1ifp9M2DvSjMhHZOn+8e2qrs3sVadnsfJwb07IVeol80jcPXoOwwNMAeJSxzQUi0dY286gKX6MfX86EaNSIbkbSOuFzg8z9dNtVZoLhSBCAsgHlbH0Olma0S0tV8vJA7yucRrnIbuD10Gswt59k0Jm2Gy17vzxVtnpBUxRBkKCVVYHgeTEZ5jSBdtnr/b4cXG110McYzvNCxTv5hw+uunKKiFBBHBwPAlyOrnj+e2ilOTjTZykiPbumz//Z,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=rance howard,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=Rance Howard searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 8871123b-97f4-454f-ba03-330c344c7e2b
+11-18 18:37:05.708  1156  1156 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADAAMAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAGBQcE/8QAMRAAAQMCBAQFAgYDAAAAAAAAAQIDBAURAAYSIRMxQYEHIlFhoXGxFCNzwdHwFSVC/8QAFwEBAQEBAAAAAAAAAAAAAAAABAUDAv/EAB8RAAEFAAIDAQAAAAAAAAAAAAEAAgMEERIxITJhBf/aAAwDAQACEQMRAD8ATOU5xU5Ljz8wpiRwpwJdUA4voLDEBzOcmil+AptUyao8QKXshgKFwlXU2HQYdyJpjQX5zu7bKVKU2BuQkE/tgm1lVmTEfn1MB+W9+Y4k3tqO9u3LtjexZLG8cXMMHN3hBa5n/MTsUcOQI91mymmwkkD632x1ZR8TKhGeSzWiqbGUd3AkBxv3HK49sUZmXoaR+XESACSE8wO2DkyksOakcEII5FOANtamuqEBblAlxajFRKhupdZWLhScAvEBv/cI/SH3xyeENTeanTKLIKlJCeM0T0tYEfI+cU/EFBFVZVbYtbHvjSy7YtSfxhlzPhSzNjYby5UHGkXWlk7D06/F8TpNbgQoy25b62th5gytSSfS4FsI6nHXLp8mO0rQt1pSEqtexIwTzBSE1WlNup49uGkJ0OlITyN7fGObXY1DqAkHFyS34iYKpHFKmz5klsXJ7YFfi1S5BLDLaEX5OPDWewv98JsxRf8AHUCFGC9ZU4SslV7j0vztiJEpTSmeIGWk8r6U7k2t9sEbxAVAte5c1Gkoo+cYctwLDS0LDhSnVp8p3t6XtjW61Ro9ajIS8Shad0OJ5jGXz4g4PH1JSprfUr+9sPoGeqDLDLTT7qX1kpSwplWs252A59sNiIc0td0gSF8MgkjOFK8D6pUmKvClmkSg4hl8tPKQD5SLarevPviX4k5zhN0B6BRKnFfmSFcF38O+FKaRY6jt9AnvjMck5ll5dcccdUpcTk8wrqBvdPv8dPcd2GF7cCxryCN+laVVQqZAbYiRJaW412zrKEeYbbgqBHr7g33wfgLcVJ4QQoDkVgjQfYWJv9cMq25CeZbfU/a4AFl2Fv3wOlT2mlq4Cg64R/zyA+uJ+g9KsTg3VJzrIAbZjI3s5qNj1AP84ByX+M+lwG4A2HpuThTmNSENtl9yyjck9b25YHgWGFweQptj2X//2Q==,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=aryna sabalenka,input_query=android.app.search.Query@7697e7e,group_id=web249072,response_id=42b60927-c490-4299-950d-2cfa588119a7,support_query_builder=false,} searchAction=Aryna Sabalenka searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 9d661af0-048c-4f3b-9f92-6bd035389c75
+11-18 18:37:05.708  7273  7273 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:05.709  7273  7273 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:05.710  7273  7273 W app_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:37:05.710  7273  7273 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:05.733  7273  7273 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:05.734  7273  7273 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:37:05.750  1582  4575 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.754  1582  4575 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:05.758  7273  7273 D AndroidRuntime: Shutting down VM
+11-18 18:37:05.770  1208  6540 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 249 [CONTEXT service_id=218 ]
+11-18 18:37:05.774  1455  6713 W GmsTaskScheduler: com.google.android.gms.icing.service.IcingGcmTaskChimeraService is not available. This may cause the task to be lost.
+11-18 18:37:05.778  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 15 uptime_millis: 15 exec_start_elapsed_seconds: 249 [CONTEXT service_id=218 ]
+11-18 18:37:06.573  7183  7206 I LABCI   : insert contact: 
+11-18 18:37:06.574  7183  7206 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:37:06.622  7291  7291 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:06.625  7291  7291 I AndroidRuntime: Using default boot image
+11-18 18:37:06.625  7291  7291 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:37:06.627  7291  7291 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:37:06.628  7291  7291 I app_process: Using CollectorTypeCMC GC.
+11-18 18:37:06.674  7291  7291 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:06.680  7291  7291 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.680  7291  7291 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:06.680  7291  7291 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:06.681  7291  7291 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.682  7291  7291 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.683  7291  7291 W app_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:37:06.683  7291  7291 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:06.695  7291  7291 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:06.695  7291  7291 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:37:06.702  1582  2500 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:06.704  7291  7291 D AndroidRuntime: Shutting down VM
+11-18 18:37:06.718  1208  7022 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 250 [CONTEXT service_id=218 ]
+11-18 18:37:06.720  1208  7087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 5 uptime_millis: 5 exec_start_elapsed_seconds: 250 [CONTEXT service_id=218 ]
+11-18 18:37:06.813   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3044224
+11-18 18:37:06.829  1415  1415 D WM-DelayedWorkTracker: Scheduling work d8a5e3a1-ac2e-45a0-bf09-714485c85db5
+11-18 18:37:06.829  1415  1415 D WM-GreedyScheduler: Starting tracking for d8a5e3a1-ac2e-45a0-bf09-714485c85db5
+11-18 18:37:06.830  1415  1625 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:37:06.830  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:37:06.830  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, generation=0)
+11-18 18:37:06.831  1415  1625 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, generation=0)
+11-18 18:37:06.832  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:06.833  1415  4683 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:37:06.833  1415  4683 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@f4e30e[Not completed, 1 dependents]. Future map: {d8a5e3a1-ac2e-45a0-bf09-714485c85db5=java.util.concurrent.CompletableFuture@f4e30e[Not completed, 1 dependents]}
+11-18 18:37:06.833  1415  4683 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:37:06.833  1415  4683 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:37:06.834  1415  4683 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/210
+11-18 18:37:06.834  1415  4683 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/200
+11-18 18:37:06.834  1415  4683 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=200, latest=Bundle[{last_media_sync_generation=210, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:37:06.834  1415  4683 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:06.834  1415  4683 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:06.834  1415  4683 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-4]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.834  1415  4683 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.834  1415  4683 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:37:06.836  1415  4683 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:06.836  1415  4683 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-4]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.836  1415  4683 D PickerSyncController: Saving next page token: 1795027025000|1000000047 for key: local_provider:media_add:resume
+11-18 18:37:06.836  1415  4683 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.836  1415  4683 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:06.836  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:06.836  1415  4683 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:06.836  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:06.836  1415  4683 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:06.836  1415  4683 D ExternalDbFacade: Token received for queryMedia = 1795027025000|1000000047
+11-18 18:37:06.837  1415  4683 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:06.837  1415  4683 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-4]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.837  1415  4683 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:37:06.837  1415  4683 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.837  1415  4683 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:06.837  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:06.837  1415  4683 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:06.837  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:06.837  1415  4683 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:06.837  1415  4683 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027025000|1000000047, android.provider.extra.SYNC_GENERATION=200, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:37:06.837  1415  4683 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:06.837  1415  4683 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:06.837  1415  4683 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-4]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.837  1415  4683 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.838  1415  4683 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:06.838  1415  4683 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-4]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.838  1415  4683 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:37:06.838  1415  4683 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:06.838  1415  4683 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:06.838  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:06.838  1415  4683 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:06.838  1415  4683 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:06.838  1415  4683 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:06.838  1415  4683 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027025000|1000000047, android.provider.extra.SYNC_GENERATION=200, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:37:06.839  1415  4683 I PickerSyncTracker: Marked sync future complete for work id: d8a5e3a1-ac2e-45a0-bf09-714485c85db5. Future map: {}
+11-18 18:37:06.839  1415  4683 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:37:06.839  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:37:06.840  1415  1415 D WM-Processor: Processor d8a5e3a1-ac2e-45a0-bf09-714485c85db5 executed; reschedule = false
+11-18 18:37:06.840  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, generation=0)
+11-18 18:37:06.843  1415  1590 D WM-GreedyScheduler: Cancelling work ID d8a5e3a1-ac2e-45a0-bf09-714485c85db5
+11-18 18:37:06.844  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:06.844  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:06.844  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:37:07.156  7183  7304 D ProfileInstaller: Installing profile for com.university.lab07
+11-18 18:37:07.177   359   359 I netd    : tetherGetStats() -> {[]} <0.38ms>
+11-18 18:37:07.518  7183  7206 I LABCI   : insert contact: 
+11-18 18:37:07.518  7183  7206 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/data --bind raw_contact_id:i:2 --bind mimetype:s:vnd.android.cursor.item/name --bind data1:s:Test_Student
+11-18 18:37:07.564  7305  7305 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:07.567  7305  7305 I AndroidRuntime: Using default boot image
+11-18 18:37:07.567  7305  7305 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:37:07.569  7305  7305 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:37:07.569  7305  7305 I app_process: Using CollectorTypeCMC GC.
+11-18 18:37:07.613  7305  7305 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:07.619  7305  7305 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.619  7305  7305 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:07.619  7305  7305 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:07.620  7305  7305 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.621  7305  7305 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.622  7305  7305 W app_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:37:07.622  7305  7305 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:07.633  7305  7305 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:07.634  7305  7305 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:37:07.642  1582  1608 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:07.644  7305  7305 D AndroidRuntime: Shutting down VM
+11-18 18:37:07.656   554  1459 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (android$contacts/, 2) not found.
+11-18 18:37:07.658  1054  7317 E BluetoothPbapUtils: Null contact in the updateList: 1
+11-18 18:37:07.667  1054  7317 E BluetoothPbapUtils: Null contact in the updateList: 2
+11-18 18:37:07.667  1054  7317 W ContentProfileErrorReportUtils: Skipping reporting this error to prevent flooding. fileNameEnum=20008, tag=2
+11-18 18:37:07.669  1208  7022 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 251 [CONTEXT service_id=218 ]
+11-18 18:37:07.672  1208  6540 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 251 [CONTEXT service_id=218 ]
+11-18 18:37:07.727   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:08.448   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:08.448   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:08.448   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 1ms
+11-18 18:37:08.459  7183  7206 I LABCI   : name: 
+11-18 18:37:08.460  7183  7206 D UiDevice: Executing shell command: content query --uri content://com.android.contacts/contacts --projection display_name
+11-18 18:37:08.479   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:08.479   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:08.479   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 1ms
+11-18 18:37:08.481   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:08.498   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:08.499   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:08.499   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10095} in 1ms
+11-18 18:37:08.516  7318  7318 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:08.519  7318  7318 I AndroidRuntime: Using default boot image
+11-18 18:37:08.519  7318  7318 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:37:08.520  7318  7318 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:37:08.521  7318  7318 I app_process: Using CollectorTypeCMC GC.
+11-18 18:37:08.566  7318  7318 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:08.573  7318  7318 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.573  7318  7318 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:08.573  7318  7318 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:08.574  7318  7318 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.575  7318  7318 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.576  7318  7318 W app_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:37:08.576  7318  7318 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:08.588  7318  7318 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:08.588  7318  7318 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:37:08.592  7318  7318 D AndroidRuntime: Shutting down VM
+11-18 18:37:08.662   359   359 I netd    : tetherGetStats() -> {[]} <0.34ms>
+11-18 18:37:08.778  1455  6485 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=36
+11-18 18:37:08.789  1455  6851 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-18 18:37:08.792  1455  6713 E native  : E0000 00:00:1795027028.792004    6713 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:37:08.793  1455  6713 E native  : E0000 00:00:1795027028.793065    6713 document-store.cc:1359] Failed to update per-doc-data with usage report
+11-18 18:37:08.793  1455  6713 I Icing   : Usage reports ok 0, Failed Usage reports 2, indexed 0, rejected 0
+11-18 18:37:08.796  1455  6713 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-18 18:37:08.796  1455  6713 I Icing   : Indexing com.google.android.gms-contacts_contact_id from com.google.android.gms
+11-18 18:37:08.802  1455  6713 W Icing   : Content incarnation mismatch: Expected [1795026823802-1b7a77ed1c3eaff5] found [1795027028798-2449248202a5c7d8]
+11-18 18:37:08.802  1455  6713 I Icing   : Indexing done com.google.android.gms-contacts_contact_id
+11-18 18:37:08.803  1455  6713 E Icing   : Aborting indexing of corpus contacts_contact_id
+11-18 18:37:08.803  1455  6713 I Icing   : Removing corpus key com.google.android.gms-contacts_contact_id for package com.google.android.gms
+11-18 18:37:08.810  1455  6713 I native  : I0000 00:00:1795027028.809900    6713 flash-index.cc:1533] Flash index sort hb 115 prefix-hits 219 -> 219 at 4.715ms
+11-18 18:37:08.813  1455  7092 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:37:08.817  1208  7335 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+11-18 18:37:08.818  1208  7335 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:37:08.827  1455  6713 I native  : I0000 00:00:1795027028.827227    6713 document-store.cc:1685] Scored 19 usage reports, missing_corpora 0 update_failed 8
+11-18 18:37:08.832  1455  6713 I Icing   : Indexing com.google.android.gms-contacts_contact_id from com.google.android.gms
+11-18 18:37:08.835  1455  7099 I Icing   : Indexing done com.google.android.gms-contacts_contact_id
+11-18 18:37:09.095   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:09.096   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:09.096   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 2ms
+11-18 18:37:09.097   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:09.097   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:09.097   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20154} in 1ms
+11-18 18:37:09.405  7183  7206 I LABCI   : contacts: Row: 0 display_name=NULL
+11-18 18:37:09.405  7183  7206 I LABCI   : Row: 1 display_name=Test_Student
+11-18 18:37:09.407  7183  7206 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:09.409   554  2294 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:09.414   903  1009 D SplashScreenView: Build android.window.SplashScreenView{6810b16 V.E...... ......ID 0,0-0,0}
+11-18 18:37:09.414   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:09.414   903  1009 D SplashScreenView: Branding: view: android.view.View{f569c97 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:09.419  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:37:09.419  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:37:09.425  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=49, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab07/.MainActivity }
+11-18 18:37:09.431  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: PRE_ON_CREATE
+11-18 18:37:09.432  7183  7183 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:09.444  7183  7183 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:37:09.448   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:09.460  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: CREATED
+11-18 18:37:09.461  7183  7183 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:09.461  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: STARTED
+11-18 18:37:09.462  7183  7183 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:09.463  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: RESUMED
+11-18 18:37:09.463  7183  7183 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:09.471  1156  1557 D EGL_emulation: app_time_stats: avg=1950.09ms min=150.66ms max=3749.52ms count=2
+11-18 18:37:09.473  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:09.476  1156  1557 D EGL_emulation: app_time_stats: avg=984.24ms min=13.99ms max=3865.57ms count=4
+11-18 18:37:09.483  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:37:09.492  7183  7183 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:37:09.499   903  1024 D EGL_emulation: app_time_stats: avg=1604.23ms min=61.63ms max=3836.02ms count=3
+11-18 18:37:09.507   554   578 W ziparchive: Unable to open '/data/app/~~uzrTm-j6JEk26BJ-PhlLKg==/com.university.lab07-yXCmCVptTfgqHtmqKQsF9g==/base.dm': No such file or directory
+11-18 18:37:09.508   554   578 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity for user 0: +98ms
+11-18 18:37:09.513  1156  1156 D BaseDepthController: setSurface:
+11-18 18:37:09.513  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:37:09.513  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:37:09.513  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:37:09.514  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:37:09.514  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:37:09.514  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:37:09.514  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:37:09.515  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:37:09.520  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:37:09.522  7183  7183 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-18 18:37:09.524  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:37:09.524   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5e6b33
+11-18 18:37:09.524   554  2296 W InputManager-JNI: Input channel object '5ba6c21 Splash Screen com.university.lab07 (client)' was disposed without first being removed with the input manager!
+11-18 18:37:09.526  1156  2497 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae523320 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:37:09.538   554   680 I ImeTracker: com.university.lab07:c61cfc07: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:09.540   554   680 I ImeTracker: com.university.lab07:c61cfc07: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:09.541  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:09.542  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:09.542  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab07, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:09.543  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:09.543  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:09.568  7183  7183 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230827/com.university.lab07:id/button_contacts>
+11-18 18:37:09.613   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:09.613   554  1843 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:09.627  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: PAUSED
+11-18 18:37:09.627  7183  7183 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:09.632   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:09.653   904   904 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:37:09.669   359   359 I netd    : tetherGetStats() -> {[]} <0.38ms>
+11-18 18:37:09.702   904  6204 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:09.705   904  6204 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:09.709   904  6204 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:09.819   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:09.901  7183  7206 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:37:09.902  7183  7206 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:10.044   554   578 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity for user 0: +427ms
+11-18 18:37:10.054   554   680 I ImeTracker: com.google.android.permissioncontroller:ac683503: onRequestHide at ORIGIN_SERVER reason HIDE_ALWAYS_HIDDEN_STATE fromUser false
+11-18 18:37:10.054   554   680 I ImeTracker: com.google.android.permissioncontroller:ac683503: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:10.055  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:10.056  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:10.056  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.permissioncontroller, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:10.056  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:10.056  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:10.362   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:10.362   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:10.362   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={90000} in 1ms
+11-18 18:37:10.561  7183  7206 W niversity.lab07: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+11-18 18:37:10.671  1397  1397 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.contacts.
+11-18 18:37:10.672  1397  2252 I AiAiEcho: AppIndexer Package:[com.google.android.contacts] UserProfile:[0] Enabled:[true].
+11-18 18:37:10.672  1397  2252 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.contacts], userId:[0], reason:[package is updated.].
+11-18 18:37:10.673   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:10.673   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:10.674   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:10.674   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:10.675  1156  1206 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.contacts]
+11-18 18:37:10.681   903   903 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+11-18 18:37:10.682   904  3110 I PermissionControllerServiceImpl: Updating user sensitive for uid 10159
+11-18 18:37:10.682  1077  1077 D CarrierSvcBindHelper: onPackageModified: com.google.android.contacts
+11-18 18:37:10.686   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:10.687   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:10.687   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10100} in 3ms
+11-18 18:37:10.688  1077  1077 D CarrierSvcBindHelper: No carrier app for: 0
+11-18 18:37:10.691   554   863 E system_server: No package ID 7f found for resource ID 0x7f080147.
+11-18 18:37:10.691   554   863 E system_server: No package ID 7f found for resource ID 0x7f1505f0.
+11-18 18:37:10.693  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:37:10.695  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:37:10.698  1077  1273 D ImsResolver: maybeAddedImsService, packageName: com.google.android.contacts
+11-18 18:37:10.705  1156  1156 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-18 18:37:10.707   554  2264 W ParceledListSlice: Element #23 is 19828 bytes.
+11-18 18:37:10.708   554  2264 W ParceledListSlice: Element #24 is 19864 bytes.
+11-18 18:37:10.708   554  2264 W ParceledListSlice: Element #25 is 19708 bytes.
+11-18 18:37:10.708   554  1743 W ParceledListSlice: Element #26 is 19616 bytes.
+11-18 18:37:10.709   554  1743 W ParceledListSlice: Element #27 is 19728 bytes.
+11-18 18:37:10.711  1156  1206 W PackageManager: Failure retrieving text 0x7f130786 in package com.android.systemui
+11-18 18:37:10.711  1156  1206 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.content.res.Resources.getText(Resources.java:466)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2405)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.appwidget.AppWidgetProviderInfo.loadDescription(AppWidgetProviderInfo.java:484)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetItem.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at com.android.launcher3.model.WidgetsModel.update(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:72)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at com.android.launcher3.p0.execute(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:16)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at com.android.launcher3.LauncherModel.a(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:27)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at com.android.launcher3.t0.run(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:12)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+11-18 18:37:10.711  1156  1206 W PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-18 18:37:10.776   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk' with 1 weak references
+11-18 18:37:10.776   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 1 weak references
+11-18 18:37:10.776   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '/product/overlay/AccessibilityMenu__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-18 18:37:10.776   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+11-18 18:37:10.777   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:37:10.777   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+11-18 18:37:10.778   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:37:10.778   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:37:10.779   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:37:10.779   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:37:10.780   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:37:10.782   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-18 18:37:11.084  7183  7209 D EGL_emulation: app_time_stats: avg=157.87ms min=8.24ms max=1397.00ms count=10
+11-18 18:37:11.164  7183  7206 I LABCI   : permission dialog: tapping Allow
+11-18 18:37:11.171  3124  3257 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@e06e280
+11-18 18:37:11.173  7183  7206 D UiObject2: Clicking on (160, 351).
+11-18 18:37:11.188  7183  7188 W niversity.lab07: Cleared Reference was only reachable from finalizer (only reported once)
+11-18 18:37:11.190   359   359 I netd    : tetherGetStats() -> {[]} <0.47ms>
+11-18 18:37:11.201   425  4289 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:11.201   554  2294 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:11.203   904   904 I GrantPermissionsViewModel: Logged buttons presented and clicked permissionGroupName=android.permission-group.CONTACTS uid=10225 selectedPrecision=0 package=com.university.lab07 presentedButtons=9 clickedButton=1 isPermissionRationaleShown=false sessionId=-992464958762336510 targetSdk=36
+11-18 18:37:11.205  7183  7190 W System  : A resource failed to call close. 
+11-18 18:37:11.206   554  1012 W EnhancedConfirmationService: The packageName should not be null.
+11-18 18:37:11.206   904   904 I GrantPermissionsViewModel: Permission grant result requestId=-992464958762336510 callingUid=10225 callingPackage=com.university.lab07 permission=android.permission.READ_CONTACTS isImplicit=false result=4 isPermissionRationaleShown=falseisPackageRestrictedByEnhancedConfirmation=false
+11-18 18:37:11.213  7183  7206 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:37:11.214  7183  7190 W System  : A resource failed to call close. 
+11-18 18:37:11.215   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:11.220  7183  7206 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:37:11.220  7183  7206 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:11.220   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:37:11.241   904   904 D VRI[GrantPermissionsActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:11.242  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: RESUMED
+11-18 18:37:11.242  7183  7183 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:11.245   904   904 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6feb004
+11-18 18:37:11.247   554  1843 W InputManager-JNI: Input channel object '9674be2 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:11.256  7183  7206 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Allow Lab7 to access your contacts?, displayId=0, id=165, taskId=49, type=TYPE_APPLICATION, layer=0, region=SkRegion((8,161,312,479)), bounds=Rect(8, 161 - 312, 479), focused=true, active=true, pictureInPicture=false, transitionTime=253612, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:37:11.257  7183  7206 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d63; boundsInParent: Rect(0, 0 - 304, 318); boundsInScreen: Rect(8, 161 - 312, 479); boundsInWindow: Rect(8, 161 - 312, 479); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:37:11.257  7183  7206 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:11.257  7183  7206 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d63; boundsInParent: Rect(0, 0 - 304, 318); boundsInScreen: Rect(8, 161 - 312, 479); boundsInWindow: Rect(8, 161 - 312, 479); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:37:11.257  7183  7206 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:11.265   903  1024 D EGL_emulation: app_time_stats: avg=437.54ms min=3.53ms max=1178.63ms count=4
+11-18 18:37:11.272   554   680 I ImeTracker: com.university.lab07:3991a5aa: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:11.273   554   680 I ImeTracker: com.university.lab07:3991a5aa: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:11.274  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:11.275  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:11.275  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab07, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:11.276  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:11.277  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:11.296  7183  7206 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:11.318  1156  1557 D EGL_emulation: app_time_stats: avg=615.41ms min=80.39ms max=1151.91ms count=3
+11-18 18:37:11.422   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:11.857  7183  7206 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:12.163   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:12.164   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:12.164   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 1ms
+11-18 18:37:12.164   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:12.165   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:12.165   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20142} in 0ms
+11-18 18:37:12.491  1208  5836 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+11-18 18:37:12.965   359   359 I netd    : tetherGetStats() -> {[]} <0.34ms>
+11-18 18:37:13.515  1208  2436 I NearbyDiscovery: FastPair: isDestroyable: Scanner is alive. [CONTEXT service_id=265 ]
+11-18 18:37:13.515  1208  2436 I NearbyDiscovery: DiscoveryService: Skip stopSelf(), fast pair controller is not destroyable. [CONTEXT service_id=265 ]
+11-18 18:37:13.583   554  1843 W InputManager-JNI: Input channel object 'c3b673c Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:37:14.103   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:14.103   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:14.103   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 1ms
+11-18 18:37:14.289   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3270528
+11-18 18:37:14.857  7183  7206 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:14.863  7183  7206 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab07_contacts.png
+11-18 18:37:14.908  7353  7353 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:37:14.908  7353  7353 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:37:14.915   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:14.915  7353  7356 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:14.934  1415  1685 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:37:14.952  1208  6540 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 258 [CONTEXT service_id=218 ]
+11-18 18:37:14.957   554  1843 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:37:14.958   554  1012 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:37:14.959  1208  7022 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 13 uptime_millis: 13 exec_start_elapsed_seconds: 258 [CONTEXT service_id=218 ]
+11-18 18:37:14.961   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:37:14.964  1415  1855 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:14.969  7183  7206 I LABCI   : screenshot lab07_contacts
+11-18 18:37:14.970  7183  7206 D UiDevice: Waiting 3000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QTest_Student\E.*']].
+11-18 18:37:14.970  7183  7206 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QTest_Student\E.*'].
+11-18 18:37:14.973  7183  7206 I LABCI   : waitText 'Test_Student': true
+11-18 18:37:14.973  7183  7206 I LABCI   : named contact listed: true
+11-18 18:37:14.976   554  2264 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:14.980  1415  1855 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:14.984   903  1009 D SplashScreenView: Build android.window.SplashScreenView{bce7b0c V.E...... ......ID 0,0-0,0}
+11-18 18:37:14.984   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:14.984   903  1009 D SplashScreenView: Branding: view: android.view.View{7b03c55 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:14.988  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=50, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:37:14.988  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: PAUSED
+11-18 18:37:14.988  7183  7183 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:14.998   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:15.003   359   359 I netd    : tetherGetStats() -> {[]} <0.98ms>
+11-18 18:37:15.003  1415  1590 D WM-SystemJobScheduler: Scheduling work ID c4c143a4-f2bb-4c3a-b5fa-ffd8c06f6d72Job ID 30
+11-18 18:37:15.007  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:15.007  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:15.020  7225  7245 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:15.022  7225  7245 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:15.029  7225  7245 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:15.038  7183  7183 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:15.038  1208  6540 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 258 [CONTEXT service_id=218 ]
+11-18 18:37:15.038  7183  7209 D EGL_emulation: app_time_stats: avg=247.08ms min=9.63ms max=3703.90ms count=16
+11-18 18:37:15.120  1208  7087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 258 [CONTEXT service_id=218 ]
+11-18 18:37:15.122   554   578 W ziparchive: Unable to open '/data/app/~~Za1APncMfCi_uffAqd3LBw==/com.university.lab07.test-LGcruuHE0_g8oKkVFDbdJw==/base.dm': No such file or directory
+11-18 18:37:15.122   554   578 I ActivityTaskManager: Displayed com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +146ms
+11-18 18:37:15.127  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+11-18 18:37:15.130  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 84 uptime_millis: 84 exec_start_elapsed_seconds: 258 [CONTEXT service_id=218 ]
+11-18 18:37:15.132   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:15.137  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: STOPPED
+11-18 18:37:15.138  7183  7183 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@c5adb01
+11-18 18:37:15.139  7183  7183 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@c5adb01 in: DESTROYED
+11-18 18:37:15.139  7183  7183 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:15.139  7183  7183 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@72e8066
+11-18 18:37:15.140  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+11-18 18:37:15.141   554  2296 W InputManager-JNI: Input channel object 'c41401b com.university.lab07/com.university.lab07.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:15.142  7183  7206 I TestRunner: finished: b_contacts(com.university.lab07.Lab07Test)

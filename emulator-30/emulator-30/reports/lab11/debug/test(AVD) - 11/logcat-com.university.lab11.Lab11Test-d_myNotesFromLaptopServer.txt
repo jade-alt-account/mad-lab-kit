@@ -1,0 +1,95 @@
+11-18 18:41:35.740 10688 10708 I TestRunner: started: d_myNotesFromLaptopServer(com.university.lab11.Lab11Test)
+11-18 18:41:35.743   380  6426 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:41:35.743   380  6426 D AudioFlinger: Client defaulted notificationFrames to 882 for frameCount 1956
+11-18 18:41:35.744   380  6426 D AF::TrackHandle: OpPlayAudio: track:67 usage:3 not muted
+11-18 18:41:35.745 10688 10708 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:41:35.745  2119  2119 D AudioTrack: createTrack_l(26): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 882 -> 1956
+11-18 18:41:35.746  2119  2119 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+11-18 18:41:35.746  2119  2119 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+11-18 18:41:35.746  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+11-18 18:41:35.746  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+11-18 18:41:35.748   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:41:35.753   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 56, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-18 18:41:35.753   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=56)
+11-18 18:41:35.757  2119  2119 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+11-18 18:41:35.758  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+11-18 18:41:35.758  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+11-18 18:41:35.760  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:41:35.760  2119  2119 I Dialer  : DialpadFragment.onResume - enter
+11-18 18:41:35.760  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - action: android.intent.action.DIAL
+11-18 18:41:35.761  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - Nothing to show
+11-18 18:41:35.761  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:41:35.761  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:41:35.762  2119  2119 I Dialer  : DialpadFragment.onResume - phone not in use
+11-18 18:41:35.762  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:41:35.762  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:41:35.780  2119 10504 I Dialer  : RegularSearchCursor.newInstance - Cursor was null or empty
+11-18 18:41:35.782  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:41:35.790  2119  2119 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+11-18 18:41:35.790  2119  2119 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+11-18 18:41:35.790  2119  2119 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+11-18 18:41:35.797 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: PRE_ON_CREATE
+11-18 18:41:35.797 10688 10688 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:41:35.800  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{9de36d7 id=0}
+11-18 18:41:35.801  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:41:35.801  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:41:35.802  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:41:35.816  2119  7671 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+11-18 18:41:35.817 10688 10707 I niversity.lab1: Waiting for a blocking GC ProfileSaver
+11-18 18:41:35.830 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: CREATED
+11-18 18:41:35.830 10688 10688 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab11.MainActivity@9b5e8bf
+11-18 18:41:35.833 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: STARTED
+11-18 18:41:35.833 10688 10688 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab11.MainActivity@9b5e8bf
+11-18 18:41:35.834 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: RESUMED
+11-18 18:41:35.834 10688 10688 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab11.MainActivity@9b5e8bf
+11-18 18:41:35.859   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab11/1/com.university.lab11.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:41:35.860   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:41:35.861   496   536 I ActivityTaskManager: Displayed com.university.lab11/.MainActivity: +110ms
+11-18 18:41:35.875 10688 10688 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-18 18:41:35.894 10688 10688 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230828/com.university.lab11:id/button_notes>
+11-18 18:41:35.964 10746 10760 W System  : A resource failed to call release. 
+11-18 18:41:35.998   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3062c50, tid 4916
+11-18 18:41:36.001   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:41:36.002   496  4916 D EGL_emulation: eglCreateContext: 0x7366a313e590: maj 3 min 0 rcv 3
+11-18 18:41:36.003   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a313e590: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:41:36.173 10688 10708 D UiDevice: Waiting 15000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QFirst note\E.*']].
+11-18 18:41:36.173 10688 10708 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QFirst note\E.*'].
+11-18 18:41:36.188   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=52)
+11-18 18:41:36.188   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:41:36.189   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 52 ended, total sessions:4
+11-18 18:41:36.700 10688 10800 D ProfileInstaller: Installing profile for com.university.lab11
+11-18 18:41:36.810  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:41:36.810  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:41:36.822  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:41:36.828  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:41:37.066 10688 10708 I LABCI   : waitText 'First note': true
+11-18 18:41:37.767 10688 10708 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:41:37.773 10688 10708 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab12_my_notes.png
+11-18 18:41:37.784   496  1145 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:41:37.814   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:41:37.814 10805 10805 I Gralloc4: mapper 4.x is not supported
+11-18 18:41:37.819 10805 10805 D HostConnection: createUnique: call
+11-18 18:41:37.819 10805 10805 D HostConnection: HostConnection::get() New Host Connection established 0x766aeb9444d0, tid 10805
+11-18 18:41:37.831 10805 10805 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:41:37.864 10810 10812 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:41:37.864  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab12_my_notes.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:41:37.860  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:771): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:41:37.891  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab12_my_notes.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab12_my_notes.png
+11-18 18:41:37.892  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 21ms, 0 inserts 0 updates 0 deletes
+11-18 18:41:37.893  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab12_my_notes.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:41:37.860  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:773): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:41:37.896 10688 10708 I LABCI   : screenshot lab12_my_notes
+11-18 18:41:37.900   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:41:37.860  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:774): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:41:37.908 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: PAUSED
+11-18 18:41:37.908 10688 10688 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab11.MainActivity@9b5e8bf
+11-18 18:41:37.868  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:775): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:41:37.951   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:41:37.960  2119  2119 I Dialer  : DialpadFragment.onStart - first launch: false
+11-18 18:41:37.960  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:41:37.960  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:41:37.960 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: STOPPED
+11-18 18:41:37.960 10688 10688 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab11.MainActivity@9b5e8bf
+11-18 18:41:37.963 10688 10688 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@9b5e8bf in: DESTROYED
+11-18 18:41:37.963 10688 10688 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:41:37.963 10688 10708 I TestRunner: finished: d_myNotesFromLaptopServer(com.university.lab11.Lab11Test)

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="7" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:37:21" hostname="localhost">
+  <testsuite name="com.university.lab04.Lab04Test" tests="7" failures="0" errors="0" skipped="0" time="44.059" timestamp="2026-11-18T18:37:21" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_explicit" classname="com.university.lab04.Lab04Test" time="2.161" />
+    <testcase name="b_website" classname="com.university.lab04.Lab04Test" time="9.914" />
+    <testcase name="c_dial" classname="com.university.lab04.Lab04Test" time="9.708" />
+    <testcase name="d_map" classname="com.university.lab04.Lab04Test" time="9.962" />
+    <testcase name="e_pickContact" classname="com.university.lab04.Lab04Test" time="9.853" />
+    <testcase name="f_result" classname="com.university.lab04.Lab04Test" time="1.732" />
+    <testcase name="g_parcelable" classname="com.university.lab04.Lab04Test" time="0.729" />
+  </testsuite>
+</testsuites>

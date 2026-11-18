@@ -1,0 +1,3 @@
+11-18 18:35:34.045  5783  5840 I TestRunner: started: b_room(com.university.kbonus.KbonusTest)
+11-18 18:35:34.047  5783  5840 I LABCI   : room db built: com.university.kbonus.UserDao_Impl@8bff5c3
+11-18 18:35:34.047  5783  5840 I TestRunner: finished: b_room(com.university.kbonus.KbonusTest)

@@ -1,0 +1,220 @@
+11-18 18:35:10.915  5036  5050 I TestRunner: started: b_listView(com.university.lab02.Lab02Test)
+11-18 18:35:10.918  5036  5050 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:35:10.922  1349  1349 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67127556 trafficStatsUid=-1
+11-18 18:35:10.936  1681  1681 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START xflg=0x4 pkg=com.google.android.gms }
+11-18 18:35:10.937   607  2108 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10222, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:10.940  1253  1253 D RecentsView: onTaskRemoved: 13, not handling task stack changes
+11-18 18:35:10.941  1253  1253 D RecentsView: onTaskRemoved: 13, not handling task stack changes
+11-18 18:35:10.944  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{a829bea V.E...... ......ID 0,0-0,0}
+11-18 18:35:10.944  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:10.944  1013  1113 D SplashScreenView: Branding: view: android.view.View{619dedb G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:10.944   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:10.952   522   758 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10223 pid=0
+11-18 18:35:10.952   522   758 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10223 => denied (154 us)
+11-18 18:35:10.952   522   758 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10223 pid=0
+11-18 18:35:10.952   522   758 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10223 => denied (59 us)
+11-18 18:35:10.952   522   604 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=5132
+11-18 18:35:10.952   522   604 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (94 us)
+11-18 18:35:10.953   522   758 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=0
+11-18 18:35:10.953   522   758 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (1421 us)
+11-18 18:35:10.987   607   630 I system_server: Background concurrent mark compact GC freed 26MB AllocSpace bytes, 49(1248KB) LOS objects, 44% free, 30MB/54MB, paused 3.335ms,5.011ms total 213.856ms
+11-18 18:35:11.021   607  2108 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10223 pid=0
+11-18 18:35:11.021   607  2108 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10223 => denied (69 us)
+11-18 18:35:11.021   607  2108 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10223 pid=0
+11-18 18:35:11.021   607  2108 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10223 => denied (14 us)
+11-18 18:35:11.021   607  2108 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=0
+11-18 18:35:11.021   607  2108 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (12 us)
+11-18 18:35:11.031   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:11.033   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:11.033   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10160} in 7ms
+11-18 18:35:11.046  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: PRE_ON_CREATE
+11-18 18:35:11.046  5036  5036 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:35:11.051   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:11.055  5132  5132 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:11.073  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: CREATED
+11-18 18:35:11.073  5036  5036 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab02.MainActivity2@63df655
+11-18 18:35:11.074  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: STARTED
+11-18 18:35:11.074  5036  5036 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab02.MainActivity2@63df655
+11-18 18:35:11.075  5036  5036 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:35:11.075  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: RESUMED
+11-18 18:35:11.075  5036  5036 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab02.MainActivity2@63df655
+11-18 18:35:11.084   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:11.085   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:11.085   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10106} in 1ms
+11-18 18:35:11.106   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:35:11.106   607   922 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:35:11.106   607   922 D InetDiagMessage: Destroyed live tcp sockets for uids={10103} in 1ms
+11-18 18:35:11.130   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:11.130   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:11.137   607   666 I ActivityTaskManager: Displayed com.university.lab02/.MainActivity2 for user 0: +195ms
+11-18 18:35:11.141  5132  5132 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@e9a79f2
+11-18 18:35:11.145  5132  5132 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:11.150   607   768 I ImeTracker: com.university.lab02:eb45e3c0: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:11.152  5036  5036 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:35:11.152  5036  5036 I ImeTracker: com.university.lab02:eb45e3c0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:35:11.157  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:35:11.158  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:35:11.158   607  1299 I ImeTracker: system_server:fa2e4d1c: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:11.159  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab02, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:11.160  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:35:11.168  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:35:11.171   607   669 I ImeTracker: system_server:fa2e4d1c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:11.172  5036  5036 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Database Systems"
+11-18 18:35:11.174  1253  1253 D RecentsView: onTaskRemoved: 14, not handling task stack changes
+11-18 18:35:11.174  1253  1253 D RecentsView: onTaskRemoved: 14, not handling task stack changes
+11-18 18:35:11.176  5036  5036 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Database Systems"
+11-18 18:35:11.291   607  2108 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:35:11.459  5132  5137 I sity.lab02.test: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:35:11.603   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2437 RxLinkSpeed=2
+11-18 18:35:11.603   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:35:11.603   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:35:11.603   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:11.603   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:11.604   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:35:11.604   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:35:11.604   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:35:11.604   607   916 D WifiScoreCard: txRate: 12 txSpeed: 1
+11-18 18:35:11.604   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed 1
+11-18 18:35:11.604   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=1 tx=11.6, 0.0, 0.0 rx=55.9 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:-269418124] score=60
+11-18 18:35:11.950   447   470 I netd    : tetherGetStats() -> {[]} <0.39ms>
+11-18 18:35:12.068  1681  5156 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:35:12.119  1611  1611 D WM-DelayedWorkTracker: Scheduling work b7e12656-d816-45b8-960b-48234acdce99
+11-18 18:35:12.120  1611  1611 D WM-GreedyScheduler: Starting tracking for b7e12656-d816-45b8-960b-48234acdce99
+11-18 18:35:12.121  1611  1730 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:35:12.121  1611  1730 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:35:12.122  1611  1730 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=b7e12656-d816-45b8-960b-48234acdce99, generation=0)
+11-18 18:35:12.123  1611  1730 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=b7e12656-d816-45b8-960b-48234acdce99, generation=0)
+11-18 18:35:12.124  1611  1611 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:35:12.124  1611  5158 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:35:12.125  1611  5158 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@5dc6889[Not completed, 1 dependents]. Future map: {b7e12656-d816-45b8-960b-48234acdce99=java.util.concurrent.CompletableFuture@5dc6889[Not completed, 1 dependents]}
+11-18 18:35:12.125  1611  5158 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:35:12.125  1611  5158 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:35:12.126  1611  5158 D PickerSyncController:    Latest ID/Gen=c1ab4cbae5f10000:external_primary/59
+11-18 18:35:12.126  1611  5158 D PickerSyncController:    Cached ID/Gen=c1ab4cbae5f10000:external_primary/50
+11-18 18:35:12.126  1611  5158 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=50, latest=Bundle[{last_media_sync_generation=59, media_collection_id=c1ab4cbae5f10000:external_primary}], pageSize=1000}
+11-18 18:35:12.127  1611  5158 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:35:12.127  1611  5158 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:12.127  1611  5158 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.127  1611  5158 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.127  1611  5158 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:35:12.132  1611  5158 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:12.132  1611  5158 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.132  1611  5158 D PickerSyncController: Saving next page token: 1795026910000|27 for key: local_provider:media_add:resume
+11-18 18:35:12.134  1611  5158 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.135  1611  5158 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:12.138  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:12.138  1611  5158 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:12.138  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:12.138  1611  5158 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:12.139  1611  5158 D ExternalDbFacade: Token received for queryMedia = 1795026910000|27
+11-18 18:35:12.139  1611  5158 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:12.139  1611  5158 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.141  1611  5158 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:35:12.141  1611  5158 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.141  1611  5158 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:12.141  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:12.141  1611  5158 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:12.141  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:12.141  1611  5158 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:12.142  1611  5158 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026910000|27, android.provider.extra.SYNC_GENERATION=50, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:35:12.142  1611  5158 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:35:12.142  1611  5158 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:12.142  1611  5158 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.142  1611  5158 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.143  1611  5158 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:35:12.143  1611  5158 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-5]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.143  1611  5158 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:35:12.143  1611  5158 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:35:12.143  1611  5158 D PickerNotificationSender: Sending a notification for media update
+11-18 18:35:12.143  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:35:12.143  1611  5158 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:35:12.143  1611  5158 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:35:12.143  1611  5158 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:35:12.144  1611  5158 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795026910000|27, android.provider.extra.SYNC_GENERATION=50, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:35:12.144  1611  5158 I PickerSyncTracker: Marked sync future complete for work id: b7e12656-d816-45b8-960b-48234acdce99. Future map: {}
+11-18 18:35:12.144  1611  5158 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:35:12.144  1611  1716 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b7e12656-d816-45b8-960b-48234acdce99, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:35:12.145  1611  1611 D WM-Processor: Processor b7e12656-d816-45b8-960b-48234acdce99 executed; reschedule = false
+11-18 18:35:12.146  1611  1611 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=b7e12656-d816-45b8-960b-48234acdce99, generation=0)
+11-18 18:35:12.148  1611  1716 D WM-GreedyScheduler: Cancelling work ID b7e12656-d816-45b8-960b-48234acdce99
+11-18 18:35:12.149  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:35:12.149  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:35:12.149  1611  1716 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:35:12.167  5036  5050 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:12.175  5036  5050 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab02_list_toast.png
+11-18 18:35:12.232  5163  5163 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:35:12.232  5163  5163 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:12.232  5163  5163 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:12.234   522   604 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:35:12.234   522   604 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:35:12.273  1611  1765 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:12.299   607  1831 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:12.302   607  2108 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:12.304   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:12.306  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:12.312  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:12.314  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/28 [CONTEXT service_id=218 ]
+11-18 18:35:12.317  5036  5050 I LABCI   : screenshot lab02_list_toast
+11-18 18:35:12.321  1611  1716 D WM-SystemJobScheduler: Scheduling work ID c4409c42-8759-4cdd-9e16-db69e56b1941Job ID 8
+11-18 18:35:12.322   607  1831 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10223, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:12.326  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:35:12.326  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:35:12.336  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: PAUSED
+11-18 18:35:12.336  5036  5036 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab02.MainActivity2@63df655
+11-18 18:35:12.340  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{a1459f0 V.E...... ......ID 0,0-0,0}
+11-18 18:35:12.340  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:12.340  1013  1113 D SplashScreenView: Branding: view: android.view.View{db19b69 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:12.344  5132  5146 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:35:12.344   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:12.345  5132  5146 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:35:12.356  5132  5146 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:35:12.359  5132  5132 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:35:12.393  5036  5036 D VRI[MainActivity2]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:12.465   607   666 I ActivityTaskManager: Displayed com.university.lab02.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +141ms
+11-18 18:35:12.466  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: STOPPED
+11-18 18:35:12.466  5036  5036 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab02.MainActivity2@63df655
+11-18 18:35:12.468  5036  5036 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@e1be140
+11-18 18:35:12.469  1253  1253 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:12.471  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.MainActivity2@63df655 in: DESTROYED
+11-18 18:35:12.472  5036  5036 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:12.472  1253  1253 D StatsLog: LAUNCHER_ONRESUME
+11-18 18:35:12.477  5036  5036 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:12.477  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+11-18 18:35:12.477   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:12.484   607  2108 I ImeTracker: system_server:51b3e909: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:12.484   607   669 I ImeTracker: system_server:51b3e909: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:12.484  1253  1253 D BaseDepthController: setSurface:
+11-18 18:35:12.484  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:35:12.484  1253  1253 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x7e1c7aa
+11-18 18:35:12.489  5036  5050 I TestRunner: finished: b_listView(com.university.lab02.Lab02Test)

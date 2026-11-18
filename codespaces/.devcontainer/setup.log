@@ -1,0 +1,56 @@
+setup started Wed Nov 18 06:28:57 PM UTC 2026 as vscode in /workspaces/mad-lab-kit
++ SDK=/home/vscode/android-sdk
++ '[' -x /home/vscode/android-sdk/cmdline-tools/latest/bin/android ']'
++ mkdir -p /home/vscode/android-sdk/cmdline-tools
+++ curl -fsSL https://dl.google.com/android/repository/repository2-3.xml
+++ grep -o 'commandlinetools-linux-[0-9]*_latest\.zip'
+++ sort -n
+++ grep -o '[0-9][0-9]*'
+++ tail -1
++ NUM=16111833
++ ZIP=commandlinetools-linux-16111833_latest.zip
++ echo 'Downloading commandlinetools-linux-16111833_latest.zip'
+Downloading commandlinetools-linux-16111833_latest.zip
++ curl -fsSL -o /tmp/clt.zip https://dl.google.com/android/repository/commandlinetools-linux-16111833_latest.zip
++ command -v unzip
++ rm -rf /tmp/clt
++ unzip -q /tmp/clt.zip -d /tmp/clt
++ rm -rf /home/vscode/android-sdk/cmdline-tools/latest
++ mv /tmp/clt/cmdline-tools /home/vscode/android-sdk/cmdline-tools/latest
++ export ANDROID_HOME=/home/vscode/android-sdk
++ ANDROID_HOME=/home/vscode/android-sdk
++ export PATH=/home/vscode/android-sdk/cmdline-tools/latest/bin:/home/vscode/android-sdk/platform-tools:/usr/local/share/nvm/current/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/lib/jvm/msopenjdk-current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/android-sdk/cmdline-tools/latest/bin:/home/vscode/android-sdk/platform-tools
++ PATH=/home/vscode/android-sdk/cmdline-tools/latest/bin:/home/vscode/android-sdk/platform-tools:/usr/local/share/nvm/current/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/lib/jvm/msopenjdk-current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/android-sdk/cmdline-tools/latest/bin:/home/vscode/android-sdk/platform-tools
++ command -v unzip
++ android sdk install platform-tools platforms/android-37.0 build-tools/36.0.0
+Downloading Android CLI...
+Unpacking embedded installation...
+
+Terms of Service and License Agreement for the Android Software Development Kit
+
+https://developer.android.com/studio/terms
+
+Google collects usage data for the Android CLI, such as commands, sub-commands, and flags used. This data does not include custom parameters or identifiable information. This information helps improve the tool and is collected in accordance with Google's Privacy Policy.
+
+https://policies.google.com/privacy
+
+Disable Android CLI metrics collection by using the --no-metrics flag.
+
+Tip: For the best experience using Android CLI with agents, we strongly recommend running android init to install the necessary skills and resources.
+https://dl.google.com/android/repository/platform-tools_r37.0.1-linux.zip...
+https://dl.google.com/android/repository/platform-37.0_r02.zip...
+https://dl.google.com/android/repository/build-tools_r36_linux.zip...
+Unzipping platform-tools......
+Unzipping platforms/android-37.0......
+Unzipping build-tools/36.0.0......
+Nov 18, 2026 6:29:09 PM java.util.prefs.FileSystemPreferences setupUserRoot
+INFO: Created user preferences directory.
++ echo 'Android SDK ready'
+Android SDK ready
+setup started Wed Nov 18 06:29:10 PM UTC 2026 as vscode in /workspaces/mad-lab-kit
++ SDK=/home/vscode/android-sdk
++ '[' -x /home/vscode/android-sdk/cmdline-tools/latest/bin/android ']'
++ '[' -d /home/vscode/android-sdk/platforms/android-37.0 ']'
++ echo 'Android SDK ready'
+Android SDK ready
++ exit 0

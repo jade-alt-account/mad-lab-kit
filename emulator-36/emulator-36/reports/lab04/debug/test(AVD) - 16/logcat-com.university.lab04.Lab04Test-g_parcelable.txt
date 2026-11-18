@@ -1,0 +1,155 @@
+11-18 18:36:23.386  5645  5658 I TestRunner: started: g_parcelable(com.university.lab04.Lab04Test)
+11-18 18:36:23.397  1253  1253 D RecentsView: onTaskRemoved: 32, not handling task stack changes
+11-18 18:36:23.397  1253  1253 D RecentsView: onTaskRemoved: 32, not handling task stack changes
+11-18 18:36:23.448  5645  5658 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:36:23.454   607  1834 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:23.456   607   666 I ActivityTaskManager: Displayed com.university.lab04.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +184ms
+11-18 18:36:23.461   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:23.469  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{596cf5d V.E...... ......ID 0,0-0,0}
+11-18 18:36:23.469  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:36:23.469  1013  1113 D SplashScreenView: Branding: view: android.view.View{352d0d2 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:36:23.485  5645  5650 I niversity.lab04: CollectorTransition concurrent mark compact GC freed 2015KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 4701KB/9403KB, paused 127us,2.320ms total 112.211ms
+11-18 18:36:23.488  5645  5645 I niversity.lab04: AssetManager2(0x70339c2130b8) locale list changing from [] to [en-US]
+11-18 18:36:23.489  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: PRE_ON_CREATE
+11-18 18:36:23.489  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:36:23.499  5645  5645 W HWUI    : Image decoding logging dropped!
+11-18 18:36:23.502  5645  5645 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:36:23.517  5696  5696 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:23.520  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: CREATED
+11-18 18:36:23.520  5645  5645 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab04.MainActivity@eaf029
+11-18 18:36:23.521  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: STARTED
+11-18 18:36:23.522  5645  5645 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@eaf029
+11-18 18:36:23.523  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: RESUMED
+11-18 18:36:23.523  5645  5645 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@eaf029
+11-18 18:36:23.532   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:23.532   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:23.556   607   666 I ActivityTaskManager: Displayed com.university.lab04/.MainActivity for user 0: +103ms
+11-18 18:36:23.566  5696  5696 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@98b3b25
+11-18 18:36:23.567  5696  5696 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:36:23.569  1253  1253 D RecentsView: onTaskRemoved: 33, not handling task stack changes
+11-18 18:36:23.569  1253  1253 D RecentsView: onTaskRemoved: 33, not handling task stack changes
+11-18 18:36:23.584   607   768 I ImeTracker: com.university.lab04:632360db: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:23.585  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:36:23.586  5645  5645 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:36:23.586  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:36:23.586  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:23.587   607  1469 I ImeTracker: system_server:c996ffab: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:36:23.587  5645  5645 I ImeTracker: com.university.lab04:632360db: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:36:23.587   607   669 I ImeTracker: system_server:c996ffab: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:23.588  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:36:23.588  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:36:23.617  5645  5645 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230832/com.university.lab04:id/button_profile>
+11-18 18:36:23.661   607  1834 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:36:23.661   607  1835 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10226, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:23.667  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: PAUSED
+11-18 18:36:23.668  5645  5645 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@eaf029
+11-18 18:36:23.677   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:23.685  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@bb71576 in: PRE_ON_CREATE
+11-18 18:36:23.685  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { xflg=0x4 cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@bb71576
+11-18 18:36:23.690  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@bb71576 in: CREATED
+11-18 18:36:23.690  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { xflg=0x4 cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@bb71576
+11-18 18:36:23.691  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@bb71576 in: STARTED
+11-18 18:36:23.691  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { xflg=0x4 cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@bb71576
+11-18 18:36:23.692  5645  5645 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:36:23.692  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@bb71576 in: RESUMED
+11-18 18:36:23.692  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { xflg=0x4 cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@bb71576
+11-18 18:36:23.710   607   666 I ActivityTaskManager: Displayed com.university.lab04/.DetailActivity for user 0: +48ms
+11-18 18:36:23.734  5645  5645 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:23.736  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: STOPPED
+11-18 18:36:23.736  5645  5645 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@eaf029
+11-18 18:36:23.737   607   768 I ImeTracker: com.university.lab04:5c1b23cd: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:23.737  5645  5645 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:36:23.738  5645  5645 I ImeTracker: com.university.lab04:5c1b23cd: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:36:23.739  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:36:23.740  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:36:23.741   607  1469 I ImeTracker: system_server:7ecf91db: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:36:23.742   607   669 I ImeTracker: system_server:7ecf91db: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:23.742  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:23.743  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:36:23.744  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:36:23.800   607   916 D WifiClientModeImpl[33635:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=9 freq=2437 RxLinkSpeed=2
+11-18 18:36:23.801   607   916 D WifiDataStall: tx tput in kbps: 37000
+11-18 18:36:23.801   607   916 D WifiDataStall: rx tput in kbps: 37000
+11-18 18:36:23.801   607   916 V WifiConfigManager: Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:36:23.801   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:36:23.801   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:36:23.801   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:36:23.801   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:36:23.802   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:36:23.802   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:36:23.802   607   916 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:36:23.802   607   916 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+11-18 18:36:23.803   607   916 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 180405524 SSID: "AndroidWifi", BSSID: 02:15:b2:00:00:01, MAC: 02:15:b2:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 9Mbps, Tx Link speed: 9Mbps, Max Supported Tx Link speed: 54Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 54Mbps, Frequency: 2437MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-18 18:36:23.803   607   916 D WifiScoreCard: txRate: 2 txSpeed: 9
+11-18 18:36:23.803   607   916 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 93093707 RSSI -50 txSpeed -1
+11-18 18:36:23.804   607   916 D WifiClientModeImpl[33635:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 02:15:b2:00:00:01 rssi=-50 f=2437 sc=60 link=9 tx=1.9, 0.0, 0.0 rx=4.4 bcn=0 [on:0 tx:0 rx:0 period:3005] from screen [on:0 period:-269345924] score=60
+11-18 18:36:23.966  5645  5645 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Profile: Alice"}' assertion on view view.getId() is <2131231209/com.university.lab04:id/text_detail>
+11-18 18:36:23.969   607  1469 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10227, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:23.975  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@bb71576 in: PAUSED
+11-18 18:36:23.975  5645  5645 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { xflg=0x4 cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@bb71576
+11-18 18:36:23.976   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:23.976   592   645 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:23.977   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:23.977  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{9b2e33a V.E...... ......ID 0,0-0,0}
+11-18 18:36:23.977  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:36:23.977  1013  1113 D SplashScreenView: Branding: view: android.view.View{b429beb G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:36:23.981  5696  5711 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:36:23.981  5696  5711 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:36:23.991  5696  5711 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:36:23.998  5696  5696 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:36:24.004  5645  5645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@e59d5de
+11-18 18:36:24.005  5645  5645 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@eaf029 in: DESTROYED
+11-18 18:36:24.005  5645  5645 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:36:24.009  5645  5658 I TestRunner: finished: g_parcelable(com.university.lab04.Lab04Test)

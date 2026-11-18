@@ -1,0 +1,202 @@
+11-18 18:39:39.947  9177  9199 I TestRunner: started: d_powerReceiver(com.university.lab08.Lab08Test)
+11-18 18:39:39.951   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:39:39.954   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:39:39.954   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:39:39.954   344   344 E Layer   : [Surface(name=Task=57)/@0xeb8267b - animation-leash#0] No local sync point found
+11-18 18:39:39.954   344   344 E Layer   : [Surface(name=Task=57)/@0xeb8267b - animation-leash#0] No local sync point found
+11-18 18:39:39.955  9177  9199 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:39:39.955  9177  9199 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:39:39.964  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4eed0db in: PRE_ON_CREATE
+11-18 18:39:40.002  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4eed0db in: CREATED
+11-18 18:39:40.014  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:39:40.015  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4eed0db in: STARTED
+11-18 18:39:40.016  9177  9177 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@4eed0db in: RESUMED
+11-18 18:39:40.054  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:39:40.096   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab08/1/com.university.lab08.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:39:40.097   496   536 I ActivityTaskManager: Displayed com.university.lab08/.MainActivity: +139ms
+11-18 18:39:40.099   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:39:40.119  1675  2218 I PBSessionCacheImpl: Deleted sessionId[7368522932967141] from persistence.
+11-18 18:39:40.123  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:39:40.853  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:39:40.858  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:39:41.641  9177  9199 D UiDevice: Executing shell command: dumpsys battery unplug
+11-18 18:39:41.650  1443  1443 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 (has extras) }
+11-18 18:39:41.652  1443  1909 I BrdcstRcvrMsgr: sendMessage(): received broadcast android.intent.action.ACTION_POWER_DISCONNECTED
+11-18 18:39:41.658  1675  1675 I PublicSearchService: Creating pss binder().
+11-18 18:39:41.661  1675  5842 I PublicSearchService: Calling beginBinderSession().
+11-18 18:39:41.663  1443  1443 E BrdcstRcvrServiceConn: binder null, could not send broadcast of action
+11-18 18:39:42.782   496  1941 D WifiNl80211Manager: Scan result ready event
+11-18 18:39:42.783   496  1941 D WifiNative: Scan result ready event
+11-18 18:39:43.153  9177  9199 D UiDevice: Executing shell command: dumpsys battery set ac 1
+11-18 18:39:43.160  9177  9177 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10185; state: ENABLED
+11-18 18:39:43.161  1443  1443 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x4000010 (has extras) }
+11-18 18:39:43.163  1443  1909 I BrdcstRcvrMsgr: sendMessage(): received broadcast android.intent.action.ACTION_POWER_CONNECTED
+11-18 18:39:43.171  1675  1675 I PublicSearchService: Creating pss binder().
+11-18 18:39:43.171   329   329 I android.hardware.vibrator-service.example: Vibrator off
+11-18 18:39:43.172  9177  9199 D UiDevice: Waiting 4000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QCharger connected\E.*']].
+11-18 18:39:43.172  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:43.173  1675  2187 I PublicSearchService: Calling beginBinderSession().
+11-18 18:39:43.174  1443  1443 E BrdcstRcvrServiceConn: binder null, could not send broadcast of action
+11-18 18:39:43.190   329   329 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 640
+11-18 18:39:43.191   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.00392157
+11-18 18:39:43.195   435   908 D NuPlayerDriver: NuPlayerDriver(0xf1680880) created, clientPid(496)
+11-18 18:39:43.218  1748  9352 D Backup  : [DeviceStateSnapshotIntentOperation] Logging DeviceStateSnapshot.
+11-18 18:39:43.231   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.0156863
+11-18 18:39:43.239   435  9383 D GenericSource: FileSource remote
+11-18 18:39:43.250  1748  9352 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:39:43.251   496   496 D Ringtone: Successfully created local player
+11-18 18:39:43.251   496   496 W Ringtone: Use of stream types is deprecated for operations other than volume control
+11-18 18:39:43.251   496   496 W Ringtone: See the documentation of setStreamType() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-18 18:39:43.252   435   908 D NuPlayerDriver: reset(0xf1680880) at state 4
+11-18 18:39:43.252   435  9377 D NuPlayerDriver: notifyResetComplete(0xf1680880)
+11-18 18:39:43.253  1162  9366 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:39:43.253   435   908 D NuPlayerDriver: reset(0xf1680880) at state 0
+11-18 18:39:43.257   496   496 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:39:43.257   496   496 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:39:43.258   496   496 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+11-18 18:39:43.258   496   496 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+11-18 18:39:43.259   435   908 D NuPlayerDriver: NuPlayerDriver(0xf1681de0) created, clientPid(496)
+11-18 18:39:43.264   435  9388 D GenericSource: FileSource remote
+11-18 18:39:43.269   496   496 D Ringtone: Successfully created local player
+11-18 18:39:43.274   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.0431373
+11-18 18:39:43.276   435  9387 I GenericSource: start
+11-18 18:39:43.284   496   496 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:39:43.290   435  9393 D CCodec  : allocate(c2.android.vorbis.decoder)
+11-18 18:39:43.292  1748  9352 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+11-18 18:39:43.293  1162  9366 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+11-18 18:39:43.296   445   900 V C2Store : in init
+11-18 18:39:43.296   445   900 V C2Store : loading dll
+11-18 18:39:43.299   435  9393 I CCodec  : Created component [c2.android.vorbis.decoder]
+11-18 18:39:43.301   435  9393 D CCodecConfig: read media type: audio/vorbis
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-18 18:39:43.303   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-18 18:39:43.304   435  9393 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-18 18:39:43.307   435  9393 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+11-18 18:39:43.307   435  9393 D CCodecConfig: c2 config diff is Dict {
+11-18 18:39:43.307   435  9393 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-18 18:39:43.307   435  9393 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+11-18 18:39:43.307   435  9393 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-18 18:39:43.307   435  9393 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+11-18 18:39:43.307   435  9393 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-18 18:39:43.307   435  9393 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-18 18:39:43.307   435  9393 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+11-18 18:39:43.307   435  9393 D CCodecConfig: }
+11-18 18:39:43.308   435  9393 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+11-18 18:39:43.308   435  9393 D CCodecConfig: no c2 equivalents for durationUs
+11-18 18:39:43.308   435  9393 D CCodecConfig: no c2 equivalents for csd-1
+11-18 18:39:43.308   435  9393 D CCodecConfig: no c2 equivalents for channel-mask
+11-18 18:39:43.308   435  9393 D CCodecConfig: no c2 equivalents for flags
+11-18 18:39:43.309   435  9393 W Codec2Client: query -- param skipped: index = 1107298332.
+11-18 18:39:43.309   435  9393 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t channel-count = 1
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t max-input-size = 32768
+11-18 18:39:43.309   435  9393 D CCodec  :   string mime = "audio/vorbis"
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:39:43.309   435  9393 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t channel-count = 1
+11-18 18:39:43.309   435  9393 D CCodec  :   string mime = "audio/raw"
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t sample-rate = 48000
+11-18 18:39:43.309   435  9393 D CCodec  :   int32_t channel-mask = 1
+11-18 18:39:43.309   435  9393 D CCodec  : }
+11-18 18:39:43.310   435  9393 I MediaCodec: MediaCodec will operate in async mode
+11-18 18:39:43.311   435  9393 W Codec2Client: query -- param skipped: index = 1342179345.
+11-18 18:39:43.311   435  9393 W Codec2Client: query -- param skipped: index = 2415921170.
+11-18 18:39:43.313   435  9393 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.313   435  9393 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.313   435  9393 D CCodecBufferChannel: [c2.android.vorbis.decoder#542] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+11-18 18:39:43.314   445   484 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.314   445   484 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: bufferpool2 0x736703088b88 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/36 (fetch/transfer)
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x736703088b88 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 36, 78% unfetched
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: bufferpool2 0x736703087da8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/38 (fetch/transfer)
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x736703087da8 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 38, 82% unfetched
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: bufferpool2 0x73670308f5e8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/9 (recycle/alloc) - 8/18 (fetch/transfer)
+11-18 18:39:43.314  8018  8059 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x73670308f5e8 cached: 0/0M, 0/0% in use; allocs: 9, 11% recycled; transfers: 18, 56% unfetched
+11-18 18:39:43.314   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.0980392
+11-18 18:39:43.315   435  9393 I CCodecBufferChannel: [c2.android.vorbis.decoder#542] Created output block pool with allocatorID 16 => poolID 29 - OK
+11-18 18:39:43.315   435  9393 D CCodecBufferChannel: [c2.android.vorbis.decoder#542] Configured output block pool ids 29 => OK
+11-18 18:39:43.317   435  9393 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+11-18 18:39:43.317   445  9399 D SimpleC2Component: Using output block pool with poolID 29 => got 29 - 0
+11-18 18:39:43.318   435  9393 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.318   445   872 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.332   445  9399 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.332   435   758 E FMQ     : grantorIdx must be less than 3
+11-18 18:39:43.355   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.172549
+11-18 18:39:43.359   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:43.359   496  1954 I chatty  : uid=1000(system) Binder:496_1F identical 2 lines
+11-18 18:39:43.359   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:43.363   380  6426 D AudioFlinger: Client defaulted notificationFrames to 12213 for frameCount 24426
+11-18 18:39:43.364   380  6426 D AF::TrackHandle: OpPlayAudio: track:60 usage:13 not muted
+11-18 18:39:43.384   496  1139 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:43.384   435   908 D AudioTrack: getTimestamp_l(20): device stall time corrected using current time 342842400304
+11-18 18:39:43.395   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.262745
+11-18 18:39:43.439   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.356863
+11-18 18:39:43.481   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.447059
+11-18 18:39:43.522   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.482353
+11-18 18:39:43.522   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(35)
+11-18 18:39:43.562   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.403922
+11-18 18:39:43.602   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.309804
+11-18 18:39:43.643   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.215686
+11-18 18:39:43.683   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.133333
+11-18 18:39:43.723   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.0666667
+11-18 18:39:43.765   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.027451
+11-18 18:39:43.808   329   329 I android.hardware.vibrator-service.example: Vibrator set amplitude: 0.00784314
+11-18 18:39:43.817  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:43.852   329   329 I android.hardware.vibrator-service.example: Vibrator off
+11-18 18:39:43.921  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:44.438  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 5 lines
+11-18 18:39:44.541  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:44.546   435  9391 W NuPlayerRenderer: AudioSink stuck. ARE YOU CONNECTED TO AUDIO OUT? Switching to system clock.
+11-18 18:39:44.562   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(1)
+11-18 18:39:44.645  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:44.855  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 2 lines
+11-18 18:39:44.957  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:44.986  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:44.986  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:45.060  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:45.154  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:39:45.154  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:39:45.163  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:45.493  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 3 lines
+11-18 18:39:45.601  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:45.619   435  9393 D CCodecBufferChannel: [c2.android.vorbis.decoder#542] buffers after EOS ignored (0 us)
+11-18 18:39:45.715  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:45.818  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:45.884   435  9391 D AudioTrack: stop(20): called with 132832 frames delivered
+11-18 18:39:45.921  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:46.129  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 2 lines
+11-18 18:39:46.232  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:46.297  1748  9352 I Vision  : Requesting optional module download of ocr.
+11-18 18:39:46.297  1748  9352 I Vision  : Checking for download completion for 355755 -- ocr
+11-18 18:39:46.335  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:46.360   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:46.438  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:46.541  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:46.616  5555  7358 W InstanceID: Instance ID SDK is deprecated, com.android.chrome should update to use Firebase Instance ID
+11-18 18:39:46.645  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:47.161  9177  9199 I chatty  : uid=10185(com.university.lab08) roidJUnitRunner identical 5 lines
+11-18 18:39:47.263  9177  9199 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QCharger connected\E.*'].
+11-18 18:39:47.266  9177  9199 I LABCI   : waitText 'Charger connected': false
+11-18 18:39:47.462   496  1000 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:47.966  9177  9199 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:39:47.973  9177  9199 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_charger.png
+11-18 18:39:48.012   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:39:48.012  9410  9410 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:48.017  9410  9410 D HostConnection: createUnique: call
+11-18 18:39:48.017  9410  9410 D HostConnection: HostConnection::get() New Host Connection established 0x7bc517bbff10, tid 9410
+11-18 18:39:48.024  9410  9410 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:39:48.052  9415  9417 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:48.052  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_charger.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:48.065  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab08_charger.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab08_charger.png
+11-18 18:39:48.048  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:615): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:48.069  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 16ms, 0 inserts 0 updates 0 deletes
+11-18 18:39:48.076  9177  9199 I LABCI   : screenshot lab08_charger
+11-18 18:39:48.076  9177  9199 I LABCI   : charger toast seen: false
+11-18 18:39:48.076  9177  9199 D UiDevice: Executing shell command: dumpsys battery reset
+11-18 18:39:48.077  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab08_charger.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:48.048  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:616): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:39:48.082  9177  9199 I TestRunner: finished: d_powerReceiver(com.university.lab08.Lab08Test)

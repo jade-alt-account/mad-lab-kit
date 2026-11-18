@@ -1,0 +1,685 @@
+11-18 18:39:08.019  8135  8163 I TestRunner: started: b_direct(com.university.lab09.Lab09Test)
+11-18 18:39:08.020  8135  8135 I MonitoringInstr: Finishing activity: com.university.lab09.MainActivity@b4bd47c
+11-18 18:39:08.023  3124  8191 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-18 18:39:08.023  3124  8191 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_GenericWorkerQueueAction
+11-18 18:39:08.026  1892  8289 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/prod/train/en/selected-in-search-or-browser-apps session_name:smartselect/prod/train/en/selected-in-search-or-browser-apps
+11-18 18:39:08.028  1892  8290 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all-non-url-email-cut-translate session_name:smartselect/train/en/all-non-url-email-cut-translate
+11-18 18:39:08.029  1892  8317 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-otp session_name:smartselect/train/en/address-otp
+11-18 18:39:08.030  1892  8318 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all-non-url-email session_name:smartselect/train/en/all-non-url-email
+11-18 18:39:08.030  1892  8276 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/phone-or-pasted-to-dialer-apps session_name:smartselect/train/en/phone-or-pasted-to-dialer-apps
+11-18 18:39:08.030  1892  8310 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/prod/train/en/address-or-pasted-to-shopping-apps session_name:smartselect/prod/train/en/address-or-pasted-to-shopping-apps
+11-18 18:39:08.030  1892  8301 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/prod/train/en/address-phone-or-selected-in-non-messaging-apps session_name:smartselect/prod/train/en/address-phone-or-selected-in-non-messaging-apps
+11-18 18:39:08.031  1892  8280 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-other-nonsentences session_name:smartselect/train/en/address-phone-other-nonsentences
+11-18 18:39:08.031  1892  8282 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/all/all_nonsentences session_name:smartselect/train/all/all_nonsentences
+11-18 18:39:08.033  3124  8186 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:08.034   554  1004 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10229, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:39:08.035  1892  8303 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/selected-in-search-or-browser-apps session_name:smartselect/train/en/selected-in-search-or-browser-apps
+11-18 18:39:08.036  1892  8277 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/phone session_name:smartselect/train/en/phone
+11-18 18:39:08.036  1892  8281 W System.err: Seeding context with ref: 42439337
+11-18 18:39:08.037  1892  8284 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/prod/train/en/all-non-translate session_name:smartselect/prod/train/en/all-non-translate
+11-18 18:39:08.038  1892  8286 W System.err: Seeding context with ref: 156491765
+11-18 18:39:08.038  1892  8319 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-or-selected-in-messaging-apps session_name:smartselect/train/en/address-phone-or-selected-in-messaging-apps
+11-18 18:39:08.038  1892  8324 W System.err: Seeding context with ref: 57749898
+11-18 18:39:08.038  1892  8325 W System.err: Seeding context with ref: 252072955
+11-18 18:39:08.038  1892  8326 W System.err: Seeding context with ref: 40528920
+11-18 18:39:08.038  1892  8327 W System.err: Seeding context with ref: 114263665
+11-18 18:39:08.040  1892  8286 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/all/all session_name:smartselect/train/all/all
+11-18 18:39:08.041  1892  8285 W System.err: Seeding context with ref: 230218838
+11-18 18:39:08.041  1892  8281 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-or-pasted-to-non-messaging-apps session_name:smartselect/train/en/address-phone-or-pasted-to-non-messaging-apps
+11-18 18:39:08.042  1892  8328 W System.err: Seeding context with ref: 190592215
+11-18 18:39:08.043  1892  8327 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-or-pasted-to-search-or-browser-apps session_name:smartselect/train/en/address-phone-or-pasted-to-search-or-browser-apps
+11-18 18:39:08.044  1892  8285 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-or-pasted-to-map-apps session_name:smartselect/train/en/address-or-pasted-to-map-apps
+11-18 18:39:08.044  1892  8334 W System.err: Seeding context with ref: 61223364
+11-18 18:39:08.045   903  1009 D SplashScreenView: Build android.window.SplashScreenView{623a6bd V.E...... ......ID 0,0-0,0}
+11-18 18:39:08.045   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:39:08.045   903  1009 D SplashScreenView: Branding: view: android.view.View{d29c4b2 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:39:08.046  1892  8324 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all-pasted-to-apps session_name:smartselect/train/en/all-pasted-to-apps
+11-18 18:39:08.049  1892  8287 W System.err: Seeding context with ref: 50227170
+11-18 18:39:08.049  1892  8287 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-or-selected-in-non-messaging-apps session_name:smartselect/train/en/address-phone-or-selected-in-non-messaging-apps
+11-18 18:39:08.050  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=57, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab09 cmp=com.university.lab09/.MainActivity }
+11-18 18:39:08.050  1156  1156 I TopTaskTracker: onTaskMovedToFront: (removing task list overflow) taskId=57, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab09 cmp=com.university.lab09/.MainActivity }
+11-18 18:39:08.050  1892  8325 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-or-pasted-to-map-or-shopping-apps session_name:smartselect/train/en/address-or-pasted-to-map-or-shopping-apps
+11-18 18:39:08.050  1892  8328 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/selected-in-non-messaging-apps session_name:smartselect/train/en/selected-in-non-messaging-apps
+11-18 18:39:08.050  1892  8334 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all session_name:smartselect/train/en/all
+11-18 18:39:08.050  1892  8333 W System.err: Seeding context with ref: 80037747
+11-18 18:39:08.050  1892  8333 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all-pasted-to-none-messaging-apps session_name:smartselect/train/en/all-pasted-to-none-messaging-apps
+11-18 18:39:08.051  1892  8326 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address session_name:smartselect/train/en/address
+11-18 18:39:08.051  1892  8331 W System.err: Seeding context with ref: 205385185
+11-18 18:39:08.051  1892  8291 W System.err: Seeding context with ref: 31393542
+11-18 18:39:08.051  8135  8163 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab09\E']].
+11-18 18:39:08.052  8135  8163 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:39:08.053  1892  8322 W System.err: Seeding context with ref: 120711468
+11-18 18:39:08.053  1892  8322 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/pasted-to-named-entity-apps session_name:smartselect/train/en/pasted-to-named-entity-apps
+11-18 18:39:08.054  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b4bd47c in: DESTROYED
+11-18 18:39:08.054  1892  8331 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/pasted-to-search-apps session_name:smartselect/train/en/pasted-to-search-apps
+11-18 18:39:08.054  1892  8278 W System.err: Seeding context with ref: 79561159
+11-18 18:39:08.055  1892  8293 W System.err: Seeding context with ref: 6001652
+11-18 18:39:08.055  1892  8321 W System.err: Seeding context with ref: 13272861
+11-18 18:39:08.056  8135  8135 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8ef1d9f
+11-18 18:39:08.056  1892  8278 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/pasted-to-shopping-apps session_name:smartselect/train/en/pasted-to-shopping-apps
+11-18 18:39:08.056  1892  8330 W System.err: Seeding context with ref: 148147602
+11-18 18:39:08.057  1892  8330 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/pasted-to-notes-apps session_name:smartselect/train/en/pasted-to-notes-apps
+11-18 18:39:08.058  1892  8291 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-otp-copied session_name:smartselect/train/en/address-otp-copied
+11-18 18:39:08.058  1892  8293 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/selected-in-messaging-apps session_name:smartselect/train/en/selected-in-messaging-apps
+11-18 18:39:08.058  1892  8321 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/all-non-url-email-cut session_name:smartselect/train/en/all-non-url-email-cut
+11-18 18:39:08.058  1892  8332 W System.err: Seeding context with ref: 110031715
+11-18 18:39:08.059  3124  3124 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:39:08.059  3124  3124 I BuglePaginationV3: HomeFragment onPause called
+11-18 18:39:08.063  1892  8335 W System.err: Seeding context with ref: 177732448
+11-18 18:39:08.065   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:08.074  1892  8332 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/address-phone-otp-copied session_name:smartselect/train/en/address-phone-otp-copied
+11-18 18:39:08.075   554  2295 W InputManager-JNI: Input channel object 'dfabad5 com.university.lab09/com.university.lab09.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:39:08.077  1892  8335 I FederatedTrainingScheduler: Cancelling training for population:aiai/playstore/smartselect/train/en/pasted-to-translate-apps session_name:smartselect/train/en/pasted-to-translate-apps
+11-18 18:39:08.097  1397  1947 I AiAiConversations: [MessageActivityBroadcaster][component=ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}][sessionId=-1565331464][exitReason=DEFAULT][requiresDeletion=false] Exit Conversation
+11-18 18:39:08.098  1397  1947 I AiAiPeople: [mnc] [onConversationExited] Current session is not active
+11-18 18:39:08.106  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=55
+11-18 18:39:08.106  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=55
+11-18 18:39:08.109  1892  1923 I .android.as.oss: Waiting for a blocking GC ProfileSaver
+11-18 18:39:08.109  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: PRE_ON_CREATE
+11-18 18:39:08.117  1892  1897 I .android.as.oss: Background concurrent mark compact GC freed 3286KB AllocSpace bytes, 3(64KB) LOS objects, 49% free, 3212KB/6424KB, paused 307us,618us total 112.567ms
+11-18 18:39:08.121  3124  3124 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:39:08.123  8135  8135 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:39:08.124  1892  1923 I .android.as.oss: WaitForGcToComplete blocked ProfileSaver on Background for 15.049ms
+11-18 18:39:08.125  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-search-or-browser-or-named-entity-apps, session=smartselect/prod/train/en/pasted-to-search-or-browser-or-named-entity-apps]
+11-18 18:39:08.127  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.128  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-pasted-to-apps, session=smartselect/prod/train/en/all-pasted-to-apps]
+11-18 18:39:08.129  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.135  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-non-url-email, session=smartselect/prod/train/en/all-non-url-email]
+11-18 18:39:08.135  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.137  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-or-pasted-to-map-apps, session=smartselect/prod/train/en/address-or-pasted-to-map-apps]
+11-18 18:39:08.138  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.138  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-shopping-apps, session=smartselect/prod/train/en/pasted-to-shopping-apps]
+11-18 18:39:08.139  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.140  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-other-translate, session=smartselect/prod/train/en/address-phone-other-translate]
+11-18 18:39:08.140  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.142  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/phone-or-pasted-to-dialer-apps, session=smartselect/prod/train/en/phone-or-pasted-to-dialer-apps]
+11-18 18:39:08.142  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.143  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-otp-copied, session=smartselect/prod/train/en/address-phone-otp-copied]
+11-18 18:39:08.143  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.143  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-pasted-to-non-messaging-apps, session=smartselect/prod/train/en/address-phone-or-pasted-to-non-messaging-apps]
+11-18 18:39:08.144  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.144  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-non-url-email-cut, session=smartselect/prod/train/en/all-non-url-email-cut]
+11-18 18:39:08.144  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.146  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/selected-in-non-messaging-apps, session=smartselect/prod/train/en/selected-in-non-messaging-apps]
+11-18 18:39:08.146  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.147  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-other-nonsentences, session=smartselect/prod/train/en/address-phone-other-nonsentences]
+11-18 18:39:08.147  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.147  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-otp, session=smartselect/prod/train/en/address-phone-otp]
+11-18 18:39:08.147  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.147  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-notes-apps, session=smartselect/prod/train/en/pasted-to-notes-apps]
+11-18 18:39:08.147  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.147  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-otp, session=smartselect/prod/train/en/address-otp]
+11-18 18:39:08.147  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.150  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: CREATED
+11-18 18:39:08.151  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: STARTED
+11-18 18:39:08.152  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: RESUMED
+11-18 18:39:08.170  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-translate-apps, session=smartselect/prod/train/en/pasted-to-translate-apps]
+11-18 18:39:08.171  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.174  8135  8145 I niversity.lab09: Background concurrent mark compact GC freed 7100KB AllocSpace bytes, 4(80KB) LOS objects, 49% free, 4541KB/9083KB, paused 668us,1.530ms total 150.176ms
+11-18 18:39:08.181  8135  8135 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:39:08.181  8135  8135 D AutofillManager: notifyViewReadyInner:1073741825
+11-18 18:39:08.197   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:08.198  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-other, session=smartselect/prod/train/en/address-phone-other]
+11-18 18:39:08.198  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.199  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-selected-in-messaging-apps, session=smartselect/prod/train/en/address-phone-or-selected-in-messaging-apps]
+11-18 18:39:08.198   554   578 W ziparchive: Unable to open '/data/app/~~0QCTxYYOWYge0yBt0EtBSQ==/com.university.lab09-WufydQxOrNBJ1IaD_xy1yw==/base.dm': No such file or directory
+11-18 18:39:08.201  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.201  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-search-apps, session=smartselect/prod/train/en/pasted-to-search-apps]
+11-18 18:39:08.201   554   578 I ActivityTaskManager: Displayed com.university.lab09/.MainActivity for user 0: +166ms
+11-18 18:39:08.202  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.202  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-pasted-to-either-apps, session=smartselect/prod/train/en/address-phone-or-pasted-to-either-apps]
+11-18 18:39:08.202  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.203  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all, session=smartselect/prod/train/en/all]
+11-18 18:39:08.203  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.204  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/all/all, session=smartselect/prod/train/all/all]
+11-18 18:39:08.204  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.208   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8febac
+11-18 18:39:08.208  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-or-pasted-to-map-or-shopping-apps, session=smartselect/prod/train/en/address-or-pasted-to-map-or-shopping-apps]
+11-18 18:39:08.208  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.209   554  1017 W InputManager-JNI: Input channel object '93e2a2 Splash Screen com.university.lab09 (client)' was disposed without first being removed with the input manager!
+11-18 18:39:08.210  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-otp-copied, session=smartselect/prod/train/en/address-otp-copied]
+11-18 18:39:08.210  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.213  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-maps-apps, session=smartselect/train/en/pasted-to-maps-apps]
+11-18 18:39:08.213  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.213  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone, session=smartselect/prod/train/en/address-phone]
+11-18 18:39:08.214  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.214  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-named-entity-apps, session=smartselect/prod/train/en/pasted-to-named-entity-apps]
+11-18 18:39:08.215  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.216  3124  3124 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:08.216  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-search-or-browser-apps, session=smartselect/train/en/pasted-to-search-or-browser-apps]
+11-18 18:39:08.216  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.216  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-pasted-to-either-apps, session=smartselect/train/en/address-phone-or-pasted-to-either-apps]
+11-18 18:39:08.216  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.220   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:08.222   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10168} in 30ms
+11-18 18:39:08.225  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-other, session=smartselect/train/en/address-phone-other]
+11-18 18:39:08.225   554   680 I ImeTracker: com.university.lab09:ed6a0c5e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:39:08.226   554   680 I ImeTracker: com.university.lab09:ed6a0c5e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:39:08.227  3124  3124 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_RebuildShortcutsAction
+11-18 18:39:08.227   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:08.227   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:08.227   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20168} in 5ms
+11-18 18:39:08.227  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.228  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:39:08.229  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:39:08.229  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab09, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:39:08.230  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:39:08.230  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:39:08.232  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-otp, session=smartselect/train/en/address-phone-otp]
+11-18 18:39:08.232  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.232  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-or-pasted-to-shopping-apps, session=smartselect/train/en/address-or-pasted-to-shopping-apps]
+11-18 18:39:08.232  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.234  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-selected-in-search-or-browser-apps, session=smartselect/train/en/address-phone-or-selected-in-search-or-browser-apps]
+11-18 18:39:08.234  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.237  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone, session=smartselect/train/en/address-phone]
+11-18 18:39:08.237  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.237  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all_nonsentences, session=smartselect/train/en/all_nonsentences]
+11-18 18:39:08.237  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.239  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-non-translate, session=smartselect/train/en/all-non-translate]
+11-18 18:39:08.239  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.240  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-maps-apps, session=smartselect/prod/train/en/pasted-to-maps-apps]
+11-18 18:39:08.240  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.242  8135  8163 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:39:08.246  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all_nonsentences, session=smartselect/prod/train/en/all_nonsentences]
+11-18 18:39:08.246  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.248  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-non-url-email-cut-translate, session=smartselect/prod/train/en/all-non-url-email-cut-translate]
+11-18 18:39:08.249  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.249  3124  3124 I BuglePaginationV3: HomeFragment onStop called
+11-18 18:39:08.251  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-pasted-to-none-messaging-apps, session=smartselect/prod/train/en/all-pasted-to-none-messaging-apps]
+11-18 18:39:08.251  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.251  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-selected-in-search-or-browser-apps, session=smartselect/prod/train/en/address-phone-or-selected-in-search-or-browser-apps]
+11-18 18:39:08.252  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.254  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-pasted-to-search-or-browser-apps, session=smartselect/prod/train/en/address-phone-or-pasted-to-search-or-browser-apps]
+11-18 18:39:08.254  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.255  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/selected-in-messaging-apps, session=smartselect/prod/train/en/selected-in-messaging-apps]
+11-18 18:39:08.255  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.255  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/pasted-to-search-or-browser-apps, session=smartselect/prod/train/en/pasted-to-search-or-browser-apps]
+11-18 18:39:08.256  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.261  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/phone, session=smartselect/prod/train/en/phone]
+11-18 18:39:08.261  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/all/all_nonsentences, session=smartselect/prod/train/all/all_nonsentences]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address, session=smartselect/prod/train/en/address]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-other-translate, session=smartselect/train/en/address-phone-other-translate]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-search-or-browser-or-named-entity-apps, session=smartselect/train/en/pasted-to-search-or-browser-or-named-entity-apps]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/selected-in-search-or-browser-apps, session=smartselect/prod/train/en/selected-in-search-or-browser-apps]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.262  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-non-url-email-cut-translate, session=smartselect/train/en/all-non-url-email-cut-translate]
+11-18 18:39:08.262  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.264  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-otp, session=smartselect/train/en/address-otp]
+11-18 18:39:08.264  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.264  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-non-url-email, session=smartselect/train/en/all-non-url-email]
+11-18 18:39:08.264  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.267  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/phone-or-pasted-to-dialer-apps, session=smartselect/train/en/phone-or-pasted-to-dialer-apps]
+11-18 18:39:08.268  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.268  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-phone-or-selected-in-non-messaging-apps, session=smartselect/prod/train/en/address-phone-or-selected-in-non-messaging-apps]
+11-18 18:39:08.269  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.270  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-other-nonsentences, session=smartselect/train/en/address-phone-other-nonsentences]
+11-18 18:39:08.270  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.270  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/address-or-pasted-to-shopping-apps, session=smartselect/prod/train/en/address-or-pasted-to-shopping-apps]
+11-18 18:39:08.270  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.270  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/all/all_nonsentences, session=smartselect/train/all/all_nonsentences]
+11-18 18:39:08.270  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.270  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/selected-in-search-or-browser-apps, session=smartselect/train/en/selected-in-search-or-browser-apps]
+11-18 18:39:08.270  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/prod/train/en/all-non-translate, session=smartselect/prod/train/en/all-non-translate]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/phone, session=smartselect/train/en/phone]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/all/all, session=smartselect/train/all/all]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-pasted-to-non-messaging-apps, session=smartselect/train/en/address-phone-or-pasted-to-non-messaging-apps]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-selected-in-messaging-apps, session=smartselect/train/en/address-phone-or-selected-in-messaging-apps]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.271  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-pasted-to-search-or-browser-apps, session=smartselect/train/en/address-phone-or-pasted-to-search-or-browser-apps]
+11-18 18:39:08.271  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-or-pasted-to-map-apps, session=smartselect/train/en/address-or-pasted-to-map-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-pasted-to-apps, session=smartselect/train/en/all-pasted-to-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-or-selected-in-non-messaging-apps, session=smartselect/train/en/address-phone-or-selected-in-non-messaging-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-or-pasted-to-map-or-shopping-apps, session=smartselect/train/en/address-or-pasted-to-map-or-shopping-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/selected-in-non-messaging-apps, session=smartselect/train/en/selected-in-non-messaging-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all, session=smartselect/train/en/all]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.272  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-pasted-to-none-messaging-apps, session=smartselect/train/en/all-pasted-to-none-messaging-apps]
+11-18 18:39:08.272  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.273  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address, session=smartselect/train/en/address]
+11-18 18:39:08.273  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.273  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-named-entity-apps, session=smartselect/train/en/pasted-to-named-entity-apps]
+11-18 18:39:08.273  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.273  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-search-apps, session=smartselect/train/en/pasted-to-search-apps]
+11-18 18:39:08.273  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.273  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-shopping-apps, session=smartselect/train/en/pasted-to-shopping-apps]
+11-18 18:39:08.273  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.273  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-otp-copied, session=smartselect/train/en/address-otp-copied]
+11-18 18:39:08.273  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.274  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/selected-in-messaging-apps, session=smartselect/train/en/selected-in-messaging-apps]
+11-18 18:39:08.274  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.275   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:08.275  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/all-non-url-email-cut, session=smartselect/train/en/all-non-url-email-cut]
+11-18 18:39:08.275  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.276  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-notes-apps, session=smartselect/train/en/pasted-to-notes-apps]
+11-18 18:39:08.276  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.277  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/address-phone-otp-copied, session=smartselect/train/en/address-phone-otp-copied]
+11-18 18:39:08.277  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.278   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:08.278  1892  1941 I TrainerGrpcBindableService: Cancelling training succeeded [population=aiai/playstore/smartselect/train/en/pasted-to-translate-apps, session=smartselect/train/en/pasted-to-translate-apps]
+11-18 18:39:08.278  1892  1941 W System.err: val in interceptor: null
+11-18 18:39:08.279   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 4ms
+11-18 18:39:08.280   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:08.282   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:08.283   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20142} in 5ms
+11-18 18:39:08.285  3124  8187 I BugleDataModel: ExecuteActionRunnable: running action RebuildShortcutsAction
+11-18 18:39:08.287  3124  8191 I Bugle   : ShortcutUtilImpl: Starting rebuild shortcuts v2
+11-18 18:39:08.288  3124  8191 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_RebuildShortcutsAction
+11-18 18:39:08.303  3124  4091 V ClearcutMetricXmitter: Transmission is done.
+11-18 18:39:08.305  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_RebuildShortcutsAction
+11-18 18:39:08.306  3124  8187 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:08.316  3124  3197 I Bugle   : ShortcutUtilImpl: Removing dynamic shortcuts: size=0
+11-18 18:39:08.317  3124  3225 I Bugle   : ShortcutUtilImpl: Setting dynamic shortcuts: size=0
+11-18 18:39:08.318  3124  3257 I BugleShortcuts: Successfully finished rebuilding shortcuts
+11-18 18:39:08.475   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:08.475   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:08.475   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={99000} in 1ms
+11-18 18:39:08.531  3124  8250 D MetadataFetcher: Cancel metadata fetch future of en_US-20210823-00000000067CE3DE
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.965   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:08.967  1208  2983 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:39:08.967  1208  2983 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:39:08.969  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:39:08.969  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:39:08.971  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:39:09.693   359   359 I netd    : tetherGetStats() -> {[]} <0.27ms>
+11-18 18:39:09.732  8135  8163 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSend directly\E']].
+11-18 18:39:09.732  8135  8163 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSend directly\E'].
+11-18 18:39:09.736  8135  8163 D UiObject2: Clicking on (81, 316).
+11-18 18:39:09.771  8135  8167 D EGL_emulation: app_time_stats: avg=394.92ms min=4.17ms max=1513.56ms count=4
+11-18 18:39:09.771   425   444 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:39:09.773   554  2293 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:39:09.775  8135  8163 W GestureController: Gestures took longer than expected (38ms >> 16ms), device might be in a busy state.
+11-18 18:39:09.775  8135  8163 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:39:09.775  8135  8163 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:09.782   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:09.786  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: PAUSED
+11-18 18:39:09.796   554  2293 W EnhancedConfirmationService: The packageName should not be null.
+11-18 18:39:09.798  3124  3124 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:09.802  3124  3124 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_SendReportAction
+11-18 18:39:09.804  8135  8163 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:09.804  3124  8217 I BugleDataModel: ExecuteActionRunnable: running action SendReportAction
+11-18 18:39:09.806  3124  8217 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_SendReportAction
+11-18 18:39:09.806  3124  8202 I BugleTransport: Tachygram is disabled because the RCS Configuration is empty [CONTEXT ratelimit_period="5 SECONDS" skipped=6 ]
+11-18 18:39:09.807  3124  8202 I BugleTransport: Enabled chat transport is TRANSPORT_RCS [CONTEXT group_by="TRANSPORT_RCS" ratelimit_period="5 SECONDS" skipped=6 ]
+11-18 18:39:09.808  3124  8202 I ChatReadinessManagerImp: processRcsReadinessReason: Current ChatTransportType is: 1, ready: false
+11-18 18:39:09.809  3124  8202 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#101' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:09.810   554  1017 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#101' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:09.811  3124  8202 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_SendReportAction
+11-18 18:39:09.812  3124  8217 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:09.813   904   904 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:39:09.836   904  6204 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:39:09.837   904  6204 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:39:09.843   904  6204 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:39:09.909  8135  8163 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:09.933   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:39:10.161   554   578 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity for user 0: +387ms
+11-18 18:39:10.171   554   680 I ImeTracker: com.google.android.permissioncontroller:e987a4a3: onRequestHide at ORIGIN_SERVER reason HIDE_ALWAYS_HIDDEN_STATE fromUser false
+11-18 18:39:10.171   554   680 I ImeTracker: com.google.android.permissioncontroller:e987a4a3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:39:10.173  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:39:10.174  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:39:10.174  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.permissioncontroller, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:39:10.174  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:39:10.175  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:39:10.190   903  1024 D EGL_emulation: app_time_stats: avg=10120.76ms min=10120.76ms max=10120.76ms count=1
+11-18 18:39:10.283  1156  1557 D EGL_emulation: app_time_stats: avg=6278.22ms min=91.04ms max=12465.40ms count=2
+11-18 18:39:11.279  8135  8163 I LABCI   : permission dialog: tapping Allow
+11-18 18:39:11.280  8135  8163 D UiObject2: Clicking on (160, 351).
+11-18 18:39:11.296   904   904 I GrantPermissionsViewModel: Logged buttons presented and clicked permissionGroupName=android.permission-group.SMS uid=10229 selectedPrecision=0 package=com.university.lab09 presentedButtons=9 clickedButton=1 isPermissionRationaleShown=false sessionId=-2030739272036327991 targetSdk=36
+11-18 18:39:11.297   425   444 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:39:11.297   554  1238 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:39:11.299   554  2293 W EnhancedConfirmationService: The packageName should not be null.
+11-18 18:39:11.299   904   904 I GrantPermissionsViewModel: Permission grant result requestId=-2030739272036327991 callingUid=10229 callingPackage=com.university.lab09 permission=android.permission.SEND_SMS isImplicit=false result=4 isPermissionRationaleShown=falseisPackageRestrictedByEnhancedConfirmation=false
+11-18 18:39:11.304   554   578 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.307   554   578 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.313  8135  8163 W GestureController: Gestures took longer than expected (32ms >> 16ms), device might be in a busy state.
+11-18 18:39:11.313  8135  8163 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:39:11.315   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:11.321   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(39)
+11-18 18:39:11.323  8135  8163 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:11.329   904   904 D VRI[GrantPermissionsActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:39:11.336  1077  1477 D SmsNumberUtils: enter filterDestAddr. destAddr="[M9Y1fPqvD3KZGw7NjFbaBmYTwIk]"
+11-18 18:39:11.339  1077  1477 D SmsNumberUtils: destAddr is not formatted.
+11-18 18:39:11.339  1077  1477 D SmsNumberUtils: leave filterDestAddr, new destAddr="[M9Y1fPqvD3KZGw7NjFbaBmYTwIk]"
+11-18 18:39:11.347   359   359 I netd    : tetherGetStats() -> {[]} <0.47ms>
+11-18 18:39:11.347   904   904 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4ccbfa8
+11-18 18:39:11.348   554  2293 W InputManager-JNI: Input channel object 'd6d8712 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:39:11.361   903  1024 D EGL_emulation: app_time_stats: avg=585.19ms min=14.10ms max=1156.28ms count=2
+11-18 18:39:11.362   904   910 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~0QCTxYYOWYge0yBt0EtBSQ==/com.university.lab09-WufydQxOrNBJ1IaD_xy1yw==/base.apk' with 1 weak references
+11-18 18:39:11.371  8135  8135 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@521a955 in: RESUMED
+11-18 18:39:11.377   554   680 I ImeTracker: com.university.lab09:5aeaf5e0: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:39:11.377   554   680 I ImeTracker: com.university.lab09:5aeaf5e0: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:39:11.379  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:39:11.379  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:39:11.379  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab09, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:39:11.380  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:39:11.380  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:39:11.389  8135  8167 D EGL_emulation: app_time_stats: avg=323.72ms min=9.59ms max=1537.50ms count=5
+11-18 18:39:11.396  1077  1477 V MmsProvider: accessRestricted=false
+11-18 18:39:11.404  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:39:11.406  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:39:11.409  8135  8163 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:11.410  1156  1557 D EGL_emulation: app_time_stats: avg=1126.75ms min=1126.75ms max=1126.75ms count=1
+11-18 18:39:11.413  1077  1077 D CarrierRoamingSatelliteSessionStats: Create new CarrierRoamingSatelliteSessionStats. subId=1
+11-18 18:39:11.413  1077  1077 D CarrierRoamingSatelliteSessionStats: initializeParams
+11-18 18:39:11.416  1077  1477 V MmsProvider: inside checkQueryParametersForSubqueries
+11-18 18:39:11.416  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: address
+11-18 18:39:11.416  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sel: _id=? AND date>? AND type=2
+11-18 18:39:11.416  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sort: date ASC
+11-18 18:39:11.423  3124  8202 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:11.426  3124  8202 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:11.428  3124  8217 I BugleDataModel: ExecuteActionRunnable: running action ProcessTelephonyChangeAction
+11-18 18:39:11.430  3124  8217 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_DeferBackgroundWorkAction
+11-18 18:39:11.430  3124  8217 I BugleDataModel: ExecuteActionRunnable: running action DeferBackgroundWorkAction
+11-18 18:39:11.431  3124  3257 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.receiver.TelephonyChangeReceiver@dd8cf38
+11-18 18:39:11.434  3124  8217 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:11.434  3124  8187 I BugleDataModel: ProcessTelephonyChangeAction: external telephony provider change  content://sms/1
+11-18 18:39:11.439  3124  8187 I BugleDataModel: ProcessTelephonyChangeAction: sync new message. content://sms/1
+11-18 18:39:11.441  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:11.442  3124  8202 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:11.456  3124  3195 I BugleDataModel: ForwardSyncBatchExecutor: Starting batch for messages. lowerBoundTimeMillis: 1795027150377, upperBoundTimeMillis: 1795027152377, maxMessagesToUpdate: 80, maxMessagesToScan: 4000, batchId: 46ad18d9-a4df-40e8-aadd-21b2bcffe8b5, syncId: ea49767e-9175-4622-9f20-dcccd4d14283, bugle_conversation_matching: true, firstFullSyncStartTimestamp: 1795026834514, syncReason: 13
+11-18 18:39:11.464  1077  1477 V MmsProvider: accessRestricted=false
+11-18 18:39:11.477  3124  8191 D MddListenableWorkerFactory: createWorker for class: com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim
+11-18 18:39:11.479  3124  3195 I Bugle   : SyncMessageBatch: synchronizing. smsToAdd{size:1}
+11-18 18:39:11.486  3124  3195 I BugleDataModel: DeleteDatabaseOperations: Could not delete empty conversation; has message conversation{id:1}
+11-18 18:39:11.489  3124  3195 I Bugle   : ConversationListDataSources: Invalidate data source on query changes, loadingStatus: FINISHED
+11-18 18:39:11.490  3124  8217 I Bugle   : ConversationListDataSources: Creating a new instance of ConversationListDataSource.
+11-18 18:39:11.494  3124  8217 I Bugle   : HomeScreenQueryCache: ConversationListGroup: HOME, Label: UNKNOWN, firstLoad: false
+11-18 18:39:11.497  3124  3195 I Bugle   : ConversationListDataSources: Invalidate data source on query changes, loadingStatus: REFRESHING
+11-18 18:39:11.500  3124  3195 I BugleDataModel: ForwardSyncBatchExecutor: Updated local database. added SMS: 1, added MMS: 0, added RCS: 0, deleted Messages: 0, moved threads: 0, transactionTimeMillis: 22, batchId: 46ad18d9-a4df-40e8-aadd-21b2bcffe8b5, syncId: ea49767e-9175-4622-9f20-dcccd4d14283
+11-18 18:39:11.504  1077  1477 V MmsProvider: accessRestricted=false
+11-18 18:39:11.508  1077  2259 V MmsProvider: accessRestricted=false
+11-18 18:39:11.509  3124  3195 I BugleDataModel: ForwardSyncBatchExecutor: All messages now in sync, batchId: 46ad18d9-a4df-40e8-aadd-21b2bcffe8b5, syncId: ea49767e-9175-4622-9f20-dcccd4d14283
+11-18 18:39:11.511  3124  3196 I Bugle   : TelephonySyncManager: setting full sync. inProgress: false, before: false
+11-18 18:39:11.512  3124  3196 I BugleSearch: Queues icing index rebuild work item. [CONTEXT class_name="IcingSyncManagerListener" ]
+11-18 18:39:11.512  3124  8217 I Bugle   : ConversationListDataSources: No-prefetch, key: 1, total: 1, position: 0, returned list size: 1
+11-18 18:39:11.512  3124  8217 I ConversationListDataSou: Marking conversation as loaded, instance=13684287
+11-18 18:39:11.512  3124  8217 I ConversationListDataSou: Marking load status as FINISHED, instance=13684287
+11-18 18:39:11.513  3124  8217 I ConversationListDataSou: Finished marking load status as FINISHED, instance=13684287
+11-18 18:39:11.517  3124  8187 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=47e1cbdb-c81d-4b69-9c41-484e776f34a9, tags={ com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim,forward_sync_batch- } ]
+11-18 18:39:11.519   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:39:11.940  8135  8163 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:39:11.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.967   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.967   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.967   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.969  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:39:11.969  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:39:11.969   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.969   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.970  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:39:11.971   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.971  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:39:11.972   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.972   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.972   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:11.974  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:39:12.047   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:12.049   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:12.049   554   571 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:39:12.051   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk' with 1 weak references
+11-18 18:39:12.051   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:39:12.052   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:39:12.052   554   572 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-18 18:39:12.387  7964  7965 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+11-18 18:39:12.387  7964  7965 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:39:12.391  7964  7965 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-18 18:39:12.399  1077  1477 V MmsProvider: inside checkQueryParametersForSubqueries
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: address
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: date
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: type
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: body
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sel: date > ? AND (type == ? OR type == ?)
+11-18 18:39:12.399  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sort: date DESC
+11-18 18:39:12.404  1077  1477 V MmsProvider: accessRestricted=true
+11-18 18:39:12.404  1077  1477 V MmsProvider: inside checkQueryParametersForSubqueries
+11-18 18:39:12.404  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: date
+11-18 18:39:12.404  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: _id
+11-18 18:39:12.404  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking proj: msg_box
+11-18 18:39:12.404  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sel: date > ? AND (msg_box == ? OR msg_box == ?)
+11-18 18:39:12.404  1077  1477 V MmsProvider: checkQueryParametersForSubqueries checking sort: date DESC
+11-18 18:39:13.186   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:39:13.187   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:39:13.187   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10168} in 2ms
+11-18 18:39:13.378  1077  1477 V MmsProvider: accessRestricted=false
+11-18 18:39:13.382  1077  1077 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:39:13.383  1077  1077 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:39:13.387  3124  8191 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:13.389  3124  8191 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:13.389  3124  8187 I BugleDataModel: ExecuteActionRunnable: running action ProcessTelephonyChangeAction
+11-18 18:39:13.390  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_DeferBackgroundWorkAction
+11-18 18:39:13.390  3124  8187 I BugleDataModel: ExecuteActionRunnable: running action DeferBackgroundWorkAction
+11-18 18:39:13.390  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:13.391  3124  3225 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.receiver.TelephonyChangeReceiver@6dd0ed3
+11-18 18:39:13.392  3124  8191 I BugleDataModel: ProcessTelephonyChangeAction: external telephony provider change  content://sms/1
+11-18 18:39:13.396  3124  8191 I BugleDataModel: ProcessTelephonyChangeAction: update message content://sms/1 with azcr@e8a71f11
+11-18 18:39:13.401  3124  8191 I Bugle   : ConversationListDataSources: Invalidate data source on query changes, loadingStatus: FINISHED
+11-18 18:39:13.402  3124  8187 I Bugle   : ConversationListDataSources: Creating a new instance of ConversationListDataSource.
+11-18 18:39:13.405  3124  8187 I Bugle   : HomeScreenQueryCache: ConversationListGroup: HOME, Label: UNKNOWN, firstLoad: false
+11-18 18:39:13.408  3124  8217 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:13.409  3124  8191 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_ProcessTelephonyChangeAction
+11-18 18:39:13.427  3124  8187 I Bugle   : ConversationListDataSources: No-prefetch, key: 1, total: 1, position: 0, returned list size: 1
+11-18 18:39:13.428  3124  8187 I ConversationListDataSou: Marking conversation as loaded, instance=9845194
+11-18 18:39:13.428  3124  8187 I ConversationListDataSou: Marking load status as FINISHED, instance=9845194
+11-18 18:39:13.428  3124  8187 I ConversationListDataSou: Finished marking load status as FINISHED, instance=9845194
+11-18 18:39:13.430  3124  8217 D MddListenableWorkerFactory: createWorker for class: com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim
+11-18 18:39:13.456  3124  3131 W .apps.messaging: Cleared Reference was only reachable from finalizer (only reported once)
+11-18 18:39:13.490  3124  3124 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:13.492  3124  3124 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.493  3124  8217 I BugleDataModel: ExecuteActionRunnable: running action GenericWorkerQueueAction
+11-18 18:39:13.493  3124  8217 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.495  3124  8187 I BugleJobs: GenericWorkerQueueAction: Work found
+11-18 18:39:13.504  3124  3191 D TextClassifierLibImpl: Skipping async model load. Loaded recently, no change to permissions.
+11-18 18:39:13.504  3124  3191 D androidtc: Initializing SystemTextClassifier, type = System
+11-18 18:39:13.512  3124  8202 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3246561d-7042-4f5a-874d-2bd8c5855b76, tags={ com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim,refresh_incoming_message_notifications- } ]
+11-18 18:39:13.529  1397  1699 I AiAiTextClassifier: GenerateLinks did not find valid links, returning empty result
+11-18 18:39:13.530  3124  3225 W Bugle   : RegexMessageConfigManager: Could not parse input stream
+11-18 18:39:13.530  3124  3225 W Bugle   : java.io.IOException: Could not get URI for file:, mdd_file {    id: regex_patterns
+11-18 18:39:13.530  3124  3225 W Bugle   :     group: scripted_reply
+11-18 18:39:13.530  3124  3225 W Bugle   : }
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at bimr.g(PG:93)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at bimk.a(PG:7)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at dqpg.a(PG:8)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at dqpa.a(PG:7)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at dqoh.d(PG:3)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at dqoj.run(PG:42)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at crzm.run(PG:3)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at dnmw.run(PG:50)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at cscj.run(PG:18)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at cryt.run(PG:8)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:39:13.530  3124  3225 W Bugle   : 	at csaw.run(PG:64)
+11-18 18:39:13.531  3124  8217 I BugleJobs: GenericWorkerQueueAction: Rescheduling immediately to continue processing since we didn't yet reach the end.
+11-18 18:39:13.532  3124  8217 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#302' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:13.533   554  2293 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#302' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:13.536  3124  8191 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:13.536  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.537  3124  3124 I BugleDataModel: ActionExecutorImpl: Starting ActionService
+11-18 18:39:13.538  3124  3124 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.538  3124  8187 I BugleDataModel: ExecuteActionRunnable: running action GenericWorkerQueueAction
+11-18 18:39:13.539  3124  8187 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.541  3124  8217 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-18 18:39:13.541  3124  8217 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_GenericWorkerQueueAction
+11-18 18:39:13.542  3124  8191 I BugleDataModel: ActionExecutorImpl: Stopping ActionService
+11-18 18:39:13.766   554  2293 W InputManager-JNI: Input channel object 'c0c5ceb Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:39:14.398   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5072256
+11-18 18:39:14.399  1077  1988 V MmsProvider: inside checkQueryParametersForSubqueries
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: address
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: date
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: type
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: body
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking sel: date > ? AND (type == ? OR type == ?)
+11-18 18:39:14.399  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking sort: date DESC
+11-18 18:39:14.403  1077  1988 V MmsProvider: accessRestricted=true
+11-18 18:39:14.403  1077  1988 V MmsProvider: inside checkQueryParametersForSubqueries
+11-18 18:39:14.403  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: date
+11-18 18:39:14.403  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: _id
+11-18 18:39:14.403  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking proj: msg_box
+11-18 18:39:14.403  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking sel: date > ? AND (msg_box == ? OR msg_box == ?)
+11-18 18:39:14.403  1077  1988 V MmsProvider: checkQueryParametersForSubqueries checking sort: date DESC
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.412  1077  1086 W System  : A resource failed to call AbstractCursor.close. 
+11-18 18:39:14.641  8135  8163 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:39:14.648  8135  8163 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_sent.png
+11-18 18:39:14.669   903  1024 D EGL_emulation: app_time_stats: avg=1654.10ms min=13.54ms max=3294.67ms count=2
+11-18 18:39:14.695  8367  8367 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:39:14.695  8367  8367 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:39:14.702   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:39:14.702  8367  8370 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:14.722  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:39:14.738  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 378 [CONTEXT service_id=218 ]
+11-18 18:39:14.740  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 5 uptime_millis: 5 exec_start_elapsed_seconds: 378 [CONTEXT service_id=218 ]
+11-18 18:39:14.745   554  1017 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:39:14.747   554  2295 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:14.748   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:39:14.749  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:14.752  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:14.756  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 8d002562-f178-4bf1-83f2-f7f3b323ff2cJob ID 38
+11-18 18:39:14.757  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:39:14.757  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:39:14.760  8135  8163 I LABCI   : screenshot lab09_sent
+11-18 18:39:14.768  1208  7895 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 378 [CONTEXT service_id=218 ]
+11-18 18:39:14.769  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 378 [CONTEXT service_id=218 ]
+11-18 18:39:14.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.966   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.968   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.969   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:39:14.969  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:39:14.969  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:39:14.971  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:39:14.971  1208  1688 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:39:14.972  1208  1688 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:39:16.254  1415  1415 D WM-DelayedWorkTracker: Scheduling work 8d002562-f178-4bf1-83f2-f7f3b323ff2c
+11-18 18:39:16.254  1415  1415 D WM-GreedyScheduler: Starting tracking for 8d002562-f178-4bf1-83f2-f7f3b323ff2c
+11-18 18:39:16.255  1415  1625 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:39:16.255  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:39:16.256  1415  1625 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=8d002562-f178-4bf1-83f2-f7f3b323ff2c, generation=0)
+11-18 18:39:16.256  1415  1625 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=8d002562-f178-4bf1-83f2-f7f3b323ff2c, generation=0)
+11-18 18:39:16.257  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:39:16.258  1415  4182 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:39:16.258  1415  4182 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@35cb2e[Not completed, 1 dependents]. Future map: {8d002562-f178-4bf1-83f2-f7f3b323ff2c=java.util.concurrent.CompletableFuture@35cb2e[Not completed, 1 dependents]}
+11-18 18:39:16.258  1415  4182 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:39:16.258  1415  4182 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:39:16.259  1415  4182 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/286
+11-18 18:39:16.259  1415  4182 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/278
+11-18 18:39:16.259  1415  4182 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=278, latest=Bundle[{last_media_sync_generation=286, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:39:16.259  1415  4182 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:39:16.259  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:39:16.259  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.259  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.259  1415  4182 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:39:16.261  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:39:16.261  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.261  1415  4182 D PickerSyncController: Saving next page token: 1795027154000|1000000056 for key: local_provider:media_add:resume
+11-18 18:39:16.261  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.262  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:39:16.262  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:39:16.262  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:39:16.262  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:39:16.262  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:39:16.263  1415  4182 D ExternalDbFacade: Token received for queryMedia = 1795027154000|1000000056
+11-18 18:39:16.263  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:39:16.263  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.263  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:39:16.263  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.263  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:39:16.263  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:39:16.263  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:39:16.263  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:39:16.263  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:39:16.264  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027154000|1000000056, android.provider.extra.SYNC_GENERATION=278, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:39:16.264  1415  4182 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:39:16.264  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:39:16.264  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.264  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.264  1415  4182 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:39:16.265  1415  4182 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-1]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.265  1415  4182 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:39:16.265  1415  4182 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:39:16.265  1415  4182 D PickerNotificationSender: Sending a notification for media update
+11-18 18:39:16.265  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:39:16.265  1415  4182 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:39:16.265  1415  4182 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:39:16.265  1415  4182 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:39:16.265  1415  4182 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027154000|1000000056, android.provider.extra.SYNC_GENERATION=278, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:39:16.266  1415  4182 I PickerSyncTracker: Marked sync future complete for work id: 8d002562-f178-4bf1-83f2-f7f3b323ff2c. Future map: {}
+11-18 18:39:16.266  1415  4182 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:39:16.266  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=8d002562-f178-4bf1-83f2-f7f3b323ff2c, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:39:16.268  1415  1415 D WM-Processor: Processor 8d002562-f178-4bf1-83f2-f7f3b323ff2c executed; reschedule = false
+11-18 18:39:16.268  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=8d002562-f178-4bf1-83f2-f7f3b323ff2c, generation=0)
+11-18 18:39:16.269  1415  1590 D WM-GreedyScheduler: Cancelling work ID 8d002562-f178-4bf1-83f2-f7f3b323ff2c
+11-18 18:39:16.270  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:39:16.270  1415  1590 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:39:16.270  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:39:16.349   554  1017 W InputManager-JNI: Input channel object '4fd3a49 Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:39:17.960  8135  8163 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:39:17.966  8135  8163 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_delivered.png
+11-18 18:39:18.014  8378  8378 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:39:18.014  8378  8378 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:39:18.021   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:39:18.022  8378  8381 I Gralloc4: mapper 4.x is not supported
+11-18 18:39:18.040  1415  3960 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:39:18.057  1208  7896 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 381 [CONTEXT service_id=218 ]
+11-18 18:39:18.060  1208  7897 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 381 [CONTEXT service_id=218 ]
+11-18 18:39:18.062   554  1036 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:39:18.063   554  1017 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:39:18.065   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:39:18.069  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:18.077  8135  8163 I LABCI   : screenshot lab09_delivered
+11-18 18:39:18.079  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:39:18.080  8135  8163 I TestRunner: finished: b_direct(com.university.lab09.Lab09Test)

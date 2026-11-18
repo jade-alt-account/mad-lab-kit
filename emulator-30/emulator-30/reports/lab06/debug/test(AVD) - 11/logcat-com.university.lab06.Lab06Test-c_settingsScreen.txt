@@ -1,0 +1,120 @@
+11-18 18:37:53.276  8246  8266 I TestRunner: started: c_settingsScreen(com.university.lab06.Lab06Test)
+11-18 18:37:53.279  8246  8266 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:53.284   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:53.290  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+11-18 18:37:53.297  1326  1660 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+11-18 18:37:53.301  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: PRE_ON_CREATE
+11-18 18:37:53.301  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:53.329  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: CREATED
+11-18 18:37:53.329  8246  8246 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:53.330  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: STARTED
+11-18 18:37:53.330  8246  8246 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:53.331  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: RESUMED
+11-18 18:37:53.331  8246  8246 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:53.343  1326  1660 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+11-18 18:37:53.343  1326  1660 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+11-18 18:37:53.344  1326  1326 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+11-18 18:37:53.344  1326  1326 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+11-18 18:37:53.349   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3060d90, tid 4916
+11-18 18:37:53.351   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:53.352   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3126490: maj 3 min 0 rcv 3
+11-18 18:37:53.353   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3126490: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:53.378   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:53.380   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab06/1/com.university.lab06.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:53.418  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:37:53.430   496   536 I ActivityTaskManager: Displayed com.university.lab06/.MainActivity: +95ms
+11-18 18:37:53.445  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:37:53.463  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932967091] from persistence.
+11-18 18:37:53.466  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:37:53.472  8246  8246 I ViewInteraction: Performing 'send keyCode: 82, metaState: 0 key event' action on view view.getRootView() to equal view
+11-18 18:37:53.492   496   595 D InputDispatcher: Waiting to send key to Window{afb3ed0 u0 com.university.lab06/com.university.lab06.MainActivity} because there are unprocessed events that may cause focus to change
+11-18 18:37:53.503  8246  8389 D ProfileInstaller: Installing profile for com.university.lab06
+11-18 18:37:53.518   496  1490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:53.603   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(33)
+11-18 18:37:53.663   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=32)
+11-18 18:37:53.666   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:53.667   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 32 ended, total sessions:2
+11-18 18:37:53.711   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3060d90, tid 4916
+11-18 18:37:53.713   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:53.714   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3130570: maj 3 min 0 rcv 3
+11-18 18:37:53.715   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3130570: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:53.755  8246  8246 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Settings"
+11-18 18:37:53.871   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:53.872   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 35, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+11-18 18:37:53.872   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=35)
+11-18 18:37:53.874   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:53.879  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: PAUSED
+11-18 18:37:53.879  8246  8246 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:53.881   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(11)
+11-18 18:37:53.892  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: PRE_ON_CREATE
+11-18 18:37:53.892  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:53.901  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: CREATED
+11-18 18:37:53.901  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:53.938  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: STARTED
+11-18 18:37:53.938  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:53.939  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: RESUMED
+11-18 18:37:53.939  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:54.007   496   536 I ActivityTaskManager: Displayed com.university.lab06/.SettingsActivity: +136ms
+11-18 18:37:54.045  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: STOPPED
+11-18 18:37:54.045  8246  8246 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:54.078  8246  8246 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Dark mode"
+11-18 18:37:54.324  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:54.324  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:54.668   496   525 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:54.778  8246  8266 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:54.784  8246  8266 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab06_settings.png
+11-18 18:37:54.808   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=33)
+11-18 18:37:54.808   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:54.809   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 33 ended, total sessions:2
+11-18 18:37:54.820   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:37:54.820  8400  8400 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:54.824  8400  8400 D HostConnection: createUnique: call
+11-18 18:37:54.824  8400  8400 D HostConnection: HostConnection::get() New Host Connection established 0x7333c96ce750, tid 8400
+11-18 18:37:54.832  8400  8400 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:54.857  8405  8407 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:54.852  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:460): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:54.857  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab06_settings.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:54.852  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:461): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:54.877  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab06_settings.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab06_settings.png
+11-18 18:37:54.878  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 20ms, 0 inserts 0 updates 0 deletes
+11-18 18:37:54.878  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab06_settings.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:54.852  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:462): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:54.905  8246  8266 I LABCI   : screenshot lab06_settings
+11-18 18:37:54.907  8246  8246 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Dark mode"
+11-18 18:37:54.852  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:464): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:37:54.966   496  1542 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:55.386  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:55.386  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:55.574  8246  8266 D UiDevice: Pressing back button.
+11-18 18:37:55.597  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: PAUSED
+11-18 18:37:55.597  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:55.601  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: RESTARTED
+11-18 18:37:55.602  8246  8246 V ActivityScenario: Update currentActivityStage to RESTARTED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:55.602  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: STARTED
+11-18 18:37:55.602  8246  8246 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:55.605  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: RESUMED
+11-18 18:37:55.605  8246  8246 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:55.644  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: STOPPED
+11-18 18:37:55.645  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:55.649  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.SettingsActivity@c40eccd in: DESTROYED
+11-18 18:37:55.649  8246  8246 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab06/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab06/.SettingsActivity }, activity=com.university.lab06.SettingsActivity@c40eccd
+11-18 18:37:55.774   496   570 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:56.218  1748  8412 I Vision  : Requesting optional module download of ocr.
+11-18 18:37:56.218  1748  8412 I Vision  : Checking for download completion for 245675 -- ocr
+11-18 18:37:56.221  1748  8410 I Authzen : [DeviceStateSyncManager] Device state updated successfully.
+11-18 18:37:56.230   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=34)
+11-18 18:37:56.231   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:37:56.231   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 34 ended, total sessions:1
+11-18 18:37:56.664  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:37:56.664  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:37:56.675  8246  8246 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Dark mode: true"}' assertion on view view.getId() is <2131231217/com.university.lab06:id/text_dark>
+11-18 18:37:56.678   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:56.678   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 36, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:37:56.679   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=36)
+11-18 18:37:56.683  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: PAUSED
+11-18 18:37:56.683  8246  8246 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:56.725  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: STOPPED
+11-18 18:37:56.725  8246  8246 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab06.MainActivity@f6fc533
+11-18 18:37:56.726  8246  8246 D LifecycleMonitor: Lifecycle status change: com.university.lab06.MainActivity@f6fc533 in: DESTROYED
+11-18 18:37:56.728  8246  8246 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:56.735  8246  8266 I TestRunner: finished: c_settingsScreen(com.university.lab06.Lab06Test)

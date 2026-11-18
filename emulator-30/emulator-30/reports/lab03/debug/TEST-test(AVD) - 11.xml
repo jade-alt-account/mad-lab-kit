@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:36:32" hostname="localhost">
+  <testsuite name="com.university.lab03.Lab03Test" tests="2" failures="0" errors="0" skipped="0" time="13.739" timestamp="2026-11-18T18:36:32" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_menu" classname="com.university.lab03.Lab03Test" time="4.592" />
+    <testcase name="b_rotation" classname="com.university.lab03.Lab03Test" time="9.147" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,801 @@
+11-18 18:33:58.925 D/AndroidRuntime( 3415): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:33:58.927 E/RoleControllerServiceImpl(  554): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+11-18 18:33:58.928 E/RoleControllerServiceImpl(  554): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+11-18 18:33:58.928 I/AndroidRuntime( 3415): Using default boot image
+11-18 18:33:58.928 I/AndroidRuntime( 3415): Leaving lock profiling enabled
+11-18 18:33:58.930 I/FontLog ( 1208): Download finished for https://fonts.gstatic.com/s/a/1ce09299afa726a379e0fd167e7306c15dfb290e2d2cbed1aaa873384fedfbe5.ttf; checking size and hash [CONTEXT service_id=132 ]
+11-18 18:33:58.934 W/ParceledListSlice(  554): Element #25 is 19828 bytes.
+11-18 18:33:58.935 E/SmsApplication( 1077): com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:33:58.935 W/ParceledListSlice(  554): Element #26 is 19864 bytes.
+11-18 18:33:58.942 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 10139, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:58.949 I/FontLog ( 1208): Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:33:58.954 I/FontLog ( 1208): Pulling font file for id = 5, cache size = 5 [CONTEXT service_id=132 ]
+11-18 18:33:58.955 W/ParceledListSlice(  554): Element #27 is 19708 bytes.
+11-18 18:33:58.955 W/ParceledListSlice(  554): Element #28 is 19616 bytes.
+11-18 18:33:58.955 W/ParceledListSlice(  554): Element #29 is 19728 bytes.
+11-18 18:33:58.956 I/FontLog ( 1208): Pulling font file for id = 5, cache size = 5 [CONTEXT service_id=132 ]
+11-18 18:33:58.962 I/app_process( 3415): Core platform API reporting enabled, enforcing=false
+--
+11-18 18:33:59.468 D/AndroidRuntime( 3415): Calling main entry com.android.commands.am.Am
+11-18 18:33:59.472 W/JobInfo ( 1976): Job 'com.google.android.partnersetup/.PhenotypeJobService#2' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:33:59.473 W/JobInfo (  554): Job 'com.google.android.partnersetup/.PhenotypeJobService#2' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:33:59.474 D/UiAutomationConnection( 3415): Created on user UserHandle{0}
+11-18 18:33:59.476 I/ActivityManager(  554): Process com.android.localtransport (pid 1880) has died: cch+99 CEM 
+11-18 18:33:59.478 E/CellBroadcastUtils( 1077): getDefaultCellBroadcastReceiverPackageName: no package found
+11-18 18:33:59.478 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:59.481 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:59.482 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:59.482 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:59.483 W/AppOpService(  554): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:33:59.483 W/JobScheduler(  554): Job didn't exist in JobStore: d906f04 #u0a131/2 com.google.android.partnersetup/.PhenotypeJobService
+11-18 18:33:59.483 I/PhenotypeBackgroundRecv( 1976): Skipping com.google.android.partnersetup#com.google.android.partnersetup which doesn't use ProcessStable flags.
+--
+11-18 18:34:02.309 D/AndroidRuntime( 3552): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:02.312 I/AndroidRuntime( 3552): Using default boot image
+11-18 18:34:02.312 I/AndroidRuntime( 3552): Leaving lock profiling enabled
+11-18 18:34:02.314 I/app_process( 3552): Core platform API reporting enabled, enforcing=false
+11-18 18:34:02.314 I/app_process( 3552): Using CollectorTypeCMC GC.
+11-18 18:34:02.318 I/ChimeraSrvcProxy( 1208): NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:34:02.321 W/.gms.persistent( 1208): Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:34:02.325 I/GCoreUlr( 1208): Unbound from all signal providers.
+11-18 18:34:02.337 W/GetConfigSnapshotOp( 1208): Succeeded but not registered: com.google.android.libraries.performance.primes#com.google.android.partnersetup [CONTEXT service_id=51 ]
+11-18 18:34:02.342 D/BoundBrokerSvc( 1455): onUnbind: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:34:02.343 I/AiAiEcho( 1397): Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:34:02.349 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.349 I/AiAiEcho( 1397): EchoTargets: 
+11-18 18:34:02.349 I/AiAiEcho( 1397): Filtered by AiAi flag check: 
+11-18 18:34:02.349 I/AiAiEcho( 1397): [CONTEXT ratelimit_period="10 SECONDS" ]
+--
+11-18 18:34:02.395 D/AndroidRuntime( 3552): Calling main entry com.android.commands.content.Content
+11-18 18:34:02.403 D/AndroidRuntime( 3552): Shutting down VM
+11-18 18:34:02.406 W/NetworkScheduler( 1208): The extras of the task (com.google.android.gms.ocr.service.ModelCleanUpTaskService:type_[2]) are not valid to be persisted so that the task is not persisted [CONTEXT service_id=218 ]
+11-18 18:34:02.406 W/NetworkScheduler( 1208): java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at bpky.f(:com.google.android.gms@242335041@24.23.35 (190800-646585959):69)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at dcbg.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):510)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at dbyt.n(:com.google.android.gms@242335041@24.23.35 (190800-646585959):29)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at dbyt.u(:com.google.android.gms@242335041@24.23.35 (190800-646585959):360)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at dbyt.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):51)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at dbto.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):72)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:34:02.406 W/NetworkScheduler( 1208): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+--
+11-18 18:34:04.873 I/AndroidRuntime( 3415): VM exiting with result code 0.
+11-18 18:34:04.881 E/ActivityManager(  554): Unable to freeze binder for 3456: -11
+11-18 18:34:05.017 I/servicemanager(    0): Caller(pid=3605,uid=10210,sid=u:r:untrusted_app:s0:c210,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+11-18 18:34:04.882 D/DisplayManagerService(  554): Drop pending events for gone uid 10209
+11-18 18:34:04.884 I/ActivityManager(  554): Killing 3456:com.university.jsnippets/u0a209 (adj 0): stop com.university.jsnippets due to finished inst
+11-18 18:34:04.886 I/hwservicemanager(  147): getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:34:04.886 I/Gralloc4( 3605): mapper 4.x is not supported
+11-18 18:34:04.888 I/TopTaskTracker( 1156): onTaskRemoved: taskId=8
+11-18 18:34:04.889 I/TopTaskTracker( 1156): onTaskRemoved: taskId=8
+11-18 18:34:04.920 V/DownloadManager( 1744): Deleting /data/data/com.android.providers.downloads/cache/08202014-metadata.txt via provider delete
+11-18 18:34:04.934 I/AiAiEcho( 1397): Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:34:04.935 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:04.936 I/AiAiEcho( 1397): EchoTargets: 
+--
+11-18 18:34:12.739 D/AndroidRuntime( 3967): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:12.744 I/Google Maps Android API( 1455): Validating conditions for requesting maps_core feature. [CONTEXT service_id=71 ]
+11-18 18:34:12.746 I/AndroidRuntime( 3967): Using default boot image
+11-18 18:34:12.746 I/AndroidRuntime( 3967): Leaving lock profiling enabled
+11-18 18:34:12.748 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:34:12.749 D/CarrierSvcBindHelper( 1077): onPackageModified: com.university.kbonus.test
+11-18 18:34:12.749 I/Google Maps Android API( 1455): Is maps_core feature installed? 1 [CONTEXT service_id=71 ]
+11-18 18:34:12.749 I/Google Maps Android API( 1455): Eligible to request maps_core feature. [CONTEXT service_id=71 ]
+11-18 18:34:12.751 I/app_process( 3967): Core platform API reporting enabled, enforcing=false
+11-18 18:34:12.751 I/app_process( 3967): Using CollectorTypeCMC GC.
+11-18 18:34:12.753 D/SessionCommitReceiver( 1156): Removing PromiseIcon for package: com.university.kbonus.test, install reason: 0, alreadyAddedPromiseIcon: false
+11-18 18:34:12.754 I/gs.intelligence( 3025): Background concurrent mark compact GC freed 4363KB AllocSpace bytes, 4(868KB) LOS objects, 49% free, 5394KB/10MB, paused 272us,37.105ms total 236.223ms
+11-18 18:34:12.756 D/TrafficStats( 1208): tagSocket(234) with statsTag=0x401, statsUid=10143
+11-18 18:34:12.756 D/CarrierSvcBindHelper( 1077): No carrier app for: 0
+11-18 18:34:12.759 D/TrafficStats( 1208): tagSocket(267) with statsTag=0x401, statsUid=10143
+11-18 18:34:12.761 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+--
+11-18 18:34:12.974 D/AndroidRuntime( 3967): Calling main entry com.android.commands.am.Am
+11-18 18:34:12.976 D/UiAutomationConnection( 3967): Created on user UserHandle{0}
+11-18 18:34:12.979 D/TrafficStats( 1208): tagSocket(267) with statsTag=0x401, statsUid=10143
+11-18 18:34:12.979 D/TrafficStats( 1208): tagSocket(234) with statsTag=0x401, statsUid=10143
+11-18 18:34:12.983 D/TrafficStats( 1208): tagSocket(270) with statsTag=0x401, statsUid=10143
+11-18 18:34:12.996 W/system_server(  554): Weak pointer dereference blocked for 13 milliseconds.
+11-18 18:34:12.997 I/ActivityManager(  554): Force stopping com.university.kbonus appid=10211 user=0: start instr
+11-18 18:34:13.003 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10211, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:13.007 I/Fitness ( 1208): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:34:13.008 I/AppsFilter(  554): interaction: PackageSetting{fc06b11 com.android.microdroid.empty_payload/10192} -> PackageSetting{71062e8 com.university.kbonus/10211} BLOCKED
+11-18 18:34:13.011 I/system_server(  554): ThreadFlipBegin blocked for 9.484ms
+11-18 18:34:13.017 W/SystemServiceRegistry( 2184): No service published for: persistent_data_block
+11-18 18:34:13.019 D/Zygote  (  363): Forked child process 3983
+--
+11-18 18:34:25.262 I/AndroidRuntime( 3967): VM exiting with result code 0.
+11-18 18:34:25.397 I/binder  (    0): 554:1762 ioctl 400c620e 7d43de730354 returned -11
+11-18 18:34:25.405 I/binder  (    0): 554:1762 ioctl 400c620e 7d43de730354 returned -11
+11-18 18:34:25.269 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:25.270 I/AiAiEcho( 1397): EchoTargets: 
+11-18 18:34:25.270 I/AiAiEcho( 1397): Filtered by AiAi flag check: 
+11-18 18:34:25.270 I/AiAiEcho( 1397): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:25.270 E/ActivityManager(  554): Unable to freeze binder for 3983: -11
+11-18 18:34:25.270 I/AiAiEcho( 1397): Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:25.271 I/ActivityManager(  554): Killing 3983:com.university.kbonus/u0a211 (adj 0): stop com.university.kbonus due to finished inst
+11-18 18:34:25.272 I/AiAiEcho( 1397): #remoteViewsTwiddler: feature disabled.
+11-18 18:34:25.272 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:25.272 I/AiAiEcho( 1397): EchoTargets: 
+--
+11-18 18:34:31.069 D/AndroidRuntime( 4397): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:31.074 W/AllAppsList( 1156): updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=com.google.android.as
+11-18 18:34:31.076 D/PackageUpdatedTask( 1156): Package updated: mOp=ADD packages=[com.university.lab01.test]
+11-18 18:34:31.080 I/AndroidRuntime( 4397): Using default boot image
+11-18 18:34:31.080 I/AndroidRuntime( 4397): Leaving lock profiling enabled
+11-18 18:34:31.087 I/app_process( 4397): Core platform API reporting enabled, enforcing=false
+11-18 18:34:31.089 I/app_process( 4397): Using CollectorTypeCMC GC.
+11-18 18:34:31.099 I/AiAiCaptions( 1397): TtsSynthesizerImpl::handleRequestSuccess(): requestId: requestId: 2
+11-18 18:34:31.102 I/GoogleTTSServiceImpl( 2077): Synthesis request for locale eng-USA and name en-us-x-tpf-local
+11-18 18:34:31.103 I/AppWidgetServiceImpl(  554): getInstalledProvidersForProfiles() 0
+11-18 18:34:31.105 I/GoogleTTSServiceImpl( 2077): TTS dispatch: en-us-x-tpf-lstm-embedded
+11-18 18:34:31.106 I/AiAiCaptions( 1397): TtsSynthesizerImpl::handleRequestSuccess(): requestId: requestId: 3
+11-18 18:34:31.108 D/TextToSpeechManagerPerUserService(  554): Unbinding TTS engine: com.google.android.tts. Reason: client disconnection request
+11-18 18:34:31.108 I/AiAiCaptions( 1397): TtsLangFetcherImpl::fetch(). Fetching 1 lang packs is finished. Failures count: 0
+11-18 18:34:31.108 I/AiAiCaptions( 1397): TtsLangFetcherImpl::fetch(). Fetching 1 lang packs is finished. Failures count: 0
+11-18 18:34:31.108 W/TextToSpeechManagerPerUserService(  554): Disconnected from TTS engine
+11-18 18:34:31.109 W/ServiceConnector.Impl(  554): mayInterruptIfRunning not supported - ignoring
+--
+11-18 18:34:31.463 D/AndroidRuntime( 4397): Calling main entry com.android.commands.am.Am
+11-18 18:34:31.463 V/BackupManagerConstants(  554): getFullBackupIntervalMilliseconds(...) returns 86400000
+11-18 18:34:31.463 V/BackupManagerConstants(  554): getFullBackupRequiredNetworkType(...) returns 2
+11-18 18:34:31.463 V/BackupManagerConstants(  554): getFullBackupRequireCharging(...) returns true
+11-18 18:34:31.467 I/AppsFilter(  554): interaction: PackageSetting{3dfaeab com.android.microdroid.empty_payload/10192} -> PackageSetting{b7a908 com.university.lab01.test/10214} BLOCKED
+11-18 18:34:31.471 D/UiAutomationConnection( 4397): Created on user UserHandle{0}
+11-18 18:34:31.472 I/ActivityManager(  554): Force stopping com.university.lab01 appid=10213 user=0: start instr
+11-18 18:34:31.480 I/SP      ( 1323): Scheduling: download stopped, 0 started, 0 paused, 0 scheduled, 5 pending: manifests:emoticon_content_description-2022081613 {W:b:u:l, bg}, handwriting_recognition:transformer_latin_seg_tflite_20231010_zip @ {m:b:u:l, fg}, handwriting_recognition:en_us_20230613_compact_fst_zip @ {m:b:u:l, fg}, handwriting_recognition:scribe_latin_20231123_tflite_zip @ {m:b:u:l, fg}, handwriting_recognition:scribe_latin_20231123_recospec_zip @ {m:b:u:l, fg}
+11-18 18:34:31.491 I/SP      ( 1323): Download stopped: handwriting_recognition:transformer_latin_seg_tflite_20231010_zip, succeeded foreground, size: 402290
+11-18 18:34:31.492 I/OpaEligibilityChecker( 1483): send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:34:31.493 I/A       ( 1483): NGA enabled in interactor.
+11-18 18:34:31.494 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10213, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:31.499 I/AppsFilter(  554): interaction: PackageSetting{3dfaeab com.android.microdroid.empty_payload/10192} -> PackageSetting{91d9f4c com.university.lab01/10213} BLOCKED
+--
+11-18 18:34:54.290 I/AndroidRuntime( 4397): VM exiting with result code 0.
+11-18 18:34:54.292 I/AiAiEcho( 1397): Settings changed for uri: content://settings/secure/device_state_rotation_lock
+11-18 18:34:54.429 I/binder  (    0): 554:2264 ioctl 400c620e 7d43deb93354 returned -11
+11-18 18:34:54.433 I/binder  (    0): 554:2264 ioctl 400c620e 7d43deb93354 returned -11
+11-18 18:34:54.294 E/ActivityManager(  554): Unable to freeze binder for 4413: -11
+11-18 18:34:54.294 I/ActivityManager(  554): Killing 4413:com.university.lab01/u0a213 (adj 0): stop com.university.lab01 due to finished inst
+11-18 18:34:54.296 D/DisplayManagerService(  554): Drop pending events for gone uid 10213
+11-18 18:34:54.303 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:54.303 I/AiAiEcho( 1397): EchoTargets: 
+11-18 18:34:54.303 I/AiAiEcho( 1397): Filtered by AiAi flag check: 
+11-18 18:34:54.303 I/AiAiEcho( 1397): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:54.303 I/AiAiEcho( 1397): Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:54.303 I/AiAiEcho( 1397): #remoteViewsTwiddler: feature disabled.
+--
+11-18 18:34:57.867 D/AndroidRuntime( 4925): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:57.868 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+11-18 18:34:57.868 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:34:57.868 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-18 18:34:57.869 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:34:57.869 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:34:57.869 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-18 18:34:57.869 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+11-18 18:34:57.874 I/AndroidRuntime( 4925): Using default boot image
+11-18 18:34:57.874 I/AndroidRuntime( 4925): Leaving lock profiling enabled
+11-18 18:34:57.876 I/app_process( 4925): Core platform API reporting enabled, enforcing=false
+11-18 18:34:57.877 I/app_process( 4925): Using CollectorTypeCMC GC.
+11-18 18:34:57.919 D/InetDiagMessage(  554): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:57.920 D/InetDiagMessage(  554): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:57.920 D/InetDiagMessage(  554): Destroyed live tcp sockets for uids={10140} in 2ms
+11-18 18:34:57.921 D/InetDiagMessage(  554): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:57.922 D/InetDiagMessage(  554): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:57.922 D/InetDiagMessage(  554): Destroyed live tcp sockets for uids={20140} in 1ms
+11-18 18:34:57.963 D/nativeloader( 4925): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:34:57.969 D/nativeloader( 4925): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:34:57.970 D/app_process( 4925): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:34:57.970 D/app_process( 4925): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+--
+11-18 18:34:57.988 D/AndroidRuntime( 4925): Calling main entry com.android.commands.am.Am
+11-18 18:34:57.990 D/UiAutomationConnection( 4925): Created on user UserHandle{0}
+11-18 18:34:57.991 I/ActivityManager(  554): Force stopping com.university.lab02 appid=10215 user=0: start instr
+11-18 18:34:57.992 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10215, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:57.994 I/AppsFilter(  554): interaction: PackageSetting{d70fa1d com.android.microdroid.empty_payload/10192} -> PackageSetting{3a2dc61 com.university.lab02/10215} BLOCKED
+11-18 18:34:57.997 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:34:57.997 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10215 package com.university.lab02 isStopped false
+11-18 18:34:58.001 D/Zygote  (  363): Forked child process 4936
+11-18 18:34:58.002 I/ActivityManager(  554): Start proc 4936:com.university.lab02/u0a215 for added application com.university.lab02
+11-18 18:34:58.007 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:34:58.008 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:34:58.008 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:34:58.009 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+--
+11-18 18:35:07.331 I/AndroidRuntime( 4925): VM exiting with result code 0.
+11-18 18:35:07.332 D/EGL_emulation(  903): app_time_stats: avg=243.44ms min=4.08ms max=1060.68ms count=5
+11-18 18:35:07.333 I/ImeTracker(  554): com.google.android.apps.nexuslauncher:f204d137: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:07.338 I/ImeTracker(  554): com.google.android.apps.nexuslauncher:f204d137: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:07.342 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onFinishInput():3157 
+11-18 18:35:07.469 I/binder  (    0): 554:647 ioctl 400c620e 7d43f3a38354 returned -11
+11-18 18:35:07.485 I/binder  (    0): 554:647 ioctl 400c620e 7d43f3a38354 returned -11
+11-18 18:35:07.346 I/GoogleInputMethodService( 1323): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:35:07.346 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:07.359 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:35:07.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:35:07.361 D/BatterySaverPolicy(  554): accessibility changed to false, updating policy.
+11-18 18:35:07.361 I/GoogleInputMethodService( 1323): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+--
+11-18 18:35:11.207 D/AndroidRuntime( 5239): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:11.211 I/AndroidRuntime( 5239): Using default boot image
+11-18 18:35:11.211 I/AndroidRuntime( 5239): Leaving lock profiling enabled
+11-18 18:35:11.212 I/app_process( 5239): Core platform API reporting enabled, enforcing=false
+11-18 18:35:11.214 I/app_process( 5239): Using CollectorTypeCMC GC.
+11-18 18:35:11.259 D/nativeloader( 5239): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:35:11.266 D/nativeloader( 5239): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:11.266 D/app_process( 5239): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:35:11.266 D/app_process( 5239): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:35:11.267 D/nativeloader( 5239): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:11.268 D/nativeloader( 5239): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:11.270 W/app_process( 5239): Unexpected CPU variant for x86: x86_64.
+11-18 18:35:11.270 W/app_process( 5239): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:35:11.282 D/nativeloader( 5239): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:11.282 D/AndroidRuntime( 5239): Calling main entry com.android.commands.am.Am
+11-18 18:35:11.284 D/UiAutomationConnection( 5239): Created on user UserHandle{0}
+11-18 18:35:11.285 I/ActivityManager(  554): Force stopping com.university.lab03 appid=10217 user=0: start instr
+11-18 18:35:11.287 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10217, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:11.289 I/AppsFilter(  554): interaction: PackageSetting{e8e9cb1 com.android.microdroid.empty_payload/10192} -> PackageSetting{9e50d1c com.university.lab03/10217} BLOCKED
+11-18 18:35:11.290 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:35:11.290 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10217 package com.university.lab03 isStopped false
+11-18 18:35:11.295 D/Zygote  (  363): Forked child process 5250
+11-18 18:35:11.297 I/ActivityManager(  554): Start proc 5250:com.university.lab03/u0a217 for added application com.university.lab03
+11-18 18:35:11.315 I/niversity.lab03( 5250): Late-enabling -Xcheck:jni
+11-18 18:35:11.326 I/niversity.lab03( 5250): Using CollectorTypeCMC GC.
+11-18 18:35:11.326 W/niversity.lab03( 5250): Unexpected CPU variant for x86: x86_64.
+11-18 18:35:11.326 W/niversity.lab03( 5250): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+--
+11-18 18:35:25.124 I/AndroidRuntime( 5239): VM exiting with result code 0.
+11-18 18:35:25.124 E/ActivityManager(  554): Unable to freeze binder for 5250: -11
+11-18 18:35:25.124 D/DisplayManagerService(  554): Drop pending events for gone uid 10217
+11-18 18:35:25.255 I/binder  (    0): 554:646 ioctl 400c620e 7d43f3fdf354 returned -11
+11-18 18:35:25.262 I/binder  (    0): 554:646 ioctl 400c620e 7d43f3fdf354 returned -11
+11-18 18:35:25.126 I/ActivityManager(  554): Killing 5250:com.university.lab03/u0a217 (adj 0): stop com.university.lab03 due to finished inst
+11-18 18:35:25.131 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onFinishInput():3157 
+11-18 18:35:25.143 W/UserManagerService(  554): Requested status bar icon for non-badged user 0
+11-18 18:35:25.145 I/TopTaskTracker( 1156): onTaskRemoved: taskId=21
+11-18 18:35:25.145 I/TopTaskTracker( 1156): onTaskRemoved: taskId=21
+11-18 18:35:25.148 D/EGL_emulation(  903): app_time_stats: avg=1125.97ms min=15.71ms max=2236.24ms count=2
+11-18 18:35:25.153 I/GoogleInputMethodService( 1323): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:35:25.153 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+--
+11-18 18:35:28.076 D/AndroidRuntime( 5544): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:28.079 I/AndroidRuntime( 5544): Using default boot image
+11-18 18:35:28.079 I/AndroidRuntime( 5544): Leaving lock profiling enabled
+11-18 18:35:28.082 I/app_process( 5544): Core platform API reporting enabled, enforcing=false
+11-18 18:35:28.083 I/app_process( 5544): Using CollectorTypeCMC GC.
+11-18 18:35:28.132 D/nativeloader( 5544): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:35:28.138 D/nativeloader( 5544): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:28.139 D/app_process( 5544): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:35:28.139 D/app_process( 5544): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:35:28.140 D/nativeloader( 5544): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:28.141 D/nativeloader( 5544): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:35:28.142 W/app_process( 5544): Unexpected CPU variant for x86: x86_64.
+11-18 18:35:28.142 W/app_process( 5544): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:35:28.154 D/nativeloader( 5544): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:35:28.155 D/AndroidRuntime( 5544): Calling main entry com.android.commands.am.Am
+11-18 18:35:28.157 D/UiAutomationConnection( 5544): Created on user UserHandle{0}
+11-18 18:35:28.157 I/ActivityManager(  554): Force stopping com.university.lab04 appid=10219 user=0: start instr
+11-18 18:35:28.159 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10219, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:28.161 I/AppsFilter(  554): interaction: PackageSetting{34f1cc3 com.android.microdroid.empty_payload/10192} -> PackageSetting{43eafa1 com.university.lab04/10219} BLOCKED
+11-18 18:35:28.165 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:35:28.165 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10219 package com.university.lab04 isStopped false
+11-18 18:35:28.167 D/Zygote  (  363): Forked child process 5555
+11-18 18:35:28.168 I/ActivityManager(  554): Start proc 5555:com.university.lab04/u0a219 for added application com.university.lab04
+11-18 18:35:28.191 I/niversity.lab04( 5555): Late-enabling -Xcheck:jni
+11-18 18:35:28.202 I/niversity.lab04( 5555): Using CollectorTypeCMC GC.
+11-18 18:35:28.203 W/niversity.lab04( 5555): Unexpected CPU variant for x86: x86_64.
+11-18 18:35:28.203 W/niversity.lab04( 5555): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+--
+11-18 18:35:57.609 I/AndroidRuntime( 6079): VM exiting with result code 0, cleanup skipped.
+11-18 18:35:57.614 I/HeterodyneSyncScheduler( 1208): Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-18 18:35:57.617 I/adbd    (  438): Remote process closed the socket (on MSG_PEEK)
+11-18 18:35:57.617 I/ActivityManager(  554): Process com.google.android.apps.maps:server_recovery_process (pid 6079) has died: fg  RCVR
+11-18 18:35:57.617 I/libprocessgroup(  554): Removed cgroup /sys/fs/cgroup/uid_10154/pid_6079
+11-18 18:35:57.618 I/Zygote  (  363): Process 6079 exited cleanly (0)
+11-18 18:35:57.625 W/CCTFlatFileLogStore( 1208): Excessive logging: 8 events, 141855 bytes from log source PHENOTYPE last 2s
+11-18 18:35:57.627 W/TimedProcessReaper( 1483): Scheduling killing of process to refresh configuration
+11-18 18:35:57.629 I/PhenotypeBackgroundRecv( 1483): Skipping assistant_auto_tng_libraries_user#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-18 18:35:57.635 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator finished executing. cause:9 result: 1 elapsed_millis: 952 uptime_millis: 952 exec_start_elapsed_seconds: 180 [CONTEXT service_id=218 ]
+11-18 18:35:57.638 W/TimedProcessReaper( 1483): Scheduling killing of process to refresh configuration
+11-18 18:35:57.639 I/PhenotypeBackgroundRecv( 1483): Skipping com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-18 18:35:57.641 W/JobInfo ( 1483): Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-43' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+--
+11-18 18:36:06.145 I/AndroidRuntime( 6183): VM exiting with result code 0, cleanup skipped.
+11-18 18:36:06.151 I/ActivityManager(  554): Process com.google.android.apps.maps:server_recovery_process (pid 6183) has died: fg  RCVR
+11-18 18:36:06.152 I/adbd    (  438): Remote process closed the socket (on MSG_PEEK)
+11-18 18:36:06.152 I/Zygote  (  363): Process 6183 exited cleanly (0)
+11-18 18:36:06.161 I/libprocessgroup(  554): Removed cgroup /sys/fs/cgroup/uid_10154/pid_6183
+11-18 18:36:06.395 D/UiDevice( 5555): Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QPick contact\E']].
+11-18 18:36:06.395 D/UiDevice( 5555): Retrieving node with selector: BySelector [TEXT='(?i)\QPick contact\E'].
+11-18 18:36:06.398 D/UiObject2( 5555): Clicking on (78, 414).
+11-18 18:36:06.435 W/ContentProviderHelper(  554): Permission Denial: opening provider com.android.providers.contacts.ContactsProvider2 from ProcessRecord{722ab16 5555:com.university.lab04/u0a219} (pid=5555, uid=10219) requires android.permission.READ_CONTACTS or android.permission.WRITE_CONTACTS
+11-18 18:36:06.435 D/audioserver(  425): logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:36:06.435 W/AS.PlaybackActivityMon(  554): No piid assigned for invalid/internal port id 15
+11-18 18:36:06.440 D/EGL_emulation( 5555): app_time_stats: avg=394.00ms min=7.42ms max=1520.59ms count=4
+11-18 18:36:06.441 D/CompatChangeReporter(  554): Compat change id reported: 151861875; UID 10159; state: ENABLED
+--
+11-18 18:36:17.721 I/AndroidRuntime( 5544): VM exiting with result code 0.
+11-18 18:36:17.722 I/DialerLegacyMainActivityPeerDelegate( 5780): com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1235 enter
+11-18 18:36:17.723 I/DialerLegacyMainActivityPeerDelegate( 5780): com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1256 registered GrowthKit and HATS callbacks
+11-18 18:36:17.723 I/DialerDefaultDialerImpl( 5780): com.android.dialer.defaultdialer.impl.DefaultDialerImpl.isDefaultDialer:40 enter
+11-18 18:36:17.724 I/A       ( 1483): NGA enabled in interactor.
+11-18 18:36:17.724 I/A       ( 1483): (REDACTED) Nga state changed to %s
+11-18 18:36:17.725 I/DialerLegacyMainActivityPeerDelegate( 5780): com.android.dialer.main.impl.LegacyMainActivityPeerDelegate$MainCallLogFragmentListener.onActivityResume:2031 enter
+11-18 18:36:17.725 I/DialerCallLogQueryHandler( 5780): com.android.dialer.database.CallLogQueryHandler.fetchVoicemailStatus:81 fetching voicemail status
+11-18 18:36:17.725 I/DialerAnnotatedCallLogRefreshStarterImpl( 5780): com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshStarterImpl.refreshWithDirtyCheck:40 refreshWithDirtyCheck
+11-18 18:36:17.725 W/AudioFlinger(  425): createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:36:17.726 D/AudioFlinger(  425): Client defaulted notificationFrames to 960 for frameCount 4360
+11-18 18:36:17.850 I/binder  (    0): 554:1036 ioctl 400c620e 7d43e401e354 returned -11
+11-18 18:36:17.863 I/binder  (    0): 554:1036 ioctl 400c620e 7d43e401e354 returned -11
+--
+11-18 18:36:21.448 D/AndroidRuntime( 6462): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:21.452 I/AndroidRuntime( 6462): Using default boot image
+11-18 18:36:21.452 I/AndroidRuntime( 6462): Leaving lock profiling enabled
+11-18 18:36:21.456 I/app_process( 6462): Core platform API reporting enabled, enforcing=false
+11-18 18:36:21.456 I/app_process( 6462): Using CollectorTypeCMC GC.
+11-18 18:36:21.564 D/nativeloader( 6462): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:36:21.574 D/nativeloader( 6462): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:36:21.574 D/app_process( 6462): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:36:21.575 D/app_process( 6462): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:36:21.576 D/nativeloader( 6462): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:36:21.577 D/nativeloader( 6462): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:36:21.579 W/app_process( 6462): Unexpected CPU variant for x86: x86_64.
+11-18 18:36:21.579 W/app_process( 6462): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:36:21.585 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:36:21.585 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+--
+11-18 18:36:21.609 D/AndroidRuntime( 6462): Calling main entry com.android.commands.am.Am
+11-18 18:36:21.613 D/UiAutomationConnection( 6462): Created on user UserHandle{0}
+11-18 18:36:21.614 I/ActivityManager(  554): Force stopping com.university.lab05 appid=10221 user=0: start instr
+11-18 18:36:21.619 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10221, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:21.621 I/AppsFilter(  554): interaction: PackageSetting{bb6867a com.android.microdroid.empty_payload/10192} -> PackageSetting{a4c328 com.university.lab05/10221} BLOCKED
+11-18 18:36:21.631 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:36:21.632 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10221 package com.university.lab05 isStopped false
+11-18 18:36:21.633 D/Zygote  (  363): Forked child process 6474
+11-18 18:36:21.637 I/Fitness ( 1208): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:36:21.639 I/niversity.lab05( 6474): Late-enabling -Xcheck:jni
+11-18 18:36:21.640 I/ActivityManager(  554): Start proc 6474:com.university.lab05/u0a221 for added application com.university.lab05
+11-18 18:36:21.655 I/niversity.lab05( 6474): Using CollectorTypeCMC GC.
+11-18 18:36:21.656 W/niversity.lab05( 6474): Unexpected CPU variant for x86: x86_64.
+--
+11-18 18:36:43.545 I/AndroidRuntime( 6462): VM exiting with result code 0.
+11-18 18:36:43.560 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.560 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.560 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.560 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.561 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.561 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.563 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.564 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.564 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:43.696 I/binder  (    0): 554:1847 ioctl 400c620e 7d43ddb7a354 returned -11
+11-18 18:36:43.705 I/binder  (    0): 554:1847 ioctl 400c620e 7d43ddb7a354 returned -11
+11-18 18:36:43.569 I/A       ( 1483): NGA enabled in interactor.
+--
+11-18 18:36:47.782 D/AndroidRuntime( 6839): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:47.784 D/ConnectivityService(  554): Returning UNBLOCKED NetworkInfo to uid=10130
+11-18 18:36:47.784 I/BugleRcsEngine( 3498): Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:36:47.787 W/KernelCpuProcStringReader(  554): File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+11-18 18:36:47.794 I/AndroidRuntime( 6839): Using default boot image
+11-18 18:36:47.794 I/AndroidRuntime( 6839): Leaving lock profiling enabled
+11-18 18:36:47.795 I/libprocessgroup(  554): Removed cgroup /sys/fs/cgroup/uid_90003/pid_6821
+11-18 18:36:47.796 I/BugleRcsEngine( 3498): handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:36:47.798 I/app_process( 6839): Core platform API reporting enabled, enforcing=false
+11-18 18:36:47.800 I/app_process( 6839): Using CollectorTypeCMC GC.
+11-18 18:36:47.801 I/Fitness ( 1208): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:36:47.813 W/SearchServiceCore( 1483): Abort, client detached.
+11-18 18:36:47.815 I/BugleRcsEngine( 3498): No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:36:47.842 I/Fitness ( 1208): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:36:47.845 I/ChimeraSrvcProxy( 1208): NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:36:47.845 W/.gms.persistent( 1208): Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:36:47.867 W/s.messaging:rcs( 3498): Suspending all threads took: 10.414ms
+11-18 18:36:47.870 I/Auth    ( 1455): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+--
+11-18 18:36:47.944 D/AndroidRuntime( 6839): Calling main entry com.android.commands.am.Am
+11-18 18:36:47.946 D/UiAutomationConnection( 6839): Created on user UserHandle{0}
+11-18 18:36:47.946 I/ActivityManager(  554): Force stopping com.university.lab06 appid=10223 user=0: start instr
+11-18 18:36:47.948 I/s.messaging:rcs( 3498): Background concurrent mark compact GC freed 3016KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 3105KB/6211KB, paused 10.717ms,32.650ms total 151.157ms
+11-18 18:36:47.950 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10223, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:47.953 I/AppsFilter(  554): interaction: PackageSetting{3342a22 com.android.microdroid.empty_payload/10192} -> PackageSetting{f10dd20 com.university.lab06/10223} BLOCKED
+11-18 18:36:47.965 D/Zygote  (  363): Forked child process 6869
+11-18 18:36:47.970 I/ActivityManager(  554): Start proc 6869:com.university.lab06/u0a223 for added application com.university.lab06
+11-18 18:36:47.971 I/ProximityAuth( 1208): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.university.lab06.test
+11-18 18:36:47.972 I/FontLog ( 1208): Package com.university.lab06.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:36:47.972 W/GCM     ( 1208): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:36:47.974 W/NetworkScheduler( 1208): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:36:47.975 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+--
+11-18 18:36:57.728 I/AndroidRuntime( 6839): VM exiting with result code 0.
+11-18 18:36:57.729 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.729 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.732 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.732 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.732 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.732 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.732 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.733 I/AiAiEcho( 1397): Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:36:57.733 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:36:57.734 W/AppSearchIcing(  554): icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+11-18 18:36:57.734 D/OneSearchSuggestProvider( 1156): AppSearch 0-state cache not available, fallback to AGA
+11-18 18:36:57.734 D/OneSearchSuggestProvider( 1156): java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+--
+11-18 18:37:00.846 D/AndroidRuntime( 7172): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:00.850 I/AndroidRuntime( 7172): Using default boot image
+11-18 18:37:00.850 I/AndroidRuntime( 7172): Leaving lock profiling enabled
+11-18 18:37:00.852 I/app_process( 7172): Core platform API reporting enabled, enforcing=false
+11-18 18:37:00.852 I/app_process( 7172): Using CollectorTypeCMC GC.
+11-18 18:37:00.898 D/nativeloader( 7172): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:00.905 D/nativeloader( 7172): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:00.905 D/app_process( 7172): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:00.905 D/app_process( 7172): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:00.906 D/nativeloader( 7172): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:00.907 D/nativeloader( 7172): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:00.909 W/app_process( 7172): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:00.909 W/app_process( 7172): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:00.921 D/nativeloader( 7172): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:00.922 D/AndroidRuntime( 7172): Calling main entry com.android.commands.am.Am
+11-18 18:37:00.924 D/UiAutomationConnection( 7172): Created on user UserHandle{0}
+11-18 18:37:00.924 I/ActivityManager(  554): Force stopping com.university.lab07 appid=10225 user=0: start instr
+11-18 18:37:00.926 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10225, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:00.928 I/AppsFilter(  554): interaction: PackageSetting{4ef39aa com.android.microdroid.empty_payload/10192} -> PackageSetting{365089b com.university.lab07/10225} BLOCKED
+11-18 18:37:00.933 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:37:00.933 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10225 package com.university.lab07 isStopped false
+11-18 18:37:00.935 D/Zygote  (  363): Forked child process 7183
+11-18 18:37:00.936 I/ActivityManager(  554): Start proc 7183:com.university.lab07/u0a225 for added application com.university.lab07
+11-18 18:37:00.959 I/niversity.lab07( 7183): Late-enabling -Xcheck:jni
+11-18 18:37:00.971 I/niversity.lab07( 7183): Using CollectorTypeCMC GC.
+11-18 18:37:00.971 W/niversity.lab07( 7183): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:00.971 W/niversity.lab07( 7183): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+--
+11-18 18:37:05.580 D/AndroidRuntime( 7273): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:05.582 I/ImeTracker(  554): com.google.android.apps.nexuslauncher:e04dbe5c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:05.585 I/ImeTracker(  554): com.google.android.apps.nexuslauncher:e04dbe5c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:05.587 D/SsBaseTemplateCard( 1156): No text view can be set up
+11-18 18:37:05.587 D/SsBaseTemplateCard( 1156): Passed-in item info is null
+11-18 18:37:05.589 V/WindowManagerShell(  903): Transition animation finished (aborted=false), notifying core (#102) android.os.BinderProxy@d6b9cc1@0
+11-18 18:37:05.590 I/AndroidRuntime( 7273): Using default boot image
+11-18 18:37:05.590 I/AndroidRuntime( 7273): Leaving lock profiling enabled
+11-18 18:37:05.590 D/SsBaseTemplateCard( 1156): Passed-in item info is null
+11-18 18:37:05.591 D/SsBaseTemplateCard( 1156): Passed-in item info is null
+11-18 18:37:05.591 I/SsBaseTemplateCard( 1156): Secondary card pane is null
+11-18 18:37:05.594 I/app_process( 7273): Core platform API reporting enabled, enforcing=false
+11-18 18:37:05.595 I/app_process( 7273): Using CollectorTypeCMC GC.
+11-18 18:37:05.600 V/WindowManagerShell(  903): Track 0 became idle
+11-18 18:37:05.600 V/WindowManagerShell(  903): All active transition animations finished
+11-18 18:37:05.601 V/WindowManager(  554): Finish Transition (#102): created at 11-18 18:37:05.501 collect-started=0.024ms request-sent=0.106ms started=9.935ms ready=13.423ms sent=46.845ms finished=96.995ms
+11-18 18:37:05.604 D/VRI[InstrumentationActivityInvoker$EmptyActivity]( 7225): visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:05.614 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:05.621 I/GoogleInputMethodService( 1323): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:05.621 I/GoogleInputMethodService( 1323): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+--
+11-18 18:37:05.734 D/AndroidRuntime( 7273): Calling main entry com.android.commands.content.Content
+11-18 18:37:05.750 W/IPCThreadState( 1582): Sending oneway calls to frozen process.
+11-18 18:37:05.754 W/IPCThreadState( 1582): Sending oneway calls to frozen process.
+11-18 18:37:05.758 D/AndroidRuntime( 7273): Shutting down VM
+11-18 18:37:05.770 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 249 [CONTEXT service_id=218 ]
+11-18 18:37:05.774 W/GmsTaskScheduler( 1455): com.google.android.gms.icing.service.IcingGcmTaskChimeraService is not available. This may cause the task to be lost.
+11-18 18:37:05.778 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 15 uptime_millis: 15 exec_start_elapsed_seconds: 249 [CONTEXT service_id=218 ]
+11-18 18:37:05.864 W/AccessibilityManagerService(  554):  wait for adding window timeout: 161
+11-18 18:37:05.911 W/AccessibilityManagerService(  554):  wait for adding window timeout: 162
+11-18 18:37:06.063 W/healthd (    0): battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+11-18 18:37:06.573 I/LABCI   ( 7183): insert contact: 
+11-18 18:37:06.574 D/UiDevice( 7183): Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:37:06.622 D/AndroidRuntime( 7291): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:06.625 I/AndroidRuntime( 7291): Using default boot image
+11-18 18:37:06.625 I/AndroidRuntime( 7291): Leaving lock profiling enabled
+11-18 18:37:06.627 I/app_process( 7291): Core platform API reporting enabled, enforcing=false
+11-18 18:37:06.628 I/app_process( 7291): Using CollectorTypeCMC GC.
+11-18 18:37:06.674 D/nativeloader( 7291): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:06.680 D/nativeloader( 7291): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.680 D/app_process( 7291): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:06.680 D/app_process( 7291): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:06.681 D/nativeloader( 7291): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.682 D/nativeloader( 7291): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:06.683 W/app_process( 7291): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:06.683 W/app_process( 7291): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:06.695 D/nativeloader( 7291): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:06.695 D/AndroidRuntime( 7291): Calling main entry com.android.commands.content.Content
+11-18 18:37:06.702 W/IPCThreadState( 1582): Sending oneway calls to frozen process.
+11-18 18:37:06.704 D/AndroidRuntime( 7291): Shutting down VM
+11-18 18:37:06.718 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 250 [CONTEXT service_id=218 ]
+11-18 18:37:06.720 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 5 uptime_millis: 5 exec_start_elapsed_seconds: 250 [CONTEXT service_id=218 ]
+11-18 18:37:06.813 D/android.hardware.audio@7.1-impl.ranchu(  368): threadLoop: entering standby, frames: 3044224
+11-18 18:37:06.829 D/WM-DelayedWorkTracker( 1415): Scheduling work d8a5e3a1-ac2e-45a0-bf09-714485c85db5
+11-18 18:37:06.829 D/WM-GreedyScheduler( 1415): Starting tracking for d8a5e3a1-ac2e-45a0-bf09-714485c85db5
+11-18 18:37:06.830 D/WM-ConstraintTracker( 1415): BatteryNotLowTracker: initial state = true
+11-18 18:37:06.830 D/WM-BrdcstRcvrCnstrntTrc( 1415): BatteryNotLowTracker: registering receiver
+11-18 18:37:06.830 D/WM-GreedyScheduler( 1415): Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, generation=0)
+11-18 18:37:06.831 D/WM-Processor( 1415): Processor: processing WorkGenerationalId(workSpecId=d8a5e3a1-ac2e-45a0-bf09-714485c85db5, generation=0)
+11-18 18:37:06.832 D/WM-WorkerWrapper( 1415): Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:06.833 I/PSyncWorker( 1415): Starting proactive picker sync from sync source: 1
+11-18 18:37:06.833 I/PickerSyncTracker( 1415): Created new sync future java.util.concurrent.CompletableFuture@f4e30e[Not completed, 1 dependents]. Future map: {d8a5e3a1-ac2e-45a0-bf09-714485c85db5=java.util.concurrent.CompletableFuture@f4e30e[Not completed, 1 dependents]}
+--
+11-18 18:37:07.564 D/AndroidRuntime( 7305): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:07.567 I/AndroidRuntime( 7305): Using default boot image
+11-18 18:37:07.567 I/AndroidRuntime( 7305): Leaving lock profiling enabled
+11-18 18:37:07.569 I/app_process( 7305): Core platform API reporting enabled, enforcing=false
+11-18 18:37:07.569 I/app_process( 7305): Using CollectorTypeCMC GC.
+11-18 18:37:07.613 D/nativeloader( 7305): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:07.619 D/nativeloader( 7305): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.619 D/app_process( 7305): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:07.619 D/app_process( 7305): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:07.620 D/nativeloader( 7305): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.621 D/nativeloader( 7305): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:07.622 W/app_process( 7305): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:07.622 W/app_process( 7305): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:07.633 D/nativeloader( 7305): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:07.634 D/AndroidRuntime( 7305): Calling main entry com.android.commands.content.Content
+11-18 18:37:07.642 W/IPCThreadState( 1582): Sending oneway calls to frozen process.
+11-18 18:37:07.644 D/AndroidRuntime( 7305): Shutting down VM
+11-18 18:37:07.656 W/AppSearchIcing(  554): icing-search-engine.cc:321: Error: 5, Message: Document (android$contacts/, 2) not found.
+11-18 18:37:07.658 E/BluetoothPbapUtils( 1054): Null contact in the updateList: 1
+11-18 18:37:07.667 E/BluetoothPbapUtils( 1054): Null contact in the updateList: 2
+11-18 18:37:07.667 W/ContentProfileErrorReportUtils( 1054): Skipping reporting this error to prevent flooding. fileNameEnum=20008, tag=2
+11-18 18:37:07.669 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 251 [CONTEXT service_id=218 ]
+11-18 18:37:07.672 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 251 [CONTEXT service_id=218 ]
+11-18 18:37:07.727 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:37:08.248 I/logd    (    0): start watching /data/system/packages.list ...
+11-18 18:37:08.250 I/logd    (    0): ReadPackageList, total packages: 218
+11-18 18:37:08.202 W/FileUtils(  554): Failed to chmod(AtomicFile[/data/system_de/0/system/game-manager-service.xml]): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+11-18 18:37:08.447 D/ActivityManager(  554): freezing 5709 com.android.chrome:privileged_process0
+11-18 18:37:08.447 D/ActivityManager(  554): freezing 2533 com.android.chrome
+--
+11-18 18:37:08.516 D/AndroidRuntime( 7318): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:08.519 I/AndroidRuntime( 7318): Using default boot image
+11-18 18:37:08.519 I/AndroidRuntime( 7318): Leaving lock profiling enabled
+11-18 18:37:08.520 I/app_process( 7318): Core platform API reporting enabled, enforcing=false
+11-18 18:37:08.521 I/app_process( 7318): Using CollectorTypeCMC GC.
+11-18 18:37:08.566 D/nativeloader( 7318): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:08.573 D/nativeloader( 7318): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.573 D/app_process( 7318): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:37:08.573 D/app_process( 7318): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:37:08.574 D/nativeloader( 7318): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.575 D/nativeloader( 7318): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:08.576 W/app_process( 7318): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:08.576 W/app_process( 7318): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:37:08.588 D/nativeloader( 7318): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:08.588 D/AndroidRuntime( 7318): Calling main entry com.android.commands.content.Content
+11-18 18:37:08.592 D/AndroidRuntime( 7318): Shutting down VM
+11-18 18:37:08.644 D/ActivityManager(  554): sync unfroze 5813 com.google.android.contacts for 6
+11-18 18:37:08.659 D/ShortcutService(  554): rescanPackageIfNeeded 0@com.google.android.contacts, forceRescan=false , isNewApp=false
+11-18 18:37:08.659 D/ShortcutService(  554): rescanPackageIfNeeded 0@com.google.android.contacts, forceRescan=false , isNewApp=false
+11-18 18:37:08.660 D/ShortcutService(  554): rescanPackageIfNeeded 0@com.google.android.contacts, forceRescan=false , isNewApp=false
+11-18 18:37:08.660 D/ShortcutService(  554): rescanPackageIfNeeded 0@com.google.android.contacts, forceRescan=false , isNewApp=false
+11-18 18:37:08.661 D/ShortcutService(  554): rescanPackageIfNeeded 0@com.google.android.contacts, forceRescan=false , isNewApp=false
+11-18 18:37:08.662 I/netd    (  359): tetherGetStats() -> {[]} <0.34ms>
+11-18 18:37:08.663 W/JobScheduler(  554): Job didn't exist in JobStore: ad9878f #u0a159/7 com.google.android.contacts/com.google.android.apps.contacts.shortcut.ShortcutJobService
+11-18 18:37:08.761 D/ShortcutService(  554): Getting shortcuts for launcher= com.google.android.asuser=0 pkg=com.google.android.contacts
+11-18 18:37:08.761 D/ShortcutService(  554): Saving package item com.google.android.contacts to /data/system_ce/0/shortcut_service/packages/com.google.android.contacts.xml
+11-18 18:37:08.762 D/ShortcutService(  554): Getting shortcuts for launcher= com.google.android.apps.nexuslauncheruser=0 pkg=com.google.android.contacts
+11-18 18:37:08.765 D/ShortcutService(  554): Getting shortcuts for launcher= com.android.systemuiuser=0 pkg=com.google.android.contacts
+--
+11-18 18:37:15.205 I/AndroidRuntime( 7172): VM exiting with result code 0.
+11-18 18:37:15.212 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:37:15.212 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:37:15.212 E/ActivityManager(  554): Unable to freeze binder for 7183: -11
+11-18 18:37:15.213 I/ActivityManager(  554): Killing 7183:com.university.lab07/u0a225 (adj 0): stop com.university.lab07 due to finished inst
+11-18 18:37:15.341 I/binder  (    0): 554:2296 ioctl 400c620e 7d43d31be354 returned -11
+11-18 18:37:15.352 I/binder  (    0): 554:2296 ioctl 400c620e 7d43d31be354 returned -11
+11-18 18:37:15.215 D/DisplayManagerService(  554): Drop pending events for gone uid 10225
+11-18 18:37:15.217 I/AiAiEcho( 1397): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:15.217 I/AiAiEcho( 1397): EchoTargets: 
+11-18 18:37:15.217 I/AiAiEcho( 1397): Filtered by AiAi flag check: 
+11-18 18:37:15.217 I/AiAiEcho( 1397): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:15.217 I/AiAiEcho( 1397): Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+--
+11-18 18:37:18.502 D/AndroidRuntime( 7547): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:18.507 I/AndroidRuntime( 7547): Using default boot image
+11-18 18:37:18.507 I/AndroidRuntime( 7547): Leaving lock profiling enabled
+11-18 18:37:18.509 I/app_process( 7547): Core platform API reporting enabled, enforcing=false
+11-18 18:37:18.510 I/app_process( 7547): Using CollectorTypeCMC GC.
+11-18 18:37:18.520 I/system_server(  554): Background concurrent mark compact GC freed 6316KB AllocSpace bytes, 19(372KB) LOS objects, 47% free, 26MB/50MB, paused 736us,1.488ms total 209.690ms
+11-18 18:37:18.520 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 2 weak references
+11-18 18:37:18.521 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 2 weak references
+11-18 18:37:18.521 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-18 18:37:18.521 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-18 18:37:18.522 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-18 18:37:18.523 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-18 18:37:18.523 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+11-18 18:37:18.523 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 1 weak references
+11-18 18:37:18.523 W/system_server(  554): ApkAssets: Deleting an ApkAssets object '/product/overlay/AccessibilityMenu__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+--
+11-18 18:37:18.587 D/AndroidRuntime( 7547): Calling main entry com.android.commands.am.Am
+11-18 18:37:18.589 D/UiAutomationConnection( 7547): Created on user UserHandle{0}
+11-18 18:37:18.590 I/ActivityManager(  554): Force stopping com.university.lab08 appid=10227 user=0: start instr
+11-18 18:37:18.592 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10227, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:18.594 I/AppsFilter(  554): interaction: PackageSetting{f57bc9e com.android.microdroid.empty_payload/10192} -> PackageSetting{a1d3659 com.university.lab08/10227} BLOCKED
+11-18 18:37:18.597 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:37:18.599 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10227 package com.university.lab08 isStopped false
+11-18 18:37:18.601 D/Zygote  (  363): Forked child process 7558
+11-18 18:37:18.602 I/ActivityManager(  554): Start proc 7558:com.university.lab08/u0a227 for added application com.university.lab08
+11-18 18:37:18.623 I/niversity.lab08( 7558): Late-enabling -Xcheck:jni
+11-18 18:37:18.629 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:37:18.633 D/SessionCommitReceiver( 1156): Removing PromiseIcon for package: com.university.lab08.test, install reason: 0, alreadyAddedPromiseIcon: false
+11-18 18:37:18.634 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+--
+11-18 18:38:53.328 I/AndroidRuntime( 7547): VM exiting with result code 0.
+11-18 18:38:53.343 E/ActivityManager(  554): Unable to freeze binder for 7558: -11
+11-18 18:38:53.344 I/ActivityManager(  554): Killing 7558:com.university.lab08/u0a227 (adj 0): stop com.university.lab08 due to finished inst
+11-18 18:38:53.345 W/ActivityTaskManager(  554): Force removing ActivityRecord{f08caae u0 com.university.lab08/.MainActivity t54 f}}: app died, no saved state
+11-18 18:38:53.345 D/DisplayManagerService(  554): Drop pending events for gone uid 10227
+11-18 18:38:53.478 I/binder  (    0): 554:1861 ioctl 400c620e 7d43dd86e354 returned -11
+11-18 18:38:53.481 I/binder  (    0): 554:1861 ioctl 400c620e 7d43dd86e354 returned -11
+11-18 18:38:53.358 I/TopTaskTracker( 1156): onTaskRemoved: taskId=54
+11-18 18:38:53.358 I/TopTaskTracker( 1156): onTaskRemoved: taskId=54
+11-18 18:38:53.375 I/NetworkScheduler.Stats( 1208): Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 356 [CONTEXT service_id=218 ]
+11-18 18:38:53.382 I/adbd    (  438): Remote process closed the socket (on MSG_PEEK)
+11-18 18:38:53.517 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:38:53.518 I/binder  (    0): undelivered transaction 639301, process died.
+--
+11-18 18:38:56.848 D/AndroidRuntime( 8124): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:56.851 I/AndroidRuntime( 8124): Using default boot image
+11-18 18:38:56.852 I/AndroidRuntime( 8124): Leaving lock profiling enabled
+11-18 18:38:56.854 I/app_process( 8124): Core platform API reporting enabled, enforcing=false
+11-18 18:38:56.857 I/app_process( 8124): Using CollectorTypeCMC GC.
+11-18 18:38:56.926 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.926 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.929 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.929 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.929 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.929 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:38:56.930 I/BugleRcsEngine( 3498): Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:38:56.931 I/BugleRcsEngine( 3498): handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:38:56.933 I/BugleRcsEngine( 3498): No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:38:56.934 I/ChimeraSrvcProxy( 1208): NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+--
+11-18 18:38:56.964 D/AndroidRuntime( 8124): Calling main entry com.android.commands.am.Am
+11-18 18:38:56.966 D/UiAutomationConnection( 8124): Created on user UserHandle{0}
+11-18 18:38:56.967 I/ActivityManager(  554): Force stopping com.university.lab09 appid=10229 user=0: start instr
+11-18 18:38:56.969 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10229, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:38:56.972 I/AppsFilter(  554): interaction: PackageSetting{7d43c1c com.android.microdroid.empty_payload/10192} -> PackageSetting{28944b3 com.university.lab09/10229} BLOCKED
+11-18 18:38:56.979 D/Zygote  (  363): Forked child process 8135
+11-18 18:38:56.980 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:38:56.980 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10229 package com.university.lab09 isStopped false
+11-18 18:38:56.980 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+11-18 18:38:56.982 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+11-18 18:38:56.985 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:38:56.988 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:38:56.989 I/ActivityManager(  554): Start proc 8135:com.university.lab09/u0a229 for added application com.university.lab09
+--
+11-18 18:39:38.430 I/AndroidRuntime( 8124): VM exiting with result code 0.
+11-18 18:39:38.431 D/DisplayManagerService(  554): Drop pending events for gone uid 10229
+11-18 18:39:38.432 I/ActivityManager(  554): Killing 8135:com.university.lab09/u0a229 (adj 0): stop com.university.lab09 due to finished inst
+11-18 18:39:38.448 I/libprocessgroup(  554): Removed cgroup /sys/fs/cgroup/uid_10229/pid_8135
+11-18 18:39:38.448 I/adbd    (  438): Remote process closed the socket (on MSG_PEEK)
+11-18 18:39:38.449 I/Zygote  (  363): Process 8135 exited due to signal 9 (Killed)
+11-18 18:39:38.587 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:39:38.588 I/binder  (    0): undelivered transaction 691781, process died.
+11-18 18:39:38.450 V/ActivityManager(  554): Got obituary of 8135:com.university.lab09
+11-18 18:39:38.450 W/ActivityManager(  554): setHasOverlayUi called on unknown pid: 8135
+11-18 18:39:38.455 I/netd    (  359): tetherGetStats() -> {[]} <0.43ms>
+11-18 18:39:38.575 I/ActivityManager(  554): Force stopping com.university.lab09 appid=10229 user=-1: deletePackageX
+11-18 18:39:38.576 I/AppsFilter(  554): interaction: PackageSetting{e96ed6b com.android.microdroid.empty_payload/10192} -> PackageSetting{f1bb9ab com.university.lab09/10229} BLOCKED
+--
+11-18 18:39:42.405 D/AndroidRuntime( 8863): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:39:42.409 I/AndroidRuntime( 8863): Using default boot image
+11-18 18:39:42.409 I/AndroidRuntime( 8863): Leaving lock profiling enabled
+11-18 18:39:42.412 I/app_process( 8863): Core platform API reporting enabled, enforcing=false
+11-18 18:39:42.413 I/app_process( 8863): Using CollectorTypeCMC GC.
+11-18 18:39:42.487 D/SessionCommitReceiver( 1156): Removing PromiseIcon for package: com.university.lab10.test, install reason: 0, alreadyAddedPromiseIcon: false
+11-18 18:39:42.490 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+11-18 18:39:42.495 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:39:42.500 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:39:42.500 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+11-18 18:39:42.505 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:39:42.509 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:39:42.512 I/Fitness ( 1208): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:39:42.525 D/nativeloader( 8863): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:39:42.528 I/Auth    ( 1455): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+--
+11-18 18:39:42.592 D/AndroidRuntime( 8863): Calling main entry com.android.commands.am.Am
+11-18 18:39:42.593 V/Backup  ( 1455): [PhotosPackagedAddedIO] Flag is disabled.
+11-18 18:39:42.596 I/Dck     ( 1455): disableDckSupport: false [CONTEXT service_id=289 ]
+11-18 18:39:42.596 D/UiAutomationConnection( 8863): Created on user UserHandle{0}
+11-18 18:39:42.601 I/Dck     ( 1455): doesDeviceHaveSupportedWirelessCapabilities: wccSysProp:0, wccMendel:3, deviceWccOverride:false [CONTEXT service_id=289 ]
+11-18 18:39:42.601 I/Dck     ( 1455): Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+11-18 18:39:42.601 I/Dck     ( 1455): Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+11-18 18:39:42.601 W/Dck     ( 1455): Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+11-18 18:39:42.602 I/Blockstore( 1455): [DataStoreImpl] Clearing Blockstore Data for package com.university.lab10.test [CONTEXT service_id=258 ]
+11-18 18:39:42.602 I/Blockstore( 1455): [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+11-18 18:39:42.602 I/Fitness ( 1208): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:39:42.603 I/ActivityManager(  554): Force stopping com.university.lab10 appid=10231 user=0: start instr
+11-18 18:39:42.613 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10231, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+--
+11-18 18:40:34.358 I/AndroidRuntime( 8863): VM exiting with result code 0.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.360 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.362 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.363 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:34.363 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+--
+11-18 18:40:37.557 D/AndroidRuntime( 9406): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:40:37.560 I/AndroidRuntime( 9406): Using default boot image
+11-18 18:40:37.560 I/AndroidRuntime( 9406): Leaving lock profiling enabled
+11-18 18:40:37.563 I/app_process( 9406): Core platform API reporting enabled, enforcing=false
+11-18 18:40:37.563 I/app_process( 9406): Using CollectorTypeCMC GC.
+11-18 18:40:37.663 D/nativeloader( 9406): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:40:37.670 D/nativeloader( 9406): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:37.670 D/app_process( 9406): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:40:37.670 D/app_process( 9406): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:40:37.673 D/nativeloader( 9406): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:37.674 D/nativeloader( 9406): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:37.675 W/app_process( 9406): Unexpected CPU variant for x86: x86_64.
+11-18 18:40:37.675 W/app_process( 9406): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:40:37.688 D/nativeloader( 9406): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:40:37.689 D/AndroidRuntime( 9406): Calling main entry com.android.commands.am.Am
+11-18 18:40:37.691 D/UiAutomationConnection( 9406): Created on user UserHandle{0}
+11-18 18:40:37.692 I/ActivityManager(  554): Force stopping com.university.lab11 appid=10233 user=0: start instr
+11-18 18:40:37.693 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10233, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:37.695 I/AppsFilter(  554): interaction: PackageSetting{bbae0da com.android.microdroid.empty_payload/10192} -> PackageSetting{692b4d6 com.university.lab11/10233} BLOCKED
+11-18 18:40:37.697 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:40:37.697 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10233 package com.university.lab11 isStopped false
+11-18 18:40:37.703 I/GsaVoiceInteractionSrv( 1443): (REDACTED) O received %s
+11-18 18:40:37.704 D/SessionCommitReceiver( 1156): Removing PromiseIcon for package: com.university.lab11.test, install reason: 0, alreadyAddedPromiseIcon: false
+11-18 18:40:37.705 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:40:37.706 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+11-18 18:40:37.706 D/Zygote  (  363): Forked child process 9417
+11-18 18:40:37.706 D/ControlsListingControllerImpl(  903): ServiceConfig reloaded, count: 0
+--
+11-18 18:40:45.998 I/AndroidRuntime( 9406): VM exiting with result code 0.
+11-18 18:40:46.004 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.004 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.004 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.004 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.138 I/binder  (    0): 554:647 ioctl 400c620e 7d43f3a38574 returned -11
+11-18 18:40:46.145 I/binder  (    0): 554:647 ioctl 400c620e 7d43f3a38574 returned -11
+11-18 18:40:46.006 E/ActivityManager(  554): Unable to freeze binder for 9417: -11
+11-18 18:40:46.010 D/DisplayManagerService(  554): Drop pending events for gone uid 10233
+11-18 18:40:46.012 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.013 W/IPCThreadState(  554): Sending oneway calls to frozen process.
+11-18 18:40:46.013 I/ActivityManager(  554): Killing 9417:com.university.lab11/u0a233 (adj 0): stop com.university.lab11 due to finished inst
+11-18 18:40:46.013 D/InetDiagMessage(  554): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+--
+11-18 18:40:49.579 D/AndroidRuntime( 9704): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:40:49.586 I/AndroidRuntime( 9704): Using default boot image
+11-18 18:40:49.586 I/AndroidRuntime( 9704): Leaving lock profiling enabled
+11-18 18:40:49.587 I/app_process( 9704): Core platform API reporting enabled, enforcing=false
+11-18 18:40:49.588 I/app_process( 9704): Using CollectorTypeCMC GC.
+11-18 18:40:49.635 D/nativeloader( 9704): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:40:49.641 D/nativeloader( 9704): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:49.641 D/app_process( 9704): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:40:49.641 D/app_process( 9704): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:40:49.642 D/nativeloader( 9704): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:49.643 D/nativeloader( 9704): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:40:49.644 W/app_process( 9704): Unexpected CPU variant for x86: x86_64.
+11-18 18:40:49.644 W/app_process( 9704): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:40:49.656 D/nativeloader( 9704): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:40:49.656 D/AndroidRuntime( 9704): Calling main entry com.android.commands.am.Am
+11-18 18:40:49.658 D/UiAutomationConnection( 9704): Created on user UserHandle{0}
+11-18 18:40:49.658 I/ActivityManager(  554): Force stopping com.university.lab13 appid=10235 user=0: start instr
+11-18 18:40:49.660 V/GrammaticalInflectionUtils(  554): AttributionSource: AttributionSource { uid = 10235, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:49.662 I/AppsFilter(  554): interaction: PackageSetting{e1fcdf0 com.android.microdroid.empty_payload/10192} -> PackageSetting{631f6a6 com.university.lab13/10235} BLOCKED
+11-18 18:40:49.664 I/AppWidgetServiceImpl(  554): Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+11-18 18:40:49.664 I/AppWidgetServiceImpl(  554): Updating package stopped masked state for uid 10235 package com.university.lab13 isStopped false
+11-18 18:40:49.669 D/Zygote  (  363): Forked child process 9715
+11-18 18:40:49.670 I/ActivityManager(  554): Start proc 9715:com.university.lab13/u0a235 for added application com.university.lab13
+11-18 18:40:49.687 I/niversity.lab13( 9715): Late-enabling -Xcheck:jni
+11-18 18:40:49.698 I/niversity.lab13( 9715): Using CollectorTypeCMC GC.
+11-18 18:40:49.699 W/niversity.lab13( 9715): Unexpected CPU variant for x86: x86_64.
+11-18 18:40:49.699 W/niversity.lab13( 9715): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+--
+11-18 18:40:51.186 I/AndroidRuntime( 9704): VM exiting with result code 0.
+11-18 18:40:51.189 E/ActivityManager(  554): Unable to freeze binder for 9715: -11
+11-18 18:40:51.208 I/hwservicemanager(  147): getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:40:51.344 I/servicemanager(    0): Caller(pid=9755,uid=10236,sid=u:r:untrusted_app:s0:c236,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+11-18 18:40:51.210 I/Gralloc4( 9755): mapper 4.x is not supported
+11-18 18:40:51.367 I/binder  (    0): undelivered transaction 776766, process died.
+11-18 18:40:51.244 D/DisplayManagerService(  554): Drop pending events for gone uid 10235
+11-18 18:40:51.249 I/ActivityManager(  554): Killing 9715:com.university.lab13/u0a235 (adj 0): stop com.university.lab13 due to finished inst
+11-18 18:40:51.251 I/netd    (  359): tetherGetStats() -> {[]} <0.40ms>
+11-18 18:40:51.272 I/ImeTracker(  554): com.university.lab13:a1fead9d: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+11-18 18:40:51.272 I/ImeTracker(  554): com.university.lab13:a1fead9d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:51.272 V/ActivityManager(  554): Got obituary of 9715:com.university.lab13
+11-18 18:40:51.273 W/ActivityManager(  554): setHasOverlayUi called on unknown pid: 9715

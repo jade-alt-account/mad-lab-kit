@@ -1,0 +1,30 @@
+== keytool
+	for: CN=Student, OU=IT, O=GCUF, L=Faisalabad, ST=Punjab, C=PK
+[Storing /home/runner/work/_temp/my-release-key.jks]
+lab13/build/outputs/apk/release/:
+total 5392
+drwxr-xr-x 3 runner runner    4096 Nov 18 18:41 .
+drwxr-xr-x 5 runner runner    4096 Nov 18 18:41 ..
+drwxr-xr-x 4 runner runner    4096 Nov 18 18:41 baselineProfiles
+-rw-r--r-- 1 runner runner 5503229 Nov 18 18:41 lab13-release.apk
+-rw-r--r-- 1 runner runner     714 Nov 18 18:41 output-metadata.json
+
+lab13/build/outputs/bundle/release/:
+total 4692
+drwxr-xr-x 2 runner runner    4096 Nov 18 18:41 .
+drwxr-xr-x 3 runner runner    4096 Nov 18 18:41 ..
+-rw-r--r-- 1 runner runner 4795521 Nov 18 18:41 lab13-release.aab
+== install debug, then release over it (expect INSTALL_FAILED_UPDATE_INCOMPATIBLE)
+Performing Streamed Install
+Success
+Performing Streamed Install
+adb: failed to install lab13/build/outputs/apk/release/lab13-release.apk: Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE: Existing package com.university.lab13 signatures do not match newer version; ignoring!]
+== uninstall, install release
+Success
+Performing Streamed Install
+Success
+    versionCode=2 minSdk=24 targetSdk=36
+    versionName=1.1
+== debug over release (Task 2)
+Performing Streamed Install
+adb: failed to install lab13/build/outputs/apk/debug/lab13-debug.apk: Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE: Existing package com.university.lab13 signatures do not match newer version; ignoring!]

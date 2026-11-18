@@ -1,0 +1,498 @@
+11-18 18:34:02.103  3456  3540 I TestRunner: started: a_provider(com.university.jsnippets.SnippetsTest)
+11-18 18:34:02.104  1455  2981 W MobileDataHub: [Service] appsupload-periodic periodic task disabled
+11-18 18:34:02.105  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.105  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.106  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.106  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.106  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.106  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.111  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.114  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.114  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.114  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.114  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.114  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.114  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.115  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.115  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.115  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.115  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.115  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.115  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.117   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.130  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.130  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.130  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.130  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.132  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.132  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.132  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.133  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.133  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.140  1397  1901 I AiAiEcho: Settings changed for uri: content://settings/secure/ssl_session_cache
+11-18 18:34:02.142  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.143  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.143  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.143  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.143  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.143  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.144  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.144  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.147  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.148  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.148  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.148  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.148  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.148  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.150  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.150   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.152  1455  2981 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 2.
+11-18 18:34:02.155  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.155  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.156   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.157  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.157  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.157  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.157  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.157  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.159  1455  2981 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+11-18 18:34:02.160  1455  2981 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+11-18 18:34:02.162  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.163  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.164   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.164  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.165  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.165  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.166  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.166  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.166  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.166  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.169  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.169  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.169  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.170  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.170  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.170  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.171  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.171  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.171  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.171  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.172  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.172  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.173   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.173  1397  1901 I AiAiEcho: Settings changed for uri: content://settings/secure/dropbox:data_app_wtf
+11-18 18:34:02.174  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.174  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.175   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.177  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.178  1397  1901 I AiAiEcho: Settings changed for uri: content://settings/secure/send_action_app_error
+11-18 18:34:02.179  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.180   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.182  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.183  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.183  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.183  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.183  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.184  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.184  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.184  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.184  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.184  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.185  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.185  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.185  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.185  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.186  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.186  1397  1901 I AiAiEcho: Settings changed for uri: content://settings/secure/dropbox:data_app_anr
+11-18 18:34:02.188  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.188  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.188  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.188  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.188  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.188  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.188  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.188  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.189  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.189  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.189  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.190   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.192  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.192  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.192  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.192  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.192  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.193  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.194  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.197  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.197  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.197  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.197  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.197  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.197  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.197  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.197   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.199  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.201  3456  3540 I LABCI   : provider insert -> content://com.university.courses.provider/courses/1
+11-18 18:34:02.203  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.204  1397  1901 I AiAiEcho: Settings changed for uri: content://settings/secure/facelock_max_center_movement
+11-18 18:34:02.204  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.205  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.205  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.205  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.205  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.205  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.205  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.206  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.206  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.206  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.206  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.206  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.206  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.206  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.206  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.206  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.206  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.206   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.206   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.206   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.207  3456  3540 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:34:02.209  3456  3540 I UiAutomation: Initialized for user 0 on display 0
+11-18 18:34:02.215  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.216  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.221  3456  3549 V UiAutomation: Init UiAutomation@9609538[id=1, displayId=0, flags=0]
+11-18 18:34:02.222  3456  3540 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:34:02.237  3456  3540 D UiDevice: Executing shell command: content query --uri content://com.university.courses.provider/courses
+11-18 18:34:02.240  1483  1810 I A       : NGA disabled due to not being eligible.
+11-18 18:34:02.258   904  1213 D AccessibilitySourceService: enabled a11y services count 0
+11-18 18:34:02.260   904  1213 D AccessibilitySourceService: a11y source sending 0 issue to sc
+11-18 18:34:02.261   554  1017 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+11-18 18:34:02.273  1455  1455 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:34:02.274  1455  1455 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:34:02.281  1455  2788 I Checkin : [ScheduledCheckinGmsTaskService] onRunTask
+11-18 18:34:02.283  1455  2788 I WakefulBroadcastRcvr: Processing wakeful broadcast: com.google.android.gms.checkin.CHECKIN_START_ACTION
+11-18 18:34:02.285  1455  3394 I Checkin : [CheckinIntentOperation] onHandleIntent, Intent { act=com.google.android.gms.checkin.CHECKIN_START_ACTION cat=[targeted_intent_op_prefix:.checkin.CheckinIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+11-18 18:34:02.290  1208  1656 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(16, com.google.android.gms.nnapi.drivermanager) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:34:02.291  1455  3394 W GmsTaskScheduler: ScheduledCheckinGmsTaskService is not available. This may cause the task to be lost.
+11-18 18:34:02.307  1397  1397 W JobService: onNetworkChanged() not implemented in com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiPersistentDownloadJobService. Must override in a subclass.
+11-18 18:34:02.309  3552  3552 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:02.312  3552  3552 I AndroidRuntime: Using default boot image
+11-18 18:34:02.312  3552  3552 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:34:02.314  3552  3552 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:34:02.314  3552  3552 I app_process: Using CollectorTypeCMC GC.
+11-18 18:34:02.318  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:34:02.321  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:34:02.325  1208  1912 I GCoreUlr: Unbound from all signal providers.
+11-18 18:34:02.337  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.performance.primes#com.google.android.partnersetup [CONTEXT service_id=51 ]
+11-18 18:34:02.342  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+11-18 18:34:02.343  1397  1409 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:34:02.349  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.349  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.349  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.349  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.349  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.349  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.349  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.349  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.349  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.349  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.350  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.350  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.350  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.350  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.350  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.350  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.350  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.350  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.358   554  1861 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+11-18 18:34:02.359  1397  1409 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:34:02.361  1208  1208 I GCoreUlr: Unbound from all signal providers.
+11-18 18:34:02.361  1208  1208 I GCoreUlr: Stopping handler for UlrDispSvcFast
+11-18 18:34:02.362   554   554 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+11-18 18:34:02.369  3552  3552 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:34:02.369  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.369   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.370   554   647 I RegistrationProxy: IGetRegistrationCallback.onSuccess
+11-18 18:34:02.372  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.373   554   647 I RemoteProvisionSysSvc: Fetching key 10143 for client 94422834
+11-18 18:34:02.373   554   647 I RegistrationProxy: getKeyAsync operation started with callback 80886915
+11-18 18:34:02.373  2596  2681 I RkpdRegistrationBinder: Key requested for : android.hardware.security.keymint.IRemotelyProvisionedComponent/default, clientUid: 1017, keyId: 10143, callback: 72736064
+11-18 18:34:02.374  2596  2681 I RkpdRegistrationBinder: Key successfully assigned to client
+11-18 18:34:02.374   554   554 I RemoteProvisionSysSvc: Successfully fetched key for client 94422834
+11-18 18:34:02.374  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.374  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.374  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.374  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.374  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.374  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.374  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:34:02.374  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:34:02.374  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.374  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.375  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.375  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:34:02.375  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:34:02.375  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.375  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.375  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:34:02.375  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:34:02.376  3552  3552 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:34:02.376  3552  3552 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+11-18 18:34:02.376  3552  3552 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+11-18 18:34:02.377  3552  3552 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:34:02.377  3552  3552 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:34:02.378  3552  3552 W app_process: Unexpected CPU variant for x86: x86_64.
+11-18 18:34:02.378  3552  3552 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-18 18:34:02.379  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:34:02.379   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:34:02.384   175   175 D SoftKeymaster: system/keymaster/km_openssl/certificate_utils.cpp, Line 148: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+11-18 18:34:02.384   175   175 D SoftKeymaster: system/keymaster/km_openssl/certificate_utils.cpp, Line 154: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+11-18 18:34:02.384   175   175 D SoftKeymaster: system/keymaster/km_openssl/certificate_utils.cpp, Line 159: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+11-18 18:34:02.384   175   175 D SoftKeymaster: system/keymaster/km_openssl/certificate_utils.cpp, Line 273: Setting notBefore to 0
+11-18 18:34:02.384   175   175 D SoftKeymaster: system/keymaster/km_openssl/certificate_utils.cpp, Line 282: Setting notAfter to 2461449600
+11-18 18:34:02.394  3552  3552 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:34:02.395  3552  3552 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:34:02.403  3552  3552 D AndroidRuntime: Shutting down VM
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: The extras of the task (com.google.android.gms.ocr.service.ModelCleanUpTaskService:type_[2]) are not valid to be persisted so that the task is not persisted [CONTEXT service_id=218 ]
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at bpky.f(:com.google.android.gms@242335041@24.23.35 (190800-646585959):69)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at dcbg.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):510)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at dbyt.n(:com.google.android.gms@242335041@24.23.35 (190800-646585959):29)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at dbyt.u(:com.google.android.gms@242335041@24.23.35 (190800-646585959):360)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at dbyt.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):51)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at dbto.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):72)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:34:02.406  1208  1939 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:34:02.415  2184  2304 W SystemServiceRegistry: No service published for: persistent_data_block
+11-18 18:34:02.415  2184  2304 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:34:02.416  2184  2304 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:34:02.422  1208  1939 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService started execution. cause:5 exec_start_elapsed_seconds: 65 [CONTEXT service_id=218 ]
+11-18 18:34:02.425  1208  1939 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService finished executing. cause:5 result: 1 elapsed_millis: 73 uptime_millis: 73 exec_start_elapsed_seconds: 65 [CONTEXT service_id=218 ]
+11-18 18:34:02.471  3124  3195 I BugleRcsProvisioning: RcsProvisioningTrigger: onGservicesUpdated
+11-18 18:34:02.471  3124  3195 I BugleRcsProvisioning: RcsProvisioningTrigger: updateRcsAvailability : hint = GSERVICE_UPDATE
+11-18 18:34:02.474  3124  3195 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: updateAvailabilityAsync, hint: GSERVICE_UPDATE
+11-18 18:34:02.475  3124  3195 I RcsAvailabilityUpdaterL: updateAvailabilityAsync: scheduling updateRcsAvailability call. Hint: GSERVICE_UPDATE, enableWelcomePopupWithoutGoogleTos: false, reshowSuccessPopup: false
+11-18 18:34:02.486  3124  3281 D BugleRcsEngine: log_saver already enabled
+11-18 18:34:02.495  1976  1976 W JobInfo : Job 'com.google.android.partnersetup/.PhenotypeJobService#2' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:34:02.496   554  1861 W JobInfo : Job 'com.google.android.partnersetup/.PhenotypeJobService#2' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:34:02.498  3124  3231 I BugleRcsEngine: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: -1, OS.isAtLeastS:[true], enableSingleRegistrationProvisioning:[false] [CONTEXT thread_id=58 ]
+11-18 18:34:02.504  1483  1783 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.consentverifier#com.google.android.googlequicksearchbox
+11-18 18:34:02.518  3124  3231 I RcsAvailabilityUpdaterL: RcsAvailability configuration availability and enabled status: simId: redacted-pii:sim_id[chars:0,last3:], SipConnectionType: DUAL_REG, isConfigurationAvailableAndEnabled: false
+11-18 18:34:02.518  3124  3231 I RcsAvailabilityUpdaterL: updateRcsAvailability: currentAvailability: 9, newAvailability: 9, hint: GSERVICE_UPDATE
+11-18 18:34:02.518  3124  3229 I BugleRcsProvisioning: RcsProvisioningTrigger: onRcsAvailabilityUpdate : availability is updated to RCS is disabled due to SIM absent, lastAvailabilityLocal is RCS is disabled due to SIM absent, simId hash = 3997827565140766476, simId = redacted-pii:sim_id[chars:0,last3:], isPev3Enabled = true
+11-18 18:34:02.519  1976  1976 I PhenotypeBackgroundRecv: Skipping com.google.android.partnersetup#com.google.android.partnersetup which doesn't use ProcessStable flags.
+11-18 18:34:02.527  1744  3575 D DownloadManager: [1] Starting
+11-18 18:34:02.535  1323  1323 I PhenotypeModule: PhenotypeModule.receiveBroadcast():563 onReceive() urgent = false
+11-18 18:34:02.540  1323  1653 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.consentverifier#com.google.android.inputmethod.latin
+11-18 18:34:02.554   359  3576 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 10095 0}
+11-18 18:34:02.555   359  3577 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:34:02.555   359  3577 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d09d10
+11-18 18:34:02.555   359  3577 I resolv  : doQuery: rcode=0, ancount=8, return value=257
+11-18 18:34:02.555   359  3578 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:34:02.555   359  3578 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d01d70
+11-18 18:34:02.555   359  3578 I resolv  : doQuery: rcode=0, ancount=8, return value=161
+11-18 18:34:02.557  1744  3575 D TrafficStats: tagSocket(94) with statsTag=0xffffff01, statsUid=10136
+11-18 18:34:02.559  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.assistant_tng_interactor.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.571  1208  1939 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:9 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:02.585  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.assistant_suw.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.596  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.nlu_ff.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.597  1483  3084 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.598  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.soda_hotword.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.601  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.soda_resourcemanager.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.602  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.assistant.invocation.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.605  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.mobile.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.609  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.mobile.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.610  1483  3084 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.618  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.mobile.interactor.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.628  2138  2164 W .apps.wallpaper: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/ThemePicker/ThemePicker.apk' with 1 weak references
+11-18 18:34:02.629  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.638  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.638  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.platform.ondevice.fulfillment.server.pop.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.642  1208  2481 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:9 result: 1 elapsed_millis: 142 uptime_millis: 142 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:02.645  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.audio.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.653  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.fedora.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.656  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.googleapp.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.656  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.googleapp_widgets.sports.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.672  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.googleapp_widgets.stocks.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.676  1483  1783 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.677  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.hsi.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.683  1483  1781 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.686  1483  1781 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.700  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.lens.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.705  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.lens.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.706  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.omnient.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.706  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.omnient#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.706  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.gsa.pcp.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.706  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.gsa.pcp.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.709  1397  1947 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+11-18 18:34:02.710  1483  2054 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.711  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.podcasts_android.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.713  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.podcasts_android.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.716   359  3580 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:34:02.716  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.policy#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.716  2184  2304 D TrafficStats: tagSocket(126) with statsTag=0x1809, statsUid=-1
+11-18 18:34:02.718  2184  2304 D TrafficStats: tagSocket(126) with statsTag=0x1809, statsUid=-1
+11-18 18:34:02.716  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.pronunciationlearning#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.719  2184  2304 D TrafficStats: tagSocket(126) with statsTag=0x1809, statsUid=-1
+11-18 18:34:02.720  1483  2231 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.725  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.readaloud#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.729  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.ar.sceneviewer.android.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.730  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.ar.sceneviewer.android.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.733  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.searchbox.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.736  2184  2184 W binder:2184_3: type=1400 audit(0.0:45): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=318 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:34:02.746  2184  2304 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-18 18:34:02.746  2184  2304 W libc    : Access denied finding property "service.adb.tls.port"
+11-18 18:34:02.744  2184  2184 W binder:2184_3: type=1400 audit(0.0:46): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=63 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:34:02.761   554   647 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:34:02.762  1455  3394 I Checkin : [CheckinOperation] Starting Checkin: Default Task Reason : 8 Force : false UserId : 0 Start time : 66321
+11-18 18:34:02.765  1455  3394 I CheckinUtil: Classify the device as Phone. [CONTEXT service_id=130 ]
+11-18 18:34:02.780  1455  3394 I Checkin : [AndroidCheckinProtoModule] Checkin reason type: 8 attempt count: 1.
+11-18 18:34:02.786  1397  1947 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+11-18 18:34:02.788  1397  1947 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+11-18 18:34:02.790  1397  1947 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+11-18 18:34:02.791  1397  1947 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+11-18 18:34:02.793  1483  3082 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.799  1483  3082 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.809  1483  2053 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.809  1483  2231 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.809  1483  2053 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.821  1483  3086 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.824  1483  3086 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.825  1483  3086 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.827  1483  3086 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.829  1483  3082 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.829   554  1861 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:34:02.837  1208  2517 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService started execution. cause:5 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:02.858  1208  1656 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.libraries.consentverifier#com.google.android.apps.wellbeing) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:34:02.866  1208  1939 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService finished executing. cause:5 result: 1 elapsed_millis: 57 uptime_millis: 57 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:02.875  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.smartsetup#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.883  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.soda_apa.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.885  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.soundsearch.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.887  1455  3394 D TrafficStats: tagSocket(203) with statsTag=0x30000408, statsUid=-1
+11-18 18:34:02.887  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.soundsearch.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.901  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.902  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.libraries.search.user#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.904  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.transcription.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.904  1455  3394 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:34:02.905  1455  3394 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):204)
+11-18 18:34:02.905  1455  3394 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):4)
+11-18 18:34:02.906  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.transcription.uidevice#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.910  1744  3575 D CompatChangeReporter: Compat change id reported: 312399441; UID 10095; state: ENABLED
+11-18 18:34:02.922  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: com.google.android.apps.search.assistant.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.930  1483  3089 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.939  1348  1517 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.946  1455  3394 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:34:02.949  1455  3394 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):204)
+11-18 18:34:02.951  1744  3575 D DownloadManager: [1] Finished with status SUCCESS
+11-18 18:34:02.953  1455  3394 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@242335041@24.23.35 (190800-646585959):4)
+11-18 18:34:02.954  1483  3086 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:02.960  1208  1656 W GetConfigSnapshotOp: Succeeded but not registered: googledata.experiments.mobile.assistant.client_packages.component.assistant_tng_interactor.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-18 18:34:02.994  1483  1483 I BgTaskExecutorImpl: (REDACTED) Starting %s background task %s.
+11-18 18:34:03.005  1744  3583 D DownloadManager: [2] Starting
+11-18 18:34:03.009   359   406 I netd    : tetherGetStats() -> {[]} <0.30ms>
+11-18 18:34:03.018  1744  3583 D TrafficStats: tagSocket(94) with statsTag=0xffffff01, statsUid=10136
+11-18 18:34:03.040  1483  2141 W SearchServiceCore: Abort, client detached.
+11-18 18:34:03.041  1483  2141 W SearchServiceCore: Abort, client detached.
+11-18 18:34:03.047  1483  2054 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:03.054  1208  2481 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService started execution. cause:5 exec_start_elapsed_seconds: 66 [CONTEXT service_id=218 ]
+11-18 18:34:03.064  1483  2053 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:03.064  1483  2054 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-18 18:34:03.067  1483  1788 I A       : (REDACTED) Successfully loaded Smartspace flags. Applied %b
+11-18 18:34:03.069  1483  1788 I A       : Not eligible for settings logging. Skipping task enqueuing and cancelling any preexisting work.
+11-18 18:34:03.075  1415  1419 I FuseDaemon: Background concurrent mark compact GC freed 2855KB AllocSpace bytes, 33(660KB) LOS objects, 49% free, 3083KB/6166KB, paused 693us,365us total 107.694ms
+11-18 18:34:03.088  1744  3583 D DownloadManager: [2] Finished with status SUCCESS
+11-18 18:34:03.122  1744  3585 D DownloadManager: [3] Starting
+11-18 18:34:03.131  1455  3394 I Checkin : [CheckinRequestProcessor] updateCheckinIdTokenFileFromResponse, Reading existing AID
+11-18 18:34:03.144  1744  3585 D TrafficStats: tagSocket(94) with statsTag=0xffffff01, statsUid=10136
+11-18 18:34:03.148  1744  3587 D DownloadManager: [4] Starting
+11-18 18:34:03.158  1744  3587 D TrafficStats: tagSocket(95) with statsTag=0xffffff01, statsUid=10136
+11-18 18:34:03.161  1455  3394 I Checkin : [CheckinRequestProcessor] Default Task : Checkin Succeeded: https://android.googleapis.com/checkin (fragment #1).
+11-18 18:34:03.164  1208  1656 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.libraries.search.googleapp.device#com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-18 18:34:03.192  1455  3394 I Checkin : [CheckinOperation] Checkin Operation finished with result: SUCCESS finish time: 66751.
+11-18 18:34:03.201  1744  1758 I d.process.media: Background concurrent mark compact GC freed 1355KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2643KB/5286KB, paused 78us,5.166ms total 19.692ms
+11-18 18:34:03.202  1744  1760 W d.process.media: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/ConfigUpdater/ConfigUpdater.apk' with 1 weak references
+11-18 18:34:03.232  3456  3540 I LABCI   : content query from another process: Row: 0 _id=1, title=Mobile Application Development
+11-18 18:34:03.234  3456  3540 I TestRunner: finished: a_provider(com.university.jsnippets.SnippetsTest)

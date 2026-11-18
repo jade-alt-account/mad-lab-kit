@@ -1,0 +1,505 @@
+11-18 18:35:39.273  6246  6266 I TestRunner: started: a_textAndLifecycle(com.university.lab01.Lab01Test)
+11-18 18:35:39.277  6246  6266 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:35:39.283  6246  6268 V UiAutomation: Init UiAutomation@63c1139[id=3, flags=0]
+11-18 18:35:39.284  6246  6266 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:35:39.292  6246  6266 D UiDevice: Executing shell command: logcat -c
+11-18 18:35:39.296   901  2066 E FrameEvents: updateAcquireFence: Did not find frame.
+11-18 18:35:39.307  1748  5500 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:39.321   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:35:39.326   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 7, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:35:39.326   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=7)
+11-18 18:35:39.334  6246  6266 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab01\E']].
+11-18 18:35:39.334  6246  6266 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab01\E'].
+11-18 18:35:39.336  1748  5500 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:35:39.337  1748  5500 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:39.345   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:35:39.389  6246  6282 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:35:39.390  6246  6282 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:35:39.392  6246  6282 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:35:39.394  6246  6246 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:35:39.402  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: PRE_ON_CREATE
+11-18 18:35:39.422  1748  5500 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:35:39.430  1748  5500 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:39.431  1748  5500 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:35:39.455  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:39.455  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:39.459  6246  6246 W niversity.lab0: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+11-18 18:35:39.467  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:39.471  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: CREATED
+11-18 18:35:39.475  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:39.475  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: STARTED
+11-18 18:35:39.476  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:39.476  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: RESUMED
+11-18 18:35:39.497  6246  6280 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305e8d0, tid 6280
+11-18 18:35:39.500  6246  6280 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:39.507  1748  5500 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:39.508  1748  5500 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+11-18 18:35:39.517   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:35:39.518  6246  6280 D EGL_emulation: eglCreateContext: 0x7366a30b0610: maj 3 min 0 rcv 3
+11-18 18:35:39.520  6246  6280 D EGL_emulation: eglMakeCurrent: 0x7366a30b0610: ver 3 0 (tinfo 0x7366430a6e20) (first time)
+11-18 18:35:39.524  1748  5500 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:39.526  1748  5500 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:35:39.530   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:39.530  6246  6280 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:39.531  6246  6280 D HostConnection: createUnique: call
+11-18 18:35:39.531  6246  6280 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305da90, tid 6280
+11-18 18:35:39.540  6246  6280 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:39.750   286   286 I Zygote  : Process 1688 exited due to signal 9 (Killed)
+11-18 18:35:39.790   496   539 I libprocessgroup: Successfully killed process cgroup uid 10085 pid 1688 in 43ms
+11-18 18:35:39.793   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:35:39.809   344  1148 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10171 pid=6246
+11-18 18:35:39.809   344  1148 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10171 => denied (194 us)
+11-18 18:35:39.809   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab01/1/com.university.lab01.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:35:39.810   496   536 I ActivityTaskManager: Displayed com.university.lab01/.MainActivity: +470ms
+11-18 18:35:39.830  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:35:39.831  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932966968] from persistence.
+11-18 18:35:41.409  6246  6266 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QRuntime initialization complete.\E.*']].
+11-18 18:35:41.409  6246  6266 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QRuntime initialization complete.\E.*'].
+11-18 18:35:41.415  6246  6266 I LABCI   : waitText 'Runtime initialization complete.': true
+11-18 18:35:41.539  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:35:41.547  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:35:42.115  6246  6266 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:42.122  6246  6266 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab01_text.png
+11-18 18:35:42.166   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:42.166  6291  6291 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:42.171  6291  6291 D HostConnection: createUnique: call
+11-18 18:35:42.171  6291  6291 D HostConnection: HostConnection::get() New Host Connection established 0x777c8546bcd0, tid 6291
+11-18 18:35:42.184  6291  6291 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:42.232  1748  6109 I Vision  : Requesting optional module download of ocr.
+11-18 18:35:42.232  1748  6109 I Vision  : Checking for download completion for 111689 -- ocr
+11-18 18:35:42.239   694   694 V AvrcpMediaPlayerList: onActiveSessionsChanged: number of controllers: 0
+11-18 18:35:42.239   287   287 I Zygote  : Process 5615 exited due to signal 9 (Killed)
+11-18 18:35:42.242  6298  6300 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:42.243  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_text.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:42.240  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:124): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:42.265   496   539 I libprocessgroup: Successfully killed process cgroup uid 10142 pid 5615 in 47ms
+11-18 18:35:42.270  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab01_text.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab01_text.png
+11-18 18:35:42.271  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 27ms, 0 inserts 0 updates 0 deletes
+11-18 18:35:42.272  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_text.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:42.275  6246  6266 I LABCI   : screenshot lab01_text
+11-18 18:35:42.275  6246  6266 D UiDevice: Executing shell command: logcat -d -s LifecycleDemo:D
+11-18 18:35:42.240  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:126): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:42.292  6246  6266 I LABCI   : A open:
+11-18 18:35:42.292  6246  6266 I LABCI   : --------- beginning of main
+11-18 18:35:42.292  6246  6266 I LABCI   : --------- beginning of system
+11-18 18:35:42.292  6246  6266 I LABCI   : --------- beginning of kernel
+11-18 18:35:42.292  6246  6266 I LABCI   : 11-18 18:35:39.467  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:42.292  6246  6266 I LABCI   : 11-18 18:35:39.475  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:42.292  6246  6266 I LABCI   : 11-18 18:35:39.476  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:42.292  6246  6266 D UiDevice: Executing shell command: logcat -c
+11-18 18:35:42.297  6246  6266 D UiDevice: Pressing home button.
+11-18 18:35:42.311   712   712 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{51a5c3d I.E...... ......ID 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:35:42.313   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:35:42.316   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 8, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:35:42.316   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=8)
+11-18 18:35:42.322   901   901 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+11-18 18:35:42.325  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:42.325  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: PAUSED
+11-18 18:35:42.344   712   712 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{51a5c3d I.E...... ......ID 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:35:42.385   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:35:42.388   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:35:42.395  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:35:42.398   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3065a10, tid 4916
+11-18 18:35:42.401   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:42.402   496  4916 D EGL_emulation: eglCreateContext: 0x7366a313e640: maj 3 min 0 rcv 3
+11-18 18:35:42.403   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:35:42.403   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:35:42.403   344   344 E Layer   : [Surface(name=Task=13)/@0xfccfe2e - animation-leash#0] No local sync point found
+11-18 18:35:42.403   344   344 E Layer   : [Surface(name=Task=13)/@0xfccfe2e - animation-leash#0] No local sync point found
+11-18 18:35:42.405   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a313e640: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:35:42.415  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:42.415  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: STOPPED
+11-18 18:35:42.530  1675  2029 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-18 18:35:42.533  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:35:42.536  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:35:43.970  1748  5499 I ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+11-18 18:35:43.974  1748  5499 I RealtimeCacheCleanup: Beginning Realtime garbage collection.
+11-18 18:35:43.974  1748  5499 I RealtimeCacheCleanup: Finished Realtime garbage collection.
+11-18 18:35:44.327   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=7)
+11-18 18:35:44.327   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:35:44.328   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 7 ended, total sessions:1
+11-18 18:35:44.365  6246  6266 D UiDevice: Executing shell command: logcat -d -s LifecycleDemo:D
+11-18 18:35:44.371  6246  6266 I LABCI   : B home:
+11-18 18:35:44.371  6246  6266 I LABCI   : --------- beginning of main
+11-18 18:35:44.371  6246  6266 I LABCI   : --------- beginning of system
+11-18 18:35:44.371  6246  6266 I LABCI   : --------- beginning of kernel
+11-18 18:35:44.371  6246  6266 I LABCI   : 11-18 18:35:39.467  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:44.371  6246  6266 I LABCI   : 11-18 18:35:39.475  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:44.371  6246  6266 I LABCI   : 11-18 18:35:39.476  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:44.371  6246  6266 I LABCI   : 11-18 18:35:42.325  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:44.371  6246  6266 I LABCI   : 11-18 18:35:42.415  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:44.371  6246  6266 D UiDevice: Executing shell command: logcat -c
+11-18 18:35:44.375  6246  6266 D UiDevice: Pressing recent apps button.
+11-18 18:35:44.377   901  2064 D TaplEvents: Main / onOverviewToggle
+11-18 18:35:44.380   901   901 D TaplTarget: sendStateEventToTest: 2
+11-18 18:35:44.380   712   712 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{51a5c3d I.E...... ......ID 0,0-320,640} canPanelBeCollapsed(): false
+11-18 18:35:44.421  6246  6324 D ProfileInstaller: Installing profile for com.university.lab01
+11-18 18:35:44.480   901   901 I AiAiSuggestUi: Clearing suggestions.
+11-18 18:35:44.481   901   901 I AiAiSuggestUi: Clearing suggestions.
+11-18 18:35:44.873  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:44.873  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: Could not register for notifications with InnerTube: 
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: rff: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at rex.b(PG:18)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at uqp.f(PG:65)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at uqp.g(PG:134)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at uqp.b(PG:99)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at uqn.run(Unknown Source:1)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at ywx.run(Unknown Source:1)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at pqt.run(PG:13)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: Caused by: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at zsp.a(PG:135)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at zsp.get(PG:91)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at rex.b(PG:17)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	... 11 more
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: Caused by: qjl: Precondition check failed.
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at rdu.b(PG:106)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at pyo.a(PG:61)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at pxo.run(Unknown Source:17)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	... 4 more
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: Caused by: bjj
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	at pxo.run(Unknown Source:13)
+11-18 18:35:45.234  5897  6071 W YouTubeMusic: 	... 4 more
+11-18 18:35:46.270  1748  3736 W ChimeraConfigurator: Error syncing flags: qiy: COMMIT_TIMEOUT
+11-18 18:35:46.270  1748  3736 I ChmraDebugLogger: [79] COMMIT_TIMEOUT
+11-18 18:35:46.276  1748  3736 I ChmraDebugLogger: [52] null
+11-18 18:35:46.281  1748  3736 I ChimeraConfigService: Scheduling checkin for one-off execution between [3300,43200] seconds from now (1795026946281)
+11-18 18:35:47.077  6246  6266 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:47.083  6246  6266 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab01_recents.png
+11-18 18:35:47.183   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:47.183  6329  6329 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:47.187  6329  6329 D HostConnection: createUnique: call
+11-18 18:35:47.187  6329  6329 D HostConnection: HostConnection::get() New Host Connection established 0x7e7171230d50, tid 6329
+11-18 18:35:47.196  6329  6329 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:47.237  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_recents.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:47.232  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:134): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:47.254  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab01_recents.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab01_recents.png
+11-18 18:35:47.255  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 18ms, 0 inserts 0 updates 0 deletes
+11-18 18:35:47.255  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_recents.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:47.259  6246  6266 I LABCI   : screenshot lab01_recents
+11-18 18:35:47.232  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:135): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:47.311   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:35:47.313  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: RESTARTED
+11-18 18:35:47.314   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 9, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:35:47.314   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=9)
+11-18 18:35:47.315   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=8)
+11-18 18:35:47.315  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:47.315  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: STARTED
+11-18 18:35:47.316  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:47.316   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:35:47.316  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: RESUMED
+11-18 18:35:47.317   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 8 ended, total sessions:1
+11-18 18:35:47.335   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab01/1/com.university.lab01.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:35:47.336   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:35:47.352   901   901 D TaplTarget: sendStateEventToTest: 0
+11-18 18:35:47.352   901   901 I AiAiSuggestUi: Clearing suggestions.
+11-18 18:35:47.353   901   901 I AiAiSuggestUi: Clearing suggestions.
+11-18 18:35:47.353   901   901 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9d3282e mOrientationHandler=PortraitPagedViewHandler@6ba4fcf mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+11-18 18:35:47.353   901   901 I chatty  : uid=10152(com.google.android.apps.nexuslauncher) identical 2 lines
+11-18 18:35:47.353   901   901 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9d3282e mOrientationHandler=PortraitPagedViewHandler@6ba4fcf mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+11-18 18:35:47.366  1675  3671 I PBSessionCacheImpl: Deleted sessionId[7368522932966971] from persistence.
+11-18 18:35:47.385  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:35:47.452  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:47.453  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:48.843  1748  3736 I GmscoreIpa: Starting mediastore instant index
+11-18 18:35:49.761  6246  6266 D UiDevice: Executing shell command: logcat -d -s LifecycleDemo:D
+11-18 18:35:49.767  6246  6266 I LABCI   : C return:
+11-18 18:35:49.767  6246  6266 I LABCI   : --------- beginning of main
+11-18 18:35:49.767  6246  6266 I LABCI   : --------- beginning of system
+11-18 18:35:49.767  6246  6266 I LABCI   : --------- beginning of kernel
+11-18 18:35:49.767  6246  6266 I LABCI   : 11-18 18:35:42.325  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:49.767  6246  6266 I LABCI   : 11-18 18:35:42.415  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:49.767  6246  6266 I LABCI   : 11-18 18:35:47.315  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:49.767  6246  6266 I LABCI   : 11-18 18:35:47.316  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:49.767  6246  6266 D UiDevice: Executing shell command: logcat -c
+11-18 18:35:49.772  6246  6266 D UiDevice: Setting orientation to left.
+11-18 18:35:49.774  6246  6266 D UiDevice: Waiting 2000ms for Condition[displayRotation=1, displayId=0].
+11-18 18:35:49.792   496   529 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:49.807  1326  1326 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1401 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw320dp w640dp h296dp 160dpi nrml long land finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 640, 320) mAppBounds=Rect(0, 0 - 640, 320) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.138}
+11-18 18:35:49.807  1326  1326 W KeyboardModeManager: KeyboardModeManager.reloadOrientationAwareData():457 reloadOrientationAwareData() : orientation = 2
+11-18 18:35:49.809  1326  1326 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+11-18 18:35:49.811   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:35:49.813  1326  1326 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1171 Apply keyboard theme: theme_border_stylesheet_googleblue_materiallight_assets:theme_package_metadata_google_blue_light.binarypb_land
+11-18 18:35:49.814  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:49.814  1326  1326 I chatty  : uid=10131(com.google.android.inputmethod.latin) identical 4 lines
+11-18 18:35:49.814  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:49.816  1326  1326 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-18 18:35:49.821  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:49.822  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: PAUSED
+11-18 18:35:49.824  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:49.824  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: STOPPED
+11-18 18:35:49.825  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:35:49.825  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@cb62f73 in: DESTROYED
+11-18 18:35:49.828   496   531 I InputManager-JNI: Viewport [0] to add: local:8141241408256768, isActive: true
+11-18 18:35:49.828   496   596 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 320x640, orientation 1, mode 1, display id 0
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.828   496   596 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:49.835  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: PRE_ON_CREATE
+11-18 18:35:49.847  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:49.847  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: CREATED
+11-18 18:35:49.848  1326  1326 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-18 18:35:49.849  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:49.849  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:49.849  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: STARTED
+11-18 18:35:49.849  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:49.849  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:49.849  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: RESUMED
+11-18 18:35:49.911   496   532 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:50.881  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-18 18:35:50.882  2119  2119 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-18 18:35:50.883  2119  2119 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-18 18:35:50.883  2119  2119 I Dialer  : VvmTaskReceiver - task received
+11-18 18:35:50.883  2119  2119 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-18 18:35:50.883  2119  2119 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-18 18:35:50.884  2119  2119 I Dialer  : RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@4c1c0ad queued, executing in 5000
+11-18 18:35:50.884  2119  2119 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@4c1c0ad added
+11-18 18:35:50.884  2119  2119 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-18 18:35:50.884  2119  2119 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-18 18:35:51.948   496   531 I system_server: Explicit concurrent copying GC freed 182477(9606KB) AllocSpace objects, 62(3584KB) LOS objects, 49% free, 14MB/28MB, paused 18us total 30.143ms
+11-18 18:35:52.174  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:35:52.179  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:35:52.243  1748  6351 I Vision  : Requesting optional module download of ocr.
+11-18 18:35:52.244  1748  6351 I Vision  : Checking for download completion for 121702 -- ocr
+11-18 18:35:52.282   496  1940 D WifiNl80211Manager: Scan result ready event
+11-18 18:35:52.282   496  1940 D WifiNative: Scan result ready event
+11-18 18:35:52.315   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=9)
+11-18 18:35:52.317   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:35:52.317   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:35:52.317   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 9 ended, total sessions:0
+11-18 18:35:52.384  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:52.384  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:52.527  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:35:52.528  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:35:52.528  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:35:53.031  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:35:53.031  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:35:53.031  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:35:54.180  6246  6266 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:54.186  6246  6266 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab01_rotated.png
+11-18 18:35:54.227   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:35:54.227  6365  6365 I Gralloc4: mapper 4.x is not supported
+11-18 18:35:54.231  6365  6365 D HostConnection: createUnique: call
+11-18 18:35:54.231  6365  6365 D HostConnection: HostConnection::get() New Host Connection established 0x77af56ee7150, tid 6365
+11-18 18:35:54.231   286   286 I Zygote  : Process 5030 exited due to signal 9 (Killed)
+11-18 18:35:54.244  6365  6365 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:54.249   712   712 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:35:54.250   712   712 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@29be2b mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:35:54.254  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:35:54.254  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:35:54.260   496   539 I libprocessgroup: Successfully killed process cgroup uid 10147 pid 5030 in 43ms
+11-18 18:35:54.264  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:144): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:54.269  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_rotated.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:54.269  6370  6372 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:35:54.264  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:145): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:54.289  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab01_rotated.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab01_rotated.png
+11-18 18:35:54.289  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 20ms, 0 inserts 0 updates 0 deletes
+11-18 18:35:54.289  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab01_rotated.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:54.264  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:146): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:54.302  6246  6266 I LABCI   : screenshot lab01_rotated
+11-18 18:35:54.302  6246  6266 D UiDevice: Setting orientation to natural.
+11-18 18:35:54.264  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:147): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:54.305  6246  6266 D UiDevice: Waiting 2000ms for Condition[displayRotation=0, displayId=0].
+11-18 18:35:54.264  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:148): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:35:54.326   496   529 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:54.335  1326  1326 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1401 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.177}
+11-18 18:35:54.336  1326  1326 W KeyboardModeManager: KeyboardModeManager.reloadOrientationAwareData():457 reloadOrientationAwareData() : orientation = 1
+11-18 18:35:54.344   712   712 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:35:54.348  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:54.348  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: PAUSED
+11-18 18:35:54.350  1326  1326 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+11-18 18:35:54.350  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:54.350  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: STOPPED
+11-18 18:35:54.351  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:35:54.351  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@43f46ba in: DESTROYED
+11-18 18:35:54.356   496   531 I InputManager-JNI: Viewport [0] to add: local:8141241408256768, isActive: true
+11-18 18:35:54.356   496   596 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 320x640, orientation 0, mode 1, display id 0
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.356   496   596 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+11-18 18:35:54.360  1326  1326 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1171 Apply keyboard theme: theme_border_stylesheet_googleblue_materiallight_assets:theme_package_metadata_google_blue_light.binarypb_port
+11-18 18:35:54.361  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:54.361  1326  1326 I chatty  : uid=10131(com.google.android.inputmethod.latin) identical 4 lines
+11-18 18:35:54.361  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:54.362  1326  1326 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-18 18:35:54.366  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: PRE_ON_CREATE
+11-18 18:35:54.377  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:54.377  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: CREATED
+11-18 18:35:54.379  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:54.379  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: STARTED
+11-18 18:35:54.379  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:54.379  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: RESUMED
+11-18 18:35:54.384  1326  1326 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-18 18:35:54.385  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:54.385  1326  1326 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:320
+11-18 18:35:54.445   496   532 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-18 18:35:54.720  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:35:54.720  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:35:54.720  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:35:54.954  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:54.954  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: Could not register for notifications with InnerTube: 
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: rff: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at rex.b(PG:18)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at uqp.f(PG:65)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at uqp.g(PG:134)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at uqp.b(PG:99)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at uqn.run(Unknown Source:1)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at ywx.run(Unknown Source:1)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at pqt.run(PG:13)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: Caused by: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at zsp.a(PG:135)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at zsp.get(PG:91)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at rex.b(PG:17)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	... 11 more
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: Caused by: qjl: Precondition check failed.
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at rdu.b(PG:106)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at pyo.a(PG:61)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at pxo.run(Unknown Source:17)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	... 4 more
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: Caused by: bjj
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	at pxo.run(Unknown Source:13)
+11-18 18:35:55.012  5897  6071 W YouTubeMusic: 	... 4 more
+11-18 18:35:55.017  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:35:55.017  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:35:55.017  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:35:55.133   285  2332 W resolv  : SSL_connect ssl error =5, mark 0xf0064: Connection refused
+11-18 18:35:55.137   285  2332 W resolv  : Validation failed
+11-18 18:35:55.183  1748  5500 I ChmraDebugLogger: [52] null
+11-18 18:35:55.186  1748  5500 I ChimeraConfigService: Scheduling checkin for one-off execution between [3300,43200] seconds from now (1795026955185)
+11-18 18:35:55.190  1748  5500 I ChimeraConfigService: Scheduling checkin every 43200 seconds, with flex of 1800 seconds
+11-18 18:35:55.922  2119  3703 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@4c1c0ad
+11-18 18:35:55.922  2119  3703 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-18 18:35:55.932   286   286 D Zygote  : Forked child process 6375
+11-18 18:35:55.935  6375  6375 W d.process.acor: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:55.937   401   415 I adbd    : jdwp connection from 6375
+11-18 18:35:55.943  6375  6375 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-18 18:35:55.952  6375  6375 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:55.952  6375  6375 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:55.953  6375  6375 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-18 18:35:55.955  6375  6375 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-18 18:35:55.960  6375  6375 I ContactsPerf: VoicemailContentProvider.onCreate start
+11-18 18:35:55.962  6375  6375 I ContactsPerf: VoicemailContentProvider.onCreate finish
+11-18 18:35:55.966  6375  6375 I ContactsDatabaseHelper: updateUseStrictPhoneNumberComparison: US
+11-18 18:35:56.000  6375  6393 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:35:56.000  2119  3703 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-18 18:35:56.001  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-18 18:35:56.003  6375  6393 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:35:56.003  6375  6399 D ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+11-18 18:35:56.018  1042  1066 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:35:56.019  1042  1066 D SmsNumberUtils: destAddr is not formatted.
+11-18 18:35:56.019  1042  1066 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:35:56.046  6375  6400 I ContactLocale: AddressBook Labels [[en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+11-18 18:35:56.052  6375  6399 D ContactsDatabaseHelper: WAL enabled for profile.db: false
+11-18 18:35:56.070   286   286 D Zygote  : Forked child process 6401
+11-18 18:35:56.074  6401  6401 W apters.contact: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:56.075   401   415 I adbd    : jdwp connection from 6401
+11-18 18:35:56.082  6401  6401 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-18 18:35:56.083  6401  6401 I apters.contact: The ClassLoaderContext is a special shared library.
+11-18 18:35:56.084  6401  6401 I apters.contact: The ClassLoaderContext is a special shared library.
+11-18 18:35:56.084  6401  6401 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/GoogleContactsSyncAdapter/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:35:56.088  6401  6401 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:56.088  6401  6401 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:35:56.095  6401  6401 I GoogleHttpClient: GMS http client unavailable, use old client
+11-18 18:35:56.101  6401  6419 I ProxyGalProvider: QueryGalProvider in Legacy provider.
+11-18 18:35:56.101  6401  6417 I ProxyGalProvider: QueryGalProvider in Legacy provider.
+11-18 18:35:56.107  6375  6400 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+11-18 18:35:56.107  6375  6400 I ContactDirectoryManager: Discovered 0 contact directories in 43ms
+11-18 18:35:56.108  6375  6399 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+11-18 18:35:56.108  6375  6399 I ContactDirectoryManager: Discovered 0 contact directories in 43ms
+11-18 18:35:56.109   694   694 D BluetoothPbapService:  onChange on contact uri 
+11-18 18:35:56.110   694   694 D BluetoothPbapService:  onChange on contact uri 
+11-18 18:35:56.117  6375  6392 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10080; state: ENABLED
+11-18 18:35:56.120   694  6424 D BluetoothPbapUtils: primaryVersionCounter = 0, secondaryVersionCounter=0
+11-18 18:35:56.478   496   531 I system_server: Explicit concurrent copying GC freed 111716(5598KB) AllocSpace objects, 4(80KB) LOS objects, 49% free, 13MB/27MB, paused 18us total 26.236ms
+11-18 18:35:56.478   496   507 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+11-18 18:35:56.478   496   507 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-18 18:35:56.480  1748  3736 I GmscoreIpa: Starting mediastore instant index
+11-18 18:35:57.172   286   286 I Zygote  : Process 5473 exited due to signal 9 (Killed)
+11-18 18:35:57.174   496   539 I libprocessgroup: Successfully killed process cgroup uid 10146 pid 5473 in 30ms
+11-18 18:35:58.018  6246  6266 D UiDevice: Executing shell command: logcat -d -s LifecycleDemo:D
+11-18 18:35:58.024  6246  6266 I LABCI   : D rotate (and back):
+11-18 18:35:58.024  6246  6266 I LABCI   : --------- beginning of main
+11-18 18:35:58.024  6246  6266 I LABCI   : --------- beginning of kernel
+11-18 18:35:58.024  6246  6266 I LABCI   : --------- beginning of system
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:47.315  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:47.316  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.821  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.824  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.825  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.847  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.849  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:49.849  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.348  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.350  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.351  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.377  6246  6246 D LifecycleDemo: onCreate
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.379  6246  6246 D LifecycleDemo: onStart
+11-18 18:35:58.024  6246  6266 I LABCI   : 11-18 18:35:54.379  6246  6246 D LifecycleDemo: onResume
+11-18 18:35:58.024  6246  6266 D UiDevice: Executing shell command: logcat -c
+11-18 18:35:58.029  6246  6266 D UiDevice: Pressing back button.
+11-18 18:35:58.047  6246  6246 D LifecycleDemo: onPause
+11-18 18:35:58.047  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: PAUSED
+11-18 18:35:58.056   901  2066 W OpenGLRenderer: Incorrectly called buildLayer on View: ArrowTipView, destroying layer...
+11-18 18:35:58.097  6246  6246 D LifecycleDemo: onStop
+11-18 18:35:58.098  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: STOPPED
+11-18 18:35:58.100  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:35:58.101  6246  6246 D LifecycleMonitor: Lifecycle status change: com.university.lab01.MainActivity@55f086e in: DESTROYED
+11-18 18:35:58.103   344   344 E Layer   : [Surface(name=Task=13)/@0xfccfe2e - animation-leash#0] No local sync point found
+11-18 18:35:58.104   344   344 E Layer   : [Surface(name=Task=13)/@0xfccfe2e - animation-leash#0] No local sync point found
+11-18 18:35:58.104   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:35:58.104   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:35:58.108  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:35:58.121  1675  2029 W LocationOracle: No location history returned by ContextManager
+11-18 18:35:58.136  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:35:58.149  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:35:58.154  1675  2074 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-18 18:35:58.158   496  5221 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3061390, tid 5221
+11-18 18:35:58.160   496  5221 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:58.161  1162  2606 W GCoreFlp: No location to return for getLastLocation()
+11-18 18:35:58.161   496  5221 D EGL_emulation: eglCreateContext: 0x7366a3135a00: maj 3 min 0 rcv 3
+11-18 18:35:58.163   496  5221 D EGL_emulation: eglMakeCurrent: 0x7366a3135a00: ver 3 0 (tinfo 0x7366431333a0) (first time)
+11-18 18:35:58.165  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:35:58.167   496  1130 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3057850, tid 1130
+11-18 18:35:58.172   496  1130 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:59.491  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:35:59.491  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:36:00.001   712   712 D KeyguardClockSwitch: Updating clock: 636
+11-18 18:36:00.008   712   712 D KeyguardClockSwitch: Updating clock: 636
+11-18 18:36:00.210   286   286 I Zygote  : Process 4335 exited due to signal 9 (Killed)
+11-18 18:36:00.252   496   539 I libprocessgroup: Successfully killed process cgroup uid 10118 pid 4335 in 42ms
+11-18 18:36:01.060  6246  6266 D UiDevice: Executing shell command: logcat -d -s LifecycleDemo:D
+11-18 18:36:01.065  6246  6266 I LABCI   : E back (API 30):
+11-18 18:36:01.065  6246  6266 I LABCI   : --------- beginning of main
+11-18 18:36:01.065  6246  6266 I LABCI   : --------- beginning of system
+11-18 18:36:01.065  6246  6266 I LABCI   : --------- beginning of kernel
+11-18 18:36:01.065  6246  6266 I LABCI   : 11-18 18:35:58.047  6246  6246 D LifecycleDemo: onPause
+11-18 18:36:01.065  6246  6266 I LABCI   : 11-18 18:35:58.097  6246  6246 D LifecycleDemo: onStop
+11-18 18:36:01.065  6246  6266 I LABCI   : 11-18 18:35:58.100  6246  6246 D LifecycleDemo: onDestroy
+11-18 18:36:01.065  6246  6266 I TestRunner: finished: a_textAndLifecycle(com.university.lab01.Lab01Test)

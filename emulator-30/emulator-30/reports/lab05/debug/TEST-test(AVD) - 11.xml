@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="1" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:37:44" hostname="localhost">
+  <testsuite name="com.university.lab05.Lab05Test" tests="1" failures="0" errors="0" skipped="0" time="18.816" timestamp="2026-11-18T18:37:44" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_fragmentPermissionNotification" classname="com.university.lab05.Lab05Test" time="18.816" />
+  </testsuite>
+</testsuites>

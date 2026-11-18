@@ -1,0 +1,381 @@
+11-18 18:40:47.236  9417  9436 I TestRunner: started: c_xml(com.university.lab11.Lab11Test)
+11-18 18:40:47.241  9417  9436 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:47.241  9417  9417 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:40:47.245   607   997 I ImeTracker: system_server:bc3528d4: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:40:47.248   607   669 I ImeTracker: system_server:bc3528d4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:47.250  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.251  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.251  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:47.253  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:47.254   607  1831 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10240, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:47.265  6207  6239 W JobInfo : Requested important-while-foreground flag for job2023 is ignored and takes no effect
+11-18 18:40:47.267  4144  4144 E adservices: Measurement API is disabled
+11-18 18:40:47.267  4144  4144 E adservices: Measurement API is disabled
+11-18 18:40:47.270  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:47.272  6207  6312 E adservices: Failed to bind to measurement service: com.android.adservices.shared.common.exception.ServiceUnavailableException: Service is not available.
+11-18 18:40:47.273  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{3a7a7d4 V.E...... ......ID 0,0-0,0}
+11-18 18:40:47.273  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:47.273  1013  1113 D SplashScreenView: Branding: view: android.view.View{57d3d7d G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:47.281  1349  2735 I .gms.persistent: AssetManager2(0x70339c225fd8) locale list changing from [] to [en-US]
+11-18 18:40:47.284  1253  1253 D RecentsView: onTaskRemoved: 67, not handling task stack changes
+11-18 18:40:47.285  1253  1253 D RecentsView: onTaskRemoved: 67, not handling task stack changes
+11-18 18:40:47.287   607  1831 D ConnectivityService: requestNetwork for uid/pid:10161/6207 activeRequest: null callbackRequest: 260 [NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+11-18 18:40:47.288  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.290   607   922 D ConnectivityService: NetReassign [261 : null → 100] [c 1] [a 0] [i 0]
+11-18 18:40:47.292   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:47.292   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:47.292   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:47.292   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:47.292   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=261, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:47.299  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.300   607  2088 D FileUtils: Rounded bytes from 2593075200 to 4000000000
+11-18 18:40:47.318  6207  6267 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@eb5d36a
+11-18 18:40:47.325  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:47.325  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at ehtr.<init>(:com.google.android.gms@252635038@25.26.35 (260800-783060121):16)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at eibz.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):18)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):267)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:47.325  1349  9079 I SemanticLocation: 	... 19 more
+11-18 18:40:47.326  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:47.326  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):271)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:47.326  1349  9079 I SemanticLocation: 	... 17 more
+11-18 18:40:47.356  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:47.356  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):271)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:47.356  1349  9079 I SemanticLocation: 	... 17 more
+11-18 18:40:47.444  1635  1635 W AiAiVC  : Unexpected capture event type: 11
+11-18 18:40:47.447  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.476  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: PRE_ON_CREATE
+11-18 18:40:47.477  9417  9417 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:40:47.485  9481  9481 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:47.509  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:47.510   592  6316 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:47.519  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: CREATED
+11-18 18:40:47.519  9417  9417 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab11.MainActivity@a20d05c
+11-18 18:40:47.520  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: STARTED
+11-18 18:40:47.520  9417  9417 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab11.MainActivity@a20d05c
+11-18 18:40:47.521  9417  9417 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:40:47.523  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: RESUMED
+11-18 18:40:47.523  9417  9417 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab11.MainActivity@a20d05c
+11-18 18:40:47.552  1635  1635 W AiAiVC  : Unexpected capture event type: 11
+11-18 18:40:47.599  1611  1611 D WM-DelayedWorkTracker: Scheduling work 1d56e270-e34a-4df6-b3c4-4ded795d349f
+11-18 18:40:47.600  1611  1611 D WM-GreedyScheduler: Starting tracking for 1d56e270-e34a-4df6-b3c4-4ded795d349f
+11-18 18:40:47.602  1611  1730 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:40:47.603  1611  1730 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:40:47.604  6207  6267 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@d983a95
+11-18 18:40:47.606  1611  1730 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=1d56e270-e34a-4df6-b3c4-4ded795d349f, generation=0)
+11-18 18:40:47.610  9481  9481 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@67447f0
+11-18 18:40:47.617  9481  9481 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:40:47.620  1611  1730 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=1d56e270-e34a-4df6-b3c4-4ded795d349f, generation=0)
+11-18 18:40:47.621   607   666 I ActivityTaskManager: Displayed com.university.lab11/.MainActivity for user 0: +349ms
+11-18 18:40:47.626  1253  1253 D RecentsView: onTaskRemoved: 68, not handling task stack changes
+11-18 18:40:47.626  1253  1253 D RecentsView: onTaskRemoved: 68, not handling task stack changes
+11-18 18:40:47.634  1611  1611 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=1d56e270-e34a-4df6-b3c4-4ded795d349f, generation=0)
+11-18 18:40:47.636  1611  1611 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:40:47.637  1611  6202 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:40:47.637  1611  1716 D WM-Processor: Work WorkGenerationalId(workSpecId=1d56e270-e34a-4df6-b3c4-4ded795d349f, generation=0) is already enqueued for processing
+11-18 18:40:47.637  1611  6202 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@f86bd65[Not completed, 1 dependents]. Future map: {1d56e270-e34a-4df6-b3c4-4ded795d349f=java.util.concurrent.CompletableFuture@f86bd65[Not completed, 1 dependents]}
+11-18 18:40:47.637  1611  6202 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:40:47.637  1611  6202 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:40:47.637   607   768 I ImeTracker: com.university.lab11:1405b824: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:47.638  9417  9417 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:40:47.638  9417  9417 I ImeTracker: com.university.lab11:1405b824: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:40:47.641  1611  6202 D PickerSyncController:    Latest ID/Gen=c1ab4cbae5f10000:external_primary/389
+11-18 18:40:47.641  1611  6202 D PickerSyncController:    Cached ID/Gen=c1ab4cbae5f10000:external_primary/378
+11-18 18:40:47.641  1611  6202 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=378, latest=Bundle[{last_media_sync_generation=389, media_collection_id=c1ab4cbae5f10000:external_primary}], pageSize=1000}
+11-18 18:40:47.641  1611  6202 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:47.641  1611  6202 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:47.641  1611  6202 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-12]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.653  1611  6202 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.653  1611  6202 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:40:47.677   607  2084 I ImeTracker: system_server:7f36b1fe: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:40:47.681  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:40:47.684   607   669 I ImeTracker: system_server:7f36b1fe: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:47.685  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:40:47.686  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab11, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:47.689  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:40:47.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:40:47.698  9417  9417 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230829/com.university.lab11:id/button_xml>
+11-18 18:40:47.702  1611  6202 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:47.702  1611  6202 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-12]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.702  1611  6202 D PickerSyncController: Saving next page token: 1795027246000|63 for key: local_provider:media_add:resume
+11-18 18:40:47.702  1611  6202 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.706  1611  6202 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:47.709  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:47.709  1611  6202 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:47.709  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:47.709  1611  6202 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:47.709  1611  6202 D ExternalDbFacade: Token received for queryMedia = 1795027246000|63
+11-18 18:40:47.710  1611  6202 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:47.710  1611  6202 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-12]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.710  1611  6202 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:40:47.710  1611  6202 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.710  1611  6202 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:47.716  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:47.716  1611  6202 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:47.720  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:47.720  1611  6202 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:47.720  1611  6202 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027246000|63, android.provider.extra.SYNC_GENERATION=378, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:40:47.721  1611  6202 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:40:47.721  1611  6202 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:47.721  1611  6202 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-12]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.721  1611  6202 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.721  1611  6202 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:40:47.721  1611  6202 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Locked by thread pool-4-thread-12]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.721  1611  6202 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:40:47.721  1611  6202 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@e66ab6[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:40:47.721  1611  6202 D PickerNotificationSender: Sending a notification for media update
+11-18 18:40:47.723  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:40:47.723  1611  6202 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:40:47.724  1611  6202 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:40:47.724  1611  6202 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:40:47.725  1611  6202 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027246000|63, android.provider.extra.SYNC_GENERATION=378, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:40:47.726  1611  6202 I PickerSyncTracker: Marked sync future complete for work id: 1d56e270-e34a-4df6-b3c4-4ded795d349f. Future map: {}
+11-18 18:40:47.726  1611  6202 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:40:47.727  1611  1716 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1d56e270-e34a-4df6-b3c4-4ded795d349f, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:40:47.727  1611  1611 D WM-Processor: Processor 1d56e270-e34a-4df6-b3c4-4ded795d349f executed; reschedule = false
+11-18 18:40:47.727  1611  1611 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=1d56e270-e34a-4df6-b3c4-4ded795d349f, generation=0)
+11-18 18:40:47.727  1611  1611 D WM-SystemJobService: 1d56e270-e34a-4df6-b3c4-4ded795d349f executed on JobScheduler
+11-18 18:40:47.736  1611  1716 D WM-GreedyScheduler: Cancelling work ID 1d56e270-e34a-4df6-b3c4-4ded795d349f
+11-18 18:40:47.736  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: c0719b70-592d-4738-a9f5-f9dc1ee20885}. Requires device idle.
+11-18 18:40:47.736  1611  1716 D WM-GreedyScheduler: Ignoring {WorkSpec: d8815b2e-bc99-40d5-84ae-5fe9173b05e4}. Requires device idle.
+11-18 18:40:47.737  1611  1730 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:40:47.752   607  2091 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:47.755  1013  1013 I ndroid.systemui: AssetManager2(0x70339c2534d8) locale list changing from [] to [en-US]
+11-18 18:40:47.765  1013  1013 I ndroid.systemui: AssetManager2(0x70339c257998) locale list changing from [] to [en-US]
+11-18 18:40:47.789  1635  1635 W AiAiVC  : Unexpected capture event type: 11
+11-18 18:40:47.999  9417  9417 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "[Intents, Services, Web services]"}' assertion on view view.getId() is <2131231110/com.university.lab11:id/resultView>
+11-18 18:40:48.002   607   997 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10241, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:48.006  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{d233873 V.E...... ......ID 0,0-0,0}
+11-18 18:40:48.006  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:48.006  1013  1113 D SplashScreenView: Branding: view: android.view.View{f244330 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:48.006  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: PAUSED
+11-18 18:40:48.006  9417  9417 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab11.MainActivity@a20d05c
+11-18 18:40:48.008  9481  9495 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:40:48.009  9481  9495 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:40:48.019  9481  9495 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:48.020  9481  9481 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:40:48.022   592  6316 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:48.044   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:48.119  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:48.132  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:48.138  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.139  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.140  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:48.143  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:48.146  4144  4144 E adservices: Measurement API is disabled
+11-18 18:40:48.146  4144  4144 E adservices: Measurement API is disabled
+11-18 18:40:48.148  6207  6312 E adservices: Failed to bind to measurement service: com.android.adservices.shared.common.exception.ServiceUnavailableException: Service is not available.
+11-18 18:40:48.154  6207  6207 W HWUI    : Image decoding logging dropped!
+11-18 18:40:48.156  6207  6243 W JobInfo : Requested important-while-foreground flag for job2024 is ignored and takes no effect
+11-18 18:40:48.162  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.162   607  2084 D ConnectivityService: requestNetwork for uid/pid:10161/6207 activeRequest: null callbackRequest: 262 [NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+11-18 18:40:48.163   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:48.163   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:48.163   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:48.163   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:48.163   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=263, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10161 RequestorUid: 10161 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ]
+11-18 18:40:48.163   607   922 D ConnectivityService: NetReassign [263 : null → 100] [c 0] [a 1] [i 0]
+11-18 18:40:48.168  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.169   607   997 D FileUtils: Rounded bytes from 2593075200 to 4000000000
+11-18 18:40:48.186  6207  6234 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:48.192  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:48.192  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at ehtr.<init>(:com.google.android.gms@252635038@25.26.35 (260800-783060121):16)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at eibz.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):18)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):267)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:48.192  1349  9079 I SemanticLocation: 	... 19 more
+11-18 18:40:48.197  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:48.197  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):271)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):70)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:48.197  1349  9079 I SemanticLocation: 	... 17 more
+11-18 18:40:48.247  1349  9079 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+11-18 18:40:48.247  1349  9079 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:773)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at ehug.f(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at ehug.k(:com.google.android.gms@252635038@25.26.35 (260800-783060121):7)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at ehtr.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):61)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at eiax.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):271)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at azpj.c(:com.google.android.gms@252635038@25.26.35 (260800-783060121):50)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at azpj.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):89)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at azva.run(:com.google.android.gms@252635038@25.26.35 (260800-783060121):8)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8953)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+11-18 18:40:48.247  1349  9079 I SemanticLocation: 	... 17 more
+11-18 18:40:48.322  9417  9519 D ProfileInstaller: Installing profile for com.university.lab11
+11-18 18:40:48.914  6207  6374 I HWUI    : Davey! duration=747ms; Flags=1, FrameTimelineVsyncId=47139, IntendedVsync=472894217061, Vsync=472927550393, InputEventId=0, HandleInputStart=472941430587, AnimationStart=472941430997, PerformTraversalsStart=472941518403, DrawStart=473016346869, FrameDeadline=472910883727, FrameStartTime=472941428574, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=473018814142, SyncStart=473055030395, IssueDrawCommandsStart=473058305917, SwapBuffers=473594323880, FrameCompleted=473677686044, DequeueBufferDuration=1696734, QueueBufferDuration=209077, GpuCompleted=473677686044, SwapBuffersCompleted=473677005512, DisplayPresentTime=281483566776321, CommandSubmissionCompleted=473594323880, 
+11-18 18:40:48.917  1635  1635 W AiAiVC  : Unexpected capture event type: 11
+11-18 18:40:48.918  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.936  6207  6207 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+11-18 18:40:48.985  9417  9417 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:48.987  9481  9481 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@c53b811
+11-18 18:40:48.991  9481  9481 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:40:48.992  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: STOPPED
+11-18 18:40:48.992  9417  9417 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab11.MainActivity@a20d05c
+11-18 18:40:48.992  9417  9417 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@51d4de4
+11-18 18:40:48.993  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a20d05c in: DESTROYED
+11-18 18:40:48.993  9417  9417 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:40:48.995  6207  6207 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+11-18 18:40:48.997  9417  9436 I TestRunner: finished: c_xml(com.university.lab11.Lab11Test)

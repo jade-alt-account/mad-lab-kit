@@ -1,0 +1,797 @@
+11-18 18:34:30.123 D/AndroidRuntime( 1631): Shutting down VM
+11-18 18:34:30.130 W/.gms.persisten( 1162): Long monitor contention with owner highpool[2] (2296) at boolean android.app.ActivityThread.releaseProvider(android.content.IContentProvider, boolean)(ActivityThread.java:7029) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 345ms
+11-18 18:34:30.134 W/Looper  (  496): Slow dispatch took 158ms android.fg h=android.os.Handler c=com.android.server.-$$Lambda$NetworkManagementService$YKgmK-4MuJjN-VLuMBhmJy1eWj4@4a89625 m=0
+11-18 18:34:30.140 I/ActivityManager(  496): Start proc 2340:com.android.localtransport/1000 for service {com.android.localtransport/com.android.localtransport.LocalTransportService}
+11-18 18:34:30.141 W/OverlayManager(  496): service 'idmap' died
+11-18 18:34:30.147 I/MicroDetectionState( 1675): Should stop hotword detection immediately - false
+11-18 18:34:30.149 W/BestClock(  496): java.time.DateTimeException: Missing NTP fix
+11-18 18:34:30.152 V/MediaRouter( 1716): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-18 18:34:30.154 W/BestClock(  496): java.time.DateTimeException: Missing NTP fix
+11-18 18:34:30.158 I/AvrcpBrowsedPlayerWrapper(  694): onConnected: com.google.android.youtube is connected
+11-18 18:34:30.158 D/AvrcpBrowsablePlayerConnector(  694): Browse player callback called: package=com.google.android.youtube : status=0
+11-18 18:34:30.158 D/AvrcpBrowsablePlayerConnector(  694): Received a message: msg.what=1
+11-18 18:34:30.158 I/AvrcpBrowsablePlayerConnector(  694): Checking root contents for com.google.android.youtube
+--
+11-18 18:35:06.724 D/AndroidRuntime( 4436): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:06.730 I/Icing   ( 1748): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:35:06.749 E/libc    ( 4436): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:35:06.749 E/libc    ( 4436): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:35:06.749 I/AndroidRuntime( 4436): Using default boot image
+11-18 18:35:06.751 E/libc    ( 4436): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:35:06.751 I/AndroidRuntime( 4436): Leaving lock profiling enabled
+11-18 18:35:06.751 E/libc    ( 4436): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:35:06.761 I/app_process( 4436): Core platform API reporting enabled, enforcing=false
+11-18 18:35:06.777 W/ogle.android.g( 4438): Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:35:06.777 W/ogle.android.g( 4438): Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:35:06.777 W/ogle.android.g( 4438): Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:35:06.821 W/aeqo    ( 4438): START TRACE Inbox first results loaded <9d27d1cd032e2787000001a1eff0eec5>@66123.602903
+11-18 18:35:06.822 W/aeqo    ( 4438): START TRACE Inbox first avatars loaded <5e86ed115c3da3ee000001a1eff0eec6>@66123.718038
+11-18 18:35:06.829 W/Gmail   ( 4438): AccountUtils:For b/73513912, load account content://com.google.android.gm.sapi/account.-2137146394 from MailAppProvider. Is account valid result: 1.
+11-18 18:35:06.832 W/Gmail   ( 4438): AccountUtils:For b/73513912, load account content://com.google.android.gm.email.provider/account.-437561172?suppress_combined%3Dtrue from MailAppProvider. Is account valid result: 1.
+11-18 18:35:06.845 D/PackageManager(  496): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-18 18:35:06.845 D/PackageManager(  496): Clear ephemeral installer activity
+11-18 18:35:06.847 D/PackageManager(  496): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+--
+11-18 18:35:07.011 D/AndroidRuntime( 4436): Calling main entry com.android.commands.am.Am
+11-18 18:35:07.018 I/ActivityManager(  496): Force stopping com.university.jsnippets appid=10167 user=0: start instr
+11-18 18:35:07.030 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10167; state: DISABLED
+11-18 18:35:07.030 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10167; state: ENABLED
+11-18 18:35:07.040 D/Zygote  (  286): Forked child process 4494
+11-18 18:35:07.042 I/ActivityManager(  496): Start proc 4494:com.university.jsnippets/u0a167 for added application com.university.jsnippets
+11-18 18:35:07.044 W/ActivityManager(  496): Unable to start service Intent { cmp=com.google.android.gm/com.android.email.service.AttachmentService } U=0: not found
+11-18 18:35:07.050 I/rsity.jsnippet( 4494): Late-enabling -Xcheck:jni
+11-18 18:35:07.067 I/rsity.jsnippet( 4494): Unquickening 12 vdex files!
+11-18 18:35:07.069 W/rsity.jsnippet( 4494): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:07.076 I/adbd    (  401): jdwp connection from 4494
+11-18 18:35:07.186 W/Looper  (  496): Slow dispatch took 109ms main h=com.android.server.job.controllers.QuotaController$QcHandler c=null m=3
+11-18 18:35:07.186 W/Looper  (  496): Slow dispatch took 109ms android.fg h=com.android.server.AppStateTracker$MyHandler c=null m=0
+--
+11-18 18:35:08.566 D/AndroidRuntime( 4696): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:08.568 E/libc    ( 4696): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:35:08.568 E/libc    ( 4696): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:35:08.568 I/AndroidRuntime( 4696): Using default boot image
+11-18 18:35:08.568 E/libc    ( 4696): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:35:08.568 I/AndroidRuntime( 4696): Leaving lock profiling enabled
+11-18 18:35:08.568 E/libc    ( 4696): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:35:08.569 I/app_process( 4696): Core platform API reporting enabled, enforcing=false
+11-18 18:35:08.578 I/libprocessgroup(  496): Successfully killed process cgroup uid 10091 pid 3534 in 135ms
+11-18 18:35:08.590 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10117; state: DISABLED
+11-18 18:35:08.590 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10117; state: DISABLED
+11-18 18:35:08.596 D/Zygote  (  286): Forked child process 4703
+11-18 18:35:08.597 I/ActivityManager(  496): Start proc 4703:com.google.android.projection.gearhead:shared/u0a117 for broadcast {com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.FzeroReceiver}
+11-18 18:35:08.608 I/BugleRcsEngine( 2722): [100] xdj.a: Deleted transfers file: false
+11-18 18:35:08.608 I/DynamiteLoaderV2( 4567): [70] Googlecertificates
+11-18 18:35:08.610 I/RcsProvisioning( 2722): Failed to read config: no config found /data/user/0/com.google.android.apps.messaging/files/rcsconfig: open failed: ENOENT (No such file or directory)
+11-18 18:35:08.615 D/app_process( 4696): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:35:08.615 D/app_process( 4696): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+--
+11-18 18:35:08.645 D/AndroidRuntime( 4696): Calling main entry com.android.commands.content.Content
+11-18 18:35:08.650 I/gearhead:share( 4703): The ClassLoaderContext is a special shared library.
+11-18 18:35:08.651 D/nativeloader( 4703): classloader namespace configured for unbundled product apk. library_path=/product/priv-app/AndroidAutoFullPrebuilt/lib/x86_64:/product/priv-app/AndroidAutoFullPrebuilt/AndroidAutoFullPrebuilt.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:35:08.652 D/AndroidRuntime( 4696): Shutting down VM
+11-18 18:35:08.653 W/.android.chrom( 4567): Unsupported class loader
+11-18 18:35:08.661 I/SP      ( 1326): Sync for emoji succeeded in 808 ms: {added: [7b9ddb0b8c001e17cee03b1edf554b20], metadata: false
+11-18 18:35:08.663 D/NetworkSecurityConfig( 4703): No Network Security Config specified, using platform default
+11-18 18:35:08.666 D/NetworkSecurityConfig( 4703): No Network Security Config specified, using platform default
+11-18 18:35:08.670 I/SP      ( 1326): GC for 'emoji' (10) with ttl of 0 ms took 0 ms (0/0/0)
+11-18 18:35:08.674 I/EmojiSuperpacksManager( 1326): EmojiSuperpacksManager.processPackSet():492 processPackSet() : isBundled = false
+11-18 18:35:08.680 I/MultiDex( 4703): VM with version 2.1.0 has multidex support
+11-18 18:35:08.680 I/MultiDex( 4703): install
+11-18 18:35:08.680 I/MultiDex( 4703): VM has multidex support, MultiDex support library is disabled.
+11-18 18:35:08.687 W/Primes  ( 4703): Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+11-18 18:35:08.688 I/CAR.GH  ( 4703): onCreate
+11-18 18:35:08.699 W/gearhead:share( 4703): Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+--
+11-18 18:35:10.408 I/AndroidRuntime( 4436): VM exiting with result code 0.
+11-18 18:35:10.409 I/Vision  ( 1748): Requesting optional module download of ocr.
+11-18 18:35:10.414 D/Zygote  (  287): Forked child process 4928
+11-18 18:35:10.419 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 4494
+11-18 18:35:10.420 I/NetRec  ( 1162): [234] ClearDatabaseService.onHandleIntent: Clearing score cache
+11-18 18:35:10.423 I/ActivityManager(  496): Start proc 4928:com.google.android.videos/u0a142 for broadcast {com.google.android.videos/com.google.android.apps.play.movies.common.service.pinning.TransferService$Receiver}
+11-18 18:35:10.441 I/CheckinRequestBuilder( 1748): Checkin reason type: 1 attempt count: 1 [CONTEXT service_id=130 ]
+11-18 18:35:10.441 W/.android.video( 4928): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:10.444 I/adbd    (  401): jdwp connection from 4928
+11-18 18:35:10.446 I/Wear_Controller( 1748): Wear requires a companion app to be installed.
+11-18 18:35:10.446 I/Wear_Controller( 1748): onStartup - Wear is not available on this device.
+11-18 18:35:10.446 I/libprocessgroup(  496): Successfully killed process cgroup uid 10167 pid 4494 in 88ms
+11-18 18:35:10.447 I/LockboxService( 1162): Completed task: true
+--
+11-18 18:35:22.191 D/AndroidRuntime( 5770): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:22.194 E/libc    ( 5770): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:35:22.194 E/libc    ( 5770): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:35:22.194 I/AndroidRuntime( 5770): Using default boot image
+11-18 18:35:22.194 E/libc    ( 5770): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:35:22.194 I/AndroidRuntime( 5770): Leaving lock profiling enabled
+11-18 18:35:22.194 E/libc    ( 5770): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:35:22.203 I/GCoreUlr( 1162): WorldUpdater:com.google.gservices.intent.action.GSERVICES_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+11-18 18:35:22.206 I/app_process( 5770): Core platform API reporting enabled, enforcing=false
+11-18 18:35:22.216 I/PTCommittedOperation( 1162): Receive new configuration for com.google.android.gms.constellation
+11-18 18:35:22.219 I/ChromeSync( 1748): [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+11-18 18:35:22.220 I/MdiSyncModule( 1748): flag handling is skipping irrelevant intent.
+11-18 18:35:22.220 W/ModuleInitIntentOp( 1748): Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+11-18 18:35:22.224 I/Vision  ( 1748): Requesting optional module download of ocr.
+11-18 18:35:22.224 I/Vision  ( 1748): Checking for download completion for 91681 -- ocr
+11-18 18:35:22.240 I/Auth    ( 1162): [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+11-18 18:35:22.240 I/Auth    ( 1162): [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.admin.DeviceAdminReceiver
+11-18 18:35:22.240 I/Auth    ( 1162): [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+--
+11-18 18:35:22.329 D/AndroidRuntime( 5770): Calling main entry com.android.commands.am.Am
+11-18 18:35:22.331 I/PTCommittedOperation( 1162): Receive new configuration for com.google.android.gms.analytics
+11-18 18:35:22.188 W/app_process( 5770): type=1400 audit(0.0:93): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:35:22.343 I/.gms.persisten( 1162): Background young concurrent copying GC freed 109522(4838KB) AllocSpace objects, 3(124KB) LOS objects, 25% free, 13MB/17MB, paused 7.941ms total 56.466ms
+11-18 18:35:22.345 I/ActivityManager(  496): Force stopping com.university.kbonus appid=10169 user=0: start instr
+11-18 18:35:22.346 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10169; state: DISABLED
+11-18 18:35:22.352 I/GCoreUlr( 1162): DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+11-18 18:35:22.354 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10169; state: ENABLED
+11-18 18:35:22.360 D/Zygote  (  286): Forked child process 5783
+11-18 18:35:22.362 I/ActivityManager(  496): Start proc 5783:com.university.kbonus/u0a169 for added application com.university.kbonus
+11-18 18:35:22.365 I/iversity.kbonu( 5783): Late-enabling -Xcheck:jni
+11-18 18:35:22.373 I/iversity.kbonu( 5783): Unquickening 12 vdex files!
+11-18 18:35:22.374 W/iversity.kbonu( 5783): Unexpected CPU variant for X86 using defaults: x86_64
+--
+11-18 18:35:34.081 I/AndroidRuntime( 5770): VM exiting with result code 0.
+11-18 18:35:34.082 I/ActivityManager(  496): Killing 5783:com.university.kbonus/u0a169 (adj 0): stop com.university.kbonus due to finished inst
+11-18 18:35:34.084 D/HostConnection( 6037): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:35:34.124 I/Zygote  (  286): Process 5783 exited due to signal 9 (Killed)
+11-18 18:35:34.312 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:35:34.317 I/binder  (    0): undelivered transaction 434210, process died.
+11-18 18:35:34.130 I/libprocessgroup(  496): Successfully killed process cgroup uid 10169 pid 5783 in 47ms
+11-18 18:35:34.133 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 5783
+11-18 18:35:34.300 W/ServiceManager(  344): Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10170 pid=6037
+11-18 18:35:34.300 D/PermissionCache(  344): checking android.permission.ACCESS_SURFACE_FLINGER for uid=10170 => denied (207 us)
+11-18 18:35:34.402 D/HostConnection(  496): HostConnection::get() New Host Connection established 0x7366b3065a10, tid 4916
+11-18 18:35:34.420 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:35:34.420 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+--
+11-18 18:35:38.612 D/AndroidRuntime( 6233): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:38.618 E/libc    ( 6233): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:35:38.618 E/libc    ( 6233): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:35:38.618 I/AndroidRuntime( 6233): Using default boot image
+11-18 18:35:38.618 E/libc    ( 6233): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:35:38.618 I/AndroidRuntime( 6233): Leaving lock profiling enabled
+11-18 18:35:38.618 E/libc    ( 6233): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:35:38.620 I/app_process( 6233): Core platform API reporting enabled, enforcing=false
+11-18 18:35:38.680 D/app_process( 6233): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:35:38.680 D/app_process( 6233): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:35:38.685 W/app_process( 6233): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:38.686 I/app_process( 6233): The ClassLoaderContext is a special shared library.
+11-18 18:35:38.693 W/app_process( 6233): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:35:38.696 D/AndroidRuntime( 6233): Calling main entry com.android.commands.am.Am
+11-18 18:35:38.698 I/ActivityManager(  496): Force stopping com.university.lab01 appid=10171 user=0: start instr
+11-18 18:35:38.699 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10171; state: DISABLED
+11-18 18:35:38.699 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10171; state: ENABLED
+11-18 18:35:38.705 D/Zygote  (  286): Forked child process 6246
+11-18 18:35:38.706 I/ActivityManager(  496): Start proc 6246:com.university.lab01/u0a171 for added application com.university.lab01
+11-18 18:35:38.709 I/niversity.lab0( 6246): Late-enabling -Xcheck:jni
+11-18 18:35:38.718 I/niversity.lab0( 6246): Unquickening 12 vdex files!
+11-18 18:35:38.719 W/niversity.lab0( 6246): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:35:38.722 I/adbd    (  401): jdwp connection from 6246
+11-18 18:35:38.814 I/perfetto(  419): probes_producer.cc:329  Producer stop (id=6)
+11-18 18:35:38.815 I/perfetto(  419): ftrace_procfs.cc:183    disabled ftrace
+11-18 18:35:38.816 E/libc    (  420): The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+--
+11-18 18:36:01.076 I/AndroidRuntime( 6233): VM exiting with result code 0.
+11-18 18:36:01.098 I/Zygote  (  286): Process 6246 exited due to signal 9 (Killed)
+11-18 18:36:01.288 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:36:01.297 I/binder  (    0): undelivered transaction 464250, process died.
+11-18 18:36:01.117 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 6246
+11-18 18:36:01.118 I/libprocessgroup(  496): Successfully killed process cgroup uid 10171 pid 6246 in 44ms
+11-18 18:36:01.131 I/cmd     ( 6443): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:36:01.160 I/cmd     ( 6450): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:36:01.221 I/ActivityManager(  496): Force stopping com.university.lab01 appid=10171 user=-1: deletePackageX
+11-18 18:36:01.223 I/PackageManager(  496): Removing permission com.university.lab01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.university.lab01
+11-18 18:36:01.223 W/PackageManager(  496): Removing dangling permission: com.university.lab01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION from package com.university.lab01
+11-18 18:36:01.223 I/PackageManager(  496): Permission ownership changed. Updating all permissions.
+11-18 18:36:01.259 I/keystore(  431): clear_uid 10171
+--
+11-18 18:36:04.805 D/AndroidRuntime( 6557): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:04.806 E/libc    ( 6557): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:36:04.806 E/libc    ( 6557): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:36:04.806 I/AndroidRuntime( 6557): Using default boot image
+11-18 18:36:04.806 E/libc    ( 6557): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:36:04.806 I/AndroidRuntime( 6557): Leaving lock profiling enabled
+11-18 18:36:04.806 E/libc    ( 6557): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:36:04.807 I/app_process( 6557): Core platform API reporting enabled, enforcing=false
+11-18 18:36:04.843 D/app_process( 6557): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:36:04.844 D/app_process( 6557): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:36:04.847 W/app_process( 6557): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:04.847 I/app_process( 6557): The ClassLoaderContext is a special shared library.
+11-18 18:36:04.857 W/app_process( 6557): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:36:04.861 D/AndroidRuntime( 6557): Calling main entry com.android.commands.am.Am
+11-18 18:36:04.863 I/ActivityManager(  496): Force stopping com.university.lab02 appid=10173 user=0: start instr
+11-18 18:36:04.864 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10173; state: DISABLED
+11-18 18:36:04.865 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10173; state: ENABLED
+11-18 18:36:04.869 D/Zygote  (  286): Forked child process 6570
+11-18 18:36:04.870 I/ActivityManager(  496): Start proc 6570:com.university.lab02/u0a173 for added application com.university.lab02
+11-18 18:36:04.873 I/niversity.lab0( 6570): Late-enabling -Xcheck:jni
+11-18 18:36:04.882 I/niversity.lab0( 6570): Unquickening 12 vdex files!
+11-18 18:36:04.882 W/niversity.lab0( 6570): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:04.886 I/adbd    (  401): jdwp connection from 6570
+11-18 18:36:05.184 W/niversity.lab0( 6570): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:36:05.185 W/niversity.lab0( 6570): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:36:05.187 D/NetworkSecurityConfig( 6570): No Network Security Config specified, using platform default
+--
+11-18 18:36:13.428 I/AndroidRuntime( 6557): VM exiting with result code 0.
+11-18 18:36:13.464 W/NotificationService(  496): Toast already killed. pkg=com.university.lab02 token=android.os.BinderProxy@1fde76e
+11-18 18:36:13.679 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:36:13.687 I/binder  (    0): undelivered transaction 495265, process died.
+11-18 18:36:13.691 I/binder  (    0): undelivered transaction 495313, process died.
+11-18 18:36:13.504 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:36:13.504 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:36:13.504 E/Layer   (  344): [Surface(name=Task=19)/@0xe719221 - animation-leash#0] No local sync point found
+11-18 18:36:13.504 E/Layer   (  344): [Surface(name=Task=19)/@0xe719221 - animation-leash#0] No local sync point found
+11-18 18:36:13.505 I/Zygote  (  286): Process 6570 exited due to signal 9 (Killed)
+11-18 18:36:13.698 I/binder  (    0): undelivered transaction 495315, process died.
+11-18 18:36:13.514 I/libprocessgroup(  496): Successfully killed process cgroup uid 10173 pid 6570 in 86ms
+11-18 18:36:13.709 I/binder  (    0): undelivered transaction 495311, process died.
+--
+11-18 18:36:17.389 D/AndroidRuntime( 6940): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:17.391 I/ProvidersCache( 5592): Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:36:17.391 E/libc    ( 6940): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:36:17.391 E/libc    ( 6940): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:36:17.391 I/AndroidRuntime( 6940): Using default boot image
+11-18 18:36:17.391 E/libc    ( 6940): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:36:17.391 I/AndroidRuntime( 6940): Leaving lock profiling enabled
+11-18 18:36:17.391 E/libc    ( 6940): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:36:17.393 I/app_process( 6940): Core platform API reporting enabled, enforcing=false
+11-18 18:36:17.439 D/app_process( 6940): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:36:17.439 D/app_process( 6940): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:36:17.444 W/app_process( 6940): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:17.444 I/app_process( 6940): The ClassLoaderContext is a special shared library.
+11-18 18:36:17.454 W/app_process( 6940): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:36:17.457 D/AndroidRuntime( 6940): Calling main entry com.android.commands.am.Am
+11-18 18:36:17.463 I/ActivityManager(  496): Force stopping com.university.lab03 appid=10175 user=0: start instr
+11-18 18:36:17.464 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10175; state: DISABLED
+11-18 18:36:17.465 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10175; state: ENABLED
+11-18 18:36:17.469 D/Zygote  (  286): Forked child process 6953
+11-18 18:36:17.470 I/ActivityManager(  496): Start proc 6953:com.university.lab03/u0a175 for added application com.university.lab03
+11-18 18:36:17.473 I/niversity.lab0( 6953): Late-enabling -Xcheck:jni
+11-18 18:36:17.481 I/niversity.lab0( 6953): Unquickening 12 vdex files!
+11-18 18:36:17.481 W/niversity.lab0( 6953): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:17.485 I/adbd    (  401): jdwp connection from 6953
+11-18 18:36:17.538 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():180 call()
+11-18 18:36:17.538 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:36:17.795 W/niversity.lab0( 6953): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+--
+11-18 18:36:31.779 I/AndroidRuntime( 6940): VM exiting with result code 0.
+11-18 18:36:31.988 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:36:31.993 I/binder  (    0): undelivered transaction 519414, process died.
+11-18 18:36:31.808 I/Zygote  (  286): Process 6953 exited due to signal 9 (Killed)
+11-18 18:36:31.811 I/libprocessgroup(  496): Successfully killed process cgroup uid 10175 pid 6953 in 43ms
+11-18 18:36:32.001 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:36:32.005 I/binder  (    0): undelivered transaction 519388, process died.
+11-18 18:36:31.818 W/InputDispatcher(  496): Attempted to unregister already unregistered input channel '435007f com.university.lab03/com.university.lab03.MainActivity (server)'
+11-18 18:36:31.821 W/ThreadPoolDumper( 1675): Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:36:31.828 W/LocationOracle( 1675): No location history returned by ContextManager
+11-18 18:36:31.829 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 6953
+11-18 18:36:31.829 W/WindowManager(  496): Failed looking up window session=Session{fd2c3cc 6953:u0a10175} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5425 com.android.server.wm.WindowState$DeathRecipient.binderDied:2810 android.os.IBinder$DeathRecipient.binderDied:305 
+11-18 18:36:31.829 I/WindowManager(  496): WIN DEATH: null
+--
+11-18 18:36:35.670 D/AndroidRuntime( 7207): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:35.672 E/libc    ( 7207): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:36:35.672 E/libc    ( 7207): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:36:35.672 I/AndroidRuntime( 7207): Using default boot image
+11-18 18:36:35.672 E/libc    ( 7207): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:36:35.672 I/AndroidRuntime( 7207): Leaving lock profiling enabled
+11-18 18:36:35.672 E/libc    ( 7207): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:36:35.673 I/app_process( 7207): Core platform API reporting enabled, enforcing=false
+11-18 18:36:35.709 D/app_process( 7207): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:36:35.709 D/app_process( 7207): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:36:35.712 W/app_process( 7207): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:35.712 I/app_process( 7207): The ClassLoaderContext is a special shared library.
+11-18 18:36:35.721 W/app_process( 7207): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:36:35.724 D/AndroidRuntime( 7207): Calling main entry com.android.commands.am.Am
+11-18 18:36:35.729 I/ActivityManager(  496): Force stopping com.university.lab04 appid=10177 user=0: start instr
+11-18 18:36:35.730 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10177; state: DISABLED
+11-18 18:36:35.730 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10177; state: ENABLED
+11-18 18:36:35.734 D/Zygote  (  286): Forked child process 7220
+11-18 18:36:35.735 I/ActivityManager(  496): Start proc 7220:com.university.lab04/u0a177 for added application com.university.lab04
+11-18 18:36:35.738 I/niversity.lab0( 7220): Late-enabling -Xcheck:jni
+11-18 18:36:35.745 I/niversity.lab0( 7220): Unquickening 12 vdex files!
+11-18 18:36:35.746 W/niversity.lab0( 7220): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:36:35.748 I/adbd    (  401): jdwp connection from 7220
+11-18 18:36:36.056 W/niversity.lab0( 7220): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:36:36.057 W/niversity.lab0( 7220): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:36:36.059 D/NetworkSecurityConfig( 7220): No Network Security Config specified, using platform default
+--
+11-18 18:37:20.444 I/AndroidRuntime( 7207): VM exiting with result code 0.
+11-18 18:37:20.453 I/Dialer  ( 2119): OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+11-18 18:37:20.453 I/Dialer  ( 2119): OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+11-18 18:37:20.453 I/Dialer  ( 2119): OldMainActivityPeer.showVoicemail - showing Tab:true
+11-18 18:37:20.463 D/HostConnection(  496): HostConnection::get() New Host Connection established 0x7366b3060610, tid 4916
+11-18 18:37:20.466 D/HostConnection(  496): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:20.468 D/EGL_emulation(  496): eglCreateContext: 0x7366a3160f00: maj 3 min 0 rcv 3
+11-18 18:37:20.471 D/EGL_emulation(  496): eglMakeCurrent: 0x7366a3160f00: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:20.475 I/Dialer  ( 2119): NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{7a02725 id=0}
+11-18 18:37:20.487 I/Dialer  ( 2119): ShortcutRefresher.Task.doInBackground - enter
+11-18 18:37:20.487 I/Dialer  ( 2119): DynamicShortcuts.refresh - enter
+11-18 18:37:20.662 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:37:20.684 I/binder_alloc(    0): 7220: binder_alloc_buf, no vma
+--
+11-18 18:37:23.986 D/AndroidRuntime( 7894): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:23.989 E/libc    ( 7894): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:37:23.989 E/libc    ( 7894): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:37:23.989 I/AndroidRuntime( 7894): Using default boot image
+11-18 18:37:23.989 E/libc    ( 7894): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:37:23.989 I/AndroidRuntime( 7894): Leaving lock profiling enabled
+11-18 18:37:23.989 E/libc    ( 7894): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:37:23.990 I/app_process( 7894): Core platform API reporting enabled, enforcing=false
+11-18 18:37:24.036 D/app_process( 7894): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:37:24.036 D/app_process( 7894): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:37:24.043 W/app_process( 7894): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:37:24.043 I/app_process( 7894): The ClassLoaderContext is a special shared library.
+11-18 18:37:24.053 W/app_process( 7894): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:37:24.056 D/AndroidRuntime( 7894): Calling main entry com.android.commands.am.Am
+11-18 18:37:24.059 I/ActivityManager(  496): Force stopping com.university.lab05 appid=10179 user=0: start instr
+11-18 18:37:24.060 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10179; state: DISABLED
+11-18 18:37:24.060 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10179; state: ENABLED
+11-18 18:37:24.064 D/Zygote  (  286): Forked child process 7907
+11-18 18:37:24.065 I/ActivityManager(  496): Start proc 7907:com.university.lab05/u0a179 for added application com.university.lab05
+11-18 18:37:24.068 I/niversity.lab0( 7907): Late-enabling -Xcheck:jni
+11-18 18:37:24.078 I/niversity.lab0( 7907): Unquickening 12 vdex files!
+11-18 18:37:24.079 W/niversity.lab0( 7907): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:37:24.081 I/adbd    (  401): jdwp connection from 7907
+11-18 18:37:24.468 W/niversity.lab0( 7907): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:37:24.468 W/niversity.lab0( 7907): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:37:24.470 D/NetworkSecurityConfig( 7907): No Network Security Config specified, using platform default
+--
+11-18 18:37:39.865 E/AndroidRuntime(  712): FATAL EXCEPTION: SysUiBg
+11-18 18:37:39.865 E/AndroidRuntime(  712): Process: com.android.systemui, PID: 712
+11-18 18:37:39.865 E/AndroidRuntime(  712): java.lang.IllegalStateException: should be called from the main thread. sMainLooper.threadName=main Thread.currentThread()=SysUiBg
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.systemui.util.Assert.isMainThread(Assert.java:40)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.keyguard.KeyguardUpdateMonitor.registerCallback(KeyguardUpdateMonitor.java:2593)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.google.android.systemui.assist.AssistManagerGoogle.<init>(AssistManagerGoogle.java:114)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.provideInstance(AssistManagerGoogle_Factory.java:181)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.get(AssistManagerGoogle_Factory.java:117)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.google.android.systemui.assist.AssistManagerGoogle_Factory.get(AssistManagerGoogle_Factory.java:28)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.handleNotificationClickAfterPanelCollapsed(StatusBarNotificationActivityStarter.java:370)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.lambda$handleNotificationClickAfterKeyguardDismissed$1(StatusBarNotificationActivityStarter.java:297)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.systemui.statusbar.phone.StatusBarNotificationActivityStarter.lambda$handleNotificationClickAfterKeyguardDismissed$1$StatusBarNotificationActivityStarter(Unknown Source:0)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at com.android.systemui.statusbar.phone.-$$Lambda$StatusBarNotificationActivityStarter$7mfSGy2G6exE-3cGRoA3iww8GIU.run(Unknown Source:16)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:37:39.865 E/AndroidRuntime(  712): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-18 18:37:39.867 I/DropBoxManagerService(  496): add tag=system_app_crash isTagEnabled=true flags=0x2
+11-18 18:37:39.869 W/BroadcastQueue(  496): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-18 18:37:39.869 W/BroadcastQueue(  496): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-18 18:37:39.870 I/Process (  712): Sending signal. PID: 712 SIG: 9
+11-18 18:37:39.882 W/InputDispatcher(  496): channel 'e2acd05 com.android.systemui.ImageWallpaper (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-18 18:37:39.883 E/InputDispatcher(  496): channel 'e2acd05 com.android.systemui.ImageWallpaper (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-18 18:37:39.883 W/InputDispatcher(  496): channel 'c3bf18a StatusBar (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-18 18:37:39.883 E/InputDispatcher(  496): channel 'c3bf18a StatusBar (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-18 18:37:39.883 E/FingerprintService(  496): Lockout reset callback binder died
+11-18 18:37:39.884 I/ActivityManager(  496): Process com.android.systemui (pid 712) has died: pers PER 
+11-18 18:37:39.884 I/WindowManager(  496): WIN DEATH: Window{e2acd05 u0 com.android.systemui.ImageWallpaper}
+11-18 18:37:39.884 W/InputDispatcher(  496): Attempted to unregister already unregistered input channel 'e2acd05 com.android.systemui.ImageWallpaper (server)'
+--
+11-18 18:37:43.677 I/AndroidRuntime( 7894): VM exiting with result code 0.
+11-18 18:37:43.680 D/HostConnection(  496): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:43.688 I/BgTaskExecutorImpl( 1675): Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:37:43.884 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:37:43.886 I/binder  (    0): undelivered transaction 601698, process died.
+11-18 18:37:43.696 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 7907
+11-18 18:37:43.698 I/Zygote  (  286): Process 7907 exited due to signal 9 (Killed)
+11-18 18:37:43.700 E/MDD     ( 1675): DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-18 18:37:43.702 I/TngMinusOneSync( 1675): Syncing TNG:-1
+11-18 18:37:43.736 I/libprocessgroup(  496): Successfully killed process cgroup uid 10179 pid 7907 in 86ms
+11-18 18:37:43.761 I/cmd     ( 8124): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:43.822 I/ActivityManager(  496): Force stopping com.university.lab05 appid=10179 user=-1: deletePackageX
+11-18 18:37:43.826 I/PackageManager(  496): Removing permission com.university.lab05.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.university.lab05
+--
+11-18 18:37:47.947 D/AndroidRuntime( 8233): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:47.949 E/libc    ( 8233): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:37:47.950 E/libc    ( 8233): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:37:47.950 I/AndroidRuntime( 8233): Using default boot image
+11-18 18:37:47.950 E/libc    ( 8233): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:37:47.950 I/AndroidRuntime( 8233): Leaving lock profiling enabled
+11-18 18:37:47.950 E/libc    ( 8233): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:37:47.951 I/app_process( 8233): Core platform API reporting enabled, enforcing=false
+11-18 18:37:47.991 D/app_process( 8233): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:37:47.991 D/app_process( 8233): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:37:47.994 W/app_process( 8233): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:37:47.995 I/app_process( 8233): The ClassLoaderContext is a special shared library.
+11-18 18:37:48.002 W/app_process( 8233): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:37:48.005 D/AndroidRuntime( 8233): Calling main entry com.android.commands.am.Am
+11-18 18:37:48.009 I/ActivityManager(  496): Force stopping com.university.lab06 appid=10181 user=0: start instr
+11-18 18:37:48.011 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10181; state: DISABLED
+11-18 18:37:48.011 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10181; state: ENABLED
+11-18 18:37:48.015 D/Zygote  (  286): Forked child process 8246
+11-18 18:37:48.015 I/ActivityManager(  496): Start proc 8246:com.university.lab06/u0a181 for added application com.university.lab06
+11-18 18:37:48.017 I/niversity.lab0( 8246): Late-enabling -Xcheck:jni
+11-18 18:37:48.026 I/niversity.lab0( 8246): Unquickening 12 vdex files!
+11-18 18:37:48.026 W/niversity.lab0( 8246): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:37:48.031 I/adbd    (  401): jdwp connection from 8246
+11-18 18:37:48.044 I/niversity.lab0( 8246): The ClassLoaderContext is a special shared library.
+11-18 18:37:48.352 W/niversity.lab0( 8246): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:37:48.352 W/niversity.lab0( 8246): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+--
+11-18 18:37:56.764 I/AndroidRuntime( 8233): VM exiting with result code 0.
+11-18 18:37:56.954 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:37:56.957 I/binder  (    0): undelivered transaction 626865, process died.
+11-18 18:37:56.776 I/Zygote  (  286): Process 8246 exited due to signal 9 (Killed)
+11-18 18:37:56.779 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 8246
+11-18 18:37:56.792 I/libprocessgroup(  496): Successfully killed process cgroup uid 10181 pid 8246 in 45ms
+11-18 18:37:56.828 W/ThreadPoolDumper( 1675): Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:37:56.834 D/HostConnection(  496): HostConnection::get() New Host Connection established 0x7366b3060d90, tid 4916
+11-18 18:37:56.848 D/HostConnection(  496): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:56.851 D/EGL_emulation(  496): eglCreateContext: 0x7366a3137b00: maj 3 min 0 rcv 3
+11-18 18:37:56.852 D/EGL_emulation(  496): eglMakeCurrent: 0x7366a3137b00: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:56.853 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:37:56.853 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+--
+11-18 18:38:00.440 D/AndroidRuntime( 8664): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:00.634 W/audit   (    0): audit_lost=257 audit_rate_limit=5 audit_backlog_limit=64
+11-18 18:38:00.636 E/audit   (    0): rate limit exceeded
+11-18 18:38:00.445 E/libc    ( 8664): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:00.445 E/libc    ( 8664): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:00.445 I/AndroidRuntime( 8664): Using default boot image
+11-18 18:38:00.445 E/libc    ( 8664): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:00.445 I/AndroidRuntime( 8664): Leaving lock profiling enabled
+11-18 18:38:00.445 E/libc    ( 8664): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:00.446 I/app_process( 8664): Core platform API reporting enabled, enforcing=false
+11-18 18:38:00.482 D/app_process( 8664): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:00.482 D/app_process( 8664): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:00.485 W/app_process( 8664): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:00.486 I/app_process( 8664): The ClassLoaderContext is a special shared library.
+11-18 18:38:00.494 W/app_process( 8664): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:00.498 D/AndroidRuntime( 8664): Calling main entry com.android.commands.am.Am
+11-18 18:38:00.502 I/ActivityManager(  496): Force stopping com.university.lab07 appid=10183 user=0: start instr
+11-18 18:38:00.503 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10183; state: DISABLED
+11-18 18:38:00.503 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10183; state: ENABLED
+11-18 18:38:00.509 D/Zygote  (  286): Forked child process 8677
+11-18 18:38:00.510 I/ActivityManager(  496): Start proc 8677:com.university.lab07/u0a183 for added application com.university.lab07
+11-18 18:38:00.513 I/niversity.lab0( 8677): Late-enabling -Xcheck:jni
+11-18 18:38:00.523 I/niversity.lab0( 8677): Unquickening 12 vdex files!
+11-18 18:38:00.524 W/niversity.lab0( 8677): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:00.526 I/adbd    (  401): jdwp connection from 8677
+11-18 18:38:00.543 E/libc    (  420): The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:38:00.694 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():180 call()
+11-18 18:38:00.694 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+--
+11-18 18:38:04.097 D/AndroidRuntime( 8764): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:04.099 E/libc    ( 8764): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:04.099 E/libc    ( 8764): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:04.099 I/AndroidRuntime( 8764): Using default boot image
+11-18 18:38:04.099 E/libc    ( 8764): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:04.099 I/AndroidRuntime( 8764): Leaving lock profiling enabled
+11-18 18:38:04.099 E/libc    ( 8764): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:04.100 I/app_process( 8764): Core platform API reporting enabled, enforcing=false
+11-18 18:38:04.174 D/app_process( 8764): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:04.174 D/app_process( 8764): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:04.177 W/app_process( 8764): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:04.182 I/app_process( 8764): The ClassLoaderContext is a special shared library.
+11-18 18:38:04.192 W/app_process( 8764): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:04.194 D/AndroidRuntime( 8764): Calling main entry com.android.commands.content.Content
+11-18 18:38:04.216 D/CompatibilityChangeReporter( 2119): Compat change id reported: 150939131; UID 10121; state: DISABLED
+11-18 18:38:04.221 D/BluetoothPbapService(  694):  onChange on contact uri 
+11-18 18:38:04.221 D/AndroidRuntime( 8764): Shutting down VM
+11-18 18:38:04.241 D/BluetoothPbapUtils(  694): primaryVersionCounter = 1, secondaryVersionCounter=1
+11-18 18:38:04.332 W/Conscrypt( 1162): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:38:04.333 W/Conscrypt( 1162): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:04.333 W/Conscrypt( 1162): 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:04.488 W/System  ( 8717): A resource failed to call release. 
+11-18 18:38:04.637 I/LABCI   ( 8677): insert contact: 
+11-18 18:38:04.637 D/UiDevice( 8677): Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:38:04.673 D/AndroidRuntime( 8781): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:04.675 E/libc    ( 8781): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:04.675 E/libc    ( 8781): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:04.675 I/AndroidRuntime( 8781): Using default boot image
+11-18 18:38:04.675 E/libc    ( 8781): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:04.675 I/AndroidRuntime( 8781): Leaving lock profiling enabled
+11-18 18:38:04.676 E/libc    ( 8781): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:04.677 I/app_process( 8781): Core platform API reporting enabled, enforcing=false
+11-18 18:38:04.718 D/app_process( 8781): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:04.718 D/app_process( 8781): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:04.721 W/app_process( 8781): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:04.722 I/app_process( 8781): The ClassLoaderContext is a special shared library.
+11-18 18:38:04.728 W/app_process( 8781): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:04.730 D/AndroidRuntime( 8781): Calling main entry com.android.commands.content.Content
+11-18 18:38:04.744 D/BluetoothPbapService(  694):  onChange on contact uri 
+11-18 18:38:04.747 D/AndroidRuntime( 8781): Shutting down VM
+11-18 18:38:04.754 D/BluetoothPbapUtils(  694): primaryVersionCounter = 3, secondaryVersionCounter=3
+11-18 18:38:04.836 W/Conscrypt( 1162): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:38:04.836 W/Conscrypt( 1162): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:04.836 W/Conscrypt( 1162): 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:05.149 W/n       ( 1675): Received update for unknown package com.google.android.googlequicksearchbox
+11-18 18:38:05.151 I/anhw    ( 1162): Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-18 18:38:05.156 I/LABCI   ( 8677): insert contact: 
+11-18 18:38:05.156 D/UiDevice( 8677): Executing shell command: content insert --uri content://com.android.contacts/data --bind raw_contact_id:i:2 --bind mimetype:s:vnd.android.cursor.item/name --bind data1:s:Test_Student
+11-18 18:38:05.157 I/PhenotypeModule( 1326): PhenotypeModule.receiveBroadcast():356 onReceive() urgent = false
+11-18 18:38:05.157 I/PhenotypeModule( 1326): PhenotypeModule.maybeFetchAndUpdate():167 maybeFetchAndUpdate: forceRefresh=false
+11-18 18:38:05.164 I/BgTaskExecutorImpl( 1675): Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-18 18:38:05.202 D/AndroidRuntime( 8797): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:05.203 E/libc    ( 8797): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:05.203 E/libc    ( 8797): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:05.203 I/AndroidRuntime( 8797): Using default boot image
+11-18 18:38:05.203 E/libc    ( 8797): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:05.203 I/AndroidRuntime( 8797): Leaving lock profiling enabled
+11-18 18:38:05.203 E/libc    ( 8797): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:05.204 I/app_process( 8797): Core platform API reporting enabled, enforcing=false
+11-18 18:38:05.213 I/PhenotypeModule( 1326): PhenotypeModule.handlePhenotypeConfigurationUpdates():332 Latency of updating configurations from phenotype (experiment v4): 2
+11-18 18:38:05.213 I/PhenotypeModule( 1326): PhenotypeModule.handlePhenotypeConfigurationUpdates():257 Latency of updating configurations from phenotype (ExperimentV4): 2
+11-18 18:38:05.214 I/PhenotypeModule( 1326): PhenotypeModule.lambda$fetchAndUpdate$3():215 fetchAndUpdate() : Success, hasFlags=true, flagCount=447, lastFetchStatus=November 18, 6:38 PM {reason=2, isFullFetch=false, success=true, isEmpty=false, isDelta=false, updatedFlagsCount=0, deletedFlagsCount=0, totalTime=55}
+11-18 18:38:05.221 W/n       ( 1675): Received update for unknown package com.google.android.libraries.notifications#com.google.android.googlequicksearchbox
+11-18 18:38:05.223 I/EngineIdGenerator( 1675): Refusing EXCLUSIVE task 21, it is already pending. Try again in 359 seconds.
+11-18 18:38:05.236 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10133; state: DISABLED
+11-18 18:38:05.236 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10133; state: ENABLED
+11-18 18:38:05.247 D/app_process( 8797): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:05.247 D/app_process( 8797): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:05.249 D/Zygote  (  286): Forked child process 8801
+--
+11-18 18:38:05.260 D/AndroidRuntime( 8797): Calling main entry com.android.commands.content.Content
+11-18 18:38:05.261 I/adbd    (  401): jdwp connection from 8801
+11-18 18:38:05.268 I/ogle.android.g( 8801): The ClassLoaderContext is a special shared library.
+11-18 18:38:05.271 I/ogle.android.g( 8801): The ClassLoaderContext is a special shared library.
+11-18 18:38:05.272 D/nativeloader( 8801): classloader namespace configured for unbundled product apk. library_path=/product/app/PrebuiltGmail/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:38:05.275 D/BluetoothPbapService(  694):  onChange on contact uri 
+11-18 18:38:05.276 D/AndroidRuntime( 8797): Shutting down VM
+11-18 18:38:05.278 D/NetworkSecurityConfig( 8801): Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.279 D/NetworkSecurityConfig( 8801): Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.200 W/app_process( 8797): type=1400 audit(0.0:525): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.300 E/BluetoothPbapUtils(  694): Null contact in the updateList: 1
+11-18 18:38:05.301 I/system_server(  496): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:05.304 E/BluetoothPbapUtils(  694): Null contact in the updateList: 2
+11-18 18:38:05.304 D/BluetoothPbapUtils(  694): primaryVersionCounter = 5, secondaryVersionCounter=3
+11-18 18:38:05.200 W/app_process( 8797): type=1400 audit(0.0:526): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.373 W/ogle.android.g( 8801): Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:38:05.377 W/ogle.android.g( 8801): Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.377 W/ogle.android.g( 8801): Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.399 I/GeofencerStateMachine( 1162): sendQueryLocationOptIn
+--
+11-18 18:38:05.737 D/AndroidRuntime( 8915): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:05.738 E/libc    ( 8915): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:05.931 W/audit   (    0): audit_lost=274 audit_rate_limit=5 audit_backlog_limit=64
+11-18 18:38:05.933 E/audit   (    0): rate limit exceeded
+11-18 18:38:05.741 E/libc    ( 8915): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:05.741 I/AndroidRuntime( 8915): Using default boot image
+11-18 18:38:05.741 E/libc    ( 8915): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:05.741 I/AndroidRuntime( 8915): Leaving lock profiling enabled
+11-18 18:38:05.741 E/libc    ( 8915): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:05.742 I/app_process( 8915): Core platform API reporting enabled, enforcing=false
+11-18 18:38:05.751 W/ActivityManager(  496): Stopping service due to app idle: u0a139 -1m5s521ms com.google.android.apps.maps/com.google.android.apps.gmm.util.systemhealth.impl.SystemHealthService
+11-18 18:38:05.765 I/CarrierServices( 8867): [124] wdp.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:05.772 D/NetworkSecurityConfig( 1836): Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.773 D/NetworkSecurityConfig( 1836): Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.791 D/app_process( 8915): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:05.791 D/app_process( 8915): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:05.795 W/app_process( 8915): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:05.796 I/app_process( 8915): The ClassLoaderContext is a special shared library.
+11-18 18:38:05.736 W/app_process( 8915): type=1400 audit(0.0:529): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.801 I/Bugle   ( 8867): Initializing EmojiCompat
+--
+11-18 18:38:05.806 D/AndroidRuntime( 8915): Calling main entry com.android.commands.content.Content
+11-18 18:38:05.812 D/AndroidRuntime( 8915): Shutting down VM
+11-18 18:38:05.817 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-18 18:38:05.818 W/PhenotypeToGsaConfigs( 1675): Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+--
+11-18 18:38:12.166 I/AndroidRuntime( 8664): VM exiting with result code 0.
+11-18 18:38:12.373 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:38:12.376 W/binder_cleanup_transaction(    0): 3 callbacks suppressed
+11-18 18:38:12.376 I/binder  (    0): undelivered transaction 662553, process died.
+11-18 18:38:12.189 E/Layer   (  344): [Surface(name=Task=54)/@0x9e2c14e - animation-leash#0] No local sync point found
+11-18 18:38:12.189 E/Layer   (  344): [Surface(name=Task=54)/@0x9e2c14e - animation-leash#0] No local sync point found
+11-18 18:38:12.189 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:38:12.189 E/Layer   (  344): [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:38:12.199 D/HostConnection(  496): HostConnection::get() New Host Connection established 0x7366b305cb90, tid 4916
+11-18 18:38:12.205 D/HostConnection(  496): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:12.207 D/EGL_emulation(  496): eglCreateContext: 0x7366a31494e0: maj 3 min 0 rcv 3
+11-18 18:38:12.208 D/EGL_emulation(  496): eglMakeCurrent: 0x7366a31494e0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:38:12.214 I/Zygote  (  286): Process 8677 exited due to signal 9 (Killed)
+--
+11-18 18:38:16.543 D/AndroidRuntime( 9164): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:16.545 E/libc    ( 9164): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:16.545 E/libc    ( 9164): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:16.545 I/AndroidRuntime( 9164): Using default boot image
+11-18 18:38:16.545 E/libc    ( 9164): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:16.545 I/AndroidRuntime( 9164): Leaving lock profiling enabled
+11-18 18:38:16.545 E/libc    ( 9164): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:16.547 I/app_process( 9164): Core platform API reporting enabled, enforcing=false
+11-18 18:38:16.583 D/app_process( 9164): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:16.583 D/app_process( 9164): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:16.587 W/app_process( 9164): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:16.587 I/app_process( 9164): The ClassLoaderContext is a special shared library.
+11-18 18:38:16.594 W/app_process( 9164): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:16.597 D/AndroidRuntime( 9164): Calling main entry com.android.commands.am.Am
+11-18 18:38:16.599 I/ActivityManager(  496): Force stopping com.university.lab08 appid=10185 user=0: start instr
+11-18 18:38:16.599 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10185; state: DISABLED
+11-18 18:38:16.600 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10185; state: ENABLED
+11-18 18:38:16.603 D/Zygote  (  286): Forked child process 9177
+11-18 18:38:16.604 I/ActivityManager(  496): Start proc 9177:com.university.lab08/u0a185 for added application com.university.lab08
+11-18 18:38:16.606 I/niversity.lab0( 9177): Late-enabling -Xcheck:jni
+11-18 18:38:16.614 I/niversity.lab0( 9177): Unquickening 12 vdex files!
+11-18 18:38:16.615 W/niversity.lab0( 9177): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:16.618 I/adbd    (  401): jdwp connection from 9177
+11-18 18:38:16.640 E/MDD     ( 8867): DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1795027091009
+11-18 18:38:16.641 E/MDD     ( 8867): DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1795027091010
+11-18 18:38:16.643 D/abkp    ( 8867): Starting download: https://www.gstatic.com/messages/smarts/smart_actions_ml_models/emotion_complete_011_confidence.pb
+--
+11-18 18:39:48.286 I/AndroidRuntime( 9164): VM exiting with result code 0.
+11-18 18:39:48.492 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:39:48.495 I/binder  (    0): undelivered transaction 717855, process died.
+11-18 18:39:48.309 I/Zygote  (  286): Process 9177 exited due to signal 9 (Killed)
+11-18 18:39:48.311 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 9177
+11-18 18:39:48.314 D/BufferPoolAccessor2.0( 8018): evictor expired: 3, evicted: 0
+11-18 18:39:48.342 I/cmd     ( 9427): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:48.352 I/libprocessgroup(  496): Successfully killed process cgroup uid 10185 pid 9177 in 88ms
+11-18 18:39:48.369 I/cmd     ( 9434): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:39:48.424 I/ActivityManager(  496): Force stopping com.university.lab08 appid=10185 user=-1: deletePackageX
+11-18 18:39:48.426 I/PackageManager(  496): Removing permission com.university.lab08.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.university.lab08
+11-18 18:39:48.426 W/PackageManager(  496): Removing dangling permission: com.university.lab08.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION from package com.university.lab08
+11-18 18:39:48.426 I/PackageManager(  496): Permission ownership changed. Updating all permissions.
+--
+11-18 18:39:52.162 D/AndroidRuntime( 9581): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:39:52.165 E/libc    ( 9581): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:39:52.165 E/libc    ( 9581): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:39:52.165 I/AndroidRuntime( 9581): Using default boot image
+11-18 18:39:52.165 E/libc    ( 9581): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:39:52.165 I/AndroidRuntime( 9581): Leaving lock profiling enabled
+11-18 18:39:52.165 E/libc    ( 9581): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:39:52.166 I/app_process( 9581): Core platform API reporting enabled, enforcing=false
+11-18 18:39:52.203 D/app_process( 9581): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:39:52.204 D/app_process( 9581): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:39:52.207 W/app_process( 9581): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:39:52.207 I/app_process( 9581): The ClassLoaderContext is a special shared library.
+11-18 18:39:52.214 W/app_process( 9581): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:39:52.216 D/AndroidRuntime( 9581): Calling main entry com.android.commands.am.Am
+11-18 18:39:52.219 I/ActivityManager(  496): Force stopping com.university.lab09 appid=10187 user=0: start instr
+11-18 18:39:52.220 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10187; state: DISABLED
+11-18 18:39:52.220 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10187; state: ENABLED
+11-18 18:39:52.225 D/Zygote  (  286): Forked child process 9594
+11-18 18:39:52.225 I/ActivityManager(  496): Start proc 9594:com.university.lab09/u0a187 for added application com.university.lab09
+11-18 18:39:52.231 I/niversity.lab0( 9594): Late-enabling -Xcheck:jni
+11-18 18:39:52.240 I/niversity.lab0( 9594): Unquickening 12 vdex files!
+11-18 18:39:52.240 W/niversity.lab0( 9594): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:39:52.242 I/adbd    (  401): jdwp connection from 9594
+11-18 18:39:52.550 W/niversity.lab0( 9594): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:39:52.550 W/niversity.lab0( 9594): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:39:52.553 D/NetworkSecurityConfig( 9594): No Network Security Config specified, using platform default
+--
+11-18 18:40:32.619 I/AndroidRuntime( 9581): VM exiting with result code 0.
+11-18 18:40:32.820 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:40:32.822 I/binder  (    0): undelivered transaction 772904, process died.
+11-18 18:40:32.633 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 9594
+11-18 18:40:32.634 I/Zygote  (  286): Process 9594 exited due to signal 9 (Killed)
+11-18 18:40:32.653 I/libprocessgroup(  496): Successfully killed process cgroup uid 10187 pid 9594 in 45ms
+11-18 18:40:32.682 I/cmd     (10029): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:32.749 I/ActivityManager(  496): Force stopping com.university.lab09 appid=10187 user=-1: deletePackageX
+11-18 18:40:32.752 I/PackageManager(  496): Removing permission com.university.lab09.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.university.lab09
+11-18 18:40:32.752 W/PackageManager(  496): Removing dangling permission: com.university.lab09.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION from package com.university.lab09
+11-18 18:40:32.752 I/PackageManager(  496): Permission ownership changed. Updating all permissions.
+11-18 18:40:32.771 I/keystore(  431): clear_uid 10187
+11-18 18:40:32.772 D/PackageManager(  496): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+--
+11-18 18:40:37.192 D/AndroidRuntime(10137): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:40:37.199 E/libc    (10137): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:40:37.199 E/libc    (10137): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:40:37.199 I/AndroidRuntime(10137): Using default boot image
+11-18 18:40:37.199 E/libc    (10137): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:40:37.199 I/AndroidRuntime(10137): Leaving lock profiling enabled
+11-18 18:40:37.199 E/libc    (10137): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:40:37.200 I/app_process(10137): Core platform API reporting enabled, enforcing=false
+11-18 18:40:37.213 I/system_server(  496): Background concurrent copying GC freed 93590(5190KB) AllocSpace objects, 9(308KB) LOS objects, 49% free, 15MB/30MB, paused 28us total 208.712ms
+11-18 18:40:37.256 D/app_process(10137): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:40:37.256 D/app_process(10137): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:40:37.262 W/app_process(10137): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:37.263 I/app_process(10137): The ClassLoaderContext is a special shared library.
+11-18 18:40:37.272 W/app_process(10137): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:40:37.275 D/AndroidRuntime(10137): Calling main entry com.android.commands.am.Am
+11-18 18:40:37.277 I/ActivityManager(  496): Force stopping com.university.lab10 appid=10189 user=0: start instr
+11-18 18:40:37.278 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10189; state: DISABLED
+11-18 18:40:37.278 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10189; state: ENABLED
+11-18 18:40:37.283 D/Zygote  (  286): Forked child process 10150
+11-18 18:40:37.283 I/ActivityManager(  496): Start proc 10150:com.university.lab10/u0a189 for added application com.university.lab10
+11-18 18:40:37.286 I/niversity.lab1(10150): Late-enabling -Xcheck:jni
+11-18 18:40:37.294 I/niversity.lab1(10150): Unquickening 12 vdex files!
+11-18 18:40:37.295 W/niversity.lab1(10150): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:37.298 I/adbd    (  401): jdwp connection from 10150
+11-18 18:40:37.314 W/ActivityThread(10150): Package uses different ABI(s) than its instrumentation: package[com.university.lab10]: x86_64, null instrumentation[com.university.lab10.test]: null, null
+11-18 18:40:37.663 W/niversity.lab1(10150): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:40:37.663 W/niversity.lab1(10150): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+--
+11-18 18:41:27.044 I/AndroidRuntime(10137): VM exiting with result code 0.
+11-18 18:41:27.244 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:41:27.247 I/binder  (    0): undelivered transaction 815107, process died.
+11-18 18:41:27.058 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 10150
+11-18 18:41:27.061 I/Zygote  (  286): Process 10150 exited due to signal 9 (Killed)
+11-18 18:41:27.074 I/libprocessgroup(  496): Successfully killed process cgroup uid 10189 pid 10150 in 44ms
+11-18 18:41:27.105 I/cmd     (10516): oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:41:27.160 I/ActivityManager(  496): Force stopping com.university.lab10 appid=10189 user=-1: deletePackageX
+11-18 18:41:27.165 I/PackageManager(  496): Removing permission com.university.lab10.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.university.lab10
+11-18 18:41:27.166 W/PackageManager(  496): Removing dangling permission: com.university.lab10.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION from package com.university.lab10
+11-18 18:41:27.166 I/PackageManager(  496): Permission ownership changed. Updating all permissions.
+11-18 18:41:27.185 I/keystore(  431): clear_uid 10189
+11-18 18:41:27.186 D/PackageManager(  496): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+--
+11-18 18:41:30.496 D/AndroidRuntime(10675): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:41:30.503 E/libc    (10675): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:41:30.503 E/libc    (10675): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:41:30.503 I/AndroidRuntime(10675): Using default boot image
+11-18 18:41:30.503 E/libc    (10675): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:41:30.503 I/AndroidRuntime(10675): Leaving lock profiling enabled
+11-18 18:41:30.503 E/libc    (10675): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:41:30.506 I/app_process(10675): Core platform API reporting enabled, enforcing=false
+11-18 18:41:30.594 D/app_process(10675): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:41:30.594 D/app_process(10675): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:41:30.600 W/app_process(10675): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:41:30.602 I/app_process(10675): The ClassLoaderContext is a special shared library.
+11-18 18:41:30.610 W/app_process(10675): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:41:30.616 D/AndroidRuntime(10675): Calling main entry com.android.commands.am.Am
+11-18 18:41:30.619 I/ActivityManager(  496): Force stopping com.university.lab11 appid=10191 user=0: start instr
+11-18 18:41:30.620 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10191; state: DISABLED
+11-18 18:41:30.621 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10191; state: ENABLED
+11-18 18:41:30.626 D/Zygote  (  286): Forked child process 10688
+11-18 18:41:30.626 I/ActivityManager(  496): Start proc 10688:com.university.lab11/u0a191 for added application com.university.lab11
+11-18 18:41:30.629 I/niversity.lab1(10688): Late-enabling -Xcheck:jni
+11-18 18:41:30.639 I/niversity.lab1(10688): Unquickening 12 vdex files!
+11-18 18:41:30.640 W/niversity.lab1(10688): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:41:30.644 I/adbd    (  401): jdwp connection from 10688
+11-18 18:41:30.964 W/niversity.lab1(10688): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:41:30.964 W/niversity.lab1(10688): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:41:30.967 D/NetworkSecurityConfig(10688): No Network Security Config specified, using platform default
+--
+11-18 18:41:37.980 I/AndroidRuntime(10675): VM exiting with result code 0.
+11-18 18:41:37.980 W/AudioFlinger(  380): createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:41:37.980 D/AudioFlinger(  380): Client defaulted notificationFrames to 882 for frameCount 1956
+11-18 18:41:37.980 I/ActivityManager(  496): Killing 10688:com.university.lab11/u0a191 (adj 0): stop com.university.lab11 due to finished inst
+11-18 18:41:37.982 D/AF::TrackHandle(  380): OpPlayAudio: track:68 usage:3 not muted
+11-18 18:41:37.982 D/AudioTrack( 2119): createTrack_l(27): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 882 -> 1956
+11-18 18:41:37.983 I/Dialer  ( 2119): MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+11-18 18:41:37.983 I/Dialer  ( 2119): MainCallLogFragmentListener.onActivityResume - enter
+11-18 18:41:37.983 I/Dialer  ( 2119): MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+11-18 18:41:37.983 I/Dialer  ( 2119): MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+11-18 18:41:37.994 I/Dialer  ( 2119): CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+11-18 18:41:37.994 I/Dialer  ( 2119): DialerDatabaseHelper.updateSmartDialDatabase - enter
+11-18 18:41:37.994 I/Dialer  ( 2119): DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+--
+11-18 18:41:41.678 D/AndroidRuntime(10933): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:41:41.680 E/libc    (10933): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:41:41.680 E/libc    (10933): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:41:41.680 I/AndroidRuntime(10933): Using default boot image
+11-18 18:41:41.680 E/libc    (10933): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:41:41.680 I/AndroidRuntime(10933): Leaving lock profiling enabled
+11-18 18:41:41.680 E/libc    (10933): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:41:41.683 I/app_process(10933): Core platform API reporting enabled, enforcing=false
+11-18 18:41:41.728 D/app_process(10933): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:41:41.728 D/app_process(10933): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:41:41.732 W/app_process(10933): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:41:41.733 I/app_process(10933): The ClassLoaderContext is a special shared library.
+11-18 18:41:41.741 W/app_process(10933): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:41:41.744 D/AndroidRuntime(10933): Calling main entry com.android.commands.am.Am
+11-18 18:41:41.746 I/ActivityManager(  496): Force stopping com.university.lab13 appid=10193 user=0: start instr
+11-18 18:41:41.748 D/CompatibilityChangeReporter(  496): Compat change id reported: 135634846; UID 10193; state: DISABLED
+11-18 18:41:41.748 D/CompatibilityChangeReporter(  496): Compat change id reported: 143937733; UID 10193; state: ENABLED
+11-18 18:41:41.752 D/Zygote  (  286): Forked child process 10946
+11-18 18:41:41.753 I/ActivityManager(  496): Start proc 10946:com.university.lab13/u0a193 for added application com.university.lab13
+11-18 18:41:41.756 I/niversity.lab1(10946): Late-enabling -Xcheck:jni
+11-18 18:41:41.765 I/niversity.lab1(10946): Unquickening 12 vdex files!
+11-18 18:41:41.766 W/niversity.lab1(10946): Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:41:41.769 I/adbd    (  401): jdwp connection from 10946
+11-18 18:41:42.081 W/niversity.lab1(10946): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:41:42.081 W/niversity.lab1(10946): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+11-18 18:41:42.084 D/NetworkSecurityConfig(10946): No Network Security Config specified, using platform default
+--
+11-18 18:41:43.069 I/AndroidRuntime(10933): VM exiting with result code 0.
+11-18 18:41:43.070 D/HostConnection(10981): HostConnection::get() New Host Connection established 0x7366b305ad90, tid 11002
+11-18 18:41:43.074 D/HostConnection(10981): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:41:43.076 I/hwservicemanager(  162): getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:41:43.082 D/EGL_emulation(10981): eglCreateContext: 0x7366a307d130: maj 3 min 0 rcv 3
+11-18 18:41:43.085 D/EGL_emulation(10981): eglMakeCurrent: 0x7366a307d130: ver 3 0 (tinfo 0x7366430a4150) (first time)
+11-18 18:41:43.087 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():180 call()
+11-18 18:41:43.087 I/PeriodicStatsRunner( 1326): PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:41:43.101 W/ActivityManager(  496): setHasOverlayUi called on unknown pid: 10946
+11-18 18:41:43.288 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:41:43.291 I/binder  (    0): undelivered transaction 852687, process died.
+11-18 18:41:43.103 I/Zygote  (  286): Process 10946 exited due to signal 9 (Killed)
+11-18 18:41:43.109 I/libprocessgroup(  496): Successfully killed process cgroup uid 10193 pid 10946 in 46ms

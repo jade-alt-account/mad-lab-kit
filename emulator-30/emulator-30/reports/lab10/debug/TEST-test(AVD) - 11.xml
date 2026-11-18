@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="3" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:41:27" hostname="localhost">
+  <testsuite name="com.university.lab10.Lab10Test" tests="3" failures="0" errors="0" skipped="0" time="48.726" timestamp="2026-11-18T18:41:27" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_location" classname="com.university.lab10.Lab10Test" time="17.052" />
+    <testcase name="b_openMaps" classname="com.university.lab10.Lab10Test" time="14.049" />
+    <testcase name="c_mapLibre" classname="com.university.lab10.Lab10Test" time="17.625" />
+  </testsuite>
+</testsuites>

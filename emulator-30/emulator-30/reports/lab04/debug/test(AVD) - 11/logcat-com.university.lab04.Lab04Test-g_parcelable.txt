@@ -1,0 +1,53 @@
+11-18 18:37:19.644  7220  7240 I TestRunner: started: g_parcelable(com.university.lab04.Lab04Test)
+11-18 18:37:19.647  7220  7240 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:19.662   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 3
+11-18 18:37:19.669  7279  7299 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:19.781   344   552 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10178 pid=7279
+11-18 18:37:19.782   344   552 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10178 => denied (217 us)
+11-18 18:37:19.786   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab04.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:19.797   496   536 I ActivityTaskManager: Displayed com.university.lab04.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +210ms
+11-18 18:37:19.808   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 2
+11-18 18:37:19.810  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: PRE_ON_CREATE
+11-18 18:37:19.810  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:37:19.835  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: CREATED
+11-18 18:37:19.835  7220  7220 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab04.MainActivity@8bf1594
+11-18 18:37:19.836  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: STARTED
+11-18 18:37:19.836  7220  7220 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@8bf1594
+11-18 18:37:19.840  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: RESUMED
+11-18 18:37:19.840  7220  7220 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@8bf1594
+11-18 18:37:19.901   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab04/1/com.university.lab04.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:37:19.903   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:19.907   496   536 I ActivityTaskManager: Displayed com.university.lab04/.MainActivity: +239ms
+11-18 18:37:19.942  7220  7220 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230832/com.university.lab04:id/button_profile>
+11-18 18:37:19.986   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:19.988   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 27, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+11-18 18:37:19.988   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=27)
+11-18 18:37:19.988   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:37:19.989   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:19.991  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: PAUSED
+11-18 18:37:19.991  7220  7220 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@8bf1594
+11-18 18:37:20.009  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@d968fe6 in: PRE_ON_CREATE
+11-18 18:37:20.010  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@d968fe6
+11-18 18:37:20.020  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@d968fe6 in: CREATED
+11-18 18:37:20.020  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@d968fe6
+11-18 18:37:20.023  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@d968fe6 in: STARTED
+11-18 18:37:20.023  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@d968fe6
+11-18 18:37:20.024  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@d968fe6 in: RESUMED
+11-18 18:37:20.024  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@d968fe6
+11-18 18:37:20.059   496   536 I ActivityTaskManager: Displayed com.university.lab04/.DetailActivity: +71ms
+11-18 18:37:20.081  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: STOPPED
+11-18 18:37:20.081  7220  7220 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@8bf1594
+11-18 18:37:20.109   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3060610, tid 4916
+11-18 18:37:20.111   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:37:20.113   496  4916 D EGL_emulation: eglCreateContext: 0x7366a311d0c0: maj 3 min 0 rcv 3
+11-18 18:37:20.114   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a311d0c0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:37:20.310  7220  7220 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Profile: Alice"}' assertion on view view.getId() is <2131231209/com.university.lab04:id/text_detail>
+11-18 18:37:20.314   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:37:20.315   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 28, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:4, uid:1071 session name: ""
+11-18 18:37:20.315   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=28)
+11-18 18:37:20.317  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.DetailActivity@d968fe6 in: PAUSED
+11-18 18:37:20.317  7220  7220 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.DetailActivity (has extras) }, activity=com.university.lab04.DetailActivity@d968fe6
+11-18 18:37:20.333  7220  7220 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@8bf1594 in: DESTROYED
+11-18 18:37:20.333  7220  7220 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:37:20.368   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:37:20.374  7220  7240 I TestRunner: finished: g_parcelable(com.university.lab04.Lab04Test)

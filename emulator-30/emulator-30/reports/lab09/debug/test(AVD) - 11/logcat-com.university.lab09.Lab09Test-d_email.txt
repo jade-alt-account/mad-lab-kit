@@ -1,0 +1,301 @@
+11-18 18:40:23.142  9594  9614 I TestRunner: started: d_email(com.university.lab09.Lab09Test)
+11-18 18:40:23.142  9594  9594 I MonitoringInstr: Finishing activity: com.university.lab09.MainActivity@5321a0f
+11-18 18:40:23.145   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:23.146  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@5321a0f in: DESTROYED
+11-18 18:40:23.148   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 46, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:40:23.148  9594  9614 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab09\E']].
+11-18 18:40:23.148  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:40:23.149   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=46)
+11-18 18:40:23.149  2119  2119 I Dialer  : MainSearchController.onActivityPause - enter
+11-18 18:40:23.161  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: PRE_ON_CREATE
+11-18 18:40:23.175   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:40:23.200  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: CREATED
+11-18 18:40:23.202  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: STARTED
+11-18 18:40:23.207  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: RESUMED
+11-18 18:40:23.240   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab09/1/com.university.lab09.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:23.240   496   536 I ActivityTaskManager: Displayed com.university.lab09/.MainActivity: +94ms
+11-18 18:40:23.241   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:23.258  2119  2119 I Dialer  : DialpadFragment.onStop - enter
+11-18 18:40:23.290   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3063b50, tid 4916
+11-18 18:40:23.292  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:40:23.293   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:23.295   496  4916 D EGL_emulation: eglCreateContext: 0x7366a312b450: maj 3 min 0 rcv 3
+11-18 18:40:23.296   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a312b450: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:40:24.834  9594  9614 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QE-mail\E']].
+11-18 18:40:24.834  9594  9614 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QE-mail\E'].
+11-18 18:40:24.840  9594  9614 D UiObject2: Clicking on (60, 356).
+11-18 18:40:24.877   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(34)
+11-18 18:40:24.878   496  1943 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:24.878   496  1943 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:24.880   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:24.881  9594  9614 W GestureController: Gestures took longer than expected (41ms >> 16ms), device might be in a busy state.
+11-18 18:40:24.883  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: PAUSED
+11-18 18:40:24.884   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 47, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:40:24.884   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=47)
+11-18 18:40:24.888   286   286 D Zygote  : Forked child process 9846
+11-18 18:40:24.901  9846  9846 W android:ui: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:24.903   401   415 I adbd    : jdwp connection from 9846
+11-18 18:40:24.913  9846  9846 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:24.913  9846  9846 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:24.919  9846  9866 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:40:24.922  9846  9866 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:40:24.924  9846  9866 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:40:24.930  9846  9846 W ContextImpl: Failed to ensure /data/system/shared_prefs: mkdir failed: EACCES (Permission denied)
+11-18 18:40:24.948  9846  9846 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmailExternal}, intent component: ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmailExternal}
+11-18 18:40:24.960  9846  9846 D ChooserActivity: System Time Cost is 40
+11-18 18:40:24.965   286   286 D Zygote  : Forked child process 9870
+11-18 18:40:24.993  9870  9870 W ogle.android.g: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:24.995   401   415 I adbd    : jdwp connection from 9870
+11-18 18:40:25.006  9870  9870 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.010  9870  9870 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.010  9870  9870 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/PrebuiltGmail/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:40:25.014  9870  9870 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:40:25.015  9870  9870 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:40:25.026  8018  8083 D EglHelper: createEglContext start
+11-18 18:40:25.032  8018  8083 D EGL_emulation: eglCreateContext: 0x7366a30cf510: maj 3 min 0 rcv 3
+11-18 18:40:25.033  8018  8083 D EglHelper: createEglContext done
+11-18 18:40:25.033  8018  8083 D EglHelper: createEglSurface start
+11-18 18:40:25.049  8018  8083 D EglHelper: createEglSurface done
+11-18 18:40:25.107  9870  9894 W ogle.android.g: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:40:25.107  9870  9894 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:40:25.107  9870  9894 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:40:25.151  9870  9901 W aeqo    : START TRACE Inbox first results loaded <df250dc1d306b6ba000001a1eff5ca3f>@384511.077621
+11-18 18:40:25.152  9870  9901 W aeqo    : START TRACE Inbox first avatars loaded <28bd4a1a9d262dd7000001a1eff5ca40>@384512.724916
+11-18 18:40:25.183  9870  9909 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:40:25.201  9870  9909 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:40:25.215  9870  9909 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:40:25.228  1748  2934 I FontsContentProvider: Received query Google Sans:500, URI content://com.google.android.gms.fonts
+11-18 18:40:25.229  1748  2934 I FontsContentProvider: Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false}
+11-18 18:40:25.234  1748  2934 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+11-18 18:40:25.236  1748  2772 I FontsContentProvider: Pulling font file for id = 16, cache size = 7
+11-18 18:40:25.246  1748  2934 I FontsContentProvider: Received query Google Sans:500, URI content://com.google.android.gms.fonts
+11-18 18:40:25.246  1748  2934 I FontsContentProvider: Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false}
+11-18 18:40:25.254  1748  2934 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+11-18 18:40:25.263  1748  1966 I FontsContentProvider: Received query Google Sans, URI content://com.google.android.gms.fonts
+11-18 18:40:25.263  1748  1966 I FontsContentProvider: Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+11-18 18:40:25.264  1748  2772 I FontsContentProvider: Pulling font file for id = 17, cache size = 8
+11-18 18:40:25.265  1748  1966 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+11-18 18:40:25.269  1748  2772 I FontsContentProvider: Pulling font file for id = 18, cache size = 7
+11-18 18:40:25.274  1748  1966 I FontsContentProvider: Received query Google Sans, URI content://com.google.android.gms.fonts
+11-18 18:40:25.274  1748  1966 I FontsContentProvider: Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+11-18 18:40:25.275  1748  1966 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+11-18 18:40:25.278  9870  9870 I TetheringManager: registerTetheringEventCallback:com.google.android.gm
+11-18 18:40:25.283  9870  9870 I WebViewFactory: Loading com.google.android.webview version 83.0.4103.106 (code 410410686)
+11-18 18:40:25.310  1748  2934 I FontsContentProvider: Pulling font file for id = 19, cache size = 6
+11-18 18:40:25.312  9870  9870 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.312  9870  9870 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86_64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86_64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:40:25.314  9870  9870 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.315  9870  9870 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86_64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86_64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:40:25.338  9870  9915 I cr_VariationsUtils: Requesting new seed from IVariationsSeedServer
+11-18 18:40:25.341  9870  9870 I cr_LibraryLoader: Loaded native library version number "83.0.4103.106"
+11-18 18:40:25.341  9870  9870 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+11-18 18:40:25.343   287   287 D Zygote  : Forked child process 9916
+11-18 18:40:25.348  9916  9916 W webview_servic: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:25.351  9870  9870 E chromium: [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/com.google.android.gm/cache/WebView/Crashpad: No such file or directory (2)
+11-18 18:40:25.353   401   415 I adbd    : jdwp connection from 9916
+11-18 18:40:25.360   948   948 D Zygote  : Forked child process 9946
+11-18 18:40:25.363  9916  9916 I webview_servic: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.363  9916  9916 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86:/product/lib:/system/product/lib
+11-18 18:40:25.381  9946  9946 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:40:25.385  9916  9916 I webview_servic: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.385  9916  9916 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86:/product/lib:/system/product/lib
+11-18 18:40:25.389   401   415 I adbd    : jdwp connection from 9946
+11-18 18:40:25.398   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=56, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10133 AdministratorUids: [] RequestorUid: 10133 RequestorPackageName: com.google.android.gm] ] with score 60 and providerId 2
+11-18 18:40:25.398   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=56, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10133 AdministratorUids: [] RequestorUid: 10133 RequestorPackageName: com.google.android.gm] ] with score 60 and providerId 2
+11-18 18:40:25.398  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=56, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10133 AdministratorUids: [] RequestorUid: 10133 RequestorPackageName: com.google.android.gm] ] with score 60 and providerId 2
+11-18 18:40:25.405  9916  9916 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:25.405  9916  9916 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:25.409  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:40:25.409  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@30d1365 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:40:25.411  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:40:25.411  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:40:25.416  9946  9946 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:25.416  9946  9946 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:40:25.421  9946  9946 I cr_ChildProcessService: Creating new ChildProcessService pid=9946
+11-18 18:40:25.453  9870  9904 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+11-18 18:40:25.464  9870  9870 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.sapi/account.-2137146394 from MailAppProvider. Is account valid result: 1.
+11-18 18:40:25.466  9870  9870 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.email.provider/account.-437561172?suppress_combined%3Dtrue from MailAppProvider. Is account valid result: 1.
+11-18 18:40:25.476  9870  9904 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+11-18 18:40:25.490  1162  2010 W Auth    : [AccountStateSyncher] Unable to look up account state from server.
+11-18 18:40:25.490  1162  2010 W Auth    : java.io.IOException: Couldn't create ClientAuthInfo
+11-18 18:40:25.490  1162  2010 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at fyz.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at fye.hasFeatures(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.hasFeatures(AbstractAccountAuthenticator.java:311)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:343)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at csu.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at zww.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:40:25.490  1162  2010 W Auth    : Caused by: gai: Account has no password.
+11-18 18:40:25.490  1162  2010 W Auth    : 	at gaj.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:40:25.490  1162  2010 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:25.490  1162  2010 W Auth    : 	... 10 more
+11-18 18:40:25.490  1162  2010 W GLSActivity: [GmsAccountAuthenticatorImpl] Services not available!
+11-18 18:40:25.494  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: STOPPED
+11-18 18:40:25.509  9846  9846 D ChooserActivity: unbindRemainingServices, 0 left
+11-18 18:40:25.511  1162  2814 W Auth    : [AccountStateSyncher] Unable to look up account state from server.
+11-18 18:40:25.511  1162  2814 W Auth    : java.io.IOException: Couldn't create ClientAuthInfo
+11-18 18:40:25.511  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at fyz.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at fye.hasFeatures(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.hasFeatures(AbstractAccountAuthenticator.java:311)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:343)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at csu.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at zww.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:40:25.511  1162  2814 W Auth    : Caused by: gai: Account has no password.
+11-18 18:40:25.511  1162  2814 W Auth    : 	at gaj.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:40:25.511  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:40:25.511  1162  2814 W Auth    : 	... 10 more
+11-18 18:40:25.512  1162  2814 W GLSActivity: [GmsAccountAuthenticatorImpl] Services not available!
+11-18 18:40:25.522  9870  9870 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm2.accountcache from AccountLoadCallbacks. Is account valid result: 0.
+11-18 18:40:25.527  9870  9870 W Gmail   : EasBundling:ExchangeUpgradeUtils: isExchangeLegacy=false
+11-18 18:40:25.528  9870  9904 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.528  9916  9986 I cr_VariationsUtils: Throttling seed download job
+11-18 18:40:25.540  9916  9986 I cr_VariationsUtils: Writing new seed to app's data directory
+11-18 18:40:25.543  9870  9870 W aeqo    : STOP TRACE <df250dc1d306b6ba000001a1eff5ca3f>
+11-18 18:40:25.543  9870  9870 W aeoo    : CANCELLING TRACING PERIOD
+11-18 18:40:25.543  9870  9870 W aeqo    : Aborting tracing period due to 2!
+11-18 18:40:25.550  9870  9889 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10133; state: ENABLED
+11-18 18:40:25.554   286   286 I Zygote  : Process 7451 exited due to signal 9 (Killed)
+11-18 18:40:25.561  1748  2934 I PeopleChimeraService: onService. callbacks = zup@f03f0fc, request = com.google.android.gms.common.internal.GetServiceRequest@7029385
+11-18 18:40:25.569  9870  9907 D HostConnection: HostConnection::get() New Host Connection established 0x7366b307a590, tid 9907
+11-18 18:40:25.574   496   539 I libprocessgroup: Successfully killed process cgroup uid 10119 pid 7451 in 44ms
+11-18 18:40:25.575  9870  9907 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:25.576   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:40:25.577  9870  9907 D EGL_emulation: eglCreateContext: 0x7366a30c5380: maj 3 min 0 rcv 3
+11-18 18:40:25.578  9870  9907 D EGL_emulation: eglMakeCurrent: 0x7366a30c5380: ver 3 0 (tinfo 0x7366430d8590) (first time)
+11-18 18:40:25.588  9870  9904 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:40:25.588  9870  9904 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:40:25.592   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:25.592  9870  9907 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:25.594  9870  9907 D HostConnection: createUnique: call
+11-18 18:40:25.594  9870  9907 D HostConnection: HostConnection::get() New Host Connection established 0x7366b307b610, tid 9907
+11-18 18:40:25.606  9870  9907 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:25.606  9870  9904 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+11-18 18:40:25.619  9870  9904 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+11-18 18:40:26.091  9870  9870 D CompatibilityChangeReporter: Compat change id reported: 119147584; UID 10133; state: ENABLED
+11-18 18:40:26.093   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:26.095   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.gm/62196772/com.google.android.gm.welcome.WelcomeTourActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:26.096   496   536 I ActivityTaskManager: Displayed com.google.android.gm/.welcome.WelcomeTourActivity: +1s216ms
+11-18 18:40:26.096  9870  9870 E Gmail   : ComposeActivity:Failed to update the menu for wallet attachment.
+11-18 18:40:26.096  9870  9870 E Gmail   : doo: Failed to get universalDraft because the account is not initialized yet.
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at dod.d(PG:6)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at dod.onPrepareOptionsMenu(PG:3)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at com.google.android.gm.ComposeActivityGmail.onPrepareOptionsMenu(PG:4)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at android.app.Activity.onPreparePanel(Activity.java:4224)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at gc.onPreparePanel(PG:2)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at vm.onPreparePanel(Unknown Source:2)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at tb.onPreparePanel(PG:2)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at vm.onPreparePanel(Unknown Source:2)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at tv.onPreparePanel(PG:1)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at tr.run(PG:4)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:40:26.096  9870  9870 E Gmail   : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:40:26.097  9870  9870 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+11-18 18:40:26.101   344   379 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10133 pid=9870
+11-18 18:40:26.101   344   379 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10133 => denied (167 us)
+11-18 18:40:26.136  9870  9999 W Gmail   : GmailAsyncTaskLoader:Core threads exhausted for executor MailAsyncTaskLoader!
+11-18 18:40:26.136  9870  9999 W Gmail   : Current Task:MailAsyncTaskLoader
+11-18 18:40:26.136  9870  9999 W Gmail   : Active threads:2
+11-18 18:40:26.136  9870  9999 W Gmail   :  Core Threads:2 
+11-18 18:40:26.136  9870  9999 W Gmail   : Queue Size:0
+11-18 18:40:26.138  9870  9994 W Gmail   : GmailAsyncTaskLoader:Core threads exhausted for executor MailAsyncTaskLoader!
+11-18 18:40:26.138  9870  9994 W Gmail   : Current Task:MailAsyncTaskLoader
+11-18 18:40:26.138  9870  9994 W Gmail   : Active threads:2
+11-18 18:40:26.138  9870  9994 W Gmail   :  Core Threads:2 
+11-18 18:40:26.138  9870  9994 W Gmail   : Queue Size:0
+11-18 18:40:26.350   496  1654 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:27.735  1748 10001 I Vision  : Requesting optional module download of ocr.
+11-18 18:40:27.921   496  1652 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:28.151   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=46)
+11-18 18:40:28.151   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:40:28.153   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 46 ended, total sessions:1
+11-18 18:40:28.274  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:28.274  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:29.885  9594  9614 I LABCI   : E-mail opened package: com.google.android.gm
+11-18 18:40:29.886   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=47)
+11-18 18:40:29.888   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:40:29.888   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:40:29.889   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 47 ended, total sessions:0
+11-18 18:40:30.585  9594  9614 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:30.591  9594  9614 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_email.png
+11-18 18:40:30.628   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:30.629 10006 10006 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:30.633 10006 10006 D HostConnection: createUnique: call
+11-18 18:40:30.633 10006 10006 D HostConnection: HostConnection::get() New Host Connection established 0x7f65fa62c690, tid 10006
+11-18 18:40:30.645 10006 10006 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:30.673  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_email.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:30.688  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab09_email.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab09_email.png
+11-18 18:40:30.689  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 16ms, 0 inserts 0 updates 0 deletes
+11-18 18:40:30.689  9594  9614 I LABCI   : screenshot lab09_email
+11-18 18:40:30.668  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:683): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:30.690  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:30.694  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_email.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:30.668  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:684): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:30.721  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: RESTARTED
+11-18 18:40:30.721  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: STARTED
+11-18 18:40:30.722  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: RESUMED
+11-18 18:40:30.668  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:687): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:30.761  9594  9594 I AssistStructure: Flattened final assist data: 2048 bytes, containing 1 windows, 12 views
+11-18 18:40:30.762  8018  8083 D EglHelper: createEglContext start
+11-18 18:40:30.764   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3063b50, tid 4916
+11-18 18:40:30.766  8018  8083 D EGL_emulation: eglCreateContext: 0x7366a30cf510: maj 3 min 0 rcv 3
+11-18 18:40:30.766  8018  8083 D EglHelper: createEglContext done
+11-18 18:40:30.766  8018  8083 D EglHelper: createEglSurface start
+11-18 18:40:30.767   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:30.770   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3157f50: maj 3 min 0 rcv 3
+11-18 18:40:30.774   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3157f50: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:40:30.779  8018  8083 D EglHelper: createEglSurface done
+11-18 18:40:31.156  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:31.156  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:31.392  1748 10001 I GmscoreIpa: Starting mediastore instant index
+11-18 18:40:31.705  9594  9614 D UiDevice: Pressing back button.
+11-18 18:40:31.747  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: PAUSED
+11-18 18:40:31.754  2119  2119 I Dialer  : DialpadFragment.onStart - first launch: false
+11-18 18:40:31.756  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:40:31.756  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:40:31.762   380  3454 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:40:31.762   380  3454 D AudioFlinger: Client defaulted notificationFrames to 882 for frameCount 1956
+11-18 18:40:31.763   380  3454 D AF::TrackHandle: OpPlayAudio: track:62 usage:3 not muted
+11-18 18:40:31.763  2119  2119 D AudioTrack: createTrack_l(19): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 882 -> 1956
+11-18 18:40:31.763  2119  2119 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+11-18 18:40:31.763  2119  2119 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+11-18 18:40:31.763  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+11-18 18:40:31.764  2119  2119 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+11-18 18:40:31.767  2119  2119 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+11-18 18:40:31.768  2119  3896 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+11-18 18:40:31.768  2119  3896 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+11-18 18:40:31.770  2119  2119 I Dialer  : NewSearchFragment.onCreateLoader - loading cursor: 0
+11-18 18:40:31.770  2119  2119 I Dialer  : DialpadFragment.onResume - enter
+11-18 18:40:31.770  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - action: android.intent.action.DIAL
+11-18 18:40:31.771  2119  2119 I Dialer  : DialpadFragment.configureScreenFromIntent - Nothing to show
+11-18 18:40:31.771  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:40:31.771  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:40:31.773  2119  2119 I Dialer  : DialpadFragment.onResume - phone not in use
+11-18 18:40:31.773  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+11-18 18:40:31.773  2119  2119 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+11-18 18:40:31.777  2119 10017 I Dialer  : RegularSearchCursor.newInstance - Cursor was null or empty
+11-18 18:40:31.779  2119  3896 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+11-18 18:40:31.800  2119  2119 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+11-18 18:40:31.800  2119  2119 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+11-18 18:40:31.800  2119  2119 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+11-18 18:40:31.805  2119  7440 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+11-18 18:40:31.805  2119  7440 I Dialer  : DynamicShortcuts.refresh - enter
+11-18 18:40:31.806  2119  2119 I Dialer  : NewSearchFragment.onLoadFinished - Loader finished: SearchContactsCursorLoader{279439c id=0}
+11-18 18:40:31.862  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: STOPPED
+11-18 18:40:31.862  9594  9594 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:40:31.863  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@b3520e4 in: DESTROYED
+11-18 18:40:31.863  1293  1293 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1544523523
+11-18 18:40:32.594  9594  9614 I TestRunner: finished: d_email(com.university.lab09.Lab09Test)

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:37:22" hostname="localhost">
+  <testsuite name="com.university.lab07.Lab07Test" tests="2" failures="0" errors="0" skipped="0" time="13.899" timestamp="2026-11-18T18:37:22" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_insertAndList" classname="com.university.lab07.Lab07Test" time="4.034" />
+    <testcase name="b_contacts" classname="com.university.lab07.Lab07Test" time="9.865" />
+  </testsuite>
+</testsuites>

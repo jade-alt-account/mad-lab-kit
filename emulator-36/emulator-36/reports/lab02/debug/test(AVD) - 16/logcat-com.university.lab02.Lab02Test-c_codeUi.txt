@@ -1,0 +1,415 @@
+11-18 18:35:12.493  5036  5050 I TestRunner: started: c_codeUi(com.university.lab02.Lab02Test)
+11-18 18:35:12.503  1635  1806 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:35:12.503  1253  1285 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+11-18 18:35:12.504  5036  5050 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:35:12.505  1253  1253 D RecentsView: onTaskRemoved: 15, not handling task stack changes
+11-18 18:35:12.505  1253  1253 D RecentsView: onTaskRemoved: 15, not handling task stack changes
+11-18 18:35:12.506  1253  1253 D SsBaseTemplateCard: No text view can be set up
+11-18 18:35:12.506  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:12.506  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:12.506  1253  1253 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:35:12.506  1253  1253 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:35:12.518  1253  1253 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+11-18 18:35:12.518  1253  1253 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:22)
+11-18 18:35:12.518  1253  1253 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:11)
+11-18 18:35:12.518  1253  1253 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:339)
+11-18 18:35:12.519  1253  1253 D b/311077782: LauncherAnimationRunner.setAnimation
+11-18 18:35:12.520  1253  1253 D WorkspaceRevealAnim: onAnimationEnd: workspace alpha = 1.0
+11-18 18:35:12.522   607  1299 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10222, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:12.529  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{7e91968 V.E...... ......ID 0,0-0,0}
+11-18 18:35:12.529  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:12.529  1013  1113 D SplashScreenView: Branding: view: android.view.View{26db181 G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:12.537  1253  1253 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:35:12.537  1253  1253 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:35:12.547  5132  5132 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:12.548   607   768 I ImeTracker: com.google.android.apps.nexuslauncher:40f32aa5: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:12.550  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: PRE_ON_CREATE
+11-18 18:35:12.551  5036  5036 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:35:12.560  5036  5036 D CompatChangeReporter: Compat change id reported: 376561342; UID 10222; state: ENABLED
+11-18 18:35:12.560  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:35:12.565  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:35:12.565  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:12.566   607   728 I ImeTracker: system_server:d8a12335: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:12.568  1253  1253 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:35:12.568  1253  1253 I ImeTracker: com.google.android.apps.nexuslauncher:40f32aa5: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:35:12.568  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:35:12.569  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:35:12.571  5132  5132 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@98b3b25
+11-18 18:35:12.577  5132  5132 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:12.602  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: CREATED
+11-18 18:35:12.604  5036  5036 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab02.CodeActivity@648e9fc
+11-18 18:35:12.606  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: STARTED
+11-18 18:35:12.606  5036  5036 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab02.CodeActivity@648e9fc
+11-18 18:35:12.607  5036  5036 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:35:12.607  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: RESUMED
+11-18 18:35:12.607  5036  5036 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab02.CodeActivity@648e9fc
+11-18 18:35:12.607   607   669 I ImeTracker: system_server:d8a12335: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:12.621  1253  1253 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:12.631  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:35:12.641  1253  1253 D RecentsView: onTaskRemoved: 16, not handling task stack changes
+11-18 18:35:12.641  1253  1253 D RecentsView: onTaskRemoved: 16, not handling task stack changes
+11-18 18:35:12.656   607   666 I ActivityTaskManager: Displayed com.university.lab02/.CodeActivity for user 0: +132ms
+11-18 18:35:12.659  1253  1253 D BaseDepthController: setSurface:
+11-18 18:35:12.659  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:35:12.659  1253  1253 D BaseDepthController: 	mBaseSurface: null
+11-18 18:35:12.659  1253  1253 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:35:12.665  1253  1253 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:35:12.665  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:4)
+11-18 18:35:12.665  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:1)
+11-18 18:35:12.665  1253  1253 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:34)
+11-18 18:35:12.665  1253  1253 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:35:12.669  1253  1253 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:35:12.681  1240  1254 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.686   607   768 I ImeTracker: com.university.lab02:ed8a4b7a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:12.686  5036  5036 D InsetsController: hide(ime(), fromIme=false)
+11-18 18:35:12.686  5036  5036 I ImeTracker: com.university.lab02:ed8a4b7a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:35:12.688  1240  1254 D SettingsSliceProvider: Allowlisting 10 uris to 3 pkgs.
+11-18 18:35:12.691  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+11-18 18:35:12.692  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-18 18:35:12.692  1482  1482 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab02, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:35:12.693   607  2108 I ImeTracker: system_server:74b229c: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:12.694  1482  1482 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at asx.p(PG:6)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at axb.b(PG:13)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at jnr.b(PG:2)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at jnr.c(PG:4)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at jnr.f(PG:3)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at jnx.c(PG:3)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at kif.cz(PG:47)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at lhl.run(PG:1025)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at jaf.execute(PG:12)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at nco.v(PG:13)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at lhn.m(PG:96)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at lhn.k(PG:25)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-18 18:35:12.695  1482  1482 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-18 18:35:12.698   607   669 I ImeTracker: system_server:74b229c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:12.705  1240  1254 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.706  1240  1254 D SettingsSliceProvider: Allowlisting 5 uris to 3 pkgs.
+11-18 18:35:12.721  5036  5036 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Created in code"
+11-18 18:35:12.724  5036  5036 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Tap me"
+11-18 18:35:12.725  1240  1254 D SliceBuilder: Creating slice for: com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController
+11-18 18:35:12.734  1240  1339 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.734  1240  1339 W SliceData: Highlight menu key res is empty: com.android.settings.deviceinfo.hardwareinfo.DeviceModelPreferenceController
+11-18 18:35:12.735  1240  1339 D SettingsSliceProvider: Built slice (content://com.android.settings.slices/action/hardware_info_device_model) in: 1
+11-18 18:35:12.738  1240  1334 D SettingsSliceProvider: content://com.android.settings.slices/action/hardware_info_device_model loaded from cache
+11-18 18:35:12.740  1240  1254 D SliceBuilder: Creating slice for: com.android.settings.notification.MediaVolumePreferenceController
+11-18 18:35:12.741  1240  1339 D SettingsSliceProvider: content://com.android.settings.slices/action/media_volume loaded from cache
+11-18 18:35:12.748  1240  1334 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.753  1240  1339 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.758  1240  1339 D VolumeSliceHelper: Registering uri for broadcast relay: content://com.android.settings.slices/action/separate_ring_volume
+11-18 18:35:12.762  1240  1334 D VolumeSliceHelper: Registering uri for broadcast relay: content://com.android.settings.slices/action/call_volume
+11-18 18:35:12.764  1240  1339 D SettingsSliceProvider: Built slice (content://com.android.settings.slices/action/separate_ring_volume) in: 11
+11-18 18:35:12.764  1240  1339 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.764  1240  1334 D SettingsSliceProvider: Built slice (content://com.android.settings.slices/action/call_volume) in: 16
+11-18 18:35:12.764  1240  1334 D SettingsSliceProvider: content://com.android.settings.slices/action/alarm_volume loaded from cache
+11-18 18:35:12.764  1240  1254 D MediaVolumePreCtrl: The slice doesn't support end item
+11-18 18:35:12.765  1240  1339 D VolumeSliceHelper: Registering uri for broadcast relay: content://com.android.settings.slices/action/notification_volume
+11-18 18:35:12.768  1240  1339 D SettingsSliceProvider: Built slice (content://com.android.settings.slices/action/notification_volume) in: 4
+11-18 18:35:12.772  1240  1254 D SliceBuilder: Creating slice for: com.android.settings.notification.CallVolumePreferenceController
+11-18 18:35:12.776  1240  3650 D SliceBroadcastRelay: Registering Uri for broadcast relay: content://com.android.settings.slices/action/mobile_data
+11-18 18:35:12.782  1240  1240 D SettingsSliceProvider: Starting background worker for: content://com.android.settings.slices/action/mobile_data
+11-18 18:35:12.782  1240  1240 D SliceBackgroundWorker: create instance: class com.android.settings.network.telephony.MobileDataSlice$MobileDataWorker
+11-18 18:35:12.787  1240  3650 D SliceBuilder: Creating slice for: com.android.settings.notification.SeparateRingVolumePreferenceController
+11-18 18:35:12.790  1240  1334 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: Could not create slicedata for uri: content://com.android.settings.slices/intent/wifi_calling
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: java.lang.IllegalStateException: Invalid Slices key from path: wifi_calling
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SlicesDatabaseAccessor.getIndexedSliceData(SlicesDatabaseAccessor.java:133)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SlicesDatabaseAccessor.getSliceDataFromUri(SlicesDatabaseAccessor.java:76)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.loadSlice(SettingsSliceProvider.java:426)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.lambda$loadSliceInBackground$5(SettingsSliceProvider.java:457)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.$r8$lambda$F6THPPOOlgUQrkUG5e2ThbF-zrY(SettingsSliceProvider.java:0)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:131)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:76)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:82)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:35:12.791  1240  1334 D SettingsSliceProvider: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:35:12.791  1240  1339 D SettingsSliceProvider: content://android.settings.slices/action/battery_saver loaded from cache
+11-18 18:35:12.793  1240  3595 D SliceBroadcastRelay: Registering Uri for broadcast relay: content://android.settings.slices/action/bluetooth
+11-18 18:35:12.798  1240  3650 D SliceBuilder: Creating slice for: com.android.settings.notification.NotificationVolumePreferenceController
+11-18 18:35:12.800  1240  1240 D SettingsSliceProvider: Starting background worker for: content://android.settings.slices/action/wifi
+11-18 18:35:12.800  1240  1240 D SliceBackgroundWorker: create instance: class com.android.settings.wifi.slice.WifiScanWorker
+11-18 18:35:12.806  1240  3650 D SliceBuilder: Creating slice for: com.android.settings.notification.AlarmVolumePreferenceController
+11-18 18:35:12.807  1240  3595 D VolumeSliceHelper: Unregistering uri broadcast relay: content://com.android.settings.slices/action/media_volume
+11-18 18:35:12.808  1240  3595 D VolumeSliceHelper: Unregistering uri broadcast relay: content://com.android.settings.slices/action/call_volume
+11-18 18:35:12.811  1240  3650 D VolumeSliceHelper: Unregistering uri broadcast relay: content://com.android.settings.slices/action/separate_ring_volume
+11-18 18:35:12.811  1240  1254 D VolumeSliceHelper: Unregistering uri broadcast relay: content://com.android.settings.slices/action/notification_volume
+11-18 18:35:12.814  1240  1254 D VolumeSliceHelper: Unregistering uri broadcast relay: content://com.android.settings.slices/action/alarm_volume
+11-18 18:35:12.814  1240  1254 D SliceBroadcastRelay: Unregistering uri broadcast relay: content://com.android.settings.slices/action/volume_slices
+11-18 18:35:12.816  1240  1240 D SettingsSliceProvider: Stopping background worker for: content://com.android.settings.slices/action/media_volume
+11-18 18:35:12.818   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.818  1240  1240 V WifiPickerTracker: onStart
+11-18 18:35:12.818  1240  1240 D WsuServiceClient: Binding to com.google.android.apps.carrier.carrierwifi
+11-18 18:35:12.818  1240  1240 D WsuServiceClient: the specified wsu service is not installed.
+11-18 18:35:12.820   607  1833 I WifiService: addWifiStateChangedListener uid=1000
+11-18 18:35:12.820   607  1833 I WifiService: getWifiEnabledState uid=1000 state=3
+11-18 18:35:12.820  1240  5179 I WifiPickerTracker: Scanning started
+11-18 18:35:12.821  1240  1254 I WifiManager: WifiStateChangedListenerProxy: onWifiStateChanged
+11-18 18:35:12.824  1240  5179 E WifiScanner: listener does not exist
+11-18 18:35:12.824   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.826  1240  5179 V WifiPickerTracker: Issuing scan request from WifiScanner
+11-18 18:35:12.826   607   920 I WifiScanningService: Registering listener= android.net.wifi.IWifiScannerListener$Stub$Proxy@e1d17b3 uid=1000 packageName=com.android.settings workSource=WorkSource{1000}
+11-18 18:35:12.826   607   920 I WifiScanningService: start scan: ClientInfo[uid=1000, package=com.android.settings, attributionTag=null, android.net.wifi.IWifiScannerListener$Stub$Proxy@e1d17b3] package com.android.settings AttributionTag null
+11-18 18:35:12.827   607   920 I WifiScanningService: addSingleScanRequest: ClientInfo[uid=1000, package=com.android.settings, attributionTag=null, android.net.wifi.IWifiScannerListener$Stub$Proxy@e1d17b3], ScanSettings {  type:LOW LATENCY band:24Ghz & 5Ghz (no DFS) ignoreLocationSettings:false period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 rnrSetting:1 6GhzPscOnlyEnabled:false channels:[  ]  } 
+11-18 18:35:12.827   607   920 D WifiScanningService: replySucceeded onSuccess
+11-18 18:35:12.827  1240  3595 D SubscriptionRepository: getSelectableSubscriptionInfoList: [[SubscriptionInfo: id=1 iccId=89860318640220133897 simSlotIndex=0 portIndex=0 isEmbedded=false carrierId=1 displayName=T-Mobile carrierName=T-Mobile isOpportunistic=false groupUuid=null groupOwner= isGroupDisabled=false displayNameSource=CARRIER iconTint=-4716942 number=+15551234567 dataRoaming=0 mcc=310 mnc=260 ehplmns=[] hplmns=[] cardString=89860318640220133897 cardId=0 nativeAccessRules=null carrierConfigAccessRules=[cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.rsuapp access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.echolocate access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.services.nameid access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.pr.mytmobile access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.vvm.application access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.rsuapp access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.echolocate access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.services.nameid access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.pr.mytmobile access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.vvm.application access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.rsuapp access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.echolocate access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.services.nameid access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.pr.mytmobile access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.vvm.application access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.rsuapp access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.echolocate access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.services.nameid access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.pr.mytmobile access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.vvm.application access: 0] countryIso=us profileClass=-1 mType=LOCAL_SIM areUiccApplicationsEnabled=true usageSetting=DEFAULT isOnlyNonTerrestrialNetwork=false serviceCapabilities=[1, 2, 3] transferStatus=0 isSatelliteESOSSupported=false]]
+11-18 18:35:12.830   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.831  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.832  1240  5179 V WifiPickerTracker: No entries!
+11-18 18:35:12.832  1240  5179 V WifiPickerTracker: MergedCarrierEntry: null
+11-18 18:35:12.832   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.833  1242  1242 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+11-18 18:35:12.833  1242  1242 D wpa_supplicant: wlan0: nl80211: Scan trigger
+11-18 18:35:12.833  1242  1242 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+11-18 18:35:12.833  1242  1242 D wpa_supplicant: wlan0: External program started a scan
+11-18 18:35:12.837   607   922 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+11-18 18:35:12.838   607   984 D ConnectivityService: requestNetwork for uid/pid:1000/1240 activeRequest: null callbackRequest: 170 [NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]] callback flags: 1 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+11-18 18:35:12.839   607   922 D ConnectivityService: NetReassign [171 : null → 100] [c 0] [a 1] [i 0]
+11-18 18:35:12.839   607   916 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]
+11-18 18:35:12.839   607   916 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]
+11-18 18:35:12.839   607   916 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]
+11-18 18:35:12.839   607   916 V WifiNetworkFactory: Accepted network request NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]
+11-18 18:35:12.839   607   916 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=171, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 1000 RequestorUid: 1000 RequestorPkg: com.android.settings UnderlyingNetworks: Null] ]
+11-18 18:35:12.841  1240  3595 D SubscriptionRepository: getSelectableSubscriptionInfoList: [[SubscriptionInfo: id=1 iccId=89860318640220133897 simSlotIndex=0 portIndex=0 isEmbedded=false carrierId=1 displayName=T-Mobile carrierName=T-Mobile isOpportunistic=false groupUuid=null groupOwner= isGroupDisabled=false displayNameSource=CARRIER iconTint=-4716942 number=+15551234567 dataRoaming=0 mcc=310 mnc=260 ehplmns=[] hplmns=[] cardString=89860318640220133897 cardId=0 nativeAccessRules=null carrierConfigAccessRules=[cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.rsuapp access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.echolocate access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.services.nameid access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.pr.mytmobile access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.vvm.application access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.rsuapp access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.echolocate access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.services.nameid access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.pr.mytmobile access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.vvm.application access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.rsuapp access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.echolocate access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.services.nameid access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.pr.mytmobile access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.vvm.application access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.rsuapp access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.echolocate access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.services.nameid access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.pr.mytmobile access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.vvm.application access: 0] countryIso=us profileClass=-1 mType=LOCAL_SIM areUiccApplicationsEnabled=true usageSetting=DEFAULT isOnlyNonTerrestrialNetwork=false serviceCapabilities=[1, 2, 3] transferStatus=0 isSatelliteESOSSupported=false]]
+11-18 18:35:12.842   607   984 V WifiPermissionsUtil: enforceNearbyDevicesPermission(attributionSource=AttributionSource { uid = 1000, packageName = com.android.settings, attributionTag = null, token = android.os.BinderProxy@a9b53a3, deviceId = 0, next = null }, checkForLocation=false
+11-18 18:35:12.842   607   984 I WifiService: getPrivilegedConfiguredNetworks uid=1000
+11-18 18:35:12.846  1240  3595 D SubscriptionRepository: getSelectableSubscriptionInfoList: [[SubscriptionInfo: id=1 iccId=89860318640220133897 simSlotIndex=0 portIndex=0 isEmbedded=false carrierId=1 displayName=T-Mobile carrierName=T-Mobile isOpportunistic=false groupUuid=null groupOwner= isGroupDisabled=false displayNameSource=CARRIER iconTint=-4716942 number=+15551234567 dataRoaming=0 mcc=310 mnc=260 ehplmns=[] hplmns=[] cardString=89860318640220133897 cardId=0 nativeAccessRules=null carrierConfigAccessRules=[cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.rsuapp access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.echolocate access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.services.nameid access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.pr.mytmobile access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.vvm.application access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.rsuapp access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.echolocate access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.services.nameid access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.pr.mytmobile access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.vvm.application access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.rsuapp access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.echolocate access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.services.nameid access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.pr.mytmobile access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.vvm.application access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.rsuapp access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.echolocate access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.services.nameid access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.pr.mytmobile access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.vvm.application access: 0] countryIso=us profileClass=-1 mType=LOCAL_SIM areUiccApplicationsEnabled=true usageSetting=DEFAULT isOnlyNonTerrestrialNetwork=false serviceCapabilities=[1, 2, 3] transferStatus=0 isSatelliteESOSSupported=false]]
+11-18 18:35:12.846  1240  3595 D SubscriptionUtil: remove cached display name : 1
+11-18 18:35:12.847   607   984 I WifiService: getWifiConfigsForMatchedNetworkSuggestions uid=1000
+11-18 18:35:12.847   607   984 W ScanResultUtil: Empty or null ScanResult list
+11-18 18:35:12.847   607   984 W WifiService: Attempt to retrieve WifiConfiguration with invalid scanResult List
+11-18 18:35:12.847   607   984 I WifiService: getPasspointConfigurations uid=1000
+11-18 18:35:12.848   607   984 I WifiService: getScanResults uid=1000
+11-18 18:35:12.849   607   984 I WifiService: getWifiEnabledState uid=1000 state=3
+11-18 18:35:12.850   607   984 I WifiService: getScanResults uid=1000
+11-18 18:35:12.850  1681  4935 I Icing   : Indexing com.google.android.settings.intelligence-internal.3p:Thing from com.google.android.settings.intelligence
+11-18 18:35:12.851  1240  3595 D SubscriptionRepository: getSelectableSubscriptionInfoList: [[SubscriptionInfo: id=1 iccId=89860318640220133897 simSlotIndex=0 portIndex=0 isEmbedded=false carrierId=1 displayName=T-Mobile carrierName=T-Mobile isOpportunistic=false groupUuid=null groupOwner= isGroupDisabled=false displayNameSource=CARRIER iconTint=-4716942 number=+15551234567 dataRoaming=0 mcc=310 mnc=260 ehplmns=[] hplmns=[] cardString=89860318640220133897 cardId=0 nativeAccessRules=null carrierConfigAccessRules=[cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.rsuapp access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.echolocate access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.services.nameid access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.pr.mytmobile access: 0, cert: 92B5F8117FBD9BD5738FF168A4FA12CBE284BE834EDE1A7BB44DD8455BA15920 pkg: com.tmobile.vvm.application access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.rsuapp access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.echolocate access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.services.nameid access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.pr.mytmobile access: 0, cert: 3D1A4BEF6EE7AF7D34D120E7B1AAC0DD245585DE6237CF100F68333AFACFF562 pkg: com.tmobile.vvm.application access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.rsuapp access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.echolocate access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.services.nameid access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.pr.mytmobile access: 0, cert: 6892793FC413019D2DF609DFED7AF622D0F2D8FCF96EFA7E3FB87EEA34E10B93 pkg: com.tmobile.vvm.application access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.rsuapp access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.echolocate access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.services.nameid access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.pr.mytmobile access: 0, cert: 7B68FD9D4E7610C9CB35FC0C6CC06EA04C6906E3DFA9F48F9A05460AF36BFFFC pkg: com.tmobile.vvm.application access: 0] countryIso=us profileClass=-1 mType=LOCAL_SIM areUiccApplicationsEnabled=true usageSetting=DEFAULT isOnlyNonTerrestrialNetwork=false serviceCapabilities=[1, 2, 3] transferStatus=0 isSatelliteESOSSupported=false]]
+11-18 18:35:12.851  1240  3595 D SubscriptionUtil: remove cached display name : 1
+11-18 18:35:12.851   607  1299 I WifiService: getWifiConfigsForMatchedNetworkSuggestions uid=1000
+11-18 18:35:12.851   607  1299 W ScanResultUtil: Empty or null ScanResult list
+11-18 18:35:12.851   607  1299 W WifiService: Attempt to retrieve WifiConfiguration with invalid scanResult List
+11-18 18:35:12.851   607  1299 I WifiService: getMatchingPasspointConfigurations uid=1000
+11-18 18:35:12.852   607  1299 W ScanResultUtil: Empty or null ScanResult list
+11-18 18:35:12.852   607  1299 E WifiService: Attempt to retrieve passpoint with invalid scanResult List
+11-18 18:35:12.852   607  1299 I WifiService: getMatchingOsuProviders uid=1000
+11-18 18:35:12.852   607  1299 W ScanResultUtil: Empty or null ScanResult list
+11-18 18:35:12.852   607  1299 W WifiService: Attempt to retrieve OsuProviders with invalid scanResult List
+11-18 18:35:12.852   607  1299 I WifiService: getMatchingPasspointConfigsForOsuProviders uid=1000
+11-18 18:35:12.853   607   984 I WifiService: getCurrentNetwork uid=1000
+11-18 18:35:12.855   607   984 I WifiService: getConnectionInfo uid=1000
+11-18 18:35:12.855   607   984 V WifiService: Clearing REDACT_FOR_LOCAL_MAC_ADDRESS for com.android.settings(uid=1000)
+11-18 18:35:12.855   607   984 V WifiService: Clearing REDACT_FOR_NETWORK_SETTINGS for com.android.settings(uid=1000)
+11-18 18:35:12.855   607   984 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.android.settings(uid=1000)
+11-18 18:35:12.857   607  1299 I WifiService: getCurrentNetwork uid=1000
+11-18 18:35:12.857   607  1299 I WifiService: getConnectionInfo uid=1000
+11-18 18:35:12.857   607  1299 V WifiService: Clearing REDACT_FOR_LOCAL_MAC_ADDRESS for com.android.settings(uid=1000)
+11-18 18:35:12.857   607  1299 V WifiService: Clearing REDACT_FOR_NETWORK_SETTINGS for com.android.settings(uid=1000)
+11-18 18:35:12.857   607  1299 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.android.settings(uid=1000)
+11-18 18:35:12.858   607  1299 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+11-18 18:35:12.860   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.860  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.860  1240  5179 V WifiPickerTracker: Entry 1/1: [StandardWifiEntry][AndroidWifi][][Level:4][Connected][Internet][Primary][Saved]
+11-18 18:35:12.860  1240  5179 V WifiPickerTracker: MergedCarrierEntry: [MergedCarrierEntry][][][Level:-1][SubId:1]
+11-18 18:35:12.860   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.862  1681  4935 I Icing   : Indexing done com.google.android.settings.intelligence-internal.3p:Thing
+11-18 18:35:12.870  1240  3595 D SliceBroadcastRelay: Unregistering uri broadcast relay: content://com.android.settings.slices/action/mobile_data
+11-18 18:35:12.870  1240  1240 D SettingsSliceProvider: Stopping background worker for: content://com.android.settings.slices/action/mobile_data
+11-18 18:35:12.873   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.874   607   984 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.874  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.874  1240  5179 V WifiPickerTracker: Entry 1/1: [StandardWifiEntry][AndroidWifi][][Level:4][Connected][Internet][Primary][Saved]
+11-18 18:35:12.874  1240  5179 V WifiPickerTracker: MergedCarrierEntry: [MergedCarrierEntry][][][Level:-1][SubId:1]
+11-18 18:35:12.874   607   984 I WifiService: getWifiEnabledState uid=1000 state=3
+11-18 18:35:12.875   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.876   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.877  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.877  1240  5179 V WifiPickerTracker: Entry 1/1: [StandardWifiEntry][AndroidWifi][][Level:4][Connected][Internet][Primary][Saved]
+11-18 18:35:12.877  1240  5179 V WifiPickerTracker: MergedCarrierEntry: [MergedCarrierEntry][][][Level:-1][SubId:1]
+11-18 18:35:12.877   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.881   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.881  1240  5179 V WifiPickerTracker: Received broadcast: android.net.wifi.STATE_CHANGE
+11-18 18:35:12.882   607  1299 I WifiService: getConnectionInfo uid=1000
+11-18 18:35:12.882   607  1299 V WifiService: Clearing REDACT_FOR_LOCAL_MAC_ADDRESS for com.android.settings(uid=1000)
+11-18 18:35:12.882   607  1299 V WifiService: Clearing REDACT_FOR_NETWORK_SETTINGS for com.android.settings(uid=1000)
+11-18 18:35:12.882   607  1299 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.android.settings(uid=1000)
+11-18 18:35:12.885   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.886   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.886  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.887  1240  5179 V WifiPickerTracker: Entry 1/1: [StandardWifiEntry][AndroidWifi][][Level:4][Connected][Internet][Primary][Saved]
+11-18 18:35:12.887  1240  5179 V WifiPickerTracker: MergedCarrierEntry: [MergedCarrierEntry][][][Level:-1][SubId:1]
+11-18 18:35:12.888   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.889   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.890   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.890  1240  5179 V WifiPickerTracker: onWifiEntriesChanged: reason=0
+11-18 18:35:12.890  1240  5179 V WifiPickerTracker: Entry 1/1: [StandardWifiEntry][AndroidWifi][][Level:4][Connected][Internet][Primary][Saved]
+11-18 18:35:12.890  1240  5179 V WifiPickerTracker: MergedCarrierEntry: [MergedCarrierEntry][][][Level:-1][SubId:1]
+11-18 18:35:12.891   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.891   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.892   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.892   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.893   607  1833 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.924  1240  1254 D WifiCallingSliceHelper: Wifi calling is either not provisioned or not enabled by Platform
+11-18 18:35:12.927  1240  1334 D SlicesIndexer: Slices already indexed - returning.
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: Could not create slicedata for uri: content://android.settings.slices/action/airplane_mode
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: java.lang.IllegalStateException: Invalid Slices key from path: airplane_mode
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SlicesDatabaseAccessor.getIndexedSliceData(SlicesDatabaseAccessor.java:133)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SlicesDatabaseAccessor.getSliceDataFromUri(SlicesDatabaseAccessor.java:76)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.loadSlice(SettingsSliceProvider.java:426)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.lambda$loadSliceInBackground$5(SettingsSliceProvider.java:457)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider.$r8$lambda$F6THPPOOlgUQrkUG5e2ThbF-zrY(SettingsSliceProvider.java:0)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.android.settings.slices.SettingsSliceProvider$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:131)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:76)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:82)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-18 18:35:12.927  1240  1334 D SettingsSliceProvider: 	at java.lang.Thread.run(Thread.java:1119)
+11-18 18:35:12.929  1240  1254 D SliceBuilder: Creating slice for: com.android.settings.fuelgauge.batterysaver.BatterySaverButtonPreferenceController
+11-18 18:35:12.932  1240  1254 W SatelliteRepository: SatelliteManager is null
+11-18 18:35:12.934  1240  3595 D SliceBroadcastRelay: Unregistering uri broadcast relay: content://android.settings.slices/action/bluetooth
+11-18 18:35:12.938   607  1299 I WifiService: getWifiEnabledState uid=1000 state=3
+11-18 18:35:12.938  1240  1254 D WifiSlice: calling uid name : com.google.android.settings.intelligence
+11-18 18:35:12.939  1240  1254 W SatelliteRepository: SatelliteManager is null
+11-18 18:35:12.940  1240  1254 W SatelliteRepository: SatelliteManager is null
+11-18 18:35:12.944  1240  1240 D SettingsSliceProvider: Stopping background worker for: content://android.settings.slices/action/wifi
+11-18 18:35:12.945   607  1299 I WifiService: getVerboseLoggingLevel uid=1000
+11-18 18:35:12.945  1240  1240 V WifiPickerTracker: onStop
+11-18 18:35:12.946  1240  5179 I WifiPickerTracker: Scanning stopped
+11-18 18:35:12.946   607  1833 I WifiService: removeWifiStateChangedListener uid=1000
+11-18 18:35:13.115  1188  1429 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+11-18 18:35:13.426  5036  5050 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:35:13.435  5036  5050 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab02_code_ui.png
+11-18 18:35:13.493  5184  5184 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-18 18:35:13.493  5184  5184 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:35:13.493  5184  5184 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:35:13.495   522   604 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+11-18 18:35:13.495   522   604 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+11-18 18:35:13.532  1611  1765 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:35:13.558   607   984 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:35:13.560   607  1299 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:35:13.563   607   666 I ActivityManager: Broadcast completed: result=0
+11-18 18:35:13.564  1611  1881 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:13.573  1349  2583 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/29 [CONTEXT service_id=218 ]
+11-18 18:35:13.574  1611  1881 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:35:13.576  5036  5050 I LABCI   : screenshot lab02_code_ui
+11-18 18:35:13.579   607  1299 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10223, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:35:13.585  1013  1113 D SplashScreenView: Build android.window.SplashScreenView{4548b04 V.E...... ......ID 0,0-0,0}
+11-18 18:35:13.585  1013  1113 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:35:13.585  1013  1113 D SplashScreenView: Branding: view: android.view.View{37298ed G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:35:13.586  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: PAUSED
+11-18 18:35:13.587  5036  5036 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab02.CodeActivity@648e9fc
+11-18 18:35:13.591  5132  5146 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:35:13.591  5132  5146 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:35:13.603   607   669 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:35:13.605  5132  5146 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:35:13.614  5132  5132 D AutofillManager: Fill dialog is enabled:false, hints=[]
+11-18 18:35:13.618   447   470 I netd    : tetherGetStats() -> {[]} <0.44ms>
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: wlan0: nl80211: New scan results available
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Scan probed for SSID ''
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Received scan results (1 BSSes)
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Scan results indicate BSS status with 02:15:b2:00:00:01 as associated
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: wlan0: BSS: Start scan result update 6
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: BSS: last_scan_res_used=1/32
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: wlan0: New scan results available (own=0 ext=1)
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: wlan0: Do not use results from externally requested scan operation for network selection
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: p2p-dev-wlan0: Updating scan results from sibling
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: nl80211: Received scan results (1 BSSes)
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: p2p-dev-wlan0: BSS: Start scan result update 6
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: BSS: last_scan_res_used=1/32
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: p2p-dev-wlan0: New scan results available (own=0 ext=1)
+11-18 18:35:13.621  1242  1242 D wpa_supplicant: p2p-dev-wlan0: Do not use results from externally requested scan operation for network selection
+11-18 18:35:13.621   607   984 D WifiNl80211Manager: Scan result ready event
+11-18 18:35:13.621   607   984 D WifiNative: Scan result ready event
+11-18 18:35:13.623   607   920 D WifiNl80211Manager: get 1 scan results from wificond
+11-18 18:35:13.623   607   920 D WifiNative: get 1 scan results from wificond
+11-18 18:35:13.624  1240  1254 I WifiScanner: onFullResults
+11-18 18:35:13.624  1349  1364 I WifiScanner: onFullResults
+11-18 18:35:13.625   607   920 I WifiScanningService: singleScanResults: ClientInfo[uid=1000, package=com.android.settings, attributionTag=null, android.net.wifi.IWifiScannerListener$Stub$Proxy@e1d17b3],results=1
+11-18 18:35:13.627   607   920 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@99ab468],results=1
+11-18 18:35:13.627   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:13.629   607   920 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@7acd3bd],results=1
+11-18 18:35:13.629   607   920 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@d618365],results=1
+11-18 18:35:13.629   607   920 I WifiScanningService: singleScanResults listener: ClientInfo[uid=10147, package=com.google.android.gms, attributionTag=network_location_provider, android.net.wifi.IWifiScannerListener$Stub$Proxy@2128177],results=1
+11-18 18:35:13.629   607   916 D WifiScanRequestProxy: Scan results received
+11-18 18:35:13.629   607   916 D WifiScanRequestProxy: Received 1 scan results
+11-18 18:35:13.630   607   916 D WifiHealthMonitor:  2G scanResult count: 1, Above2g scanResult count: 0
+11-18 18:35:13.630   607   920 I WifiScanningService: Unregistering listener= android.net.wifi.IWifiScannerListener$Stub$Proxy@e1d17b3 uid=1000 packageName=com.android.settings workSource=WorkSource{1000}
+11-18 18:35:13.637   607   916 V WifiConfigManager: getSavedNetworkFromScanResult Found "AndroidWifi"NONE for AndroidWifi[[ESS]]
+11-18 18:35:13.652   607   916 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-18 18:35:13.652   607   916 V WifiConnectivityManager: Clearing blocklist for REASON_FRAMEWORK_DISCONNECT_FAST_RECONNECT
+11-18 18:35:13.652   607   916 V WifiConnectivityManager: AllSingleScanListener onResults: start network selection
+11-18 18:35:13.652   607   916 V WifiConfigManager: getSavedNetworkFromScanResult Found "AndroidWifi"NONE for AndroidWifi[[ESS]]
+11-18 18:35:13.652   607   916 D WifiNetworkSelector: Current connected network: 0
+11-18 18:35:13.652   607   916 D WifiNetworkSelector: wlan0: Current connected network already sufficient. Skip network selection.
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: updateAvailableNetworks: size = 0
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: mWatchdogFeatureEnabled: true
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: mWatchdogAllowedToTrigger: true
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: mRecentAvailableNetworks: 1
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog:  02:15:b2:00:00:01: "AndroidWifi" HasEverConnected: false, Failures: {Assoc: 0, Auth: 0, Dhcp: 0}, Age: 5
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: mSsidFailureCount:
+11-18 18:35:13.652   607   916 V WifiLastResortWatchdog: "AndroidWifi": 1, HasEverConnected: false, Failures: {Assoc: 0, Auth: 0, Dhcp: 0}
+11-18 18:35:13.652   607   916 V WifiConnectivityManager: AllSingleScanListener:  No candidates
+11-18 18:35:13.661  5036  5036 D VRI[CodeActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:35:13.720   607   666 I ActivityTaskManager: Displayed com.university.lab02.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +136ms
+11-18 18:35:13.726  1253  1253 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:13.727   522   522 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:35:13.728  1253  1253 D StatsLog: LAUNCHER_ONRESUME
+11-18 18:35:13.729  1253  1253 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+11-18 18:35:13.739  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: STOPPED
+11-18 18:35:13.740  5036  5036 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab02.CodeActivity@648e9fc
+11-18 18:35:13.740  1253  1253 D BaseDepthController: setSurface:
+11-18 18:35:13.740  1253  1253 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:35:13.740  1253  1253 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x7e1c7aa
+11-18 18:35:13.740  5036  5036 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@d6596b6
+11-18 18:35:13.741  5036  5036 D LifecycleMonitor: Lifecycle status change: com.university.lab02.CodeActivity@648e9fc in: DESTROYED
+11-18 18:35:13.741  5036  5036 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:35:13.743  5036  5036 D ViewRootImpl: Skipping stats log for color mode
+11-18 18:35:13.750   607  1831 I ImeTracker: system_server:a9a5c2e7: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:13.751   607   669 I ImeTracker: system_server:a9a5c2e7: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:35:13.752  5036  5050 I TestRunner: finished: c_codeUi(com.university.lab02.Lab02Test)

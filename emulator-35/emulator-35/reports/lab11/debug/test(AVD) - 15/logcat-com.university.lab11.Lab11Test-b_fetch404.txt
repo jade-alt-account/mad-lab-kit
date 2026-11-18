@@ -1,0 +1,160 @@
+11-18 18:40:41.318  9417  9448 I TestRunner: started: b_fetch404(com.university.lab11.Lab11Test)
+11-18 18:40:41.323  9417  9448 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:40:41.323  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=65
+11-18 18:40:41.323  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=65
+11-18 18:40:41.331   554  1808 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10233, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:41.339   903  1009 D SplashScreenView: Build android.window.SplashScreenView{8585cd9 V.E...... ......ID 0,0-0,0}
+11-18 18:40:41.339   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:41.339   903  1009 D SplashScreenView: Branding: view: android.view.View{2bfd69e G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:41.345  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=67, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab11/.MainActivity }
+11-18 18:40:41.348   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:41.354   430   486 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10234 pid=0
+11-18 18:40:41.354   430   486 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10234 => denied (312 us)
+11-18 18:40:41.355   430   440 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10234 pid=9485
+11-18 18:40:41.355   430   440 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10234 => denied (632 us)
+11-18 18:40:41.355   430   486 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10234 pid=0
+11-18 18:40:41.355   430   486 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10234 => denied (1319 us)
+11-18 18:40:41.357   430   440 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10234 pid=9485
+11-18 18:40:41.357   430   440 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10234 => denied (2495 us)
+11-18 18:40:41.357   430   486 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10234 pid=0
+11-18 18:40:41.357   430   486 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10234 => denied (1909 us)
+11-18 18:40:41.358   430   440 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10234 pid=9485
+11-18 18:40:41.358   430   440 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10234 => denied (526 us)
+11-18 18:40:41.360  9485  9499 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:40:41.360  9485  9499 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:40:41.374  9485  9499 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:41.404   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:40:41.405  9485  9499 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:41.487   554  1238 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10234 pid=0
+11-18 18:40:41.487   554  1238 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10234 => denied (121 us)
+11-18 18:40:41.487   554  1238 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10234 pid=0
+11-18 18:40:41.487   554  1238 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10234 => denied (11 us)
+11-18 18:40:41.487   554  1238 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10234 pid=0
+11-18 18:40:41.487   554  1238 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10234 => denied (9 us)
+11-18 18:40:41.489   554   578 W ziparchive: Unable to open '/data/app/~~1Qfdsi7LYtOXTzShRbdJSA==/com.university.lab11.test-aLl7oRub8HxhFVkAexmuNQ==/base.dm': No such file or directory
+11-18 18:40:41.491   554   578 I ActivityTaskManager: Displayed com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +359ms
+11-18 18:40:41.509   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b1bda16
+11-18 18:40:41.509  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: PRE_ON_CREATE
+11-18 18:40:41.510  9417  9417 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:40:41.511   554  1017 W InputManager-JNI: Input channel object '577d934 Splash Screen com.university.lab11.test (client)' was disposed without first being removed with the input manager!
+11-18 18:40:41.522   359   359 I netd    : tetherGetStats() -> {[]} <0.31ms>
+11-18 18:40:41.523  9485  9485 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:41.538  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: CREATED
+11-18 18:40:41.540  9417  9417 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab11.MainActivity@a2ebaf1
+11-18 18:40:41.540   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:41.540  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: STARTED
+11-18 18:40:41.540  9417  9417 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab11.MainActivity@a2ebaf1
+11-18 18:40:41.540   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:41.540   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10168} in 1ms
+11-18 18:40:41.540   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:40:41.541   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:40:41.541   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20168} in 0ms
+11-18 18:40:41.542  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: RESUMED
+11-18 18:40:41.542  9417  9417 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab11.MainActivity@a2ebaf1
+11-18 18:40:41.563   554   578 W ziparchive: Unable to open '/data/app/~~KKfQT51wexecP3xeX5CbRg==/com.university.lab11-Uy3-bZZheIcYhh9fg0vdxw==/base.dm': No such file or directory
+11-18 18:40:41.565   554   578 I ActivityTaskManager: Displayed com.university.lab11/.MainActivity for user 0: +233ms
+11-18 18:40:41.574  9485  9485 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2b854ee
+11-18 18:40:41.575   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a6e8e38
+11-18 18:40:41.576   554  1017 W InputManager-JNI: Input channel object 'a5fc789 Splash Screen com.university.lab11 (client)' was disposed without first being removed with the input manager!
+11-18 18:40:41.577   554  2263 W InputManager-JNI: Input channel object '6162619 com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:40:41.581  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=66
+11-18 18:40:41.581  1156  1156 I TopTaskTracker: onTaskRemoved: taskId=66
+11-18 18:40:41.591   554   680 I ImeTracker: com.university.lab11:f524950: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:40:41.591   554   680 I ImeTracker: com.university.lab11:f524950: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:41.592  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:40:41.593  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:40:41.593  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab11, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:40:41.593  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:40:41.594  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:40:41.620  9417  9417 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230827/com.university.lab11:id/button_fetch99>
+11-18 18:40:41.626  9417  9417 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:40:41.665   425  4804 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:40:41.667   554   647 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:40:41.781  9485  9490 I sity.lab11.test: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:40:41.894   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:40:41.901  9417  9448 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QServer returned HTTP 404\E.*']].
+11-18 18:40:41.901  9417  9448 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QServer returned HTTP 404\E.*'].
+11-18 18:40:42.223   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.223   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.226  1208  2026 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:40:42.226  1208  2026 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:40:42.226   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.227   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.227   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.227   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.227   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.227   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:40:42.229  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:40:42.229  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:40:42.232  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:40:42.236  9417  9448 I LABCI   : waitText 'Server returned HTTP 404': true
+11-18 18:40:42.238   554  1017 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10234, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:40:42.242   903  1009 D SplashScreenView: Build android.window.SplashScreenView{9e9644 V.E...... ......ID 0,0-0,0}
+11-18 18:40:42.242   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:40:42.242   903  1009 D SplashScreenView: Branding: view: android.view.View{1e6e32d G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:40:42.244  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=68, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:40:42.244  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: PAUSED
+11-18 18:40:42.244  9417  9417 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab11.MainActivity@a2ebaf1
+11-18 18:40:42.248   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:42.276  9485  9499 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:40:42.277  9485  9499 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:40:42.281  9485  9499 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:40:42.331  9417  9417 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:40:42.365   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:42.366  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=28, baseIntent=Intent { act=android.intent.action.DIAL dat=tel:xxxxxxx flg=0x10000000 cmp=com.google.android.dialer/com.android.dialer.main.impl.MainActivity }
+11-18 18:40:42.371   554   578 W ziparchive: Unable to open '/data/app/~~1Qfdsi7LYtOXTzShRbdJSA==/com.university.lab11.test-aLl7oRub8HxhFVkAexmuNQ==/base.dm': No such file or directory
+11-18 18:40:42.372   554   578 I ActivityTaskManager: Displayed com.university.lab11.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +134ms
+11-18 18:40:42.373  5780  5780 I Dialermjh: com.android.dialer.windowlayout.impl.WindowLayoutProviderImpl.updateWindowLayout:71 enter
+11-18 18:40:42.375  5780  5780 I Dialermjh: com.android.dialer.windowlayout.impl.WindowLayoutProviderImpl.updateWindowLayout:82 windowLayout set to # mjf@837e38
+11-18 18:40:42.380  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: STOPPED
+11-18 18:40:42.381  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [1], return value: Default
+11-18 18:40:42.381  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStart:548 onStart enter
+11-18 18:40:42.381  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.registerPermissionReceiver:266 Permission: android.permission.READ_CONTACTS
+11-18 18:40:42.381  5780  5780 I DialerSearchFragment: com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:464 Loader finished: kfp{b34a8ea id=2}
+11-18 18:40:42.381  5780  5780 I DialerSearchFragment: com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:464 Loader finished: keq{b8a47b1 id=4}
+11-18 18:40:42.381  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStart:254 enter
+11-18 18:40:42.382  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1235 enter
+11-18 18:40:42.382  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onResume:1256 registered GrowthKit and HATS callbacks
+11-18 18:40:42.382  5780  5780 I DialerDefaultDialerImpl: com.android.dialer.defaultdialer.impl.DefaultDialerImpl.isDefaultDialer:40 enter
+11-18 18:40:42.384  5780  5801 I DialerAnnotatedCallLogRefreshStarterImpl: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshStarterImpl.refreshWithDirtyCheck:40 refreshWithDirtyCheck
+11-18 18:40:42.384  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate$MainCallLogFragmentListener.onActivityResume:2031 enter
+11-18 18:40:42.384  5780  5780 I DialerCallLogQueryHandler: com.android.dialer.database.CallLogQueryHandler.fetchVoicemailStatus:81 fetching voicemail status
+11-18 18:40:42.384  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onResume:567 onResume enter
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.loadContacts:712 loadContacts enter
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.showContactsPermissionEmptyContentViewIfNoPermissions:883 enter
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialUiContentLoader: com.android.dialer.speeddial.loader.SpeedDialUiContentLoader.loadSpeedDialBasicContents:179 enter
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.loadSpeedDialUiItems:315 enter
+11-18 18:40:42.385  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.loadContacts:736 loadContacts exiting
+11-18 18:40:42.386  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onResume:265 enter
+11-18 18:40:42.386  5780  5780 I Dialerjlg: com.android.dialer.modernizedmain.impl.ModernizedMainEnabledFn.isEnabled:19 flag disabled
+11-18 18:40:42.386  5780  5780 I Dialerjlg: com.android.dialer.modernizedmain.impl.ModernizedMainEnabledFn.isEnabled:19 flag disabled
+11-18 18:40:42.386  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.configureScreenFromIntent:389 action: android.intent.action.DIAL
+11-18 18:40:42.386  5780  5780 I DialerCountryCodeProviderImpl: com.android.dialer.assisteddialing.availability.CountryCodeProviderImpl.<init>:55 Using country codes: {CA, ES, GB, IN, JP, US}
+11-18 18:40:42.386  5780  5780 I DialerCountryCodeProviderImpl: com.android.dialer.assisteddialing.availability.CountryCodeProviderImpl.<init>:55 Using country codes: {CA, ES, GB, IN, JP, US}
+11-18 18:40:42.386  5780  5780 I DialerRttPreCallDialpadIntegration: com.android.dialer.rtt.settings.impl.precalldialpad.RttPreCallDialpadIntegration.load:96 enter
+11-18 18:40:42.386  5780  5806 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.lambda$throttleInternalSequentially$0:101 throttle sequentially
+11-18 18:40:42.386  5780  5806 I DialerAnnotatedCallLogRefreshRequestRegulator: com.android.dialer.calllog.refresh.impl.AnnotatedCallLogRefreshRequestRegulator.lambda$throttleInternalSequentially$0:142 start refreshing, checkDirty=true
+11-18 18:40:42.387  5780  5806 I DialerRefreshAnnotatedCallLogWorker: com.android.dialer.calllog.refresh.impl.RefreshAnnotatedCallLogWorker.refresh:135 submitting serialized refresh request
+11-18 18:40:42.387  5780  5806 W DialerPostCallDao: com.android.dialer.postcall.impl.storage.PostCallDao.lambda$isPostCall$2:82 received null call connect time, returning false [CONTEXT disable_client_error_logging=true ]
+11-18 18:40:42.387  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:40:42.387  5780  5780 I Dialerjfn: com.android.dialer.largescreensupport.activityembedding.AndroidxActivityEmbeddingApi$splitInfoList$$inlined$map$1$2.emit:224 splitInfoList: []
+11-18 18:40:42.387  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.lambda$onCreate$2:597 oldEmbedded: Optional[false], newEmbedded: false, hasSplit: false,
+11-18 18:40:42.388  5780  5796 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:783 forceUpdate
+11-18 18:40:42.388  5780  5796 I DialerDialerDatabaseHelper: com.android.dialer.database.DialerDatabaseHelper.updateSmartDialDatabase:798 last updated at 0
+11-18 18:40:42.388  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.loadSpeedDialUiItemsInternal:322 enter
+11-18 18:40:42.388  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getSpeedDialEntryDao:1319 enter
+11-18 18:40:42.388  5780  5802 I DialerSpeedDialEntryDatabaseHelper: com.android.dialer.speeddial.database.SpeedDialEntryDatabaseHelper.getAllEntries:209 enter
+11-18 18:40:42.388  9234  9238 I AidlLazyServiceRegistrar: Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+11-18 18:40:42.388  9234  9238 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-18 18:40:42.392  9417  9417 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab11.MainActivity@a2ebaf1
+11-18 18:40:42.394  5780  5802 I DialerSpeedDialEntryDatabaseHelper: com.android.dialer.speeddial.database.SpeedDialEntryDatabaseHelper.getAllEntries:247 exiting
+11-18 18:40:42.394  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeys:489 enter
+11-18 18:40:42.394  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeysWithoutSourceId:528 enter
+11-18 18:40:42.394  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.updateContactIdsAndLookupKeysWithSourceId:640 enter
+11-18 18:40:42.395  5780  5802 I DialerSpeedDialUiItemMutator: com.android.dialer.speeddial.loader.SpeedDialUiItemMutator.getCountryIso:1335 enter
+11-18 18:40:42.396   425   444 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+11-18 18:40:42.397  9417  9417 D LifecycleMonitor: Lifecycle status change: com.university.lab11.MainActivity@a2ebaf1 in: DESTROYED
+11-18 18:40:42.397  9417  9417 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:40:42.397  9417  9417 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ed94a59
+11-18 18:40:42.404  9417  9448 I TestRunner: finished: b_fetch404(com.university.lab11.Lab11Test)

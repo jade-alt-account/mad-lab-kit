@@ -1,0 +1,522 @@
+11-18 18:40:03.280  9594  9614 I TestRunner: started: b_direct(com.university.lab09.Lab09Test)
+11-18 18:40:03.284   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:03.291  9594  9614 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab09\E']].
+11-18 18:40:03.291  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:40:03.291   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 45, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:40:03.291   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=45)
+11-18 18:40:03.302  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: PRE_ON_CREATE
+11-18 18:40:03.309   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-18 18:40:03.343  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: CREATED
+11-18 18:40:03.346  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: STARTED
+11-18 18:40:03.347  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: RESUMED
+11-18 18:40:03.383   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab09/1/com.university.lab09.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:03.384   496   536 I ActivityTaskManager: Displayed com.university.lab09/.MainActivity: +99ms
+11-18 18:40:03.385   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:03.398  1675  2882 I PBSessionCacheImpl: Deleted sessionId[7368522932967147] from persistence.
+11-18 18:40:03.409  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:40:03.448  9594  9614 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab09\E'].
+11-18 18:40:04.986  9594  9614 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSend directly\E']].
+11-18 18:40:04.986  9594  9614 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSend directly\E'].
+11-18 18:40:04.996  9594  9614 D UiObject2: Clicking on (82, 260).
+11-18 18:40:05.025   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:40:05.027   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:05.027   496   965 I chatty  : uid=1000(system) Binder:496_7 identical 1 line
+11-18 18:40:05.027   496   965 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:05.028   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(22)
+11-18 18:40:05.031  9594  9614 W GestureController: Gestures took longer than expected (34ms >> 16ms), device might be in a busy state.
+11-18 18:40:05.031  9594  9614 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:40:05.031  9594  9614 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.032  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: PAUSED
+11-18 18:40:05.058  9594  9614 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.098   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.permissioncontroller/300900706/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:40:05.098   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:40:05.099   496   536 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity: +70ms
+11-18 18:40:05.100  9649  9680 I SP      : Sync for en-us succeeded in 8123 ms: {added: [en-us-x-afh-r19, en-us-x-fis-r19, en-us-x-hol-r19, en-us-x-iod-r19, en-us-x-iof-r19, en-us-x-ioh-r19, en-us-x-ioj-r19, en-us-x-jmp-r19, en-us-x-sfg-r19, en-us-x-tme-r19, en-us-x-tpd-r19], metadata: false
+11-18 18:40:05.153  9649  9680 I SP      : GC for 'en-us' (<bpi@77fd5f9 number=10 name=POST_SYNC_GC>) with ttl of 0 ms took 0 ms (0/0/0)
+11-18 18:40:05.153  9649  9677 I TTS.VoiceDataDownloader: Superpack download completed.
+11-18 18:40:05.153  9649  9677 I TTS.VoiceDataDownloader: Download en-us Success true
+11-18 18:40:05.153  9649  9677 I TTS.VoiceDataManager: Downloaded voice en-us
+11-18 18:40:05.159  9594  9614 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:05.169  9649  9677 I TTS.VoiceDataDownloader: getAvailableVoicesInfo en-us
+11-18 18:40:05.169  9649  9677 I TTS.VoiceGenerator: Cache cleared
+11-18 18:40:05.838  8867  9684 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+11-18 18:40:05.839  8867  9684 I BugleDataModel: ParticipantRefresh: Start participant refresh. refreshMode: SELF_ONLY
+11-18 18:40:05.856  8867  9684 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:40:05.867  8867  9684 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+11-18 18:40:05.908  8867  9684 I BugleDataModel: ParticipantRefresh: Number of participants refreshed: 0
+11-18 18:40:06.300  9594  9614 I LABCI   : permission dialog: tapping Allow
+11-18 18:40:06.301  9594  9614 D UiObject2: Clicking on (160, 369).
+11-18 18:40:06.327   733   733 V GrantPermissionsActivity: Logged buttons presented and clicked permissionGroupName=android.permission-group.SMS uid=10187 package=com.university.lab09 presentedButtons=9 clickedButton=1 sessionId=3441834784479859137
+11-18 18:40:06.329  9594  9614 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:40:06.329  9594  9614 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.332   733   733 V GrantPermissionsActivity: Permission grant result requestId=3441834784479859137 callingUid=10187 callingPackage=com.university.lab09 permission=android.permission.SEND_SMS isImplicit=false result=4
+11-18 18:40:06.345   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3063b50, tid 4916
+11-18 18:40:06.348   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:06.349   496  4916 D EGL_emulation: eglCreateContext: 0x7366a315f220: maj 3 min 0 rcv 3
+11-18 18:40:06.350   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a315f220: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:40:06.357   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(35)
+11-18 18:40:06.367  9594  9614 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Allow Lab9 to send and view SMS messages?, displayId=0, id=181, type=TYPE_APPLICATION, layer=1, region=SkRegion((8,24,312,640)), bounds=Rect(8, 24 - 312, 640), focused=false, active=false, pictureInPicture=false, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:40:06.368  1042  1066 D SmsNumberUtils: enter filterDestAddr. destAddr="[M9Y1fPqvD3KZGw7NjFbaBmYTwIk]"
+11-18 18:40:06.369  1042  1066 D SmsNumberUtils: destAddr is not formatted.
+11-18 18:40:06.369  1042  1066 D SmsNumberUtils: leave filterDestAddr, new destAddr="[M9Y1fPqvD3KZGw7NjFbaBmYTwIk]"
+11-18 18:40:06.381  9594  9594 D LifecycleMonitor: Lifecycle status change: com.university.lab09.MainActivity@4a763de in: RESUMED
+11-18 18:40:06.461  9594  9614 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d73; boundsInParent: Rect(0, 0 - 304, 616); boundsInScreen: Rect(8, 24 - 312, 640); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:40:06.461  9594  9614 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:40:06.462  9594  9614 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d73; boundsInParent: Rect(0, 0 - 304, 616); boundsInScreen: Rect(8, 24 - 312, 640); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:40:06.462  9594  9614 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:40:06.467  9594  9614 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:06.491  9594  9594 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10187; state: ENABLED
+11-18 18:40:06.514   496   542 E libprocessgroup: AddTidToCgroup failed to write '9748'; fd=119: Invalid argument
+11-18 18:40:06.515   496   542 E libprocessgroup: Failed to add task into cgroup
+11-18 18:40:06.515   496   542 W libprocessgroup: ExecuteForTask failed for aggregate profile: Invalid argument
+11-18 18:40:06.520  8867  9684 I BugleDataModel: ProcessTelephonyChangeAction: external telephony provider change  content://sms/1
+11-18 18:40:06.548  6375  9051 I BlockedNumbers: isBlocked: NOT BLOCKED; number=**********54, e164=
+11-18 18:40:06.589  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:06.590  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:06.601  2549  2633 W CarrierServices: [52] dvk.a: No config URL. RCS will be disabled!
+11-18 18:40:06.602  8867  8922 W System.err: java.lang.NoSuchMethodException: com.google.android.ims.events.FilteredSmsEvent.<init> [class android.os.Parcel]
+11-18 18:40:06.602  8867  8922 W System.err: 	at java.lang.Class.getConstructor0(Class.java:2332)
+11-18 18:40:06.603  8867  8922 W System.err: 	at java.lang.Class.getConstructor(Class.java:1728)
+11-18 18:40:06.603  8867  8922 W System.err: 	at xeo.createFromParcel(PG:6)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.Parcel.readValue(Parcel.java:3174)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3567)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.os.Bundle.getParcelable(Bundle.java:1001)
+11-18 18:40:06.603  8867  8922 W System.err: 	at android.content.Intent.getParcelableExtra(Intent.java:8276)
+11-18 18:40:06.603  8867  8922 W System.err: 	at kfx.a(PG:511)
+11-18 18:40:06.603  8867  8922 W System.err: 	at com.google.android.apps.messaging.shared.receiver.IncomingRcsEventReceiver.b(PG:5)
+11-18 18:40:06.603  8867  8922 W System.err: 	at kkg.call(Unknown Source:1)
+11-18 18:40:06.603  8867  8922 W System.err: 	at afow.call(PG:3)
+11-18 18:40:06.603  8867  8922 W System.err: 	at ains.a(PG:2)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aint.a(PG:4)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aipw.b(PG:7)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aiox.run(PG:12)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aipy.run(PG:12)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aeua.run(PG:2)
+11-18 18:40:06.603  8867  8922 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.603  8867  8922 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.603  8867  8922 W System.err: 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.603  8867  8922 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.607  8867  8922 W ArrayMap: New hash -993169366 is before end of array hash 1334473718 at index 1 key Class is cancelled today.
+11-18 18:40:06.607  8867  8922 W ArrayMap: java.lang.RuntimeException: here
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.util.ArrayMap.append(ArrayMap.java:645)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3571)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.os.Bundle.getParcelable(Bundle.java:1001)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at android.content.Intent.getParcelableExtra(Intent.java:8276)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at kfx.a(PG:511)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at com.google.android.apps.messaging.shared.receiver.IncomingRcsEventReceiver.b(PG:5)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at kkg.call(Unknown Source:1)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at afow.call(PG:3)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at ains.a(PG:2)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aint.a(PG:4)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aipw.b(PG:7)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aiox.run(PG:12)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aipy.run(PG:12)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aeua.run(PG:2)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.607  8867  8922 W ArrayMap: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.607  8867  8922 W BugleRcs: Pending intent is null. Broadcast not authorized.
+11-18 18:40:06.607  8867  8922 W Bugle   : IncomingRcsEventReceiver: Package not authorized. returning.
+11-18 18:40:06.633  8867  8913 I Bugle   : SmsDeliverReceiver: Received sms
+11-18 18:40:06.645  8867  9684 I BugleDataModel: ProcessTelephonyChangeAction: sync new message. content://sms/1
+11-18 18:40:06.660  8867  8922 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+11-18 18:40:06.679  8867  8916 I BugleDataModel: SyncMessagesAction: Starting batch for messages. lowerBoundTimeMillis: 1795027205465, upperBoundTimeMillis: 1795027207465, maxMessagesToUpdate: 80, maxMessagesToScan: 4000
+11-18 18:40:06.681  1042  1067 D MmsSmsProvider: getSingleAddressId: insert new canonical_address for xxxxxx, _id=4
+11-18 18:40:06.682  1042  1067 D MmsSmsProvider: getThreadId: create new thread_id for recipients xxxxxxxx
+11-18 18:40:06.683  1042  1067 D MmsSmsProvider: insertThread: created new thread_id 4 for recipientIds xxxxxxx
+11-18 18:40:06.720  8867  9635 I Bugle   : SyncMessageBatch: synchronizing. smsToAdd{size:1}
+11-18 18:40:06.737  8867  8922 W BugleDataModel: BugleDatabaseOperations: Unexpected list of latest{size:0} is returned.
+11-18 18:40:06.759  8867  9635 I BugleDataModel: SyncMessagesAction: Updated local database. added SMS: 1, added MMS: 0, deleted Messages: 0, moved threads: 0, txnTimeMillis: 39
+11-18 18:40:06.760  8867  8922 I Bugle   : CequintCallerIdManager: No content provider. authority: com.cequint.ecid
+11-18 18:40:06.762  8867  8922 I BugleDataModel: ReceiveSmsMessageHelper: Received SMS message. message{id:5}, conversation{id:2}, uri: content://sms/2
+11-18 18:40:06.776  8867  8922 I BugleDataModel: SpamVerdictEnforcement: spam precheck are cached. message{id:5}
+11-18 18:40:06.782  8867  8920 I BugleDataModel: ScoobySpamProtection: Skipping phone number from scooby check, spam protection is off.
+11-18 18:40:06.787  8867  8916 I BugleWorkQueue: WorkQueue: took approximately  9  to start processing row for  WorkHandlerProcessingMetaData{src=Executor, type=log_message_sent_or_received, subKey=null, queue=log_message_sent_or_received-, cancellationTag=null, attemptCount=0} ; rowId  2
+11-18 18:40:06.788  8867  9756 I SP      : Creating database superpacks.db, version 16
+11-18 18:40:06.789  8867  8920 I BugleDataModel: SpamVerdictEnforcement: spam precheck are cached. message{id:5}
+11-18 18:40:06.789  8867  8920 I BugleDataModel: SpamVerdictEnforcement: Skipping message marked as spam because spam protection disabled. message{id:5}
+11-18 18:40:06.790  8867  8922 W WM-WorkSpec: Backoff delay duration less than minimum value
+11-18 18:40:06.793  8867  9756 I SP      : Registering hades.1, url: https://storage.googleapis.com/superpacks_public/manifest.json, constraints: *:*, flags: *, requested: 1, current: -1
+11-18 18:40:06.794  8867  9684 W Bugle   : exception getting cached capabilities
+11-18 18:40:06.796  8867  9684 W Bugle   : jhz: Failed to get capabilities from ContactsService.
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at kob.c(PG:14)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at kob.a(PG:5)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at kfx.e(PG:291)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at gpf.G(PG:121)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at gpf.a(PG:6)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at ffe.b(PG:1181)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.796  8867  9684 W Bugle   : Caused by: aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at aeec.a(PG:15)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at com.google.android.rcs.client.contacts.ContactsService.getCachedCapabilities(PG:12)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	at kob.c(PG:11)
+11-18 18:40:06.796  8867  9684 W Bugle   : 	... 16 more
+11-18 18:40:06.799  8867  9684 E Bugle   : ConversationListItemData: Unable to get instant messaging config
+11-18 18:40:06.799  8867  9684 E Bugle   : aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aeec.a(PG:15)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at com.google.android.rcs.client.profile.RcsProfileService.getRcsConfig(PG:15)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at gpf.K(PG:98)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at gpf.a(PG:8)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at ffe.b(PG:1181)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.799  8867  9684 E Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.799  8867  9684 W Bugle   : BugleRcsContactsServiceImpl: Error getting cached capabilities from ContactsService
+11-18 18:40:06.799  8867  9684 W Bugle   : jhz: Failed to get capabilities from ContactsService.
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at kob.c(PG:14)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at gpf.N(PG:31)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at gpf.a(PG:11)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at ffe.b(PG:1181)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.799  8867  9684 W Bugle   : Caused by: aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at aeec.a(PG:15)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at com.google.android.rcs.client.contacts.ContactsService.getCachedCapabilities(PG:12)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	at kob.c(PG:11)
+11-18 18:40:06.799  8867  9684 W Bugle   : 	... 14 more
+11-18 18:40:06.800  8867  9635 I BugleDataModel: SyncMessagesAction: All messages now in sync
+11-18 18:40:06.802  8867  9635 I Bugle   : SyncManager: setting full sync. inProgress: false, before: false
+11-18 18:40:06.806  8867  9756 I SP      : Scheduling job with delay of 0s for {m:b, bg}, 1 candidates
+11-18 18:40:06.812  8867  8867 I SP      : ====> Starting job {m:b, bg}
+11-18 18:40:06.814  8867  9756 I SP      : Scheduling: download registered, 0 started, 0 paused, 1 scheduled, 1 pending: manifests:hades-1 * {m:b, bg}
+11-18 18:40:06.819  8867  9756 I SP      : Scheduling: job start ({m:b, bg}), 1 started, 0 paused, 0 scheduled, 1 pending: manifests:hades-1 @ * {m:b, bg}
+11-18 18:40:06.819  8867  9756 I SP      : Requesting download of URL https://storage.googleapis.com/superpacks_public/manifest.json to hades-1.fetched (constraints: m:b)
+11-18 18:40:06.820  8867  8913 I BugleMDD: Retrieved File Group Name: text_classifier, File Count = 1
+11-18 18:40:06.824  8867  8913 I BugleMDD: Retrieved File Group is null
+11-18 18:40:06.828  8867  9684 W Bugle   : PermissionCheckerImpl: Missing Permission android.permission.ACCESS_FINE_LOCATION
+11-18 18:40:06.829  8867  9757 D abkp    : Starting download: https://storage.googleapis.com/superpacks_public/manifest.json
+11-18 18:40:06.829  8867  9757 V abkp    : Is http uri, downloading (uri: https://storage.googleapis.com/superpacks_public/manifest.json)
+11-18 18:40:06.829  8867  8916 D MddListenableWorkerFactory: createWorker for class: com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim
+11-18 18:40:06.830  8867  8922 I BugleDataModel: PendingMessagesProcessor: process from SmsDeliverReceiver due to sms received with queues:
+11-18 18:40:06.830  8867  8922 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel sms_send including counter
+11-18 18:40:06.834  8867  9635 I BugleNotifications: Refreshing message notifications [CONTEXT for_incoming_messages=true for_failures=true is_silent=false is_quick_reply=false is_smart_reply_update=false conversation_id="2" ]
+11-18 18:40:06.838  8867  9684 E Bugle   : Failed to check if revocation is enabled
+11-18 18:40:06.839  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:06.839  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 1 line
+11-18 18:40:06.839  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:06.839  8867  9684 E Bugle   : aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aeec.a(PG:15)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at com.google.android.rcs.client.profile.RcsProfileService.getRcsConfig(PG:15)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at kfx.o(PG:545)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at kfx.t(PG:139)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at ffe.A(PG:74)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at ffe.b(PG:1252)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.839  8867  9684 E Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.841  8867  8922 I Bugle   : SmsDeliverProcessor: SMS received successfully
+11-18 18:40:06.842  8867  9684 E Bugle   : Cannot get RCS file transfer auto accept supported value
+11-18 18:40:06.842  8867  9684 E Bugle   : aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aeec.a(PG:15)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at com.google.android.rcs.client.profile.RcsProfileService.a(PG:24)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at com.google.android.rcs.client.profile.RcsProfileService.isFileTransferAutoAcceptSupported(PG:36)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at lkn.c(PG:17)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at lkn.a(PG:9)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at ffe.A(PG:76)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at ffe.b(PG:1252)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.842  8867  9684 E Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.853  8867  8867 I BugleRcsEngine: [2] xjk.a: KEY_CONFIG_IMS_PACKAGE_OVERRIDE_STRING: com.google.android.ims
+11-18 18:40:06.853  8867  8867 I Bugle   : ConfigSmsReceiver: shouldIgnoreBroadcast. shouldUseCarrierServicesJibeService: true, isCsApkImsService: true
+11-18 18:40:06.866  8867  8916 I BugleWorkQueue: WorkQueue: took approximately  23  to start processing row for  WorkHandlerProcessingMetaData{src=Executor, type=request_link_preview, subKey=null, queue=request_link_preview-, cancellationTag=null, attemptCount=0} ; rowId  3
+11-18 18:40:06.868  8867  8916 I Bugle   : RequestLinkPreviewAction: No link extracted from message with: message{id:5}
+11-18 18:40:06.871  8867  8920 W WM-WorkSpec: Backoff delay duration less than minimum value
+11-18 18:40:06.872  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:06.872  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 1 line
+11-18 18:40:06.872  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:06.886  8867  8942 W Bugle   : TextClassifierLibManagerImpl: TextClassifierLib initialization failed during measurement.
+11-18 18:40:06.886  8867  8942 W Bugle   : java.util.concurrent.ExecutionException: java.util.concurrent.ExecutionException: java.lang.UnsatisfiedLinkError: Could not load any of the native libraries: textclassifier3_jni_agsa, textclassifier3_jni_aosp, textclassifier3_jni_gmscore, textclassifier3_jni_google3, textclassifier3_jni_tclib, tclibapitest_jni, nga_jni, nga_jni_tclib_testing, com/google/android/apps/gsa/nga/testing/headless/inject/libnga_jni_headless.so, com/google/android/apps/gsa/nga/engine/annotators/libnga_jni_tclib_testing.so
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at ailw.a(PG:135)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at ailw.get(PG:91)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akpp.run(Unknown Source:1)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:06.886  8867  8942 W Bugle   : Caused by: java.util.concurrent.ExecutionException: java.lang.UnsatisfiedLinkError: Could not load any of the native libraries: textclassifier3_jni_agsa, textclassifier3_jni_aosp, textclassifier3_jni_gmscore, textclassifier3_jni_google3, textclassifier3_jni_tclib, tclibapitest_jni, nga_jni, nga_jni_tclib_testing, com/google/android/apps/gsa/nga/testing/headless/inject/libnga_jni_headless.so, com/google/android/apps/gsa/nga/engine/annotators/libnga_jni_tclib_testing.so
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at ailw.a(PG:135)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at ailw.get(PG:91)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akoy.run(Unknown Source:9)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	... 1 more
+11-18 18:40:06.886  8867  8942 W Bugle   : Caused by: java.lang.UnsatisfiedLinkError: Could not load any of the native libraries: textclassifier3_jni_agsa, textclassifier3_jni_aosp, textclassifier3_jni_gmscore, textclassifier3_jni_google3, textclassifier3_jni_tclib, tclibapitest_jni, nga_jni, nga_jni_tclib_testing, com/google/android/apps/gsa/nga/testing/headless/inject/libnga_jni_headless.so, com/google/android/apps/gsa/nga/engine/annotators/libnga_jni_tclib_testing.so
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akmj.a(PG:13)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at com.google.knowledge.cerebra.sense.textclassifier.lib3.GuardedNativeModels.<clinit>(PG:1)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akpz.a(PG:262)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akoz.c(Unknown Source:6)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akoz.a(PG:10)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akpz.<init>(PG:23)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at akpz.a(PG:175)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at mis.a(Unknown Source:121)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at ager.a(PG:3)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at miz.a(PG:13)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at mit.call(Unknown Source:2)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at afox.a(PG:3)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:06.886  8867  8942 W Bugle   : 	... 1 more
+11-18 18:40:06.888  8867  9723 W TextClassifierLibImpl: Failed to initialize, using the fallback.
+11-18 18:40:06.889  8867  9723 D androidtc: Initializing SystemTextClassifier, type = System
+11-18 18:40:06.896  8867  9684 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+11-18 18:40:06.897  8867  9635 W BugleAnnotation: MessageAnnotationData: bind should only be called with annotations for a single message. Message IDs: 
+11-18 18:40:06.906  1293  1293 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:06.914  8867  8920 D MddListenableWorkerFactory: createWorker for class: com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim
+11-18 18:40:06.925  8867  8920 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=388c9dd5-06fc-4ec0-97fc-a1b7adb9c8f8, tags={ com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim, request_link_preview- } ]
+11-18 18:40:06.933  1293  9763 D androidtc: Loading ModelFile { path=/etc/textclassifier/lang_id.model name=lang_id.model version=1 locales=* }
+11-18 18:40:06.945  1293  9763 D androidtc: Loading ModelFile { path=/etc/textclassifier/textclassifier.en.model name=textclassifier.en.model version=710 locales=en }
+11-18 18:40:06.959  1293  9763 I tflite  : Initialized TensorFlow Lite runtime.
+11-18 18:40:06.991  1293  9763 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:06.993  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:06.993  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 1 line
+11-18 18:40:06.993  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.004  9594  9614 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:40:07.013  8867  9684 I BugleMDD: Retrieved File Group Name: smart_actions_grammars, File Count = 30
+11-18 18:40:07.014  8867  9635 I BugleNotifications: Notifying [CONTEXT bugle_notification="Incoming Message (Single Conversation) (id: INCOMING_MESSAGE, tag: com.google.android.apps.messaging:sms:2)" notification_importance=4 ]
+11-18 18:40:07.016  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.016  8867  9635 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 2 lines
+11-18 18:40:07.018  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.018  1293  2886 D androidtc: Initializing SystemTextClassifier, type = System
+11-18 18:40:07.018  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.018  8867  9635 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.025  8867  9684 I BugleMDD: Retrieved File Group Name: smart_actions_emotive_models, File Count = 54
+11-18 18:40:07.028  8867  9684 I BugleMDD: Retrieved File Group Name: scripted_reply, File Count = 5
+11-18 18:40:07.030  1293  9765 D androidtc: Loading ModelFile { path=/etc/textclassifier/actions_suggestions.universal.model name=actions_suggestions.universal.model version=103 locales=* }
+11-18 18:40:07.032  8867  9684 I BugleMDD: Retrieved File Group Name: birthday_grammars, File Count = 4
+11-18 18:40:07.036  1293  9765 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:07.037  8867  9684 I BugleMDD: Retrieved File Group is null
+11-18 18:40:07.037  8867  9684 W Bugle   : Error reading FileSpec: mdd_file {    id: model_based_provider_configs_pumpkin_screen_effects_experiment
+11-18 18:40:07.037  8867  9684 W Bugle   :     group: screen_effect_suggestions
+11-18 18:40:07.037  8867  9684 W Bugle   : }
+11-18 18:40:07.037  8867  9684 W Bugle   : java.io.IOException: Could not get URI for file:, mdd_file {    id: model_based_provider_configs_pumpkin_screen_effects_experiment
+11-18 18:40:07.037  8867  9684 W Bugle   :     group: screen_effect_suggestions
+11-18 18:40:07.037  8867  9684 W Bugle   : }
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at jhv.a(PG:33)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at lqs.a(Unknown Source:220)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at ager.a(PG:3)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at lqz.a(PG:116)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at lrd.a(PG:50)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at ffe.b(PG:1370)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at izh.call(Unknown Source:4)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at afqg.a(Unknown Source:1)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at afox.a(PG:3)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at aipw.b(PG:7)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at aiox.run(PG:12)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at aipy.run(PG:12)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:07.037  8867  9684 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:07.046  8867  8916 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=e38d0acf-fdc5-48b1-88a9-d08968fd71ec, tags={ com.google.android.apps.messaging.shared.datamodel.workqueue.WorkQueueWorkerShim, log_message_sent_or_received- } ]
+11-18 18:40:07.065  1748  8164 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:07.081  1748  8164 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:07.082  8867  9762 W TextClassifierLibImpl: Failed to initialize, using the fallback.
+11-18 18:40:07.083  8867  9762 D androidtc: Initializing SystemTextClassifier, type = System
+11-18 18:40:07.086  1293  9763 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:07.089  8867  9762 I BugleJobs: GenericWorkerQueueAction: Rescheduling immediately
+11-18 18:40:07.091  8867  9762 W BugleAnnotation: MessageAnnotationData: bind should only be called with annotations for a single message. Message IDs: 
+11-18 18:40:07.099  8867  8913 W BugleAnnotation: MessageAnnotationData: bind should only be called with annotations for a single message. Message IDs: 
+11-18 18:40:07.100  8867  9684 I BugleJobs: GenericWorkerQueueAction: Work found
+11-18 18:40:07.110  8867  8913 I Bugle   : P2pConversationSuggestionsUtils: Loading Smart Reply JNIs.
+11-18 18:40:07.112  8867  8913 W Bugle   : P2pConversationSuggestionsUtils: Problem linking Smart Reply JNIs.
+11-18 18:40:07.112  8867  8913 W Bugle   : java.lang.UnsatisfiedLinkError: dlopen failed: library "libhobbes_jni.so" not found
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.lang.Runtime.loadLibrary0(Runtime.java:1087)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.lang.Runtime.loadLibrary0(Runtime.java:1008)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.lang.System.loadLibrary(System.java:1664)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at lfb.a(PG:2)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at lsg.h(PG:379)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at lrm.a(Unknown Source:2)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at afoy.a(PG:3)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at ailz.a(PG:3)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at aima.run(PG:23)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at aipd.run(PG:2)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at aeua.run(PG:2)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at aesr.run(Unknown Source:4)
+11-18 18:40:07.112  8867  8913 W Bugle   : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:07.112  8867  8913 W Bugle   : P2pConversationSuggestionsUtils: SmartReplyLib is null.
+11-18 18:40:07.112  8867  8913 I Bugle   : P2pConversationSuggestionsUtils: suggestionsCount: 0
+11-18 18:40:07.121  8867  9646 I BugleNotifications: Updating notification in conversation due to P2P suggestions [CONTEXT conversation_id="2" ]
+11-18 18:40:07.123  8867  9646 I BugleNotifications: Refreshing message notifications [CONTEXT for_incoming_messages=true for_failures=false is_silent=true is_quick_reply=false is_smart_reply_update=true conversation_id="2" ]
+11-18 18:40:07.128  8867  9646 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.128  8867  9646 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 1 line
+11-18 18:40:07.128  8867  9646 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 18:40:07.131  8867  9646 W BugleAnnotation: MessageAnnotationData: bind should only be called with annotations for a single message. Message IDs: 
+11-18 18:40:07.143  8867  9646 I BugleNotifications: Notifying [CONTEXT bugle_notification="Incoming Message (Single Conversation) (id: INCOMING_MESSAGE, tag: com.google.android.apps.messaging:sms:2)" notification_importance=4 ]
+11-18 18:40:07.144  1293  2886 D androidtc: Initializing SystemTextClassifier, type = System
+11-18 18:40:07.147  1293  9765 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:07.163  8867  9762 W TextClassifierLibImpl: Failed to initialize, using the fallback.
+11-18 18:40:07.166  1293  9763 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:07.170  8867  9762 W TextClassifierLibImpl: Failed to initialize, using the fallback.
+11-18 18:40:07.172  1293  9765 W id.ext.service: Core platform API violation: Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z from /apex/com.android.extservices/priv-app/GoogleExtServices/GoogleExtServices.apk using linking
+11-18 18:40:07.173  8867  9762 I BugleJobs: GenericWorkerQueueAction: Rescheduling immediately
+11-18 18:40:07.182  8867  9684 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-18 18:40:07.221  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.android.apps.messaging|0|com.google.android.apps.messaging:sms:2|10144
+11-18 18:40:07.223  8018  8018 W NotifBindPipeline: Row is not set so pipeline will not run. notif = 0|com.google.android.apps.messaging|0|com.google.android.apps.messaging:sms:2|10144
+11-18 18:40:07.245  8018  8018 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:40:07.247  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:40:07.444  8018  8018 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.android.apps.messaging|0|com.google.android.apps.messaging:sms:2|10144
+11-18 18:40:07.494  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:07.494  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:07.635  8867  9757 E abkp    : Non-success http response code 404 for: https://storage.googleapis.com/superpacks_public/manifest.json
+11-18 18:40:07.636  8867  9756 W SP      : Error downloading: manifests:hades-1
+11-18 18:40:07.636  8867  9756 W SP      : abhe: HTTP_ERROR 404, url: https://storage.googleapis.com/superpacks_public/manifest.json
+11-18 18:40:07.636  8867  9756 W SP      : 	at abhb.a(PG:17)
+11-18 18:40:07.636  8867  9756 W SP      : 	at abkp.a(PG:81)
+11-18 18:40:07.636  8867  9756 W SP      : 	at abkk.run(PG:15)
+11-18 18:40:07.636  8867  9756 W SP      : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:40:07.636  8867  9756 W SP      : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:40:07.636  8867  9756 W SP      : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:40:07.636  8867  9756 I SP      : <==== Finishing job {m:b, bg}, 824 ms. elapsed since start
+11-18 18:40:07.636  8867  9756 I SP      : Download stopped: manifests:hades-1, failed (permanent), size: 0
+11-18 18:40:07.729  1748  9760 I Vision  : Requesting optional module download of ocr.
+11-18 18:40:07.729  1748  9760 I Vision  : Checking for download completion for 377186 -- ocr
+11-18 18:40:07.776   496  1940 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:08.081  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.086  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.115  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.117  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.123  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.124  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.140  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.142  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.153  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Conversation_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.157  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Conversation_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.160  1748  9484 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging [CONTEXT service_id=21 ]
+11-18 18:40:08.161  1748  9484 I Icing   : Indexing done com.google.android.apps.messaging-internal.3p:Message_no_gsa [CONTEXT service_id=21 ]
+11-18 18:40:08.293   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=45)
+11-18 18:40:08.293   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:40:08.295   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:40:08.295   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 45 ended, total sessions:0
+11-18 18:40:08.438  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:08.438  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:09.425   496  1943 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:09.705  9594  9614 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:09.712  9594  9614 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_sent.png
+11-18 18:40:09.752   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:09.752  9778  9778 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:09.757  9778  9778 D HostConnection: createUnique: call
+11-18 18:40:09.757  9778  9778 D HostConnection: HostConnection::get() New Host Connection established 0x795e7ad95690, tid 9778
+11-18 18:40:09.772  9778  9778 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:09.806  9783  9784 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:40:09.807  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_sent.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:09.814  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab09_sent.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab09_sent.png
+11-18 18:40:09.815  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 7ms, 0 inserts 0 updates 0 deletes
+11-18 18:40:09.815  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_sent.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:09.804  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:653): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:09.824  9594  9614 I LABCI   : screenshot lab09_sent
+11-18 18:40:09.804  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:654): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:10.119  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:10.119  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:11.404  5592  5592 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-18 18:40:11.410  5592  6226 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+11-18 18:40:11.422  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:40:11.422  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:40:11.503  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-18 18:40:11.503  2119  2119 I Dialer  : RetryPolicy - Retry limit for com.android.voicemail.impl.ActivationTask@4a7f87d reached
+11-18 18:40:11.504  2119  2119 I Dialer  : RetryPolicy - committing deferred status: configuration_state=4
+11-18 18:40:11.510  6375  9051 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:40:11.511  2119  2119 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-18 18:40:11.963  1748  9484 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:11.963  1748  2888 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=36 [CONTEXT service_id=21 ]
+11-18 18:40:11.972  1748  9484 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:40:11.980  1748  2888 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
+11-18 18:40:11.992  1748  9484 I Icing   : Usage reports ok 4, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:40:11.994  1748  9484 I Icing   : Indexing done com.google.android.gms-internal.3p:Message [CONTEXT service_id=21 ]
+11-18 18:40:11.995  1748  9484 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:40:11.998  1748  9484 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:40:12.866   733   754 W System  : A resource failed to call release. 
+11-18 18:40:12.947  8018  8018 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+11-18 18:40:12.973  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:40:12.973  8018  8018 D KeyguardUpdateMonitor: onKeyguardVisibilityChanged(false)
+11-18 18:40:12.985  8018  8018 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-18 18:40:13.006  1748  9484 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:13.008  1748  9484 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:13.009  1748  9484 I Icing   : Indexing done com.google.android.gms-internal.3p:Message [CONTEXT service_id=21 ]
+11-18 18:40:13.009  1748  9484 I Icing   : Indexing com.google.android.gms-sms from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:13.013  1748  9484 W Icing   : Content incarnation mismatch: Expected [1795026874496-e425e4a013d0a56a] found [1795027213011-73435386aa8046be] [CONTEXT service_id=21 ]
+11-18 18:40:13.014  1748  9484 I Icing   : Indexing done com.google.android.gms-sms [CONTEXT service_id=21 ]
+11-18 18:40:13.014  1748  9484 E Icing   : Aborting indexing of corpus sms [CONTEXT service_id=21 ]
+11-18 18:40:13.015  1748  9484 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication [CONTEXT service_id=21 ]
+11-18 18:40:13.015  1748  9484 I Icing   : Removing corpus key com.google.android.gms-sms for package com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:13.021  1748  9484 I native  : flash-index.cc:1509 Flash index sort hb 47 prefix-hits 90 -> 82 at 3.335ms
+11-18 18:40:13.024  9594  9614 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:40:13.030  9594  9614 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab09_delivered.png
+11-18 18:40:13.047  1748  9484 I Icing   : Indexing com.google.android.gms-sms from com.google.android.gms [CONTEXT service_id=21 ]
+11-18 18:40:13.051  1748  9484 E native  : document-indexer.cc:350 Unknown vg 2
+11-18 18:40:13.052  1748  9484 I chatty  : uid=10119(com.google.android.gms) lowpool[32] identical 6 lines
+11-18 18:40:13.052  1748  9484 E native  : document-indexer.cc:350 Unknown vg 2
+11-18 18:40:13.056  1748  9484 I Icing   : Indexing done com.google.android.gms-sms [CONTEXT service_id=21 ]
+11-18 18:40:13.079   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:40:13.079  9789  9789 I Gralloc4: mapper 4.x is not supported
+11-18 18:40:13.084  9789  9789 D HostConnection: createUnique: call
+11-18 18:40:13.085  9789  9789 D HostConnection: HostConnection::get() New Host Connection established 0x7154f1e97310, tid 9789
+11-18 18:40:13.093  9789  9789 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:40:13.116  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_delivered.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:13.112  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:663): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:13.128  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab09_delivered.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab09_delivered.png
+11-18 18:40:13.128  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 12ms, 0 inserts 0 updates 0 deletes
+11-18 18:40:13.128  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab09_delivered.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:40:13.112  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:664): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:13.139  9594  9614 I LABCI   : screenshot lab09_delivered
+11-18 18:40:13.112  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:665): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:40:13.586  9594  9614 I TestRunner: finished: b_direct(com.university.lab09.Lab09Test)

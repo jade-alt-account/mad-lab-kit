@@ -1,0 +1,123 @@
+11-18 18:34:02.201 I/LABCI   ( 3456): provider insert -> content://com.university.courses.provider/courses/1
+11-18 18:34:03.232 I/LABCI   ( 3456): content query from another process: Row: 0 _id=1, title=Mobile Application Development
+11-18 18:34:19.098 I/LABCI   ( 3983): waitText 'Taps: 2': true
+11-18 18:34:21.717 I/LABCI   ( 3983): waitText 'Taps: 2': true
+11-18 18:34:23.036 I/LABCI   ( 3983): screenshot kbonus_compose_rotated
+11-18 18:34:25.204 I/LABCI   ( 3983): room db built: com.university.kbonus.UserDao_Impl@6ba5ff8
+11-18 18:34:35.397 I/LABCI   ( 4413): waitText 'Runtime initialization complete.': true
+11-18 18:34:36.295 I/LABCI   ( 4413): screenshot lab01_text
+11-18 18:34:36.306 I/LABCI   ( 4413): A open:
+11-18 18:34:36.306 I/LABCI   ( 4413): --------- beginning of main
+11-18 18:34:36.306 I/LABCI   ( 4413): 11-18 18:34:33.928  4413  4413 D LifecycleDemo: onCreate
+11-18 18:34:36.306 I/LABCI   ( 4413): 11-18 18:34:33.943  4413  4413 D LifecycleDemo: onStart
+11-18 18:34:36.306 I/LABCI   ( 4413): 11-18 18:34:33.955  4413  4413 D LifecycleDemo: onResume
+11-18 18:34:38.510 I/LABCI   ( 4413): B home:
+11-18 18:34:38.510 I/LABCI   ( 4413): --------- beginning of main
+11-18 18:34:38.510 I/LABCI   ( 4413): 11-18 18:34:36.478  4413  4413 D LifecycleDemo: onPause
+11-18 18:34:38.510 I/LABCI   ( 4413): 11-18 18:34:36.675  4413  4413 D LifecycleDemo: onStop
+11-18 18:34:41.491 I/LABCI   ( 4413): screenshot lab01_recents
+11-18 18:34:44.019 I/LABCI   ( 4413): C return:
+11-18 18:34:44.019 I/LABCI   ( 4413): --------- beginning of main
+11-18 18:34:44.019 I/LABCI   ( 4413): 11-18 18:34:41.524  4413  4413 D LifecycleDemo: onStart
+11-18 18:34:44.019 I/LABCI   ( 4413): 11-18 18:34:41.539  4413  4413 D LifecycleDemo: onResume
+11-18 18:34:47.988 I/LABCI   ( 4413): screenshot lab01_rotated
+11-18 18:34:51.115 I/LABCI   ( 4413): D rotate (and back):
+11-18 18:34:51.115 I/LABCI   ( 4413): --------- beginning of main
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.132  4413  4413 D LifecycleDemo: onPause
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.132  4413  4413 D LifecycleDemo: onStop
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.134  4413  4413 D LifecycleDemo: onDestroy
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.182  4413  4413 D LifecycleDemo: onCreate
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.185  4413  4413 D LifecycleDemo: onStart
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:44.189  4413  4413 D LifecycleDemo: onResume
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.032  4413  4413 D LifecycleDemo: onPause
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.038  4413  4413 D LifecycleDemo: onStop
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.040  4413  4413 D LifecycleDemo: onDestroy
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.077  4413  4413 D LifecycleDemo: onCreate
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.081  4413  4413 D LifecycleDemo: onStart
+11-18 18:34:51.115 I/LABCI   ( 4413): 11-18 18:34:48.087  4413  4413 D LifecycleDemo: onResume
+11-18 18:34:54.266 I/LABCI   ( 4413): E back (API 35):
+11-18 18:34:54.266 I/LABCI   ( 4413): --------- beginning of main
+11-18 18:34:54.266 I/LABCI   ( 4413): 11-18 18:34:51.229  4413  4413 D LifecycleDemo: onPause
+11-18 18:34:54.266 I/LABCI   ( 4413): 11-18 18:34:51.364  4413  4413 D LifecycleDemo: onStop
+11-18 18:34:54.266 I/LABCI   ( 4413): 11-18 18:34:51.368  4413  4413 D LifecycleDemo: onDestroy
+11-18 18:35:01.167 I/LABCI   ( 4936): screenshot lab02_form
+11-18 18:35:02.455 I/LABCI   ( 4936): screenshot lab02_toast
+11-18 18:35:04.172 I/LABCI   ( 4936): screenshot lab02_toast_hostel
+11-18 18:35:05.816 I/LABCI   ( 4936): screenshot lab02_list_toast
+11-18 18:35:07.118 I/LABCI   ( 4936): screenshot lab02_code_ui
+11-18 18:35:13.551 I/LABCI   ( 5250): screenshot lab03_actionbar
+11-18 18:35:13.925 I/LABCI   ( 5250): search action visible in bar: true
+11-18 18:35:15.011 I/LABCI   ( 5250): screenshot lab03_overflow
+11-18 18:35:16.219 I/LABCI   ( 5250): screenshot lab03_settings_toast
+11-18 18:35:22.777 I/LABCI   ( 5250): screenshot lab03_landscape
+11-18 18:35:22.781 I/LABCI   ( 5250): rotation after setOrientationLeft: 1
+11-18 18:35:31.393 I/LABCI   ( 5555): screenshot lab04_detail
+11-18 18:35:38.462 I/LABCI   ( 5555): Website opened package: com.android.chrome
+11-18 18:35:39.284 I/LABCI   ( 5555): screenshot lab04_web
+11-18 18:35:49.210 I/LABCI   ( 5555): Call office opened package: com.google.android.dialer
+11-18 18:35:50.059 I/LABCI   ( 5555): screenshot lab04_dial
+11-18 18:35:58.794 I/LABCI   ( 5555): Show GCUF opened package: com.google.android.apps.maps
+11-18 18:35:59.685 I/LABCI   ( 5555): screenshot lab04_map
+11-18 18:36:11.445 I/LABCI   ( 5555): Pick contact opened package: com.google.android.contacts
+11-18 18:36:12.261 I/LABCI   ( 5555): screenshot lab04_pick
+11-18 18:36:16.907 I/LABCI   ( 5555): screenshot lab04_result
+11-18 18:36:31.926 I/LABCI   ( 6474): permission dialog: tapping Allow
+11-18 18:36:33.326 I/LABCI   ( 6474): API 35 notification permission dialog shown: true
+11-18 18:36:34.154 I/LABCI   ( 6474): screenshot lab05_after_permission
+11-18 18:36:35.007 I/LABCI   ( 6474): screenshot lab05_fragment_toast
+11-18 18:36:37.011 I/LABCI   ( 6474): waitText 'New Message Alert': true
+11-18 18:36:37.827 I/LABCI   ( 6474): screenshot lab05_notification
+11-18 18:36:42.545 I/LABCI   ( 6474): after tapping notification, foreground = com.university.lab05
+11-18 18:36:43.378 I/LABCI   ( 6474): screenshot lab05_after_tap
+11-18 18:36:51.407 I/LABCI   ( 6869): screenshot lab06_welcome
+11-18 18:36:53.843 I/LABCI   ( 6869): screenshot lab06_note
+11-18 18:36:55.836 I/LABCI   ( 6869): screenshot lab06_settings
+11-18 18:37:05.331 I/LABCI   ( 7183): screenshot lab07_list
+11-18 18:37:06.573 I/LABCI   ( 7183): insert contact: 
+11-18 18:37:07.518 I/LABCI   ( 7183): insert contact: 
+11-18 18:37:08.459 I/LABCI   ( 7183): name: 
+11-18 18:37:09.405 I/LABCI   ( 7183): contacts: Row: 0 display_name=NULL
+11-18 18:37:09.405 I/LABCI   ( 7183): Row: 1 display_name=Test_Student
+11-18 18:37:11.164 I/LABCI   ( 7183): permission dialog: tapping Allow
+11-18 18:37:14.969 I/LABCI   ( 7183): screenshot lab07_contacts
+11-18 18:37:14.973 I/LABCI   ( 7183): waitText 'Test_Student': true
+11-18 18:37:14.973 I/LABCI   ( 7183): named contact listed: true
+11-18 18:37:29.053 I/LABCI   ( 7558): permission dialog: tapping Allow
+11-18 18:37:46.883 I/LABCI   ( 7558): screenshot lab08_frozen
+11-18 18:37:46.895 I/LABCI   ( 7558): ANR dialog visible: false
+11-18 18:37:51.714 I/LABCI   ( 7558): screenshot lab08_after_freeze
+11-18 18:37:55.202 I/LABCI   ( 7558): counter at 3 during background work: true
+11-18 18:37:56.021 I/LABCI   ( 7558): screenshot lab08_working
+11-18 18:38:02.074 I/LABCI   ( 7558): waitText 'Done': true
+11-18 18:38:02.912 I/LABCI   ( 7558): screenshot lab08_done
+11-18 18:38:10.771 I/LABCI   ( 7558): no permission dialog
+11-18 18:38:33.946 I/LABCI   ( 7558): ticks after 20 s minimized: 24
+11-18 18:38:34.584 I/LABCI   ( 7558): waitText 'Counter running': true
+11-18 18:38:35.412 I/LABCI   ( 7558): screenshot lab08_service_notification
+11-18 18:38:44.146 I/LABCI   ( 7558): last tick 3 s after stop: 26, 4 s later: 26
+11-18 18:38:52.356 I/LABCI   ( 7558): waitText 'Charger connected': false
+11-18 18:38:53.168 I/LABCI   ( 7558): screenshot lab08_charger
+11-18 18:38:53.168 I/LABCI   ( 7558): charger toast seen: false
+11-18 18:39:04.929 I/LABCI   ( 8135): Via Messages opened package: com.google.android.apps.messaging
+11-18 18:39:05.809 I/LABCI   ( 8135): screenshot lab09_via_messages
+11-18 18:39:11.279 I/LABCI   ( 8135): permission dialog: tapping Allow
+11-18 18:39:14.760 I/LABCI   ( 8135): screenshot lab09_sent
+11-18 18:39:18.077 I/LABCI   ( 8135): screenshot lab09_delivered
+11-18 18:39:24.861 I/LABCI   ( 8135): Dial opened package: com.google.android.dialer
+11-18 18:39:25.687 I/LABCI   ( 8135): screenshot lab09_dial
+11-18 18:39:34.144 I/LABCI   ( 8135): E-mail opened package: com.google.android.gm
+11-18 18:39:35.040 I/LABCI   ( 8135): screenshot lab09_email
+11-18 18:39:47.408 I/LABCI   ( 8879): permission dialog: tapping While using the app
+11-18 18:39:52.238 I/LABCI   ( 8879): position shown: true
+11-18 18:40:01.081 I/LABCI   ( 8879): screenshot lab10_position
+11-18 18:40:01.089 I/LABCI   ( 8879): position text: 31.4161, 73.06999833333333
+11-18 18:40:01.089 I/LABCI   ( 8879): Administration Block, Gurunanakpura, Faisalabad, Pakistan
+11-18 18:40:09.087 I/LABCI   ( 8879): no permission dialog
+11-18 18:40:14.128 I/LABCI   ( 8879): geo intent opened: com.google.android.apps.maps
+11-18 18:40:15.512 I/LABCI   ( 8879): screenshot lab10_geo_intent
+11-18 18:40:34.121 I/LABCI   ( 8879): screenshot lab10_maplibre
+11-18 18:40:40.306 I/LABCI   ( 9417): waitText 'Leanne Graham <Sincere@april.biz>': true
+11-18 18:40:41.128 I/LABCI   ( 9417): screenshot lab11_user
+11-18 18:40:42.236 I/LABCI   ( 9417): waitText 'Server returned HTTP 404': true
+11-18 18:40:44.979 I/LABCI   ( 9417): waitText 'First note': true
+11-18 18:40:45.807 I/LABCI   ( 9417): screenshot lab12_my_notes

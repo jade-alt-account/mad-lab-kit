@@ -1,0 +1,1683 @@
+11-18 18:38:03.976  8677  8697 I TestRunner: started: b_contacts(com.university.lab07.Lab07Test)
+11-18 18:38:03.977  8677  8697 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:38:03.980   901  2066 E FrameEvents: updateAcquireFence: Did not find frame.
+11-18 18:38:04.006  1675  2012 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:38:04.037   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:38:04.037   344   344 E Layer   : [Surface(name=Task=1)/@0xa065355 - animation-leash#0] No local sync point found
+11-18 18:38:04.037   344   344 E Layer   : [Surface(name=Task=52)/@0xfd754d0 - animation-leash#0] No local sync point found
+11-18 18:38:04.037   344   344 E Layer   : [Surface(name=Task=52)/@0xfd754d0 - animation-leash#0] No local sync point found
+11-18 18:38:04.063  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-18 18:38:04.074  1675  2012 I TngMinusOneSync: Syncing TNG:-1
+11-18 18:38:04.091   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3061bd0, tid 4916
+11-18 18:38:04.093   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:04.095   496  4916 D EGL_emulation: eglCreateContext: 0x7366a31181b0: maj 3 min 0 rcv 3
+11-18 18:38:04.096   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a31181b0: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:38:04.097  8764  8764 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:04.099  8764  8764 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:04.099  8764  8764 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:04.099  8764  8764 I AndroidRuntime: Using default boot image
+11-18 18:38:04.099  8764  8764 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:04.099  8764  8764 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:38:04.099  8764  8764 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:04.100  8764  8764 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:38:04.174  8764  8764 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:04.174  8764  8764 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:04.177  8764  8764 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:04.182  8764  8764 I app_process: The ClassLoaderContext is a special shared library.
+11-18 18:38:04.192  8764  8764 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:04.194  8764  8764 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:38:04.216  2119  7949 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10121; state: DISABLED
+11-18 18:38:04.221   694   694 D BluetoothPbapService:  onChange on contact uri 
+11-18 18:38:04.221  8764  8764 D AndroidRuntime: Shutting down VM
+11-18 18:38:04.241   694  8779 D BluetoothPbapUtils: primaryVersionCounter = 1, secondaryVersionCounter=1
+11-18 18:38:04.332  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:38:04.333  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:04.333  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:04.488  8717  8731 W System  : A resource failed to call release. 
+11-18 18:38:04.637  8677  8697 I LABCI   : insert contact: 
+11-18 18:38:04.637  8677  8697 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:
+11-18 18:38:04.673  8781  8781 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:04.675  8781  8781 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:04.675  8781  8781 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:04.675  8781  8781 I AndroidRuntime: Using default boot image
+11-18 18:38:04.675  8781  8781 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:04.675  8781  8781 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:38:04.676  8781  8781 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:04.677  8781  8781 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:38:04.718  8781  8781 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:04.718  8781  8781 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:04.721  8781  8781 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:04.722  8781  8781 I app_process: The ClassLoaderContext is a special shared library.
+11-18 18:38:04.728  8781  8781 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:04.730  8781  8781 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:38:04.744   694   694 D BluetoothPbapService:  onChange on contact uri 
+11-18 18:38:04.747  8781  8781 D AndroidRuntime: Shutting down VM
+11-18 18:38:04.754   694  8795 D BluetoothPbapUtils: primaryVersionCounter = 3, secondaryVersionCounter=3
+11-18 18:38:04.836  1162  3879 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:38:04.836  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:04.836  1162  3879 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-18 18:38:05.149  1675  1675 W n       : Received update for unknown package com.google.android.googlequicksearchbox
+11-18 18:38:05.151  1162  3879 I anhw    : Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-18 18:38:05.156  8677  8697 I LABCI   : insert contact: 
+11-18 18:38:05.156  8677  8697 D UiDevice: Executing shell command: content insert --uri content://com.android.contacts/data --bind raw_contact_id:i:2 --bind mimetype:s:vnd.android.cursor.item/name --bind data1:s:Test_Student
+11-18 18:38:05.157  1326  1326 I PhenotypeModule: PhenotypeModule.receiveBroadcast():356 onReceive() urgent = false
+11-18 18:38:05.157  1326  1326 I PhenotypeModule: PhenotypeModule.maybeFetchAndUpdate():167 maybeFetchAndUpdate: forceRefresh=false
+11-18 18:38:05.164  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-18 18:38:05.202  8797  8797 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:05.203  8797  8797 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:05.203  8797  8797 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:05.203  8797  8797 I AndroidRuntime: Using default boot image
+11-18 18:38:05.203  8797  8797 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:05.203  8797  8797 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:38:05.203  8797  8797 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:05.204  8797  8797 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:38:05.213  1326  8800 I PhenotypeModule: PhenotypeModule.handlePhenotypeConfigurationUpdates():332 Latency of updating configurations from phenotype (experiment v4): 2
+11-18 18:38:05.213  1326  8800 I PhenotypeModule: PhenotypeModule.handlePhenotypeConfigurationUpdates():257 Latency of updating configurations from phenotype (ExperimentV4): 2
+11-18 18:38:05.214  1326  8800 I PhenotypeModule: PhenotypeModule.lambda$fetchAndUpdate$3():215 fetchAndUpdate() : Success, hasFlags=true, flagCount=447, lastFetchStatus=November 18, 6:38 PM {reason=2, isFullFetch=false, success=true, isEmpty=false, isDelta=false, updatedFlagsCount=0, deletedFlagsCount=0, totalTime=55}
+11-18 18:38:05.221  1675  1675 W n       : Received update for unknown package com.google.android.libraries.notifications#com.google.android.googlequicksearchbox
+11-18 18:38:05.223  1675  1675 I EngineIdGenerator: Refusing EXCLUSIVE task 21, it is already pending. Try again in 359 seconds.
+11-18 18:38:05.247  8797  8797 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:05.247  8797  8797 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:05.249   286   286 D Zygote  : Forked child process 8801
+11-18 18:38:05.250  8797  8797 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:05.251  8797  8797 I app_process: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.255  8801  8801 W ogle.android.g: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:05.258  8797  8797 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:05.260  8797  8797 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:38:05.261   401   415 I adbd    : jdwp connection from 8801
+11-18 18:38:05.268  8801  8801 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.271  8801  8801 I ogle.android.g: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.272  8801  8801 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/PrebuiltGmail/lib/x86_64:/product/lib64:/system/product/lib64
+11-18 18:38:05.275   694   694 D BluetoothPbapService:  onChange on contact uri 
+11-18 18:38:05.276  8797  8797 D AndroidRuntime: Shutting down VM
+11-18 18:38:05.278  8801  8801 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.279  8801  8801 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.200  8797  8797 W app_process: type=1400 audit(0.0:525): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.300   694  8832 E BluetoothPbapUtils: Null contact in the updateList: 1
+11-18 18:38:05.301   496   525 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:05.304   694  8832 E BluetoothPbapUtils: Null contact in the updateList: 2
+11-18 18:38:05.304   694  8832 D BluetoothPbapUtils: primaryVersionCounter = 5, secondaryVersionCounter=3
+11-18 18:38:05.200  8797  8797 W app_process: type=1400 audit(0.0:526): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.373  8801  8840 W ogle.android.g: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:38:05.377  8801  8840 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.377  8801  8840 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.399  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.418  1162  1162 I chatty  : uid=10119 com.google.android.gms.persistent identical 3 lines
+11-18 18:38:05.423  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.426  8801  8801 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.sapi/account.-2137146394 from MailAppProvider. Is account valid result: 1.
+11-18 18:38:05.428  8801  8801 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.email.provider/account.-437561172?suppress_combined%3Dtrue from MailAppProvider. Is account valid result: 1.
+11-18 18:38:05.431  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.434  8801  8848 W aeqo    : START TRACE Inbox first results loaded <4db6eaadb28c221f000001a1eff3a87a>@244774.579848
+11-18 18:38:05.434  8801  8848 W aeqo    : START TRACE Inbox first avatars loaded <911e497193ad476f000001a1eff3a87a>@244774.770594
+11-18 18:38:05.440  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_activity_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_presenter_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nowcontent_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_recents_activity_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_save_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_searchresults_activity_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_test_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_weather_jar__name to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__bloblobber_blob to integer.
+11-18 18:38:05.445  1675  2029 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__velour_jar to integer.
+11-18 18:38:05.453  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.455  1162  2814 W Auth    : [AccountStateSyncher] Unable to look up account state from server.
+11-18 18:38:05.455  1162  2814 W Auth    : java.io.IOException: Couldn't create ClientAuthInfo
+11-18 18:38:05.455  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at fyz.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at fye.hasFeatures(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.hasFeatures(AbstractAccountAuthenticator.java:311)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:343)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at csu.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at zww.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:38:05.455  1162  2814 W Auth    : Caused by: gai: Account has no password.
+11-18 18:38:05.455  1162  2814 W Auth    : 	at gaj.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:38:05.455  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:38:05.455  1162  2814 W Auth    : 	... 10 more
+11-18 18:38:05.455  1162  2814 W GLSActivity: [GmsAccountAuthenticatorImpl] Services not available!
+11-18 18:38:05.457  8801  8801 D CompatibilityChangeReporter: Compat change id reported: 119147584; UID 10133; state: ENABLED
+11-18 18:38:05.462  1162  2814 W Auth    : [AccountStateSyncher] Unable to look up account state from server.
+11-18 18:38:05.462  1162  2814 W Auth    : java.io.IOException: Couldn't create ClientAuthInfo
+11-18 18:38:05.462  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at fyz.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at fye.hasFeatures(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.hasFeatures(AbstractAccountAuthenticator.java:311)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:343)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at csu.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.os.Binder.transact(Binder.java:1043)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at zww.onTransact(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1123)
+11-18 18:38:05.462  1162  2814 W Auth    : Caused by: gai: Account has no password.
+11-18 18:38:05.462  1162  2814 W Auth    : 	at gaj.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-18 18:38:05.462  1162  2814 W Auth    : 	at fyy.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):1)
+11-18 18:38:05.462  1162  2814 W Auth    : 	... 10 more
+11-18 18:38:05.462  1162  2814 W GLSActivity: [GmsAccountAuthenticatorImpl] Services not available!
+11-18 18:38:05.463  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.469  1162  1162 I chatty  : uid=10119 com.google.android.gms.persistent identical 1 line
+11-18 18:38:05.477  1162  1162 I GeofencerStateMachine: sendQueryLocationOptIn
+11-18 18:38:05.507  1675  2074 I ModelDownloadListener: Schdedule model download
+11-18 18:38:05.508  1675  2073 I FedAssExpListener: Fed-ass not supported for signed out users.
+11-18 18:38:05.508  1675  2073 I FedAssExpListener: Successfully processed experiments changed.
+11-18 18:38:05.513  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+11-18 18:38:05.518   287   287 D Zygote  : Forked child process 8867
+11-18 18:38:05.521  1675  6660 I ModelDownloadController: requestHotwordModelUpdate modelType-2 modelLocale-en-US
+11-18 18:38:05.522  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+11-18 18:38:05.522  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.admin.DeviceAdminReceiver
+11-18 18:38:05.522  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+11-18 18:38:05.529  1675  6660 I ModelDownloadController: shouldDownloadModel: modelLocale is en-US
+11-18 18:38:05.529  1675  6660 I ModelDownloadController: #requestHotwordModelDownload
+11-18 18:38:05.531  8867  8867 W .apps.messagin: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:05.531  1675  2074 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:38:05.541  1162  8865 I anjv    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+11-18 18:38:05.543   401   415 I adbd    : jdwp connection from 8867
+11-18 18:38:05.545  8867  8867 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-18 18:38:05.552  8867  8867 I .apps.messagin: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.556  1675  8890 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-18 18:38:05.560  1836  1872 V DownloadManager: Deleting /data/data/com.android.providers.downloads/files/hotword-2.data via provider delete
+11-18 18:38:05.561  1571  1616 W ModernMediaScanner: Failed to visit /data/data/com.android.providers.downloads/files/hotword-2.data: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/files/hotword-2.data
+11-18 18:38:05.563  8867  8867 I .apps.messagin: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.563  8867  8867 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/PrebuiltBugle/lib/x86:/product/app/PrebuiltBugle/PrebuiltBugle.apk!/lib/x86:/product/lib:/system/product/lib
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.a(SourceFile:25)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.j.a(SourceFile:1)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.i.i.run(Unknown Source:2)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.l.a.l.call(Unknown Source:2)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-18 18:38:05.565  1675  2074 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:05.566  1748  2919 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32 [CONTEXT service_id=21 ]
+11-18 18:38:05.574  1748  2919 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33 [CONTEXT service_id=21 ]
+11-18 18:38:05.574  8867  8867 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:38:05.574  8867  8867 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-18 18:38:05.574  1571  1616 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 14ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:05.587  1748  7198 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:38:05.589  1162  8865 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+11-18 18:38:05.589  1162  8865 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.admin.DeviceAdminReceiver
+11-18 18:38:05.594  1162  8865 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+11-18 18:38:05.601  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+11-18 18:38:05.601  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.admin.DeviceAdminReceiver
+11-18 18:38:05.602  1162  8654 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+11-18 18:38:05.606  8867  8867 I MultiDex: VM with version 2.1.0 has multidex support
+11-18 18:38:05.606  8867  8867 I MultiDex: install
+11-18 18:38:05.606  8867  8867 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-18 18:38:05.606  8867  8867 I MultiDex: install
+11-18 18:38:05.606  8867  8867 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-18 18:38:05.623  1675  6660 I ModelDownloadController: Generating model download request
+11-18 18:38:05.634  1748  2888 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
+11-18 18:38:05.635  1748  7198 I Icing   : Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:38:05.637  1748  7198 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:38:05.641  8867  8867 I FirebaseInitProvider: FirebaseApp initialization successful
+11-18 18:38:05.652  8867  8905 I TetheringManager: registerTetheringEventCallback:com.google.android.apps.messaging
+11-18 18:38:05.658  8867  8899 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:13 and remote module com.google.android.gms.measurement.dynamite:0
+11-18 18:38:05.658  8867  8899 I DynamiteModule: Selected local version of com.google.android.gms.measurement.dynamite
+11-18 18:38:05.663  8867  8908 W LibraryVersion: Failed to get app version for libraryName: firebase-iid
+11-18 18:38:05.667  1748  7198 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:38:05.679  1748  7198 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:38:05.686  8867  8867 I adjo    : SslGuard completed installation.
+11-18 18:38:05.687  8677  8697 I LABCI   : name: 
+11-18 18:38:05.688  8677  8697 D UiDevice: Executing shell command: content query --uri content://com.android.contacts/contacts --projection display_name
+11-18 18:38:05.692  8867  8867 W .apps.messagin: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-18 18:38:05.692  8867  8867 W .apps.messagin: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.692  8867  8867 W .apps.messagin: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-18 18:38:05.695  1748  7198 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:38:05.703  8867  8916 I PrimesApiImpl: background initialization
+11-18 18:38:05.708  8867  8867 I Bugle   : BugleApplicationBase: Bugle version: 6.0.117 (xorn_rc10_alldpi.x86.phone)
+11-18 18:38:05.709  8867  8889 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-18 18:38:05.712  1836  8917 D DownloadManager: [6] Starting
+11-18 18:38:05.719  8867  8867 D AppCompatDelegate: setDefaultNightMode. New:-1, Current:-100
+11-18 18:38:05.724  8867  8924 I Bugle   : GServicesValues:
+11-18 18:38:05.724  8867  8924 I Bugle   : bugle_enable_primes_crash_metrics: true
+11-18 18:38:05.724  8867  8924 I Bugle   : bugle_max_telemetry_upload_retries: 10
+11-18 18:38:05.724  8867  8924 I Bugle   : bugle_sticker_set_list_version: 3
+11-18 18:38:05.735  8867  8913 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10144; state: ENABLED
+11-18 18:38:05.737  8915  8915 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:38:05.738  8915  8915 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-18 18:38:05.741  8915  8915 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-18 18:38:05.741  8915  8915 I AndroidRuntime: Using default boot image
+11-18 18:38:05.741  8915  8915 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-18 18:38:05.741  8915  8915 I AndroidRuntime: Leaving lock profiling enabled
+11-18 18:38:05.741  8915  8915 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-18 18:38:05.742  8915  8915 I app_process: Core platform API reporting enabled, enforcing=false
+11-18 18:38:05.765  8867  8920 I CarrierServices: [124] wdp.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:05.772  1836  8917 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.773  1836  8917 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+11-18 18:38:05.791  8915  8915 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-18 18:38:05.791  8915  8915 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-18 18:38:05.795  8915  8915 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-18 18:38:05.796  8915  8915 I app_process: The ClassLoaderContext is a special shared library.
+11-18 18:38:05.736  8915  8915 W app_process: type=1400 audit(0.0:529): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8538 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-18 18:38:05.801  8867  8922 I Bugle   : Initializing EmojiCompat
+11-18 18:38:05.803  8915  8915 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-18 18:38:05.804  8867  8913 I BuglePhenotype: onReceive for bugle package [CONTEXT package_name="com.google.android.apps.messaging" ]
+11-18 18:38:05.806  8915  8915 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+11-18 18:38:05.812  8915  8915 D AndroidRuntime: Shutting down VM
+11-18 18:38:05.817  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_activity_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_presenter_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nowcontent_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_recents_activity_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_save_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_searchresults_activity_jar__name to integer.
+11-18 18:38:05.818  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_test_jar__name to integer.
+11-18 18:38:05.820  1675  2073 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_weather_jar__name to integer.
+11-18 18:38:05.820  1675  2073 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__bloblobber_blob to integer.
+11-18 18:38:05.820  1675  2073 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__velour_jar to integer.
+11-18 18:38:05.837  1675  2034 I FedAssExpListener: Fed-ass not supported for signed out users.
+11-18 18:38:05.839  8867  8924 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+11-18 18:38:05.843  8867  8920 I BugleRcsEngine: [124] vwt.a: Initializing Carrier Services Library.
+11-18 18:38:05.843  8867  8920 I BugleRcsEngine: [124] wdp.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:05.849  1748  2720 I FontsContentProvider: Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts
+11-18 18:38:05.850  1675  2074 I ModelDownloadListener: Schdedule model download
+11-18 18:38:05.851  1675  2029 I FedAssExpListener: Successfully processed experiments changed.
+11-18 18:38:05.852  1748  2720 I FontsContentProvider: Query [Noto Color Emoji Compat] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+11-18 18:38:05.852  8867  8924 W Bugle   : Obsolete carrier config resource: smsToMmsTextThreshold res: 12, sys: -1
+11-18 18:38:05.854  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+11-18 18:38:05.856  1675  2074 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-18 18:38:05.856  1675  8890 I ModelDownloadController: requestHotwordModelUpdate modelType-2 modelLocale-en-US
+11-18 18:38:05.856  1675  8890 I ModelDownloadController: shouldDownloadModel: modelLocale is en-US
+11-18 18:38:05.856  1675  8890 I ModelDownloadController: #requestHotwordModelDownload
+11-18 18:38:05.856  1675  8890 I ModelDownloadController: Model download canceled - previously pending request found
+11-18 18:38:05.857  1675  8890 I ModelDownloadController: Model download not requested.
+11-18 18:38:05.861  8867  8867 W ConfigurationUpdatedRec: Received update for unknown package com.google.android.apps.messaging
+11-18 18:38:05.862  8867  8916 I BuglePhenotype: onReceive for cslib package [CONTEXT package_name="com.google.android.ims.library" ]
+11-18 18:38:05.865  8867  8867 W ConfigurationUpdatedRec: Received update for unknown package com.google.android.ims.library
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.a(SourceFile:25)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.j.a(SourceFile:1)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.i.i.run(Unknown Source:2)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.l.a.l.call(Unknown Source:2)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-18 18:38:05.869  1675  2074 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:05.870  8867  8922 I BugleRcsEngine: [126] xgu.<init>: Initializing SimStateTracker with multi-sim support
+11-18 18:38:05.871  8867  8922 I BugleRcsEngine: [126] xhb.<init>: Initializing SimStateTracker for single-sim device
+11-18 18:38:05.876  1748  2888 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32 [CONTEXT service_id=21 ]
+11-18 18:38:05.877  1748  2919 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33 [CONTEXT service_id=21 ]
+11-18 18:38:05.881  1748  2720 I FontsContentProvider: Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+11-18 18:38:05.882  1748  2772 I FontsContentProvider: Pulling font file for id = 15, cache size = 7
+11-18 18:38:05.883  1748  7198 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:38:05.889  1748  7198 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:38:05.902  1748  7198 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-18 18:38:05.906  1748  8864 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+11-18 18:38:05.910  1162  8893 I PTCommittedOperation: Receive new configuration for com.google.android.gms.contextmanager
+11-18 18:38:05.919  1748  8947 I MdiSyncModule: flag handling is skipping irrelevant intent.
+11-18 18:38:05.920  1748  8412 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+11-18 18:38:05.927  1748  7198 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-18 18:38:05.933  1748  2720 I FontsContentProvider: Pulling font file for id = 15, cache size = 7
+11-18 18:38:05.940  1675  1698 I earchbox:searc: Background concurrent copying GC freed 175832(7382KB) AllocSpace objects, 18(940KB) LOS objects, 49% free, 11MB/22MB, paused 53us total 106.213ms
+11-18 18:38:05.959  8867  8960 W BugleRcsEngine: [137] xgu.a: Unexpected action: android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED
+11-18 18:38:05.961  8867  8888 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-18 18:38:05.961  8867  8922 I BugleRcsEngine: [126] wdp.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:05.963  8867  8957 I BugleRcsEngine: [135] xgy.a: do not delay first event
+11-18 18:38:05.964  8867  8959 W BugleRcsEngine: [136] xgu.a: Unexpected action: android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED
+11-18 18:38:05.965  8867  8924 I BugleRcsEngine: [128] xgy.a: SIM state event delay enabled: attempts 0, maxAttempts 3, delaySeconds 90 MSIM delayseconds 90, effective delay seconds 90
+11-18 18:38:05.965  8867  8924 I BugleRcsEngine: [128] xgy.a: posted simEventProcessTask to handler with delay 90
+11-18 18:38:05.965  8867  8924 I BugleRcsEngine: [128] xgu.a: delay SIM event: android.intent.action.SIM_STATE_CHANGED, LOADED
+11-18 18:38:05.967  8867  8957 I BugleRcsEngine: [135] xgu.e: Processing an intent
+11-18 18:38:05.967  8867  8957 I BugleRcsEngine: [135] xgu.a: SIM state LOADED
+11-18 18:38:05.968  8677  8962 D ProfileInstaller: Installing profile for com.university.lab07
+11-18 18:38:05.971  8867  8957 I BugleRcsEngine: [135] xgu.a: SIM changed: false. current id: hashed-pii:sim_id[[vTVCMUGjVI_F7R4Oo1UZaQU2sZg71SHGs3-sAfk2lb4]]; stored id: hashed-pii:sim_id[[vTVCMUGjVI_F7R4Oo1UZaQU2sZg71SHGs3-sAfk2lb4]]; isFiDevice: false; subId: 1; slotIndex: 0
+11-18 18:38:05.994  8867  8920 I BugleRcsEngine: [124] vwt.b: Initializing Carrier Services Logging.
+11-18 18:38:06.001  8867  8922 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+11-18 18:38:06.009  8867  8916 I BuglePhenotype: Notify about updates in current package [CONTEXT current_package_name="com.google.android.ims.library" ]
+11-18 18:38:06.013  8867  8920 I LogSaver: LogSaver new instance with filename: carrier_services
+11-18 18:38:06.026  8867  8922 W Bugle   : Obsolete carrier config resource: smsToMmsTextThreshold res: 12, sys: -1
+11-18 18:38:06.030  2549  3413 I CarrierServices: [94] czm.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:06.037  2549  8968 I CarrierServices: [99] eav.a: Received Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.037  2549  8968 I CarrierServices: [99] eav.a: JibeService is running, passing event to provisioning engine.
+11-18 18:38:06.037  2549  8968 I CarrierServices: [99] dqc.a: Handling Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.039  2549  8968 I CarrierServices: [99] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.042  8867  8957 I BugleRcsEngine: [135] xgu.k: Skipping writing to Msisdn because this is main bugle process.
+11-18 18:38:06.042  8867  8916 I BugleRcsEngine: [123] aeec.connect: Connecting SignupService
+11-18 18:38:06.042  8867  8957 I BugleRcsEngine: [135] xgu.a: Skipping writing subId because this is main bugle process.
+11-18 18:38:06.046  8867  8916 I BugleRcsEngine: [123] aeec.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+11-18 18:38:06.046  8867  8916 I BugleRcsEngine: [123] aeec.connect: Binding to JibeService in CarrierServices.
+11-18 18:38:06.046  8867  8957 I BugleRcsEngine: [135] xgu.a: Updated SIM info: currentSimId: hashed-pii:sim_id[[vTVCMUGjVI_F7R4Oo1UZaQU2sZg71SHGs3-sAfk2lb4]]; imsi: hashed-pii:imsi[[ZfXj8KzSbt55WH7s4LmgwzBiyEXIYMVn19h0l4CpF0w]]; rawMsisdn: hashed-pii:phone_number[[NznxYcOqbUZ1r_XM6fgpwAdR6_xLBxCmVup7U1g0DEc]]; formattedMsisdn: hashed-pii:phone_number[]; mccmnc: hashed-pii:sim_operator[[QqB0Wj3OJp92ZCYtGisKLEqmD5B93v6pH1L_t98ozKo]] isFiDevice: false; subId: 1; slotIndex: 0
+11-18 18:38:06.049  8867  8957 I BugleRcsEngine: [135] xgu.a: Broadcasting Intent { act=com.google.android.ims.SIM_LOADED (has extras) }
+11-18 18:38:06.051  8867  8867 I RcsClientLib: Service com.google.android.rcs.client.signup.SignupService connected. Will notify listeners: true
+11-18 18:38:06.051  8867  8867 I Bugle   : SimChangeReceiver: action: com.google.android.ims.SIM_LOADED
+11-18 18:38:06.054   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=37)
+11-18 18:38:06.054   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:38:06.056  2549  3413 W CarrierServices: [94] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.056   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 37 ended, total sessions:1
+11-18 18:38:06.057  2549  2584 I CarrierServices: [42] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.061  8867  8920 I BugleBackup: Registering preference change listener for "bugle".
+11-18 18:38:06.062  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.074  8867  8867 I BugleRcsEngine: [2] wdp.b: Reinitialize CSLib Flags: com.google.android.ims.library
+11-18 18:38:06.076  2549  3413 I CarrierServices: [94] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.077  2549  8968 I CarrierServices: [99] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.078  2549  2584 I CarrierServices: [42] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.084  2549  8968 I CarrierServices: [99] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.087  2549  8968 I CarrierServices: [99] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.088  2549  8968 W CarrierServices: [99] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.089  2549  2584 I CarrierServices: [42] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.091  2549  2584 I CarrierServices: [42] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.094  2549  8968 I CarrierServices: [99] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.095  2549  2584 W CarrierServices: [42] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.096  2549  2584 I CarrierServices: [42] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.096  2549  8968 I CarrierServices: [99] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.096  2549  8968 I CarrierServices: [99] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.098  2549  2584 I CarrierServices: [42] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.100  2549  2584 I CarrierServices: [42] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.101  2549  3413 I CarrierServices: [94] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.105  2549  3413 I CarrierServices: [94] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.108  2549  3413 W CarrierServices: [94] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.120  2549  3413 I CarrierServices: [94] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.120  8867  8913 I BugleRcs: RcsAvailabilityUtilForProvisioningEngineV2: Get Updated RcsAvailability, RcsAvailability: DISABLED_VIA_GSERVICES, SimId: Redacted-20
+11-18 18:38:06.120  8867  8913 I BugleRcsEngine: [121] aeec.disconnect: Disconnecting SignupService
+11-18 18:38:06.120  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ChatSessionService
+11-18 18:38:06.121  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.chatsession.IChatSession: Service not registered: aeed@ef14b31
+11-18 18:38:06.121  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@ef14b31
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at koc.b(PG:36)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.121  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.121  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting EventService
+11-18 18:38:06.121  8867  8913 I BugleRcs: RcsAvailabilityUtilForProvisioningEngineV2: success updating RCS availability async
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.events.IEvent: Service not registered: aeed@1c34d84
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@1c34d84
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.google.android.rcs.client.events.EventService.disconnect(PG:7)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:37)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.122  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ContactsService
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.contacts.IContactsManagement: Service not registered: aeed@f2049a2
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@f2049a2
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.122  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting FileTransferService
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.filetransfer.IFileTransfer: Service not registered: aeed@e9bdf0
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@e9bdf0
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:39)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.122  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting LocationSharingService
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.locationsharing.ILocationSharing: Service not registered: aeed@1dd5dee
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@1dd5dee
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:40)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.122  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ImsConnectionTrackerService
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.ims.IImsConnectionTracker: Service not registered: aeed@ec4c91c
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@ec4c91c
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.122  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsProfileService
+11-18 18:38:06.122  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.profile.IRcsProfile: Service not registered: aeed@f456afa
+11-18 18:38:06.122  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@f456afa
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at koc.b(PG:42)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.122  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.123  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting BusinessInfoService
+11-18 18:38:06.123  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.businessinfo.IBusinessInfo: Service not registered: aeed@fe35b08
+11-18 18:38:06.123  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@fe35b08
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at koc.b(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.123  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsMessagingService
+11-18 18:38:06.123  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.rcs.client.messaging.IMessaging: Service not registered: aeed@7ef3cc6
+11-18 18:38:06.123  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@7ef3cc6
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at koc.b(PG:44)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.123  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting TransportControlService
+11-18 18:38:06.123  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.transportcontrol.ITransportControl: Service not registered: aeed@d71fb4
+11-18 18:38:06.123  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@d71fb4
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at koc.b(PG:45)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.123  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.123  8867  8867 W BugleRcs: disconnecting from all Rcs Services
+11-18 18:38:06.125  2549  3413 I CarrierServices: [94] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.125  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.131  8867  8922 I BugleRcsEngine: [126] aeec.connect: Connecting SignupService
+11-18 18:38:06.132  8867  8922 I BugleRcsEngine: [126] aeec.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+11-18 18:38:06.132  8867  8922 I BugleRcsEngine: [126] aeec.connect: Binding to JibeService in CarrierServices.
+11-18 18:38:06.133  8867  8867 I RcsClientLib: Service com.google.android.rcs.client.signup.SignupService connected. Will notify listeners: true
+11-18 18:38:06.134  2549  2633 I CarrierServices: [52] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.137  2549  2633 I CarrierServices: [52] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.141  2549  2633 I CarrierServices: [52] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.145  2549  2633 I CarrierServices: [52] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.146  2549  2633 W CarrierServices: [52] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.146  2549  2633 I CarrierServices: [52] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.147  2549  2633 I CarrierServices: [52] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.147  2549  2633 I CarrierServices: [52] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.148  8867  8916 I BugleRcs: RcsAvailabilityUtilForProvisioningEngineV2: Get Updated RcsAvailability, RcsAvailability: DISABLED_VIA_GSERVICES, SimId: Redacted-20
+11-18 18:38:06.148  8867  8916 I BugleRcsEngine: [123] aeec.disconnect: Disconnecting SignupService
+11-18 18:38:06.148  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ChatSessionService
+11-18 18:38:06.149  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.chatsession.IChatSession: Service not registered: aeed@ef14b31
+11-18 18:38:06.149  8867  8916 I BugleRcs: RcsAvailabilityUtilForProvisioningEngineV2: success updating RCS availability async
+11-18 18:38:06.149  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@ef14b31
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at koc.b(PG:36)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.149  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting EventService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.events.IEvent: Service not registered: aeed@1c34d84
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@1c34d84
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.google.android.rcs.client.events.EventService.disconnect(PG:7)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:37)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ContactsService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.contacts.IContactsManagement: Service not registered: aeed@f2049a2
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@f2049a2
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting FileTransferService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.filetransfer.IFileTransfer: Service not registered: aeed@e9bdf0
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@e9bdf0
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:39)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting LocationSharingService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.locationsharing.ILocationSharing: Service not registered: aeed@1dd5dee
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@1dd5dee
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:40)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting ImsConnectionTrackerService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.ims.IImsConnectionTracker: Service not registered: aeed@ec4c91c
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@ec4c91c
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsProfileService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.profile.IRcsProfile: Service not registered: aeed@f456afa
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@f456afa
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:42)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting BusinessInfoService
+11-18 18:38:06.150  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.businessinfo.IBusinessInfo: Service not registered: aeed@fe35b08
+11-18 18:38:06.150  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@fe35b08
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at koc.b(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.150  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.150  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsMessagingService
+11-18 18:38:06.151  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.rcs.client.messaging.IMessaging: Service not registered: aeed@7ef3cc6
+11-18 18:38:06.151  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@7ef3cc6
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at koc.b(PG:44)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.151  8867  8867 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting TransportControlService
+11-18 18:38:06.151  8867  8867 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.transportcontrol.ITransportControl: Service not registered: aeed@d71fb4
+11-18 18:38:06.151  8867  8867 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@d71fb4
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at aeec.b(PG:43)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at aeec.disconnect(PG:41)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at koc.b(PG:45)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at kof.a(PG:38)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at riw.a(PG:43)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at rif.run(Unknown Source:1)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at afou.run(PG:3)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.os.Looper.loop(Looper.java:223)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at java.lang.reflect.Method.invoke(Native Method)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-18 18:38:06.151  8867  8867 W RcsClientLib: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-18 18:38:06.151  8867  8867 W BugleRcs: disconnecting from all Rcs Services
+11-18 18:38:06.167  2549  3413 I CarrierServices: [94] eav.a: Received Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.167  2549  3413 I CarrierServices: [94] eav.a: JibeService is running, passing event to provisioning engine.
+11-18 18:38:06.167  2549  3413 I CarrierServices: [94] dqc.a: Handling Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.167  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.168  2549  3413 I CarrierServices: [94] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.171  2549  3413 I CarrierServices: [94] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.173  2549  3413 I CarrierServices: [94] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.175  2549  3413 W CarrierServices: [94] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.175  2549  3413 I CarrierServices: [94] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.180  2549  3413 I CarrierServices: [94] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.180  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.185  2549  3413 I CarrierServices: [94] eav.a: Received Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.185  2549  3413 I CarrierServices: [94] eav.a: JibeService is running, passing event to provisioning engine.
+11-18 18:38:06.185  2549  3413 I CarrierServices: [94] dqc.a: Handling Provisioning Event: [Bugle information (100)]
+11-18 18:38:06.185  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:06.186  2549  3413 I CarrierServices: [94] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:06.191  2549  3413 I CarrierServices: [94] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:06.194  2549  3413 I CarrierServices: [94] dtf.c: Bugle is default SMS app: true
+11-18 18:38:06.195  2549  3413 W CarrierServices: [94] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:06.195  2549  3413 I CarrierServices: [94] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:06.196  2549  3413 I CarrierServices: [94] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:06.196  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:06.214  8867  8911 I FA      : App measurement initialized, version: 25018
+11-18 18:38:06.214  8867  8911 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-18 18:38:06.214  8867  8911 I FA      : To enable faster debug mode event logging run:
+11-18 18:38:06.214  8867  8911 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.messaging
+11-18 18:38:06.220  1748  8953 I Vision  : Requesting optional module download of ocr.
+11-18 18:38:06.220  1748  8953 I Vision  : Checking for download completion for 255677 -- ocr
+11-18 18:38:06.229  8677  8697 I LABCI   : contacts: Row: 0 display_name=NULL
+11-18 18:38:06.229  8677  8697 I LABCI   : Row: 1 display_name=Test_Student
+11-18 18:38:06.230  8677  8697 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:38:06.233   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:06.236   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 39, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+11-18 18:38:06.241   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=39)
+11-18 18:38:06.251  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: PRE_ON_CREATE
+11-18 18:38:06.251  8677  8677 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:38:06.292  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: CREATED
+11-18 18:38:06.292  8677  8677 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:06.294  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: STARTED
+11-18 18:38:06.294  8677  8677 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:06.295  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: RESUMED
+11-18 18:38:06.295  8677  8677 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:06.310  2119  3703 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@4fbf828
+11-18 18:38:06.311  2119  3703 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-18 18:38:06.318  6375  6393 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:38:06.319  2119  3703 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-18 18:38:06.320  2119  3703 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-18 18:38:06.327  6375  6393 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-18 18:38:06.335   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab07/1/com.university.lab07.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:06.336   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:06.354   496   536 I ActivityTaskManager: Displayed com.university.lab07/.MainActivity: +102ms
+11-18 18:38:06.362   496  5221 D HostConnection: HostConnection::get() New Host Connection established 0x7366b3061bd0, tid 5221
+11-18 18:38:06.365  1042  1617 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:38:06.369  1042  1617 D SmsNumberUtils: destAddr is not formatted.
+11-18 18:38:06.369  1042  1617 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-18 18:38:06.373  1675  2218 I PBSessionCacheImpl: Deleted sessionId[7368522932967097] from persistence.
+11-18 18:38:06.375  8677  8677 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230827/com.university.lab07:id/button_contacts>
+11-18 18:38:06.381   496  5221 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:06.382   496  5221 D EGL_emulation: eglCreateContext: 0x7366a3160090: maj 3 min 0 rcv 3
+11-18 18:38:06.392   496  5221 D EGL_emulation: eglMakeCurrent: 0x7366a3160090: ver 3 0 (tinfo 0x7366431333a0) (first time)
+11-18 18:38:06.395  8867  8981 I BugleNetwork: DittoFcmTickleHandler: Handling firebase new token
+11-18 18:38:06.396   496  1565 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305ebd0, tid 1565
+11-18 18:38:06.398  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.398   496  1565 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:06.428   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:06.430   496  1942 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:06.431   496  1942 I chatty  : uid=1000(system) Binder:496_1B identical 1 line
+11-18 18:38:06.431   496  1942 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:06.434  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: PAUSED
+11-18 18:38:06.434  8677  8677 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:06.442   733  8986 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-18 18:38:06.443   733  8986 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-18 18:38:06.445   733  8986 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-18 18:38:06.548   733  8985 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305a790, tid 8985
+11-18 18:38:06.551   733  8985 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:06.556   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-18 18:38:06.558   733  8985 D EGL_emulation: eglCreateContext: 0x7366a308ccd0: maj 3 min 0 rcv 3
+11-18 18:38:06.559   733  8985 D EGL_emulation: eglMakeCurrent: 0x7366a308ccd0: ver 3 0 (tinfo 0x7366430a2fb0) (first time)
+11-18 18:38:06.576   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:06.576   733  8985 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:06.577   733  8985 D HostConnection: createUnique: call
+11-18 18:38:06.577   733  8985 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305aa90, tid 8985
+11-18 18:38:06.588   733  8985 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:06.659  8677  8697 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:38:06.659  8677  8697 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:38:06.671  1836  8917 D DownloadManager: [6] Finished with status SUCCESS
+11-18 18:38:06.699  1675  6660 W BlobLobber: Not processing download id 6, not a BlobLobber blob
+11-18 18:38:06.699  1675  6660 W BlobLobber: Notification for download id 6 which we didn't know or failed
+11-18 18:38:06.704  1675  1675 I BgTaskExecutorImpl: Starting NONEXCLUSIVE background task ZIP_DOWNLOAD_PROCESSOR.
+11-18 18:38:06.707  1675  2074 I ModelDnldProcssHelpr: #handleDownloadComplete, downloadId=6
+11-18 18:38:06.707  1675  2074 E ModelDnldProcssHelpr: pending download info for pending_hotword_model_download_info is null
+11-18 18:38:06.713  1675  2034 I LanguagePackUpdateContr: Not processing download: 6, not a language pack
+11-18 18:38:06.714  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.729  1675  2074 I ModelDnldProcssHelpr: Hotword model download succeeded
+11-18 18:38:06.739  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:06.739  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:06.745  1836  3583 V DownloadManager: Deleting /data/data/com.android.providers.downloads/cache/hotword-3.data via provider delete
+11-18 18:38:06.747  1571  1616 W ModernMediaScanner: Failed to visit /data/data/com.android.providers.downloads/cache/hotword-3.data: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/hotword-3.data
+11-18 18:38:06.749  1571  1616 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 3ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:06.757  1675  2074 I ModelDnldProcssHelpr: Schedule 61 for the new google home hotword model
+11-18 18:38:06.763  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task PROCESS_NEW_HOTWORD_MODEL.
+11-18 18:38:06.769  1675  4985 I MicroDataManager: isInitializing-false locale not changed-true model not changed-false
+11-18 18:38:06.770  1675  4985 I HotwordHelper: hasHotwordEverywhere-true
+11-18 18:38:06.775  1443  1443 E HwDetectorWithState: a: 3
+11-18 18:38:06.775  1443  1443 I GsaVoiceInteractionSrv: #checkDspStatus
+11-18 18:38:06.775  1443  1443 I BistoHotwordHelper: setting speaker id present: false
+11-18 18:38:06.777  1443  1443 I BistoHotwordHelper: setting hotword model of size: 623108 bytes
+11-18 18:38:06.777  1443  1443 I BistoHotwordHelper: setting modeltype: X Google
+11-18 18:38:06.777  1443  1443 I BistoHotwordHelper: setting hotword voice locale: en-US
+11-18 18:38:06.779  1443  1443 I GsaVoiceInteractionSrv: Creating AOHD: Keyphrase - X Google, Locale - en-US/en-US
+11-18 18:38:06.784  1443  1443 I GsaVoiceInteractionSrv: onAvailabilityChanged 1
+11-18 18:38:06.793  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.793  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.793  1675  2012 W SessionLifecycleManager: Client : AttachedClient[7368522932967122, ClientConfig[mFlags=[40000088001] mSuggestFlags=[0] mClientId=HOTWORD_SERVICE mSessionType=search publicSearchServiceCallerUid=-1]] has no associated SessionController
+11-18 18:38:06.793  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.795  8867  8913 I BugleNetwork: RegistrationProvider: Refresh Tachyon Registration Now
+11-18 18:38:06.798  8867  8942 I BugleNetwork: RegistrationProvider: Tachyon registration token is null, ignore immediate refresh
+11-18 18:38:06.798  8867  8942 I BugleNetwork: DittoFcmTickleHandler: Successfully handled firebase new token.
+11-18 18:38:06.805  1675  1675 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SPEAKERID_SILENT_ENROLLMENT.
+11-18 18:38:06.808  1675  2012 I MicroDetectionWorker: Initializing MicroDataManager InitializeType-2, isForced-true, isActivePhoneEnrollment-false isActiveGoogleHomeEnrollment-false
+11-18 18:38:06.810  1675  6660 I HotwordSilentEnrollment: Executing HotwordSilentEnrollment for user profile: 0
+11-18 18:38:06.812  1675  6660 I MicroDataManager: isInitializing-true locale not changed-true model not changed-true
+11-18 18:38:06.812  1675  6660 I MicroDataManager: Cancelling previous initialization task.
+11-18 18:38:06.818  1675  2012 W SearchServiceCore: Abort, client detached.
+11-18 18:38:06.823  1675  2031 I MicroDataManager: MicroDataManager InitializationTask has been cancelled! Skipping config assignment and callbacks.
+11-18 18:38:06.832  1675  2031 I MicroDataManager: Initialize done, creating the hotword data.
+11-18 18:38:06.832  1675  2031 I MicroDataManager: Obtaining new data for new params.
+11-18 18:38:06.842  1675  2031 I MicroDataManager: Created a new hotword model for:
+11-18 18:38:06.842  1675  2031 I MicroDataManager:  LOC: https://www.gstatic.com/android-search/hotword/x_google/7db96c566dbd33b2218d5799ec330d22/hotword.data SR: 16000 CC: 1
+11-18 18:38:06.844  1675  2029 I AppFlowTracker: AppFlow[Type: 216 - Status: 1 - Events[1478 at 0ms, 1472 at -40ms, ]]
+11-18 18:38:06.940   344   552 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10165 pid=733
+11-18 18:38:06.940   344   552 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10165 => denied (196 us)
+11-18 18:38:06.942   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:06.943   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.permissioncontroller/300900706/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:06.943   496   536 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity: +511ms
+11-18 18:38:07.174  1326  1358 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5034 ms
+11-18 18:38:07.224  1326  3204 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5038 ms
+11-18 18:38:07.293   496  1490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:07.442   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=38)
+11-18 18:38:07.442   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:38:07.444   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 38 ended, total sessions:1
+11-18 18:38:07.545  8677  8697 W niversity.lab0: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blacklist,test-api, reflection, allowed)
+11-18 18:38:08.043  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:08.043  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:08.146  8677  8697 I LABCI   : permission dialog: tapping Allow
+11-18 18:38:08.147  8677  8697 D UiObject2: Clicking on (160, 369).
+11-18 18:38:08.177   733   733 V GrantPermissionsActivity: Logged buttons presented and clicked permissionGroupName=android.permission-group.CONTACTS uid=10183 package=com.university.lab07 presentedButtons=9 clickedButton=1 sessionId=937962194534797689
+11-18 18:38:08.179   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:08.184  8677  8697 W GestureController: Gestures took longer than expected (36ms >> 16ms), device might be in a busy state.
+11-18 18:38:08.184  8677  8697 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:38:08.184  8677  8697 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:38:08.188   733   733 V GrantPermissionsActivity: Permission grant result requestId=937962194534797689 callingUid=10183 callingPackage=com.university.lab07 permission=android.permission.READ_CONTACTS isImplicit=false result=4
+11-18 18:38:08.200   380   458 D AudioFlinger: mixer(0x70546b4a7040) throttle end: throttle time(33)
+11-18 18:38:08.228   496  4916 D HostConnection: HostConnection::get() New Host Connection established 0x7366b305cb90, tid 4916
+11-18 18:38:08.230   496  4916 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:08.231   496  4916 D EGL_emulation: eglCreateContext: 0x7366a3150a70: maj 3 min 0 rcv 3
+11-18 18:38:08.232   496  4916 D EGL_emulation: eglMakeCurrent: 0x7366a3150a70: ver 3 0 (tinfo 0x73664314a950) (first time)
+11-18 18:38:08.241  8677  8697 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Allow Lab7 to access your contacts?, displayId=0, id=148, type=TYPE_APPLICATION, layer=0, region=SkRegion((8,24,312,640)), bounds=Rect(8, 24 - 312, 640), focused=true, active=true, pictureInPicture=false, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:38:08.241  8677  8697 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d52; boundsInParent: Rect(0, 0 - 304, 616); boundsInScreen: Rect(8, 24 - 312, 640); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:38:08.241  8677  8697 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:38:08.242  8677  8697 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d52; boundsInParent: Rect(0, 0 - 304, 616); boundsInScreen: Rect(8, 24 - 312, 640); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+11-18 18:38:08.242  8677  8697 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:38:08.246  8677  8677 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10183; state: ENABLED
+11-18 18:38:08.248  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: RESUMED
+11-18 18:38:08.248  8677  8677 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:08.263  8677  8697 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:38:08.883  8677  8697 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:38:08.970  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:08.970  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:09.094  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:09.094  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:09.114   496  1959 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:10.747  8867  8920 V AssistantIntegClient: #getAssistantConfig()
+11-18 18:38:10.752  8867  8922 I BugleJobs: Scheduling IcingMonitoringJobService [CONTEXT class_name="IcingMonitoringUtils" ]
+11-18 18:38:10.760  8867  8961 W AssistantConfig: appIntegrationDataInBase64 is null
+11-18 18:38:10.766  8867  8920 I BugleNetwork: Startup: registering tachyon.
+11-18 18:38:10.766  8867  8920 I BugleNetwork: Startup: registering tachyon for phone.
+11-18 18:38:10.766  8867  8920 I BugleNetwork: Profile service is not connected at startup task.
+11-18 18:38:10.771  8867  8969 I GnpSdk  : [PhenotypeManagerImpl] Phenotype registration SUCCESS
+11-18 18:38:10.787  8867  8867 D CompatibilityChangeReporter: Compat change id reported: 119147584; UID 10144; state: DISABLED
+11-18 18:38:10.788  8867  8913 I DynamiteModule: Considering local module com.google.android.gms.cronet_dynamite:0 and remote module com.google.android.gms.cronet_dynamite:1311
+11-18 18:38:10.788  8867  8913 I DynamiteModule: Selected remote version of com.google.android.gms.cronet_dynamite, version >= 1311
+11-18 18:38:10.788  8867  8913 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-18 18:38:10.793  8867  8916 I Bugle   : VerifiedSmsStartupTask: Checking if Verified SMS tasks should be enqueued. feature enabled: false, eligible: false, C11N: false
+11-18 18:38:10.793  8867  8916 I Bugle   : VerifiedSmsStartupTask: Not enqueuing Verified SMS periodic task, Verified SMS is disabled.
+11-18 18:38:10.797  8867  8941 I Bugle   : VerifiedSmsStartupTask: Not calling C11N to get phone numbers.
+11-18 18:38:10.810  8867  8972 D MDD WorkManagerTaskScheduler: Scheduling periodic tasks for MDD lib MDD.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.815  8867  8972 D MDD WorkManagerTaskScheduler: Scheduling periodic tasks for MDD lib MDD.MAINTENANCE.PERIODIC.GCM.TASK 86400
+11-18 18:38:10.823  8867  8972 D MDD WorkManagerTaskScheduler: Scheduling periodic tasks for MDD lib MDD.CELLULAR.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.823  8867  8920 D MDD WorkManagerTaskScheduler: Successfully updated periodic tasks for MDD lib MDD.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.826  8867  8972 D MDD WorkManagerTaskScheduler: Scheduling periodic tasks for MDD lib MDD.WIFI.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.826  8867  8920 D MDD WorkManagerTaskScheduler: Successfully updated periodic tasks for MDD lib MDD.MAINTENANCE.PERIODIC.GCM.TASK 86400
+11-18 18:38:10.826  8867  8972 I BugleMDD: MddBackgroundStartupTask: Scheduled MDD periodic tasks.
+11-18 18:38:10.831  8867  8913 I DynamiteLoaderV2: [70] Cronetdynamite
+11-18 18:38:10.831  8867  8913 W .apps.messagin: Unsupported class loader
+11-18 18:38:10.834  8867  8920 D MDD WorkManagerTaskScheduler: Successfully updated periodic tasks for MDD lib MDD.CELLULAR.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.844  8867  8920 D MDD WorkManagerTaskScheduler: Successfully updated periodic tasks for MDD lib MDD.WIFI.CHARGING.PERIODIC.TASK 21600
+11-18 18:38:10.845  8867  8913 W .apps.messagin: Unsupported class loader
+11-18 18:38:10.845   496  1953 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+11-18 18:38:10.855  7451  7719 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:4 and remote module com.google.android.gms.googlecertificates:4
+11-18 18:38:10.855  7451  7719 I DynamiteModule: Selected local version of com.google.android.gms.googlecertificates
+11-18 18:38:10.875   496   542 E libprocessgroup: AddTidToCgroup failed to write '9002'; fd=119: Invalid argument
+11-18 18:38:10.875   496   542 E libprocessgroup: Failed to add task into cgroup
+11-18 18:38:10.875   496   542 W libprocessgroup: ExecuteForTask failed for aggregate profile: Invalid argument
+11-18 18:38:10.875  2549  3413 I CarrierServices: [94] eav.a: Received Provisioning Event: [Bugle information (100)]
+11-18 18:38:10.875  2549  3413 I CarrierServices: [94] eav.a: JibeService is running, passing event to provisioning engine.
+11-18 18:38:10.875  2549  3413 I CarrierServices: [94] dqc.a: Handling Provisioning Event: [Bugle information (100)]
+11-18 18:38:10.876  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+11-18 18:38:10.876   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=53, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.876   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=53, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.877  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=53, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.878  7451  7470 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-18 18:38:10.878  7451  7470 E libc    : Access denied finding property "service.adb.tls.port"
+11-18 18:38:10.882  8867  8916 D MddListenableWorkerFactory: createWorker for class: com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker
+11-18 18:38:10.882  8867  8867 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:38:10.883  8867  8916 D MddListenableWorkerFactory: createWorker for class: com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker
+11-18 18:38:10.883  8867  8867 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:38:10.884  8867  8916 D MddListenableWorkerFactory: createWorker for class: com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker
+11-18 18:38:10.884  8867  8867 D MddPeriodicWorker: PeriodicWorker: startWork
+11-18 18:38:10.889  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:38:10.889  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:38:10.889  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:38:10.890  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@34a51e5 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:38:10.900  2549  3413 I CarrierServices: [94] dtf.b: Bugle has minimum required RCS permissions: true
+11-18 18:38:10.901  8867  8972 E MDD     : MDDManager Failed to init shared file metadata.
+11-18 18:38:10.876  7451  7451 W Binder:7451_3: type=1400 audit(0.0:533): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=8629 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:38:10.924   496   644 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=54, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.924   496   644 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=54, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.924  1042  1042 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=54, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144 AdministratorUids: [] RequestorUid: 10144 RequestorPackageName: com.google.android.apps.messaging] ] with score 60 and providerId 2
+11-18 18:38:10.927  2549  3413 I CarrierServices: [94] dtf.a: Rcs is enabled from user settings: true
+11-18 18:38:10.876  7451  7451 W Binder:7451_3: type=1400 audit(0.0:534): avc: denied { read } for name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=8489 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:38:10.930  8018  8018 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-18 18:38:10.930  1042  1042 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-18 18:38:10.930  1042  1042 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-18 18:38:10.931  8018  8018 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7b6d4ba mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-18 18:38:10.937  2549  3413 I CarrierServices: [94] dtf.c: Bugle is default SMS app: true
+11-18 18:38:10.938  8867  8913 I cr_CronetLibraryLoader: Cronet version: 81.0.4044.96, arch: i686
+11-18 18:38:10.941  2549  3413 W CarrierServices: [94] dvk.a: No config URL. RCS will be disabled!
+11-18 18:38:10.943  2549  3413 I CarrierServices: [94] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false
+11-18 18:38:10.946  2549  3413 I CarrierServices: [94] chn.h: BindingManager: binding and reset P/H Flag stay same
+11-18 18:38:10.946  2549  3413 I CarrierServices: [94] dsd.a: RcsAvailabilityManager: Rcs Availability still DISABLED_VIA_GSERVICES (RCS is disabled for this carrier by Google)
+11-18 18:38:10.957  8867  9004 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.965  8867  9004 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 14 lines
+11-18 18:38:10.965  8867  9004 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.965  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@5a1f37a} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.965  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.965  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@6f45788} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.965  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.965  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@ecbcd46} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.965  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.965  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.966  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@13b6434} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.966  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.966  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.966  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.967  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@6777d2} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.967  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.967  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.968  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@db41759} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.968  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.968  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@11733ff} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.968  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.968  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@105d015} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.968  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.968  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.968  8867  9004 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.968  8867  9004 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.969  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@5b5111b} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.969  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.969  8867  9004 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.969  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@805891} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.969  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.969  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@b89a3f7} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.969  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.969  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.970  8867  9004 E ailw    : RuntimeException while executing runnable aioi{aauk@3597982} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.970  8867  9004 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aajw.b(PG:92)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.970  8867  9004 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.976  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.984  8867  9003 I chatty  : uid=10144(com.google.android.apps.messaging) Blocking Thread identical 13 lines
+11-18 18:38:10.985  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@b674732} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@3b05e00} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@dbe9ddf} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@720fcf5} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@59938fb} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.985  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@d17371} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.985  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.985  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.986  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@8b869d7} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.986  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.986  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@f38d5ad} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.986  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.986  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.986  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.986  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.996  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@3333006} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.996  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.996  8867  9003 D PhFileGroupPop: Failed to add file group 
+11-18 18:38:10.996  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@e8a64f4} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.996  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.996  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@5c24692} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.996  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.996  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:10.997  8867  9003 E ailw    : RuntimeException while executing runnable aioi{aauk@b62dc60} with executor MoreExecutors.directExecutor()
+11-18 18:38:10.997  8867  9003 E ailw    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String aagb.b' on a null object reference
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aauk.a(PG:4)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aioi.run(PG:8)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aino.execute(PG:3)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at ailw.b(PG:77)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at ailw.a(PG:29)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aiol.a(PG:2)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aaum.a(PG:18)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aajw.c(PG:129)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aajw.a(PG:121)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aajw.b(PG:93)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aavc.a(Unknown Source:1)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aipw.b(PG:7)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aiox.run(PG:12)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aipy.run(PG:12)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aeua.run(PG:2)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at aesr.run(Unknown Source:4)
+11-18 18:38:10.997  8867  9003 E ailw    : 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:11.014  8867  8920 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=0ab725ef-7f20-4794-b109-764e74483c0a, tags={ MDD.MAINTENANCE.PERIODIC.GCM.TASK, com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker } ]
+11-18 18:38:11.016  8867  8972 E MDD     : FileGroupManager: Trying to add expired group webref-model-local-index.
+11-18 18:38:11.016  8867  8972 W MDD     : MDDManager class aann
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: Failed to add file group
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: aann
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aaqt.a(Unknown Source:92)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aily.a(PG:3)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aima.run(PG:23)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aipd.run(PG:2)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aipo.run(PG:6)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aeua.run(PG:2)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aesr.run(Unknown Source:4)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:11.019  8867  8972 E MDD     : FileGroupManager: Trying to add expired group webref-model-local-index.
+11-18 18:38:11.019  8867  8972 W MDD     : MDDManager class aann
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: Failed to add file group
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: aann
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aaqt.a(Unknown Source:92)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aily.a(PG:3)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aima.run(PG:23)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aipd.run(PG:2)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aipo.run(PG:6)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aeua.run(PG:2)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at aesr.run(Unknown Source:4)
+11-18 18:38:11.019  8867  8972 E PhFileGroupPop: 	at java.lang.Thread.run(Thread.java:923)
+11-18 18:38:11.087  8867  8972 D PhFileGroupPop: Added file groups smart_actions_grammars
+11-18 18:38:11.131  8867  8972 D PhFileGroupPop: Added file groups smart_actions_ml_models
+11-18 18:38:11.135  8867  8972 D PhFileGroupPop: Added file groups text_classifier
+11-18 18:38:11.138  8867  8972 D PhFileGroupPop: Added file groups smart_actions_grammars
+11-18 18:38:11.237   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=39)
+11-18 18:38:11.237   420   420 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-18 18:38:11.238   420   420 I perfetto: ng_service_impl.cc:1948 Tracing session 39 ended, total sessions:0
+11-18 18:38:11.239   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-18 18:38:11.259  8867  8972 D PhFileGroupPop: Added file groups smart_actions_emotive_models
+11-18 18:38:11.262  8867  8972 D PhFileGroupPop: Added file groups smart_actions_ml_models
+11-18 18:38:11.272   496  1953 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:11.396  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:11.396  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:11.752  8867  9003 I BugleDataModel: FixupMessageStatusOnStartupAction: sendFailedCnt: 0, downloadFailedCnt: 0, partsProcessingFailedCnt: 0
+11-18 18:38:11.756  8867  9003 I BugleDataModel: PendingMessagesProcessor: process from FixupMessageStatusOnStartupAction due to connectivity changed with queues:
+11-18 18:38:11.756  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel sms_send 
+11-18 18:38:11.756  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel mms_send 
+11-18 18:38:11.756  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel mms_download 
+11-18 18:38:11.757  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel rcs_send 
+11-18 18:38:11.757  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel rcs_ft_upload 
+11-18 18:38:11.757  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel rcs_ft_download 
+11-18 18:38:11.757  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel cloud_sync_send 
+11-18 18:38:11.757  8867  9003 I BugleDataModel: ProcessPendingMessagesTimers: cleared next retry time for channel cloud_sync_attachment_download 
+11-18 18:38:11.760  8867  9003 I BugleDataModel: PendingMessagesProcessor: process from ProcessPendingMessagesAction due to scheduled processing with queues:
+11-18 18:38:11.884  8677  8697 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:38:11.891  8677  8697 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab07_contacts.png
+11-18 18:38:11.942   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-18 18:38:11.942  9025  9025 I Gralloc4: mapper 4.x is not supported
+11-18 18:38:11.946  9025  9025 D HostConnection: createUnique: call
+11-18 18:38:11.946  9025  9025 D HostConnection: HostConnection::get() New Host Connection established 0x7b93fd468450, tid 9025
+11-18 18:38:11.954  9025  9025 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-18 18:38:11.983  1571  3619 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab07_contacts.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:11.986  9031  9032 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-18 18:38:11.998  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-18 18:38:11.998  1326  1380 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-18 18:38:12.001  8677  8697 I LABCI   : screenshot lab07_contacts
+11-18 18:38:12.002  8677  8697 D UiDevice: Waiting 3000ms for SearchCondition[hasObject=BySelector [TEXT='(?is).*\QTest_Student\E.*']].
+11-18 18:38:12.002  8677  8697 D UiDevice: Searching for node with selector: BySelector [TEXT='(?is).*\QTest_Student\E.*'].
+11-18 18:38:12.002  1571  3619 W ModernMediaScanner: Failed to visit /sdcard/Download/ci/lab07_contacts.png: java.nio.file.AccessDeniedException: /sdcard/Download/ci/lab07_contacts.png
+11-18 18:38:12.003  1571  3619 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 20ms, 0 inserts 0 updates 0 deletes
+11-18 18:38:12.004  1571  3619 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/Download/ci/lab07_contacts.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:38:12.011  8677  8697 I LABCI   : waitText 'Test_Student': true
+11-18 18:38:12.011  8677  8697 I LABCI   : named contact listed: true
+11-18 18:38:11.980  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:535): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:12.014   496   531 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-18 18:38:12.016   420   420 I perfetto: ing_service_impl.cc:758 Configured tracing session 40, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-18 18:38:12.016   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=40)
+11-18 18:38:12.018  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: PAUSED
+11-18 18:38:12.019  8677  8677 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:11.980  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:536): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:12.088   496   531 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-18 18:38:11.980  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:541): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:12.102  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: STOPPED
+11-18 18:38:12.102  8677  8677 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab07.MainActivity@a4d4102
+11-18 18:38:11.980  1571  1571 W com.google.android.providers.media.module: type=1400 audit(0.0:542): avc: denied { read } for comm=4173796E635461736B202331 name="primary" dev="tmpfs" ino=27814 scontext=u:r:mediaprovider_app:s0:c166,c256,c512,c768 tcontext=u:object_r:mnt_pass_through_file:s0 tclass=lnk_file permissive=0 app=com.google.android.providers.media.module
+11-18 18:38:12.111   496   536 D ArtManagerInternalImpl: /data/misc/iorapd/com.university.lab07.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-18 18:38:12.114   496   536 I ActivityTaskManager: Displayed com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +73ms
+11-18 18:38:12.128  8677  8677 D LifecycleMonitor: Lifecycle status change: com.university.lab07.MainActivity@a4d4102 in: DESTROYED
+11-18 18:38:12.128  8677  8677 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:38:12.131  8677  8697 I TestRunner: finished: b_contacts(com.university.lab07.Lab07Test)

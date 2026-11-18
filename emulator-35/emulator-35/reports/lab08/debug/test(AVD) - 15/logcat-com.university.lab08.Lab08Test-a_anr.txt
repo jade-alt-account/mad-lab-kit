@@ -1,0 +1,804 @@
+11-18 18:37:19.202  7558  7585 I TestRunner: started: a_anr(com.university.lab08.Lab08Test)
+11-18 18:37:19.210   554  1808 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10227, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:37:19.230   903  1009 D SplashScreenView: Build android.window.SplashScreenView{53cd3ea V.E...... ......ID 0,0-0,0}
+11-18 18:37:19.230   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:37:19.230   903  1009 D SplashScreenView: Branding: view: android.view.View{473b6db G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:37:19.233  7558  7585 I UiDevice: Creating a new instance, old instance exists: false
+11-18 18:37:19.233  7558  7585 I UiAutomation: Initialized for user 0 on display 0
+11-18 18:37:19.241  1156  1156 W SplitSelectStateCtor: Missing session instanceIds
+11-18 18:37:19.242  1156  1156 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-18 18:37:19.245  1397  4401 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:37:19.246  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:19.246  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:19.246  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:19.246  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.247  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.247  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:19.254  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=51, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 pkg=com.university.lab08 cmp=com.university.lab08/.MainActivity }
+11-18 18:37:19.259   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.264   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.264   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.264  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:37:19.264  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:19.264  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:19.264  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:19.264  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.264  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.264  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:19.265   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.266   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:19.269   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.269   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.269   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.269   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.269   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.271  7558  7587 V UiAutomation: Init UiAutomation@e0e3895[id=10, displayId=0, flags=0]
+11-18 18:37:19.272  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:37:19.284   554  1847 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10130
+11-18 18:37:19.285   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:37:19.292   554  1861 D ConnectivityService: Returning UNBLOCKED NetworkInfo to uid=10130
+11-18 18:37:19.305  1483  1810 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+11-18 18:37:19.306  1483  1810 I A       : (REDACTED) Nga state changed to %s
+11-18 18:37:19.306  1483  1810 I A       : (REDACTED) isTngActive=%s
+11-18 18:37:19.315  7558  7585 D UiDevice: Setting accessibility service flags: 65618
+11-18 18:37:19.320  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:37:19.321  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.321  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.322  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.322  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:37:19.326  1397  4401 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:37:19.326   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.326   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.330   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.330   554   554 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:19.330  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:19.330  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:19.330  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:19.330  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.331  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.331  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:19.331  1397  1577 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:37:19.331  1397  1577 I AiAiEcho: EchoTargets: 
+11-18 18:37:19.331  1397  1577 I AiAiEcho: Filtered by AiAi flag check: 
+11-18 18:37:19.331  1397  1577 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.331  1397  1577 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:37:19.331  1397  1577 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+11-18 18:37:19.331  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-18 18:37:19.338   904  6374 D AccessibilitySourceService: enabled a11y services count 0
+11-18 18:37:19.338   904  6374 D AccessibilitySourceService: a11y source sending 0 issue to sc
+11-18 18:37:19.343  7558  7558 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-18 18:37:19.346  1397  1577 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-18 18:37:19.347   903   903 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:37:19.347   554  1548 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+11-18 18:37:19.351  7558  7585 D UiDevice: Waiting 8000ms for SearchCondition[hasObject=BySelector [PKG='\Qcom.university.lab08\E']].
+11-18 18:37:19.352  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:19.356  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: PRE_ON_CREATE
+11-18 18:37:19.358  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:66 event: VVM_TASK_WORKER_EXECUTE_VVM_JOB, function parameters: [2], return value: <empty> [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.367  1156  1156 D SsBaseTemplateCard: No text view can be set up
+11-18 18:37:19.367  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.369  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.369  1156  1156 D SsBaseTemplateCard: Passed-in item info is null
+11-18 18:37:19.369  1156  1156 I SsBaseTemplateCard: Secondary card pane is null
+11-18 18:37:19.373  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:66 event: VVM_TASK_WORKER_EXECUTE_VVM_JOB, function parameters: [0], return value: <empty> [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.374  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:66 event: VVM_TASK_WORKER_EXECUTE_VVM_JOB, function parameters: [1], return value: <empty> [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.374  1156  1557 D EGL_emulation: app_time_stats: avg=578.09ms min=85.54ms max=1070.64ms count=2
+11-18 18:37:19.391  1156  1156 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:37:19.391  1156  1557 D EGL_emulation: app_time_stats: avg=2074.65ms min=104.52ms max=4044.78ms count=2
+11-18 18:37:19.393  1443  1873 I A       : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:37:19.394  1443  1873 I A       : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+11-18 18:37:19.394  1443  1873 I A       : Unsubscribed to apa or classic variant change.
+11-18 18:37:19.402  1156  1156 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-18 18:37:19.404  5780  5806 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$execute$8:218 Beginning VVM action: SYNC with retryCount: 1 [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.416   903  1024 D EGL_emulation: app_time_stats: avg=2063.66ms min=15.54ms max=4111.77ms count=2
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: com.android.dialer.voicemail.service.impl.vvmclients.rest.RestVvmCarrierService.lambda$getMsisdn$20:412 Retrieved phone number in an unexpected format: +15551234567 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: umv: MEDIUM
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at a.bF(PG:15)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at lld.apply(PG:402)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at trx.apply(PG:13)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at uxr.d(PG:3)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at uxs.run(PG:42)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at prd.run(PG:3)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at ush.run(PG:50)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at pfj.run(PG:133)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at pfj.run(PG:361)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:37:19.424  5780  5806 E DialerRestVvmCarrierService: 	at psg.run(PG:64)
+11-18 18:37:19.425  5780  5806 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:54 Impression: ANDROID_API_UNEXPECTED_PHONE_NUMBER_FORMAT
+11-18 18:37:19.426  5780  5799 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:47 Impression: VVM_SYNC_STARTED
+11-18 18:37:19.428  5780  5806 W DialerGbaCredentialProvider: com.android.dialer.voicemail.service.impl.vvmclients.rest.GbaCredentialProvider$1.onAuthenticationFailure:93 GBA failed with reason: 1 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.428  5780  5799 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_BOOTSTRAP_AUTHENTICATION_REQUEST, function parameters: [], return value: Default
+11-18 18:37:19.429  5780  5799 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:236 enter
+11-18 18:37:19.445  7558  7558 W niversity.lab08: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-18 18:37:19.480  5780  5814 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:19.481  5780  5814 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.lambda$insertOrUpdateVoicemailStatus$6:250 merged status: # mfg@f83fead8
+11-18 18:37:19.481  5780  5806 W DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWorkOnCarrierService$18:409 Could not complete vvm work with action: SYNC. Error: [GeneralFailureReason: UNSPECIFIED, RestFailureReason: GBA_AUTHENTICATION_FAILURE_FEATURE_NOT_SUPPORTED, OmtpFailureReason: OMTP_UNSPECIFIED] [CONTEXT disable_client_error_logging=true enable_persistent_logger=true ]
+11-18 18:37:19.482  5780  5799 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWork$3:194 VvmResult is: # lif@1db4fb1
+11-18 18:37:19.487  5780  5799 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$execute$8:218 Beginning VVM action: ACTIVATE with retryCount: 2 [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: com.android.dialer.voicemail.service.impl.vvmclients.rest.RestVvmCarrierService.lambda$getMsisdn$20:412 Retrieved phone number in an unexpected format: +15551234567 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: umv: MEDIUM
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at a.bF(PG:15)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at lld.apply(PG:402)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at trx.apply(PG:13)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at uxr.d(PG:3)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at uxs.run(PG:42)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at prd.run(PG:3)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at ush.run(PG:50)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at pfj.run(PG:133)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at pfj.run(PG:361)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:37:19.490  5780  5806 E DialerRestVvmCarrierService: 	at psg.run(PG:64)
+11-18 18:37:19.491  5780  5802 I WM-WorkerWrapper: Worker result RETRY for Work [ id=94a94ff5-db03-468d-858d-532093dd7eb9, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,1,SYNC,TikTokWorker#com.android.dialer.voicemail.service.impl.VvmTaskWorker } ]
+11-18 18:37:19.492  5780  5806 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:54 Impression: ANDROID_API_UNEXPECTED_PHONE_NUMBER_FORMAT
+11-18 18:37:19.492  5780  5806 I DialerVvmActivation: com.android.dialer.voicemail.service.impl.vvmclients.rest.VvmActivation.activate:65 activate
+11-18 18:37:19.493  5780  5799 W DialerGbaCredentialProvider: com.android.dialer.voicemail.service.impl.vvmclients.rest.GbaCredentialProvider$1.onAuthenticationFailure:93 GBA failed with reason: 1 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.493  5780  5806 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_BOOTSTRAP_AUTHENTICATION_REQUEST, function parameters: [], return value: Default
+11-18 18:37:19.493  5780  5799 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:236 enter
+11-18 18:37:19.502  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: CREATED
+11-18 18:37:19.509  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: STARTED
+11-18 18:37:19.511  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: RESUMED
+11-18 18:37:19.515   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:19.520  7558  7558 W HWUI    : Unknown dataspace 0
+11-18 18:37:19.526  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: PAUSED
+11-18 18:37:19.542  5780  7593 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:19.543  5780  7593 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.lambda$insertOrUpdateVoicemailStatus$6:250 merged status: # mfg@f83fead8
+11-18 18:37:19.552   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10227 pid=0
+11-18 18:37:19.552   430   729 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10227 => denied (3926 us)
+11-18 18:37:19.552   430   729 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10227 pid=0
+11-18 18:37:19.552   430   729 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10227 => denied (78 us)
+11-18 18:37:19.552   430   729 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10227 pid=0
+11-18 18:37:19.552   430   729 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10227 => denied (78 us)
+11-18 18:37:19.553  7558  7588 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:37:19.553  7558  7588 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:37:19.556  5780  5806 I Dialerfjy: com.android.dialer.cui.impl.SemanticEventLoggerEnabledFn.isEnabled:21 Disabled by flag [CONTEXT ratelimit_period="1 MINUTES" skipped=19 ]
+11-18 18:37:19.556  5780  5806 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:236 enter
+11-18 18:37:19.562   904   904 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:37:19.572  7558  7588 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:37:19.579   359   359 I netd    : tetherGetStats() -> {[]} <2.02ms>
+11-18 18:37:19.601   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:19.601  7558  7588 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:19.621  5780  5861 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:19.621  5780  5861 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.lambda$insertOrUpdateVoicemailStatus$6:250 merged status: # mfg@f83fead8
+11-18 18:37:19.622  5780  5799 W DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWorkOnCarrierService$18:409 Could not complete vvm work with action: ACTIVATE. Error: [GeneralFailureReason: UNSPECIFIED, RestFailureReason: GBA_AUTHENTICATION_FAILURE_FEATURE_NOT_SUPPORTED, OmtpFailureReason: OMTP_UNSPECIFIED] [CONTEXT disable_client_error_logging=true enable_persistent_logger=true ]
+11-18 18:37:19.623  5780  5799 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWork$3:194 VvmResult is: # lif@1db4fb1
+11-18 18:37:19.647   554   578 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity for user 0: +431ms
+11-18 18:37:19.665  1156  1156 D BaseDepthController: setSurface:
+11-18 18:37:19.665  1156  1156 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-18 18:37:19.665  1156  1156 D BaseDepthController: 	mSurface: null
+11-18 18:37:19.665  1156  1156 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-18 18:37:19.666  1156  1156 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-18 18:37:19.666  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+11-18 18:37:19.666  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+11-18 18:37:19.666  1156  1156 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+11-18 18:37:19.666  1156  1156 D StatsLog: LAUNCHER_ONSTOP
+11-18 18:37:19.666  1156  1156 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-18 18:37:19.666  1156  1837 D OneSearchSuggestProvider: Shut down the binder channel
+11-18 18:37:19.693  5780  5800 I WM-WorkerWrapper: Worker result RETRY for Work [ id=22ccb1cd-b202-46cd-ad06-0bcd24bbc8e7, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,1,ACTIVATE,TikTokWorker#com.android.dialer.voicemail.service.impl.VvmTaskWorker } ]
+11-18 18:37:19.694  5780  5799 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$execute$8:218 Beginning VVM action: UPDATE_STATUS with retryCount: 2 [CONTEXT enable_persistent_logger=true ]
+11-18 18:37:19.696  1156  2497 I IPCThreadState: oneway function results for code 2 on binder at 0x7d45ae516510 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: com.android.dialer.voicemail.service.impl.vvmclients.rest.RestVvmCarrierService.lambda$getMsisdn$20:412 Retrieved phone number in an unexpected format: +15551234567 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: umv: MEDIUM
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at a.bF(PG:15)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at lld.apply(PG:402)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at trx.apply(PG:13)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at uxr.d(PG:3)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at uxs.run(PG:42)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at prd.run(PG:3)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at ush.run(PG:50)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at pfj.run(PG:133)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at pfj.run(PG:361)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:37:19.724  5780  5799 E DialerRestVvmCarrierService: 	at psg.run(PG:64)
+11-18 18:37:19.731  5780  5799 I DialerLogcatLoggingBindings: com.android.dialer.logging.logcat.LogcatLoggingBindings.logImpression:54 Impression: ANDROID_API_UNEXPECTED_PHONE_NUMBER_FORMAT
+11-18 18:37:19.769  5780  5799 I DialerStatusCheck: com.android.dialer.voicemail.service.impl.vvmclients.rest.StatusCheck.updateStatus:56 updateStatus
+11-18 18:37:19.774  5780  5799 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_BOOTSTRAP_AUTHENTICATION_REQUEST, function parameters: [], return value: Default
+11-18 18:37:19.809  5780  5785 I .android.dialer: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 9022KB/17MB, paused 345us,1.564ms total 172.187ms
+11-18 18:37:19.823  5780  5799 W DialerGbaCredentialProvider: com.android.dialer.voicemail.service.impl.vvmclients.rest.GbaCredentialProvider$1.onAuthenticationFailure:93 GBA failed with reason: 1 [CONTEXT disable_client_error_logging=true ]
+11-18 18:37:19.824  5780  5806 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:236 enter
+11-18 18:37:19.825   554   680 I ImeTracker: com.google.android.permissioncontroller:11008dd6: onRequestHide at ORIGIN_SERVER reason HIDE_ALWAYS_HIDDEN_STATE fromUser false
+11-18 18:37:19.826   554   680 I ImeTracker: com.google.android.permissioncontroller:11008dd6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:19.829  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:19.836  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:19.836  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.permissioncontroller, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:19.836  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:19.836  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:19.966   554  1017 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10227 pid=0
+11-18 18:37:19.966   554  1017 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10227 => denied (81 us)
+11-18 18:37:19.966   554  1017 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10227 pid=0
+11-18 18:37:19.966   554  1017 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10227 => denied (14 us)
+11-18 18:37:19.966   554  1017 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10227 pid=0
+11-18 18:37:19.966   554  1017 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10227 => denied (11 us)
+11-18 18:37:19.982  5780  5861 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:37:19.983  5780  5861 I DialerVoicemailStatusDataServiceImpl: com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.lambda$insertOrUpdateVoicemailStatus$6:250 merged status: # mfg@f83fead8
+11-18 18:37:19.986   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c44b6
+11-18 18:37:19.990  5780  5799 W DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWorkOnCarrierService$18:409 Could not complete vvm work with action: UPDATE_STATUS. Error: [GeneralFailureReason: UNSPECIFIED, RestFailureReason: GBA_AUTHENTICATION_FAILURE_FEATURE_NOT_SUPPORTED, OmtpFailureReason: OMTP_UNSPECIFIED] [CONTEXT disable_client_error_logging=true enable_persistent_logger=true ]
+11-18 18:37:19.990   554  1548 W InputManager-JNI: Input channel object '38c93ed Splash Screen com.university.lab08 (client)' was disposed without first being removed with the input manager!
+11-18 18:37:19.995  5780  5799 I DialerVvmExecutorImpl: com.android.dialer.voicemail.service.impl.scheduler.VvmExecutorImpl.lambda$executeWork$3:194 VvmResult is: # lif@1db4fb1
+11-18 18:37:20.004  5780  5801 I WM-WorkerWrapper: Worker result RETRY for Work [ id=671ad327-c4bc-4d0b-9bcc-f7bdef02c388, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,1,UPDATE_STATUS,TikTokWorker#com.android.dialer.voicemail.service.impl.VvmTaskWorker } ]
+11-18 18:37:20.018  7558  7562 I niversity.lab08: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-18 18:37:20.034  1208  1222 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-18 18:37:20.034  1208  1222 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-18 18:37:20.034  1208  1222 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-18 18:37:20.040  1208  1723 I FontLog : Pulling font file for id = 30, cache size = 14 [CONTEXT service_id=132 ]
+11-18 18:37:20.043  1208  1723 I FontLog : Pulling font file for id = 30, cache size = 14 [CONTEXT service_id=132 ]
+11-18 18:37:20.157  7558  7562 I niversity.lab08: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+11-18 18:37:20.230   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:20.231   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:20.231   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 1ms
+11-18 18:37:20.231   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:20.232   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:20.232   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20159} in 1ms
+11-18 18:37:20.437  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:20.540  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:20.643  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:20.732   554   826 D InetDiagMessage: Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:20.733   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:20.733   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 2ms
+11-18 18:37:20.734   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:20.734   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:20.734   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20145} in 1ms
+11-18 18:37:20.747  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:20.796   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:20.796   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:20.796   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:20.798  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:20.798  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:20.799  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:20.799  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:20.801  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:20.850  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:20.870   359   359 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.06ms>
+11-18 18:37:20.870   359   359 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.01ms>
+11-18 18:37:20.871   359   359 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.02ms>
+11-18 18:37:20.871   359   359 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.01ms>
+11-18 18:37:20.952  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.056  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.159  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.262  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.366  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.468  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.571  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.674  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.777  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.881  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:21.984  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.087  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.190  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.293  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.397  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.500  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.604  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.707  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.810  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:22.913  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.016  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.118  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.221  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.325  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.427  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.530  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.633  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.698  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.audit.service.START pkg=com.google.android.gms }
+11-18 18:37:23.698  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.people.contactssync.service.START pkg=com.google.android.gms }
+11-18 18:37:23.698  1455  1455 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.people.service.START pkg=com.google.android.gms }
+11-18 18:37:23.735  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.798  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:23.798  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:23.801  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:23.801   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:23.801  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:23.802   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:23.802   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:23.805  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:23.838  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:23.941  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.044  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.147  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.249  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.353  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.455  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.558  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.563  7558  7605 D ProfileInstaller: Installing profile for com.university.lab08
+11-18 18:37:24.662  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.765  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.868  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:24.971  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.033   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.034   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.034   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 1ms
+11-18 18:37:25.034   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.035   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.035   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 1ms
+11-18 18:37:25.074  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.082   359   359 I netd    : tetherGetStats() -> {[]} <0.33ms>
+11-18 18:37:25.177  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.229   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:25.242   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.243   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.243   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10159} in 1ms
+11-18 18:37:25.279  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.382  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.486  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.589  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.692  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.729   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.730   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.730   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 1ms
+11-18 18:37:25.741   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.742   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.742   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 0ms
+11-18 18:37:25.764   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:25.765   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:25.765   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10095} in 1ms
+11-18 18:37:25.795  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:25.819  1455  1465 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cirwDE_iqMtLeF0EIvDIhQ==/com.university.lab08-FwWUg0-Mh-NaIxA01aCLjQ==/base.apk' with 1 weak references
+11-18 18:37:25.900  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.003  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.086   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:26.106  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.209  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.312  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.415  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.518  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.621  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.723  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.826  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:26.929  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:27.031  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:27.134  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:27.237  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:27.340  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:27.442  7558  7585 D UiDevice: Searching for node with selector: BySelector [PKG='\Qcom.university.lab08\E'].
+11-18 18:37:28.015   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:28.015   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:28.015   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={90000} in 1ms
+11-18 18:37:28.331   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:28.332   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:28.332   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10100} in 0ms
+11-18 18:37:28.445  7558  7585 D UiDevice: Waiting 6000ms for SearchCondition[findObject=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:37:28.445  7558  7585 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:28.449  7558  7585 W niversity.lab08: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+11-18 18:37:28.677  1483  2141 I WorkerManager: dispose()
+11-18 18:37:28.678  1483  2141 W A       : (REDACTED) Queue length for executor %s is now %d. Perhaps some tasks are too long, or the pool is too small.
+11-18 18:37:29.053  7558  7585 I LABCI   : permission dialog: tapping Allow
+11-18 18:37:29.055  7558  7585 D UiObject2: Clicking on (160, 351).
+11-18 18:37:29.074  7558  7563 I niversity.lab08: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 1(20KB) LOS objects, 49% free, 4199KB/8399KB, paused 34us,5.061ms total 19.824ms
+11-18 18:37:29.080   904   904 I GrantPermissionsViewModel: Logged buttons presented and clicked permissionGroupName=android.permission-group.NOTIFICATIONS uid=10227 selectedPrecision=0 package=com.university.lab08 presentedButtons=9 clickedButton=1 isPermissionRationaleShown=false sessionId=558532493360043092 targetSdk=36
+11-18 18:37:29.082   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:29.084   554  2295 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:29.088   554  1548 W EnhancedConfirmationService: The packageName should not be null.
+11-18 18:37:29.089   904   904 I GrantPermissionsViewModel: Permission grant result requestId=558532493360043092 callingUid=10227 callingPackage=com.university.lab08 permission=android.permission.POST_NOTIFICATIONS isImplicit=false result=4 isPermissionRationaleShown=falseisPackageRestrictedByEnhancedConfirmation=false
+11-18 18:37:29.097  7558  7585 W GestureController: Gestures took longer than expected (41ms >> 16ms), device might be in a busy state.
+11-18 18:37:29.098   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:37:29.103  7558  7585 D UiDevice: Waiting 3000ms for SearchCondition[gone=BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button']].
+11-18 18:37:29.103  7558  7585 D UiDevice: Searching for node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.127  7558  7558 D LifecycleMonitor: Lifecycle status change: com.university.lab08.MainActivity@b4bd47c in: RESUMED
+11-18 18:37:29.141   554   680 I ImeTracker: com.university.lab08:c8ebabf: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:37:29.141   554   680 I ImeTracker: com.university.lab08:c8ebabf: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:29.142   359   359 I netd    : tetherGetStats() -> {[]} <0.87ms>
+11-18 18:37:29.144   904   904 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3b0f54c
+11-18 18:37:29.146  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:37:29.147  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:37:29.147  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab08, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:37:29.148  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:37:29.153  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:37:29.158   554  2295 W InputManager-JNI: Input channel object '594fc60 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:37:29.164  7558  7588 D EGL_emulation: app_time_stats: avg=4599.35ms min=38.00ms max=9160.70ms count=2
+11-18 18:37:29.167   904   910 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cirwDE_iqMtLeF0EIvDIhQ==/com.university.lab08-FwWUg0-Mh-NaIxA01aCLjQ==/base.apk' with 1 weak references
+11-18 18:37:29.178  7558  7585 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=Allow Lab8 to send you notifications?, displayId=0, id=181, taskId=51, type=TYPE_APPLICATION, layer=0, region=SkRegion((8,161,312,479)), bounds=Rect(8, 161 - 312, 479), focused=true, active=true, pictureInPicture=false, transitionTime=263388, hasParent=false, isAnchored=false, hasChildren=false]
+11-18 18:37:29.190   903  1024 D EGL_emulation: app_time_stats: avg=1940.21ms min=1.37ms max=9359.23ms count=5
+11-18 18:37:29.204  7558  7585 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d73; boundsInParent: Rect(0, 0 - 304, 318); boundsInScreen: Rect(8, 161 - 312, 479); boundsInWindow: Rect(8, 161 - 312, 479); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:37:29.204  7558  7585 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:29.206  7558  7585 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d73; boundsInParent: Rect(0, 0 - 304, 318); boundsInScreen: Rect(8, 161 - 312, 479); boundsInWindow: Rect(8, 161 - 312, 479); packageName: com.google.android.permissioncontroller; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-18 18:37:29.206  7558  7585 W ByMatcher: Skipping null child (0 of 1)
+11-18 18:37:29.206  7558  7585 D UiDevice: Retrieving node with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.246   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:29.248   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:29.326   554   589 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:29.539  1443  1768 I BistoHotwordHelper: (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+11-18 18:37:29.648  7558  7585 D UiDevice: Node not found with selector: BySelector [RES='com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button'].
+11-18 18:37:29.803   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:29.803   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:29.803   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={99000} in 1ms
+11-18 18:37:30.031   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:30.031   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:30.031   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 0ms
+11-18 18:37:30.070   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:30.070   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:30.070   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 1ms
+11-18 18:37:30.071   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:30.072   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:30.072   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={20142} in 1ms
+11-18 18:37:30.448  7558  7585 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [TEXT='(?i)\QSlow (main thread)\E']].
+11-18 18:37:30.448  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='(?i)\QSlow (main thread)\E'].
+11-18 18:37:30.452  7558  7585 D UiObject2: Clicking on (103, 176).
+11-18 18:37:30.490   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:30.493   554  1743 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:30.497  7558  7585 W GestureController: Gestures took longer than expected (46ms >> 16ms), device might be in a busy state.
+11-18 18:37:30.517   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(35)
+11-18 18:37:30.593  7558  7588 D EGL_emulation: app_time_stats: avg=714.48ms min=25.32ms max=1403.64ms count=2
+11-18 18:37:30.721   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:30.798  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='\Q+1\E'].
+11-18 18:37:31.466   554  1743 W InputManager-JNI: Input channel object '312d87b Toast (client)' was disposed without first being removed with the input manager!
+11-18 18:37:33.037   554   819 D WifiConfigStore: Writing to stores completed in 2 ms.
+11-18 18:37:33.600   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3490304
+11-18 18:37:33.731  1208  1208 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+11-18 18:37:34.481   359   359 I netd    : tetherGetStats() -> {[]} <0.29ms>
+11-18 18:37:35.310  1455  7610 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-18 18:37:35.799  7558  7585 W UiDevice: Active window root not found.
+11-18 18:37:38.491  7558  7558 I Choreographer: Skipped 479 frames!  The application may be doing too much work on its main thread.
+11-18 18:37:38.496  7558  7588 D EGL_emulation: app_time_stats: avg=7902.51ms min=7902.51ms max=7902.51ms count=1
+11-18 18:37:38.500  7558  7583 I HWUI    : Davey! duration=8000ms; Flags=0, FrameTimelineVsyncId=30137, IntendedVsync=274057131825, Vsync=282040464839, InputEventId=0, HandleInputStart=282050430767, AnimationStart=282050431769, PerformTraversalsStart=282050444938, DrawStart=282050470236, FrameDeadline=274190465153, FrameInterval=282050280254, FrameStartTime=16666666, SyncQueued=282050817010, SyncStart=282050872727, IssueDrawCommandsStart=282050914810, SwapBuffers=282052155149, FrameCompleted=282057269767, DequeueBufferDuration=3315, QueueBufferDuration=121751, GpuCompleted=282057269767, SwapBuffersCompleted=282055776478, DisplayPresentTime=72904454231491824, CommandSubmissionCompleted=282052155149, 
+11-18 18:37:38.809   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.810   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.810   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.811  1208  1688 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:38.811  1208  1688 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:38.811   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:38.812  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:38.813  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:38.815  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:38.991  7558  7585 D UiObject2: Clicking on (60, 272).
+11-18 18:37:39.020   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:39.020   554  1847 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:39.026  7558  7585 W GestureController: Gestures took longer than expected (35ms >> 16ms), device might be in a busy state.
+11-18 18:37:39.027  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='\Q+1\E'].
+11-18 18:37:39.067   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:37:39.158   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:37:39.159   554   826 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:37:39.159   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10187} in 0ms
+11-18 18:37:39.180   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:39.521  7558  7585 D UiObject2: Clicking on (60, 272).
+11-18 18:37:39.553   425  3351 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:37:39.553   554  1548 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:37:39.555  7558  7588 D EGL_emulation: app_time_stats: avg=211.68ms min=6.62ms max=516.91ms count=5
+11-18 18:37:39.562  7558  7585 W GestureController: Gestures took longer than expected (40ms >> 16ms), device might be in a busy state.
+11-18 18:37:39.770   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:37:41.814   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.814  1208  1688 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:41.814  1208  1688 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:41.815   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.815   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.816   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.817   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:41.818  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:41.819  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:41.820  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:42.637   368  4058 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3666560
+11-18 18:37:43.617   359   359 I netd    : tetherGetStats() -> {[]} <0.25ms>
+11-18 18:37:44.148   359  7617 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:37:44.148   359  7618 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:44.148   359  7618 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d08d50
+11-18 18:37:44.148   359  7618 I resolv  : doQuery: rcode=0, ancount=8, return value=274
+11-18 18:37:44.149   359  7619 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:44.149   359  7619 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63cffb10
+11-18 18:37:44.149   359  7619 I resolv  : doQuery: rcode=0, ancount=8, return value=178
+11-18 18:37:46.762  7558  7585 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:46.768  7558  7585 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_frozen.png
+11-18 18:37:46.778   359  7628 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:37:46.778   359  7629 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:46.778   359  7629 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d08d50
+11-18 18:37:46.778   359  7629 I resolv  : doQuery: rcode=0, ancount=8, return value=274
+11-18 18:37:46.779   359  7630 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:46.779   359  7630 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63cffb10
+11-18 18:37:46.779   359  7630 I resolv  : doQuery: rcode=0, ancount=8, return value=178
+11-18 18:37:46.819  7625  7625 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:37:46.819  7625  7625 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:37:46.826   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:46.826  7625  7631 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:46.846  1415  3338 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:37:46.865  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:46.870   554  2295 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:37:46.871   554  1743 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:37:46.871  1208  7616 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:46.874   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:37:46.874  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:46.883  7558  7585 I LABCI   : screenshot lab08_frozen
+11-18 18:37:46.883  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Qisn't responding\E.*$'].
+11-18 18:37:46.885  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:46.886  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 531ed4a3-8b91-416a-b57a-aa5607b3df06Job ID 31
+11-18 18:37:46.888  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:46.888  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:46.890  7558  7585 D UiDevice: Searching for node with selector: BySelector [TEXT='^.*\Qnot responding\E.*$'].
+11-18 18:37:46.895  7558  7585 I LABCI   : ANR dialog visible: false
+11-18 18:37:46.896  7558  7585 D UiDevice: Retrieving node with selector: BySelector [TEXT='^.*\QWait\E.*$'].
+11-18 18:37:46.900  7558  7585 D UiDevice: Node not found with selector: BySelector [TEXT='^.*\QWait\E.*$'].
+11-18 18:37:46.900  1208  5836 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:46.912  1208  7616 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:46.917  1208  7616 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:46.927   554  1743 D FileUtils: Rounded bytes from 2593198080 to 4000000000
+11-18 18:37:46.937  2184  2557 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-18 18:37:46.937  2184  2557 W libc    : Access denied finding property "service.adb.tls.port"
+11-18 18:37:46.937   359  7639 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:37:46.928  2184  2184 W binder:2184_4: type=1400 audit(0.0:207): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=318 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:37:46.939  2184  2557 D TrafficStats: tagSocket(99) with statsTag=0x1809, statsUid=-1
+11-18 18:37:46.936  2184  2184 W binder:2184_4: type=1400 audit(0.0:208): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=63 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-18 18:37:46.950  1208  1697 W GmsUrlRequestImpl: Content-Type header is overwritten.
+11-18 18:37:46.952   359  7640 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:37:46.952   359  7641 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:46.952   359  7641 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d06dd0
+11-18 18:37:46.952   359  7641 I resolv  : doQuery: rcode=0, ancount=8, return value=264
+11-18 18:37:46.952   359  7642 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:46.952   359  7642 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d02b30
+11-18 18:37:46.952   359  7642 I resolv  : doQuery: rcode=0, ancount=8, return value=168
+11-18 18:37:46.954  1208  2222 D TrafficStats: tagSocket(110) with statsTag=0x401, statsUid=10143
+11-18 18:37:46.996  1208  1697 W GLSUser : [AppCertManager] Exception while requesting key: 
+11-18 18:37:46.996  1208  1697 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at etvr.s(:com.google.android.gms@242335041@24.23.35 (190800-646585959):21)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at etvr.get(:com.google.android.gms@242335041@24.23.35 (190800-646585959):10)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at yfw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):477)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at yfu.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):31)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at yfp.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at yfs.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):58)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at uou.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):56)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:37:46.996  1208  1697 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):80)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at bpgb.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):17)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at bpgp.onSucceeded(:com.google.android.gms@242335041@24.23.35 (190800-646585959):7)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at m.mw.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):3)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at m.lt.run(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):25)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	... 6 more
+11-18 18:37:46.996  1208  1697 W GLSUser : Caused by: fkhe: Protocol message contained an invalid tag (zero).
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkea.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkid.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):309)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkid.i(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkgi.fe(:com.google.android.gms@242335041@24.23.35 (190800-646585959):25)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkgc.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkdw.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkdw.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at fkdw.p(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at bpdw.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):68)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):11)
+11-18 18:37:46.996  1208  1697 W GLSUser : 	... 10 more
+11-18 18:37:47.001  1208  7616 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 107 uptime_millis: 107 exec_start_elapsed_seconds: 290 [CONTEXT service_id=218 ]
+11-18 18:37:47.018   359  7644 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+11-18 18:37:47.018   359  7645 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:47.018   359  7646 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:47.018   359  7645 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d089d0
+11-18 18:37:47.018   359  7645 I resolv  : doQuery: rcode=0, ancount=8, return value=273
+11-18 18:37:47.018   359  7646 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff63d017f0
+11-18 18:37:47.018   359  7646 I resolv  : doQuery: rcode=0, ancount=8, return value=177
+11-18 18:37:47.820   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.821   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.821   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.822   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:47.824  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:47.824  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:47.825  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:47.826  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:47.827  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:48.386  1415  1415 D WM-DelayedWorkTracker: Scheduling work 531ed4a3-8b91-416a-b57a-aa5607b3df06
+11-18 18:37:48.386  1415  1415 D WM-GreedyScheduler: Starting tracking for 531ed4a3-8b91-416a-b57a-aa5607b3df06
+11-18 18:37:48.388  1415  1590 D WM-ConstraintTracker: BatteryNotLowTracker: initial state = true
+11-18 18:37:48.388  1415  1590 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: registering receiver
+11-18 18:37:48.388  1415  1590 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=531ed4a3-8b91-416a-b57a-aa5607b3df06, generation=0)
+11-18 18:37:48.390  1415  1590 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=531ed4a3-8b91-416a-b57a-aa5607b3df06, generation=0)
+11-18 18:37:48.391  1415  1415 D WM-WorkerWrapper: Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:48.391  1415  5042 I PSyncWorker: Starting proactive picker sync from sync source: 1
+11-18 18:37:48.392  1415  5042 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@1e9f496[Not completed, 1 dependents]. Future map: {531ed4a3-8b91-416a-b57a-aa5607b3df06=java.util.concurrent.CompletableFuture@1e9f496[Not completed, 1 dependents]}
+11-18 18:37:48.392  1415  5042 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+11-18 18:37:48.393  1415  5042 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+11-18 18:37:48.394  1415  5042 D PickerSyncController:    Latest ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/228
+11-18 18:37:48.394  1415  5042 D PickerSyncController:    Cached ID/Gen=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary/218
+11-18 18:37:48.394  1415  5042 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=218, latest=Bundle[{last_media_sync_generation=228, media_collection_id=1409:50210435-93ee-4271-a7e2-11f204b7878e:external_primary}], pageSize=1000}
+11-18 18:37:48.394  1415  5042 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:48.394  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:48.394  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.394  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.394  1415  5042 D ExternalDbFacade: Token received for queryMedia = null
+11-18 18:37:48.395  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:48.395  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.395  1415  5042 D PickerSyncController: Saving next page token: 1795027066000|1000000049 for key: local_provider:media_add:resume
+11-18 18:37:48.395  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.395  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:48.396  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:48.396  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:48.396  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:48.396  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:48.398  1415  5042 D ExternalDbFacade: Token received for queryMedia = 1795027066000|1000000049
+11-18 18:37:48.398  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:48.398  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.398  1415  5042 D PickerSyncController: Clearing next page token for key: local_provider:media_add:resume
+11-18 18:37:48.398  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.398  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:48.399  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:48.399  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:48.400  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:48.400  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:48.400  1415  5042 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027066000|1000000049, android.provider.extra.SYNC_GENERATION=218, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 1
+11-18 18:37:48.400  1415  5042 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+11-18 18:37:48.401  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:48.401  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.401  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.401  1415  5042 D PickerSyncLockManager: Trying to acquire lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = [] with timeout.
+11-18 18:37:48.401  1415  5042 D CloseableReentrantLock: Successfully acquired lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Locked by thread pool-3-thread-6]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.401  1415  5042 D PickerSyncController: Clearing next page token for key: local_provider:media_remove:resume
+11-18 18:37:48.401  1415  5042 D CloseableReentrantLock: Successfully released lock com.android.providers.media.photopicker.sync.CloseableReentrantLock@7a9bc84[Unlocked]. Lock Name = CLOUD_PROVIDER_LOCK. Threads that may be waiting to acquire this lock = []
+11-18 18:37:48.401  1415  5042 D PickerNotificationSender: Sending a notification for media update
+11-18 18:37:48.402  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Favorites
+11-18 18:37:48.402  1415  5042 D PickerNotificationSender: Sending a notification for album media update Favorites
+11-18 18:37:48.402  1415  5042 D PickerNotificationSender: Sending a notification for merged album media update Videos
+11-18 18:37:48.403  1415  5042 D PickerNotificationSender: Sending a notification for album media update Videos
+11-18 18:37:48.403  1415  5042 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.PAGE_TOKEN=1795027066000|1000000049, android.provider.extra.SYNC_GENERATION=218, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+11-18 18:37:48.403  1415  5042 I PickerSyncTracker: Marked sync future complete for work id: 531ed4a3-8b91-416a-b57a-aa5607b3df06. Future map: {}
+11-18 18:37:48.403  1415  5042 I PSyncWorker: Completed picker proactive sync complete from local provider.
+11-18 18:37:48.404  1415  1625 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=531ed4a3-8b91-416a-b57a-aa5607b3df06, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+11-18 18:37:48.404  1415  1415 D WM-Processor: Processor 531ed4a3-8b91-416a-b57a-aa5607b3df06 executed; reschedule = false
+11-18 18:37:48.404  1415  1415 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=531ed4a3-8b91-416a-b57a-aa5607b3df06, generation=0)
+11-18 18:37:48.406  1415  1625 D WM-GreedyScheduler: Cancelling work ID 531ed4a3-8b91-416a-b57a-aa5607b3df06
+11-18 18:37:48.407  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:37:48.407  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:37:48.407  1415  1625 D WM-BrdcstRcvrCnstrntTrc: BatteryNotLowTracker: unregistering receiver
+11-18 18:37:48.409  1483  1483 I A       : (REDACTED) disposing SearchServiceClient after timeout %s
+11-18 18:37:48.433  1483  1483 I BgTaskExecutorImpl: (REDACTED) Starting %s background task %s.
+11-18 18:37:48.442  1483  2141 I MicroDetectionState: (REDACTED) Updating hotword opa ineligibility to %b
+11-18 18:37:48.443  1483  2141 I A       : getLocaleToModelSpecsMap
+11-18 18:37:48.443  1483  2141 I A       : Fetching latest config from MDD...
+11-18 18:37:48.443  1483  2141 I A       : (REDACTED) Found map of size: %d
+11-18 18:37:48.444  1483  2141 I MicroDetectionWorker: (REDACTED) Initializing MicroDataManager InitializeType-%d, isForced-%b, isActivePhoneEnrollment-%b isActiveGoogleHomeEnrollment-%b
+11-18 18:37:48.444  1483  2141 I A       : getLocaleToModelSpecsMap
+11-18 18:37:48.444  1483  2141 I A       : Fetching latest config from MDD...
+11-18 18:37:48.444  1483  2141 I A       : (REDACTED) Found map of size: %d
+11-18 18:37:48.445  1483  2141 I MicroDataManager: (REDACTED) Location for model with model type: %s and locale: %s, is : %s
+11-18 18:37:48.446   359   359 I netd    : tetherGetStats() -> {[]} <0.27ms>
+11-18 18:37:48.450  1483  2141 I MicroDetectionState: (REDACTED) #takeChangeMicroDetectorMode [mIsBargeInEnabled: %b, mCurrentDetectionMode: %s]
+11-18 18:37:48.450  1483  2141 I MicroDetectionState: (REDACTED) Should stop hotword detection immediately - %b
+11-18 18:37:48.451  1483  2141 I MicroDetectionState: (REDACTED) #takeChangeMicroDetectorMode [mIsBargeInEnabled: %b, mCurrentDetectionMode: %s]
+11-18 18:37:48.451  1483  2141 I MicroDetectionState: (REDACTED) Should stop hotword detection immediately - %b
+11-18 18:37:48.452  1483  2141 I A       : getLocaleToModelSpecsMap
+11-18 18:37:48.452  1483  2141 I A       : Fetching latest config from MDD...
+11-18 18:37:48.452  1483  2141 I A       : (REDACTED) Found map of size: %d
+11-18 18:37:48.454  1483  1786 I NetworkRecognitionRnr: Using pair HTTP connection
+11-18 18:37:48.455  1483  2555 I A       : [Upload] Connected
+11-18 18:37:48.457  1483  2555 I NetworkRecognitionRnr: Using pair HTTP connection
+11-18 18:37:48.457  1483  1483 E A       : onError
+11-18 18:37:48.457  1483  1483 E A       : com.google.android.apps.gsa.shared.speech.b.l: errorCode: 65561, engine: 2
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.staticplugins.bp.a.f.a(PG:23)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.s3.o.hi(PG:13)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.ci.g.a.f.e(PG:9)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:162)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.iO(PG:26)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.s3.p.c(PG:102)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.s3.q.run(PG:1)
+11-18 18:37:48.457  1483  1483 E A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+11-18 18:37:48.457  1483  1483 E A       : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:12)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+11-18 18:37:48.457  1483  1483 E A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:37:48.457  1483  1483 E A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:37:48.457  1483  1483 E A       : 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:42)
+11-18 18:37:48.457  1483  1483 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.n: errorCode: 65586, engine: 2
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.s3.o.hi(PG:6)
+11-18 18:37:48.457  1483  1483 E A       : 	... 14 more
+11-18 18:37:48.457  1483  1483 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.j: errorCode: 401, engine: 2
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.assistant.shared.n.i.b(PG:30)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.s3.producers.j.hs(PG:11)
+11-18 18:37:48.457  1483  1483 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:135)
+11-18 18:37:48.457  1483  1483 E A       : 	... 12 more
+11-18 18:37:48.457  1483  2543 I A       : [Upload] Connected
+11-18 18:37:48.458  1483  1483 W A       : Failed to sync device settings.
+11-18 18:37:48.458  1483  1483 I A       : Retrying to sync device settings.
+11-18 18:37:48.459  1483  1483 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=240000, deadline=240000). The functional constraints are not likely to be satisfied when the job runs.
+11-18 18:37:48.460   554  1743 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=240000, deadline=240000). The functional constraints are not likely to be satisfied when the job runs.
+11-18 18:37:48.460   554  1743 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=240000, deadline=240000). The functional constraints are not likely to be satisfied when the job runs.
+11-18 18:37:48.461  1483  1797 W A       : (REDACTED) Failed to get connectivityLock in %d ms
+11-18 18:37:48.463  1483  1797 W CronetNetworkRqstWrppr: Upload request without a content type.
+11-18 18:37:48.477  1483  1490 I earchbox:search: JIT allocated 51KB for compiled code of java.lang.Object com.google.android.apps.gsa.binaries.velvet.app.tu.d()
+11-18 18:37:48.477  1483  1490 I earchbox:search: Compiler allocated 6174KB to compile java.lang.Object com.google.android.apps.gsa.binaries.velvet.app.tu.d()
+11-18 18:37:50.464   554  2295 D ConnectivityService: requestNetwork for uid/pid:10144/1483 activeRequest: null callbackRequest: 185 [NetworkRequest [ REQUEST id=185, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Forbidden: LOCAL_NETWORK Uid: 10144 RequestorUid: 10144 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-18 18:37:50.467   359   359 I netd    : networkSetPermissionForNetwork(101, 0) <1.69ms>
+11-18 18:37:50.468   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.468   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.469   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.469   554   826 D ConnectivityService: NetReassign [185 : null → 101] [c 0] [a 5] [i 0]
+11-18 18:37:50.469   554   826 D ConnectivityService: reportNetworkConnectivity(100, false) by 10144
+11-18 18:37:50.471  1025  2233 D NetworkMonitor/100: Forcing reevaluation for UID 10144. Dns signal count: 0
+11-18 18:37:50.472  1025  7648 D TrafficStats: tagSocket(94) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.473  1025  7649 D TrafficStats: tagSocket(131) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.474  1025  7649 D TrafficStats: tagSocket(94) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.475  1025  7648 D TrafficStats: tagSocket(130) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.475   359  7650 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+11-18 18:37:50.476   359  7651 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+11-18 18:37:50.477   359  7652 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+11-18 18:37:50.478   359  7653 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+11-18 18:37:50.483   359  7650 I resolv  : res_nsend: used send_dg 75 terrno: 0
+11-18 18:37:50.484   359  7653 I resolv  : res_nsend: used send_dg 160 terrno: 0
+11-18 18:37:50.485   359  7652 I resolv  : res_nsend: used send_dg 63 terrno: 0
+11-18 18:37:50.486   359  7651 I resolv  : res_nsend: used send_dg 256 terrno: 0
+11-18 18:37:50.486  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.487  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.488  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.489  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.490  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.490  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.491  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.492  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.492  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.493  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.494  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.494  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.495  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.496  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.496  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.496  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.497  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.497  1025  7648 D NetworkMonitor/100: PROBE_DNS www.google.com 25ms OK 142.251.151.119,142.251.150.119,142.251.156.119,142.251.155.119,142.251.153.119,142.251.154.119,142.251.152.119,142.251.157.119,2001:4860:482d:7700::,2001:4860:4828:7700::,2001:4860:482c:7700::,2001:4860:482b:7700::,2001:4860:482a:7700::,2001:4860:4826:7700::,2001:4860:4829:7700::,2001:4860:4827:7700::
+11-18 18:37:50.498  1025  1025 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+11-18 18:37:50.499   359  7654 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+11-18 18:37:50.499   359  7656 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:50.499   359  7655 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:50.499   359  7655 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff13d0a250
+11-18 18:37:50.499   359  7655 I resolv  : doQuery: rcode=0, ancount=8, return value=256
+11-18 18:37:50.500   359  7656 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ffd3cff610
+11-18 18:37:50.500   359  7656 I resolv  : doQuery: rcode=0, ancount=8, return value=160
+11-18 18:37:50.500  1025  7648 D TrafficStats: tagSocket(131) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.501  1025  7649 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 28ms OK 142.251.150.120,2001:4860:4826:7800::
+11-18 18:37:50.502   359  7657 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+11-18 18:37:50.502   359  7658 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:37:50.502   359  7659 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-18 18:37:50.502   359  7658 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff93d045b0
+11-18 18:37:50.502   359  7658 I resolv  : doQuery: rcode=0, ancount=1, return value=75
+11-18 18:37:50.502   359  7659 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74ff93d02e10
+11-18 18:37:50.502   359  7659 I resolv  : doQuery: rcode=0, ancount=1, return value=63
+11-18 18:37:50.503  1025  7649 D TrafficStats: tagSocket(94) with statsTag=0xffffff81, statsUid=-1
+11-18 18:37:50.526  1025  7649 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=24ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 18 Nov 2026 18:37:50 GMT], X-Android-Received-Millis=[1795027070526], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1795027070515]}
+11-18 18:37:50.529  1025  7648 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 time=30ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 18 Nov 2026 18:37:50 GMT], X-Android-Received-Millis=[1795027070528], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1795027070522]}
+11-18 18:37:50.529  1025  7647 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=58ms
+11-18 18:37:50.530   554   826 D ConnectivityService: [100 WIFI] validation passed
+11-18 18:37:50.823   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.823   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.823   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.823   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.823   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.824   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.824   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.824  3498  3925 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[abf01397-1a66]>Handler" thread_id=73 ]
+11-18 18:37:50.824   554   826 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:37:50.824  3498  3539 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+11-18 18:37:50.827  1208  1723 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-18 18:37:50.827  1208  1723 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+11-18 18:37:50.827  3498  3925 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=73 ]
+11-18 18:37:51.600  7558  7585 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:37:51.606  7558  7585 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab08_after_freeze.png
+11-18 18:37:51.651  7663  7663 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:37:51.651  7663  7663 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:37:51.658   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:37:51.658  7663  7666 I Gralloc4: mapper 4.x is not supported
+11-18 18:37:51.677  1415  1687 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:37:51.691  1208  2482 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 295 [CONTEXT service_id=218 ]
+11-18 18:37:51.693  1208  7637 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 295 [CONTEXT service_id=218 ]
+11-18 18:37:51.701   554  1743 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:37:51.703   554  1548 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:37:51.704   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:37:51.705  1415  7441 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:51.708  1415  7441 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:37:51.714  7558  7585 I LABCI   : screenshot lab08_after_freeze
+11-18 18:37:51.715  7558  7585 I TestRunner: finished: a_anr(com.university.lab08.Lab08Test)

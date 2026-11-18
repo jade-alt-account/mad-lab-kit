@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:35:34" hostname="localhost">
+  <testsuite name="com.university.kbonus.KbonusTest" tests="2" failures="0" errors="0" skipped="0" time="9.176" timestamp="2026-11-18T18:35:34" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_composeCounter" classname="com.university.kbonus.KbonusTest" time="9.176" />
+    <testcase name="b_room" classname="com.university.kbonus.KbonusTest" time="0.000" />
+  </testsuite>
+</testsuites>

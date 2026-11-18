@@ -1,0 +1,201 @@
+11-18 18:36:14.956  5555  5575 I TestRunner: started: f_result(com.university.lab04.Lab04Test)
+11-18 18:36:14.958  5555  5575 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:36:14.961   554  2294 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10219, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:14.965   903  1009 D SplashScreenView: Build android.window.SplashScreenView{6fc17f1 V.E...... ......ID 0,0-0,0}
+11-18 18:36:14.965   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:36:14.965   903  1009 D SplashScreenView: Branding: view: android.view.View{e07cfd6 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:36:14.970  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.isSearchVisible:514 isSearchVisible: [true] [false]
+11-18 18:36:14.971  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onPause:574 onPause enter
+11-18 18:36:14.971  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onHidden:668 onHidden enter
+11-18 18:36:14.971  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.toShortcutSpeedDialInfos:678 enter
+11-18 18:36:14.972  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onPause:312 enter
+11-18 18:36:14.972  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onActivityPause:636 enter
+11-18 18:36:14.972  5780  5801 I DialerDynamicShortcuts: com.android.dialer.shortcuts.DynamicShortcuts.refreshInBackground:113 refreshInBackground
+11-18 18:36:14.974   484   531 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:14.975  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=32, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }
+11-18 18:36:14.982   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:14.986  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: PRE_ON_CREATE
+11-18 18:36:14.987  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-18 18:36:14.997   359   406 I netd    : tetherGetStats() -> {[]} <1.69ms>
+11-18 18:36:14.998  5555  5555 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:36:15.007  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: CREATED
+11-18 18:36:15.007  5555  5555 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.008  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: STARTED
+11-18 18:36:15.008  5555  5555 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.010  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: RESUMED
+11-18 18:36:15.010  5555  5555 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.023  5780  5807 D EGL_emulation: app_time_stats: avg=285.51ms min=12.96ms max=1084.80ms count=4
+11-18 18:36:15.027  5555  5555 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:36:15.035  5780  5780 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:15.038   554   578 W ziparchive: Unable to open '/data/app/~~g4aa2f3thNYryMITGNkXEA==/com.university.lab04-J1JczmMRn3n6NXb1wPj5KA==/base.dm': No such file or directory
+11-18 18:36:15.041   554   578 I ActivityTaskManager: Displayed com.university.lab04/.MainActivity for user 0: +77ms
+11-18 18:36:15.052  5555  5575 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+11-18 18:36:15.053   903  1007 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f914cf3
+11-18 18:36:15.054   554   574 W InputManager-JNI: Input channel object '1f32226 Splash Screen com.university.lab04 (client)' was disposed without first being removed with the input manager!
+11-18 18:36:15.054  5555  5555 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-18 18:36:15.055   484   531 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:15.060  5780  5780 I Dialerojv: com.google.android.dialershared.externals.logging.SingletonScopedExternalsLogging.recordCallMethodInvocation:75 event: TELEPHONY_LISTEN, function parameters: [0], return value: Default
+11-18 18:36:15.061  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onStop:581 onStop enter
+11-18 18:36:15.061  5780  5780 I DialerPermissionsUtil: com.google.android.dialershared.permissions.PermissionsUtil.unregisterPermissionReceiver:272 unregisterPermissionReceiver
+11-18 18:36:15.061  5780  5780 I DialerPreCallDialpadFragmentPeer: com.android.dialer.dialpadview.ui.PreCallDialpadFragmentPeer.onStop:318 enter
+11-18 18:36:15.062  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:637 onSaveInstanceState enter
+11-18 18:36:15.062  5780  5780 I DialerSpeedDialFragmentPeer: com.android.dialer.speeddial.SpeedDialFragmentPeer.onSaveInstanceState:640 longPressedFavoriteContactIndex : Optional.empty
+11-18 18:36:15.063  5780  5780 I DialerLegacyMainActivityPeerDelegate: com.android.dialer.main.impl.LegacyMainActivityPeerDelegate.onSaveInstanceState:1473 enter
+11-18 18:36:15.063  5780  5780 I DialerMainSearchControllerImpl: com.android.dialer.main.impl.MainSearchControllerImpl.onSaveInstanceState:671 Saving FAB hidden state 'hidden: false'
+11-18 18:36:15.064  5555  5555 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+11-18 18:36:15.073   425   441 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:36:15.073   554   680 I ImeTracker: com.university.lab04:44a2bd27: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:15.073   554   680 I ImeTracker: com.university.lab04:44a2bd27: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:15.075  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:36:15.075  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:36:15.076  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:15.077  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:36:15.077  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:36:15.103  5555  5555 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230828/com.university.lab04:id/button_name>
+11-18 18:36:15.148   425   441 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:36:15.151   554   574 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:36:15.151   554  1036 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10219, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:15.152   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(33)
+11-18 18:36:15.156  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: PAUSED
+11-18 18:36:15.156  5555  5555 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.165   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:15.172  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: PRE_ON_CREATE
+11-18 18:36:15.172  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.178  5555  5555 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-18 18:36:15.180  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: CREATED
+11-18 18:36:15.180  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.181  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: STARTED
+11-18 18:36:15.181  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.185  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: RESUMED
+11-18 18:36:15.185  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.193  5555  5555 D AutofillManager: notifyViewReadyInner:1073741824
+11-18 18:36:15.197   425   534 D AudioFlinger: mixer(0x7460c97ca8e0) throttle end: throttle time(31)
+11-18 18:36:15.208   554   578 I ActivityTaskManager: Displayed com.university.lab04/.NameActivity for user 0: +53ms
+11-18 18:36:15.250  5555  5555 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:15.270  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: STOPPED
+11-18 18:36:15.270  5555  5555 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.273   554   680 I ImeTracker: com.university.lab04:8b9048af: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:15.274   554   680 I ImeTracker: com.university.lab04:8b9048af: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:15.274  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:36:15.276  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:36:15.276  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:15.276  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:36:15.277  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:36:15.311   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:36:15.441  5555  5555 I ViewInteraction: Performing 'replace text(Ali)' action on view view.getId() is <2131230907/com.university.lab04:id/edit_name>
+11-18 18:36:15.447  1323  1323 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():73 initialize...
+11-18 18:36:15.447  1323  1323 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():72 onContentChanged()
+11-18 18:36:15.447  1323  1323 I ContactsDataManager: ContactsDataManager.onContentChanged():159 onContentChanged()
+11-18 18:36:15.447  1323  1323 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():83 initialize...done
+11-18 18:36:15.449  1323  2405 I AndroidSpellCheckerService: AndroidSpellCheckerService.createSession():139 com.google.android.keyboard.client.delight5.LanguageIdentifier@50771b6 is created
+11-18 18:36:15.451  5555  5555 I AssistStructure: Flattened final assist data: 1396 bytes, containing 1 windows, 8 views
+11-18 18:36:15.456  5555  5555 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230907/com.university.lab04:id/edit_name>
+11-18 18:36:15.457  5555  5555 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@1ca5356]
+11-18 18:36:15.458  5555  5555 I ImeTracker: com.university.lab04:7787d355: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+11-18 18:36:15.459   554   680 I ImeTracker: com.university.lab04:7787d355: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:15.760  5555  5555 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@1ca5356]
+11-18 18:36:15.762  5555  5555 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230830/com.university.lab04:id/button_ok>
+11-18 18:36:15.805   425   441 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-18 18:36:15.805   554   574 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+11-18 18:36:15.808  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: PAUSED
+11-18 18:36:15.808  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.815   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:15.819  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: RESTARTED
+11-18 18:36:15.819  5555  5555 V ActivityScenario: Update currentActivityStage to RESTARTED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.820  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: STARTED
+11-18 18:36:15.820  5555  5555 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.821  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: RESUMED
+11-18 18:36:15.821  5555  5555 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:15.872   554   680 I ImeTracker: com.university.lab04:cf4c96c9: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:36:15.873   554   680 I ImeTracker: com.university.lab04:cf4c96c9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:36:15.874  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+11-18 18:36:15.877  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+11-18 18:36:15.877  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.university.lab04, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-18 18:36:15.878  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+11-18 18:36:15.878  1323  1323 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+11-18 18:36:15.879  1323  1323 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():240 startImportContentTask()
+11-18 18:36:15.879  1323  1677 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():255 doInBackground()
+11-18 18:36:15.879  1323  1677 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():114 LanguageTags = [en-US]
+11-18 18:36:15.891  1323  1677 I ShortcutsDataManager: AbstractContentDataManager.importRecords():345 importRecords() : Success : Count = 0
+11-18 18:36:15.892  1323  1677 I ShortcutsDataManager: AbstractContentDataManager.importContentData():295 importContentData() : Ending import process
+11-18 18:36:15.896  1323  1677 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():165 run() : Added 0 words and 0 shortcuts
+11-18 18:36:15.896  1323  1677 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():43 perform() : 4 : dxm : Completed
+11-18 18:36:15.896  1323  1323 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():266 onPostExecute() : Result = [2,0]
+11-18 18:36:15.896  1323  1323 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():82 onImportFinished() : Result = 2 : Count = 0
+11-18 18:36:15.903  5555  5555 D VRI[NameActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:15.905  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: STOPPED
+11-18 18:36:15.906  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.906  5555  5555 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-18 18:36:15.907  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.NameActivity@90694c5 in: DESTROYED
+11-18 18:36:15.907  5555  5555 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.university.lab04/.MainActivity }, activity.getIntent()=Intent { cmp=com.university.lab04/.NameActivity }, activity=com.university.lab04.NameActivity@90694c5
+11-18 18:36:15.907  5555  5555 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6557615
+11-18 18:36:15.908  1323  2405 I SpellCheckerSession: SpellCheckerSession.onClose():676 com.google.android.keyboard.client.delight5.LanguageIdentifier@50771b6 is closed
+11-18 18:36:15.910   554   574 W InputManager-JNI: Input channel object '4c49537 com.university.lab04/com.university.lab04.NameActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:36:15.910  3682  3682 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1613922557
+11-18 18:36:16.036   425   534 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-18 18:36:16.086  5555  5555 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hello, Ali"}' assertion on view view.getId() is <2131231210/com.university.lab04:id/text_greeting>
+11-18 18:36:16.128   554   826 D InetDiagMessage: Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:36:16.129   554   826 D InetDiagMessage: Destroyed 3 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:36:16.129   554   826 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 1ms
+11-18 18:36:16.787  5555  5575 D UiDevice: Executing shell command: mkdir -p /sdcard/Download/ci
+11-18 18:36:16.793  5555  5575 D UiDevice: Executing shell command: screencap -p /sdcard/Download/ci/lab04_result.png
+11-18 18:36:16.839  6261  6261 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-18 18:36:16.839  6261  6261 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-18 18:36:16.846  1455  6235 I ChimeraPrvdrProxy: Shutting down chimera ContentProvider com.google.android.gms.reminders.provider.RemindersChimeraProvider
+11-18 18:36:16.847   147   147 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-18 18:36:16.847  6261  6264 I Gralloc4: mapper 4.x is not supported
+11-18 18:36:16.868  1415  3960 W MediaProvider: isAppCloneUserPair for user 0: false
+11-18 18:36:16.887  1208  5839 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.892  1208  5839 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.894  1208  4544 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 14 uptime_millis: 14 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.895  1208  5835 W TapAndPay: NfcAdapter is null while obtaining CardEmulation instance. [CONTEXT service_id=79 ]
+11-18 18:36:16.895  1208  5835 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at android.nfc.cardemulation.CardEmulation.getInstance(CardEmulation.java:170)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at dhwn.<init>(:com.google.android.gms@242335041@24.23.35 (190800-646585959):15)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at com.google.android.gms.tapandpay.hce.task.TapAndPayAidRegistrationTaskOperation.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):32)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at bpjj.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):32)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+11-18 18:36:16.895  1208  5835 W TapAndPay: 	at java.lang.Thread.run(Thread.java:1012)
+11-18 18:36:16.897   554   646 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+11-18 18:36:16.898   554  2294 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-18 18:36:16.899   554   578 I ActivityManager: Broadcast completed: result=0
+11-18 18:36:16.901  1415  1855 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:36:16.907  5555  5575 I LABCI   : screenshot lab04_result
+11-18 18:36:16.912   554   646 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10220, packageName = null, attributionTag = null, token = android.os.Binder@7f87138, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:36:16.915  1208  4544 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:9 result: 3 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.920  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: PAUSED
+11-18 18:36:16.920  5555  5555 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:16.924  1156  1156 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=33, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab04.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+11-18 18:36:16.924   554  2296 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:16.929   903  1009 D SplashScreenView: Build android.window.SplashScreenView{10cd90f V.E...... ......ID 0,0-0,0}
+11-18 18:36:16.929   903  1009 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-18 18:36:16.929   903  1009 D SplashScreenView: Branding: view: android.view.View{d352d9c G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-18 18:36:16.930  1415  1855 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+11-18 18:36:16.932   430   430 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-18 18:36:16.940  1415  1625 D WM-SystemJobScheduler: Scheduling work ID 1e55751b-71ca-4f6e-b995-2272fa65fafeJob ID 21
+11-18 18:36:16.940   484   531 W IPCThreadState: Sending oneway calls to frozen process.
+11-18 18:36:16.943  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: d9219460-9d7a-4a6c-9dcb-b0c253ab6ed4}. Requires device idle.
+11-18 18:36:16.943  1415  1625 D WM-GreedyScheduler: Ignoring {WorkSpec: 6a857b75-6779-4e57-9a14-79375c3fb744}. Requires device idle.
+11-18 18:36:16.951   359   406 I netd    : tetherGetStats() -> {[]} <0.38ms>
+11-18 18:36:16.957  5613  5628 I sity.lab04.test: Waiting for a blocking GC ProfileSaver
+11-18 18:36:16.958  1208  5839 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.965  1208  5835 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 38 uptime_millis: 38 exec_start_elapsed_seconds: 200 [CONTEXT service_id=218 ]
+11-18 18:36:16.988  5555  5578 D EGL_emulation: app_time_stats: avg=382.29ms min=15.88ms max=1084.04ms count=3
+11-18 18:36:16.991  5613  5628 I sity.lab04.test: WaitForGcToComplete blocked ProfileSaver on Background for 33.995ms
+11-18 18:36:16.994  5555  5555 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-18 18:36:16.996  5613  5629 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-18 18:36:16.996  5613  5629 I EGL_emulation: Opening libGLESv2_emulation.so
+11-18 18:36:17.006  5613  5629 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-18 18:36:17.008  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: STOPPED
+11-18 18:36:17.009  5555  5555 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.university.lab04.MainActivity@9b6a81b
+11-18 18:36:17.010  5555  5555 D LifecycleMonitor: Lifecycle status change: com.university.lab04.MainActivity@9b6a81b in: DESTROYED
+11-18 18:36:17.011  5555  5555 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-18 18:36:17.011  5555  5555 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@71f8550
+11-18 18:36:17.014   554  1843 W InputManager-JNI: Input channel object '8a9b1ac com.university.lab04/com.university.lab04.MainActivity (client)' was disposed without first being removed with the input manager!
+11-18 18:36:17.019  5555  5575 I TestRunner: finished: f_result(com.university.lab04.Lab04Test)

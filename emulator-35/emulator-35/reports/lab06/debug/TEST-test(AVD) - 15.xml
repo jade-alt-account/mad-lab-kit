@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="3" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-18T18:36:57" hostname="localhost">
+  <testsuite name="com.university.lab06.Lab06Test" tests="3" failures="0" errors="0" skipped="0" time="9.176" timestamp="2026-11-18T18:36:57" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="a_prefsSurviveRestart" classname="com.university.lab06.Lab06Test" time="3.058" />
+    <testcase name="b_noteFile" classname="com.university.lab06.Lab06Test" time="2.428" />
+    <testcase name="c_settingsScreen" classname="com.university.lab06.Lab06Test" time="3.690" />
+  </testsuite>
+</testsuites>

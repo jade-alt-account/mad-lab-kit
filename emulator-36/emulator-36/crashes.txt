@@ -1,0 +1,892 @@
+11-18 18:33:58.518 D/AndroidRuntime( 2967): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:33:58.526 V/RkpdServerInterface( 2898): Requesting data from server. Attempt 1
+11-18 18:33:58.528 I/Icing   ( 1681): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=IpaAppsCorpus serviceId=32
+11-18 18:33:58.528 I/AndroidRuntime( 2967): Using default boot image
+11-18 18:33:58.528 I/AndroidRuntime( 2967): Leaving lock profiling enabled
+11-18 18:33:58.533 I/NearbySharing( 1349): Package com.google.android.gms has requested to register a receive surface of type BACKGROUND
+11-18 18:33:58.533 I/resolv  (  447): GetAddrInfoHandler::run: {100 100 100 983140 10213 0}
+11-18 18:33:58.534 I/resolv  (  447): res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:33:58.534 I/resolv  (  447): res_nmkquery: (QUERY, IN, A)
+11-18 18:33:58.535 D/MDDTikTokTaskScheduler( 2677): Scheduling periodic tasks for MDD lib MDD.MAINTENANCE.PERIODIC.GCM.TASK 86400
+11-18 18:33:58.536 I/app_process( 2967): Core platform API reporting enabled, enforcing=false
+11-18 18:33:58.539 I/app_process( 2967): Using CollectorTypeCMC GC.
+11-18 18:33:58.540 I/resolv  (  447): res_nsend: used send_dg 275 terrno: 0
+11-18 18:33:58.540 I/resolv  (  447): doQuery: rcode=0, ancount=8, return value=275
+11-18 18:33:58.540 I/resolv  (  447): res_nsend: used send_dg 179 terrno: 0
+11-18 18:33:58.540 I/resolv  (  447): doQuery: rcode=0, ancount=8, return value=179
+11-18 18:33:58.542 I/AppWidgetServiceImpl(  607): getAppWidgetIds() 0
+--
+11-18 18:33:58.930 D/AndroidRuntime( 2967): Calling main entry com.android.commands.am.Am
+11-18 18:33:58.936 W/Looper  (  607): Slow dispatch took 375ms main app=system_server main=true group=FOREGROUND h=com.android.server.accessibility.AccessibilityManagerService$MainHandler c=com.android.server.accessibility.AccessibilityManagerService$$ExternalSyntheticLambda4@f985d92 m=0
+11-18 18:33:58.936 W/Looper  (  607): Slow delivery took 391ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@c084b60 m=0
+11-18 18:33:58.937 I/PermissionControllerServiceImpl( 1014): Updating user sensitive for uid 10216
+11-18 18:33:58.937 I/RoleService(  607): Granting default roles...
+11-18 18:33:58.937 I/DialerLoggingConsentCheckerImpl( 2677): com.google.android.dialershared.logging.consent.impl.LoggingConsentCheckerImpl.getConsent:72 timer stop with success, timer present: false
+11-18 18:33:58.938 I/AconfigPackage( 2967): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.google.android.systemui is mapped to system_ext
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.android.settings.accessibility is mapped to system_ext
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.android.settings.flags is mapped to system_ext
+11-18 18:33:58.939 I/AconfigPackage( 2967): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+--
+11-18 18:34:02.160 D/AndroidRuntime( 3144): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:02.165 D/Zygote  (  450): Forked child process 3150
+11-18 18:34:02.166 I/AndroidRuntime( 3144): Using default boot image
+11-18 18:34:02.166 I/AndroidRuntime( 3144): Leaving lock profiling enabled
+11-18 18:34:02.167 W/ConfigurationContentLdr( 1654): ContentProvider query returned null cursor, using default values
+11-18 18:34:02.169 I/app_process( 3144): Core platform API reporting enabled, enforcing=false
+11-18 18:34:02.169 I/app_process( 3144): Using CollectorTypeCMC GC.
+11-18 18:34:02.172 I/ActivityManager(  607): Start proc 3150:com.android.dynsystem:dynsystem/1000 for service {com.android.dynsystem/com.android.dynsystem.DynamicSystemInstallationService}
+11-18 18:34:02.173 I/ActivityManager(  607): ProcessObserver broadcast disabled
+11-18 18:34:02.180 V/GrammaticalInflectionUtils(  607): AttributionSource: AttributionSource { uid = 1027, packageName = null, attributionTag = null, token = android.os.Binder@8ed4380, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-18 18:34:02.186 W/Conscrypt( 1349): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 18:34:02.186 W/Conscrypt( 1349): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@252635038@25.26.35 (260800-783060121):204)
+11-18 18:34:02.186 W/Conscrypt( 1349): 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@252635038@25.26.35 (260800-783060121):4)
+11-18 18:34:02.198 D/Zygote  (  450): Forked child process 3151
+11-18 18:34:02.229 D/ConnectivityService(  607): requestNetwork for uid/pid:10146/1837 activeRequest: null callbackRequest: 100 [NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10146 RequestorUid: 10146 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC|LP
+11-18 18:34:02.230 D/CompatChangeReporter(  607): Compat change id reported: 319212206; UID 10146; state: ENABLED
+--
+11-18 18:34:02.300 D/AndroidRuntime( 3144): Calling main entry com.android.commands.content.Content
+11-18 18:34:02.301 I/AconfigPackage( 3144): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.google.android.systemui is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.settings.accessibility is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.settings.flags is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.google.android.settings.flags is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.launcher3 is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.wallpaper is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.settings.media_drm is mapped to system_ext
+11-18 18:34:02.301 I/AconfigPackage( 3144): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:34:02.318 D/AndroidRuntime( 3144): Shutting down VM
+11-18 18:34:02.318 W/IPCThreadState( 3144): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:34:02.321 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.321 I/AiAiEcho( 1635): EchoTargets: 
+11-18 18:34:02.321 I/AiAiEcho( 1635): Filtered by AiAi flag check: 
+11-18 18:34:02.321 I/AiAiEcho( 1635): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.321 I/AiAiEcho( 1635): #remoteViewsTwiddler: feature disabled.
+11-18 18:34:02.323 I/.apps.wellbeing( 1529): AssetManager2(0x70339c21dc98) locale list changing from [] to [en-US]
+11-18 18:34:02.325 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:34:02.326 I/AiAiEcho( 1635): EchoTargets: 
+11-18 18:34:02.326 I/AiAiEcho( 1635): Filtered by AiAi flag check: 
+11-18 18:34:02.326 I/AiAiEcho( 1635): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:34:02.327 I/AiAiEcho( 1635): #remoteViewsTwiddler: feature disabled.
+--
+11-18 18:34:06.723 I/AndroidRuntime( 2967): VM exiting with result code 0.
+11-18 18:34:06.726 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:34:06.727 W/Settings( 2677): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-18 18:34:06.727 I/DialerVoicemailStatusDataServiceImpl( 2677): com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl.insertOrUpdateVoicemailStatus:261 merged status: # qrp@82b89716
+11-18 18:34:06.729 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:34:06.729 D/SatelliteAccessController( 1188): Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+11-18 18:34:06.729 D/SatelliteController( 1188): getSelectedSatelliteSubId: subId=-1
+11-18 18:34:06.729 D/SatelliteAccessController( 1188): supportedMsgApps:com.google.android.apps.messaging
+11-18 18:34:06.730 I/gle.android.gms( 1681): AssetManager2(0x70339c2291d8) locale list changing from [] to [en-US]
+11-18 18:34:06.743 E/ActivityManager(  607): Unable to freeze binder for 2997: -11
+11-18 18:34:06.749 I/ActivityManager(  607): Killing 2997:com.university.jsnippets/u0a216 (adj 0): stop com.university.jsnippets due to finished inst
+11-18 18:34:06.754 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:34:06.980 I/binder  (    0): undelivered transaction 120337, process died.
+--
+11-18 18:34:17.122 D/AndroidRuntime( 3755): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:17.128 I/Multidevice( 1349): [FeatureSettingsApiService] getXdFeatureStatus( 0 ): 0 [CONTEXT service_id=348 ]
+11-18 18:34:17.133 I/AndroidRuntime( 3755): Using default boot image
+11-18 18:34:17.133 I/AndroidRuntime( 3755): Leaving lock profiling enabled
+11-18 18:34:17.137 D/PackageManager(  607): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-18 18:34:17.137 D/PackageManager(  607): Clear ephemeral installer activity
+11-18 18:34:17.140 I/app_process( 3755): Core platform API reporting enabled, enforcing=false
+11-18 18:34:17.140 D/ConnectivityService(  607): NetReassign [no changes] [c 0] [a 35] [i 0]
+11-18 18:34:17.143 W/ConnectivityManager.CallbackHandler( 1681): callback not found for CALLBACK_AVAILABLE message
+11-18 18:34:17.144 I/app_process( 3755): Using CollectorTypeCMC GC.
+11-18 18:34:17.149 I/system_server(  607): Background concurrent mark compact GC freed 25MB AllocSpace bytes, 104(2176KB) LOS objects, 45% free, 28MB/52MB, paused 1.215ms,34.623ms total 837.243ms
+11-18 18:34:17.150 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 10145, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:34:17.152 I/MultiDex( 3707): VM with version 2.1.0 has multidex support
+11-18 18:34:17.152 I/MultiDex( 3707): Installing application
+11-18 18:34:17.152 I/MultiDex( 3707): VM has multidex support, MultiDex support library is disabled.
+11-18 18:34:17.174 D/WifiClientModeImpl[33635:wlan0](  607): updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2437 RxLinkSpeed=2
+--
+11-18 18:34:17.430 D/AndroidRuntime( 3755): Calling main entry com.android.commands.am.Am
+11-18 18:34:17.431 I/resolv  (  447): GetAddrInfoHandler::run: {100 100 100 983140 10137 0}
+11-18 18:34:17.431 I/resolv  (  447): res_nmkquery: (QUERY, IN, A)
+11-18 18:34:17.432 I/resolv  (  447): res_nmkquery: (QUERY, IN, AAAA)
+11-18 18:34:17.433 I/AconfigPackage( 3755): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.google.android.systemui is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.android.settings.accessibility is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.android.settings.flags is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.google.android.settings.flags is mapped to system_ext
+11-18 18:34:17.434 I/AconfigPackage( 3755): com.android.launcher3 is mapped to system_ext
+--
+11-18 18:34:32.204 I/AndroidRuntime( 3755): VM exiting with result code 0.
+11-18 18:34:32.420 I/binder  (    0): 607:1831 ioctl 400c620e 7030e900bf6c returned -11
+11-18 18:34:32.423 I/binder  (    0): 607:1831 ioctl 400c620e 7030e900bf6c returned -11
+11-18 18:34:32.208 V/WindowManagerShell( 1013): Transition requested (#15): android.os.BinderProxy@12f9360 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=11 effectiveUid=10219 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.kbonus.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.university.kbonus.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=96713 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c693019} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(74, 160 - 246, 480) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 0, 0) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=undefined}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 15 }
+11-18 18:34:32.215 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:34:32.215 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:34:32.223 D/InetDiagMessage(  607): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:32.223 D/InetDiagMessage(  607): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:32.223 D/InetDiagMessage(  607): Destroyed live tcp sockets for uids={10135} in 34ms
+11-18 18:34:32.223 D/InetDiagMessage(  607): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-18 18:34:32.224 D/InetDiagMessage(  607): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-18 18:34:32.224 D/InetDiagMessage(  607): Destroyed live tcp sockets for uids={10218} in 0ms
+11-18 18:34:32.224 D/InetDiagMessage(  607): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+--
+11-18 18:34:37.109 D/AndroidRuntime( 4366): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:34:37.111 D/dvzk    ( 1837): Starting download: https://dl.google.com/mdi-serving/agsa-apa-bisto-hotword-models/20023/ed62ea940f5a5958c55577276e8511a01a19ea87
+11-18 18:34:37.111 V/dvzk    ( 1837): Is http uri, downloading (uri: https://dl.google.com/mdi-serving/agsa-apa-bisto-hotword-models/20023/ed62ea940f5a5958c55577276e8511a01a19ea87)
+11-18 18:34:37.116 I/dvzk    ( 1837): Request is already being executed for key: /data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1795026839468
+11-18 18:34:37.116 I/dvzk    ( 1837): Request is already being executed for key: /data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1795026839469
+11-18 18:34:37.122 W/ParceledListSlice(  607): Element #26 is 19620 bytes.
+11-18 18:34:37.122 W/ParceledListSlice(  607): Element #27 is 19656 bytes.
+11-18 18:34:37.122 I/AndroidRuntime( 4366): Using default boot image
+11-18 18:34:37.122 I/AndroidRuntime( 4366): Leaving lock profiling enabled
+11-18 18:34:37.127 W/ParceledListSlice(  607): Element #28 is 19496 bytes.
+11-18 18:34:37.127 W/ParceledListSlice(  607): Element #29 is 19584 bytes.
+11-18 18:34:37.127 W/ParceledListSlice(  607): Element #30 is 19520 bytes.
+11-18 18:34:37.130 D/BoundBrokerSvc( 1681): onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+11-18 18:34:37.132 I/app_process( 4366): Core platform API reporting enabled, enforcing=false
+11-18 18:34:37.132 I/app_process( 4366): Using CollectorTypeCMC GC.
+11-18 18:34:37.139 I/ogle.android.as( 1635): AssetManager2(0x70339c23ae38) locale list changing from [] to [en-US]
+11-18 18:34:37.140 D/WM-GreedyScheduler( 1837): Cancelling work ID 32e523e6-e746-4629-8318-dd763fda62e4
+11-18 18:34:37.143 I/ogle.android.as( 1635): AssetManager2(0x70339c225038) locale list changing from [] to [en-US]
+11-18 18:34:37.145 I/ogle.android.as( 1635): AssetManager2(0x70339c2291d8) locale list changing from [] to [en-US]
+11-18 18:34:37.146 I/ogle.android.as( 1635): AssetManager2(0x70339c22a178) locale list changing from [] to [en-US]
+11-18 18:34:37.148 I/ogle.android.as( 1635): AssetManager2(0x70339c22cd38) locale list changing from [] to [en-US]
+--
+11-18 18:34:37.351 D/AndroidRuntime( 4366): Calling main entry com.android.commands.am.Am
+11-18 18:34:37.357 I/AconfigPackage( 4366): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:34:37.358 I/AconfigPackage( 4366): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:34:37.359 I/AconfigPackage( 4366): com.google.android.systemui is mapped to system_ext
+11-18 18:34:37.359 I/AconfigPackage( 4366): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:34:37.359 I/AconfigPackage( 4366): com.android.settings.accessibility is mapped to system_ext
+11-18 18:34:37.360 I/AconfigPackage( 4366): com.android.settings.flags is mapped to system_ext
+11-18 18:34:37.360 I/AconfigPackage( 4366): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:34:37.360 I/AconfigPackage( 4366): com.google.android.settings.flags is mapped to system_ext
+11-18 18:34:37.360 I/AconfigPackage( 4366): com.android.launcher3 is mapped to system_ext
+11-18 18:34:37.360 I/AconfigPackage( 4366): com.android.wallpaper is mapped to system_ext
+11-18 18:34:37.361 I/AconfigPackage( 4366): com.android.settings.media_drm is mapped to system_ext
+11-18 18:34:37.361 I/AconfigPackage( 4366): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:35:00.458 I/AndroidRuntime( 4366): VM exiting with result code 0.
+11-18 18:35:00.459 W/PageIndicator( 1013): Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:35:00.460 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.460 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.461 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.461 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.461 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:00.462 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+--
+11-18 18:35:04.262 D/AndroidRuntime( 5020): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:04.267 I/AndroidRuntime( 5020): Using default boot image
+11-18 18:35:04.268 I/AndroidRuntime( 5020): Leaving lock profiling enabled
+11-18 18:35:04.272 I/app_process( 5020): Core platform API reporting enabled, enforcing=false
+11-18 18:35:04.273 I/app_process( 5020): Using CollectorTypeCMC GC.
+11-18 18:35:04.293 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:35:04.296 I/ProximityAuth( 1349): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.university.lab02.test
+11-18 18:35:04.298 W/GCM     ( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:35:04.299 W/HWUI    ( 1349): Image decoding logging dropped!
+11-18 18:35:04.304 I/FontLog ( 1349): Package com.university.lab02.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:35:04.305 W/NetworkScheduler( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:35:04.314 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:35:04.323 I/ActivityManager(  607): Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10141; uidState: BTOP; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; allowWiu:58; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-18 18:35:04.327 W/ForegroundServiceTypeLoggerModule(  607): Foreground service start for UID: 10141 does not have any types
+11-18 18:35:04.332 D/BackgroundInstallControlService(  607): Package event received: 0
+--
+11-18 18:35:04.421 D/AndroidRuntime( 5020): Calling main entry com.android.commands.am.Am
+11-18 18:35:04.424 I/AconfigPackage( 5020): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:35:04.425 I/AconfigPackage( 5020): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:35:04.426 I/AconfigPackage( 5020): com.google.android.systemui is mapped to system_ext
+11-18 18:35:04.426 I/AconfigPackage( 5020): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:35:04.426 I/AconfigPackage( 5020): com.android.settings.accessibility is mapped to system_ext
+11-18 18:35:04.427 I/AconfigPackage( 5020): com.android.settings.flags is mapped to system_ext
+11-18 18:35:04.427 I/AconfigPackage( 5020): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:35:04.427 I/AconfigPackage( 5020): com.google.android.settings.flags is mapped to system_ext
+11-18 18:35:04.427 I/AconfigPackage( 5020): com.android.launcher3 is mapped to system_ext
+11-18 18:35:04.427 I/AconfigPackage( 5020): com.android.wallpaper is mapped to system_ext
+11-18 18:35:04.428 I/AconfigPackage( 5020): com.android.settings.media_drm is mapped to system_ext
+11-18 18:35:04.428 I/AconfigPackage( 5020): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:35:13.792 I/AndroidRuntime( 5020): VM exiting with result code 0.
+11-18 18:35:13.802 W/WindowOnBackDispatcher( 5132): sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@eaac44d
+11-18 18:35:13.802 D/CoreBackPreview(  607): Window{3f80394 u0 com.university.lab02.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback null
+11-18 18:35:13.805 V/WindowManagerShell( 1013): Track 0 became idle
+11-18 18:35:13.805 V/WindowManagerShell( 1013): All active transition animations finished
+11-18 18:35:13.810 V/WindowManager(  607): Finish Transition (#29): created at 11-18 18:35:13.715 collect-started=0.018ms request-sent=0.061ms started=2.797ms ready=43.99ms sent=46.037ms commit=20.052ms finished=70.385ms
+11-18 18:35:13.811 I/ImeTracker(  607): com.google.android.apps.nexuslauncher:740def87: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-18 18:35:13.819 E/ActivityManager(  607): Unable to freeze binder for 5036: -11
+11-18 18:35:14.013 I/binder  (    0): 607:1299 ioctl 400c620e 70318cc77f6c returned -11
+11-18 18:35:14.040 I/binder  (    0): 607:1299 ioctl 400c620e 70318cc77f6c returned -11
+11-18 18:35:13.822 D/WM-DelayedWorkTracker( 1611): Scheduling work c4409c42-8759-4cdd-9e16-db69e56b1941
+11-18 18:35:13.822 D/WM-GreedyScheduler( 1611): Starting tracking for c4409c42-8759-4cdd-9e16-db69e56b1941
+11-18 18:35:13.822 D/InsetsController( 1253): hide(ime(), fromIme=false)
+--
+11-18 18:35:17.424 D/AndroidRuntime( 5344): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:17.424 I/ogle.android.as( 1635): AssetManager2(0x70339c23ae38) locale list changing from [] to [en-US]
+11-18 18:35:17.424 I/ProximityAuth( 1349): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.university.lab03.test
+11-18 18:35:17.426 W/HWUI    ( 1349): Image decoding logging dropped!
+11-18 18:35:17.427 I/ogle.android.as( 1635): AssetManager2(0x70339c23dd18) locale list changing from [] to [en-US]
+11-18 18:35:17.429 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:17.430 W/GCM     ( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:35:17.430 I/AiAiEcho( 1635): AppIndexer Package:[com.university.lab03.test] UserProfile:[0] Enabled:[true].
+11-18 18:35:17.430 I/FontLog ( 1349): Package com.university.lab03.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:35:17.435 I/AndroidRuntime( 5344): Using default boot image
+11-18 18:35:17.437 I/ogle.android.as( 1635): AssetManager2(0x70339c248f38) locale list changing from [] to [en-US]
+11-18 18:35:17.437 I/AiAiEcho( 1635): AppFetcherImplV2 updateApps package:[com.university.lab03.test], userId:[0], reason:[package is updated.].
+11-18 18:35:17.438 W/NetworkScheduler( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:35:17.438 I/AndroidRuntime( 5344): Leaving lock profiling enabled
+11-18 18:35:17.440 I/app_process( 5344): Core platform API reporting enabled, enforcing=false
+11-18 18:35:17.431 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:17.440 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:17.441 I/app_process( 5344): Using CollectorTypeCMC GC.
+11-18 18:35:17.442 I/ogle.android.as( 1635): AssetManager2(0x70339c242e58) locale list changing from [] to [en-US]
+11-18 18:35:17.445 I/ogle.android.as( 1635): AssetManager2(0x70339c244118) locale list changing from [] to [en-US]
+11-18 18:35:17.452 I/ogle.android.as( 1635): AssetManager2(0x70339c241558) locale list changing from [] to [en-US]
+11-18 18:35:17.454 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:35:17.459 W/achh    ( 1837): Abort, client detached.
+11-18 18:35:17.463 I/ogle.android.as( 1635): AssetManager2(0x70339c246698) locale list changing from [] to [en-US]
+11-18 18:35:17.467 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:35:17.471 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+--
+11-18 18:35:17.569 D/AndroidRuntime( 5344): Calling main entry com.android.commands.am.Am
+11-18 18:35:17.570 I/AconfigPackage( 5344): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.google.android.systemui is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.settings.accessibility is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.settings.flags is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.google.android.settings.flags is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.launcher3 is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.wallpaper is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.settings.media_drm is mapped to system_ext
+11-18 18:35:17.570 I/AconfigPackage( 5344): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:35:31.654 I/AndroidRuntime( 5344): VM exiting with result code 0.
+11-18 18:35:31.877 I/binder  (    0): 607:1828 ioctl 400c620e 7030ec7f6f6c returned -11
+11-18 18:35:31.879 I/binder  (    0): 607:1828 ioctl 400c620e 7030ec7f6f6c returned -11
+11-18 18:35:31.660 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.665 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.666 I/ImeTracker(  607): system_server:fd0613c6: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:35:31.667 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:35:31.668 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.668 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.668 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.668 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:35:31.668 I/AiAiEcho( 1635): EchoTargets: 
+11-18 18:35:31.668 I/AiAiEcho( 1635): Filtered by AiAi flag check: 
+--
+11-18 18:35:34.724 D/AndroidRuntime( 5633): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:35:34.725 W/achh    ( 1837): Abort, client detached.
+11-18 18:35:34.728 I/ogle.android.as( 1635): AssetManager2(0x70339c228b98) locale list changing from [] to [en-US]
+11-18 18:35:34.730 I/ogle.android.as( 1635): AssetManager2(0x70339c2262f8) locale list changing from [] to [en-US]
+11-18 18:35:34.731 I/AndroidRuntime( 5633): Using default boot image
+11-18 18:35:34.732 I/AndroidRuntime( 5633): Leaving lock profiling enabled
+11-18 18:35:34.734 I/app_process( 5633): Core platform API reporting enabled, enforcing=false
+11-18 18:35:34.734 I/app_process( 5633): Using CollectorTypeCMC GC.
+11-18 18:35:34.735 I/ogle.android.as( 1635): AssetManager2(0x70339c247318) locale list changing from [] to [en-US]
+11-18 18:35:34.737 I/AiAiEcho( 1635): EchoSearch: WidgetFetcherImpl is initialized with [34] widgets [reason=package added for userId: 0]
+11-18 18:35:34.789 I/.apps.wellbeing( 1529): AssetManager2(0x70339c223418) locale list changing from [] to [en-US]
+11-18 18:35:34.798 I/cn_CronetUrlRequestContext( 1681): destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@f47a94a
+11-18 18:35:34.812 I/ActivityManager(  607): Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10141; uidState: BTOP; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; allowWiu:58; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-18 18:35:34.823 W/ForegroundServiceTypeLoggerModule(  607): Foreground service start for UID: 10141 does not have any types
+11-18 18:35:34.824 W/ForegroundServiceTypeLoggerModule(  607): FGS stop call for: 10141 has no types!
+11-18 18:35:34.825 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:35:34.825 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:35:34.832 D/nativeloader( 5633): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+--
+11-18 18:35:34.883 D/AndroidRuntime( 5633): Calling main entry com.android.commands.am.Am
+11-18 18:35:34.884 I/AconfigPackage( 5633): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.google.android.systemui is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.settings.accessibility is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.settings.flags is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.google.android.settings.flags is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.launcher3 is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.wallpaper is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.settings.media_drm is mapped to system_ext
+11-18 18:35:34.886 I/AconfigPackage( 5633): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:36:02.930 I/AndroidRuntime( 6391): VM exiting with result code 0, cleanup skipped.
+11-18 18:36:02.930 I/fsoa    ( 5875): (REDACTED) Scoped context discovery schemas: %s.
+11-18 18:36:02.936 E/IPCThreadState( 1349): Binder transaction failure. id: 406801, BR_*: 29189, error: -22 (Invalid argument)
+11-18 18:36:03.156 I/binder  (    0): 1349:6285 transaction async to 0:0 failed 406801/29189/-22, size 340-0 line 3348
+11-18 18:36:02.937 I/ActivityManager(  607): Process com.google.android.apps.maps:server_recovery_process (pid 6391) has died: fg  RCVR
+11-18 18:36:02.938 I/adbd    (  533): Remote process closed the socket (on MSG_PEEK)
+11-18 18:36:02.939 I/Zygote  (  450): Process 6391 exited cleanly (0)
+11-18 18:36:02.940 W/FlagUpdateListenerRegis( 1349): Unable to invoke IFlagUpdateListener.onFlagUpdate. App: com.google.android.googlequicksearchbox. Process: com.google.android.googlequicksearchbox:search|145766714. Error: android.os.DeadObjectException. [CONTEXT service_id=51 ]
+11-18 18:36:02.940 W/ActivityManager(  607): pid 1349 com.google.android.gms.persistent sent binder code 2 with flags 1 to frozen apps and got error -32
+11-18 18:36:02.941 I/eoet    ( 5875): (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state and %s source
+11-18 18:36:02.941 I/libprocessgroup(  607): Removed cgroup /sys/fs/cgroup/apps/uid_10161/pid_6391
+11-18 18:36:02.945 I/HeterodyneSyncer( 1349): Finished notifying packages after sync. syncLatency: 708 [CONTEXT service_id=51 ]
+11-18 18:36:02.948 W/JobInfo ( 5875): Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-43' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+--
+11-18 18:36:24.205 I/AndroidRuntime( 5633): VM exiting with result code 0.
+11-18 18:36:24.206 I/DialerLegacyCountryDetector( 2677): com.android.dialer.location.LegacyCountryDetector.getCurrentCountryIso:98 returning Redacted-2-chars
+11-18 18:36:24.207 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.207 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.207 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.208 I/DialerVoicemailStatusDataServiceImpl( 2677): com.android.dialer.voicemailstatus.dataservice.impl.VoicemailStatusDataServiceImpl$ServiceStateListener.onServiceStateChanged:423 enter
+11-18 18:36:24.212 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.217 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.217 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.217 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.217 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:24.218 I/ActivityManager(  607): Killing 5645:com.university.lab04/u0a226 (adj 0): stop com.university.lab04 due to finished inst
+11-18 18:36:24.220 I/DialerSearchFragment( 2677): com.android.dialer.searchfragment.list.SearchFragment.onLoadFinished:455 Loader finished: olf{9eea1b0 id=3}
+--
+11-18 18:36:27.975 D/AndroidRuntime( 6789): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:27.982 I/AndroidRuntime( 6789): Using default boot image
+11-18 18:36:27.982 I/AndroidRuntime( 6789): Leaving lock profiling enabled
+11-18 18:36:27.983 D/LauncherAppsService(  607): onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.university.lab05.test
+11-18 18:36:27.983 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:36:27.983 D/LauncherAppsService(  607): onPackageAdded: Skipping - package filtered for user=UserHandle{0}, packageName=com.university.lab05.test
+11-18 18:36:27.985 I/AiAiEcho( 1635): AppFetcherImplV2 updateApps package:[com.university.lab05.test], userId:[0], reason:[package is added.].
+11-18 18:36:27.988 D/LauncherAppsService(  607): onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.university.lab05.test
+11-18 18:36:27.988 D/LauncherAppsService(  607): onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.university.lab05.test
+11-18 18:36:27.989 D/LauncherAppsCallbackImpl( 1253): onPackageAdded triggered for packageName=com.university.lab05.test, user=UserHandle{0}
+11-18 18:36:27.989 V/AccessibilityManagerService(  607): onUserStateChangedLocked for userId: 0, forceUpdate: false
+11-18 18:36:27.989 D/PackageUpdatedTask( 1253): Package updated: mOp=ADD packages=[com.university.lab05.test], user=UserHandle{0}
+11-18 18:36:27.990 W/MagnificationConnectionManager(  607): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+11-18 18:36:27.991 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:36:27.991 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+--
+11-18 18:36:28.180 D/AndroidRuntime( 6789): Calling main entry com.android.commands.am.Am
+11-18 18:36:28.182 I/.apps.wellbeing( 1529): AssetManager2(0x70339c228238) locale list changing from [] to [en-US]
+11-18 18:36:28.183 I/AconfigPackage( 6789): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.google.android.systemui is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.android.settings.accessibility is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.android.settings.flags is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.google.android.settings.flags is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.android.launcher3 is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.android.wallpaper is mapped to system_ext
+11-18 18:36:28.184 I/AconfigPackage( 6789): com.android.settings.media_drm is mapped to system_ext
+--
+11-18 18:36:50.097 I/AndroidRuntime( 6789): VM exiting with result code 0.
+11-18 18:36:50.314 I/binder  (    0): 607:1469 ioctl 400c620e 703184145f6c returned -11
+11-18 18:36:50.103 E/ActivityManager(  607): Unable to freeze binder for 6807: -11
+11-18 18:36:50.324 I/binder  (    0): 607:1469 ioctl 400c620e 703184145f6c returned -11
+11-18 18:36:50.105 I/ActivityManager(  607): Killing 6807:com.university.lab05/u0a228 (adj 0): stop com.university.lab05 due to finished inst
+11-18 18:36:50.116 I/AiAiEcho( 1635): Settings changed for uri: content://settings/secure/accessibility_enabled
+11-18 18:36:50.117 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:36:50.117 I/AiAiEcho( 1635): EchoTargets: 
+11-18 18:36:50.117 I/AiAiEcho( 1635): Filtered by AiAi flag check: 
+11-18 18:36:50.117 I/AiAiEcho( 1635): [CONTEXT ratelimit_period="10 SECONDS" ]
+11-18 18:36:50.117 I/AiAiEcho( 1635): #remoteViewsTwiddler: feature disabled.
+11-18 18:36:50.118 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:36:50.118 I/AiAiEcho( 1635): EchoTargets: 
+--
+11-18 18:36:53.653 D/AndroidRuntime( 7106): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:36:53.656 I/AndroidRuntime( 7106): Using default boot image
+11-18 18:36:53.657 I/AndroidRuntime( 7106): Leaving lock profiling enabled
+11-18 18:36:53.659 I/app_process( 7106): Core platform API reporting enabled, enforcing=false
+11-18 18:36:53.660 I/app_process( 7106): Using CollectorTypeCMC GC.
+11-18 18:36:53.671 I/AiAiEcho( 1635): AppIndexer Package:[com.university.lab06.test] UserProfile:[0] Enabled:[true].
+11-18 18:36:53.671 I/AiAiEcho( 1635): AppFetcherImplV2 updateApps package:[com.university.lab06.test], userId:[0], reason:[package is updated.].
+11-18 18:36:53.717 D/PackageUpdatedTask( 1253): Package updated: mOp=UPDATE packages=[com.university.lab06.test], user=UserHandle{0}
+11-18 18:36:53.720 W/AllAppsList( 1253): updatePackage: no Activities matched updated package, removing any AppInfo with package=com.university.lab06.test, user=UserHandle{0}
+11-18 18:36:53.750 I/.apps.wellbeing( 1529): AssetManager2(0x70339c22c6f8) locale list changing from [] to [en-US]
+11-18 18:36:53.753 I/ActivityManager(  607): Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10141; uidState: BTOP; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; allowWiu:58; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-18 18:36:53.756 D/nativeloader( 7106): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:36:53.757 W/ForegroundServiceTypeLoggerModule(  607): Foreground service start for UID: 10141 does not have any types
+11-18 18:36:53.760 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:36:53.762 W/ForegroundServiceTypeLoggerModule(  607): FGS stop call for: 10141 has no types!
+--
+11-18 18:36:53.809 D/AndroidRuntime( 7106): Calling main entry com.android.commands.am.Am
+11-18 18:36:53.809 I/.apps.wellbeing( 1529): AssetManager2(0x70339c22f8f8) locale list changing from [] to [en-US]
+11-18 18:36:53.810 I/AconfigPackage( 7106): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:36:53.810 I/AconfigPackage( 7106): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.google.android.systemui is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.android.settings.accessibility is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.android.settings.flags is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.google.android.settings.flags is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.android.launcher3 is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.android.wallpaper is mapped to system_ext
+11-18 18:36:53.811 I/AconfigPackage( 7106): com.android.settings.media_drm is mapped to system_ext
+--
+11-18 18:37:03.761 I/AndroidRuntime( 7106): VM exiting with result code 0.
+11-18 18:37:03.765 W/WindowOnBackDispatcher( 7156): sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@eab995f
+11-18 18:37:03.771 D/CoreBackPreview(  607): Window{bcb22af u0 com.university.lab06.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback null
+11-18 18:37:03.774 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:03.774 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:03.774 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:03.775 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:03.775 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:03.776 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:03.994 I/binder  (    0): 607:1832 ioctl 400c620e 7030e8f07f6c returned -11
+11-18 18:37:04.000 I/binder  (    0): 607:1832 ioctl 400c620e 7030e8f07f6c returned -11
+11-18 18:37:03.780 I/ImeTracker(  607): system_server:301f29fe: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-18 18:37:03.784 I/ImeTracker(  607): system_server:301f29fe: onCancelled at PHASE_SERVER_SHOULD_HIDE
+--
+11-18 18:37:07.685 D/AndroidRuntime( 7434): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:07.688 E/SmsApplication( 1188): com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+11-18 18:37:07.688 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:37:07.690 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 10145, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.692 I/AndroidRuntime( 7434): Using default boot image
+11-18 18:37:07.692 I/AndroidRuntime( 7434): Leaving lock profiling enabled
+11-18 18:37:07.694 I/app_process( 7434): Core platform API reporting enabled, enforcing=false
+11-18 18:37:07.695 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.695 I/app_process( 7434): Using CollectorTypeCMC GC.
+11-18 18:37:07.696 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.697 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.697 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.698 W/AppOpService(  607): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+11-18 18:37:07.698 D/SatelliteAccessController( 1188): Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+11-18 18:37:07.698 D/SatelliteController( 1188): getSelectedSatelliteSubId: subId=-1
+11-18 18:37:07.698 D/SatelliteAccessController( 1188): supportedMsgApps:com.google.android.apps.messaging
+11-18 18:37:07.701 I/faht    ( 1654): (REDACTED) O received %s
+11-18 18:37:07.710 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+--
+11-18 18:37:07.807 D/AndroidRuntime( 7434): Calling main entry com.android.commands.am.Am
+11-18 18:37:07.809 I/AconfigPackage( 7434): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:07.810 I/AconfigPackage( 7434): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:07.810 I/AconfigPackage( 7434): com.google.android.systemui is mapped to system_ext
+11-18 18:37:07.810 I/AconfigPackage( 7434): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:07.810 I/AconfigPackage( 7434): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.android.settings.flags is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.android.launcher3 is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.android.wallpaper is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:07.811 I/AconfigPackage( 7434): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:37:12.592 D/AndroidRuntime( 7523): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:12.605 D/InsetsController( 1253): hide(ime(), fromIme=false)
+11-18 18:37:12.605 I/ImeTracker( 1253): com.google.android.apps.nexuslauncher:c82596d2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-18 18:37:12.606 I/AndroidRuntime( 7523): Using default boot image
+11-18 18:37:12.606 I/AndroidRuntime( 7523): Leaving lock profiling enabled
+11-18 18:37:12.609 I/app_process( 7523): Core platform API reporting enabled, enforcing=false
+11-18 18:37:12.611 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:12.611 I/app_process( 7523): Using CollectorTypeCMC GC.
+11-18 18:37:12.617 D/RecentsView( 1253): onTaskRemoved: 47, not handling task stack changes
+11-18 18:37:12.617 D/RecentsView( 1253): onTaskRemoved: 47, not handling task stack changes
+11-18 18:37:12.620 I/ImeTracker(  607): system_server:3f5b9711: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:37:12.621 W/WindowOnBackDispatcher( 7481): sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@36df31c
+11-18 18:37:12.622 D/CoreBackPreview(  607): Window{659d2c6 u0 com.university.lab07.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback null
+11-18 18:37:12.623 W/HWUI    (  607): Image decoding logging dropped!
+11-18 18:37:12.625 W/IPCThreadState(  592): Sending oneway calls to frozen process.
+11-18 18:37:12.643 D/ViewRootImpl( 7481): Skipping stats log for color mode
+11-18 18:37:12.653 D/BackgroundInstallControlService(  607): Package event received: 0
+--
+11-18 18:37:12.734 D/AndroidRuntime( 7523): Calling main entry com.android.commands.content.Content
+11-18 18:37:12.735 I/AconfigPackage( 7523): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.google.android.systemui is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.settings.flags is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.launcher3 is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.wallpaper is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:12.735 I/AconfigPackage( 7523): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:37:12.758 D/AndroidRuntime( 7523): Shutting down VM
+11-18 18:37:12.758 W/IPCThreadState( 7523): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:12.758 W/IPCThreadState( 7523): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:12.762 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:12.762 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:12.762 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:12.762 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:37:12.762 I/UriTaskContentObserver( 1349): Throttling content uri change event for content://com.android.contacts [CONTEXT service_id=218 ]
+11-18 18:37:12.785 I/NetworkScheduler.Stats( 1349): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 257 [CONTEXT service_id=218 ]
+11-18 18:37:12.789 I/NetworkScheduler.Stats( 1349): Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 14 uptime_millis: 14 exec_start_elapsed_seconds: 257 [CONTEXT service_id=218 ]
+11-18 18:37:12.858 W/AccessibilityManagerService(  607):  wait for adding window timeout: 161
+11-18 18:37:12.903 W/AccessibilityManagerService(  607):  wait for adding window timeout: 162
+11-18 18:37:13.114 D/SatelliteController( 1188): iisInCarrierRoamingNbIotNtn: satellite is disabled
+--
+11-18 18:37:13.637 D/AndroidRuntime( 7536): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:13.640 I/AndroidRuntime( 7536): Using default boot image
+11-18 18:37:13.640 I/AndroidRuntime( 7536): Leaving lock profiling enabled
+11-18 18:37:13.642 I/app_process( 7536): Core platform API reporting enabled, enforcing=false
+11-18 18:37:13.643 I/app_process( 7536): Using CollectorTypeCMC GC.
+11-18 18:37:13.705 D/nativeloader( 7536): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:13.707 D/android.hardware.audio@7.1-impl.ranchu(  472): threadLoop: entering standby, frames: 3047488
+11-18 18:37:13.708 D/android.hardware.audio@7.1-impl.ranchu(  472): ~TinyalsaSink: joining consumeThread
+11-18 18:37:13.709 D/android.hardware.audio@7.1-impl.ranchu(  472): consumeThread: exiting
+11-18 18:37:13.709 D/android.hardware.audio@7.1-impl.ranchu(  472): ~TinyalsaSink: stopping PCM stream
+11-18 18:37:13.714 D/nativeloader( 7536): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:13.714 D/app_process( 7536): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/9/icu") succeeded. 
+11-18 18:37:13.714 D/app_process( 7536): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt76l.dat
+11-18 18:37:13.715 D/nativeloader( 7536): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:13.716 D/nativeloader( 7536): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+--
+11-18 18:37:13.732 D/AndroidRuntime( 7536): Calling main entry com.android.commands.content.Content
+11-18 18:37:13.734 I/AconfigPackage( 7536): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.google.android.systemui is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.settings.flags is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.launcher3 is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.wallpaper is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:13.734 I/AconfigPackage( 7536): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:37:13.752 D/AndroidRuntime( 7536): Shutting down VM
+11-18 18:37:13.752 W/IPCThreadState( 7536): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:13.752 W/IPCThreadState( 7536): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:13.807 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:13.823 D/WM-DelayedWorkTracker( 1611): Scheduling work 88336265-2841-4dba-a0ce-42ef8a208fe3
+11-18 18:37:13.823 D/WM-GreedyScheduler( 1611): Starting tracking for 88336265-2841-4dba-a0ce-42ef8a208fe3
+11-18 18:37:13.824 D/WM-ConstraintTracker( 1611): BatteryNotLowTracker: initial state = true
+11-18 18:37:13.824 D/WM-BrdcstRcvrCnstrntTrc( 1611): BatteryNotLowTracker: registering receiver
+11-18 18:37:13.825 D/WM-GreedyScheduler( 1611): Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=88336265-2841-4dba-a0ce-42ef8a208fe3, generation=0)
+11-18 18:37:13.827 D/WM-Processor( 1611): Processor: processing WorkGenerationalId(workSpecId=88336265-2841-4dba-a0ce-42ef8a208fe3, generation=0)
+11-18 18:37:13.828 D/WM-WorkerWrapper( 1611): Starting work for com.android.providers.media.photopicker.sync.ProactiveSyncWorker
+11-18 18:37:13.829 I/PSyncWorker( 1611): Starting proactive picker sync from sync source: 1
+11-18 18:37:13.829 I/PickerSyncTracker( 1611): Created new sync future java.util.concurrent.CompletableFuture@3a8ed42[Not completed, 1 dependents]. Future map: {88336265-2841-4dba-a0ce-42ef8a208fe3=java.util.concurrent.CompletableFuture@3a8ed42[Not completed, 1 dependents]}
+--
+11-18 18:37:14.634 D/AndroidRuntime( 7550): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:14.637 I/AndroidRuntime( 7550): Using default boot image
+11-18 18:37:14.637 I/AndroidRuntime( 7550): Leaving lock profiling enabled
+11-18 18:37:14.639 I/app_process( 7550): Core platform API reporting enabled, enforcing=false
+11-18 18:37:14.639 I/app_process( 7550): Using CollectorTypeCMC GC.
+11-18 18:37:14.699 D/nativeloader( 7550): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:14.707 D/nativeloader( 7550): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:14.707 D/app_process( 7550): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/9/icu") succeeded. 
+11-18 18:37:14.707 D/app_process( 7550): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt76l.dat
+11-18 18:37:14.707 D/nativeloader( 7550): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:14.708 D/nativeloader( 7550): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:14.709 W/app_process( 7550): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:14.709 W/app_process( 7550): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:37:14.724 D/nativeloader( 7550): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:14.725 D/AndroidRuntime( 7550): Calling main entry com.android.commands.content.Content
+11-18 18:37:14.726 I/AconfigPackage( 7550): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.google.android.systemui is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.settings.flags is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.launcher3 is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.wallpaper is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:14.726 I/AconfigPackage( 7550): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:37:14.738 D/AndroidRuntime( 7550): Shutting down VM
+11-18 18:37:14.738 W/IPCThreadState( 1734): Sending oneway calls to frozen process.
+11-18 18:37:14.739 W/IPCThreadState( 7550): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:14.747 E/BluetoothPbapUtils( 1164): Null contact in the updateList: 1
+11-18 18:37:14.749 W/AppSearchIcing(  607): status-util.h:31: Error: 5, Message: Document (android$contacts/, 2) not found.
+11-18 18:37:14.750 E/BluetoothPbapUtils( 1164): Null contact in the updateList: 2
+11-18 18:37:14.750 W/ContentProfileErrorReportUtils( 1164): Skipping reporting this error to prevent flooding. fileNameEnum=20008, tag=2
+11-18 18:37:14.999 D/WifiClientModeImpl[33635:wlan0](  607): updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2437 RxLinkSpeed=2
+11-18 18:37:15.000 D/WifiDataStall(  607): tx tput in kbps: 37000
+11-18 18:37:15.000 D/WifiDataStall(  607): rx tput in kbps: 37000
+11-18 18:37:15.000 V/WifiConfigManager(  607): Updating scan detail cache freq=2437 BSSID=02:15:b2:00:00:01 RSSI=-50 for "AndroidWifi"NONE
+11-18 18:37:15.000 D/WifiThroughputPredictor(  607):  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-18 18:37:15.000 D/WifiThroughputPredictor(  607):  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 37
+--
+11-18 18:37:15.615 D/AndroidRuntime( 7564): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:15.618 I/AndroidRuntime( 7564): Using default boot image
+11-18 18:37:15.618 I/AndroidRuntime( 7564): Leaving lock profiling enabled
+11-18 18:37:15.620 I/app_process( 7564): Core platform API reporting enabled, enforcing=false
+11-18 18:37:15.620 I/app_process( 7564): Using CollectorTypeCMC GC.
+11-18 18:37:15.679 D/nativeloader( 7564): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+11-18 18:37:15.687 D/nativeloader( 7564): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:15.687 D/app_process( 7564): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/9/icu") succeeded. 
+11-18 18:37:15.687 D/app_process( 7564): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt76l.dat
+11-18 18:37:15.687 D/nativeloader( 7564): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:15.688 D/nativeloader( 7564): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+11-18 18:37:15.689 W/app_process( 7564): Unexpected CPU variant for x86: x86_64.
+11-18 18:37:15.689 W/app_process( 7564): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-18 18:37:15.705 D/nativeloader( 7564): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-18 18:37:15.705 D/AndroidRuntime( 7564): Calling main entry com.android.commands.content.Content
+11-18 18:37:15.706 I/AconfigPackage( 7564): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.google.android.systemui is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.settings.flags is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.launcher3 is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.wallpaper is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:15.707 I/AconfigPackage( 7564): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:37:15.715 D/AndroidRuntime( 7564): Shutting down VM
+11-18 18:37:15.715 W/IPCThreadState( 7564): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:15.715 W/IPCThreadState( 7564): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+11-18 18:37:15.758 D/ActivityManager(  607): sync unfroze 6133 com.google.android.contacts for 6
+11-18 18:37:15.771 W/ProcessStats(  607): Tracking association SourceState{c985be2 system/1000 ImpBg #7882} whose proc state 6 is better than process ProcessState{c4af3c9 com.google.android.contacts/10171 pkg=com.google.android.contacts} proc state 15 (25 skipped)
+11-18 18:37:15.780 W/JobScheduler(  607): Job didn't exist in JobStore: bc78fc4 #u0a171/7 com.google.android.contacts/com.google.android.apps.contacts.shortcut.ShortcutJobService
+11-18 18:37:15.783 I/Icing   ( 1681): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=36
+11-18 18:37:15.789 I/Icing   ( 1681): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-18 18:37:15.791 I/Icing   ( 1681): Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0
+11-18 18:37:15.800 I/Icing   ( 1681): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-18 18:37:15.800 I/Icing   ( 1681): Indexing com.google.android.gms-internal.3p:Person from com.google.android.gms
+11-18 18:37:15.807 I/Icing   ( 1681): Indexing done com.google.android.gms-internal.3p:Person
+11-18 18:37:15.814 I/Backup  ( 1681): [GmsBackupAccountManager] Backup account not found in gmscore.
+--
+11-18 18:37:22.399 I/AndroidRuntime( 7434): VM exiting with result code 0.
+11-18 18:37:22.399 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.399 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.399 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.400 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.400 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.400 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.400 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.400 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:37:22.615 I/binder  (    0): 607:2083 ioctl 400c620e 7030e7de5f6c returned -11
+11-18 18:37:22.624 I/binder  (    0): 607:2083 ioctl 400c620e 7030e7de5f6c returned -11
+11-18 18:37:22.403 W/PageIndicator( 1013): Total number of pages invalid: 0. Assuming 1 page.
+11-18 18:37:22.404 D/SsBaseTemplateCard( 1253): No text view can be set up
+--
+11-18 18:37:25.430 D/AndroidRuntime( 7768): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:37:25.435 I/AndroidRuntime( 7768): Using default boot image
+11-18 18:37:25.435 I/AndroidRuntime( 7768): Leaving lock profiling enabled
+11-18 18:37:25.438 I/app_process( 7768): Core platform API reporting enabled, enforcing=false
+11-18 18:37:25.440 I/app_process( 7768): Using CollectorTypeCMC GC.
+11-18 18:37:25.441 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:37:25.442 I/ProximityAuth( 1349): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.university.lab08.test
+11-18 18:37:25.445 W/HWUI    ( 1349): Image decoding logging dropped!
+11-18 18:37:25.446 I/FontLog ( 1349): Package com.university.lab08.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:37:25.447 W/NetworkScheduler( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:37:25.448 W/GCM     ( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:37:25.451 I/Auth    ( 1681): [SupervisedAccountIntentOperationV2] onHandleIntent: android.intent.action.PACKAGE_ADDED [CONTEXT service_id=42 ]
+11-18 18:37:25.459 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:37:25.462 I/Blockstore( 1681): [DataStoreImpl] Clearing Blockstore Data for package com.university.lab08.test [CONTEXT service_id=258 ]
+11-18 18:37:25.464 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+--
+11-18 18:37:25.564 D/AndroidRuntime( 7768): Calling main entry com.android.commands.am.Am
+11-18 18:37:25.566 I/AconfigPackage( 7768): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.google.android.systemui is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.settings.accessibility is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.settings.flags is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.google.android.settings.flags is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.launcher3 is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.wallpaper is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.settings.media_drm is mapped to system_ext
+11-18 18:37:25.566 I/AconfigPackage( 7768): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:39:00.640 I/AndroidRuntime( 7768): VM exiting with result code 0.
+11-18 18:39:00.642 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.642 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.642 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.642 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.861 I/binder  (    0): 607:2108 ioctl 400c620e 7030e177ef6c returned -11
+11-18 18:39:00.866 I/binder  (    0): 607:2108 ioctl 400c620e 7030e177ef6c returned -11
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:00.648 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+--
+11-18 18:39:04.122 D/AndroidRuntime( 8251): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:39:04.127 I/AndroidRuntime( 8251): Using default boot image
+11-18 18:39:04.127 I/AndroidRuntime( 8251): Leaving lock profiling enabled
+11-18 18:39:04.129 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:39:04.130 I/app_process( 8251): Core platform API reporting enabled, enforcing=false
+11-18 18:39:04.131 I/app_process( 8251): Using CollectorTypeCMC GC.
+11-18 18:39:04.132 I/faht    ( 1654): (REDACTED) O received %s
+11-18 18:39:04.142 I/system_server(  607): AssetManager2(0x70339c2534d8) locale list changing from [] to [en-US]
+11-18 18:39:04.144 W/achh    ( 5875): Abort, client detached.
+11-18 18:39:04.161 I/system_server(  607): AssetManager2(0x70339c24baf8) locale list changing from [] to [en-US]
+11-18 18:39:04.163 W/system_server(  607): Long monitor contention with owner AccessibilityManagerService PackageMonitor (772) at void android.app.ResourcesManager.registerAllResourcesReference(android.content.res.Resources)(ResourcesManager.java:2062) waiters=1 in android.content.res.Resources android.app.ResourcesManager.createResources(android.content.res.ResourcesKey, java.lang.ClassLoader, android.app.ResourcesManager$ApkAssetsSupplier) for 157ms
+11-18 18:39:04.164 I/system_server(  607): AssetManager2(0x70339c251bd8) locale list changing from [] to [en-US]
+11-18 18:39:04.166 I/system_server(  607): AssetManager2(0x70339c24c138) locale list changing from [] to [en-US]
+11-18 18:39:04.182 W/SignedPackage(  607): Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+11-18 18:39:04.196 I/system_server(  607): AssetManager2(0x70339c24f978) locale list changing from [] to [en-US]
+--
+11-18 18:39:04.237 D/AndroidRuntime( 8251): Calling main entry com.android.commands.am.Am
+11-18 18:39:04.238 I/AconfigPackage( 8251): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.google.android.systemui is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.android.settings.accessibility is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.android.settings.flags is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.google.android.settings.flags is mapped to system_ext
+11-18 18:39:04.239 I/AconfigPackage( 8251): com.android.launcher3 is mapped to system_ext
+11-18 18:39:04.240 I/AconfigPackage( 8251): com.android.wallpaper is mapped to system_ext
+11-18 18:39:04.240 I/AconfigPackage( 8251): com.android.settings.media_drm is mapped to system_ext
+11-18 18:39:04.240 I/AconfigPackage( 8251): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:39:44.390 I/AndroidRuntime( 8251): VM exiting with result code 0.
+11-18 18:39:44.410 I/netd    (  447): tetherGetStats() -> {[]} <0.57ms>
+11-18 18:39:44.630 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:39:44.632 I/binder  (    0): undelivered transaction 599858, process died.
+11-18 18:39:44.410 W/ActivityManager(  607): setHasOverlayUi called on unknown pid: 8278
+11-18 18:39:44.411 V/ActivityManager(  607): Got obituary of 8278:com.university.lab09
+11-18 18:39:44.414 I/libprocessgroup(  607): Removed cgroup /sys/fs/cgroup/apps/uid_10236/pid_8278
+11-18 18:39:44.415 I/Zygote  (  450): Process 8278 exited due to signal 9 (Killed)
+11-18 18:39:44.417 I/adbd    (  533): Remote process closed the socket (on MSG_PEEK)
+11-18 18:39:44.522 I/DialerPrimesMetrics( 2677): com.android.dialer.metrics.primes.PrimesMetrics.recordMemory:123 recording memory for event: MainActivity.onResume
+11-18 18:39:44.535 I/ActivityManager(  607): Force stopping com.university.lab09 appid=10236 user=-1: deletePackageX
+11-18 18:39:44.535 I/AppsFilter(  607): interaction: PackageSetting{db93d5 com.android.microdroid.empty_payload/10207} -> PackageSetting{fc697d1 com.university.lab09/10236} BLOCKED
+11-18 18:39:44.759 I/servicemanager(    0): Caller(pid=607,uid=1000,sid=u:r:system_server:s0) Since 'artd' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+--
+11-18 18:39:48.357 D/AndroidRuntime( 8937): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:39:48.361 I/AppWidgetServiceImpl(  607): getInstalledProvidersForProfiles() 0
+11-18 18:39:48.362 W/ParceledListSlice(  607): Element #24 is 19620 bytes.
+11-18 18:39:48.362 W/ParceledListSlice(  607): Element #25 is 19656 bytes.
+11-18 18:39:48.363 W/ParceledListSlice(  607): Element #26 is 19496 bytes.
+11-18 18:39:48.363 W/ParceledListSlice(  607): Element #27 is 19584 bytes.
+11-18 18:39:48.363 W/ParceledListSlice(  607): Element #28 is 19520 bytes.
+11-18 18:39:48.365 I/ogle.android.as( 1635): AssetManager2(0x70339c2211b8) locale list changing from [] to [en-US]
+11-18 18:39:48.367 I/ogle.android.as( 1635): AssetManager2(0x70339c21bd58) locale list changing from [] to [en-US]
+11-18 18:39:48.368 I/ogle.android.as( 1635): AssetManager2(0x70339c2217f8) locale list changing from [] to [en-US]
+11-18 18:39:48.369 I/AndroidRuntime( 8937): Using default boot image
+11-18 18:39:48.369 I/AndroidRuntime( 8937): Leaving lock profiling enabled
+11-18 18:39:48.370 I/ogle.android.as( 1635): AssetManager2(0x70339c2550f8) locale list changing from [] to [en-US]
+11-18 18:39:48.370 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:48.371 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:48.372 I/ogle.android.as( 1635): AssetManager2(0x70339c220858) locale list changing from [] to [en-US]
+11-18 18:39:48.374 I/ogle.android.as( 1635): AssetManager2(0x70339c221b18) locale list changing from [] to [en-US]
+11-18 18:39:48.376 I/ogle.android.as( 1635): AssetManager2(0x70339c258c58) locale list changing from [] to [en-US]
+11-18 18:39:48.377 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:48.378 I/app_process( 8937): Core platform API reporting enabled, enforcing=false
+11-18 18:39:48.378 I/ogle.android.as( 1635): AssetManager2(0x70339c2249f8) locale list changing from [] to [en-US]
+11-18 18:39:48.378 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:48.378 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:39:48.378 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+--
+11-18 18:39:48.617 D/AndroidRuntime( 8937): Calling main entry com.android.commands.am.Am
+11-18 18:39:48.618 I/.apps.wellbeing( 1529): AssetManager2(0x70339c221e38) locale list changing from [] to [en-US]
+11-18 18:39:48.619 I/.apps.wellbeing( 1529): AssetManager2(0x70339c22b758) locale list changing from [] to [en-US]
+11-18 18:39:48.622 I/AconfigPackage( 8937): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.google.android.systemui is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.android.settings.accessibility is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.android.settings.flags is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:39:48.622 I/AconfigPackage( 8937): com.google.android.settings.flags is mapped to system_ext
+11-18 18:39:48.623 I/AconfigPackage( 8937): com.android.launcher3 is mapped to system_ext
+11-18 18:39:48.623 I/AconfigPackage( 8937): com.android.wallpaper is mapped to system_ext
+--
+11-18 18:40:39.011 I/AndroidRuntime( 8937): VM exiting with result code 0.
+11-18 18:40:39.012 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.013 I/ActivityManager(  607): Force stopping com.university.lab10 appid=10238 user=0: finished inst
+11-18 18:40:39.015 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.016 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.016 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.016 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.021 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.021 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.021 W/IPCThreadState(  607): Sending oneway calls to frozen process.
+11-18 18:40:39.021 I/AiAiEcho( 1635): Predicting[0]:  [CONTEXT sampling_count=5 ]
+11-18 18:40:39.021 I/AiAiEcho( 1635): EchoTargets: 
+11-18 18:40:39.021 I/AiAiEcho( 1635): Filtered by AiAi flag check: 
+--
+11-18 18:40:42.464 D/AndroidRuntime( 9400): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:40:42.468 W/ParceledListSlice(  607): Element #24 is 19620 bytes.
+11-18 18:40:42.471 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+11-18 18:40:42.475 W/ParceledListSlice(  607): Element #25 is 19656 bytes.
+11-18 18:40:42.475 W/ParceledListSlice(  607): Element #26 is 19496 bytes.
+11-18 18:40:42.476 W/ParceledListSlice(  607): Element #27 is 19584 bytes.
+11-18 18:40:42.476 W/ParceledListSlice(  607): Element #28 is 19520 bytes.
+11-18 18:40:42.477 I/AndroidRuntime( 9400): Using default boot image
+11-18 18:40:42.477 I/AndroidRuntime( 9400): Leaving lock profiling enabled
+11-18 18:40:42.479 I/app_process( 9400): Core platform API reporting enabled, enforcing=false
+11-18 18:40:42.480 I/app_process( 9400): Using CollectorTypeCMC GC.
+11-18 18:40:42.486 I/ogle.android.as( 1635): AssetManager2(0x70339c21d018) locale list changing from [] to [en-US]
+11-18 18:40:42.488 I/ProximityAuth( 1349): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.university.lab11.test
+11-18 18:40:42.489 I/FontLog ( 1349): Package com.university.lab11.test has no metadata [CONTEXT service_id=132 ]
+11-18 18:40:42.489 W/GCM     ( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:40:42.493 W/HWUI    ( 1349): Image decoding logging dropped!
+11-18 18:40:42.494 I/Fitness ( 1349): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+11-18 18:40:42.501 I/ogle.android.as( 1635): AssetManager2(0x70339c2566d8) locale list changing from [] to [en-US]
+11-18 18:40:42.503 W/NetworkScheduler( 1349): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-18 18:40:42.506 I/ogle.android.as( 1635): AssetManager2(0x70339c254478) locale list changing from [] to [en-US]
+11-18 18:40:42.509 I/Fitness ( 1349): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+--
+11-18 18:40:42.591 D/AndroidRuntime( 9400): Calling main entry com.android.commands.am.Am
+11-18 18:40:42.593 I/AconfigPackage( 9400): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:40:42.594 I/AconfigPackage( 9400): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:40:42.594 I/AconfigPackage( 9400): com.google.android.systemui is mapped to system_ext
+11-18 18:40:42.594 I/AconfigPackage( 9400): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:40:42.594 I/AconfigPackage( 9400): com.android.settings.accessibility is mapped to system_ext
+11-18 18:40:42.594 I/AconfigPackage( 9400): com.android.settings.flags is mapped to system_ext
+11-18 18:40:42.595 I/AconfigPackage( 9400): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:40:42.595 I/AconfigPackage( 9400): com.google.android.settings.flags is mapped to system_ext
+11-18 18:40:42.596 I/AconfigPackage( 9400): com.android.launcher3 is mapped to system_ext
+11-18 18:40:42.596 I/AconfigPackage( 9400): com.android.wallpaper is mapped to system_ext
+11-18 18:40:42.596 I/AconfigPackage( 9400): com.android.settings.media_drm is mapped to system_ext
+11-18 18:40:42.596 I/AconfigPackage( 9400): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:40:51.617 I/AndroidRuntime( 9400): VM exiting with result code 0.
+11-18 18:40:51.618 I/wxp     ( 1654): (REDACTED) onIsEnabledChanged, isEnabled: %s
+11-18 18:40:51.618 W/Binder  ( 9417): Caught a RuntimeException from the binder stub implementation.
+11-18 18:40:51.618 W/Binder  ( 9417): java.util.concurrent.RejectedExecutionException: Handler (android.os.Handler) {5bf533} is shutting down
+11-18 18:40:51.618 W/Binder  ( 9417): 	at android.os.HandlerExecutor.execute(HandlerExecutor.java:44)
+11-18 18:40:51.618 W/Binder  ( 9417): 	at android.accessibilityservice.AccessibilityService$IAccessibilityServiceClientWrapper.init(AccessibilityService.java:2954)
+11-18 18:40:51.618 W/Binder  ( 9417): 	at android.accessibilityservice.IAccessibilityServiceClient$Stub.onTransact(IAccessibilityServiceClient.java:237)
+11-18 18:40:51.618 W/Binder  ( 9417): 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+11-18 18:40:51.618 W/Binder  ( 9417): 	at android.os.Binder.execTransact(Binder.java:1365)
+11-18 18:40:51.618 W/zdf     ( 1654): Disposing empty manager. Did you forgot to subscribe observables?
+11-18 18:40:51.618 W/zdf     ( 1654): Disposing empty manager. Did you forgot to subscribe observables?
+11-18 18:40:51.618 W/zdf     ( 1654): Disposing empty manager. Did you forgot to subscribe observables?
+11-18 18:40:51.618 W/zdf     ( 1654): Disposing empty manager. Did you forgot to subscribe observables?
+--
+11-18 18:40:55.350 D/AndroidRuntime( 9684): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-18 18:40:55.352 I/system_server(  607): AssetManager2(0x70339c2d5f78) locale list changing from [] to [en-US]
+11-18 18:40:55.355 I/system_server(  607): AssetManager2(0x70339c217898) locale list changing from [] to [en-US]
+11-18 18:40:55.358 I/system_server(  607): AssetManager2(0x70339c24baf8) locale list changing from [] to [en-US]
+11-18 18:40:55.358 I/AndroidRuntime( 9684): Using default boot image
+11-18 18:40:55.358 I/AndroidRuntime( 9684): Leaving lock profiling enabled
+11-18 18:40:55.363 I/app_process( 9684): Core platform API reporting enabled, enforcing=false
+11-18 18:40:55.364 I/app_process( 9684): Using CollectorTypeCMC GC.
+11-18 18:40:55.371 I/faht    ( 1654): (REDACTED) O received %s
+11-18 18:40:55.373 I/faht    ( 1654): (REDACTED) O received %s
+11-18 18:40:55.375 D/BackgroundInstallControlService(  607): Package event received: 0
+11-18 18:40:55.383 W/achh    ( 5875): Abort, client detached.
+11-18 18:40:55.399 I/AiAiEcho( 1635): AppIndexer Package:[com.university.lab13.test] UserProfile:[0] Enabled:[true].
+11-18 18:40:55.399 I/AiAiEcho( 1635): AppFetcherImplV2 updateApps package:[com.university.lab13.test], userId:[0], reason:[package is updated.].
+11-18 18:40:55.405 D/PackageUpdatedTask( 1253): Package updated: mOp=UPDATE packages=[com.university.lab13.test], user=UserHandle{0}
+11-18 18:40:55.409 I/system_server(  607): Background concurrent mark compact GC freed 21MB AllocSpace bytes, 52(1272KB) LOS objects, 38% free, 38MB/62MB, paused 2.144ms,1.765ms total 551.860ms
+11-18 18:40:55.410 W/AllAppsList( 1253): updatePackage: no Activities matched updated package, removing any AppInfo with package=com.university.lab13.test, user=UserHandle{0}
+11-18 18:40:55.411 I/system_server(  607): AssetManager2(0x70339c251598) locale list changing from [] to [en-US]
+--
+11-18 18:40:55.482 D/AndroidRuntime( 9684): Calling main entry com.android.commands.am.Am
+11-18 18:40:55.483 I/AconfigPackage( 9684): android.media.swcodec.flags is mapped to com.android.media.swcodec
+11-18 18:40:55.484 I/AconfigPackage( 9684): com.google.android.settings.simplemode.flags is mapped to system_ext
+11-18 18:40:55.484 I/AconfigPackage( 9684): com.google.android.systemui is mapped to system_ext
+11-18 18:40:55.484 I/AconfigPackage( 9684): com.google.android.apps.nexuslauncher is mapped to system_ext
+11-18 18:40:55.484 I/AconfigPackage( 9684): com.android.settings.accessibility is mapped to system_ext
+11-18 18:40:55.484 I/AconfigPackage( 9684): com.android.settings.flags is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.google.android.settings.flags is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.android.launcher3 is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.android.wallpaper is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.android.settings.media_drm is mapped to system_ext
+11-18 18:40:55.485 I/AconfigPackage( 9684): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+--
+11-18 18:40:56.998 I/AndroidRuntime( 9684): VM exiting with result code 0.
+11-18 18:40:57.001 I/ActivityManager(  607): Killing 9703:com.university.lab13/u0a242 (adj 0): stop com.university.lab13 due to finished inst
+11-18 18:40:57.018 V/WindowManagerShell( 1013): Transition requested (#142): android.os.BinderProxy@81ddf16 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=74 effectiveUid=10243 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.university.lab13.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.university.lab13.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=481647 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@fb4e097} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(74, 160 - 246, 480) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 0, 0) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=undefined}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 142 }
+11-18 18:40:57.245 I/binder  (    0): undelivered TRANSACTION_COMPLETE
+11-18 18:40:57.246 I/binder  (    0): undelivered transaction 679189, process died.
+11-18 18:40:57.025 V/ActivityManager(  607): Got obituary of 9703:com.university.lab13
+11-18 18:40:57.025 I/ImeTracker(  607): com.university.lab13:1d59c305: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+11-18 18:40:57.026 I/ImeTracker(  607): com.university.lab13:1d59c305: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-18 18:40:57.026 I/adbd    (  533): Remote process closed the socket (on MSG_PEEK)
+11-18 18:40:57.026 W/ActivityManager(  607): setHasOverlayUi called on unknown pid: 9703
+11-18 18:40:57.027 I/BpBinder(  522): onLastStrongRef automatically unlinking death recipients: 
+11-18 18:40:57.028 I/libprocessgroup(  607): Removed cgroup /sys/fs/cgroup/apps/uid_10242/pid_9703
+11-18 18:40:57.029 D/CoreBackPreview(  607): Window{b7fdbb6 u0 com.university.lab13.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5a2278d, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
