@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Toast.makeText(this, "Notifications allowed", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Notifications are off", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Notification permission denied", Toast.LENGTH_SHORT).show();
         }
     }
 

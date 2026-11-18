@@ -99,7 +99,7 @@ jobs:
         shell: bash
         run: |
           cd ci/labs
-          ./gradlew --no-daemon assembleDebug assembleDebugAndroidTest 2>&1 | tee ../../results/emulator-${{ matrix.api }}/build.log | tail -30
+          ./gradlew --no-daemon --continue assembleDebug assembleDebugAndroidTest 2>&1 | tee ../../results/emulator-${{ matrix.api }}/build.log | tail -30
       - name: Run lab tests on the emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:

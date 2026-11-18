@@ -13,6 +13,7 @@ import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -34,11 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Button stopButton = (Button) findViewById(R.id.button_stop);
 
         createChannel();
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
-                != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this,
-                    new String[] { Manifest.permission.POST_NOTIFICATIONS }, 7);
-        }
+        askForNotificationPermission();
 
         findViewById(R.id.button_plus).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,9 +103,32 @@ public class MainActivity extends AppCompatActivity {
         // Channels exist from Android 8.0 (API 26); creating one twice is harmless
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    CHANNEL_ID, "Counter", NotificationManager.IMPORTANCE_HIGH);
+                    CHANNEL_ID, "Messages", NotificationManager.IMPORTANCE_HIGH);
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel);
+        }
+    }
+
+
+    private static final int REQUEST_NOTIFICATIONS = 7;
+
+    private void askForNotificationPermission() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[] { Manifest.permission.POST_NOTIFICATIONS }, REQUEST_NOTIFICATIONS);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                           int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == REQUEST_NOTIFICATIONS && grantResults.length > 0
+                && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(this, "Notifications allowed", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Notification permission denied", Toast.LENGTH_SHORT).show();
         }
     }
 

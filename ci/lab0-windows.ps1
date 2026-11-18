@@ -37,26 +37,45 @@ Step 'D3.4-7 Environment variables (user scope, as in the handbook)'
 [Environment]::SetEnvironmentVariable('ANDROID_HOME', 'C:\Android\Sdk', 'User')
 $env:ANDROID_HOME = 'C:\Android\Sdk'
 $env:Path = "$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:ANDROID_HOME\platform-tools;$env:Path"
-$v = (cmd /c "sdkmanager --version 2>&1") -join "`n"
-Write-Host "sdkmanager --version: $v"
-Check ($LASTEXITCODE -eq 0) 'sdkmanager --version runs'
+Write-Host "Files in cmdline-tools\latest\bin: $((Get-ChildItem 'C:\Android\Sdk\cmdline-tools\latest\bin').Name -join ', ')"
+$v = (cmd /c "android --version 2>&1") -join "`n"
+Write-Host "android --version: $v"
+Check ($LASTEXITCODE -eq 0) 'android --version runs'
+Write-Host "--- android sdk --help:`n$((cmd /c 'android sdk --help 2>&1') -join "`n")"
+Write-Host "--- android sdk install --help:`n$((cmd /c 'android sdk install --help 2>&1') -join "`n")"
+$avail = (cmd /c 'android sdk list --all 2>&1') -join "`n"
+if ($avail.Length -lt 200) { $avail = (cmd /c 'android sdk list 2>&1') -join "`n" }
+Write-Host "--- available packages (platforms, build-tools, platform-tools, usb):"
+Write-Host (($avail -split "`n") | Where-Object { $_ -match 'platforms|build-tools/3[5-7]|platform-tools|usb_driver|Available|Installed' } | Select-Object -First 40 | Out-String)
 
-Step 'D3.8 sdkmanager --licenses (answering y to each)'
-$yes = ("y`n" * 30)
-$lic = ($yes | cmd /c "sdkmanager --licenses 2>&1") -join "`n"
-Write-Host ($lic | Select-String -Pattern 'accepted|licenses' | Out-String)
-
-Step 'D3.9 Download platform-tools, platform 37, build-tools 36.0.0'
+Step 'D3.9 android sdk install platform-tools platforms/android-37.0 build-tools/36.0.0'
 $t0 = Get-Date
-$out = (cmd /c 'sdkmanager "platform-tools" "platforms;android-37" "build-tools;36.0.0" 2>&1') -join "`n"
-Write-Host ($out -split "`n" | Select-Object -Last 15 | Out-String)
-Check ($LASTEXITCODE -eq 0) 'sdkmanager install command succeeded'
+$yes = ("y`n" * 10)
+$out = ($yes | cmd /c 'android sdk install platform-tools platforms/android-37.0 build-tools/36.0.0 2>&1') -join "`n"
+$code = $LASTEXITCODE
+Write-Host (($out -split "`n") | Where-Object { $_ -notmatch '\[[#\. ]+\]' } | Select-Object -Last 25 | Out-String)
+Check ($code -eq 0) 'android sdk install exited with 0'
 $sz = (Get-ChildItem 'C:\Android\Sdk' -Recurse -File | Measure-Object Length -Sum).Sum / 1MB
 Write-Host ("SDK size on disk after D3: {0:N0} MB; download took {1:N0} s" -f $sz, ((Get-Date) - $t0).TotalSeconds)
+Check (Test-Path 'C:\Android\Sdk\platforms\android-37.0\android.jar') 'platform android-37.0 installed'
+Check (Test-Path 'C:\Android\Sdk\build-tools\36.0.0') 'build-tools 36.0.0 installed'
 $adbv = (cmd /c "adb version 2>&1") -join "`n"
 Check ($adbv -match 'Android Debug Bridge version') 'adb version prints Android Debug Bridge version'
-$before = (cmd /c "sdkmanager --list_installed 2>&1") -join "`n"
+$before = (cmd /c "android sdk list 2>&1") -join "`n"
 Write-Host "Installed packages after D3:`n$before"
+$beforeDirs = (Get-ChildItem 'C:\Android\Sdk' -Directory -Recurse -Depth 1).FullName -join "`n"
+
+Step 'Experiment: old sdkmanager line in a second, empty SDK folder'
+$env:ANDROID_HOME = 'C:\Android\Sdk2'
+New-Item -ItemType Directory -Force 'C:\Android\Sdk2\cmdline-tools' | Out-Null
+Copy-Item 'C:\Android\Sdk\cmdline-tools\latest' 'C:\Android\Sdk2\cmdline-tools\latest' -Recurse
+foreach ($cmd in @('sdkmanager "platforms;android-37"', 'sdkmanager "platforms;android-37.0"', 'C:\Android\Sdk2\cmdline-tools\latest\bin\android.bat sdk install "platforms;android-37.0"')) {
+  $o = ($yes | cmd /c "$cmd 2>&1") -join "`n"
+  Write-Host "> $cmd  (exit $LASTEXITCODE)"
+  Write-Host (($o -split "`n") | Where-Object { $_ -notmatch '\[[#\. ]+\]' -and $_ -notmatch 'deprecated|android-cli|replacement' } | Select-Object -Last 6 | Out-String)
+  Write-Host "  platforms now: $((Get-ChildItem 'C:\Android\Sdk2\platforms' -ErrorAction SilentlyContinue).Name -join ', ')"
+}
+$env:ANDROID_HOME = 'C:\Android\Sdk'
 
 Step 'D4. Copy the starter project to C:\MAD\lab0 and change applicationId'
 New-Item -ItemType Directory -Force 'C:\MAD' | Out-Null
@@ -77,9 +96,10 @@ Check (Test-Path 'C:\MAD\lab0\app\build\outputs\apk\debug\app-debug.apk') 'app-d
 Pop-Location
 
 Step 'Did the build download any extra SDK packages?'
-$after = (cmd /c "sdkmanager --list_installed 2>&1") -join "`n"
+$after = (cmd /c "android sdk list 2>&1") -join "`n"
 Write-Host "Installed packages after build:`n$after"
-Check ($after -eq $before) 'No extra SDK packages were downloaded by the build'
+$afterDirs = (Get-ChildItem 'C:\Android\Sdk' -Directory -Recurse -Depth 1).FullName -join "`n"
+Check ($afterDirs -eq $beforeDirs) 'No extra SDK packages were downloaded by the build'
 
 Step 'Kotlin starter builds the same way'
 Copy-Item "$repo\kotlin-starter" 'C:\MAD\kotlin1' -Recurse
@@ -140,6 +160,7 @@ $sign = @'
             signingConfig = signingConfigs.getByName("release")
         }
     }
+
 '@
 $t = $t -replace '(android \{\r?\n)', "`$1$sign"
 Set-Content $g $t

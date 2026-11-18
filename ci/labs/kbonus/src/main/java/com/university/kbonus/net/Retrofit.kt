@@ -1,4 +1,4 @@
-package com.university.kbonus
+package com.university.kbonus.net
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
