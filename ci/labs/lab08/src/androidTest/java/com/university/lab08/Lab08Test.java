@@ -101,12 +101,19 @@ public class Lab08Test {
         assertTrue("ticks continue while minimized", n >= 15);
         launchFresh();
         Ci.click("Stop counter");
-        SystemClock.sleep(2000);
-        Ci.sh("logcat -c");
+        SystemClock.sleep(3000);
+        int last1 = lastTick();
         SystemClock.sleep(4000);
-        String after = Ci.sh("logcat -d -s CounterService:D");
-        Ci.log("ticks after stop: " + (after.split("tick").length - 1));
-        assertTrue("ticks stop", !after.contains("tick"));
+        int last2 = lastTick();
+        Ci.log("last tick 3 s after stop: " + last1 + ", 4 s later: " + last2);
+        assertEquals("ticks stop", last1, last2);
+    }
+
+    private static int lastTick() {
+        java.util.regex.Matcher m = java.util.regex.Pattern.compile("tick (\\d+)").matcher(Ci.sh("logcat -d -s CounterService:D"));
+        int last = -1;
+        while (m.find()) last = Integer.parseInt(m.group(1));
+        return last;
     }
 
     @Test

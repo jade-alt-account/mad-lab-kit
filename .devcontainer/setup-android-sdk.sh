@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # Installs the Android command-line tools and the SDK packages the labs need (Lab 0, Part G).
 set -euo pipefail
+LOG="$(pwd)/.devcontainer/setup.log"
+exec > >(tee -a "$LOG") 2>&1
+echo "setup started $(date) as $(whoami) in $(pwd)"
+set -x
 SDK=/home/vscode/android-sdk
 if [ -x "$SDK/cmdline-tools/latest/bin/android" ] && [ -d "$SDK/platforms/android-37.0" ]; then
   echo "Android SDK ready"; exit 0

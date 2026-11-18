@@ -66,6 +66,9 @@ public class Lab10Test {
     @Test
     public void b_openMaps() {
         launchFresh();
+        Ci.click("Where am I?");
+        Ci.allow();
+        Ci.dev().wait(Until.hasObject(By.textContains("31.41")), 60000);
         Ci.click("Open in Maps");
         SystemClock.sleep(5000);
         Ci.log("geo intent opened: " + Ci.foreground());

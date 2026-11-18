@@ -42,14 +42,19 @@ public final class Ci {
 
     /** Taps the allow button of a runtime-permission dialog, if one appears. */
     public static boolean allow() {
-        UiObject2 b = dev().wait(Until.findObject(By.res(Pattern.compile(
-                "com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button"))), 6000);
+        Pattern id = Pattern.compile("com.android.permissioncontroller:id/permission_allow_(foreground_only_)?button");
+        UiObject2 b = dev().wait(Until.findObject(By.res(id)), 6000);
         if (b == null) {
             log("no permission dialog");
             return false;
         }
-        log("permission dialog: tapping " + b.getText());
-        b.click();
+        for (int i = 0; i < 3 && b != null; i++) {
+            SystemClock.sleep(600);   // let the dialog finish appearing before tapping
+            log("permission dialog: tapping " + b.getText());
+            b.click();
+            dev().wait(Until.gone(By.res(id)), 3000);
+            b = dev().findObject(By.res(id));
+        }
         SystemClock.sleep(800);
         return true;
     }

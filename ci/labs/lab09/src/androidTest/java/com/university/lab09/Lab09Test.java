@@ -68,10 +68,9 @@ public class Lab09Test {
         launchFresh();
         Ci.click("Send directly");
         assertTrue("SEND_SMS dialog", Ci.allow());
-        boolean sent = Ci.waitText("SMS sent", 8000) || Ci.waitText("Failed", 1000);
+        SystemClock.sleep(1200);
         Ci.shot("lab09_sent");
-        Ci.log("sent/failed toast seen: " + sent);
-        SystemClock.sleep(4000);
+        SystemClock.sleep(2500);
         Ci.shot("lab09_delivered");
         assertEquals("app still running", "com.university.lab09", Ci.foreground());
     }

@@ -2,6 +2,7 @@ package com.university.jsnippets;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,6 +12,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 /**
@@ -64,6 +67,15 @@ public class LabApplication extends Application {
             return insets;
         });
         ViewCompat.requestApplyInsets(content);
+
+        // The status bar is now transparent over a light background: use dark icons
+        // (light ones in dark mode) so that the clock and battery stay visible.
+        boolean night = (activity.getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        WindowInsetsControllerCompat bars = WindowCompat.getInsetsController(
+                activity.getWindow(), activity.getWindow().getDecorView());
+        bars.setAppearanceLightStatusBars(!night);
+        bars.setAppearanceLightNavigationBars(!night);
     }
 
     private static int actionBarHeight(Activity activity) {

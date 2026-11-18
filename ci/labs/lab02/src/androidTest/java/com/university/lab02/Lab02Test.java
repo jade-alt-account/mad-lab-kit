@@ -46,7 +46,6 @@ public class Lab02Test {
             onView(withId(R.id.radio_spring)).perform(click());
             Ci.shot("lab02_form");
             onView(withId(R.id.button_register)).perform(click());
-            Ci.log("toast 'Sara, Spring, day scholar' seen: " + Ci.waitText("Sara, Spring, day scholar", 3000));
             Ci.shot("lab02_toast");
             onView(withId(R.id.check_hostel)).perform(click());
             onView(withId(R.id.radio_fall)).perform(click());

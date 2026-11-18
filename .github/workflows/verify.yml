@@ -133,7 +133,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: codespaces
-          path: results/
+          path: |
+            results/
+            .devcontainer/setup.log
   publish-results:
     if: always()
     needs: [starters-linux, lab0-windows, labs-emulator, codespaces]

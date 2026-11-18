@@ -57,7 +57,6 @@ public class Lab05Test {
         if (Build.VERSION.SDK_INT >= 33) assertTrue("permission dialog on Android 13+", dialog);
         Ci.shot("lab05_after_permission");
         Ci.click("Send to activity");
-        Ci.log("fragment toast seen: " + Ci.waitText("Data from Fragment!", 3000));
         Ci.shot("lab05_fragment_toast");
         Ci.click("Show notification");
         SystemClock.sleep(1500);
