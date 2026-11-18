@@ -1,0 +1,120 @@
+name: release
+# Builds the Lite Kit downloads and proves the offline build cache works on a fresh Windows machine.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gradle-home:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Android SDK as in Lab 0
+        shell: pwsh
+        run: ./ci/install-sdk.ps1
+      - name: Build everything the labs use with an empty Gradle home
+        shell: pwsh
+        run: |
+          $env:GRADLE_USER_HOME = 'C:\gh'
+          foreach ($p in 'starter', 'kotlin-starter', 'ci\labs') {
+            Push-Location $p
+            cmd /c '.\gradlew.bat --no-daemon --continue assembleDebug assembleDebugAndroidTest 2>&1' | Select-Object -Last 3
+            if ($LASTEXITCODE -ne 0 -and $p -ne 'ci\labs') { throw "build failed in $p" }
+            Pop-Location
+          }
+          cmd /c 'gradlew.bat --stop' 2>$null
+      - name: Package gradle-home.zip and MAD-LiteKit.zip
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force out\gradle-home\caches, out\gradle-home\wrapper | Out-Null
+          Copy-Item C:\gh\caches\modules-2 out\gradle-home\caches\modules-2 -Recurse
+          Copy-Item C:\gh\wrapper\dists out\gradle-home\wrapper\dists -Recurse
+          Get-ChildItem out\gradle-home -Recurse -Include *.lck,*.lock,gc.properties | Remove-Item -Force
+          Compress-Archive out\gradle-home -DestinationPath gradle-home.zip -CompressionLevel Optimal
+          New-Item -ItemType Directory -Force out\MAD-LiteKit | Out-Null
+          Copy-Item starter, kotlin-starter -Destination out\MAD-LiteKit -Recurse
+          Get-ChildItem out\MAD-LiteKit -Recurse -Directory -Include build, .gradle, .kotlin | Remove-Item -Recurse -Force
+          Copy-Item kit\README.txt out\MAD-LiteKit\README.txt
+          Compress-Archive out\MAD-LiteKit -DestinationPath MAD-LiteKit.zip
+          Get-Item gradle-home.zip, MAD-LiteKit.zip | Format-Table Name, Length
+      - uses: actions/upload-artifact@v4
+        with:
+          name: downloads
+          path: |
+            gradle-home.zip
+            MAD-LiteKit.zip
+          compression-level: 0
+  offline-test:
+    needs: gradle-home
+    runs-on: windows-latest
+    steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: downloads
+      - name: Android SDK as in Lab 0
+        shell: pwsh
+        run: ./ci/install-sdk.ps1
+      - name: Lab 0 D4 with the USB pack, then build with no internet access to Maven
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force results | Out-Null
+          Start-Transcript results\offline.log
+          Expand-Archive gradle-home.zip -DestinationPath $env:TEMP\pack
+          Expand-Archive MAD-LiteKit.zip -DestinationPath $env:TEMP\pack
+          Remove-Item "$env:USERPROFILE\.gradle" -Recurse -Force -ErrorAction SilentlyContinue
+          Move-Item "$env:TEMP\pack\gradle-home" "$env:USERPROFILE\.gradle"
+          Write-Host "README.txt:"; Get-Content "$env:TEMP\pack\MAD-LiteKit\README.txt" | Select-Object -First 5
+          $ok = $true
+          foreach ($p in 'starter', 'kotlin-starter') {
+            Copy-Item "$env:TEMP\pack\MAD-LiteKit\$p" "C:\MAD\$p" -Recurse
+            Push-Location "C:\MAD\$p"
+            $t0 = Get-Date
+            $b = (cmd /c '.\gradlew.bat --offline --no-daemon assembleDebug 2>&1') -join "`n"
+            Write-Host ($b -split "`n" | Select-Object -Last 8 | Out-String)
+            Write-Host ("{0}: offline build exit {1} in {2:N0} s" -f $p, $LASTEXITCODE, ((Get-Date) - $t0).TotalSeconds)
+            if ($LASTEXITCODE -ne 0) { $ok = $false }
+            Pop-Location
+          }
+          Stop-Transcript
+          if (-not $ok) { exit 1 }
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-test
+          path: results/
+  publish:
+    needs: [gradle-home, offline-test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+      - name: Create or update the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          case "$TAG" in v*) ;; *) TAG="v$(date +%Y.%m.%d)";; esac
+          ls -la downloads
+          NOTES="Lite Kit for the Mobile Application Development labs. MAD-LiteKit.zip: the Java and Kotlin starter projects and README.txt. gradle-home.zip: the build libraries for every lab (copy to C:\\Users\\<you>\\.gradle, as in Lab 0, Part D4); verified with an offline build on a fresh Windows machine."
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "MAD Lite Kit $TAG" --notes "$NOTES" --target "$GITHUB_SHA"
+          gh release upload "$TAG" downloads/MAD-LiteKit.zip downloads/gradle-home.zip --clobber
+      - name: Save the offline test log to the ci-results-release branch
+        run: |
+          cd offline-test
+          git init -q -b ci-results-release
+          git config user.name ci; git config user.email ci@users.noreply.github.com
+          git add -A; git commit -q -m "release checks ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-results-release

@@ -57,13 +57,18 @@ public class Lab07Test {
     @Test
     public void b_contacts() {
         // add two test contacts the way a student would be told to (here through the shell)
+        // one contact with a name and one without (a phone can have both)
         Ci.log("insert contact: " + Ci.sh("content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:"));
+        Ci.log("insert contact: " + Ci.sh("content insert --uri content://com.android.contacts/raw_contacts --bind account_type:n: --bind account_name:n:"));
+        Ci.log("name: " + Ci.sh("content insert --uri content://com.android.contacts/data --bind raw_contact_id:i:2 --bind mimetype:s:vnd.android.cursor.item/name --bind data1:s:Test_Student"));
+        Ci.log("contacts: " + Ci.sh("content query --uri content://com.android.contacts/contacts --projection display_name"));
         try (ActivityScenario<MainActivity> s = ActivityScenario.launch(MainActivity.class)) {
             onView(withId(R.id.button_contacts)).perform(click());
             boolean dialog = Ci.allow();
             assertTrue("contacts permission dialog", dialog);
             SystemClock.sleep(1500);
             Ci.shot("lab07_contacts");
+            Ci.log("named contact listed: " + Ci.waitText("Test_Student", 3000));
         }
     }
 }

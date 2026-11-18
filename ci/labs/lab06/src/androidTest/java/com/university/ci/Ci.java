@@ -55,13 +55,13 @@ public final class Ci {
     }
 
     public static boolean waitText(String text, long ms) {
-        boolean found = dev().wait(Until.hasObject(By.textContains(text)), ms);
+        boolean found = dev().wait(Until.hasObject(By.text(Pattern.compile("(?is).*" + Pattern.quote(text) + ".*"))), ms);
         log("waitText '" + text + "': " + found);
         return found;
     }
 
     public static void click(String text) {
-        UiObject2 o = dev().wait(Until.findObject(By.text(text)), 5000);
+        UiObject2 o = dev().wait(Until.findObject(By.text(Pattern.compile("(?i)" + Pattern.quote(text)))), 5000);
         if (o == null) throw new AssertionError("no view with text " + text);
         o.click();
     }

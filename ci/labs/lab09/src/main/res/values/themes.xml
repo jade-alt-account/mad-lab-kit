@@ -4,5 +4,11 @@
         <item name="colorPrimary">#1E4D8C</item>
         <item name="colorPrimaryVariant">#123563</item>
         <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Buttons show their text exactly as typed (Material would use CAPITALS) -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
     </style>
 </resources>

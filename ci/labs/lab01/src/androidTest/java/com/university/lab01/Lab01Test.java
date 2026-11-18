@@ -66,7 +66,11 @@ public class Lab01Test {
         Ci.log("B home:\n" + lifecycleLog());
 
         Ci.sh("logcat -c");
-        Ci.dev().pressRecentApps();
+        try {
+            Ci.dev().pressRecentApps();
+        } catch (android.os.RemoteException e) {
+            Ci.log("recents failed " + e);
+        }
         SystemClock.sleep(2000);
         Ci.shot("lab01_recents");
         // return to the app the way a student does: tap its card (fall back to the launcher icon intent)

@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         ContactsContract.Contacts.DISPLAY_NAME);
                 while (cursor.moveToNext()) {
                     String name = cursor.getString(nameColumn);
-                    contactNames.add(name);
+                    if (name != null) { contactNames.add(name); }
                 }
             } finally {
                 cursor.close();   // runs even when there are no rows or an exception occurs
