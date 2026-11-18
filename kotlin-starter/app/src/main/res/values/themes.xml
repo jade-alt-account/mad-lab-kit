@@ -1,0 +1,8 @@
+<resources>
+    <!-- The app's theme: Material Components with an action bar at the top -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#1E4D8C</item>
+        <item name="colorPrimaryVariant">#123563</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>

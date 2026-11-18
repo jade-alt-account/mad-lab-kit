@@ -1,0 +1,80 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify
+  cancel-in-progress: true
+
+jobs:
+  # Builds both starter projects on Linux with the Android SDK the runner already has.
+  starters-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Build starters
+        shell: bash
+        run: |
+          mkdir -p results
+          set -o pipefail
+          {
+            echo "== starter"; (cd starter && ./gradlew --no-daemon assembleDebug assembleDebugAndroidTest)
+            echo "== kotlin-starter"; (cd kotlin-starter && ./gradlew --no-daemon assembleDebug assembleDebugAndroidTest)
+          } 2>&1 | tee results/starters-linux.log
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: starters-linux
+          path: results/
+
+  # Follows Lab 0, Part D of the handbook word for word on a fresh Windows machine.
+  lab0-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Lab 0 Part D, steps D1 to D5
+        shell: pwsh
+        run: ./ci/lab0-windows.ps1
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lab0-windows
+          path: results/
+
+  publish-results:
+    if: always()
+    needs: [starters-linux, lab0-windows]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+      - name: Commit results to the ci-results branch
+        shell: bash
+        run: |
+          cd out
+          {
+            echo "run: ${GITHUB_RUN_ID} sha: ${GITHUB_SHA}"
+            echo "starters-linux: ${{ needs.starters-linux.result }}"
+            echo "lab0-windows: ${{ needs.lab0-windows.result }}"
+          } > SUMMARY.txt
+          git init -q -b ci-results
+          git config user.name "ci"
+          git config user.email "ci@users.noreply.github.com"
+          git add -A
+          git commit -q -m "CI results for ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-results
