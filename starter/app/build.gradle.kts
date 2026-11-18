@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.university.labstarter"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.university.labstarter"

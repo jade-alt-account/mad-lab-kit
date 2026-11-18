@@ -46,9 +46,9 @@ $yes = ("y`n" * 30)
 $lic = ($yes | cmd /c "sdkmanager --licenses 2>&1") -join "`n"
 Write-Host ($lic | Select-String -Pattern 'accepted|licenses' | Out-String)
 
-Step 'D3.9 Download platform-tools, platform 36, build-tools 36.0.0'
+Step 'D3.9 Download platform-tools, platform 37, build-tools 36.0.0'
 $t0 = Get-Date
-$out = (cmd /c 'sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" 2>&1') -join "`n"
+$out = (cmd /c 'sdkmanager "platform-tools" "platforms;android-37" "build-tools;36.0.0" 2>&1') -join "`n"
 Write-Host ($out -split "`n" | Select-Object -Last 15 | Out-String)
 Check ($LASTEXITCODE -eq 0) 'sdkmanager install command succeeded'
 $sz = (Get-ChildItem 'C:\Android\Sdk' -Recurse -File | Measure-Object Length -Sum).Sum / 1MB
@@ -88,6 +88,72 @@ $b = (cmd /c '.\gradlew.bat assembleDebug --no-daemon 2>&1') -join "`n"
 $code = $LASTEXITCODE
 Write-Host ($b -split "`n" | Select-Object -Last 30 | Out-String)
 Check ($code -eq 0) 'kotlin-starter assembleDebug succeeded'
+Pop-Location
+
+
+Step 'Lab 12 Part A: Notes service with npm and PowerShell'
+New-Item -ItemType Directory -Force 'C:\MAD\notes-api' | Out-Null
+Push-Location 'C:\MAD\notes-api'
+Write-Host ((cmd /c "npm init -y 2>&1") | Select-Object -Last 3 | Out-String)
+Write-Host ((cmd /c "npm install express 2>&1") | Select-Object -Last 3 | Out-String)
+Check (Test-Path 'node_modules') 'node_modules created'
+Check (Test-Path 'package.json') 'package.json created'
+Copy-Item "$repo\ci\notes-api\server.js" 'server.js'
+$node = Start-Process node -ArgumentList 'server.js' -PassThru -RedirectStandardOutput 'server.log' -NoNewWindow
+Start-Sleep 3
+Write-Host "server.log: $(Get-Content server.log)"
+Check ((Get-Content server.log -Raw) -match 'Notes API on http://localhost:3000') 'server prints Notes API on http://localhost:3000'
+$get = (Invoke-WebRequest -UseBasicParsing http://localhost:3000/api/notes).Content
+Write-Host "GET: $get"
+Check ($get -eq '[{"id":1,"title":"First note","body":"Hello from the server"}]') 'browser page shows the first note exactly'
+Invoke-RestMethod -Method Post -Uri http://localhost:3000/api/notes `
+  -ContentType "application/json" `
+  -Body '{"title":"Lab 12","body":"From PowerShell"}'
+$get2 = (Invoke-WebRequest -UseBasicParsing http://localhost:3000/api/notes).Content
+Write-Host "GET after POST: $get2"
+Check ($get2 -match '"title":"Lab 12"') 'POST from PowerShell added the note'
+Stop-Process $node.Id
+Pop-Location
+
+Step 'Lab 13: keytool, signingConfigs, assembleRelease, bundleRelease'
+New-Item -ItemType Directory -Force 'C:\MAD\keys' | Out-Null
+Push-Location 'C:\MAD\keys'
+$answers = "lab13pass`nlab13pass`nAli Khan`nIT`nGCUF`nFaisalabad`nPunjab`nPK`nyes`n"
+$kt = ($answers | cmd /c "keytool -genkeypair -v -keystore my-release-key.jks -alias mad_key -keyalg RSA -keysize 2048 -validity 10000 2>&1") -join "`n"
+Write-Host $kt
+Check (Test-Path 'C:\MAD\keys\my-release-key.jks') 'keytool created my-release-key.jks'
+Pop-Location
+$g = 'C:\MAD\lab0\app\build.gradle.kts'
+$t = Get-Content $g -Raw
+$t = $t -replace 'versionCode = 1', 'versionCode = 2' -replace 'versionName = "1.0"', 'versionName = "1.1"'
+$sign = @'
+    signingConfigs {
+        create("release") {
+            storeFile = file("C:/MAD/keys/my-release-key.jks")
+            storePassword = "lab13pass"
+            keyAlias = "mad_key"
+            keyPassword = "lab13pass"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.getByName("release")
+        }
+    }
+'@
+$t = $t -replace '(android \{\r?\n)', "`$1$sign"
+Set-Content $g $t
+Write-Host (Get-Content $g -Raw)
+Push-Location 'C:\MAD\lab0'
+$b = (cmd /c '.\gradlew.bat assembleRelease bundleRelease --no-daemon 2>&1') -join "`n"
+Write-Host ($b -split "`n" | Select-Object -Last 15 | Out-String)
+Check (Test-Path 'app\build\outputs\apk\release\app-release.apk') 'app-release.apk built'
+Check (Test-Path 'app\build\outputs\bundle\release\app-release.aab') 'app-release.aab built'
+if (Test-Path 'app\build\outputs\apk\release\app-release.apk') {
+  Write-Host ("APK size: {0:N0} KB; AAB size: {1:N0} KB" -f ((Get-Item 'app\build\outputs\apk\release\app-release.apk').Length/1KB), ((Get-Item 'app\build\outputs\bundle\release\app-release.aab').Length/1KB))
+  $apksigner = Get-ChildItem 'C:\Android\Sdk\build-tools' -Recurse -Filter apksigner.bat | Select-Object -First 1
+  Write-Host ((cmd /c "`"$($apksigner.FullName)`" verify --print-certs app\build\outputs\apk\release\app-release.apk 2>&1") | Select-Object -First 3 | Out-String)
+}
 Pop-Location
 
 $gh = "$env:USERPROFILE\.gradle"

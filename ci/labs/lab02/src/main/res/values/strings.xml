@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="hint_name">Your name</string>
+    <string name="label_hostel">Hostel resident</string>
+    <string name="label_fall">Fall</string>
+    <string name="label_spring">Spring</string>
+    <string name="label_register">Register</string>
+</resources>

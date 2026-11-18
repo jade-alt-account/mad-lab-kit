@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where am I?" />
+    <TextView
+        android:id="@+id/text_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/button_open_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open in Maps" />
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map (MapLibre)" />
+
+</LinearLayout>

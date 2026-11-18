@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch user" />
+    <Button
+        android:id="@+id/button_fetch99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch user 99" />
+    <Button
+        android:id="@+id/button_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My notes" />
+    <Button
+        android:id="@+id/button_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse XML" />
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+</LinearLayout>
