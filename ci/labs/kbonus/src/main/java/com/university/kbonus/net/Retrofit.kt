@@ -29,7 +29,8 @@ class UserViewModel : ViewModel() {
     fun load() {
         viewModelScope.launch {
             try {
-                val user = api.getUser(1)          // Retrofit runs the call off the main thread
+                // Retrofit runs the call off the main thread
+                val user = api.getUser(1)
                 result.value = "${user.name} <${user.email}>"
             } catch (e: IOException) {
                 result.value = "Request failed: ${e.message}"

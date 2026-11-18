@@ -11,7 +11,8 @@ import com.google.android.gms.location.Priority
 class FusedActivity : AppCompatActivity() {
     private fun showPosition(lat: Double, lng: Double) { }
 
-    private val client by lazy { LocationServices.getFusedLocationProviderClient(this) }
+    private val client by lazy { LocationServices
+            .getFusedLocationProviderClient(this) }
 
     private val callback = object : LocationCallback() {
         override fun onLocationResult(result: LocationResult) {

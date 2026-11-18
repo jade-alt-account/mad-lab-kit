@@ -83,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
                     if (name != null) { contactNames.add(name); }
                 }
             } finally {
-                cursor.close();   // runs even when there are no rows or an exception occurs
+                // runs even when there are no rows or an exception occurs
+                cursor.close();
             }
         }
         contactList.setAdapter(new ArrayAdapter<String>(this,
@@ -97,7 +98,8 @@ public class MainActivity extends AppCompatActivity {
             readContacts();
         } else {
             ActivityCompat.requestPermissions(this,
-                    new String[] { Manifest.permission.READ_CONTACTS }, REQUEST_CONTACTS);
+                    new String[] { Manifest.permission.READ_CONTACTS },
+                            REQUEST_CONTACTS);
         }
     }
 
@@ -109,7 +111,8 @@ public class MainActivity extends AppCompatActivity {
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             readContacts();
         } else {
-            Toast.makeText(this, "Contacts permission denied", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Contacts permission denied",
+                    Toast.LENGTH_SHORT).show();
         }
     }
 }

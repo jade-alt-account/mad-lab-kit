@@ -8,7 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 class PermissionActivity : AppCompatActivity() {
     private val requestContacts =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        registerForActivityResult(ActivityResultContracts
+                .RequestPermission()) { granted ->
             if (granted) readContacts() else showPermissionDenied()
         }
 

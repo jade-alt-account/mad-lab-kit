@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
             public void onProviderDisabled(String provider) { }
         };
 
-        // GPS updates no more often than every 10 seconds, and only after moving 50 metres
+        // GPS updates no more often than every 10 seconds, and only after moving 50
+        // metres
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10000, 50, listener);
     }
 

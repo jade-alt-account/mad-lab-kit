@@ -14,7 +14,8 @@ class MainViewModel : ViewModel() {
 
     fun load() {
         viewModelScope.launch {                       // starts on the main thread
-            val text = withContext(Dispatchers.IO) {  // switches to a background thread
+            // switches to a background thread
+            val text = withContext(Dispatchers.IO) {
                 performHeavyNetworkRequest("https://api.example.com/data")
             }
             result.value = text                       // back on the main thread

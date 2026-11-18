@@ -113,10 +113,12 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_NOTIFICATIONS = 7;
 
     private void askForNotificationPermission() {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this,
-                    new String[] { Manifest.permission.POST_NOTIFICATIONS }, REQUEST_NOTIFICATIONS);
+                    new String[] { Manifest.permission.POST_NOTIFICATIONS },
+                            REQUEST_NOTIFICATIONS);
         }
     }
 
@@ -128,7 +130,8 @@ public class MainActivity extends AppCompatActivity {
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Toast.makeText(this, "Notifications allowed", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Notification permission denied", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Notification permission denied",
+                    Toast.LENGTH_SHORT).show();
         }
     }
 

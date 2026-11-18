@@ -25,8 +25,10 @@ public class MainActivity2 extends AppCompatActivity {
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity2.this, courses[position], Toast.LENGTH_SHORT).show();
+            public void onItemClick(AdapterView<?> parent, View view, int position,
+                    long id) {
+                Toast.makeText(MainActivity2.this, courses[position],
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }

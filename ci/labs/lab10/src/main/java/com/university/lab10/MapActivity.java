@@ -29,19 +29,50 @@ public class MapActivity extends AppCompatActivity {
                 // Free map style from OpenFreeMap: no key, no account
                 map.setStyle("https://tiles.openfreemap.org/styles/liberty");
                 LatLng gcuf = new LatLng(31.4161, 73.0700);
-                map.addMarker(new MarkerOptions().position(gcuf).title("GCUF, Faisalabad"));
-                map.setCameraPosition(new CameraPosition.Builder().target(gcuf).zoom(15).build());
+                map.addMarker(new MarkerOptions().position(gcuf)
+                        .title("GCUF, Faisalabad"));
+                map.setCameraPosition(new CameraPosition.Builder().target(gcuf)
+                        .zoom(15).build());
             }
         });
     }
 
     // The map view must hear about every lifecycle change
-    @Override protected void onStart() { super.onStart(); mapView.onStart(); }
-    @Override protected void onResume() { super.onResume(); mapView.onResume(); }
-    @Override protected void onPause() { mapView.onPause(); super.onPause(); }
-    @Override protected void onStop() { mapView.onStop(); super.onStop(); }
-    @Override public void onLowMemory() { super.onLowMemory(); mapView.onLowMemory(); }
-    @Override protected void onDestroy() { mapView.onDestroy(); super.onDestroy(); }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mapView.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mapView.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        mapView.onPause();
+        super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        mapView.onStop();
+        super.onStop();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        mapView.onLowMemory();
+    }
+
+    @Override
+    protected void onDestroy() {
+        mapView.onDestroy();
+        super.onDestroy();
+    }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {

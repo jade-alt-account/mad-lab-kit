@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         FragmentManager fm = getSupportFragmentManager();
         if (fm.findFragmentById(R.id.fragment_container) == null) {
@@ -53,10 +54,12 @@ public class MainActivity extends AppCompatActivity
     private static final int REQUEST_NOTIFICATIONS = 7;
 
     private void askForNotificationPermission() {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this,
-                    new String[] { Manifest.permission.POST_NOTIFICATIONS }, REQUEST_NOTIFICATIONS);
+                    new String[] { Manifest.permission.POST_NOTIFICATIONS },
+                            REQUEST_NOTIFICATIONS);
         }
     }
 
@@ -68,7 +71,8 @@ public class MainActivity extends AppCompatActivity
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Toast.makeText(this, "Notifications allowed", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Notification permission denied", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Notification permission denied",
+                    Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -97,7 +101,8 @@ public class MainActivity extends AppCompatActivity
                 .build();
 
         // Android 13+ requires the POST_NOTIFICATIONS runtime permission
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.POST_NOTIFICATIONS)
                 == PackageManager.PERMISSION_GRANTED) {
             NotificationManagerCompat.from(this).notify(1, notification);
         }

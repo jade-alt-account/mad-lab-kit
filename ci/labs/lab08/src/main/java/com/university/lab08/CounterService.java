@@ -19,7 +19,8 @@ public class CounterService extends Service {
                 .setSmallIcon(R.drawable.ic_notification)
                 .setContentTitle("Counter running")
                 .build();
-        startForeground(1, n);   // must be called within a few seconds of starting
+        // must be called within a few seconds of starting
+        startForeground(1, n);
 
         running = true;
         new Thread(new Runnable() {

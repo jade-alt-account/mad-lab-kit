@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_fetch).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // AndroidManifest.xml needs: <uses-permission
+                // android:name="android.permission.INTERNET" />
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -62,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
                             reader.close();
 
                             JSONObject json = new JSONObject(body.toString());
-                            showResult(json.getString("name") + " <" + json.getString("email") + ">");
+                            showResult(json.getString("name") + " <" + json.getString("email")
+                                    + ">");
                         } catch (IOException | JSONException e) {
                             showResult("Request failed: " + e.getMessage());
                         } finally {
@@ -77,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_fetch99).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // AndroidManifest.xml needs: <uses-permission
+                // android:name="android.permission.INTERNET" />
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -102,7 +107,8 @@ public class MainActivity extends AppCompatActivity {
                             reader.close();
 
                             JSONObject json = new JSONObject(body.toString());
-                            showResult(json.getString("name") + " <" + json.getString("email") + ">");
+                            showResult(json.getString("name") + " <" + json.getString("email")
+                                    + ">");
                         } catch (IOException | JSONException e) {
                             showResult("Request failed: " + e.getMessage());
                         } finally {
@@ -117,6 +123,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_notes).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // AndroidManifest.xml needs: <uses-permission
+                // android:name="android.permission.INTERNET" />
                 new Thread(new Runnable() {
                     @Override
                     public void run() {

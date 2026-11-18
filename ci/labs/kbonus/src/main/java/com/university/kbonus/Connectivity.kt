@@ -9,8 +9,10 @@ class ConnectivityActivity : AppCompatActivity() {
         // Modern Track: is there a working connection, and is it unmetered (e.g. Wi-Fi)?
         val cm = getSystemService(ConnectivityManager::class.java)
         val caps = cm.getNetworkCapabilities(cm.activeNetwork)
-        val online = caps?.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED) == true
-        val unmetered = caps?.hasCapability(NetworkCapabilities.NET_CAPABILITY_NOT_METERED) == true
+        val online = caps?.hasCapability(NetworkCapabilities
+                .NET_CAPABILITY_VALIDATED) == true
+        val unmetered = caps?.hasCapability(NetworkCapabilities
+                .NET_CAPABILITY_NOT_METERED) == true
         return online to unmetered
     }
 }

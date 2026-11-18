@@ -102,7 +102,8 @@ public class MainActivity extends Activity {
                 new String[] { String.valueOf(newId) });
 
         // DELETE FROM users WHERE id = newId
-        int deleted = db.delete("users", "id = ?", new String[] { String.valueOf(newId) });
+        int deleted = db.delete("users", "id = ?",
+                new String[] { String.valueOf(newId) });
     }
 
     void prefs() {
@@ -127,7 +128,8 @@ public class MainActivity extends Activity {
     }
 
     void connectivity() {
-        // Outline Track: is there a connection? (needs ACCESS_NETWORK_STATE, a normal permission)
+        // Outline Track: is there a connection? (needs ACCESS_NETWORK_STATE, a normal
+        // permission)
         ConnectivityManager cm =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo info = cm.getActiveNetworkInfo();     // deprecated since Android 10
@@ -137,7 +139,8 @@ public class MainActivity extends Activity {
     void smsSilently() {
         // Action: Send an SMS silently using SmsManager
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage("5551234567", null, "Hello from my custom app!", null, null);
+        smsManager.sendTextMessage("5551234567", null, "Hello from my custom app!", null,
+                null);
     }
 
     @Override

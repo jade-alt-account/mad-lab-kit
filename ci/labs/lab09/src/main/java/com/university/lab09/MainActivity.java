@@ -65,11 +65,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent email = new Intent(Intent.ACTION_SENDTO);
-                email.setData(Uri.parse("mailto:"));               // only e-mail apps accept mailto:
+                // only e-mail apps accept mailto:
+                email.setData(Uri.parse("mailto:"));
                 email.putExtra(Intent.EXTRA_EMAIL, new String[] { "instructor@example.com" });
                 email.putExtra(Intent.EXTRA_CC, new String[] { "class.rep@example.com" });
                 email.putExtra(Intent.EXTRA_SUBJECT, "Question about Assignment 3");
-                email.putExtra(Intent.EXTRA_TEXT, "Dear Sir,\n\nI have a question about part (b).");
+                email.putExtra(Intent.EXTRA_TEXT,
+                        "Dear Sir,\n\nI have a question about part (b).");
                 startActivity(Intent.createChooser(email, "Send e-mail"));
             }
         });
@@ -89,9 +91,11 @@ public class MainActivity extends AppCompatActivity {
         String DELIVERED = "com.university.sms.DELIVERED";
 
         PendingIntent sentPI = PendingIntent.getBroadcast(this, 0,
-                new Intent(SENT).setPackage(getPackageName()), PendingIntent.FLAG_IMMUTABLE);
+                new Intent(SENT).setPackage(getPackageName()),
+                        PendingIntent.FLAG_IMMUTABLE);
         PendingIntent deliveredPI = PendingIntent.getBroadcast(this, 0,
-                new Intent(DELIVERED).setPackage(getPackageName()), PendingIntent.FLAG_IMMUTABLE);
+                new Intent(DELIVERED).setPackage(getPackageName()),
+                        PendingIntent.FLAG_IMMUTABLE);
 
         ContextCompat.registerReceiver(this, new BroadcastReceiver() {
             @Override
@@ -119,7 +123,8 @@ public class MainActivity extends AppCompatActivity {
         }, new IntentFilter(DELIVERED), ContextCompat.RECEIVER_NOT_EXPORTED);
 
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(number.getText().toString(), null, message.getText().toString(),
+        smsManager.sendTextMessage(number.getText().toString(), null,
+                message.getText().toString(),
                 sentPI, deliveredPI);
     }
 }

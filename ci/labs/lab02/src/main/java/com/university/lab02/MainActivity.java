@@ -19,17 +19,20 @@ public class MainActivity extends AppCompatActivity {
 
         final EditText name = (EditText) findViewById(R.id.edit_name);
         final CheckBox hostel = (CheckBox) findViewById(R.id.check_hostel);
-        final RadioGroup semester = (RadioGroup) findViewById(R.id.radio_semester);
+        final RadioGroup semester = (RadioGroup) findViewById(R.id
+                .radio_semester);
         Button register = (Button) findViewById(R.id.button_register);
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String term = semester.getCheckedRadioButtonId() == R.id.radio_fall
+                String term = semester.getCheckedRadioButtonId() == R.id
+                        .radio_fall
                         ? "Fall" : "Spring";
                 String message = name.getText().toString() + ", " + term
                         + (hostel.isChecked() ? ", hostel" : ", day scholar");
-                Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, message,
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }

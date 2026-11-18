@@ -11,7 +11,8 @@ import android.net.Uri;
 public class CoursesProvider extends ContentProvider {
 
     public static final String AUTHORITY = "com.university.courses.provider";
-    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/courses");
+    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY
+            + "/courses");
 
     private static final int COURSES = 1;      // content://.../courses
     private static final int COURSE_ID = 2;    // content://.../courses/7
@@ -62,7 +63,8 @@ public class CoursesProvider extends ContentProvider {
 
     @Override
     public int delete(Uri uri, String selection, String[] selectionArgs) {
-        return helper.getWritableDatabase().delete("courses", selection, selectionArgs);
+        return helper.getWritableDatabase().delete("courses", selection,
+                selectionArgs);
     }
 
     @Override

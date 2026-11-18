@@ -30,7 +30,8 @@ app.post('/api/notes', (req, res) => {
 app.delete('/api/notes/:id', (req, res) => {
   const before = notes.length;
   notes = notes.filter(n => n.id !== Number(req.params.id));
-  if (notes.length === before) return res.status(404).json({ error: 'Note not found' });
+  if (notes.length === before) return res.status(404)
+          .json({ error: 'Note not found' });
   res.status(204).end();
 });
 

@@ -33,7 +33,7 @@ jobs:
             if ($LASTEXITCODE -ne 0 -and $p -ne 'ci\labs') { throw "build failed in $p" }
             Pop-Location
           }
-          cmd /c 'gradlew.bat --stop' 2>$null
+          exit 0
       - name: Package gradle-home.zip and MAD-LiteKit.zip
         shell: pwsh
         run: |

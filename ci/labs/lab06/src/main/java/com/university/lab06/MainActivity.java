@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 try {
                     FileInputStream in = openFileInput("notes.txt");
-                    BufferedReader reader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(in,
+                            "UTF-8"));
                     StringBuilder text = new StringBuilder();
                     String line;
                     while ((line = reader.readLine()) != null) { text.append(line).append('\n'); }

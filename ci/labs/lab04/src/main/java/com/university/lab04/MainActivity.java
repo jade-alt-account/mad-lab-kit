@@ -70,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Show a location in the maps app (GCUF, Faisalabad)
-                Intent map = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:31.4161,73.0700?z=16"));
+                Intent map = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("geo:31.4161,73.0700?z=16"));
                 startActivity(map);
             }
         });
@@ -78,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Let the user pick a contact; the result arrives later (see below)
-                Intent pick = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                Intent pick = new Intent(Intent.ACTION_PICK,
+                        ContactsContract.Contacts.CONTENT_URI);
                 startActivityForResult(pick, REQUEST_PICK_CONTACT);
             }
         });
