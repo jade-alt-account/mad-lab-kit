@@ -10,8 +10,9 @@ if [ -x "$SDK/cmdline-tools/latest/bin/android" ] && [ -d "$SDK/platforms/androi
   echo "Android SDK ready"; exit 0
 fi
 mkdir -p "$SDK/cmdline-tools"
-ZIP=$(curl -fsSL https://dl.google.com/android/repository/repository2-3.xml \
-      | grep -o 'commandlinetools-linux-[0-9]*_latest\.zip' | sort -u | tail -1)
+NUM=$(curl -fsSL https://dl.google.com/android/repository/repository2-3.xml \
+      | grep -o 'commandlinetools-linux-[0-9]*_latest\.zip' | grep -o '[0-9][0-9]*' | sort -n | tail -1)
+ZIP="commandlinetools-linux-${NUM}_latest.zip"
 echo "Downloading $ZIP"
 curl -fsSL -o /tmp/clt.zip "https://dl.google.com/android/repository/$ZIP"
 command -v unzip >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq unzip)
