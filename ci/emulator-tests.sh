@@ -39,13 +39,13 @@ done
   ls -la lab13/build/outputs/apk/release/ lab13/build/outputs/bundle/release/ 2>&1
   adb uninstall com.university.lab13 >/dev/null 2>&1
   echo "== install debug, then release over it (expect INSTALL_FAILED_UPDATE_INCOMPATIBLE)"
-  adb install lab13/build/outputs/apk/debug/lab13-debug.apk 2>&1 | tail -1
-  adb install lab13/build/outputs/apk/release/lab13-release.apk 2>&1 | tail -1
+  adb install lab13/build/outputs/apk/debug/lab13-debug.apk 2>&1 | grep -v '^\s*$' | tail -3
+  adb install lab13/build/outputs/apk/release/lab13-release.apk 2>&1 | grep -v '^\s*$' | tail -3
   echo "== uninstall, install release"
   adb uninstall com.university.lab13
-  adb install lab13/build/outputs/apk/release/lab13-release.apk 2>&1 | tail -1
+  adb install lab13/build/outputs/apk/release/lab13-release.apk 2>&1 | grep -v '^\s*$' | tail -3
   adb shell dumpsys package com.university.lab13 | grep -E "versionName|versionCode" | head -2
   echo "== debug over release (Task 2)"
-  adb install lab13/build/outputs/apk/debug/lab13-debug.apk 2>&1 | tail -1
+  adb install lab13/build/outputs/apk/debug/lab13-debug.apk 2>&1 | grep -v '^\s*$' | tail -3
 } > "$R/lab13.txt" 2>&1
 exit 0

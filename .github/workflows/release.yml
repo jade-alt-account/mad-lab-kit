@@ -27,12 +27,20 @@ jobs:
         shell: pwsh
         run: |
           $env:GRADLE_USER_HOME = 'C:\gh'
+          New-Item -ItemType Directory -Force results | Out-Null
+          $log = (Resolve-Path results).Path + '\cache-build.log'
+          "ANDROID_HOME=$env:ANDROID_HOME ANDROID_SDK_ROOT=$env:ANDROID_SDK_ROOT" | Out-File $log
+          $failed = $false
           foreach ($p in 'starter', 'kotlin-starter', 'ci\labs') {
             Push-Location $p
-            cmd /c '.\gradlew.bat --no-daemon --continue assembleDebug assembleDebugAndroidTest 2>&1' | Select-Object -Last 3
-            if ($LASTEXITCODE -ne 0 -and $p -ne 'ci\labs') { throw "build failed in $p" }
+            "== $p" | Out-File -Append $log
+            cmd /c '.\gradlew.bat --no-daemon --continue assembleDebug assembleDebugAndroidTest 2>&1' | Out-File -Append $log
+            "exit $LASTEXITCODE" | Out-File -Append $log
+            if ($LASTEXITCODE -ne 0 -and $p -ne 'ci\labs') { $failed = $true }
             Pop-Location
           }
+          Get-Content $log -Tail 40
+          if ($failed) { exit 1 }
           exit 0
       - name: Package gradle-home.zip and MAD-LiteKit.zip
         shell: pwsh
@@ -48,6 +56,11 @@ jobs:
           Copy-Item kit\README.txt out\MAD-LiteKit\README.txt
           Compress-Archive out\MAD-LiteKit -DestinationPath MAD-LiteKit.zip
           Get-Item gradle-home.zip, MAD-LiteKit.zip | Format-Table Name, Length
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cache-build-log
+          path: results/
       - uses: actions/upload-artifact@v4
         with:
           name: downloads
@@ -103,10 +116,33 @@ jobs:
           path: results/
   publish:
     needs: [gradle-home, offline-test]
+    if: always() && needs.gradle-home.result != 'skipped'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
+        with:
+          pattern: '*log*'
+          path: logs
+      - uses: actions/download-artifact@v4
+        with:
+          name: offline-test
+          path: logs/offline-test
+        continue-on-error: true
+      - name: Save the logs to the ci-results-release branch
+        run: |
+          cd logs
+          echo "gradle-home: ${{ needs.gradle-home.result }}  offline-test: ${{ needs.offline-test.result }}" > SUMMARY.txt
+          git init -q -b ci-results-release
+          git config user.name ci; git config user.email ci@users.noreply.github.com
+          git add -A; git commit -q -m "release checks ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-results-release
+      - if: needs.offline-test.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: downloads
+          path: downloads
       - name: Create or update the GitHub release
+        if: needs.offline-test.result == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -117,10 +153,3 @@ jobs:
           NOTES="Lite Kit for the Mobile Application Development labs. MAD-LiteKit.zip: the Java and Kotlin starter projects and README.txt. gradle-home.zip: the build libraries for every lab (copy to C:\\Users\\<you>\\.gradle, as in Lab 0, Part D4); verified with an offline build on a fresh Windows machine."
           gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "MAD Lite Kit $TAG" --notes "$NOTES" --target "${{ github.event.workflow_run.head_sha || github.sha }}"
           gh release upload "$TAG" downloads/MAD-LiteKit.zip downloads/gradle-home.zip --clobber
-      - name: Save the offline test log to the ci-results-release branch
-        run: |
-          cd offline-test
-          git init -q -b ci-results-release
-          git config user.name ci; git config user.email ci@users.noreply.github.com
-          git add -A; git commit -q -m "release checks ${GITHUB_SHA}"
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-results-release

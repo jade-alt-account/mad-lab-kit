@@ -11,6 +11,7 @@ Copy-Item "$env:TEMP\clt\cmdline-tools\*" 'C:\Android\Sdk\cmdline-tools\latest' 
 $env:ANDROID_HOME = 'C:\Android\Sdk'
 $env:Path = "$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:ANDROID_HOME\platform-tools;$env:Path"
 "ANDROID_HOME=C:\Android\Sdk" | Out-File -Append $env:GITHUB_ENV
+"ANDROID_SDK_ROOT=C:\Android\Sdk" | Out-File -Append $env:GITHUB_ENV
 "C:\Android\Sdk\cmdline-tools\latest\bin" | Out-File -Append $env:GITHUB_PATH
 "C:\Android\Sdk\platform-tools" | Out-File -Append $env:GITHUB_PATH
 ("y`n" * 10) | cmd /c 'android sdk install platform-tools platforms/android-37.0 build-tools/36.0.0 2>&1' | Select-Object -Last 3
