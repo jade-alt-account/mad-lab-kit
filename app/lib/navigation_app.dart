@@ -1,5 +1,5 @@
 // navigation_app.dart: tabs, stack navigation, and passing data both ways
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() => runApp(const ShopApp());
 

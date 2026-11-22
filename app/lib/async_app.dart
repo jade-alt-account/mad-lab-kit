@@ -1,6 +1,6 @@
 // async_app.dart: slow work on the UI thread freezes the app; async does not
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() => runApp(const AsyncApp());
 

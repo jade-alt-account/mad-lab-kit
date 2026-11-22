@@ -1,5 +1,5 @@
 // login_test.dart: widget tests for the login screen
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:quality_lab/main.dart';
 

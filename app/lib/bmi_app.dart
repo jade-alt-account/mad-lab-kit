@@ -1,5 +1,5 @@
 // bmi_app.dart: a single-screen app - layout, input, validation and logic
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() => runApp(const BmiApp());
 

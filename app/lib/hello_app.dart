@@ -1,5 +1,5 @@
 // hello_app.dart: a first Flutter app, showing an app's main components
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() {
   runApp(const HelloApp());

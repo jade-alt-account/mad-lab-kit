@@ -1,5 +1,5 @@
 // notes_app.dart: notes that survive closing the app (persistent storage)
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() => runApp(const NotesApp());

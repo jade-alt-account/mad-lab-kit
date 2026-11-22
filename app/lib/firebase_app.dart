@@ -1,7 +1,7 @@
 // firebase_app.dart: cloud sign-in and online storage with Firebase (REST)
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:http/http.dart' as http;
 
 // Paste your own project's values here (Firebase console, Lab 3)
