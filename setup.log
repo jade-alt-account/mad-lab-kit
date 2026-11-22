@@ -1,0 +1,208 @@
+
+Installed:
+  firewalld-1.3.4-20.el9_8.noarch                                               
+  firewalld-filesystem-1.3.4-20.el9_8.noarch                                    
+  ipset-7.11-11.el9_5.x86_64                                                    
+  ipset-libs-7.11-11.el9_5.x86_64                                               
+  iptables-nft-1.8.10-11.el9_5.x86_64                                           
+  libcap-ng-python3-0.8.2-7.el9.x86_64                                          
+  libnftnl-1.2.6-4.el9_4.x86_64                                                 
+  nano-5.6.1-7.el9.x86_64                                                       
+  nftables-1:1.0.9-9.el9_8.x86_64                                               
+  python3-firewall-1.3.4-20.el9_8.noarch                                        
+  python3-nftables-1:1.0.9-9.el9_8.x86_64                                       
+
+Setting up swapspace version 1, size = 1.5 GiB (1610608640 bytes)
+no label, UUID=f6af912f-ee2d-4c80-9f4b-4d93226851e3
+[2KDevice 'eth1' successfully activated with 'b24e88c8-5074-3f65-9c53-ad9d050a6d7f'.
+== Lab 1 step 9 block (update and addresses) ==
+Last metadata expiration check: 0:00:05 ago on Sun 22 Nov 2026 05:23:45 PM UTC.
+Dependencies resolved.
+================================================================================
+ Package               Arch     Version                       Repository   Size
+================================================================================
+Installing:
+ kernel                x86_64   5.14.0-741.24.1.el9_9         baseos      862 k
+ kernel-core           x86_64   5.14.0-741.24.1.el9_9         baseos       17 M
+ kernel-modules        x86_64   5.14.0-741.24.1.el9_9         baseos       40 M
+ kernel-modules-core   x86_64   5.14.0-741.24.1.el9_9         baseos       31 M
+Upgrading:
+ curl                  x86_64   7.76.1-44.el9_9.1             baseos      294 k
+ expat                 x86_64   2.5.0-9.el9_9.8               baseos      123 k
+ kernel-tools          x86_64   5.14.0-741.24.1.el9_9         baseos      1.1 M
+ kernel-tools-libs     x86_64   5.14.0-741.24.1.el9_9         baseos      875 k
+ krb5-libs             x86_64   1.21.1-10.el9_9.2             baseos      759 k
+ libcurl               x86_64   7.76.1-44.el9_9.1             baseos      286 k
+ libpcap               x86_64   14:1.10.0-4.el9_9.2           baseos      171 k
+ qemu-guest-agent      x86_64   17:10.1.0-24.el9_9.1.alma.1   appstream   491 k
+ systemd               x86_64   252-79.el9_9.1.alma.1         baseos      4.0 M
+ systemd-libs          x86_64   252-79.el9_9.1.alma.1         baseos      640 k
+ systemd-pam           x86_64   252-79.el9_9.1.alma.1         baseos      247 k
+ systemd-rpm-macros    noarch   252-79.el9_9.1.alma.1         baseos       35 k
+ systemd-udev          x86_64   252-79.el9_9.1.alma.1         baseos      1.9 M
+ vim-minimal           x86_64   2:8.2.2637-44.el9_9           baseos      674 k
+
+Transaction Summary
+================================================================================
+Install   4 Packages
+Upgrade  14 Packages
+
+Total download size: 101 M
+Downloading Packages:
+(1/18): kernel-5.14.0-741.24.1.el9_9.x86_64.rpm 3.9 MB/s | 862 kB     00:00    
+(2/18): kernel-core-5.14.0-741.24.1.el9_9.x86_6  37 MB/s |  17 MB     00:00    
+(3/18): qemu-guest-agent-10.1.0-24.el9_9.1.alma  15 MB/s | 491 kB     00:00    
+(4/18): curl-7.76.1-44.el9_9.1.x86_64.rpm        11 MB/s | 294 kB     00:00    
+(5/18): expat-2.5.0-9.el9_9.8.x86_64.rpm        5.4 MB/s | 123 kB     00:00    
+(6/18): kernel-modules-core-5.14.0-741.24.1.el9  65 MB/s |  31 MB     00:00    
+(7/18): kernel-tools-5.14.0-741.24.1.el9_9.x86_ 7.4 MB/s | 1.1 MB     00:00    
+(8/18): kernel-tools-libs-5.14.0-741.24.1.el9_9  26 MB/s | 875 kB     00:00    
+(9/18): kernel-modules-5.14.0-741.24.1.el9_9.x8  51 MB/s |  40 MB     00:00    
+(10/18): libcurl-7.76.1-44.el9_9.1.x86_64.rpm   3.5 MB/s | 286 kB     00:00    
+(11/18): krb5-libs-1.21.1-10.el9_9.2.x86_64.rpm 7.1 MB/s | 759 kB     00:00    
+(12/18): libpcap-1.10.0-4.el9_9.2.x86_64.rpm    7.0 MB/s | 171 kB     00:00    
+(13/18): systemd-libs-252-79.el9_9.1.alma.1.x86  19 MB/s | 640 kB     00:00    
+(14/18): systemd-pam-252-79.el9_9.1.alma.1.x86_ 9.3 MB/s | 247 kB     00:00    
+(15/18): systemd-252-79.el9_9.1.alma.1.x86_64.r  61 MB/s | 4.0 MB     00:00    
+(16/18): systemd-rpm-macros-252-79.el9_9.1.alma 1.1 MB/s |  35 kB     00:00    
+(17/18): systemd-udev-252-79.el9_9.1.alma.1.x86  53 MB/s | 1.9 MB     00:00    
+(18/18): vim-minimal-8.2.2637-44.el9_9.x86_64.r  22 MB/s | 674 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           104 MB/s | 101 MB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Upgrading        : systemd-libs-252-79.el9_9.1.alma.1.x86_64             1/32 
+  Running scriptlet: systemd-libs-252-79.el9_9.1.alma.1.x86_64             1/32 
+  Upgrading        : systemd-rpm-macros-252-79.el9_9.1.alma.1.noarch       2/32 
+  Upgrading        : systemd-pam-252-79.el9_9.1.alma.1.x86_64              3/32 
+  Running scriptlet: systemd-252-79.el9_9.1.alma.1.x86_64                  4/32 
+  Upgrading        : systemd-252-79.el9_9.1.alma.1.x86_64                  4/32 
+  Running scriptlet: systemd-252-79.el9_9.1.alma.1.x86_64                  4/32 
+  Upgrading        : systemd-udev-252-79.el9_9.1.alma.1.x86_64             5/32 
+  Running scriptlet: systemd-udev-252-79.el9_9.1.alma.1.x86_64             5/32 
+  Installing       : kernel-modules-core-5.14.0-741.24.1.el9_9.x86_64      6/32 
+  Installing       : kernel-core-5.14.0-741.24.1.el9_9.x86_64              7/32 
+  Running scriptlet: kernel-core-5.14.0-741.24.1.el9_9.x86_64              7/32 
+  Installing       : kernel-modules-5.14.0-741.24.1.el9_9.x86_64           8/32 
+  Running scriptlet: kernel-modules-5.14.0-741.24.1.el9_9.x86_64           8/32 
+  Upgrading        : krb5-libs-1.21.1-10.el9_9.2.x86_64                    9/32 
+  Upgrading        : libcurl-7.76.1-44.el9_9.1.x86_64                     10/32 
+  Upgrading        : kernel-tools-libs-5.14.0-741.24.1.el9_9.x86_64       11/32 
+  Running scriptlet: kernel-tools-libs-5.14.0-741.24.1.el9_9.x86_64       11/32 
+  Upgrading        : kernel-tools-5.14.0-741.24.1.el9_9.x86_64            12/32 
+  Running scriptlet: kernel-tools-5.14.0-741.24.1.el9_9.x86_64            12/32 
+  Upgrading        : curl-7.76.1-44.el9_9.1.x86_64                        13/32 
+  Installing       : kernel-5.14.0-741.24.1.el9_9.x86_64                  14/32 
+  Upgrading        : qemu-guest-agent-17:10.1.0-24.el9_9.1.alma.1.x86_6   15/32 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-24.el9_9.1.alma.1.x86_6   15/32 
+  Upgrading        : vim-minimal-2:8.2.2637-44.el9_9.x86_64               16/32 
+  Upgrading        : libpcap-14:1.10.0-4.el9_9.2.x86_64                   17/32 
+  Upgrading        : expat-2.5.0-9.el9_9.8.x86_64                         18/32 
+  Running scriptlet: systemd-udev-252-79.el9_9.alma.1.x86_64              19/32 
+  Cleanup          : systemd-udev-252-79.el9_9.alma.1.x86_64              19/32 
+  Running scriptlet: systemd-udev-252-79.el9_9.alma.1.x86_64              19/32 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-24.el9.alma.1.x86_64      20/32 
+  Cleanup          : qemu-guest-agent-17:10.1.0-24.el9.alma.1.x86_64      20/32 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-24.el9.alma.1.x86_64      20/32 
+  Cleanup          : systemd-252-79.el9_9.alma.1.x86_64                   21/32 
+  Running scriptlet: systemd-252-79.el9_9.alma.1.x86_64                   21/32 
+  Running scriptlet: kernel-tools-5.14.0-741.22.1.el9_9.x86_64            22/32 
+  Cleanup          : kernel-tools-5.14.0-741.22.1.el9_9.x86_64            22/32 
+  Running scriptlet: kernel-tools-5.14.0-741.22.1.el9_9.x86_64            22/32 
+  Cleanup          : curl-7.76.1-43.el9.x86_64                            23/32 
+  Cleanup          : systemd-rpm-macros-252-79.el9_9.alma.1.noarch        24/32 
+  Cleanup          : libcurl-7.76.1-43.el9.x86_64                         25/32 
+  Cleanup          : krb5-libs-1.21.1-10.el9_8.1.x86_64                   26/32 
+  Cleanup          : kernel-tools-libs-5.14.0-741.22.1.el9_9.x86_64       27/32 
+  Running scriptlet: kernel-tools-libs-5.14.0-741.22.1.el9_9.x86_64       27/32 
+  Cleanup          : systemd-libs-252-79.el9_9.alma.1.x86_64              28/32 
+  Cleanup          : systemd-pam-252-79.el9_9.alma.1.x86_64               29/32 
+  Cleanup          : vim-minimal-2:8.2.2637-43.el9_9.x86_64               30/32 
+  Cleanup          : libpcap-14:1.10.0-4.el9_8.1.x86_64                   31/32 
+  Cleanup          : expat-2.5.0-9.el9_9.4.x86_64                         32/32 
+  Running scriptlet: kernel-modules-core-5.14.0-741.24.1.el9_9.x86_64     32/32 
+  Running scriptlet: kernel-core-5.14.0-741.24.1.el9_9.x86_64             32/32 
+  Running scriptlet: kernel-modules-5.14.0-741.24.1.el9_9.x86_64          32/32 
+  Running scriptlet: expat-2.5.0-9.el9_9.4.x86_64                         32/32 
+  Verifying        : kernel-5.14.0-741.24.1.el9_9.x86_64                   1/32 
+  Verifying        : kernel-core-5.14.0-741.24.1.el9_9.x86_64              2/32 
+  Verifying        : kernel-modules-5.14.0-741.24.1.el9_9.x86_64           3/32 
+  Verifying        : kernel-modules-core-5.14.0-741.24.1.el9_9.x86_64      4/32 
+  Verifying        : qemu-guest-agent-17:10.1.0-24.el9_9.1.alma.1.x86_6    5/32 
+  Verifying        : qemu-guest-agent-17:10.1.0-24.el9.alma.1.x86_64       6/32 
+  Verifying        : curl-7.76.1-44.el9_9.1.x86_64                         7/32 
+  Verifying        : curl-7.76.1-43.el9.x86_64                             8/32 
+  Verifying        : expat-2.5.0-9.el9_9.8.x86_64                          9/32 
+  Verifying        : expat-2.5.0-9.el9_9.4.x86_64                         10/32 
+  Verifying        : kernel-tools-5.14.0-741.24.1.el9_9.x86_64            11/32 
+  Verifying        : kernel-tools-5.14.0-741.22.1.el9_9.x86_64            12/32 
+  Verifying        : kernel-tools-libs-5.14.0-741.24.1.el9_9.x86_64       13/32 
+  Verifying        : kernel-tools-libs-5.14.0-741.22.1.el9_9.x86_64       14/32 
+  Verifying        : krb5-libs-1.21.1-10.el9_9.2.x86_64                   15/32 
+  Verifying        : krb5-libs-1.21.1-10.el9_8.1.x86_64                   16/32 
+  Verifying        : libcurl-7.76.1-44.el9_9.1.x86_64                     17/32 
+  Verifying        : libcurl-7.76.1-43.el9.x86_64                         18/32 
+  Verifying        : libpcap-14:1.10.0-4.el9_9.2.x86_64                   19/32 
+  Verifying        : libpcap-14:1.10.0-4.el9_8.1.x86_64                   20/32 
+  Verifying        : systemd-252-79.el9_9.1.alma.1.x86_64                 21/32 
+  Verifying        : systemd-252-79.el9_9.alma.1.x86_64                   22/32 
+  Verifying        : systemd-libs-252-79.el9_9.1.alma.1.x86_64            23/32 
+  Verifying        : systemd-libs-252-79.el9_9.alma.1.x86_64              24/32 
+  Verifying        : systemd-pam-252-79.el9_9.1.alma.1.x86_64             25/32 
+  Verifying        : systemd-pam-252-79.el9_9.alma.1.x86_64               26/32 
+  Verifying        : systemd-rpm-macros-252-79.el9_9.1.alma.1.noarch      27/32 
+  Verifying        : systemd-rpm-macros-252-79.el9_9.alma.1.noarch        28/32 
+  Verifying        : systemd-udev-252-79.el9_9.1.alma.1.x86_64            29/32 
+  Verifying        : systemd-udev-252-79.el9_9.alma.1.x86_64              30/32 
+  Verifying        : vim-minimal-2:8.2.2637-44.el9_9.x86_64               31/32 
+  Verifying        : vim-minimal-2:8.2.2637-43.el9_9.x86_64               32/32 
+
+Upgraded:
+  curl-7.76.1-44.el9_9.1.x86_64                                                 
+  expat-2.5.0-9.el9_9.8.x86_64                                                  
+  kernel-tools-5.14.0-741.24.1.el9_9.x86_64                                     
+  kernel-tools-libs-5.14.0-741.24.1.el9_9.x86_64                                
+  krb5-libs-1.21.1-10.el9_9.2.x86_64                                            
+  libcurl-7.76.1-44.el9_9.1.x86_64                                              
+  libpcap-14:1.10.0-4.el9_9.2.x86_64                                            
+  qemu-guest-agent-17:10.1.0-24.el9_9.1.alma.1.x86_64                           
+  systemd-252-79.el9_9.1.alma.1.x86_64                                          
+  systemd-libs-252-79.el9_9.1.alma.1.x86_64                                     
+  systemd-pam-252-79.el9_9.1.alma.1.x86_64                                      
+  systemd-rpm-macros-252-79.el9_9.1.alma.1.noarch                               
+  systemd-udev-252-79.el9_9.1.alma.1.x86_64                                     
+  vim-minimal-2:8.2.2637-44.el9_9.x86_64                                        
+Installed:
+  kernel-5.14.0-741.24.1.el9_9.x86_64                                           
+  kernel-core-5.14.0-741.24.1.el9_9.x86_64                                      
+  kernel-modules-5.14.0-741.24.1.el9_9.x86_64                                   
+  kernel-modules-core-5.14.0-741.24.1.el9_9.x86_64                              
+
+Complete!
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eth0             UP             10.0.2.15/24 fec0::5054:ff:fe12:3456/64 fe80::5054:ff:fe12:3456/64 
+eth1             UP             10.0.2.15/24 fec0::978b:699b:4cc2:d2fc/64 fe80::a5e6:e5fe:b289:7220/64 
+== VM ==
+AlmaLinux release 9.9 (Chartreuse Bobcat)
+5.14.0-741.22.1.el9_9.x86_64
+1
+               total        used        free      shared  buff/cache   available
+Mem:           1.4Gi       387Mi       639Mi        13Mi       597Mi       1.0Gi
+Swap:          1.5Gi          0B       1.5Gi
+NAME      TYPE SIZE USED PRIO
+/swapfile file 1.5G   0B   -2
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sr0     11:0    1  366K  0 rom  
+vda    252:0    0   20G  0 disk 
+├─vda1 252:1    0    1M  0 part 
+├─vda2 252:2    0  200M  0 part /boot/efi
+├─vda3 252:3    0    1G  0 part /boot
+└─vda4 252:4    0 18.8G  0 part /
+vdb    252:16   0    1G  0 disk 
+vdc    252:32   0    1G  0 disk 
+vdd    252:48   0    1G  0 disk 
+Enforcing

@@ -1,0 +1,183 @@
+5.14.0-741.22.1.el9_9.x86_64
+NAME="AlmaLinux"
+VERSION="9.9 (Chartreuse Bobcat)"
+ID="almalinux"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="9.9"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="AlmaLinux 9.9 (Chartreuse Bobcat)"
+ANSI_COLOR="0;34"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:almalinux:almalinux:9::baseos"
+HOME_URL="https://almalinux.org/"
+DOCUMENTATION_URL="https://wiki.almalinux.org/"
+BUG_REPORT_URL="https://bugs.almalinux.org/"
+
+ALMALINUX_MANTISBT_PROJECT="AlmaLinux-9"
+ALMALINUX_MANTISBT_PROJECT_VERSION="9.9"
+REDHAT_SUPPORT_PRODUCT="AlmaLinux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.9"
+SUPPORT_END=2032-06-01
+ 17:25:07 up 1 min,  0 users,  load average: 1.01, 0.39, 0.14
+[    0.391054] Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+[    0.393051] Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+[    1.504051] amd_pstate: the _CPC object is not present in SBIOS or ACPI disabled
+[    3.362820] GPT:Primary header thinks Alt. header is not at the end of the disk.
+[    3.364083] GPT:20971519 != 41943039
+[    3.364854] GPT:Alternate GPT header not at the end of the disk.
+[    3.365850] GPT:20971519 != 41943039
+[    3.366600] GPT: Use GNU Parted to correct GPT errors.
+PASS: Lab 9 step 1: os_check kernel
+----- block labs_c_01.sh -----
+df -Th                                   # file systems and their types
+systemctl list-units --type=service --state=running
+ps -eo pid,ni,pri,comm --sort=-pri | head
+----- output -----
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  689M     0  689M   0% /dev
+tmpfs          tmpfs     730M     0  730M   0% /dev/shm
+tmpfs          tmpfs     292M  9.9M  282M   4% /run
+/dev/vda4      xfs        19G  2.6G   17G  14% /
+/dev/vda3      xfs       960M  248M  713M  26% /boot
+/dev/vda2      vfat      200M  7.7M  193M   4% /boot/efi
+tmpfs          tmpfs     146M     0  146M   0% /run/user/1000
+  UNIT                       LOAD   ACTIVE SUB     DESCRIPTION
+  auditd.service             loaded active running Security Auditing Service
+  chronyd.service            loaded active running NTP client/server
+  crond.service              loaded active running Command Scheduler
+  dbus-broker.service        loaded active running D-Bus System Message Bus
+  firewalld.service          loaded active running firewalld - dynamic firewall daemon
+  getty@tty1.service         loaded active running Getty on tty1
+  gssproxy.service           loaded active running GSSAPI Proxy Daemon
+  NetworkManager.service     loaded active running Network Manager
+  polkit.service             loaded active running Authorization Manager
+  rpcbind.service            loaded active running RPC Bind
+  rsyslog.service            loaded active running System Logging Service
+  serial-getty@ttyS0.service loaded active running Serial Getty on ttyS0
+  sshd.service               loaded active running OpenSSH server daemon
+  systemd-journald.service   loaded active running Journal Service
+  systemd-logind.service     loaded active running User Login Management
+  systemd-udevd.service      loaded active running Rule-based Manager for Device Events and Files
+  tuned.service              loaded active running Dynamic System Tuning Daemon
+  user@1000.service          loaded active running User Manager for UID 1000
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+18 loaded units listed.
+    PID  NI PRI COMMAND
+     22   -  90 idle_inject/0
+     39   -  90 irq/9-acpi
+     44   -  90 watchdogd
+      4 -20  39 kworker/R-rcu_gp
+      5 -20  39 kworker/R-sync_wq
+      6 -20  39 kworker/R-slub_flushwq
+      7 -20  39 kworker/R-netns
+      9 -20  39 kworker/0:0H-events_highpri
+     11 -20  39 kworker/R-mm_percpu_wq
+PASS: Lab 9 step 1: root is xfs
+----- block labs_c_02.sh -----
+taskset -c 0 sha256sum /dev/zero &
+taskset -c 0 nice -n 19 sha256sum /dev/zero &
+sleep 10
+ps -o pid,ni,%cpu,comm -C sha256sum
+pkill sha256sum
+----- output -----
+    PID  NI %CPU COMMAND
+  14808   0 97.6 sha256sum
+  14809  19  1.3 sha256sum
+nice 0: 97%  nice 19: 1%
+PASS: Lab 9 step 2: scheduler favours nice 0 (97% vs 1%)
+----- block labs_c_03.sh -----
+sudo dnf check-update
+sudo dnf updateinfo list --security
+sudo dnf -y upgrade --security
+sudo dnf needs-restarting -r
+----- output -----
+Last metadata expiration check: 0:01:32 ago on Sun 22 Nov 2026 05:23:45 PM UTC.
+Security: kernel-core-5.14.0-741.24.1.el9_9.x86_64 is an installed security update
+Security: kernel-core-5.14.0-741.22.1.el9_9.x86_64 is the currently running version
+Last metadata expiration check: 0:01:33 ago on Sun 22 Nov 2026 05:23:45 PM UTC.
+ALSA-2026:100662 Important/Sec. kernel-5.14.0-741.24.1.el9_9.x86_64
+ALSA-2026:100662 Important/Sec. kernel-core-5.14.0-741.24.1.el9_9.x86_64
+ALSA-2026:100662 Important/Sec. kernel-modules-5.14.0-741.24.1.el9_9.x86_64
+ALSA-2026:100662 Important/Sec. kernel-modules-core-5.14.0-741.24.1.el9_9.x86_64
+Last metadata expiration check: 0:01:33 ago on Sun 22 Nov 2026 05:23:45 PM UTC.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Core libraries or services have been updated since boot-up:
+  * kernel
+  * systemd
+
+Reboot is required to fully utilize these updates.
+More information: https://access.redhat.com/solutions/27943
+PASS: Lab 9 step 3: needs-restarting ran
+PASS: Lab 9 step 3: needs-restarting available
+----- block labs_c_04.sh -----
+# SELinux mode: should be Enforcing
+getenforce
+# allowed services and ports
+sudo firewall-cmd --list-all
+# accounts with root's user ID (only root)
+awk -F: '$3 == 0 {print $1}' /etc/passwd
+# users allowed to use sudo
+getent group wheel
+sudo sshd -T | grep -iE "^(permitrootlogin|passwordauthentication)"
+systemctl list-unit-files --type=service --state=enabled
+----- output -----
+Enforcing
+public (active)
+  target: default
+  icmp-block-inversion: no
+  interfaces: eth0 eth1
+  sources: 
+  services: cockpit dhcpv6-client ssh
+  ports: 
+  protocols: 
+  forward: yes
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+root
+wheel:x:10:ali
+permitrootlogin without-password
+passwordauthentication no
+UNIT FILE                          STATE   PRESET
+auditd.service                     enabled enabled
+chronyd.service                    enabled enabled
+cloud-config.service               enabled disabled
+cloud-final.service                enabled disabled
+cloud-init-local.service           enabled disabled
+cloud-init.service                 enabled disabled
+crond.service                      enabled enabled
+dbus-broker.service                enabled enabled
+firewalld.service                  enabled enabled
+getty@.service                     enabled enabled
+irqbalance.service                 enabled enabled
+microcode.service                  enabled enabled
+NetworkManager-dispatcher.service  enabled enabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled enabled
+nis-domainname.service             enabled enabled
+qemu-guest-agent.service           enabled enabled
+rpcbind.service                    enabled enabled
+rsyslog.service                    enabled enabled
+selinux-autorelabel-mark.service   enabled enabled
+sshd.service                       enabled enabled
+sssd.service                       enabled enabled
+systemd-boot-update.service        enabled enabled
+systemd-network-generator.service  enabled enabled
+systemd-pstore.service             enabled enabled
+tuned.service                      enabled enabled
+
+26 unit files listed.
+PASS: Lab 9 step 4: SELinux Enforcing
+PASS: Lab 9 step 4: only root has UID 0
+PASS: Lab 9 step 4: sshd -T works
+PasswordAuthentication no
+passwordauthentication no
+PASS: Lab 9 step 5: hardening applied
+exit 0

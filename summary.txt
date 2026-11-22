@@ -1,0 +1,10 @@
+PASS: Lab 9 step 1: os_check kernel
+PASS: Lab 9 step 1: root is xfs
+PASS: Lab 9 step 2: scheduler favours nice 0 (97% vs 1%)
+PASS: Lab 9 step 3: needs-restarting ran
+PASS: Lab 9 step 3: needs-restarting available
+PASS: Lab 9 step 4: SELinux Enforcing
+PASS: Lab 9 step 4: only root has UID 0
+PASS: Lab 9 step 4: sshd -T works
+PASS: Lab 9 step 5: hardening applied
+PASS 9  FAIL 0
