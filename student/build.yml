@@ -56,9 +56,6 @@ jobs:
           if ls test/*_test.dart > /dev/null 2>&1; then flutter test
           else echo "No tests yet"; fi
 
-      - name: Build the app for testing (debug APK)
-        run: flutter build apk --debug
-
       - name: Build the release (App Bundle and APK)
         run: |
           flutter build appbundle --release
@@ -92,9 +89,14 @@ jobs:
           "${SIGNER}apksigner" verify --print-certs release/app-release.apk
           rm upload.jks
 
-      - uses: actions/upload-artifact@v7
+      - name: Save the app for your phone
+        uses: actions/upload-artifact@v7
         with:
-          name: my-app
-          path: |
-            build/app/outputs/flutter-apk/app-debug.apk
-            release/
+          name: phone-apk
+          path: release/app-release.apk
+
+      - name: Save the bundle for Google Play
+        uses: actions/upload-artifact@v7
+        with:
+          name: store-bundle
+          path: release/app-release.aab

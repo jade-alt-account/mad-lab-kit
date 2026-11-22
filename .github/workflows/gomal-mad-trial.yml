@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: gomal-mad-trial
+  cancel-in-progress: true
 jobs:
   labs:
     runs-on: ubuntu-latest

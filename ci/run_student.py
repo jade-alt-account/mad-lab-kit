@@ -32,12 +32,8 @@ for n, step in enumerate(steps, 1):
     print(line); summary.write(line + '\n'); summary.flush()
     if r.returncode != 0:
         sys.exit(1)
-for path in ['build/app/outputs/flutter-apk/app-debug.apk',
-             'release/app-release.aab', 'release/app-release.apk']:
+for path in ['release/app-release.aab', 'release/app-release.apk']:
     p = os.path.join(work, path)
     msg = f'{path}: {os.path.getsize(p)} bytes' if os.path.exists(p) \
         else f'{path}: MISSING'
     print(msg); summary.write(msg + '\n')
-apk = os.path.join(work, 'build/app/outputs/flutter-apk/app-debug.apk')
-if os.path.exists(apk):
-    shutil.copy(apk, os.path.join(out, 'app-debug.apk'))
