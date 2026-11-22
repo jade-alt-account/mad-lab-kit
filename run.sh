@@ -50,6 +50,19 @@ echo "== VM =="; cat /etc/almalinux-release; uname -r; nproc; free -h; swapon --
 SETUP
 publish() { [ -n "${PUSH_URL:-}" ] || return 0; ( cd ../results && rm -rf .git && git init -q -b ci-results-iti && git add -A && git -c user.name=lab-trial -c user.email=lab-trial@users.noreply.github.com commit -q -m "progress: $1" && git push -q -f "$PUSH_URL" ci-results-iti ) > /dev/null 2>&1; }
 run() { echo "=== $1 ==="; timeout 900 ssh $SSHO ali@127.0.0.1 "bash ~/trial/labs/$1.sh" < /dev/null > ../results/$1.log 2>&1; echo "exit $?" >> ../results/$1.log; publish $1; }
+if [ -s ../only.txt ]; then
+  # re-run only the labs listed in only.txt
+  for l in $(cat ../only.txt); do
+    run $l
+    if [ "$l" = lab10 ]; then
+      vm 'sudo reboot' > /dev/null 2>&1; sleep 20
+      waitvm && run lab10b || echo "FAIL: Lab 10: VM did not come back after reboot" >> ../results/host.log
+    fi
+  done
+  cd ../results; grep -h '^PASS\|^FAIL' lab*.log > summary.txt
+  echo "PASS $(grep -c ^PASS summary.txt)  FAIL $(grep -c ^FAIL summary.txt)" | tee -a summary.txt
+  exit 0
+fi
 for l in lab01 lab02; do run $l; done
 # From the host (the student's laptop browser in the lab), through the forwarded port
 curl -s -m 5 http://localhost:8080/ | grep -q 'Served by' && echo "PASS: Lab 2: page reachable from outside the VM" >> ../results/host.log || echo "FAIL: Lab 2: page not reachable from outside the VM" >> ../results/host.log

@@ -4,7 +4,8 @@ expect "Lab 9 step 1: os_check kernel" /tmp/l9a.out '^5\.14'
 runblk labs_c_01.sh | tee /tmp/l9b.out
 expect "Lab 9 step 1: root is xfs" /tmp/l9b.out 'xfs'
 # step 2: top is interactive; the trial takes one batch snapshot instead
-blk labs_c_02.sh | sed 's/^top$/sleep 3; top -b -n 1 | head -n 12/' | bash 2>&1 | tee /tmp/l9c.out; pkill sha256sum
+blk labs_c_02.sh | sed 's/^top$/sleep 3; top -b -n 1 | head -n 12/' > /tmp/b2.sh; cat /tmp/b2.sh
+bash /tmp/b2.sh > /tmp/l9c.out 2>&1 < /dev/null; pkill sha256sum; cat /tmp/l9c.out
 expect "Lab 9 step 2: nice 19 process visible" /tmp/l9c.out ' 19 '
 runblk labs_c_03.sh | tee /tmp/l9d.out
 expect "Lab 9 step 3: needs-restarting ran" /tmp/l9d.out 'Reboot is required|No core libraries or services have been updated|Reboot should not be necessary'
