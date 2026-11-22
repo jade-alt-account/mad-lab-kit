@@ -1,0 +1,16 @@
+Information Technology Infrastructure: Lab N - <lab title>
+Name: ____________________   Roll number: ________   Date: __________
+Server host name: srvNNN.lab.local
+
+1. Step <number>: <what you did>
+   Commands:            (copy the commands exactly as typed)
+   Output:              (relevant output, or a screenshot showing the host name)
+   Explanation:         (two or three sentences: what the output shows)
+
+2. Scripts and diagrams
+   (each script in full, in a monospaced font; each diagram exported as an image)
+
+3. Problems met and how I solved them
+   (two or three sentences)
+
+4. Answers to the lab's questions

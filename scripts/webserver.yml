@@ -1,0 +1,20 @@
+# webserver.yml: an Ansible playbook that makes a server a web server
+- name: Configure web servers
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Install nginx
+      ansible.builtin.dnf:
+        name: nginx
+        state: present
+    - name: Start nginx now and at every boot
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: true
+    - name: Allow HTTP through the firewall
+      ansible.posix.firewalld:
+        service: http
+        permanent: true
+        immediate: true
+        state: enabled

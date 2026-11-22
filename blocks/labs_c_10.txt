@@ -1,0 +1,6 @@
+service,start,end,cause
+email,2026-11-03 09:10,2026-11-03 10:40,disk full
+email,2026-11-17 14:00,2026-11-17 14:30,patch reboot
+portal,2026-11-05 08:00,2026-11-05 13:00,database crash
+portal,2026-11-20 22:15,2026-11-20 23:00,network loop
+lms,2026-11-11 11:00,2026-11-11 11:20,power supply failure
