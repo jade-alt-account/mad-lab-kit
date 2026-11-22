@@ -6,7 +6,7 @@ mkdir -p "$R" "$A"
 cd app
 flutter --version > "$R/flutter-version.txt" 2>&1
 flutter create --platforms=android,web --org pk.student . > "$R/create.log" 2>&1
-rm -f test/widget_test.dart
+rm -f test/widget_test.dart lib/main.dart   # template files, not lab code
 python3 ../ci/patch_android.py >> "$R/create.log" 2>&1
 flutter pub get > "$R/pubget.log" 2>&1; echo "pub get exit $?" >> "$R/summary.txt"
 flutter pub deps --style=compact > "$R/deps.txt" 2>&1

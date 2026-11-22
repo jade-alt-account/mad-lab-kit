@@ -21,7 +21,7 @@ adb shell getprop ro.build.version.release > "$R/android-version.txt"
 adb logcat -c; adb logcat -v time > "$R/logcat.txt" 2>&1 & LC=$!
 
 # ---- Lab 3: sensors and notifications ----
-adb install -r -g apks/phone.apk > "$R/install-phone.txt" 2>&1
+adb uninstall $PKG > /dev/null 2>&1; adb install -g apks/phone.apk > "$R/install-phone.txt" 2>&1
 launch; sleep 15; dump phone-start; shot phone-start
 has phone-start "Sensor Lab"; has phone-start "x: "
 grep -o 'x: [^"]*' "$R/phone-start.xml" | head -1 >> "$R/summary.txt"
@@ -30,8 +30,8 @@ adb shell dumpsys notification --noredact > "$R/notifications-1.txt"
 grep -q "Hello from the Sensor Lab" "$R/notifications-1.txt" \
   && log "OK: button notification posted" || log "FAIL: no button notification"
 for i in 1 2 3 4 5 6; do   # six shakes, 1.7 s apart
-  adb emu sensor set acceleration 30:5:9.8 > /dev/null; sleep 0.5
-  adb emu sensor set acceleration 0:9.8:0 > /dev/null; sleep 1.2
+  adb emu sensor set acceleration 30:5:9.8 > /dev/null; sleep 0.8
+  adb emu sensor set acceleration 0:9.8:0 > /dev/null; sleep 1.5
 done
 sleep 2; dump phone-shakes; shot phone-shakes
 grep -o 'Shakes: [0-9]*' "$R/phone-shakes.xml" | head -1 >> "$R/summary.txt"
@@ -42,7 +42,7 @@ adb shell cmd statusbar expand-notifications; sleep 2; shot notification-shade
 adb shell cmd statusbar collapse
 
 # ---- Lab 2: background isolate keeps the UI responsive ----
-adb install -r apks/async.apk > "$R/install-async.txt" 2>&1
+adb uninstall $PKG > /dev/null 2>&1; adb install -g apks/async.apk > "$R/install-async.txt" 2>&1
 launch; sleep 12; dump async-start; shot async-start
 tap async-start "3. Count primes in background"; sleep 2; shot async-working
 for i in $(seq 30); do sleep 2; dump async-bg; grep -q "Background: " "$R/async-bg.xml" && break; done
@@ -55,7 +55,7 @@ has async-ui "UI thread: 216816 primes"
 shot async-done
 
 # ---- Lab 2: notes survive closing the app ----
-adb install -r apks/notes.apk > "$R/install-notes.txt" 2>&1
+adb uninstall $PKG > /dev/null 2>&1; adb install -g apks/notes.apk > "$R/install-notes.txt" 2>&1
 launch; sleep 12; dump notes-start
 tap notes-start "New note"; sleep 1
 adb shell input text "Persistent%snote%s1"; adb shell input keyevent 66; sleep 2
