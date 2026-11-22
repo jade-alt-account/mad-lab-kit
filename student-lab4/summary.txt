@@ -1,0 +1,8 @@
+step 04 Create the Android project files: exit 0
+step 05 Android settings for the plugins: exit 0
+step 06 Get packages: exit 0
+step 07 Run the tests: exit 0
+step 08 Build the release (App Bundle and APK): exit 0
+step 09 Sign the release with your upload key: exit 0
+release/app-release.aab: 47063877 bytes
+release/app-release.apk: 46810920 bytes

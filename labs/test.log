@@ -1,0 +1,17 @@
+00:00 +0: loading /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/cart_test.dart
+00:00 +0: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/cart_test.dart: adds 5% tax to the subtotal
+00:00 +1: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/cart_test.dart: applies the GOMAL10 coupon before tax
+00:00 +2: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/cart_test.dart: an empty cart costs nothing
+00:00 +3: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/cart_test.dart: rejects negative prices
+00:02 +4: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/login_test.dart: shows errors for invalid input
+00:03 +5: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: hello: the button counts taps
+00:03 +6: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/login_test.dart: valid input opens the dashboard
+00:03 +7: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/login_test.dart: valid input opens the dashboard
+00:03 +8: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: bmi: valid and invalid input
+00:03 +9: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: navigation: ID out, quantity back, tabs
+00:04 +10: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: notes: loads, adds and saves
+00:04 +11: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: async: countPrimes
+00:04 +12: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: async: download does not block
+00:04 +13: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: api: shows users, and an error offline
+00:04 +14: /home/runner/work/mad-lab-kit/mad-lab-kit/app/test/apps_test.dart: firebase: sign-up, save and load use the right requests
+00:04 +15: All tests passed!

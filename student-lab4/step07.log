@@ -1,0 +1,11 @@
+
+::group::✅ Passing tests
+✅ /home/runner/work/_temp/student-repo/test/cart_test.dart: adds 5% tax to the subtotal
+✅ /home/runner/work/_temp/student-repo/test/cart_test.dart: applies the GOMAL10 coupon before tax
+✅ /home/runner/work/_temp/student-repo/test/cart_test.dart: an empty cart costs nothing
+✅ /home/runner/work/_temp/student-repo/test/cart_test.dart: rejects negative prices
+✅ /home/runner/work/_temp/student-repo/test/login_test.dart: shows errors for invalid input
+✅ /home/runner/work/_temp/student-repo/test/login_test.dart: valid input opens the dashboard
+::endgroup::
+
+🎉 6 tests passed.

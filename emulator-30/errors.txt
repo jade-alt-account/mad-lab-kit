@@ -1,0 +1,43 @@
+11-22 21:09:23.621 E/flutter ( 3465): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:09:23.621 E/flutter ( 3465): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:09:23.623 D/EGL_emulation( 3465): eglCreateContext: 0x7436cb306900: maj 3 min 0 rcv 3
+11-22 21:09:23.625 D/EGL_emulation( 3465): eglCreateContext: 0x7436cb307e50: maj 3 min 0 rcv 3
+11-22 21:09:23.627 D/EGL_emulation( 3465): eglMakeCurrent: 0x7436cb307e50: ver 3 0 (tinfo 0x74366b2f05f0) (first time)
+11-22 21:09:23.632 I/flutter ( 3465): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+11-22 21:09:23.633 D/HostConnection( 3465): HostConnection::get() New Host Connection established 0x7436db2c9f10, tid 3686
+11-22 21:09:23.635 D/HostConnection( 3465): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform ANDROID_EMU_hwc_display_power_mode GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-22 21:09:23.635 D/EGL_emulation( 3465): eglMakeCurrent: 0x7436cb307e50: ver 3 0 (tinfo 0x74366b316210) (first time)
+11-22 21:09:23.651 I/BugleDataModel( 2457): SyncMessagesAction: All messages now in sync
+--
+11-22 21:10:07.262 E/flutter ( 5715): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:07.262 E/flutter ( 5715): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:07.263 D/EGL_emulation( 5715): eglCreateContext: 0x7436cb304ee0: maj 3 min 0 rcv 3
+11-22 21:10:07.264 D/EGL_emulation( 5715): eglCreateContext: 0x7436cb302c80: maj 3 min 0 rcv 3
+11-22 21:10:07.267 D/EGL_emulation( 5715): eglMakeCurrent: 0x7436cb302c80: ver 3 0 (tinfo 0x74366b3015a0) (first time)
+11-22 21:10:07.277 I/flutter ( 5715): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+11-22 21:10:07.278 D/HostConnection( 5715): HostConnection::get() New Host Connection established 0x7436db2caed0, tid 5772
+11-22 21:10:07.280 D/HostConnection( 5715): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform ANDROID_EMU_hwc_display_power_mode GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-22 21:10:07.280 D/EGL_emulation( 5715): eglMakeCurrent: 0x7436cb302c80: ver 3 0 (tinfo 0x74366b31fd80) (first time)
+11-22 21:10:07.367 I/flutter ( 5715): The Dart VM service is listening on http://127.0.0.1:35217/FDfPHhkqaHI=/
+--
+11-22 21:10:33.741 E/flutter ( 6162): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:33.741 E/flutter ( 6162): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:33.742 D/EGL_emulation( 6162): eglCreateContext: 0x7436cb2dedc0: maj 3 min 0 rcv 3
+11-22 21:10:33.742 D/EGL_emulation( 6162): eglCreateContext: 0x7436cb304d80: maj 3 min 0 rcv 3
+11-22 21:10:33.743 D/EGL_emulation( 6162): eglMakeCurrent: 0x7436cb304d80: ver 3 0 (tinfo 0x74366b307fc0) (first time)
+11-22 21:10:33.749 I/flutter ( 6162): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+11-22 21:10:33.750 D/HostConnection( 6162): HostConnection::get() New Host Connection established 0x7436db2caed0, tid 6193
+11-22 21:10:33.752 D/HostConnection( 6162): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform ANDROID_EMU_hwc_display_power_mode GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-22 21:10:33.752 D/EGL_emulation( 6162): eglMakeCurrent: 0x7436cb304d80: ver 3 0 (tinfo 0x74366b3086e0) (first time)
+11-22 21:10:33.853 I/flutter ( 6162): The Dart VM service is listening on http://127.0.0.1:37773/QY7BQslCbPs=/
+--
+11-22 21:10:54.972 E/flutter ( 6436): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:54.972 E/flutter ( 6436): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-22 21:10:54.973 D/EGL_emulation( 6436): eglCreateContext: 0x7436cb2ec650: maj 3 min 0 rcv 3
+11-22 21:10:54.974 D/EGL_emulation( 6436): eglCreateContext: 0x7436cb303d00: maj 3 min 0 rcv 3
+11-22 21:10:54.960 W/.gomal_mad_labs( 6436): type=1400 audit(0.0:134): avc: denied { read } for name="max_map_count" dev="proc" ino=141229 scontext=u:r:untrusted_app:s0:c169,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=pk.student.gomal_mad_labs
+11-22 21:10:54.994 D/EGL_emulation( 6436): eglMakeCurrent: 0x7436cb303d00: ver 3 0 (tinfo 0x74366b301f30) (first time)
+11-22 21:10:54.999 I/flutter ( 6436): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+11-22 21:10:55.001 D/HostConnection( 6436): HostConnection::get() New Host Connection established 0x7436db2bd0d0, tid 6465
+11-22 21:10:55.003 D/HostConnection( 6436): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform ANDROID_EMU_hwc_display_power_mode GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-22 21:10:55.003 D/EGL_emulation( 6436): eglMakeCurrent: 0x7436cb303d00: ver 3 0 (tinfo 0x74366b320620) (first time)

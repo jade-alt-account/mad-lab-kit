@@ -1,0 +1,49 @@
+Flutter 3.50.1 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision ae9b586f34 (4 days ago) • 2026-11-18 17:01:07 -0800
+Engine • hash 51379e6df48ea8ee7205623b90fe66491cad8df3 (revision 4d35714800) (4 days ago) • 2026-11-18 01:50:07.000Z
+Tools • Dart 3.14.0 • DevTools 2.61.0
+Recreating project ....
+  .idea/libraries/Dart_SDK.xml (created)
+  .idea/libraries/KotlinJavaRuntime.xml (created)
+  .idea/runConfigurations/main_dart.xml (created)
+  .idea/modules.xml (created)
+  .idea/workspace.xml (created)
+  android/gradle/wrapper/gradle-wrapper.properties (created)
+  android/gradle.properties (created)
+  android/settings.gradle.kts (created)
+  android/.gitignore (created)
+  android/app/src/profile/AndroidManifest.xml (created)
+  android/app/src/main/res/drawable-v21/launch_background.xml (created)
+  android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (created)
+  android/app/src/main/res/values-night/styles.xml (created)
+  android/app/src/main/res/drawable/launch_background.xml (created)
+  android/app/src/main/res/mipmap-hdpi/ic_launcher.png (created)
+  android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (created)
+  android/app/src/main/res/mipmap-mdpi/ic_launcher.png (created)
+  android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (created)
+  android/app/src/main/res/values/styles.xml (created)
+  android/app/src/main/AndroidManifest.xml (created)
+  android/app/src/debug/AndroidManifest.xml (created)
+  README.md (created)
+  .gitignore (created)
+  sensor_lab.iml (created)
+  android/build.gradle.kts (created)
+  android/sensor_lab_android.iml (created)
+  android/app/build.gradle.kts (created)
+  android/app/src/main/kotlin/pk/student/sensor_lab/MainActivity.kt (created)
+  analysis_options.yaml (created)
+  test/widget_test.dart (created)
+Got dependencies.
+Wrote 33 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ flutter run
+
+Your application code is in ./lib/main.dart.
+

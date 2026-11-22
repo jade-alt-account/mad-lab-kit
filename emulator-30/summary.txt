@@ -1,0 +1,13 @@
+OK: 'Sensor Lab' on screen
+OK: 'x: ' on screen
+x: 0.0   y: 9.8   z: 0.8
+OK: button notification posted
+Shakes: 6
+OK: shake notification posted
+Background: 216816 primes in 745 ms
+OK: 'Background: 216816 primes' on screen
+UI thread: 216816 primes in 559 ms
+OK: 'UI thread: 216816 primes' on screen
+NOT FOUND: New note
+FAIL: 'Persistent note 1' not on screen
+FAIL: 'Persistent note 1' not on screen

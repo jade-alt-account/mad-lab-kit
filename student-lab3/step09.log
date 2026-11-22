@@ -1,0 +1,22 @@
+No keystore secret found: using a temporary PRACTICE key
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+	for: CN=Practice Key, O=Student, C=PK
+jar signed.
+
+Warning: 
+The signer's certificate is self-signed.
+POSIX file permission and/or symlink attributes detected. These attributes are ignored when signing and are not protected by the signature.
+
+jar verified.
+
+Warning: 
+This jar contains entries whose certificate chain is invalid. Reason: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+This jar contains entries whose signer certificate is self-signed.
+This jar contains signatures that do not include a timestamp. Without a timestamp, users may not be able to validate this jar after any of the signer certificates expire (as early as 2054-04-09).
+POSIX file permission and/or symlink attributes detected. These attributes are ignored when signing and are not protected by the signature.
+
+Re-run with the -verbose and -certs options for more details.
+V3.0 Signer: certificate DN: CN=Practice Key, O=Student, C=PK
+V3.0 Signer: certificate SHA-256 digest: ead560fb9784be04a96ee270e238ed9fdca64e0962b86a7bd9b1cf83e492c8c6
+V3.0 Signer: certificate SHA-1 digest: bce4db9dba047d0786728cc4c88ebceb38bec4ff
+V3.0 Signer: certificate MD5 digest: b0dbc08c0234ca4b6426df945b3bda47

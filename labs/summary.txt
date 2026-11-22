@@ -1,0 +1,14 @@
+pub get exit 0
+analyze exit 0
+test exit 0
+web hello exit 0 2.0M	build/web/main.dart.js
+web bmi exit 0 2.4M	build/web/main.dart.js
+web navigation exit 0 2.1M	build/web/main.dart.js
+web notes exit 0 2.4M	build/web/main.dart.js
+web async exit 0 2.0M	build/web/main.dart.js
+web api exit 0 2.2M	build/web/main.dart.js
+web firebase exit 0 2.5M	build/web/main.dart.js
+web login exit 0 2.4M	build/web/main.dart.js
+apk phone exit 0
+apk async exit 0
+apk notes exit 0
