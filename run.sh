@@ -48,7 +48,8 @@ echo "== Lab 1 step 9 block (update and addresses) =="
 bash -c "$(sed 's/enp0s8/eth1/g' ~/trial/blocks/labs_a_02.sh)"
 echo "== VM =="; cat /etc/almalinux-release; uname -r; nproc; free -h; swapon --show; lsblk; getenforce
 SETUP
-run() { echo "=== $1 ==="; timeout 2400 ssh $SSHO ali@127.0.0.1 "bash ~/trial/labs/$1.sh" > ../results/$1.log 2>&1; echo "exit $?" >> ../results/$1.log; }
+publish() { [ -n "${PUSH_URL:-}" ] || return 0; ( cd ../results && rm -rf .git && git init -q -b ci-results-iti && git add -A && git -c user.name=lab-trial -c user.email=lab-trial@users.noreply.github.com commit -q -m "progress: $1" && git push -q -f "$PUSH_URL" ci-results-iti ) > /dev/null 2>&1; }
+run() { echo "=== $1 ==="; timeout 900 ssh $SSHO ali@127.0.0.1 "bash ~/trial/labs/$1.sh" < /dev/null > ../results/$1.log 2>&1; echo "exit $?" >> ../results/$1.log; publish $1; }
 for l in lab01 lab02; do run $l; done
 # From the host (the student's laptop browser in the lab), through the forwarded port
 curl -s -m 5 http://localhost:8080/ | grep -q 'Served by' && echo "PASS: Lab 2: page reachable from outside the VM" >> ../results/host.log || echo "FAIL: Lab 2: page not reachable from outside the VM" >> ../results/host.log

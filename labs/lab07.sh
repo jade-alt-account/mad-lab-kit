@@ -12,9 +12,8 @@ expect "Lab 7 step 2: data readable while degraded" /tmp/l7b.out 'important file
 sleep 40; cat /proc/mdstat | tee /tmp/l7c.out
 expect "Lab 7 step 2: rebuilt [UU]" /tmp/l7c.out '\[UU\]'
 runblk labs_b_11.sh | tee /tmp/l7d.out
-grep '/files' /tmp/l7d.out
-sizes=$(grep '/files' /tmp/l7d.out | awk '{print $2}' | tr '\n' ' '); echo "sizes: $sizes"
-[ "$(grep -c '/files' /tmp/l7d.out)" -ge 2 ] && [ "$(grep '/files' /tmp/l7d.out | awk '{print $2}' | sort -u | wc -l)" -eq 2 ] && pass "Lab 7 step 3: LVM grew while mounted ($sizes)" || fail "Lab 7 step 3: LVM ($sizes)"
+grep '^/dev/mapper/data_vg-files_lv' /tmp/l7d.out | awk '{print $2}' > /tmp/l7sizes; sizes=$(tr '\n' ' ' < /tmp/l7sizes)
+[ "$(wc -l < /tmp/l7sizes)" -eq 2 ] && [ "$(sort -u /tmp/l7sizes | wc -l)" -eq 2 ] && pass "Lab 7 step 3: LVM grew while mounted ($sizes)" || fail "Lab 7 step 3: LVM ($sizes)"
 runblk labs_b_12.sh | tee /tmp/l7e.out
 expect "Lab 7 step 4: fio reports IOPS" /tmp/l7e.out 'IOPS='
 sudo rm -f /data/testfile
