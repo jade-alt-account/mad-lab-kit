@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
         with: {distribution: temurin, java-version: '17'}
       - uses: subosito/flutter-action@v2
         with: {channel: stable, cache: true}
       - run: bash ci/labs.sh
       - if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with: {name: labs, path: results/}
       - if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with: {name: apks, path: apks/}
   student:
     runs-on: ubuntu-latest
@@ -30,14 +30,14 @@ jobs:
       matrix:
         lab: [lab3, lab4]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
         with: {distribution: temurin, java-version: '17'}
       - uses: subosito/flutter-action@v2
         with: {channel: stable, cache: true}
       - run: python3 ci/run_student.py student/${{ matrix.lab }} results/student-${{ matrix.lab }}
       - if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: student-${{ matrix.lab }}
           path: results/
@@ -50,8 +50,9 @@ jobs:
       matrix:
         api: [30, 36]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        continue-on-error: true
         with: {name: apks, path: apks}
       - name: Enable KVM
         run: |
@@ -67,7 +68,7 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: bash ci/emulator.sh ${{ matrix.api }}
       - if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: emulator-${{ matrix.api }}
           path: results/
@@ -76,13 +77,14 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with: {path: all}
       - name: Push results to the ci-results-gomal-mad branch
         run: |
           mkdir out
           for d in all/*/; do cp -r "$d"* out/ 2>/dev/null || true; done
-          rm -rf out/*.apk
+          find out -name '*.apk' -delete
+          find out -size +50M -print -delete
           cd out
           echo "labs: ${{ needs.labs.result }}, student: ${{ needs.student.result }}, emulator: ${{ needs.emulator.result }}" > jobs.txt
           git init -q -b ci-results-gomal-mad
